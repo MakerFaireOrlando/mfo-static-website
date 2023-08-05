@@ -31,9 +31,9 @@ import os.path
 from os import path
 
 #settings
-eventYear = 2022
-formCFM = "Call For Makers MFO2022"
-formRuckus = "CFM - Ruckus - MFO2022"
+eventYear = 2023
+formCFM = "Call For Makers MFO2023"
+formRuckus = "CFM - Ruckus - MFO2023"
 
 
 outputAll = False #this is now set with a command line param, don't change it here

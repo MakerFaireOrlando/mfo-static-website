@@ -96,3 +96,8 @@ sponsors:
     logo: remixed-logo.png
     level: 5
     active: false
+  - name: Digital Warpaint
+    url: https://www.digitalwarpaint.com
+    logo: digital-warpaint.png
+    level: 4
+    active: true

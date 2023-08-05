@@ -41,9 +41,9 @@ carousel-slides:
 {% endcomment %}
 
 
-{% comment %}
+
 {% include call-for-makers-widget.html %}
-{% endcomment %}
+
 
 {% comment %}
 

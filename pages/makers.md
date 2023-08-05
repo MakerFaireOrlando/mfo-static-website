@@ -8,17 +8,19 @@ redirect-from:
 scrolltop: true
 ---
 <div class="container">
-<h1>2022 Maker Exhibits</h1>
-
-We haven't opened our Call For Makers yet for 2023, but you can see our past exhibits below to see the type of exhibits you can find at Maker Faire Orlando!<br><br>
+<h1>Maker Exhibits</h1>
 
 {% comment %}
+We haven't opened our Call For Makers yet for 2023, but you can see our past exhibits below to see the type of exhibits you can find at Maker Faire Orlando!<br><br>
+{% endcomment %}
+
 
 <p>Interested in Exhibiting at Maker Faire Orlando? <a href="/exhibit-at-maker-faire-orlando/">Learn more about exhibiting!</a> </p>
 
 <p>Want to see all the BattleBots and other combat robots participating in <a href="http://www.robotruckus.org">Robot Ruckus</a>? Head over to the <a href="http://www.robotruckus.org">Robot Ruckus website</a> for details and check out the <a href="/makers/?category=combat-robots">Combat Robots category</a> on this page!</p>
 
-{% endcomment %}
+
+
 </div>
 
 <div class="mtm">
