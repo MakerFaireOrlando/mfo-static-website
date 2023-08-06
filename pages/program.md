@@ -7,6 +7,8 @@ description: Plan your Maker Faire Orlando weekend with our event program!
 ---
 # Maker Faire Orlando Event Program
 
+<b>We haven't released the 2023 event program yet, however you can view the 2022 program below to see a typical layout for the event.</B>
+
 Check out the Maker Faire Orlando event program to plan your time at Maker Faire. You'll want to see the competitions, meet the makers and try our hands-on exhibits! Click the images below for a PDF version of the program.
 
 
