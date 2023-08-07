@@ -11,12 +11,12 @@ description-long: "Hello!
 My name is Daniella, and I'm an illustrator and comic creator. While I make a variety of work, my main passion right now is my original comic series, Galactic Problems. The comic follows a group of private investigators solving mysteries across the galaxy.
 You might also notice my icon, Phoebe! She's an alien girl traveling the stars, and I draw her adventures. 
 Outside of original work, I also enjoy making fan works! Typically Star Wars, anime, gaming, or whatever else I'm passionate about."
-image: /assets/images/exhibit-images/23-17-exhibit-galactic-problems-sgfastfood-final-posting-large.png
+image: /assets/images/exhibit-images/23-17-exhibit-galactic-problems-sgfastfood-final-website-large.png
 image-primary: 
-  small: /assets/images/exhibit-images/23-17-exhibit-galactic-problems-sgfastfood-final-posting-small.png
-  medium: /assets/images/exhibit-images/23-17-exhibit-galactic-problems-sgfastfood-final-posting-medium.png
-  large: /assets/images/exhibit-images/23-17-exhibit-galactic-problems-sgfastfood-final-posting-large.png
-  full: /assets/images/exhibit-images/23-17-exhibit-galactic-problems-sgfastfood-final-posting-full.png
+  small: /assets/images/exhibit-images/23-17-exhibit-galactic-problems-sgfastfood-final-website-small.png
+  medium: /assets/images/exhibit-images/23-17-exhibit-galactic-problems-sgfastfood-final-website-medium.png
+  large: /assets/images/exhibit-images/23-17-exhibit-galactic-problems-sgfastfood-final-website-large.png
+  full: /assets/images/exhibit-images/23-17-exhibit-galactic-problems-sgfastfood-final-website-full.png
 additional-images: 
   - 1:
     small: /assets/images/exhibit-images/23-17-exhibit-addl1-galactic-problems-mercury-final-posting-small.png
@@ -57,8 +57,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2023-07-23 11:46:17"
-last-modified-jotform: "2023-08-05 12:49:46"
-last-exported: "2023-08-05 13:06:43"
+last-modified-jotform: "2023-08-07 13:28:48"
+last-exported: "2023-08-07 19:11:31"
 sitemap: false
 
 ---
