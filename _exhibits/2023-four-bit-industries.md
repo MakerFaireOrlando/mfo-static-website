@@ -7,13 +7,13 @@ permalink: /exhibits/four-bit-industries/
 exhibit-id: 23-31
 space-number: Unassigned
 description: "Four Bit Industries LLC produces educational and hobbyist electronics projects."
-description-long: "Four Bit Industries LLC produces educational and hobbyist electronics projects."
-image: /assets/images/exhibit-images/23-31-exhibit-four-bit-industries-43-logobw-199-large.gif
+description-long: "Four Bit Industries LLC produces educational and hobbyist electronics projects. We make video and PDF instructions for our kits. Bulk discounts are available."
+image: /assets/images/exhibit-images/23-31-exhibit-four-bit-industries-2022-exhibit-large.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/23-31-exhibit-four-bit-industries-43-logobw-199-small.gif
-  medium: /assets/images/exhibit-images/23-31-exhibit-four-bit-industries-43-logobw-199-medium.gif
-  large: /assets/images/exhibit-images/23-31-exhibit-four-bit-industries-43-logobw-199-large.gif
-  full: /assets/images/exhibit-images/23-31-exhibit-four-bit-industries-43-logobw-199-full.gif
+  small: /assets/images/exhibit-images/23-31-exhibit-four-bit-industries-2022-exhibit-small.jpg
+  medium: /assets/images/exhibit-images/23-31-exhibit-four-bit-industries-2022-exhibit-medium.jpg
+  large: /assets/images/exhibit-images/23-31-exhibit-four-bit-industries-2022-exhibit-large.jpg
+  full: /assets/images/exhibit-images/23-31-exhibit-four-bit-industries-2022-exhibit-full.jpg
 maker: 
   name: "Four Bit Industries"
   description: "Four Bit Industries LLC produces educational and hobbyist electronics projects."
@@ -25,8 +25,8 @@ categories:
   - slug: electronics
     name: Electronics
 created-jotform: "2023-07-28 15:54:07"
-last-modified-jotform: "2023-08-05 13:01:26"
-last-exported: "2023-08-05 13:05:55"
+last-modified-jotform: "2023-08-08 22:13:19"
+last-exported: "2023-08-10 06:46:10"
 sitemap: false
 
 ---
