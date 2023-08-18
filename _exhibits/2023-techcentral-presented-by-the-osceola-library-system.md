@@ -7,7 +7,7 @@ permalink: /exhibits/techcentral-presented-by-the-osceola-library-system/
 exhibit-id: 23-41
 space-number: Unassigned
 description: "Explore The Osceola Library System's innovative makerspace. 3D Printing, Virtual Reality, and more! "
-description-long: "Library System, TechCentral is a new and innovative space on the second floor of Hart Memorial Library in Downtown Kissimmee.
+description-long: "Presented by the Osceola Library System, TechCentral is a new and innovative space on the second floor of Hart Memorial Library in Downtown Kissimmee.
 
 Step into a world of boundless possibilities as you explore our state-of-the-art labs for 3D Printing, Virtual Reality, Robotics, Audio Production, Sewing, and more! Whether you're a seasoned creator or a curious beginner, our technicians are on hand to support and guide you in your journey."
 image: /assets/images/exhibit-images/23-41-exhibit-techcentral-presented-by-the-osceola-library-system-11-large.png
@@ -39,8 +39,8 @@ categories:
   - slug: virtual-reality
     name: Virtual Reality
 created-jotform: "2023-08-04 11:01:56"
-last-modified-jotform: "2023-08-05 13:00:36"
-last-exported: "2023-08-05 13:05:44"
+last-modified-jotform: "2023-08-16 07:25:30"
+last-exported: "2023-08-17 20:54:12"
 sitemap: false
 
 ---
