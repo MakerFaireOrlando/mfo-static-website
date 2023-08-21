@@ -154,7 +154,7 @@ def export(outputAll):
           feeStatus       = getAnswerByName(ans,"feeStatus")
           email           = getAnswerByName(ans,"email")
           name           = getAnswerByName(ans,"name")
-          print(exhibitName, email, name['first'], name['last'])      
+          print(mfoID, exhibitName, email, name['first'], name['last'])      
 
           if (feeStatus):
               print(mfoID + " " + exhibitName + ": " + str(viz) + ", " + feeStatus)
