@@ -35,8 +35,9 @@ carousel-slides:
 
 {% include makey-border.html %}
 
-{% comment %}
+
 {% include featured-makers-grid.html %}
+{% comment %}
 {% include explore-meet-makers.html %}
 {% endcomment %}
 
