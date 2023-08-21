@@ -17,7 +17,6 @@ Tell your fans, friends and family they can see you at Maker Faire Orlando! Just
 
 [Email us](mailto:makers@makerfaireorlando.com) if you need a larger or vector version of the image above.
 
-Twitter [@orlmakerfaire](https://twitter.com/makerfaire)
 --------------------------------------------------------
 
 Suggested and Common Maker Faire Hashtags
@@ -36,7 +35,7 @@ Suggested and Common Maker Faire Hashtags
 #GreatestShow&(Tell)onEarth\
 #MakeSomething
 
-{%comment%}
+
 Postcards, Flyers & Social Images
 ---------------------------------
 
@@ -44,20 +43,18 @@ Postcards, Flyers & Social Images
 
 Postcards available at MakerFX Makerspace, FamiLAB, Skycraft, Tampa Hackerspace, Rockler Woodworking and more.  [Email us](mailto:makers@makerfaireorlando.com) if you need a large quantity of postcards for your school, office, group, or location. Postcard images are linked to high-res PDFs.
 
-<a href="/assets/pdf/2022/MFO22-card-front-v1-7-web.pdf"><img src="/assets/pdf/2022/MFO22-card-front.jpg" alt="Maker Faire Orlando postcard  - front" width="600" /></a>
+<a href="/assets/pdf/2023/MFO23-card-front.pdf"><img src="/assets/pdf/2023/MFO23-card-front.jpg" alt="Maker Faire Orlando postcard  - front" width="600" /></a>
 
-<a href="/assets/pdf/2022/MFO22-card-back-v2.pdf"><img src="/assets/pdf/2022/MFO22-card-back-v2.jpg" alt="Maker Faire Orlando postcard - back" width="600"/></a>
-
-[PDF of Postcard containing both sides](/assets/pdf/2022/MFO22-card-both-sides.pdf)
+<a href="/assets/pdf/2023/MFO23-card-back.pdf"><img src="/assets/pdf/2023/MFO23-card-back.jpg" alt="Maker Faire Orlando postcard - back" width="600"/></a>
 
 
 ### Flyers, Posters & More
 
-<a href="/assets/pdf/2021/2021-mfo-poster-full.pdf"><img src="/assets/images/site-branding/2021/mfo2021-poster.jpg" alt="Maker Faire Orlando poster" width="600"/></a>
+<a href="/assets/pdf/2023/MFO23-poster.pdf"><img src="/assets/pdf/2023/MFO23-poster.jpg" alt="Maker Faire Orlando poster" width="600"/></a>
 
 
 Poster image is linked to high-res PDF.
-{%endcomment%}
+
 
 ---
 
