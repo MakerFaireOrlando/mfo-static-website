@@ -14,12 +14,12 @@ I will have on display two different versions of my two-wheeled robot. I recentl
 The exhibit will also feature an interactive plotter typewriter. The words typed on   a keyboard will be written by a pen plotter in (near) real time.
 
 My various tube light fixtures will also be there, shining away and making pretty colors! "
-image: /assets/images/exhibit-images/23-51-exhibit-hackbatch-tales-from-a-tiny-workshop-img-0728-large.JPG
+image: /assets/images/exhibit-images/23-51-exhibit-hackbatch-tales-from-a-tiny-workshop-thumbnail-large.png
 image-primary: 
-  small: /assets/images/exhibit-images/23-51-exhibit-hackbatch-tales-from-a-tiny-workshop-img-0728-small.JPG
-  medium: /assets/images/exhibit-images/23-51-exhibit-hackbatch-tales-from-a-tiny-workshop-img-0728-medium.JPG
-  large: /assets/images/exhibit-images/23-51-exhibit-hackbatch-tales-from-a-tiny-workshop-img-0728-large.JPG
-  full: /assets/images/exhibit-images/23-51-exhibit-hackbatch-tales-from-a-tiny-workshop-img-0728-full.JPG
+  small: /assets/images/exhibit-images/23-51-exhibit-hackbatch-tales-from-a-tiny-workshop-thumbnail-small.png
+  medium: /assets/images/exhibit-images/23-51-exhibit-hackbatch-tales-from-a-tiny-workshop-thumbnail-medium.png
+  large: /assets/images/exhibit-images/23-51-exhibit-hackbatch-tales-from-a-tiny-workshop-thumbnail-large.png
+  full: /assets/images/exhibit-images/23-51-exhibit-hackbatch-tales-from-a-tiny-workshop-thumbnail-full.png
 additional-images: 
   - 1:
     small: /assets/images/exhibit-images/23-51-exhibit-addl1-hackbatch-tales-from-a-tiny-workshop-screenshot-2023-07-06-163005-small.png
@@ -46,14 +46,9 @@ additional-images:
     medium: /assets/images/exhibit-images/23-51-exhibit-addl5-hackbatch-tales-from-a-tiny-workshop-img-0725-medium.JPG
     large: /assets/images/exhibit-images/23-51-exhibit-addl5-hackbatch-tales-from-a-tiny-workshop-img-0725-large.JPG
     full: /assets/images/exhibit-images/23-51-exhibit-addl5-hackbatch-tales-from-a-tiny-workshop-img-0725-full.JPG
-  - 6:
-    small: /assets/images/exhibit-images/23-51-exhibit-addl6-hackbatch-tales-from-a-tiny-workshop-thumbnail-small.png
-    medium: /assets/images/exhibit-images/23-51-exhibit-addl6-hackbatch-tales-from-a-tiny-workshop-thumbnail-medium.png
-    large: /assets/images/exhibit-images/23-51-exhibit-addl6-hackbatch-tales-from-a-tiny-workshop-thumbnail-large.png
-    full: /assets/images/exhibit-images/23-51-exhibit-addl6-hackbatch-tales-from-a-tiny-workshop-thumbnail-full.png
 website: "https://hackbatch.com/maker-faire/"
-video: "https://youtu.be/PQrILWzM8gQ"
-video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/PQrILWzM8gQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="Prototyping a 3D-printed robot from scratch"></iframe>'
+video: "https://youtu.be/rAX26Tzf_5Y?si=2haxsLXnq7J18srC"
+video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/rAX26Tzf_5Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="Sometimes, you need to reinvent the wheel"></iframe>'
 maker: 
   name: "Hackbatch"
   description: "Hackbatch is a blog and YouTube channel documenting the process of a maker in progress. I make and design robots, work with electronics, and use engineering to make art. I write and make videos about my experiences as a maker and the challenges I find in each project."
@@ -73,8 +68,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-08-11 08:46:01"
-last-modified-jotform: "2023-08-19 20:43:41"
-last-exported: "2023-08-21 10:39:12"
+last-modified-jotform: "2023-08-25 21:20:28"
+last-exported: "2023-08-26 13:21:38"
 sitemap: false
 
 ---
