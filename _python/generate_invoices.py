@@ -20,6 +20,7 @@ import time
 import getopt
 import csv
 import requests
+from datetime import datetime as dt
 
 #from urlparse import urlparse    python2
 
@@ -34,8 +35,126 @@ eventYear = 2023
 formCFM = "Call For Makers MFO2023"
 formRuckus = "CFM - Ruckus - MFO2023"
 
-
 outputAll = False #this is now set with a command line param, don't change it here
+
+def doPayPalAuth(pp_client_id, pp_client_secret):
+
+    #print ('PayPay Client ID:\t ', pp_client_id)
+    #print ('PayPal Client Secret\t  ', pp_client_secret)
+
+    # Change the URL to https://api-m.paypal.com for live access
+    #PAYPAL_URL = 'https://api-m.sandbox.paypal.com'
+    PAYPAL_URL = 'https://api-m.paypal.com'
+
+    oauth_url = '%s/v1/oauth2/token' % PAYPAL_URL
+
+    oauth_response = requests.post(oauth_url,
+                                   headers= {'Accept': 'application/json',
+                                             'Accept-Language': 'en_US'},
+                                   auth=(pp_client_id, pp_client_secret),
+                                   data={'grant_type': 'client_credentials'})
+
+    # Get OAuth JSON in response body
+    oauth_body_json = oauth_response.json()
+    # Get access token
+    #print("PayPal Access Token:\t ", oauth_body_json['access_token'])
+    return oauth_body_json['access_token']
+
+
+def createPayPalInvoice(token, exhibitID, makerEmail, makerFirstName, makerLastName, exhibitName, type, fee):
+    invoiceData = {
+        "detail": {
+            "invoice_number": "",
+            "invoice_date": "",
+            "payment_term": {
+                "term_type": "NET_10",
+                "due_date": ""
+            },
+            "currency_code": "USD",
+            "note": "",
+            "memo": "Created via automated script."
+        },
+        "invoicer": {
+            "business_name": "The Maker Effect Foundation",
+            "email_address": "treasurer@themakereffect.org",
+            "logo_url": "https://pics.paypal.com/00/s/NTU1WDE3MTFYUE5H/p/Y2Y0ZWIxODMtMTFmZS00YTQxLTlkMzktNzUwZmIwYjIzN2Vh/image_109.PNG"
+        },
+        "primary_recipients": [
+            {
+                "billing_info": {
+                    "name": {
+                        "given_name": "",
+                        "surname": ""
+                    },
+                    "email_address": ""
+                }
+            }
+        ],
+        "items": [
+            {
+                "name": "",
+                "description": "",
+                "quantity": "1",
+                "unit_amount": {
+                    "currency_code": "USD",
+                    "value": "100.00"
+                },
+                "unit_of_measure": "AMOUNT"
+            }
+        ]
+    }
+
+
+    invoiceData['detail']['invoice_date'] = dt.today().strftime('%Y-%m-%d')
+    dueDate = dt.today() + datetime.timedelta(days=10)
+    invoiceData['detail']['payment_term']['due_date'] = dueDate.strftime('%Y-%m-%d')
+
+
+    invoiceData['primary_recipients'][0]['billing_info']['name']['given_name'] = makerFirstName
+    invoiceData['primary_recipients'][0]['billing_info']['name']['surname'] = makerLastName
+    invoiceData['primary_recipients'][0]['billing_info']['email_address'] = makerEmail
+
+    if (type == 'seller'):
+        invoiceData['detail']['invoice_number'] = "MFO-" + exhibitID
+        invoiceData['items'][0]['description'] = "Exhibit: " + exhibitName
+        invoiceData['items'][0]['name'] = "Maker Faire Orlando - Seller Fee"
+        invoiceData['items'][0]['unit_amount']['value']= fee
+        invoiceData['detail']['note'] = "Thank you for exhibiting at Maker Faire Orlando! Please pay your seller fee promptly to avoid losing your exhibit placement."
+
+    elif (type == 'ruckus'):
+        invoiceData['detail']['invoice_number'] = "MFO-" + exhibitID
+        invoiceData['items'][0]['description'] = "Robot: " + exhibitName
+        invoiceData['items'][0]['name'] = "Robot Ruckus - Entry Fee"
+        invoiceData['items'][0]['unit_amount']['value']= fee
+        invoiceData['detail']['note'] = "Thank you for competing at Robot Ruckus! Please pay your entry fee promptly to avoid losing your spot in the competition."
+
+    else:
+        print ("ERROR, UNKNOWN TYPE OF INVOICE!!!!!!")
+        sys.exit(0)
+
+
+    #print (invoiceData)
+
+    #use this when we don't want it to work
+    #token = "fail-auth-for-testing"
+
+    # Change the URL to https://api-m.paypal.com for live access
+    #PAYPAL_URL = 'https://api-m.sandbox.paypal.com'
+    PAYPAL_URL = 'https://api-m.paypal.com'
+
+    invoice_url = '%s/v2/invoicing/invoices' % PAYPAL_URL
+
+    invoice_response = requests.post(invoice_url,
+                                   headers= {'Accept': 'application/json',
+                                             'Accept-Language': 'en_US',
+                                             'Authorization': f'Bearer {token}'},
+                                   json=invoiceData)
+
+    # Get OAuth JSON in response body
+    invoice_body_json = invoice_response.json()
+    # Get access token
+    #print (invoice_response.status_code, invoice_body_json)
+    return invoice_response.status_code
 
 
 # get item from jotform answers list
@@ -79,12 +198,18 @@ def export(outputAll):
       settings = yaml.load(settingsFile, Loader = yaml.FullLoader)
       #print (settings)
 
-      token = settings['jotform-api-key']
-      print ('API Key:  ', token)
+      jf_token = settings['jotform-api-key']
 
-    jotformAPIClient = JotformAPIClient(token)
 
+      print ('JotForm API Key:  ', jf_token)
+
+    jotformAPIClient = JotformAPIClient(jf_token)
     forms = jotformAPIClient.get_forms()
+
+    #get PayPal token
+    pp_access_token = doPayPalAuth(settings['paypal-client-id'], settings['paypal-client-secret'])
+
+    #get data from JotForm
 
     for form in forms:
       #print form["title"]
@@ -154,13 +279,36 @@ def export(outputAll):
           feeStatus       = getAnswerByName(ans,"feeStatus")
           email           = getAnswerByName(ans,"email")
           name           = getAnswerByName(ans,"name")
-          print(mfoID, exhibitName, email, name['first'], name['last'])      
+
+          #print(mfoID, exhibitName, email, name['first'], name['last'])
 
           if (feeStatus):
-              print(mfoID + " " + exhibitName + ": " + str(viz) + ", " + feeStatus)
-              if 'Fee Not Invoiced' in feeStatus:
-                print ("Generate Invoice!")
+
+            if 'Fee Not Invoiced' in feeStatus:
+                print(feeStatus+ ":", mfoID + " " + exhibitName + ": " + str(viz))
+                print ("Generating Invoice...", end="" )
+                if (isRuckus):
+                    iType = "ruckus"
+                    fee = getAnswerByName(ans,"registrationFee")
+                else:
+                    iType = "seller"
+                    fee = "100.00"
+
+                invResp = createPayPalInvoice(pp_access_token, mfoID, email, name['first'], name['last'], exhibitName, iType, fee)
+                if (invResp == 201):
+                    print ("Invoice Generated")
+                else: print ("ERROR GENERATING INVOICE!")
+
+
                 fniCount = fniCount+1
+
+                #limit number of invoices created when testing
+                #if (fniCount >=5): sys.exit(0)
+
+            else:
+                 print(feeStatus + ":", mfoID + " " + exhibitName + ": " + str(viz))
+
+          else: print("NEEDS FEE STATUS:", mfoID, exhibitName, email, name['first'], name['last'])
 
 
 
