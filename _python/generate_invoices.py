@@ -1,4 +1,6 @@
 
+#todo: only pull approved exhibits
+
 #make sure you install the jotform-api-python from github not just with pip vanilla
 #the vanilla pip install doesnt support python3
 #pip install git+git://github.com/jotform/jotform-api-python.git
@@ -30,6 +32,10 @@ import datetime
 import os.path
 from os import path
 
+#PAYPAL_URL = 'https://api-m.sandbox.paypal.com'
+PAYPAL_URL = 'https://api-m.paypal.com'
+
+
 #settings
 eventYear = 2023
 formCFM = "Call For Makers MFO2023"
@@ -37,14 +43,12 @@ formRuckus = "CFM - Ruckus - MFO2023"
 
 outputAll = False #this is now set with a command line param, don't change it here
 
+
+
 def doPayPalAuth(pp_client_id, pp_client_secret):
 
     #print ('PayPay Client ID:\t ', pp_client_id)
     #print ('PayPal Client Secret\t  ', pp_client_secret)
-
-    # Change the URL to https://api-m.paypal.com for live access
-    #PAYPAL_URL = 'https://api-m.sandbox.paypal.com'
-    PAYPAL_URL = 'https://api-m.paypal.com'
 
     oauth_url = '%s/v1/oauth2/token' % PAYPAL_URL
 
@@ -59,6 +63,31 @@ def doPayPalAuth(pp_client_id, pp_client_secret):
     # Get access token
     #print("PayPal Access Token:\t ", oauth_body_json['access_token'])
     return oauth_body_json['access_token']
+
+def findPayPalInvoice(token, exhibitID):
+
+    invoiceData = { "invoice_number": "MFO-" + exhibitID }
+
+    print ("Searching for Invoice", "MFO-" + exhibitID+"...", end="" )
+    invoice_url = '%s/v2/invoicing/search-invoices' % PAYPAL_URL
+
+    invoice_response = requests.post(invoice_url,
+                                   headers= {'Accept': 'application/json',
+                                             'Accept-Language': 'en_US',
+                                             'Authorization': f'Bearer {token}'},
+                                   json=invoiceData)
+
+
+
+    invoice_body_json = invoice_response.json()
+
+    if ("items" in invoice_body_json):
+        print ("Invoice exists, status is: ", end="")
+        print (invoice_body_json['items'][0]['status'], end=" -> ")
+        return invoice_body_json['items'][0]['status']
+    else:
+        print ("Invoice does not exist...")
+        return "not-found"
 
 
 def createPayPalInvoice(token, exhibitID, makerEmail, makerFirstName, makerLastName, exhibitName, type, fee):
@@ -138,10 +167,6 @@ def createPayPalInvoice(token, exhibitID, makerEmail, makerFirstName, makerLastN
     #use this when we don't want it to work
     #token = "fail-auth-for-testing"
 
-    # Change the URL to https://api-m.paypal.com for live access
-    #PAYPAL_URL = 'https://api-m.sandbox.paypal.com'
-    PAYPAL_URL = 'https://api-m.paypal.com'
-
     invoice_url = '%s/v2/invoicing/invoices' % PAYPAL_URL
 
     invoice_response = requests.post(invoice_url,
@@ -150,9 +175,9 @@ def createPayPalInvoice(token, exhibitID, makerEmail, makerFirstName, makerLastN
                                              'Authorization': f'Bearer {token}'},
                                    json=invoiceData)
 
-    # Get OAuth JSON in response body
+
     invoice_body_json = invoice_response.json()
-    # Get access token
+
     #print (invoice_response.status_code, invoice_body_json)
     return invoice_response.status_code
 
@@ -201,10 +226,10 @@ def export(outputAll):
       jf_token = settings['jotform-api-key']
 
 
-      print ('JotForm API Key:  ', jf_token)
+      #print ('JotForm API Key:  ', jf_token)
 
-    jotformAPIClient = JotformAPIClient(jf_token)
-    forms = jotformAPIClient.get_forms()
+    jotformAPI = JotformAPIClient(jf_token)
+    forms = jotformAPI.get_forms()
 
     #get PayPal token
     pp_access_token = doPayPalAuth(settings['paypal-client-id'], settings['paypal-client-secret'])
@@ -226,12 +251,20 @@ def export(outputAll):
         print("-------------------------------------------")
         print (form["title"])
         #print form
-        print(form["id"] + " " + form["title"])
-        submissions = jotformAPIClient.get_form_submissions(form["id"], limit = 1000)
+        #print(form["id"] + " " + form["title"])
+
+
+        #if (isRuckus==False):
+        #    questions = jotformAPI.get_form_questions(form["id"])
+    #        print(questions)
+    #        sys.exit(0)
+
+        submissions = jotformAPI.get_form_submissions(form["id"], limit = 1000)
         for sub in submissions:
           ans ={}
           answers = sub["answers"]
-
+          #print(sub)
+          submission_id = sub['id']
           for id, info in answers.items():
             #print(id + ": " + info["name"])
             #print("name: " +  info["name"])
@@ -282,11 +315,11 @@ def export(outputAll):
 
           #print(mfoID, exhibitName, email, name['first'], name['last'])
 
-          if (feeStatus):
+          if (feeStatus and viz):
 
             if 'Fee Not Invoiced' in feeStatus:
                 print(feeStatus+ ":", mfoID + " " + exhibitName + ": " + str(viz))
-                print ("Generating Invoice...", end="" )
+                #print ("Generating Invoice...", end="" )
                 if (isRuckus):
                     iType = "ruckus"
                     fee = getAnswerByName(ans,"registrationFee")
@@ -294,11 +327,29 @@ def export(outputAll):
                     iType = "seller"
                     fee = "100.00"
 
-                invResp = createPayPalInvoice(pp_access_token, mfoID, email, name['first'], name['last'], exhibitName, iType, fee)
-                if (invResp == 201):
-                    print ("Invoice Generated")
-                else: print ("ERROR GENERATING INVOICE!")
 
+
+                findResp = findPayPalInvoice(pp_access_token, mfoID)
+                if ("not-found" in findResp):
+                    invResp = createPayPalInvoice(pp_access_token, mfoID, email, name['first'], name['last'], exhibitName, iType, fee)
+                    if (invResp == 201):
+                      print ("Invoice Generated")
+                    else: print ("ERROR GENERATING INVOICE!")
+                elif ("DRAFT" in findResp):
+                    print ("LOGIN TO PAYPAL AND SEND THE INVOICE!!")
+                elif ("SENT" in findResp):
+                    print ("UPDATE JOTFORM TO 'Fee Due'")
+                    if (isRuckus): jotformAPI.edit_submission(submission_id, {"114": "Fee Due"})
+                    else: jotformAPI.edit_submission(submission_id, {"117": "Fee Due"})
+
+                elif ("PAID" in findResp):
+                    print ("UPDATE JOTFORM TO 'Fee Paid'")
+                    if (isRuckus): jotformAPI.edit_submission(submission_id, {"114": "Fee Paid"})
+                    else: jotformAPI.edit_submission(submission_id, {"117": "Fee Paid"})
+                else:
+                    print ("ERROR: UNKNOWN STATUS!")
+
+                #sys.exit(0)
 
                 fniCount = fniCount+1
 
@@ -306,9 +357,11 @@ def export(outputAll):
                 #if (fniCount >=5): sys.exit(0)
 
             else:
-                 print(feeStatus + ":", mfoID + " " + exhibitName + ": " + str(viz))
+                 if (not "Fee Not Required" in feeStatus and not "Fee Waived" in feeStatus ):
+                      print(feeStatus + " \t", mfoID + "\t" + exhibitName)
 
-          else: print("NEEDS FEE STATUS:", mfoID, exhibitName, email, name['first'], name['last'])
+          else:
+              if (viz): print("NEEDS FEE STATUS:", mfoID, exhibitName, email, name['first'], name['last'], viz)
 
 
 
