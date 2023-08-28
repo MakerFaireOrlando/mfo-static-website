@@ -361,7 +361,7 @@ def export(outputAll):
                       print(feeStatus + " \t", mfoID + "\t" + exhibitName)
 
           else:
-              if (viz): print("NEEDS FEE STATUS:", mfoID, exhibitName, email, name['first'], name['last'], viz)
+              if (viz): print("NEEDS FEE STATUS:", mfoID, exhibitName, email, name['first'], name['last'])
 
 
 

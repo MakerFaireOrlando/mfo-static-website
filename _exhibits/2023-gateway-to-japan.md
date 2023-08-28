@@ -63,8 +63,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2023-08-22 23:00:11"
-last-modified-jotform: "2023-08-23 07:36:41"
-last-exported: "2023-08-24 07:23:13"
+last-modified-jotform: "2023-08-27 21:02:10"
+last-exported: "2023-08-27 22:35:44"
 sitemap: false
 
 ---

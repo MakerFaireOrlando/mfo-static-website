@@ -7,13 +7,13 @@ permalink: /exhibits/queens-cove-creative/
 exhibit-id: 23-5
 space-number: Unassigned
 description: "Queens Cove Creative creates unique laser engraved art as well as fine art and illustration "
-description-long: "Queens Cove Creative is a husband and wife Creative team. L. Jason is the main artist. He creates design and art ranging from unique wood engraved art to professional illustrations. He is officially licensed  and published with Marvel,  Star Wars, Stranger Things, The Halloween movie franchise and the Hannibal television franchise. Christy is the main manager and business professional as well as art director. "
-image: /assets/images/exhibit-images/23-5-exhibit-queens-cove-creative-fb-img-1690065612554-large.jpg
+description-long: "Queens Cove Creative is a husband-wife Creative team. L. Jason is the artist. He creates designs and art ranging from unique wood-engraved imaginations to professional illustrations and fine art. He is officially licensed and published with Marvel,  Star Wars, Stranger Things, Halloween, and the Hannibal television franchises. Christy is the leading manager and business professional as well as art director. "
+image: /assets/images/exhibit-images/23-5-exhibit-queens-cove-creative-jqueenprofilepic-large.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/23-5-exhibit-queens-cove-creative-fb-img-1690065612554-small.jpg
-  medium: /assets/images/exhibit-images/23-5-exhibit-queens-cove-creative-fb-img-1690065612554-medium.jpg
-  large: /assets/images/exhibit-images/23-5-exhibit-queens-cove-creative-fb-img-1690065612554-large.jpg
-  full: /assets/images/exhibit-images/23-5-exhibit-queens-cove-creative-fb-img-1690065612554-full.jpg
+  small: /assets/images/exhibit-images/23-5-exhibit-queens-cove-creative-jqueenprofilepic-small.jpg
+  medium: /assets/images/exhibit-images/23-5-exhibit-queens-cove-creative-jqueenprofilepic-medium.jpg
+  large: /assets/images/exhibit-images/23-5-exhibit-queens-cove-creative-jqueenprofilepic-large.jpg
+  full: /assets/images/exhibit-images/23-5-exhibit-queens-cove-creative-jqueenprofilepic-full.jpg
 additional-images: 
   - 1:
     small: /assets/images/exhibit-images/23-5-exhibit-addl1-queens-cove-creative-fb-img-1690065632878-small.jpg
@@ -55,8 +55,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-07-22 18:45:22"
-last-modified-jotform: "2023-08-22 18:55:56"
-last-exported: "2023-08-24 07:23:21"
+last-modified-jotform: "2023-08-27 20:52:43"
+last-exported: "2023-08-27 22:35:47"
 sitemap: false
 
 ---
