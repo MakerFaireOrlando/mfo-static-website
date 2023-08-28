@@ -317,8 +317,8 @@ def export(outputAll):
 
           if (feeStatus and viz):
 
-            if 'Fee Not Invoiced' in feeStatus:
-                print(feeStatus+ ":", mfoID + " " + exhibitName + ": " + str(viz))
+            if ('Fee Not Invoiced' in feeStatus or 'Fee Due' in feeStatus):
+                print(feeStatus+ ":", mfoID + " " + exhibitName)
                 #print ("Generating Invoice...", end="" )
                 if (isRuckus):
                     iType = "ruckus"
@@ -338,10 +338,11 @@ def export(outputAll):
                 elif ("DRAFT" in findResp):
                     print ("LOGIN TO PAYPAL AND SEND THE INVOICE!!")
                 elif ("SENT" in findResp):
-                    print ("UPDATE JOTFORM TO 'Fee Due'")
-                    if (isRuckus): jotformAPI.edit_submission(submission_id, {"114": "Fee Due"})
-                    else: jotformAPI.edit_submission(submission_id, {"117": "Fee Due"})
-
+                    if (not "Fee Due" in feeStatus):
+                        print ("UPDATE JOTFORM TO 'Fee Due'")
+                        if (isRuckus): jotformAPI.edit_submission(submission_id, {"114": "Fee Due"})
+                        else: jotformAPI.edit_submission(submission_id, {"117": "Fee Due"})
+                    else: print ("No update required")    
                 elif ("PAID" in findResp):
                     print ("UPDATE JOTFORM TO 'Fee Paid'")
                     if (isRuckus): jotformAPI.edit_submission(submission_id, {"114": "Fee Paid"})
