@@ -211,7 +211,10 @@ def export(outputAll):
     countSubmissions = 0
     countVisible = 0
     fniCount = 0
-    spaceplanList = []
+    countFeeSent = 0
+    countFeeDraft = 0
+    countFeePaid = 0
+    countInvoiceGenerated = 0
 
     if path.exists('private.yaml'):
       yamlFile = 'private.yaml'
@@ -334,19 +337,23 @@ def export(outputAll):
                     invResp = createPayPalInvoice(pp_access_token, mfoID, email, name['first'], name['last'], exhibitName, iType, fee)
                     if (invResp == 201):
                       print ("Invoice Generated")
+                      countInvoiceGenerated = countInvoiceGenerated + 1
                     else: print ("ERROR GENERATING INVOICE!")
                 elif ("DRAFT" in findResp):
                     print ("LOGIN TO PAYPAL AND SEND THE INVOICE!!")
+                    countFeeDraft = countFeeDraft + 1
                 elif ("SENT" in findResp):
                     if (not "Fee Due" in feeStatus):
                         print ("UPDATE JOTFORM TO 'Fee Due'")
                         if (isRuckus): jotformAPI.edit_submission(submission_id, {"114": "Fee Due"})
                         else: jotformAPI.edit_submission(submission_id, {"117": "Fee Due"})
-                    else: print ("No update required")    
+                    else: print ("No update required")
+                    countFeeSent = countFeeSent + 1
                 elif ("PAID" in findResp):
                     print ("UPDATE JOTFORM TO 'Fee Paid'")
                     if (isRuckus): jotformAPI.edit_submission(submission_id, {"114": "Fee Paid"})
                     else: jotformAPI.edit_submission(submission_id, {"117": "Fee Paid"})
+                    countFeePaid = countFeePaid + 1
                 else:
                     print ("ERROR: UNKNOWN STATUS!")
 
@@ -360,6 +367,8 @@ def export(outputAll):
             else:
                  if (not "Fee Not Required" in feeStatus and not "Fee Waived" in feeStatus ):
                       print(feeStatus + " \t", mfoID + "\t" + exhibitName)
+                      if ("Fee Paid" in feeStatus):
+                        countFeePaid = countFeePaid + 1
 
           else:
               if (viz): print("NEEDS FEE STATUS:", mfoID, exhibitName, email, name['first'], name['last'])
@@ -375,6 +384,14 @@ def export(outputAll):
     print("Submissions Found: " + str(countSubmissions))
     print("Submissions Visible: " + str(countVisible))
     print("Fees Not Invoiced: " + str(fniCount))
+
+    print("Invoices Generated: " + str(countInvoiceGenerated))
+    print("Fees Draft: " + str(countFeeDraft))
+    print("Fees Sent: " + str(countFeeSent))
+    print("Fees Paid: " + str(countFeePaid))
+    #print("Paid %:" + str(countFeePaid / countFeeSent) * 100)
+    print("Paid {:.1f}%".format((countFeePaid / (countFeeSent + countFeePaid))*100)) 
+
 
 def main():
 
