@@ -26,48 +26,58 @@ Accessories include:
 -	SB_Rear Panel_120V provides for connection of 120ACV, fuses for 5V and 12V, On/Off switch and uUSB for computer to Teensy 4.1 sketch uploading.
 -	SB_Rear Panel_5V and 12V provides for connection of 5VDC, to 12VDC (up to 28.5VDC), 5V and 12V pilot LEDs, SPDIF audio jack, On/Off switch and micro USB socket for connection to computer.
 "
-image: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-sb-t41-4on-2ext-large.jpg
+image: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-waves-hello-large.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-sb-t41-4on-2ext-small.jpg
-  medium: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-sb-t41-4on-2ext-medium.jpg
-  large: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-sb-t41-4on-2ext-large.jpg
-  full: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-sb-t41-4on-2ext-full.jpg
+  small: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-waves-hello-small.jpg
+  medium: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-waves-hello-medium.jpg
+  large: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-waves-hello-large.jpg
+  full: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-waves-hello-full.jpg
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-bottelli-head-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-bottelli-head-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-bottelli-head-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-bottelli-head-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-sb-rear-panel-5v-and-12v-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-sb-rear-panel-5v-and-12v-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-sb-rear-panel-5v-and-12v-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-sb-rear-panel-5v-and-12v-full.jpg
   - 2:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-sb-exp-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-sb-exp-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-sb-exp-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-sb-exp-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-sb-t41-4on-2ext-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-sb-t41-4on-2ext-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-sb-t41-4on-2ext-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-sb-t41-4on-2ext-full.jpg
   - 3:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-exp-3510-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-exp-3510-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-exp-3510-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-exp-3510-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-uno-2on-2ext-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-uno-2on-2ext-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-uno-2on-2ext-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-uno-2on-2ext-full.jpg
   - 4:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-sb-front-panel-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-sb-front-panel-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-sb-front-panel-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-sb-front-panel-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-botteli-the-bottle-man-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-botteli-the-bottle-man-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-botteli-the-bottle-man-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-botteli-the-bottle-man-full.jpg
   - 5:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-sb-t41-7ext-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-sb-t41-7ext-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-sb-t41-7ext-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-sb-t41-7ext-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-botteli-the-bottle-man-lcd-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-botteli-the-bottle-man-lcd-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-botteli-the-bottle-man-lcd-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-botteli-the-bottle-man-lcd-full.jpg
   - 6:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stepper-boss-controller-in-botteli-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stepper-boss-controller-in-botteli-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stepper-boss-controller-in-botteli-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stepper-boss-controller-in-botteli-full.jpg
   - 7:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-user-io-stereo-rd-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-user-io-stereo-rd-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-user-io-stereo-rd-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-user-io-stereo-rd-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-sb-t41-7ext-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-sb-t41-7ext-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-sb-t41-7ext-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-sb-t41-7ext-full.jpg
+  - 8:
+    small: /assets/images/exhibit-images/23-49-exhibit-addl8-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl8-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl8-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl8-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-full.jpg
+  - 9:
+    small: /assets/images/exhibit-images/23-49-exhibit-addl9-muvmotors-make-your-projects-move-user-io-stereo-rd-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl9-muvmotors-make-your-projects-move-user-io-stereo-rd-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl9-muvmotors-make-your-projects-move-user-io-stereo-rd-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl9-muvmotors-make-your-projects-move-user-io-stereo-rd-full.jpg
 maker: 
   name: "MuvMotors, LLC"
   description: "Move your projects with MuvMotors Stepper Boss products. Motion for animatronics, animated creatures, museum dioramas, mannequins or sculptures."
@@ -85,8 +95,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-08-09 15:31:27"
-last-modified-jotform: "2023-08-27 22:56:10"
-last-exported: "2023-08-28 19:44:50"
+last-modified-jotform: "2023-08-30 18:52:39"
+last-exported: "2023-08-30 19:00:01"
 sitemap: false
 
 ---
