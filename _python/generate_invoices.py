@@ -214,7 +214,9 @@ def export(outputAll):
     countFeeSent = 0
     countFeeDraft = 0
     countFeePaid = 0
+    countFeeWaived = 0
     countInvoiceGenerated = 0
+    countFeeNotReq = 0
 
     if path.exists('private.yaml'):
       yamlFile = 'private.yaml'
@@ -369,6 +371,10 @@ def export(outputAll):
                       print(feeStatus + " \t", mfoID + "\t" + exhibitName)
                       if ("Fee Paid" in feeStatus):
                         countFeePaid = countFeePaid + 1
+                 if ("Fee Waived" in feeStatus):
+                    countFeeWaived = countFeeWaived + 1
+                 elif ("Fee Not Required" in feeStatus):
+                    countFeeNotReq = countFeeNotReq + 1
 
           else:
               if (viz): print("NEEDS FEE STATUS:", mfoID, exhibitName, email, name['first'], name['last'])
@@ -381,16 +387,25 @@ def export(outputAll):
 
 
     #todo: count regular CFM vs Ruckus CFM separately and also give total
+    print("\r\r--------------------------")
     print("Submissions Found: " + str(countSubmissions))
-    print("Submissions Visible: " + str(countVisible))
-    print("Fees Not Invoiced: " + str(fniCount))
+    print("Submissions Visible (Approved): " + str(countVisible))
 
+    totalSelling = countFeeDraft + countFeeSent + countFeePaid
+    print("Total Selling: " + str(totalSelling))
+    print("% Vendor {:.1f}%".format((totalSelling/countVisible)*100))
+    print("--------------------------")
+    print("Fees Not Required: " + str(countFeeNotReq))
+#    print("Fees Waived: " + str(countFeeWaived))
+    print("Fees Not Invoiced: " + str(fniCount))
     print("Invoices Generated: " + str(countInvoiceGenerated))
     print("Fees Draft: " + str(countFeeDraft))
     print("Fees Sent: " + str(countFeeSent))
     print("Fees Paid: " + str(countFeePaid))
+    print("--------------------------")
     #print("Paid %:" + str(countFeePaid / countFeeSent) * 100)
-    print("Paid {:.1f}%".format((countFeePaid / (countFeeSent + countFeePaid))*100)) 
+    print("Paid {:.1f}%".format((countFeePaid / (countFeeSent + countFeePaid))*100))
+
 
 
 def main():
