@@ -101,3 +101,8 @@ sponsors:
     logo: digital-warpaint.png
     level: 4
     active: true
+  - name: FLUX
+    url: https://www.flux3dp.com
+    logo: flux.png
+    level: 4
+    active: true
