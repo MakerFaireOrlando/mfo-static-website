@@ -35,6 +35,19 @@ from os import path
 #PAYPAL_URL = 'https://api-m.sandbox.paypal.com'
 PAYPAL_URL = 'https://api-m.paypal.com'
 
+class color:
+   PURPLE = '\033[95m'
+   CYAN = '\033[96m'
+   DARKCYAN = '\033[36m'
+   BLUE = '\033[94m'
+   GREEN = '\033[92m'
+   YELLOW = '\033[93m'
+   RED = '\033[91m'
+   BOLD = '\033[1m'
+   UNDERLINE = '\033[4m'
+   END = '\033[0m'
+
+
 
 #settings
 eventYear = 2023
@@ -208,6 +221,8 @@ def getAnswerByName (aDict, id):
 
 def export(outputAll):
 
+
+
     countSubmissions = 0
     countVisible = 0
     fniCount = 0
@@ -342,7 +357,7 @@ def export(outputAll):
                       countInvoiceGenerated = countInvoiceGenerated + 1
                     else: print ("ERROR GENERATING INVOICE!")
                 elif ("DRAFT" in findResp):
-                    print ("LOGIN TO PAYPAL AND SEND THE INVOICE!!")
+                    print (color.BOLD + "LOGIN TO PAYPAL AND SEND THE INVOICE!!" + color.END)
                     countFeeDraft = countFeeDraft + 1
                 elif ("SENT" in findResp):
                     if (not "Fee Due" in feeStatus):
@@ -377,8 +392,8 @@ def export(outputAll):
                     countFeeNotReq = countFeeNotReq + 1
 
           else:
-              if (viz): print("NEEDS FEE STATUS:", mfoID, exhibitName, email, name['first'], name['last'])
-
+              if (viz): print(color.BOLD + "NEEDS FEE STATUS:" + color.END, mfoID, exhibitName, email, name['first'], name['last'])
+              #print(color.BOLD + 'Hello, World!' + color.END)
 
 
 
