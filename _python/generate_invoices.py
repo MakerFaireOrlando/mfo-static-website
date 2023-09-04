@@ -81,7 +81,7 @@ def findPayPalInvoice(token, exhibitID):
 
     invoiceData = { "invoice_number": "MFO-" + exhibitID }
 
-    print ("Searching for Invoice", "MFO-" + exhibitID+"...", end="" )
+    print (color.DARKCYAN + "Search:", "MFO-" + exhibitID+"->", end="" )
     invoice_url = '%s/v2/invoicing/search-invoices' % PAYPAL_URL
 
     invoice_response = requests.post(invoice_url,
@@ -95,11 +95,11 @@ def findPayPalInvoice(token, exhibitID):
     invoice_body_json = invoice_response.json()
 
     if ("items" in invoice_body_json):
-        print ("Invoice exists, status is: ", end="")
-        print (invoice_body_json['items'][0]['status'], end=" -> ")
+        print ("Invoice status is: ", end="")
+        print (invoice_body_json['items'][0]['status'], end="->")
         return invoice_body_json['items'][0]['status']
     else:
-        print ("Invoice does not exist...")
+        print ("Invoice does not exist->", end="")
         return "not-found"
 
 
@@ -338,7 +338,7 @@ def export(outputAll):
           if (feeStatus and viz):
 
             if ('Fee Not Invoiced' in feeStatus or 'Fee Due' in feeStatus):
-                print(feeStatus+ ":", mfoID + " " + exhibitName)
+                print(color.DARKCYAN + feeStatus + "\t\t" +  mfoID + "\t" + exhibitName + "->" + color.END, end = "")
                 #print ("Generating Invoice...", end="" )
                 if (isRuckus):
                     iType = "ruckus"
@@ -353,9 +353,9 @@ def export(outputAll):
                 if ("not-found" in findResp):
                     invResp = createPayPalInvoice(pp_access_token, mfoID, email, name['first'], name['last'], exhibitName, iType, fee)
                     if (invResp == 201):
-                      print ("Invoice Generated")
+                      print ("Invoice Generated" + color.END)
                       countInvoiceGenerated = countInvoiceGenerated + 1
-                    else: print ("ERROR GENERATING INVOICE!")
+                    else: print ("ERROR GENERATING INVOICE!" + color.END)
                 elif ("DRAFT" in findResp):
                     print (color.BOLD + "LOGIN TO PAYPAL AND SEND THE INVOICE!!" + color.END)
                     countFeeDraft = countFeeDraft + 1
@@ -364,7 +364,7 @@ def export(outputAll):
                         print ("UPDATE JOTFORM TO 'Fee Due'")
                         if (isRuckus): jotformAPI.edit_submission(submission_id, {"114": "Fee Due"})
                         else: jotformAPI.edit_submission(submission_id, {"117": "Fee Due"})
-                    else: print ("No update required")
+                    else: print ("Done" + color.END)
                     countFeeSent = countFeeSent + 1
                 elif ("PAID" in findResp):
                     print ("UPDATE JOTFORM TO 'Fee Paid'")
@@ -383,16 +383,18 @@ def export(outputAll):
 
             else:
                  if (not "Fee Not Required" in feeStatus and not "Fee Waived" in feeStatus ):
-                      print(feeStatus + " \t", mfoID + "\t" + exhibitName)
-                      if ("Fee Paid" in feeStatus):
+                    if ("Fee Paid" in feeStatus):
                         countFeePaid = countFeePaid + 1
+                        print(color.GREEN + feeStatus  + "\t" + mfoID + "\t" + exhibitName, color.END)
+                    else: print(feeStatus + " \t", mfoID + "\t" + exhibitName)
+
                  if ("Fee Waived" in feeStatus):
                     countFeeWaived = countFeeWaived + 1
                  elif ("Fee Not Required" in feeStatus):
                     countFeeNotReq = countFeeNotReq + 1
 
           else:
-              if (viz): print(color.BOLD + "NEEDS FEE STATUS:" + color.END, mfoID, exhibitName, email, name['first'], name['last'])
+              if (viz): print(color.BOLD + color.RED + "NO FEESTATUS\t" +  mfoID + "\t" +  exhibitName, color.END)
               #print(color.BOLD + 'Hello, World!' + color.END)
 
 
@@ -402,14 +404,14 @@ def export(outputAll):
 
 
     #todo: count regular CFM vs Ruckus CFM separately and also give total
-    print("\r\r--------------------------")
+    print("\r\r---------------------------------------------------------------------------")
     print("Submissions Found: " + str(countSubmissions))
     print("Submissions Visible (Approved): " + str(countVisible))
 
     totalSelling = countFeeDraft + countFeeSent + countFeePaid
     print("Total Selling: " + str(totalSelling))
     print("% Vendor {:.1f}%".format((totalSelling/countVisible)*100))
-    print("--------------------------")
+    print("---------------------------------------------------------------------------")
     print("Fees Not Required: " + str(countFeeNotReq))
 #    print("Fees Waived: " + str(countFeeWaived))
     print("Fees Not Invoiced: " + str(fniCount))
@@ -417,10 +419,11 @@ def export(outputAll):
     print("Fees Draft: " + str(countFeeDraft))
     print("Fees Sent: " + str(countFeeSent))
     print("Fees Paid: " + str(countFeePaid))
-    print("--------------------------")
+    print("---------------------------------------------------------------------------")
     #print("Paid %:" + str(countFeePaid / countFeeSent) * 100)
-    print("Paid {:.1f}%".format((countFeePaid / (countFeeSent + countFeePaid))*100))
-
+    print(color.BOLD + "Paid {:.1f}%".format((countFeePaid / (countFeeSent + countFeePaid))*100) + color.END)
+    print("")
+    print("")
 
 
 def main():
