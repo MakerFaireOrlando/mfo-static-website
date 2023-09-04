@@ -8,12 +8,18 @@ exhibit-id: 23-76
 space-number: Unassigned
 description: "We build droids from Star Wars franchise. "
 description-long: "We are a group of builders that help each other out in constructing a droid from Star Wars franchise and other Sci-Fi shows. "
-image: /assets/images/exhibit-images/23-76-exhibit-southern-r2-builders-group-43-r2-logo-6151-large.png
+image: /assets/images/exhibit-images/23-76-exhibit-southern-r2-builders-group-r2-1-large.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/23-76-exhibit-southern-r2-builders-group-43-r2-logo-6151-small.png
-  medium: /assets/images/exhibit-images/23-76-exhibit-southern-r2-builders-group-43-r2-logo-6151-medium.png
-  large: /assets/images/exhibit-images/23-76-exhibit-southern-r2-builders-group-43-r2-logo-6151-large.png
-  full: /assets/images/exhibit-images/23-76-exhibit-southern-r2-builders-group-43-r2-logo-6151-full.png
+  small: /assets/images/exhibit-images/23-76-exhibit-southern-r2-builders-group-r2-1-small.jpg
+  medium: /assets/images/exhibit-images/23-76-exhibit-southern-r2-builders-group-r2-1-medium.jpg
+  large: /assets/images/exhibit-images/23-76-exhibit-southern-r2-builders-group-r2-1-large.jpg
+  full: /assets/images/exhibit-images/23-76-exhibit-southern-r2-builders-group-r2-1-full.jpg
+additional-images: 
+  - 1:
+    small: /assets/images/exhibit-images/23-76-exhibit-addl1-southern-r2-builders-group-r2-2-small.jpg
+    medium: /assets/images/exhibit-images/23-76-exhibit-addl1-southern-r2-builders-group-r2-2-medium.jpg
+    large: /assets/images/exhibit-images/23-76-exhibit-addl1-southern-r2-builders-group-r2-2-large.jpg
+    full: /assets/images/exhibit-images/23-76-exhibit-addl1-southern-r2-builders-group-r2-2-full.jpg
 website: "www.astromech.net"
 maker: 
   name: "Southern R2 Builders Group"
@@ -32,8 +38,8 @@ categories:
   - slug: engineering
     name: Engineering
 created-jotform: "2023-08-26 19:44:32"
-last-modified-jotform: "2023-08-27 16:50:12"
-last-exported: "2023-08-27 22:35:44"
+last-modified-jotform: "2023-09-04 11:16:29"
+last-exported: "2023-09-04 12:25:37"
 sitemap: false
 
 ---
