@@ -84,11 +84,11 @@ categories:
     name: Craft
   - slug: fiber-arts
     name: Fiber Arts
-  - slug: handmade
-    name: Handmade
+  - slug: laser-cutting-engraving
+    name: Laser Cutting & Engraving
 created-jotform: "2023-07-25 21:55:55"
-last-modified-jotform: "2023-08-19 20:46:02"
-last-exported: "2023-08-21 10:39:13"
+last-modified-jotform: "2023-09-08 11:17:14"
+last-exported: "2023-09-08 22:52:41"
 sitemap: false
 
 ---
