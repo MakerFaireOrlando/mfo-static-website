@@ -152,6 +152,10 @@ def processImage(eid, eslug, type, url):
     image = Image.open(fullFn)
     image = ImageOps.exif_transpose(image)
     image.thumbnail((1024,1024))
+    #23-135 yielded error - https://stackoverflow.com/questions/21669657/getting-cannot-write-mode-p-as-jpeg-while-operating-on-jpg-image
+    #should I do this for every size??
+    if image.mode != 'RGB':
+        image = image.convert('RGB')
     image.save(largeFn)
 
   return filenames
