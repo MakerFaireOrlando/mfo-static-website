@@ -7,7 +7,7 @@ permalink: /exhibits/fluorine/
 exhibit-id: 22R-5
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
-description: "A horizontal spinner with a lot of character, color and chaos. The wepon"
+description: "A horizontal spinner with a lot of character, color and chaos."
 description-long: "Fluorine first started life as a basic fingertech viper kit. It then was rebuilt into a custom bot with a large front wedge and a lifting arm. This version proved to be very successful, but fairly boring and difficult to drive. The robot was rebuilt again into more of what it looks like now, a true horizontal spinner.
 
 This version of the robot has recieved many updates and revisions since its first event, which happened to be Robot Ruckus 2022. After multiple fairly disappointing events, Fluorine is now ready to come home with another trophy!"
@@ -34,7 +34,7 @@ additional-images:
     large: /assets/images/exhibit-images/22R-5-exhibit-addl3-fluorine-20230903-150312-large.jpg
     full: /assets/images/exhibit-images/22R-5-exhibit-addl3-fluorine-20230903-150312-full.jpg
 website: "https://www.youtube.com/channel/UCf-9AJU31p9MNGzTWspqJCA"
-video: "https://youtu.be/44WR696wB-c?si=Y1jFDy8zCR-lul8o"
+video: "https://youtu.be/44WR696wB-c?si=9XvlL9dEntd5ojEx"
 video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/44WR696wB-c?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="Tampa Roboticon 2023 Fight 1: Fluorine vs Tempest"></iframe>'
 maker: 
   name: "Team Halogen Robotics"
@@ -48,8 +48,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2023-09-03 15:07:17"
-last-modified-jotform: "2023-09-10 11:39:37"
-last-exported: "2023-09-10 11:44:21"
+last-modified-jotform: "2023-09-12 19:33:55"
+last-exported: "2023-09-12 19:34:13"
 sitemap: false
 
 ---
