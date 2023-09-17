@@ -40,11 +40,11 @@ Educators (all grade levels including college / university and libraries) recei
 
 To receive free educator admission to Maker Faire Orlando for you and a guest, please bring your school ID to the educators check-in area at entrance to the event. You are welcome to attend the event with your guest on both days of the event, however you will need to check-in and show ID both days. If you attend on two separate days, you may bring the same guest both days, however you may only bring a total of one guest to the event regardless of how many days you attend. Your guest may be asked to show identification. Please subscribe to our [Maker Faire Orlando Educator email newsletter](http://eepurl.com/buLkzr) (and add makers@makerfaireorlando.com to your contacts) so that you can stay informed on event information and any updates to the check-in process.
 
-Title I schools wishing to bring a group of students, chaperones, and educators should fill out our [Maker Faire Orlando Title I School Group Ticket Request](https://forms.gle/4XWSQ14bu3B1cqut8).
+Title I schools wishing to bring a group of students, chaperones, and educators should fill out our [Maker Faire Orlando Title I School Group Ticket Request](https://forms.gle/LC9CALioUPKzQ8jB8).
 
 Each year we curate (in the month before the event) a special set of Maker Faire Orlando exhibits that are targeted for educators. If you can't see everything at Maker Faire, you can use this list to prioritize! Many of these exhibits are created by educators, or these makers have indicated they are willing to help educators.
 
-We maintain a list of local makers that are willing to do demonstrations or talks in your classrooms, help with project ideas, or provide training for educators looking to expand their skills sets and we partner with makerspaces such as [FamiLAB](https://familab.org/), [Factur](https://factur.org/), and [MakerFX](https://www.makerfx.org/) as well as organizations including [Deltamaker 3D Printers](http://www.deltamaker.com/) and [The Orlando Science Center](http://osc.org/).
+We maintain a list of local makers that are willing to do demonstrations or talks in your classrooms, help with project ideas, or provide training for educators looking to expand their skills sets and we partner with makerspaces such as [FamiLAB](https://familab.org/), and [MakerFX](https://www.makerfx.org/) as well as organizations including [Deltamaker 3D Printers](http://www.deltamaker.com/) and [The Orlando Science Center](http://osc.org/).
 
 **Stay up to date with the latest on the Maker Movement in Central Florida with our [Maker Faire Orlando Educator email newsletter](http://eepurl.com/buLkzr).**
 
@@ -57,8 +57,6 @@ If you would like to learn more about [Maker Faire Orlando](https://www.makerfa
 * [Make Magazine](https://makezine.com/) is a publication created by [Make: Community](https://make.co/) to connect Makers with each other, with products and services, and with their partners.
 
 * [FamiLAB](https://familab.org/) is a provider of space, tools, and community for creative technical learning and projects. FamiLAB's mission is to be a community that fosters learning and creativity through hands-on projects, collaboration, and the sharing of skills & tools to improve ourselves and enrich the world around us.
-
-* [Factur](https://factur.org/) is a member-driven fabrication laboratory and coworking space that serves as a creative home in which people work, learn and build a community rooted in science, art and technology. To that end, we endeavor to Learn. Create. Share.
 
 * [MakerFX](http://www.makerfx.org/) is a makerspace in South Orlando that is a program of The Maker Effect Foundation. MakerFX is home to a diverse set of makers and tools, with projects ranging from props and cosplay to woodworking and electronics. We also keep the hands-on activities from Maker Faire Orlando such as the Make-a-Shirt screen printing equipment at MakerFX for year-round hands-on learning.
 
