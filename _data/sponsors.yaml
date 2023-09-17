@@ -9,7 +9,7 @@ sponsors:
   - name: Make
     url: https://www.makezine.com
     logo: makeLogo_url_2012.png
-    level: 3
+    level: 2
     active: true
   - name: Sundance
     url: https://www.sundanceusa.com
@@ -19,7 +19,7 @@ sponsors:
   - name: Universal Creative
     url: https://jobs.universalparks.com/universal-creative/
     logo: universal-creative.png
-    level: 3
+    level: 2
     active: true
   - name: Prusa Reseach
     url: https://www.prusa3d.com/
