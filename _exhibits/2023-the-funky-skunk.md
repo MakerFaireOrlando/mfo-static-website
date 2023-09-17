@@ -8,12 +8,12 @@ exhibit-id: 23-147
 space-number: Unassigned
 description: "Art Car/ Mutant Vehicle "
 description-long: "A street legal, skunk shaped art car. "
-image: /assets/images/exhibit-images/23-147-exhibit-the-funky-skunk-7c7717b4-f74d-4c3c-b275-7bb69582b0df-large.jpeg
+image: /assets/images/exhibit-images/23-147-exhibit-the-funky-skunk-funky-skunk-large.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/23-147-exhibit-the-funky-skunk-7c7717b4-f74d-4c3c-b275-7bb69582b0df-small.jpeg
-  medium: /assets/images/exhibit-images/23-147-exhibit-the-funky-skunk-7c7717b4-f74d-4c3c-b275-7bb69582b0df-medium.jpeg
-  large: /assets/images/exhibit-images/23-147-exhibit-the-funky-skunk-7c7717b4-f74d-4c3c-b275-7bb69582b0df-large.jpeg
-  full: /assets/images/exhibit-images/23-147-exhibit-the-funky-skunk-7c7717b4-f74d-4c3c-b275-7bb69582b0df-full.jpeg
+  small: /assets/images/exhibit-images/23-147-exhibit-the-funky-skunk-funky-skunk-small.jpg
+  medium: /assets/images/exhibit-images/23-147-exhibit-the-funky-skunk-funky-skunk-medium.jpg
+  large: /assets/images/exhibit-images/23-147-exhibit-the-funky-skunk-funky-skunk-large.jpg
+  full: /assets/images/exhibit-images/23-147-exhibit-the-funky-skunk-funky-skunk-full.jpg
 maker: 
   name: "Brandon  Willis/ The Funky Skunk"
   description: "Art Car/ Mutant vehicle builder"
@@ -31,8 +31,8 @@ categories:
   - slug: vehicles
     name: Vehicles
 created-jotform: "2023-09-17 12:30:08"
-last-modified-jotform: "2023-09-17 12:46:29"
-last-exported: "2023-09-17 12:46:47"
+last-modified-jotform: "2023-09-17 15:29:54"
+last-exported: "2023-09-17 15:30:13"
 sitemap: false
 
 ---
