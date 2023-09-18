@@ -14,7 +14,7 @@ Stepper Boss Features:
 -	Stereo audio output.
 -	SB_T41_4on_2ext board controls up to four small stepper motors, N11 or N17, and sends signals to up to two external stepper drivers so large steppers can be used.
 -	 SB_T41_7ext board signals up to seven large stepper motors. Any size external stepper driver, power supply, and stepper can be used. Need to rotate a car?
--	I2C signals to drive the optional LCD display, extendable to other I2C devices you may use.
+-	I2C signals to drive the optional LCD display with 3W stereo amp, extendable to other I2C devices you may use.
 -	1-Wire signal to measure several temperatures.  Motors in an enclosure generate heat. Use this to design cooling.
 -	Several uncommitted IO pins for expansion.
 -	Compact at only 100mm x 100mm (4” x 4”).
@@ -26,58 +26,53 @@ Accessories include:
 -	SB_Rear Panel_120V provides for connection of 120ACV, fuses for 5V and 12V, On/Off switch and uUSB for computer to Teensy 4.1 sketch uploading.
 -	SB_Rear Panel_5V and 12V provides for connection of 5VDC, to 12VDC (up to 28.5VDC), 5V and 12V pilot LEDs, SPDIF audio jack, On/Off switch and micro USB socket for connection to computer.
 "
-image: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-waves-hello-large.jpg
+image: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-marco-stepper-boss-board-crpd-rdcd18-large.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-waves-hello-small.jpg
-  medium: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-waves-hello-medium.jpg
-  large: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-waves-hello-large.jpg
-  full: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-waves-hello-full.jpg
+  small: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-marco-stepper-boss-board-crpd-rdcd18-small.jpg
+  medium: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-marco-stepper-boss-board-crpd-rdcd18-medium.jpg
+  large: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-marco-stepper-boss-board-crpd-rdcd18-large.jpg
+  full: /assets/images/exhibit-images/23-49-exhibit-muvmotors-make-your-projects-move-botteli-marco-stepper-boss-board-crpd-rdcd18-full.jpg
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-sb-rear-panel-5v-and-12v-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-sb-rear-panel-5v-and-12v-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-sb-rear-panel-5v-and-12v-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-sb-rear-panel-5v-and-12v-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-botteli-the-bottle-man-rdcd-rotd-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-botteli-the-bottle-man-rdcd-rotd-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-botteli-the-bottle-man-rdcd-rotd-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl1-muvmotors-make-your-projects-move-botteli-the-bottle-man-rdcd-rotd-full.jpg
   - 2:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-sb-t41-4on-2ext-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-sb-t41-4on-2ext-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-sb-t41-4on-2ext-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-sb-t41-4on-2ext-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-botteli-sb-lcd-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-botteli-sb-lcd-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-botteli-sb-lcd-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl2-muvmotors-make-your-projects-move-botteli-sb-lcd-full.jpg
   - 3:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-uno-2on-2ext-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-uno-2on-2ext-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-uno-2on-2ext-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-uno-2on-2ext-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-t41-4on-2ext-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-t41-4on-2ext-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-t41-4on-2ext-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl3-muvmotors-make-your-projects-move-sb-t41-4on-2ext-full.jpg
   - 4:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-botteli-the-bottle-man-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-botteli-the-bottle-man-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-botteli-the-bottle-man-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-botteli-the-bottle-man-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-sb-t41-7ext-rdcd-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-sb-t41-7ext-rdcd-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-sb-t41-7ext-rdcd-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl4-muvmotors-make-your-projects-move-sb-t41-7ext-rdcd-full.jpg
   - 5:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-botteli-the-bottle-man-lcd-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-botteli-the-bottle-man-lcd-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-botteli-the-bottle-man-lcd-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-botteli-the-bottle-man-lcd-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-sb-uno-2on-2ext-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-sb-uno-2on-2ext-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-sb-uno-2on-2ext-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl5-muvmotors-make-your-projects-move-sb-uno-2on-2ext-full.jpg
   - 6:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stepper-boss-controller-in-botteli-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stepper-boss-controller-in-botteli-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stepper-boss-controller-in-botteli-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stepper-boss-controller-in-botteli-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-rotd-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-rotd-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-rotd-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl6-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-rotd-full.jpg
   - 7:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-sb-t41-7ext-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-sb-t41-7ext-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-sb-t41-7ext-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-sb-t41-7ext-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-stepper-boss-controller-in-botteli-rdc-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-stepper-boss-controller-in-botteli-rdc-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-stepper-boss-controller-in-botteli-rdc-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl7-muvmotors-make-your-projects-move-stepper-boss-controller-in-botteli-rdc-full.jpg
   - 8:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl8-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl8-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl8-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl8-muvmotors-make-your-projects-move-stack-of-front-panel-user-io-stereo-sb-t41-boards-full.jpg
-  - 9:
-    small: /assets/images/exhibit-images/23-49-exhibit-addl9-muvmotors-make-your-projects-move-user-io-stereo-rd-small.jpg
-    medium: /assets/images/exhibit-images/23-49-exhibit-addl9-muvmotors-make-your-projects-move-user-io-stereo-rd-medium.jpg
-    large: /assets/images/exhibit-images/23-49-exhibit-addl9-muvmotors-make-your-projects-move-user-io-stereo-rd-large.jpg
-    full: /assets/images/exhibit-images/23-49-exhibit-addl9-muvmotors-make-your-projects-move-user-io-stereo-rd-full.jpg
+    small: /assets/images/exhibit-images/23-49-exhibit-addl8-muvmotors-make-your-projects-move-user-io-stereo-rd-small.jpg
+    medium: /assets/images/exhibit-images/23-49-exhibit-addl8-muvmotors-make-your-projects-move-user-io-stereo-rd-medium.jpg
+    large: /assets/images/exhibit-images/23-49-exhibit-addl8-muvmotors-make-your-projects-move-user-io-stereo-rd-large.jpg
+    full: /assets/images/exhibit-images/23-49-exhibit-addl8-muvmotors-make-your-projects-move-user-io-stereo-rd-full.jpg
 maker: 
   name: "MuvMotors, LLC"
   description: "Move your projects with MuvMotors Stepper Boss products. Motion for animatronics, animated creatures, museum dioramas, mannequins or sculptures."
@@ -95,8 +90,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-08-09 15:31:27"
-last-modified-jotform: "2023-08-30 18:52:39"
-last-exported: "2023-08-30 19:00:01"
+last-modified-jotform: "2023-09-18 15:48:11"
+last-exported: "2023-09-18 18:26:09"
 sitemap: false
 
 ---
