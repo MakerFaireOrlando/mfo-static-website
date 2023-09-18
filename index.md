@@ -37,14 +37,14 @@ carousel-slides:
 
 
 {% include featured-makers-grid.html %}
-{% comment %}
+
 {% include explore-meet-makers.html %}
-{% endcomment %}
 
 
 
+{% comment %}
 {% include call-for-makers-widget.html %}
-
+{% endcomment %}
 
 {% comment %}
 
