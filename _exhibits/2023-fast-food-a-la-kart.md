@@ -22,9 +22,11 @@ maker:
 categories: 
   - slug: electric-vehicles
     name: Electric Vehicles
+  - slug: power-racing
+    name: Power Racing
 created-jotform: "2023-09-18 08:12:53"
-last-modified-jotform: "2023-09-18 18:28:41"
-last-exported: "2023-09-18 18:33:39"
+last-modified-jotform: "2023-09-18 20:10:00"
+last-exported: "2023-09-18 20:10:07"
 sitemap: false
 
 ---
