@@ -23,10 +23,12 @@ additional-images:
 website: "https://www.meganorussell.com/thebooks"
 maker: 
   name: "Megan O'Russell"
-  description: "My name is Megan O'Russell. I am an epic and young adult fantasy author with twenty-nine books across eight series, and I would be very interested in having a booth where I could share my books with the Maker Faire community.
+  description: "My name is Megan O'Russell. I am an epic and young adult fantasy author with twenty-nine books across eight series.
+
 In addition to being an author, I am also an advocate for the Indie Author community and dedicated to helping new authors begin their path to publication. 
-Thank you for your consideration, and I hope to see you at the Maker Faire,
-Megan O'Russell"
+
+I hope to see you at the Maker Faire!
+~Megan"
   image-primary: /assets/images/exhibit-images/23-146-maker-megan-orussells-book-booth-ink-worlds-press-logo-c2-1-medium.png
   website: https://www.meganorussell.com/
   twitter: https://www.twitter.com/MeganORussell
@@ -37,8 +39,8 @@ categories:
   - slug: content-creator
     name: Content Creator
 created-jotform: "2023-09-16 21:14:27"
-last-modified-jotform: "2023-09-19 06:45:14"
-last-exported: "2023-09-19 07:00:53"
+last-modified-jotform: "2023-09-19 09:34:04"
+last-exported: "2023-09-20 07:13:59"
 sitemap: false
 
 ---
