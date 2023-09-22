@@ -4,28 +4,29 @@
 title: "Dudley"
 slug: dudley
 permalink: /exhibits/dudley/
-exhibit-id: 22R-21
+exhibit-id: 23R-43
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
-description: "DoD"
-description-long: "Dealer of Damage"
-image: /assets/images/exhibit-images/22R-21-exhibit-dudley-43-rwr-2605-large.jpg
+description: "Fighting 3 Robots"
+description-long: "Fighting 3 combat robots"
+image: /assets/images/exhibit-images/23R-43-exhibit-dudley-43-youtube-watermark-6310-large.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/22R-21-exhibit-dudley-43-rwr-2605-small.jpg
-  medium: /assets/images/exhibit-images/22R-21-exhibit-dudley-43-rwr-2605-medium.jpg
-  large: /assets/images/exhibit-images/22R-21-exhibit-dudley-43-rwr-2605-large.jpg
-  full: /assets/images/exhibit-images/22R-21-exhibit-dudley-43-rwr-2605-full.jpg
+  small: /assets/images/exhibit-images/23R-43-exhibit-dudley-43-youtube-watermark-6310-small.jpg
+  medium: /assets/images/exhibit-images/23R-43-exhibit-dudley-43-youtube-watermark-6310-medium.jpg
+  large: /assets/images/exhibit-images/23R-43-exhibit-dudley-43-youtube-watermark-6310-large.jpg
+  full: /assets/images/exhibit-images/23R-43-exhibit-dudley-43-youtube-watermark-6310-full.jpg
 video: "https://www.youtube.com/channel/UCvN7uz2wnKV5poErY_u1lKQ"
 maker: 
-  name: "RedWire Robotics"
-  description: "Robot Builders"
-  image-primary: /assets/images/exhibit-images/22R-21-maker-dudley-rwr-medium.jpg
+  name: "Redwire Robotics"
+  description: "Fighting 3 Robots"
+  image-primary: /assets/images/exhibit-images/23R-43-maker-dudley-youtube-watermark-medium.jpg
+  youtube: https://www.youtube.com/channel/UCvN7uz2wnKV5poErY_u1lKQ
 categories: 
   - slug: combat-robots
     name: Combat Robots
-created-jotform: "2023-09-12 14:37:15"
-last-modified-jotform: "2023-09-19 06:45:10"
-last-exported: "2023-09-19 07:00:51"
+created-jotform: "2023-09-20 23:09:40"
+last-modified-jotform: "2023-09-21 22:29:38"
+last-exported: "2023-09-21 22:31:01"
 sitemap: false
 
 ---
