@@ -230,8 +230,11 @@ def export(outputAll):
     countFeeDraft = 0
     countFeePaid = 0
     countFeeWaived = 0
+    countFeeWaived = 0
     countInvoiceGenerated = 0
     countFeeNotReq = 0
+    countSelling = 0
+    countRobots = 0
 
     if path.exists('private.yaml'):
       yamlFile = 'private.yaml'
@@ -334,6 +337,11 @@ def export(outputAll):
           name           = getAnswerByName(ans,"name")
 
           #print(mfoID, exhibitName, email, name['first'], name['last'])
+          if (feeStatus):
+              if ('Fee Not Invoiced' in feeStatus or 'Fee Due' in feeStatus or 'Fee Paid' in feeStatus or 'Fee Waived' in feeStatus):
+                  if (not isRuckus): countSelling = countSelling + 1
+                  if (isRuckus): countRobots = countRobots + 1
+
 
           if (feeStatus and viz):
 
@@ -346,7 +354,6 @@ def export(outputAll):
                 else:
                     iType = "seller"
                     fee = "100.00"
-
 
 
                 findResp = findPayPalInvoice(pp_access_token, mfoID)
@@ -371,6 +378,7 @@ def export(outputAll):
                     if (isRuckus): jotformAPI.edit_submission(submission_id, {"114": "Fee Paid"})
                     else: jotformAPI.edit_submission(submission_id, {"117": "Fee Paid"})
                     countFeePaid = countFeePaid + 1
+                    if (not isRuckus): countSelling = countSelling +1
                 else:
                     print ("ERROR: UNKNOWN STATUS!")
 
@@ -408,9 +416,11 @@ def export(outputAll):
     print("Submissions Found: " + str(countSubmissions))
     print("Submissions Visible (Approved): " + str(countVisible))
 
-    totalSelling = countFeeDraft + countFeeSent + countFeePaid
-    print("Total Selling: " + str(totalSelling))
-    print("% Vendor {:.1f}%".format((totalSelling/countVisible)*100))
+    totalInvoiced = countFeeDraft + countFeeSent + countFeePaid
+    print("Total Invoiced: " + str(totalInvoiced))
+    print("Combot Robots: " + str(countRobots))
+    print("Selling: " + str(countSelling))
+    print("% Vendor {:.1f}%".format((countSelling/countVisible)*100))
     print("---------------------------------------------------------------------------")
     print("Fees Not Required: " + str(countFeeNotReq))
 #    print("Fees Waived: " + str(countFeeWaived))
