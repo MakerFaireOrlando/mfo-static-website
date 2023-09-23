@@ -33,14 +33,12 @@ additional-images:
 website: "https://youtu.be/pbfjQbS_FCA?si=8ULSgNvWerGhAuuB"
 maker: 
   name: "Authentic Exploration Matters(AEM)"
-  description: "Hello!  I am an ambassador for AEM.  I earned this title when I was selected, along with 7 other FL teachers, to attend the AEM Educator Retreat this past                                                                                                                         
-summer in Key Largo FL. We were able to spend one day at Marine Lab and one day at the Coral Restoration Foundation, getting to do hands on labs, interactive workshops, and do snorkel explore of the Mangrove ecosystems, and also the world's largest coral restoration project.  This program was so phenomenally uplifting to each of us, finding like minded educators who want to bring real world sustainability and  learning science to our students.
+  description: "Hello!  I am Susan Peoski, Environmental Science teacher at Edgewater High School. I also have the privilege of being an Educator Ambassador for Authentic Exploration Matters (AEM).  I earned this title when I was selected, along with 7 other FL teachers, to attend the AEM Educator Retreat this past summer in Key Largo FL. Thanks to AEM and a STEAM grant from the Anntte Urso Rickle Foundation, we were able to spend one full day at Marine Lab followed by one day at the Coral Restoration Foundation.  We were immersed in hands on labs, interactive workshops, and snorkel exploration of the Mangrove ecosystems, as well as, the world's largest coral restoration project. This program was so empowering to each of us, finding like minded educators who want to bring real world sustainability and learning to our students.
 
-Ashley Holleran and Kirstin Cowan are the amazing women/educators that run this non-profit to bring enrichment, empowerment, and exploration to teachers. They put the summer retreat together with grants and funding so that each of us were able to go for free.  That still boggles my mind as this was the MOST empowering experience of my 6 year teaching career.
+Ashley Holleran and Kirstin Cowan are the amazing educators that run this non-profit. The focus is on bringing enrichment, empowerment, and exploration to teachers. These two ladies have a wealth of education, certifications,  and experience that make them experts in this area.  They were a major presenter at the OCPS Green Schools Recognition Program Awards Banquet last week, and they continue to share their teaching tools at every opportunity.
+They built the unforgettable summer educator retreat with grants and funding that allowed 8 educators from K-12 public and private Florida schools to attend for free.  That still boggles my mind as this was the MOST empowering experience of my 7 year teaching career.  
 
-November is my month to host a meet-up, in which we invite other educators to come for help and inspiration in any area of need.  As we met up this past Saturday, I had oh wow, wait a minute moment and realized I kept seeing FB posts about exhibitors for one of my most favorite Orlando events, Maker's Faire, and instead of meeting at a coffee shop, how about becoming an exhibitor and be at a prime location for educators like myself to see what AEM is doing.  To connect with us and likewise be empowered.
-
-These two ladies have a wealth of education, certifications,  and experience that make them experts in this area.  They were a major presenter at the OCPS Green Schools Recognition Program Awards Banquet last week, and they continue to share their teaching tools at every opportunity.
+November is my month to host a meet-up, called Leading Light, in which we invite other educators to come for help and inspiration.  As we met up this past Saturday, I had oh wow! moment and remembered seeing FB posts about exhibitors for one of my most favorite Orlando events, Maker's Faire. I could not think of a more enriching location for educators to see what AEM is doing.  
 
 Please allow us to be exhibitors.  To have two of my favorite exploration organizations together in one place would be beyond amazing.  Below, please find the AEM motto, mission, and vision.  This says it all. 
 
@@ -52,7 +50,8 @@ To provide a free web-based platform for teachers who seek to promote innovation
 
 Our Vision
 
-Teachers have the tools to engage all students in relevant and purposeful content; relabeling classroom learning with a systems thinking approach."
+Teachers have the tools to engage all students in relevant and purposeful content; relabeling classroom learning with a systems thinking approach.
+"
   image-primary: /assets/images/exhibit-images/23-153-maker-authentic-exploration-matters-aem-medium.png
   website: https://www.authenticexplorationmatters.com/
   instagram: https://www.instagram.com/authentic_exploration_matters/
@@ -68,8 +67,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2023-09-20 01:11:12"
-last-modified-jotform: "2023-09-20 06:25:42"
-last-exported: "2023-09-20 07:13:50"
+last-modified-jotform: "2023-09-22 05:55:38"
+last-exported: "2023-09-22 05:56:06"
 sitemap: false
 
 ---
