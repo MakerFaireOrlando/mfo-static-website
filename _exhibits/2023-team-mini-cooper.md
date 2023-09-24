@@ -5,6 +5,7 @@ title: "Team Mini Cooper"
 slug: team-mini-cooper
 permalink: /exhibits/team-mini-cooper/
 exhibit-id: 23-71
+exhibit-zone: "Power Racing Track"
 space-number: Unassigned
 description: "Power Racing Series Mini Cooper
 
@@ -26,8 +27,8 @@ categories:
   - slug: power-racing
     name: Power Racing
 created-jotform: "2023-08-24 11:21:40"
-last-modified-jotform: "2023-09-02 15:43:40"
-last-exported: "2023-09-02 16:14:22"
+last-modified-jotform: "2023-09-24 08:14:48"
+last-exported: "2023-09-24 14:23:22"
 sitemap: false
 
 ---
