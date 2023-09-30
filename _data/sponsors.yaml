@@ -106,3 +106,8 @@ sponsors:
     logo: flux.png
     level: 4
     active: true
+  - name: Revopoint
+    url: https://www.revopoint3d.com
+    logo: revopoint.png
+    level: 4
+    active: true
