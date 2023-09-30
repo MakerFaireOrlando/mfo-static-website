@@ -5,6 +5,7 @@ title: "Czartroniks"
 slug: czartroniks
 permalink: /exhibits/czartroniks/
 exhibit-id: 23-99
+exhibit-zone: "The Dark Side (Spirit Building)"
 space-number: Unassigned
 description: "Custom made musical instruments and video projects"
 description-long: "Czartroniks is a collection of custom made electronical musical instruments which interfaces with audio and video projects"
@@ -30,8 +31,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2023-08-30 16:54:57"
-last-modified-jotform: "2023-08-30 18:55:58"
-last-exported: "2023-08-30 18:58:59"
+last-modified-jotform: "2023-09-29 16:00:29"
+last-exported: "2023-09-30 16:47:49"
 sitemap: false
 
 ---

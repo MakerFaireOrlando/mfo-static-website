@@ -5,6 +5,7 @@ title: "Knight Fights"
 slug: knight-fights
 permalink: /exhibits/knight-fights/
 exhibit-id: 23-134
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Showcasing Medieval Armored Combat through the Sport of Kings, also known as Buhurt"
 description-long: "Saturday - 
@@ -56,8 +57,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2023-09-08 18:20:59"
-last-modified-jotform: "2023-09-08 22:47:24"
-last-exported: "2023-09-08 22:52:25"
+last-modified-jotform: "2023-09-29 15:53:41"
+last-exported: "2023-09-30 16:47:49"
 sitemap: false
 
 ---

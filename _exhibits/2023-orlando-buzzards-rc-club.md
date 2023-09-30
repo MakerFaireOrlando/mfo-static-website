@@ -5,6 +5,7 @@ title: "Orlando Buzzards RC Club"
 slug: orlando-buzzards-rc-club
 permalink: /exhibits/orlando-buzzards-rc-club/
 exhibit-id: 23-55
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Static display a variety of the model airplanes."
 description-long: "Would like to introduce people to beautiful hobby of building and flying model airplane/sailplane, also invite people to visit our flying field in Christmas FL, and be available to answer question about the model aviation."
@@ -36,8 +37,8 @@ categories:
   - slug: education
     name: Education
 created-jotform: "2023-08-15 18:57:06"
-last-modified-jotform: "2023-08-19 20:37:36"
-last-exported: "2023-08-21 10:39:12"
+last-modified-jotform: "2023-09-29 15:55:55"
+last-exported: "2023-09-30 16:47:56"
 sitemap: false
 
 ---

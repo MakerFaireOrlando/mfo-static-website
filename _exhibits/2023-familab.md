@@ -5,6 +5,7 @@ title: "FamiLab"
 slug: familab
 permalink: /exhibits/familab/
 exhibit-id: 23-96
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Come see some things local members have made and hear how you can join the FamiLab Community!"
 description-long: "FamiLab will be showing off items made by some of our members and discussing a wide variety of hobbies, makes, hacks, etc."
@@ -34,8 +35,8 @@ categories:
   - slug: maker-community
     name: Maker Community
 created-jotform: "2023-08-29 22:46:31"
-last-modified-jotform: "2023-08-30 18:55:46"
-last-exported: "2023-08-30 18:59:04"
+last-modified-jotform: "2023-09-29 15:54:53"
+last-exported: "2023-09-30 16:47:55"
 sitemap: false
 
 ---

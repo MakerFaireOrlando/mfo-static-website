@@ -5,6 +5,7 @@ title: "Ailuros"
 slug: ailuros
 permalink: /exhibits/ailuros/
 exhibit-id: 23-4
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Making fandom dreams come true, one stitch at a time. "
 description-long: "We make bags and accessories of all variety to serve your everyday or specific needs with a variety of fabrics. Focusing mainly on fandoms, arts and overall nerdy fun stuff."
@@ -33,8 +34,8 @@ categories:
   - slug: sewing
     name: Sewing
 created-jotform: "2023-07-22 18:42:56"
-last-modified-jotform: "2023-09-11 18:47:52"
-last-exported: "2023-09-12 19:33:30"
+last-modified-jotform: "2023-09-29 15:57:28"
+last-exported: "2023-09-30 16:47:58"
 sitemap: false
 
 ---

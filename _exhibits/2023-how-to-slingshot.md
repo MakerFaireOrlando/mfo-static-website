@@ -5,6 +5,7 @@ title: "How to: Slingshot"
 slug: how-to-slingshot
 permalink: /exhibits/how-to-slingshot/
 exhibit-id: 23-80
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "An example of all the different ways one can propel a projectile with a forked shape. "
 description-long: "Couple years ago I exhibited and it was a success. I had a small area where I could safely demonstrate outside. And show a wide range of examples of slingshot craftsmanship. Can display 100 different slingshots. "
@@ -30,8 +31,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-08-27 19:00:51"
-last-modified-jotform: "2023-09-02 09:13:13"
-last-exported: "2023-09-02 09:17:35"
+last-modified-jotform: "2023-09-29 16:15:20"
+last-exported: "2023-09-30 16:47:56"
 sitemap: false
 
 ---

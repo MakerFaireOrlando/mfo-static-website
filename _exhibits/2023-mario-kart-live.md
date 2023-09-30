@@ -5,6 +5,7 @@ title: "Mario Kart Live"
 slug: mario-kart-live
 permalink: /exhibits/mario-kart-live/
 exhibit-id: 23-126
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Race Mario and his brother Luigi in the real world on a race track built inside a trailer."
 description-long: "Using Nintendo's augmented reality created for the Switch 4 players will be able to race through a real world track against their friends."
@@ -42,8 +43,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-09-04 15:52:36"
-last-modified-jotform: "2023-09-04 19:03:03"
-last-exported: "2023-09-04 19:06:00"
+last-modified-jotform: "2023-09-29 15:53:56"
+last-exported: "2023-09-30 16:47:49"
 sitemap: false
 
 ---

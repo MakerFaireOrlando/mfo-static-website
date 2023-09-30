@@ -5,6 +5,7 @@ title: "Voiture Araba Kereta"
 slug: voiture-araba-kereta
 permalink: /exhibits/voiture-araba-kereta/
 exhibit-id: 23-108
+exhibit-zone: "Power Racing Track"
 space-number: Unassigned
 description: "An electric car, developed from scratch built around a kids powerwheels jeep"
 description-long: "A kids power wheels car developed by two high school students, built from the ground up. Taking a kids toy jeep frame and putting it on top of a custom built frame, 1800W motor, and 3 48V LiPo's, it will overpower any opponents, called the Prideful Pursuit. Also, the name translate to Car Car Car"
@@ -24,8 +25,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2023-08-30 22:20:08"
-last-modified-jotform: "2023-08-31 05:29:16"
-last-exported: "2023-08-31 18:14:14"
+last-modified-jotform: "2023-09-29 16:24:27"
+last-exported: "2023-09-30 16:47:49"
 sitemap: false
 
 ---

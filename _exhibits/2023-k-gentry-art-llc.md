@@ -5,6 +5,7 @@ title: "K Gentry Art LLC"
 slug: k-gentry-art-llc
 permalink: /exhibits/k-gentry-art-llc/
 exhibit-id: 23-12
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "K GentryArt features the character based artwork of T. Kyle Gentry. "
 description-long: "K GentryArt features the character based artwork of T. Kyle Gentry.  Kyle creates character based illustration and designs for sale as prints, books, and canvases.  He also creates for the animation and publishing industry.  Some of the work he has done is for Disney/ Marvel in children's books tied into the Spidey and His Amazing Friends children's animated show as well as Alice's Wonderland Bakery."
@@ -38,8 +39,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2023-07-22 21:10:39"
-last-modified-jotform: "2023-08-28 19:16:34"
-last-exported: "2023-08-28 19:44:52"
+last-modified-jotform: "2023-09-29 15:58:02"
+last-exported: "2023-09-30 16:47:57"
 sitemap: false
 
 ---

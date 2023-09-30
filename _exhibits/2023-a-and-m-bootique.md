@@ -5,6 +5,7 @@ title: "A and M Bootique"
 slug: a-and-m-bootique
 permalink: /exhibits/a-and-m-bootique/
 exhibit-id: 23-11
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "My name is Amy and I've been sewing for 25 years embroidery 6. Chris has been woodworking for 20. "
 description-long: "I've been sewing  costumes, clothing, quilting, home decor, and started embroidery about 6 years ago. I embroider keychains,  bookmarks,  earrings,  purses and accessories.  I also taught sewing and quilting at Joanns for 5 years. I really enjoy showing people how to. I'm also always open to learning new things. Chris has been woodworking for about 20 years. He works for a cabinet company and enjoys creating home decor items like wall shelves, pepper mills, bowls and recently got into CNC work. "
@@ -87,8 +88,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-07-22 20:27:43"
-last-modified-jotform: "2023-08-27 20:46:48"
-last-exported: "2023-08-27 22:35:45"
+last-modified-jotform: "2023-09-29 15:57:58"
+last-exported: "2023-09-30 16:47:57"
 sitemap: false
 
 ---

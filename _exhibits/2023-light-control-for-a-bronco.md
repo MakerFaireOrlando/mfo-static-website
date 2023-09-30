@@ -5,6 +5,7 @@ title: "Light Control for a Bronco"
 slug: light-control-for-a-bronco
 permalink: /exhibits/light-control-for-a-bronco/
 exhibit-id: 23-94
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "How I control my aux lights in my Ford Bronco."
 description-long: "My progress of just using switches to turn on lights. To using microcontrollers, relays, and Rf to turn them on. When I first began I just used 3 switches in a project box.
@@ -53,8 +54,8 @@ categories:
   - slug: raspberry-pi
     name: Raspberry Pi
 created-jotform: "2023-08-29 18:35:21"
-last-modified-jotform: "2023-08-30 18:55:27"
-last-exported: "2023-08-30 18:59:14"
+last-modified-jotform: "2023-09-29 16:26:51"
+last-exported: "2023-09-30 16:47:55"
 sitemap: false
 
 ---

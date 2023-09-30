@@ -5,6 +5,7 @@ title: "Liminal Craft"
 slug: liminal-craft
 permalink: /exhibits/liminal-craft/
 exhibit-id: 23-14
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Come check out Liminal Craft's jewelry, art, and other original items!"
 description-long: "Liminal Craft makes fandom art, original art, jewelry, pins, and other things. Running since 2009, the booth has gone to anime conventions, fandom events, scifi shows, and other events for more than a decade. Come check out the spooky newspaper!"
@@ -32,8 +33,8 @@ categories:
   - slug: jewelry
     name: Jewelry
 created-jotform: "2023-07-23 09:41:38"
-last-modified-jotform: "2023-08-28 19:16:34"
-last-exported: "2023-08-28 19:44:51"
+last-modified-jotform: "2023-09-29 15:58:17"
+last-exported: "2023-09-30 16:47:57"
 sitemap: false
 
 ---

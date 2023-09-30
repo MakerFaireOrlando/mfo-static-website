@@ -5,6 +5,7 @@ title: "Coruscate Leather and co"
 slug: coruscate-leather-and-co
 permalink: /exhibits/coruscate-leather-and-co/
 exhibit-id: 23-20
+exhibit-zone: "Spirit"
 space-number: Unassigned
 description: "Coruscate Leather and Co is a small local heritage quality leather goods shop."
 description-long: "Coruscate Leather and Co is a local leather shop specializing in heritage quality leather goods and accessories. We offer everything from handbags to cosplay goods."
@@ -86,8 +87,8 @@ categories:
   - slug: jewelry
     name: Jewelry
 created-jotform: "2023-07-24 09:34:41"
-last-modified-jotform: "2023-09-09 18:20:41"
-last-exported: "2023-09-09 22:25:15"
+last-modified-jotform: "2023-09-29 17:45:40"
+last-exported: "2023-09-30 16:47:57"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Hand painted minis by Bob"
 slug: hand-painted-minis-by-bob
 permalink: /exhibits/hand-painted-minis-by-bob/
 exhibit-id: 23-128
+exhibit-zone: "Spirit"
 space-number: Unassigned
 description: "Hand painted 3D printed miniatures "
 description-long: "3D printed fantasy miniatures and Star Wars blasters and miniature Star Wars helmets all hand painted by Bob"
@@ -22,8 +23,8 @@ categories:
   - slug: 3d-printing
     name: 3D Printing
 created-jotform: "2023-09-06 19:52:27"
-last-modified-jotform: "2023-09-28 22:16:40"
-last-exported: "2023-09-28 23:05:20"
+last-modified-jotform: "2023-09-29 17:47:42"
+last-exported: "2023-09-30 16:47:49"
 sitemap: false
 
 ---

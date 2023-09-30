@@ -5,6 +5,7 @@ title: "The Crafty Gamer"
 slug: the-crafty-gamer
 permalink: /exhibits/the-crafty-gamer/
 exhibit-id: 23-3
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "We are a candle & hobby shop located in Winter Park FL."
 description-long: "We are a hobby store and lifestyle brand in Winter Park FL that manufactures our own scented product line called the Aromas of Adventure. We carry everything from board games, RPGs, dice, trading card games, candles, laser engraved coasters, custom home decor and accessories."
@@ -32,8 +33,8 @@ categories:
   - slug: fabric-arts
     name: Fabric Arts
 created-jotform: "2023-07-22 18:06:17"
-last-modified-jotform: "2023-09-04 07:41:21"
-last-exported: "2023-09-04 12:25:38"
+last-modified-jotform: "2023-09-29 15:57:31"
+last-exported: "2023-09-30 16:47:58"
 sitemap: false
 
 ---

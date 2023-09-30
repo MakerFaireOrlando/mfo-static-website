@@ -5,6 +5,7 @@ title: "Tampa Deep Sea Xplorers"
 slug: tampa-deep-sea-xplorers
 permalink: /exhibits/tampa-deep-sea-xplorers/
 exhibit-id: 23-42
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Tampa Deep Sea Xplorers is improving the cost effectiveness of underwater exploration.
 "
@@ -44,8 +45,8 @@ categories:
   - slug: invention
     name: Invention
 created-jotform: "2023-08-04 11:05:28"
-last-modified-jotform: "2023-08-19 20:45:57"
-last-exported: "2023-08-21 10:39:12"
+last-modified-jotform: "2023-09-29 15:56:45"
+last-exported: "2023-09-30 16:47:56"
 sitemap: false
 
 ---

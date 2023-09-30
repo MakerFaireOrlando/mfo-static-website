@@ -5,6 +5,7 @@ title: "ChipScapes"
 slug: chipscapes
 permalink: /exhibits/chipscapes/
 exhibit-id: 23-68
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "ChipScapes are wall art and jewelry made with computer chips. Truly unique gift ideas for tech types"
 description-long: "Step into a hidden realm where technology becomes art, where the infinitesimal landscapes of computer chips transform into captivating vistas known as ChipScapes. Imagine peering through a miniature looking glass into a universe unseen by the naked eye – a world of silicon secrets, a symphony of bytes and circuits. This is the realm of ChipScapes, where microscopic landscapes come to life in wall art and jewelry. What was once a mundane, silvery-gray expanse, becomes an explosion of vibrant hues and dazzling shades. The secret behind this transformation lies in a meticulously orchestrated ballet of light, a dance that unveils the hidden layers of chip manufacturing. If you yearn to unlock the secrets of the digital age, to witness the interplay of science, history, and artistry, join us. Uncover the hidden tales of chips that power our lives, explore the chronicles that link past to present, and witness the awe-inspiring spectacle of chips magnified to a realm where giants are dwarfed and marvels are unveiled."
@@ -83,8 +84,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2023-08-23 07:34:07"
-last-modified-jotform: "2023-08-27 22:55:10"
-last-exported: "2023-08-28 19:44:39"
+last-modified-jotform: "2023-09-29 15:55:11"
+last-exported: "2023-09-30 16:47:56"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "PiPlay"
 slug: piplay
 permalink: /exhibits/piplay/
 exhibit-id: 23-28
+exhibit-zone: "The Dark Side (Spirit Building)"
 space-number: Unassigned
 description: "PiPlay - Video Gaming on the Raspberry Pi!!!"
 description-long: "PiPlay - Video Gaming on the Raspberry Pi!!!  This year we will be exhibiting our giant arcade joystick along with projected arcade games, all powered by a Raspberry Pi"
@@ -28,8 +29,8 @@ categories:
   - slug: raspberry-pi
     name: Raspberry Pi
 created-jotform: "2023-07-27 16:30:45"
-last-modified-jotform: "2023-08-19 20:44:40"
-last-exported: "2023-08-21 10:39:12"
+last-modified-jotform: "2023-09-29 16:14:10"
+last-exported: "2023-09-30 16:47:57"
 sitemap: false
 
 ---

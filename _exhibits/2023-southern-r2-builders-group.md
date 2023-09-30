@@ -5,6 +5,7 @@ title: "Southern R2 Builders Group"
 slug: southern-r2-builders-group
 permalink: /exhibits/southern-r2-builders-group/
 exhibit-id: 23-76
+exhibit-zone: "Spirit"
 space-number: Unassigned
 description: "We build droids from Star Wars franchise. "
 description-long: "We are a group of builders that help each other out in constructing a droid from Star Wars franchise and other Sci-Fi shows. "
@@ -38,8 +39,8 @@ categories:
   - slug: engineering
     name: Engineering
 created-jotform: "2023-08-26 19:44:32"
-last-modified-jotform: "2023-09-04 11:16:29"
-last-exported: "2023-09-04 12:25:37"
+last-modified-jotform: "2023-09-29 15:55:02"
+last-exported: "2023-09-30 16:47:56"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "The Funky Skunk"
 slug: the-funky-skunk
 permalink: /exhibits/the-funky-skunk/
 exhibit-id: 23-147
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Art Car/ Mutant Vehicle "
 description-long: "A street legal, skunk shaped art car. "
@@ -31,8 +32,8 @@ categories:
   - slug: vehicles
     name: Vehicles
 created-jotform: "2023-09-17 12:30:08"
-last-modified-jotform: "2023-09-17 15:29:54"
-last-exported: "2023-09-17 15:30:13"
+last-modified-jotform: "2023-09-29 15:52:47"
+last-exported: "2023-09-30 16:47:48"
 sitemap: false
 
 ---

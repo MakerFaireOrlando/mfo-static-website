@@ -5,6 +5,7 @@ title: "Tampa Hackerspace's PRS Car"
 slug: tampa-hackerspaces-prs-car
 permalink: /exhibits/tampa-hackerspaces-prs-car/
 exhibit-id: 23-148
+exhibit-zone: "Power Racing Track"
 space-number: Unassigned
 description: "Tampa Hackerspace made a car, we hope to race it."
 description-long: "Tampa Hackerspace made a car, we hope to race it."
@@ -22,8 +23,8 @@ categories:
   - slug: power-racing
     name: Power Racing
 created-jotform: "2023-09-17 21:40:48"
-last-modified-jotform: "2023-09-18 06:50:39"
-last-exported: "2023-09-18 06:52:52"
+last-modified-jotform: "2023-09-29 15:52:40"
+last-exported: "2023-09-30 16:47:48"
 sitemap: false
 
 ---

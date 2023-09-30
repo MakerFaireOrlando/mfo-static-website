@@ -5,6 +5,7 @@ title: "Baby Monster Group"
 slug: baby-monster-group
 permalink: /exhibits/baby-monster-group/
 exhibit-id: 23-115
+exhibit-zone: "The Dark Side (Spirit Building)"
 space-number: Unassigned
 description: "We are leveling the STEM playing field for children.  Check out our programmable Interactive Stage. "
 description-long: "INTRODUCING The Interactive Stage, a STEM platform that appeals to a child's natural sense of play. Come check out how you can program your show live on a puppet stage. 
@@ -46,8 +47,8 @@ categories:
   - slug: special-effects
     name: Special Effects
 created-jotform: "2023-08-31 23:14:53"
-last-modified-jotform: "2023-09-01 18:36:43"
-last-exported: "2023-09-02 09:17:34"
+last-modified-jotform: "2023-09-29 16:01:32"
+last-exported: "2023-09-30 16:47:49"
 sitemap: false
 
 ---

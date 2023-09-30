@@ -5,6 +5,7 @@ title: "Be the Hamster"
 slug: be-the-hamster
 permalink: /exhibits/be-the-hamster/
 exhibit-id: 23-38
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Come make your very own snow cone via an 8' tall human powered hamster wheel. Totally off the grid."
 description-long: "I have always enjoyed creating Rube Goldberg style machines.  Most of my ideas come to me gradually, piece by piece with inspiration drawn from a variety of sources.  When I am trying to create something awesome, I believe that it should look good, sound good, and taste good. I also believe that whatever I dream up, must get kids and adults interested by incorporating Science, Engineering, and Math in a way that is practical and engaging.  Sometimes I have a desired outcome and work backwards by designing a machine that will make that product.  Other times, I decide to start building something without yet knowing what the final product will be.  This is the process that led to the Human Powered Frozen Beverage Machine"
@@ -52,8 +53,8 @@ categories:
   - slug: steampunk
     name: SteamPunk
 created-jotform: "2023-08-03 09:39:10"
-last-modified-jotform: "2023-09-04 11:00:59"
-last-exported: "2023-09-04 12:25:38"
+last-modified-jotform: "2023-09-29 16:14:17"
+last-exported: "2023-09-30 16:47:56"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Bachata Hero"
 slug: bachata-hero
 permalink: /exhibits/bachata-hero/
 exhibit-id: 23-103
+exhibit-zone: "The Dark Side (Spirit Building)"
 space-number: Unassigned
 description: "Bachata Hero is an interactive art installation celebrating the Latin music genre of Bachata."
 description-long: "As a Dominican-American, one of my passions is to share my culture though interactive art. This exhibit harnesses the popular gameplay of Guitar Hero to introduce the Bachata music genre to a new audience. Surrounded by the façade of a traditional Caribbean country side home complete with thatched roofing and shiplap walls. Guest's are welcomed step in, grab the custom wooded acoustic guitar, pick a Bachata song, and play along to their hearts content. "
@@ -50,8 +51,8 @@ categories:
   - slug: gaming
     name: Gaming
 created-jotform: "2023-08-30 17:45:36"
-last-modified-jotform: "2023-08-30 21:32:42"
-last-exported: "2023-08-30 21:33:15"
+last-modified-jotform: "2023-09-29 16:00:31"
+last-exported: "2023-09-30 16:47:49"
 sitemap: false
 
 ---

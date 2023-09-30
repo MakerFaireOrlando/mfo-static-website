@@ -5,6 +5,7 @@ title: "#FIRSTwithAT - A Tidal Wave of Assistive Technology"
 slug: firstwithat-a-tidal-wave-of-assistive-technology
 permalink: /exhibits/firstwithat-a-tidal-wave-of-assistive-technology/
 exhibit-id: 23-34
+exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Join us as we make a splash in Assistive Technology at MFO!"
 description-long: "The students on FIRST Robotics Competition Team 4118 will be sharing their work in assistive technology. Some of the exhibits include switch-adapted toys, low-tech AT kit items, and personalized device designs. "
@@ -42,8 +43,8 @@ categories:
   - slug: maker-community
     name: Maker Community
 created-jotform: "2023-07-31 11:31:50"
-last-modified-jotform: "2023-09-12 19:32:38"
-last-exported: "2023-09-12 19:33:29"
+last-modified-jotform: "2023-09-29 17:53:55"
+last-exported: "2023-09-30 16:47:56"
 sitemap: false
 
 ---

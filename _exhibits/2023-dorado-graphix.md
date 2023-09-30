@@ -5,6 +5,7 @@ title: "Dorado Graphix"
 slug: dorado-graphix
 permalink: /exhibits/dorado-graphix/
 exhibit-id: 23-156
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Demonstrations on wide-format printing, cutting and making."
 description-long: "We will be doing demonstrations to show techniques in printing and producing posters, magnets, decals and more.  Come see the things you can make with a big printer."
@@ -35,8 +36,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2023-09-24 15:22:21"
-last-modified-jotform: "2023-09-28 22:47:42"
-last-exported: "2023-09-28 23:05:20"
+last-modified-jotform: "2023-09-29 15:51:56"
+last-exported: "2023-09-30 16:47:48"
 sitemap: false
 
 ---

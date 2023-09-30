@@ -5,6 +5,7 @@ title: "Valencia 3D Printing"
 slug: valencia-3d-printing
 permalink: /exhibits/valencia-3d-printing/
 exhibit-id: 23-69
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Showcase of 3D printing at Valencia College. "
 description-long: "Students working in the Valencia 3D Printing Studio will present their latest projects. Since 2014 we've been offering a Technical Certificate in Rapid Prototyping and students have completed creative and innovative projects using additive and subtractive processes on a variety of machines."
@@ -22,8 +23,8 @@ categories:
   - slug: 3d-printing
     name: 3D Printing
 created-jotform: "2023-08-23 09:38:14"
-last-modified-jotform: "2023-08-27 16:49:58"
-last-exported: "2023-08-27 22:35:44"
+last-modified-jotform: "2023-09-29 17:54:51"
+last-exported: "2023-09-30 16:47:56"
 sitemap: false
 
 ---

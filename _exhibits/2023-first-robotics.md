@@ -5,6 +5,7 @@ title: "FIRST Robotics"
 slug: first-robotics
 permalink: /exhibits/first-robotics/
 exhibit-id: 23-139
+exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Come see the full progression of programs for FIRST Robotics.   We start at age 4 and go up to 18."
 description-long: "We will have robots of all sizes for kids to look at and possibly drive.  Learn about the FIRST program, a global non-profit that uses robots as a tool to get kids interested and excited by careers in STEM fields.  Our students learn all the hard skills, CAD, Programming, Electrical, Manufacturing and Website Development as well as soft skills like Marketing/Branding, Budgeting, Business Plans and Public Speaking.   There is over $80 Million dollars in scholarships available to our students. Meet the local teams and see if one works for your kids"
@@ -31,8 +32,8 @@ categories:
   - slug: first-robotics
     name: FIRST Robotics
 created-jotform: "2023-09-12 19:57:33"
-last-modified-jotform: "2023-09-12 20:02:05"
-last-exported: "2023-09-28 23:06:10"
+last-modified-jotform: "2023-09-29 15:53:28"
+last-exported: "2023-09-30 16:51:05"
 sitemap: false
 
 ---

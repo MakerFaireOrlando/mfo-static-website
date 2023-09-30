@@ -5,6 +5,7 @@ title: "Princesses with Powertools: Learn to Hand Drill"
 slug: princesses-with-powertools-learn-to-hand-drill
 permalink: /exhibits/princesses-with-powertools-learn-to-hand-drill/
 exhibit-id: 23-19
+exhibit-zone: "Spirit"
 space-number: Unassigned
 description: "Learn to use your first powertool from our amazing women engineers dressed as princesses"
 description-long: "Attendees will learn to use a power drill from women engineers dressed as princesses, and will leave with a take-away souvenir constellation projector they made themselves. We’ll be bringing our drill booths, power tools, princesses, and all the materials needed."
@@ -54,8 +55,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-07-23 20:03:28"
-last-modified-jotform: "2023-08-19 20:46:48"
-last-exported: "2023-08-21 10:39:13"
+last-modified-jotform: "2023-09-29 17:52:58"
+last-exported: "2023-09-30 16:47:57"
 sitemap: false
 
 ---

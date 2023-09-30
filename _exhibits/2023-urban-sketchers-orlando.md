@@ -5,6 +5,7 @@ title: "Urban Sketchers Orlando"
 slug: urban-sketchers-orlando
 permalink: /exhibits/urban-sketchers-orlando/
 exhibit-id: 23-105
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Urban Sketchers Orlando promotes sketching as an art and documentary form."
 description-long: "Urban Sketchers Orlando is a chapter of the international Urban Sketchers movement. We come together to draw from direct observation of life, recording daily scenes, special events, and the people and places who make up our incredible world. We encourage everyone to try sketching as a new way to observe and see the world around them -- and to record that world for the future."
@@ -31,8 +32,8 @@ categories:
   - slug: content-creator
     name: Content Creator
 created-jotform: "2023-08-30 20:26:05"
-last-modified-jotform: "2023-08-30 21:32:47"
-last-exported: "2023-08-30 21:33:15"
+last-modified-jotform: "2023-09-29 15:54:46"
+last-exported: "2023-09-30 16:47:49"
 sitemap: false
 
 ---

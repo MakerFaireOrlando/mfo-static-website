@@ -5,6 +5,7 @@ title: "Re-üzit"
 slug: re-uzit
 permalink: /exhibits/re-uzit/
 exhibit-id: 23-143
+exhibit-zone: "Spirit"
 space-number: Unassigned
 description: "Showing award winning and large scale cosplay that's been made from recycled and renewed materials."
 description-long: "Showing cosplay that has been created form old material found at goodwill and thrift store, side of the road and trash bins. It doesn't take much to make amazing cosplay; just time, creativity, and a whole lot of patience. You don't need to break the bank to have a great costume. "
@@ -27,8 +28,8 @@ categories:
   - slug: sewing
     name: Sewing
 created-jotform: "2023-09-15 22:03:26"
-last-modified-jotform: "2023-09-18 06:51:17"
-last-exported: "2023-09-18 06:52:53"
+last-modified-jotform: "2023-09-29 17:44:36"
+last-exported: "2023-09-30 16:47:48"
 sitemap: false
 
 ---

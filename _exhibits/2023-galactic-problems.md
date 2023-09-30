@@ -5,6 +5,7 @@ title: "Galactic Problems"
 slug: galactic-problems
 permalink: /exhibits/galactic-problems/
 exhibit-id: 23-17
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Illustrator and comic creator."
 description-long: "Hello!
@@ -57,8 +58,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2023-07-23 11:46:17"
-last-modified-jotform: "2023-08-28 19:16:32"
-last-exported: "2023-08-28 19:44:51"
+last-modified-jotform: "2023-09-29 15:58:33"
+last-exported: "2023-09-30 16:47:57"
 sitemap: false
 
 ---

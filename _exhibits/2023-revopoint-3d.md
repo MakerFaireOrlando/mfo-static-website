@@ -5,6 +5,7 @@ title: "Revopoint 3D"
 slug: revopoint-3d
 permalink: /exhibits/revopoint-3d/
 exhibit-id: 23-158
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Revopoint will bring its 3D scanners to provide a fun scanning experience."
 description-long: "Revopoint will bring its various scanners for hobbies to scan and get their digital models, whether small or large objects."
@@ -28,8 +29,8 @@ categories:
   - slug: 3d-scanning
     name: 3D Scanning
 created-jotform: "2023-09-28 10:30:06"
-last-modified-jotform: "2023-09-28 16:54:19"
-last-exported: "2023-09-28 22:16:16"
+last-modified-jotform: "2023-09-29 18:04:35"
+last-exported: "2023-09-30 16:47:48"
 sitemap: false
 
 ---

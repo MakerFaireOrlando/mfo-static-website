@@ -5,6 +5,7 @@ title: "Mineral Element Browser (MEOWSER)"
 slug: mineral-element-browser-meowser
 permalink: /exhibits/mineral-element-browser-meowser/
 exhibit-id: 23-89
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "MEOWSER is an interactive educational ARDUINO project with a Periodic Table and a Mineral cabinet."
 description-long: "Mineral Element Browser (MEOWSER) is an interactive educational ARDUINO project for all ages of students.  A computer display shows the Periodic Table of chemical elements.  The computer is linked to a wood cabinet containing many rocks.  Click on an element in the Periodic Table to illuminate the rocks in the cabinet containing that element.   Click on a rock to illuminate the elements in the Periodic Table in that rock.  Science reports about these Rock/Element relationships are displayed during navigation.  MEOWSER demonstrates Chemistry, Woodworking, Electrical Engineering, Software Engineering, and Arduino integration of these components."
@@ -46,8 +47,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2023-08-29 14:06:10"
-last-modified-jotform: "2023-08-30 18:55:14"
-last-exported: "2023-08-30 18:59:29"
+last-modified-jotform: "2023-09-29 16:16:11"
+last-exported: "2023-09-30 16:47:55"
 sitemap: false
 
 ---

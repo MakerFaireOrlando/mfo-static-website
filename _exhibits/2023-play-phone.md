@@ -5,6 +5,7 @@ title: "Play Phone"
 slug: play-phone
 permalink: /exhibits/play-phone/
 exhibit-id: 23-155
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Have a phone call with a fictional character. Pick up the phone and let your imagination run wild!"
 description-long: "Pay phones are becoming increasingly rare, but this is not your average pay phone - it's a PLAY PHONE! When it rings, will you be brave enough to answer? Pick up the receiver and be transported into a world of imagination. On the other end of the line is a character who engages you in a few minutes of fictional fun. How the conversation unfolds is up to you. This project provides a unique opportunity for adventurous people of all ages to engage in imaginative and creative play. It's the PLAY PHONE!
@@ -33,8 +34,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2023-09-24 11:38:45"
-last-modified-jotform: "2023-09-24 14:22:37"
-last-exported: "2023-09-24 14:23:21"
+last-modified-jotform: "2023-09-29 17:49:05"
+last-exported: "2023-09-30 16:47:48"
 sitemap: false
 
 ---

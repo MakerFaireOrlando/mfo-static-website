@@ -5,6 +5,7 @@ title: "Mischief Maille"
 slug: mischief-maille
 permalink: /exhibits/mischief-maille/
 exhibit-id: 23-10
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Gothic inspired chainmaille jewelry and accessories."
 description-long: "Gothic inspired chainmaille jewelry and accessories. Made from aluminum and steel. All made one ring at a time."
@@ -49,8 +50,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2023-07-22 20:04:47"
-last-modified-jotform: "2023-08-27 20:49:48"
-last-exported: "2023-08-27 22:35:45"
+last-modified-jotform: "2023-09-29 15:57:54"
+last-exported: "2023-09-30 16:47:57"
 sitemap: false
 
 ---
