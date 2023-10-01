@@ -10,7 +10,7 @@ redirect_from: "/event-schedule/"
 
 
 
-#### Check back later this summer for more information about Maker Faire Orlando 2023!
+#### Stay Tuned for exciting announcements including the new Maker Faire Stage with special guests, panel discussions, musical performances and more!
 
 {%comment%}
 
