@@ -1,6 +1,6 @@
 topnav:
   text: Get Tickets!
-  url: https://events.humanitix.com/makerfaireorlando
+  url: https://www.makerfaireorlando.com/attend
   #text: Subscribe for Info
   #url: http://eepurl.com/bpCB8T
 
@@ -8,4 +8,4 @@ footer:
   #text: Subscribe for Info
   #url: http://eepurl.com/bpCB8T
   text: Get Tickets!
-  url: https://events.humanitix.com/makerfaireorlando
+  url: https://www.makerfaireorlando.com/attend
