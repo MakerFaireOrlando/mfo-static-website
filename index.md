@@ -8,24 +8,38 @@ carousel: true
 carousel-delay: 5000
 carousel-controls: true
 carousel-slides:
-  - image: /assets/images/slider/welcome-to-maker-faire.jpg  
-    caption: Welcome to Maker Faire!
+  - image: /assets/images/slider/mandalorians.jpg
+    caption: Meet your favorite Star Wars Characters!
     url:
-
-  - image: /assets/images/slider/retro-computers-kid-cropped.jpg  
-    caption: Inspire the future!
+  - image: /assets/images/slider/3dprinter.jpg
+    caption: The Latest in 3D Printing!
     url:
-
-  - image: /assets/images/slider/muralist-cropped.jpg
-    caption: See art in action!
+  - image: /assets/images/slider/fred-and-elle-cosplay-painting.jpg
+    caption: Meet Award-Winning Cosplay Makers!
     url:
-
-  - image: /assets/images/slider/Ghost-busters-cropped.jpg
-    caption: Meet like minded makers!
+  - image: /assets/images/slider/gateway-to-japan.jpg
+    caption: Experience Maker Culture from Around The World!
     url:
-
-  - image: /assets/images/slider/mold-a-makey-cropped.jpg
-    caption: Make stuff!
+  - image: /assets/images/slider/learn-to-solder-3.jpg
+    caption: Learn To Solder!
+    url:
+  - image: /assets/images/slider/makerfx-makerspace.jpg
+    caption: Meet Makers from your Local Makerspace!
+    url:
+  - image: /assets/images/slider/robot-ruckus-small-arena.jpg
+    caption: See Fighting Robots!
+    url:
+  - image: /assets/images/slider/synths.jpg
+    caption: Make Music!
+    url:
+  - image: /assets/images/slider/take-it-apart.jpg
+    caption: Have Fun Taking Apart Electronics!
+    url:
+  - image: /assets/images/slider/steamroller-screenprinting-unicorn.jpg
+    caption: Make Art with a Steamroller!
+    url:  
+  - image: /assets/images/slider/raphael.jpg
+    caption: Pow-Pow-Power Racing!
     url:
 ---
 
@@ -45,6 +59,7 @@ carousel-slides:
 {% comment %}
 {% include call-for-makers-widget.html %}
 {% endcomment %}
+
 
 {% comment %}
 
