@@ -1,6 +1,9 @@
 {% if page.carousel %}
   <script language="JavaScript" type="text/javascript">
     $(document).ready(function(){
+      var randomSlide = Math.floor(Math.random() * $('#mfoCarousel .carousel-inner div').size());
+      console.log(randomSlide);
+      $('#mfoCarousel').carousel(randomSlide);
       $('#mfoCarousel').carousel({
         interval: {{page.carousel-delay}}
       })
