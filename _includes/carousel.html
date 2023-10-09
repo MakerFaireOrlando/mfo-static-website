@@ -25,7 +25,11 @@
           {% else %}
             <div class="item" id="{{forloop.index}}">
           {% endif %}
+              {% if {{slide.url}} contains "/" %}
               <a href="{{slide.url}}"><img src="{{ slide.image | relative_url }}" alt="{{slide.caption}}" style="width:100%;"></a>
+              {% else %}
+              <img src="{{ slide.image | relative_url }}" alt="{{slide.caption}}" style="width:100%;">
+              {% endif %}
             </div>
         {% endfor %}
 
