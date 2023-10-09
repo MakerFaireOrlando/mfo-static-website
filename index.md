@@ -10,37 +10,30 @@ carousel-controls: true
 carousel-slides:
   - image: /assets/images/slider/mandalorians.jpg
     caption: Meet your favorite Star Wars Characters!
-    url:
   - image: /assets/images/slider/3dprinter.jpg
     caption: The Latest in 3D Printing!
-    url:
+    url: /makers/?category=3d-printing
   - image: /assets/images/slider/fred-and-elle-cosplay-painting.jpg
     caption: Meet Award-Winning Cosplay Makers!
-    url:
+    url: /makers/?category=cosplay
   - image: /assets/images/slider/gateway-to-japan.jpg
     caption: Experience Maker Culture from Around The World!
-    url:
   - image: /assets/images/slider/learn-to-solder-3.jpg
     caption: Learn To Solder!
-    url:
   - image: /assets/images/slider/makerfx-makerspace.jpg
     caption: Meet Makers from your Local Makerspace!
-    url:
   - image: /assets/images/slider/robot-ruckus-small-arena.jpg
     caption: See Fighting Robots!
-    url:
+    url: /makers/?category=combat-robots
   - image: /assets/images/slider/synths.jpg
     caption: Make Music!
-    url:
   - image: /assets/images/slider/take-it-apart.jpg
     caption: Have Fun Taking Apart Electronics!
-    url:
   - image: /assets/images/slider/steamroller-screenprinting-unicorn.jpg
     caption: Make Art with a Steamroller!
-    url:  
   - image: /assets/images/slider/raphael.jpg
     caption: Pow-Pow-Power Racing!
-    url:
+    url: /power-racing
 ---
 
 {% capture cta_event_text %}{{ site.event_date_descr }} – 10am to 5pm – {{ site.event_location_descr }}{% endcapture %} {% include cta-panel-widget.html cta_text=cta_event_text cta_url=site.cta_event_url %}
