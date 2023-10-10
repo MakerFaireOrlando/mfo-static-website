@@ -5,6 +5,7 @@ title: "Helpertunity"
 slug: helpertunity
 permalink: /exhibits/helpertunity/
 exhibit-id: 23-118
+exhibit-zone: "The Dark Side (Spirit Building)"
 space-number: Unassigned
 description: "Play our Games!  Win our Plush Prizes!  Buy our Crafts!  Pack our Brick-Barge!  Be our Helper-Hero! "
 description-long: "At Maker Faire, you can join in and support Helpertunity's charitable programs by donating /subscribing to sponsor the charity's unique community efforts; and take part in our faire-style fun and games!   Enjoy Helpertunity's spin-and-win wheel / plush-rescue-pet adoption -or- try your hand at our unique Pond-Pong game for even bigger prizes!  You might also enjoy shopping for handmade items from our Eco-Art & Craft Wagon!  Just be sure not to miss participating in Helpertunity's Plastics-Recycling Community-Build; to save the planet by repurposing clean single-use bags and wrappers as a 'One-Minute-Maker' in our creative new 'Build-A-Brick-Barge Challenge' for 2024!"
@@ -38,8 +39,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2023-09-01 17:00:15"
-last-modified-jotform: "2023-09-02 15:40:14"
-last-exported: "2023-09-02 15:42:09"
+last-modified-jotform: "2023-10-09 17:52:01"
+last-exported: "2023-10-09 18:52:31"
 sitemap: false
 
 ---

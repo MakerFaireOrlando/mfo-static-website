@@ -5,6 +5,7 @@ title: "Suzanna Kaye Designs - for the Nerdy & Fun Home"
 slug: suzanna-kaye-designs-for-the-nerdy-fun-home
 permalink: /exhibits/suzanna-kaye-designs-for-the-nerdy-fun-home/
 exhibit-id: 23-110
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "High-quality nerdy & whimsical art and products for the home. 
 Doctor Who, Star Wars, Pets & More!"
@@ -106,8 +107,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-08-31 11:58:08"
-last-modified-jotform: "2023-10-07 16:39:02"
-last-exported: "2023-10-08 13:17:12"
+last-modified-jotform: "2023-10-09 18:17:15"
+last-exported: "2023-10-09 18:52:32"
 sitemap: false
 
 ---

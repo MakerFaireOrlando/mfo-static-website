@@ -5,6 +5,7 @@ title: "Florida Odyssey of the Mind Association"
 slug: florida-odyssey-of-the-mind-association
 permalink: /exhibits/florida-odyssey-of-the-mind-association/
 exhibit-id: 23-83
+exhibit-zone: "The Dark Side (Spirit Building)"
 space-number: Unassigned
 description: "We will demonstrate our balsa wood structural engineering project. We will crush structures all day"
 description-long: "We will promote our program and demonstrate balsa wood structure crushing testing how much weight each holds throughout the day. We will also exhibit several examples of creations by team members. "
@@ -39,8 +40,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2023-08-28 11:08:19"
-last-modified-jotform: "2023-08-28 19:41:11"
-last-exported: "2023-08-28 19:44:22"
+last-modified-jotform: "2023-10-09 18:17:56"
+last-exported: "2023-10-09 18:52:32"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Exploding Heads robot battles"
 slug: exploding-heads-robot-battles
 permalink: /exhibits/exploding-heads-robot-battles/
 exhibit-id: 23-129
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Challenge your opponent and see who's head will explode first!"
 description-long: "Made using metalworking and some wood working, the goal is to make your opponents seltzer water can head explode first.  "
@@ -35,8 +36,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-09-07 11:10:49"
-last-modified-jotform: "2023-09-08 22:51:03"
-last-exported: "2023-09-08 22:52:37"
+last-modified-jotform: "2023-10-09 18:06:07"
+last-exported: "2023-10-09 18:52:31"
 sitemap: false
 
 ---

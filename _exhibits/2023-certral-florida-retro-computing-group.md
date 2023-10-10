@@ -5,6 +5,7 @@ title: "Certral Florida Retro Computing Group"
 slug: certral-florida-retro-computing-group
 permalink: /exhibits/certral-florida-retro-computing-group/
 exhibit-id: 23-173
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Hobbyists interested in all forms of retro computing."
 description-long: "A group of hobbyists gathering to discuss, work on, share, program, and reminisce about the early days of computing, home-brew, retro computers, and anything related.  If TRS-80, VIC-20, TI-99/4A, Atari 400, C64, Apple II, 6502, Z80, PDP-11 (and more) mean anything to you, then you need to join us."
@@ -32,8 +33,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2023-10-06 02:38:39"
-last-modified-jotform: "2023-10-07 13:31:45"
-last-exported: "2023-10-07 13:34:24"
+last-modified-jotform: "2023-10-09 17:52:15"
+last-exported: "2023-10-09 18:52:31"
 sitemap: false
 
 ---

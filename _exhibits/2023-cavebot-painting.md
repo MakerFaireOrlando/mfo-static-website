@@ -5,6 +5,7 @@ title: "Cavebot Painting"
 slug: cavebot-painting
 permalink: /exhibits/cavebot-painting/
 exhibit-id: 23-58
+exhibit-zone: "The Dark Side (Spirit Building)"
 space-number: Unassigned
 description: "Robot Painting hands-on demonstration. Keep the robot and canvas as a souvenir of Maker Faire. $5"
 description-long: "Hands-on demonstration. Pick out a robot and have it paint a canvas for you. STEM: learn how the small robot works, basic electricity and make some art. Regular acrylic & florescent paint. Keep the robot & canvas. See samples of the artist's work with UV LEDs built into the canvas. Free stickers! "
@@ -78,8 +79,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2023-08-19 11:46:59"
-last-modified-jotform: "2023-10-07 15:00:39"
-last-exported: "2023-10-07 15:36:27"
+last-modified-jotform: "2023-10-09 18:06:27"
+last-exported: "2023-10-09 18:52:32"
 sitemap: false
 
 ---
