@@ -21,6 +21,11 @@ sponsors:
     logo: universal-creative.png
     level: 3
     active: true
+  - name: Disney
+    url:
+    logo: Disney-Red-4C.png
+    level: 3
+    active: true
   - name: Prusa Reseach
     url: https://www.prusa3d.com/
     logo: prusaresearch.png
