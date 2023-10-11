@@ -5,6 +5,7 @@ title: "Flags by B and Mom"
 slug: flags-by-b-and-mom
 permalink: /exhibits/flags-by-b-and-mom/
 exhibit-id: 23-107
+exhibit-zone: "Spirit"
 space-number: Unassigned
 description: "Hand-made pins that display the flags of the world."
 description-long: "B and Mom have worked together the past two years to create products that represent all the people of the world. We used to make ornaments, but not everyone celebrates holidays with ornaments. So this year, we will be making pins of all the flags of the world. We're excited to be back for a third year at Maker Faire Orlando and can't wait to converse with everyone that stops by our booth!"
@@ -40,8 +41,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2023-08-30 21:23:15"
-last-modified-jotform: "2023-09-07 21:41:13"
-last-exported: "2023-09-08 22:52:40"
+last-modified-jotform: "2023-10-10 23:11:18"
+last-exported: "2023-10-11 16:05:30"
 sitemap: false
 
 ---

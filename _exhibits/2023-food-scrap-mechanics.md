@@ -5,6 +5,7 @@ title: "Food Scrap Mechanics"
 slug: food-scrap-mechanics
 permalink: /exhibits/food-scrap-mechanics/
 exhibit-id: 23-112
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Food Scrap Mechanics aim to get kids making their own food so they waste less and vermicompost more!"
 description-long: "Kids (of all ages) can grab information and tutorials on fun food-making, how to turn a sale paper into a meal plan, grind eggshells for vermicomposting, and browse food instructions / recipes plus interactive tutorials on fun food-related stuff like how to reuse applesauce cups as measuring cups, peel broccoli, the Worm Bin Demo on making your own fertilizer (vermicomposting with food scraps, eggshells, and newspaper smells great, unlike its compost cousin). Try one of our make & takes like Candy Cane Reindeer or upcycling curled ribbon bows from scrap bags!"
@@ -48,8 +49,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2023-08-31 21:17:52"
-last-modified-jotform: "2023-09-04 12:26:01"
-last-exported: "2023-09-04 18:25:23"
+last-modified-jotform: "2023-10-10 22:52:16"
+last-exported: "2023-10-11 16:05:30"
 sitemap: false
 
 ---

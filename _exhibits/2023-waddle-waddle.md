@@ -5,6 +5,7 @@ title: "Waddle Waddle"
 slug: waddle-waddle
 permalink: /exhibits/waddle-waddle/
 exhibit-id: 23-122
+exhibit-zone: "The Dark Side (Spirit Building)"
 space-number: Unassigned
 description: "Waddle Waddle is an educational game about penguins that uses photos of penguins from Antarctica. "
 description-long: "Waddle Waddle is a unique strategy game that features the designer's own photographs of penguins in the wild, taken in Antarctica, and a game board made from a map of the regions around Antarctica. Waddle Waddle's blend of open drafting, set collection, area of control, and push-your-luck is as fun to play as it is beautiful to watch, and you'll learn something penguins along the way too. Game play is lightning fast, with minimal downtime. Whether you're playing two or six players, it's your turn before you know it.
@@ -37,8 +38,8 @@ categories:
   - slug: gaming
     name: Gaming
 created-jotform: "2023-09-02 14:49:43"
-last-modified-jotform: "2023-09-02 15:41:55"
-last-exported: "2023-09-02 15:42:03"
+last-modified-jotform: "2023-10-10 23:05:48"
+last-exported: "2023-10-11 16:05:30"
 sitemap: false
 
 ---

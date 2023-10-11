@@ -5,6 +5,7 @@ title: "The art of TURNING, the beauty of the craft."
 slug: the-art-of-turning-the-beauty-of-the-craft
 permalink: /exhibits/the-art-of-turning-the-beauty-of-the-craft/
 exhibit-id: 23-18
+exhibit-zone: "The Dark Side (Spirit Building)"
 space-number: Unassigned
 description: "Turning magical wands for the incoming class of the wizarding school!"
 description-long: "Children will be able to choose from several wand styles and wood blanks and watch their personal wands turned while they wait! 
@@ -34,8 +35,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-07-23 14:06:52"
-last-modified-jotform: "2023-08-27 21:12:11"
-last-exported: "2023-08-27 22:35:45"
+last-modified-jotform: "2023-10-10 22:47:35"
+last-exported: "2023-10-11 16:05:33"
 sitemap: false
 
 ---

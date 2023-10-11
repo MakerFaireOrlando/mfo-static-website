@@ -5,6 +5,7 @@ title: "Digital Warpaint"
 slug: digital-warpaint
 permalink: /exhibits/digital-warpaint/
 exhibit-id: 23-171
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Graven RavenWolf showcases Digital and Traditional Art within the world of Digital Warpaint!"
 description-long: "Join artist Graven RavenWolf as he showcases where Digital and Traditional Art meet within the world of Digital Warpaint!
@@ -42,8 +43,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2023-10-05 11:45:37"
-last-modified-jotform: "2023-10-07 13:32:47"
-last-exported: "2023-10-07 13:34:27"
+last-modified-jotform: "2023-10-10 22:49:34"
+last-exported: "2023-10-11 16:05:29"
 sitemap: false
 
 ---

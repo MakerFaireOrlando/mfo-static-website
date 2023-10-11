@@ -5,6 +5,7 @@ title: "Little Monster"
 slug: little-monster
 permalink: /exhibits/little-monster/
 exhibit-id: 23-78
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Onedrr games Little Monster game booth! Play the games demo and grab some free stuff!"
 description-long: "Welcome to a world where nightmare spirits prey on our dreams, and the monster under our bed is here to help! In Little Monster, you play as Stormy, an underdog who’s thrust into the spotlight when his world and ours is threaten by these spirits. Come play the game demo, speak with the sole developer of the game, and sign up to receive free stuff! "
@@ -53,8 +54,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2023-08-27 13:14:18"
-last-modified-jotform: "2023-09-01 18:22:20"
-last-exported: "2023-09-01 18:32:13"
+last-modified-jotform: "2023-10-10 23:12:29"
+last-exported: "2023-10-11 16:05:31"
 sitemap: false
 
 ---

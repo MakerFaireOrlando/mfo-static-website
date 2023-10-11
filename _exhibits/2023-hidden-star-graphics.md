@@ -5,6 +5,7 @@ title: "Hidden Star Graphics"
 slug: hidden-star-graphics
 permalink: /exhibits/hidden-star-graphics/
 exhibit-id: 23-52
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Unique creations from fire art to swashbuckling adventures to mischivous voodoo companions."
 description-long: "Hidden Star Graphics creates unique pieces of art that celebrate fandoms and unique stories. Together we create adventurous new worlds of exciting characters through a graphic novel, a comic book and a sci-fi novel series. We have cute mischivous friends that are up for adoptions and kits to make your very own voodles. Our favorite experience to share is the creation of fire art. Harnessing the power of fire to create incredible pieces of artwork. "
@@ -45,8 +46,8 @@ categories:
   - slug: writing-and-publishing
     name: Writing and Publishing
 created-jotform: "2023-08-12 07:17:06"
-last-modified-jotform: "2023-09-11 18:47:51"
-last-exported: "2023-09-12 19:33:23"
+last-modified-jotform: "2023-10-10 23:07:45"
+last-exported: "2023-10-11 16:05:32"
 sitemap: false
 
 ---

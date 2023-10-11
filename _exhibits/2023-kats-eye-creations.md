@@ -5,6 +5,7 @@ title: "Kats Eye Creations"
 slug: kats-eye-creations
 permalink: /exhibits/kats-eye-creations/
 exhibit-id: 23-21
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Kat's Eye Creations is a lifelong dream to bring my artwork to life.  "
 description-long: "KatsEyeCreations.online is a dream realized.  Many years ago my Aunt Rosalie encouraged and inspired me to pursue my dreams, my art.  Although she passed away before she could see my pursuit, I know she's proud of me.  I pour my heart into my artwork.  Whether it's a story I'm writing or a I'm painting a hat, I put 100% of myself into everything I create.  "
@@ -37,8 +38,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2023-07-24 09:43:06"
-last-modified-jotform: "2023-08-27 22:55:21"
-last-exported: "2023-08-28 19:44:51"
+last-modified-jotform: "2023-10-10 23:09:56"
+last-exported: "2023-10-11 16:05:33"
 sitemap: false
 
 ---

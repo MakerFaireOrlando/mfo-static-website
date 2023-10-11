@@ -5,6 +5,7 @@ title: "Evan Bond, author"
 slug: evan-bond-author
 permalink: /exhibits/evan-bond-author/
 exhibit-id: 23-124
+exhibit-zone: "The Dark Side (Spirit Building)"
 space-number: Unassigned
 description: "Evan Bond is a dark fiction author who loves blending his love of the outdoors with his writings."
 description-long: "Evan Bond is a thriller/suspense author who loves blending his love of the outdoors with his writings. He is the author of the best selling psychological thriller Echoes of the Past and his best selling collection of short horror stories Charred Remains. He has always had a passion for telling suspenseful stories. Even at a young age, he was crafting horror stories to share with his family and friends. 
@@ -28,8 +29,8 @@ categories:
   - slug: writing-and-publishing
     name: Writing and Publishing
 created-jotform: "2023-09-03 19:21:11"
-last-modified-jotform: "2023-09-07 21:41:12"
-last-exported: "2023-09-08 22:52:40"
+last-modified-jotform: "2023-10-10 22:48:43"
+last-exported: "2023-10-11 16:05:30"
 sitemap: false
 
 ---

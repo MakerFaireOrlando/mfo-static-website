@@ -5,6 +5,7 @@ title: "Art of RavenWolf"
 slug: art-of-ravenwolf
 permalink: /exhibits/art-of-ravenwolf/
 exhibit-id: 23-172
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Fantasy and comics collide with Monica RavenWolf on matte board, color pencils, and acrylics!"
 description-long: "Be sure to come out and see where realistic fantasy and comic art collide as artist Monica RavenWolf shows you her imagination. Watch the creation take fold in real-time as she specializes in creating on matte board with color pencils and acrylics!"
@@ -31,8 +32,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2023-10-05 11:56:31"
-last-modified-jotform: "2023-10-07 13:33:29"
-last-exported: "2023-10-07 13:34:26"
+last-modified-jotform: "2023-10-10 22:49:37"
+last-exported: "2023-10-11 16:05:29"
 sitemap: false
 
 ---

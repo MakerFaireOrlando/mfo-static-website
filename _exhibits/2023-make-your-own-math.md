@@ -5,6 +5,7 @@ title: "Make Your Own Math"
 slug: make-your-own-math
 permalink: /exhibits/make-your-own-math/
 exhibit-id: 23-54
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Make beautiful geometric structures and solve puzzles with Orlando Math Circle facilitators."
 description-long: "Magic squares, soma cubes, fractals, polyhedra, hyperboloids - think , create, play with and make your own beautiful math with the help of Orlando Math Circle facilitators. Stop by to solve a puzzle or make something beautiful and get info on programs we have going on this year in person and online."
@@ -38,8 +39,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2023-08-13 07:30:20"
-last-modified-jotform: "2023-08-19 20:37:45"
-last-exported: "2023-08-21 10:39:12"
+last-modified-jotform: "2023-10-10 23:13:52"
+last-exported: "2023-10-11 16:05:32"
 sitemap: false
 
 ---

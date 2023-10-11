@@ -5,6 +5,7 @@ title: "NOV8Youth"
 slug: nov8youth
 permalink: /exhibits/nov8youth/
 exhibit-id: 23-116
+exhibit-zone: "The Dark Side (Spirit Building)"
 space-number: Unassigned
 description: "NOV8Youth - Igniting global curiosity through STEAM and innovation education!"
 description-long: "Welcome to NOV8Youth, a non-profit dedicated to kindling the flame of curiosity in young individuals globally. Through dynamic workshops, interactive projects, and collaborative events, we're committed to spreading the marvels of STEAM education (Science, Technology, Engineering, Arts, and Mathematics). Our vision is to create a generation of creative thinkers and problem solvers, well-equipped to make a difference both in their local neighborhoods and on a global scale. Join us as we embark on a journey to inspire, educate, and empower, laying the groundwork for a future where innovation knows no bounds.
@@ -35,8 +36,8 @@ categories:
   - slug: maker-community
     name: Maker Community
 created-jotform: "2023-08-31 23:32:51"
-last-modified-jotform: "2023-09-17 08:06:04"
-last-exported: "2023-09-17 08:48:14"
+last-modified-jotform: "2023-10-10 23:13:21"
+last-exported: "2023-10-11 16:05:30"
 sitemap: false
 
 ---

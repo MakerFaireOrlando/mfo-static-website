@@ -5,6 +5,7 @@ title: "Paracord Knot-Tying"
 slug: paracord-knot-tying
 permalink: /exhibits/paracord-knot-tying/
 exhibit-id: 23-48
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Learn sheet bends, bowlines, and squares and take home your own paracord kit!"
 description-long: "Learn sheet bends, bowlines, and squares with paracord knot-tying demonstrations from the Lone Sailor Sea Cadets and take home your own paracord kit!"
@@ -29,8 +30,8 @@ categories:
   - slug: kits
     name: Kits
 created-jotform: "2023-08-07 00:22:10"
-last-modified-jotform: "2023-08-19 20:44:58"
-last-exported: "2023-08-21 10:39:12"
+last-modified-jotform: "2023-10-10 22:19:05"
+last-exported: "2023-10-11 16:05:32"
 sitemap: false
 
 ---

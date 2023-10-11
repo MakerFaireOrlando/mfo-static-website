@@ -5,6 +5,7 @@ title: "Switch & Relay Logic Circuits"
 slug: switch-relay-logic-circuits
 permalink: /exhibits/switch-relay-logic-circuits/
 exhibit-id: 23-162
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "A hands-on demonstration of binary logic circuits using only switches and relays."
 description-long: "A hands-on demonstration of binary logic circuits using only switches and relays. Circuits available for attendees to play with include a reconfigurable logic gate, a four-bit adder, a four-bit counter, river-crossing puzzles, and Ring the Bell, an IoT arcade machine based on the Chinese Ring Puzzle. Ring the Bell has four levels of difficulty: players will be able to solve it by turning on four, five, six, or seven lights."
@@ -78,8 +79,8 @@ categories:
   - slug: raspberry-pi
     name: Raspberry Pi
 created-jotform: "2023-10-01 13:19:30"
-last-modified-jotform: "2023-10-03 13:47:18"
-last-exported: "2023-10-03 13:47:42"
+last-modified-jotform: "2023-10-10 23:04:13"
+last-exported: "2023-10-11 16:05:29"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Without Walls EDU"
 slug: without-walls-edu
 permalink: /exhibits/without-walls-edu/
 exhibit-id: 23-50
+exhibit-zone: "The Dark Side (Spirit Building)"
 space-number: Unassigned
 description: "Hands-on STEM Career Exploration Kits for at home or in classroom and STEM Escape Rooms for schools."
 description-long: "Without Walls Edu produces STEM Career Exploration Kits, specially designed to inspire young minds and ignite a passion for science, technology, engineering, and mathematics. Each kit is brimming with exciting hands-on activities, real-world applications, and interactive components that bring STEM careers to life. The aim is to provide children with a comprehensive understanding of various STEM careers, opening up possibilities they might not have considered before. These kits serve as a bridge between education and the real world, encouraging children to explore, ask questions, and make connections. 
@@ -60,8 +61,8 @@ categories:
   - slug: kits
     name: Kits
 created-jotform: "2023-08-09 19:37:08"
-last-modified-jotform: "2023-08-28 19:38:30"
-last-exported: "2023-08-28 19:44:50"
+last-modified-jotform: "2023-10-10 22:50:18"
+last-exported: "2023-10-11 16:05:32"
 sitemap: false
 
 ---

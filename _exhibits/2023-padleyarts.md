@@ -5,6 +5,7 @@ title: "PadleyARTS"
 slug: padleyarts
 permalink: /exhibits/padleyarts/
 exhibit-id: 23-121
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Artwork display"
 description-long: "Display of various art pieces available for sale as well as showcasing skills for custom pieces. Artist available for painting, design work, polymer clay sculpting, stamp making, and more. "
@@ -56,8 +57,8 @@ categories:
   - slug: photography
     name: Photography
 created-jotform: "2023-09-01 22:09:06"
-last-modified-jotform: "2023-09-03 16:33:12"
-last-exported: "2023-09-04 11:16:52"
+last-modified-jotform: "2023-10-10 22:56:20"
+last-exported: "2023-10-11 16:05:30"
 sitemap: false
 
 ---

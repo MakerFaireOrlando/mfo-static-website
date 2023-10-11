@@ -5,6 +5,7 @@ title: "Beads and Besties"
 slug: beads-and-besties
 permalink: /exhibits/beads-and-besties/
 exhibit-id: 23-77
+exhibit-zone: "The Dark Side (Spirit Building)"
 space-number: Unassigned
 description: "We are 12 & 14 year old besties (from birth) who love beads and making beaded jewelry. "
 description-long: "We are 12 & 14 year old besties (from birth) who love beads and making beaded jewelry. We have been creating unique and beautiful jewelry together for years. Our passion for beads and jewelry making has led us to create colorful pieces that kids (and adults) like to wear."
@@ -66,8 +67,8 @@ categories:
   - slug: jewelry
     name: Jewelry
 created-jotform: "2023-08-27 10:13:40"
-last-modified-jotform: "2023-08-28 19:36:03"
-last-exported: "2023-08-28 19:44:39"
+last-modified-jotform: "2023-10-10 23:09:01"
+last-exported: "2023-10-11 16:05:31"
 sitemap: false
 
 ---

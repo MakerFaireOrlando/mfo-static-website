@@ -5,6 +5,7 @@ title: "Isabel's Math Art & Tiny Designs"
 slug: isabels-math-art-tiny-designs
 permalink: /exhibits/isabels-math-art-tiny-designs/
 exhibit-id: 23-27
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "3D models of crazy resolutions at tiny scales - procedurally generated and mathematically inspired.
 "
@@ -87,8 +88,8 @@ categories:
   - slug: laser-cutting-engraving
     name: Laser Cutting & Engraving
 created-jotform: "2023-07-25 21:55:55"
-last-modified-jotform: "2023-09-16 15:53:20"
-last-exported: "2023-09-16 16:02:41"
+last-modified-jotform: "2023-10-10 23:07:14"
+last-exported: "2023-10-11 16:05:33"
 sitemap: false
 
 ---

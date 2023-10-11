@@ -5,6 +5,7 @@ title: "Generative AI from you"
 slug: generative-ai-from-you
 permalink: /exhibits/generative-ai-from-you/
 exhibit-id: 23-75
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Generative AI from your face using camera"
 description-long: "This centerpiece of the exhibit showcases the magic of AI in action. A large, high-resolution screen displays real-time generative transformations of visitors' faces. Using the data captured earlier, the AI algorithm morphs and blends features, creating unique and mesmerizing visual amalgamations. Visitors watch as their expressions evolve into entirely new personas, highlighting the AI's ability to create something novel yet familiar."
@@ -31,8 +32,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2023-08-26 12:01:01"
-last-modified-jotform: "2023-08-27 16:50:09"
-last-exported: "2023-08-27 22:35:44"
+last-modified-jotform: "2023-10-10 22:30:39"
+last-exported: "2023-10-11 16:05:31"
 sitemap: false
 
 ---

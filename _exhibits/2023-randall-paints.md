@@ -5,6 +5,7 @@ title: "Randall Paints"
 slug: randall-paints
 permalink: /exhibits/randall-paints/
 exhibit-id: 23-102
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Painter of Robots and other friends"
 description-long: "Orlando based pop artist, painter of robots and other friends. The goal of Randall's art is to make the viewer smile. 
@@ -48,8 +49,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2023-08-30 17:10:16"
-last-modified-jotform: "2023-09-07 21:41:14"
-last-exported: "2023-09-08 22:52:40"
+last-modified-jotform: "2023-10-10 22:48:04"
+last-exported: "2023-10-11 16:05:31"
 sitemap: false
 
 ---

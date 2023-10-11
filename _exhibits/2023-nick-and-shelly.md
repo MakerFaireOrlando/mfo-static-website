@@ -5,6 +5,7 @@ title: "Nick and Shelly"
 slug: nick-and-shelly
 permalink: /exhibits/nick-and-shelly/
 exhibit-id: 23-44
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Lasercut and cnc products which include wood puzzles, cocktail smokers, slate coasters etc. "
 description-long: "We are Nick and Shelly a husband and wife team who love making and learning new things.  We use traditional woodworking along with technology to create beautiful items such as wooden jigsaw puzzles where the pattern is wood grain, custom wood signs, cocktail smokers, home decor, coasters etc. "
@@ -81,8 +82,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-08-06 12:10:35"
-last-modified-jotform: "2023-08-30 18:37:26"
-last-exported: "2023-08-30 19:00:01"
+last-modified-jotform: "2023-10-10 23:13:36"
+last-exported: "2023-10-11 16:05:33"
 sitemap: false
 
 ---
