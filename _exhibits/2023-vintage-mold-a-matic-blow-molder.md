@@ -5,7 +5,7 @@ title: "Vintage Mold-A-Matic Blow Molder"
 slug: vintage-mold-a-matic-blow-molder
 permalink: /exhibits/vintage-mold-a-matic-blow-molder/
 exhibit-id: 23-56
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Relive the 60's by making a blow molded version of Makey  on a genuine Mold-A-Matic machine."
 description-long: "Returning for a second year this coin operated marvel from 60 years ago will create a plastic souvenir blow molded Makey character while you wait!  During the heyday of roadside attractions in florida you could visit almost anywhere and make a unique souvenir of your visit, this is one of the few surviving machines in full working order.  Machine is provided by Unique Souvenirs of Lake Wales, a family business for 50 years."
@@ -36,8 +36,8 @@ categories:
   - slug: engineering
     name: Engineering
 created-jotform: "2023-08-16 00:34:14"
-last-modified-jotform: "2023-09-29 15:55:51"
-last-exported: "2023-09-30 16:47:56"
+last-modified-jotform: "2023-10-11 22:02:48"
+last-exported: "2023-10-11 22:17:52"
 sitemap: false
 
 ---

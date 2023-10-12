@@ -4,36 +4,33 @@
 title: "FIRST Robotics"
 slug: first-robotics
 permalink: /exhibits/first-robotics/
-exhibit-id: 23-139
+exhibit-id: 23-157
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
-description: "Come see the full progression of programs for FIRST Robotics.   We start at age 4 and go up to 18."
-description-long: "We will have robots of all sizes for kids to look at and possibly drive.  Learn about the FIRST program, a global non-profit that uses robots as a tool to get kids interested and excited by careers in STEM fields.  Our students learn all the hard skills, CAD, Programming, Electrical, Manufacturing and Website Development as well as soft skills like Marketing/Branding, Budgeting, Business Plans and Public Speaking.   There is over $80 Million dollars in scholarships available to our students. Meet the local teams and see if one works for your kids"
-image: /assets/images/exhibit-images/23-139-exhibit-first-robotics-nerdsofprey-large.jpg
+description: "Exploding Bacon Robotics Team 1902 is a Central Florida 4-H club"
+description-long: "Exploding Bacon Robotics Team 1902 is a Central Florida 4-H club for High School aged students that among other things, participates in FIRST. Our students learn engineering, computer programming, and hands-on machinery skills, as well as problem-solving, strategic thinking, time management, public speaking, teamwork, and leadership skills essential in any career. The goal is to inspire and support these youth members to continue on to higher education in trade schools and STEM programs in college."
+image: /assets/images/exhibit-images/23-157-exhibit-first-robotics-img-3300-large.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/23-139-exhibit-first-robotics-nerdsofprey-small.jpg
-  medium: /assets/images/exhibit-images/23-139-exhibit-first-robotics-nerdsofprey-medium.jpg
-  large: /assets/images/exhibit-images/23-139-exhibit-first-robotics-nerdsofprey-large.jpg
-  full: /assets/images/exhibit-images/23-139-exhibit-first-robotics-nerdsofprey-full.jpg
-additional-images: 
-  - 1:
-    small: /assets/images/exhibit-images/23-139-exhibit-addl1-first-robotics-fll-explore-small.png
-    medium: /assets/images/exhibit-images/23-139-exhibit-addl1-first-robotics-fll-explore-medium.png
-    large: /assets/images/exhibit-images/23-139-exhibit-addl1-first-robotics-fll-explore-large.png
-    full: /assets/images/exhibit-images/23-139-exhibit-addl1-first-robotics-fll-explore-full.png
+  small: /assets/images/exhibit-images/23-157-exhibit-first-robotics-img-3300-small.jpg
+  medium: /assets/images/exhibit-images/23-157-exhibit-first-robotics-img-3300-medium.jpg
+  large: /assets/images/exhibit-images/23-157-exhibit-first-robotics-img-3300-large.jpg
+  full: /assets/images/exhibit-images/23-157-exhibit-first-robotics-img-3300-full.jpg
 maker: 
-  name: "FIRST"
-  description: "FIRST® inspires young people to be science and technology leaders and innovators by engaging them in exciting mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership."
-  image-primary: /assets/images/exhibit-images/23-139-maker-first-robotics-firstlogo-medium.png
-  website: https://www.Orlandofrc.org
-  instagram: https://www.instagram.com/Orlandofrc
-  facebook: https://www.facebook.com/Orlandofrc
+  name: "4-H Exploding Bacon"
+  description: "Team 1902, Exploding Bacon is a Central Florida 4-H Hall of Fame FIRST Robotics Team. We are dedicated to making FIRST loud with outreach programs we created like  #FIRSTLikeAGirl and Spark Science Kits. We are a community team consisting of public, private, and homeschooled students. Oink, Oink, Boom!
+"
+  image-primary: /assets/images/exhibit-images/23-157-maker-first-robotics-1902-logo-cfl-transparent-large-1-medium.png
+  website: https://www.explodingbacon.com/
+  twitter: https://www.twitter.com/FRCBacon1902
+  instagram: https://www.instagram.com/FRCBacon1902/
+  facebook: https://www.facebook.com/FRCBacon1902/
+  youtube: https://www.youtube.com/user/ExplodingBacon1902
 categories: 
   - slug: first-robotics
     name: FIRST Robotics
-created-jotform: "2023-09-12 19:57:33"
-last-modified-jotform: "2023-09-29 15:53:28"
-last-exported: "2023-10-11 16:05:29"
+created-jotform: "2023-09-25 14:10:17"
+last-modified-jotform: "2023-10-11 21:41:57"
+last-exported: "2023-10-11 21:43:27"
 sitemap: false
 
 ---

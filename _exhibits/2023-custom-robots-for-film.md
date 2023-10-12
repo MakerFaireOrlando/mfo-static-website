@@ -5,6 +5,7 @@ title: "Custom Robots for Film"
 slug: custom-robots-for-film
 permalink: /exhibits/custom-robots-for-film/
 exhibit-id: 23-150
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Showcasing custom made motion control robots and rigs made for film and commercials. "
 description-long: "Showcasing custom made motion control robots and rigs made for film and commercials. From Rigs made in my garage paired with high speed cameras to capture images in slow motion. "
@@ -43,8 +44,8 @@ categories:
   - slug: special-effects
     name: Special Effects
 created-jotform: "2023-09-18 12:05:42"
-last-modified-jotform: "2023-09-18 18:33:23"
-last-exported: "2023-09-18 18:33:36"
+last-modified-jotform: "2023-10-11 22:04:30"
+last-exported: "2023-10-11 22:17:51"
 sitemap: false
 
 ---
