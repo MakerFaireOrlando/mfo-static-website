@@ -51,4 +51,4 @@ Use the event program including map and schedule to find exhibit zones, hands-on
 
 ---
 
-Exhibiting makers and available experiences are subject to change based on community availablity.
+Exhibiting makers and available experiences are subject to change based on community availability.
