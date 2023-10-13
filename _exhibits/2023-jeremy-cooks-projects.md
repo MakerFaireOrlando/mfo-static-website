@@ -6,7 +6,7 @@ slug: jeremy-cooks-projects
 permalink: /exhibits/jeremy-cooks-projects/
 exhibit-id: 23-63
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE16"
 description: "Projects by Jeremy Cook, including a remote controlled strandbeest, circuit boards and more."
 description-long: "Projects by Jeremy Cook, including a remote controlled strandbeest, circuit boards and more."
 image: /assets/images/exhibit-images/23-63-exhibit-jeremy-cooks-projects-43-logo-black1c-youtube-2-crop-stylized4-rounded-5021-large.png
@@ -36,8 +36,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-08-21 14:39:21"
-last-modified-jotform: "2023-10-10 22:21:47"
-last-exported: "2023-10-11 16:05:32"
+last-modified-jotform: "2023-10-12 22:57:20"
+last-exported: "2023-10-13 06:43:19"
 sitemap: false
 
 ---

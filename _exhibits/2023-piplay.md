@@ -6,7 +6,7 @@ slug: piplay
 permalink: /exhibits/piplay/
 exhibit-id: 23-28
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE10"
 description: "PiPlay - Video Gaming on the Raspberry Pi!!!"
 description-long: "PiPlay - Video Gaming on the Raspberry Pi!!!  This year we will be exhibiting our giant arcade joystick along with projected arcade games, all powered by a Raspberry Pi"
 image: /assets/images/exhibit-images/23-28-exhibit-piplay-pxl-20211113-150229208-large.jpg
@@ -29,8 +29,8 @@ categories:
   - slug: raspberry-pi
     name: Raspberry Pi
 created-jotform: "2023-07-27 16:30:45"
-last-modified-jotform: "2023-10-11 22:02:57"
-last-exported: "2023-10-11 22:17:56"
+last-modified-jotform: "2023-10-12 22:52:00"
+last-exported: "2023-10-13 06:43:20"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: diy-electric-music
 permalink: /exhibits/diy-electric-music/
 exhibit-id: 23-101
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG17"
 description: "Experiment with DIY electromechanical music & sounds.  Program a mechanical synth with paper code."
 description-long: "Interested in electronic music and effects, but lost and confused in a maze of wires, black boxes and esoteric terminology?  Then this exhibit is for you.  
 
@@ -36,8 +36,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2023-08-30 17:03:16"
-last-modified-jotform: "2023-09-29 17:56:49"
-last-exported: "2023-09-30 16:47:49"
+last-modified-jotform: "2023-10-12 23:05:06"
+last-exported: "2023-10-13 06:43:18"
 sitemap: false
 
 ---

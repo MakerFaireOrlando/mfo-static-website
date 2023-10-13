@@ -6,7 +6,7 @@ slug: four-bit-industries
 permalink: /exhibits/four-bit-industries/
 exhibit-id: 23-31
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD29"
 description: "Four Bit Industries LLC produces educational and hobbyist electronics projects."
 description-long: "Four Bit Industries LLC produces educational and hobbyist electronics projects. We make video and PDF instructions for our kits. Bulk discounts are available."
 image: /assets/images/exhibit-images/23-31-exhibit-four-bit-industries-2022-exhibit-large.jpg
@@ -26,8 +26,8 @@ categories:
   - slug: electronics
     name: Electronics
 created-jotform: "2023-07-28 15:54:07"
-last-modified-jotform: "2023-09-29 17:51:51"
-last-exported: "2023-09-30 16:47:57"
+last-modified-jotform: "2023-10-12 22:33:34"
+last-exported: "2023-10-13 06:43:20"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: ham-radio-and-short-wave-listener-for-beginners
 permalink: /exhibits/ham-radio-and-short-wave-listener-for-beginners/
 exhibit-id: 23-90
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA10"
 description: "Not sure what Ham radio and Shortwave listening is all about? Stop by this booth to find out more."
 description-long: "Ham Radio and Shortwave listening is a great hobby, and even greater gateway to an exciting careers in our ever growing field of technology, manufacturing and education.
 New and hands-on demos for you to explore what engineers and technologists do every day on the job."
@@ -46,8 +46,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2023-08-29 16:15:14"
-last-modified-jotform: "2023-09-29 17:55:14"
-last-exported: "2023-09-30 16:47:55"
+last-modified-jotform: "2023-10-12 23:16:01"
+last-exported: "2023-10-13 06:43:18"
 sitemap: false
 
 ---

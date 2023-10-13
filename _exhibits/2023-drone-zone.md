@@ -6,7 +6,7 @@ slug: drone-zone
 permalink: /exhibits/drone-zone/
 exhibit-id: 23-186
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OF1, OF2, OF3, OF4, OF5, OF6, OG1, OG2, OG3, OG4, OG5, OG6"
 description: "Learn to Fly a Drone at the Maker Faire Orlando Drone Zone"
 description-long: "Science, Technology and fun collide in this fun hands on experience where you can learn to fly a drone! Experience the Drone Zone with drone from our sponsor BetaFPV!  We will teach you the basics of flight and you can test your skills with our mini flight course. 
 Visit the Drone Zone to see skilled pilots perform drone tricks and explain how your maker skills can maintain, improve and even create your own drone."
@@ -43,8 +43,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2023-10-11 19:56:48"
-last-modified-jotform: "2023-10-11 21:40:51"
-last-exported: "2023-10-11 21:43:20"
+last-modified-jotform: "2023-10-12 22:14:42"
+last-exported: "2023-10-13 06:43:16"
 sitemap: false
 
 ---

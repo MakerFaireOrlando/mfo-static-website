@@ -5,7 +5,7 @@ title: "Meta Humans Education"
 slug: meta-humans-education
 permalink: /exhibits/meta-humans-education/
 exhibit-id: 23-46
-exhibit-zone: "Outside"
+exhibit-zone: "The Dark Side (Spirit Building)"
 space-number: Unassigned
 description: "Entrepreneurs, Hackers, Makers, Producers, Gamers & Guardians - Which Tracks will you choose?"
 description-long: "Experience firsthand Orlando’s first, innovative, immersive educational program utilizing STEM, the Arts and Entrepreneurship.
@@ -49,8 +49,8 @@ categories:
   - slug: maker-community
     name: Maker Community
 created-jotform: "2023-08-06 13:48:32"
-last-modified-jotform: "2023-09-29 15:56:36"
-last-exported: "2023-09-30 16:47:56"
+last-modified-jotform: "2023-10-12 22:47:39"
+last-exported: "2023-10-13 06:43:20"
 sitemap: false
 
 ---

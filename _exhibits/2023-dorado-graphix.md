@@ -6,7 +6,7 @@ slug: dorado-graphix
 permalink: /exhibits/dorado-graphix/
 exhibit-id: 23-156
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC24, OC25"
 description: "Demonstrations on wide-format printing, cutting and making."
 description-long: "We will be doing demonstrations to show techniques in printing and producing posters, magnets, decals and more.  Come see the things you can make with a big printer."
 image: /assets/images/exhibit-images/23-156-exhibit-dorado-graphix-maker-faire-2021-3-large.jpg
@@ -36,8 +36,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2023-09-24 15:22:21"
-last-modified-jotform: "2023-09-29 15:51:56"
-last-exported: "2023-09-30 16:47:48"
+last-modified-jotform: "2023-10-12 22:34:09"
+last-exported: "2023-10-13 06:43:17"
 sitemap: false
 
 ---

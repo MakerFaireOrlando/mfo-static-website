@@ -6,7 +6,7 @@ slug: over-engineered-candy-dispenser
 permalink: /exhibits/over-engineered-candy-dispenser/
 exhibit-id: 23-85
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG10"
 description: "Robotic candy dispenser using a robotic arm and various 3d printed machines. "
 description-long: "A robotic candy dispenser. It has several parts
 1. arduino MEGA
@@ -38,8 +38,8 @@ categories:
   - slug: engineering
     name: Engineering
 created-jotform: "2023-08-28 18:14:15"
-last-modified-jotform: "2023-10-10 22:51:46"
-last-exported: "2023-10-11 16:05:31"
+last-modified-jotform: "2023-10-12 23:14:17"
+last-exported: "2023-10-13 06:43:19"
 sitemap: false
 
 ---

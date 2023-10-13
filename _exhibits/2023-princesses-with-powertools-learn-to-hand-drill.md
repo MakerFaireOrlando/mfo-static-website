@@ -6,7 +6,7 @@ slug: princesses-with-powertools-learn-to-hand-drill
 permalink: /exhibits/princesses-with-powertools-learn-to-hand-drill/
 exhibit-id: 23-19
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG29, OG28, OF29"
 description: "Learn to use your first powertool from our amazing women engineers dressed as princesses"
 description-long: "Attendees will learn to use a power drill from women engineers dressed as princesses, and will leave with a take-away souvenir constellation projector they made themselves. We’ll be bringing our drill booths, power tools, princesses, and all the materials needed."
 image: /assets/images/exhibit-images/23-19-exhibit-princesses-with-powertools-learn-to-hand-drill-pwp-palmbay-2-large.jpg
@@ -55,8 +55,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-07-23 20:03:28"
-last-modified-jotform: "2023-10-10 23:15:22"
-last-exported: "2023-10-11 16:05:33"
+last-modified-jotform: "2023-10-12 22:15:04"
+last-exported: "2023-10-13 06:43:21"
 sitemap: false
 
 ---

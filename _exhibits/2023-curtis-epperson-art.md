@@ -6,7 +6,7 @@ slug: curtis-epperson-art
 permalink: /exhibits/curtis-epperson-art/
 exhibit-id: 23-59
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG22"
 description: "I create art out of words! All of the words are unique to each piece and no word is ever repeated!"
 description-long: "With every art piece I do, my goal is not only to entertain you, but also to inspire and educate you!
 
@@ -36,8 +36,8 @@ categories:
   - slug: education
     name: Education
 created-jotform: "2023-08-19 13:12:51"
-last-modified-jotform: "2023-10-10 22:19:46"
-last-exported: "2023-10-11 16:05:32"
+last-modified-jotform: "2023-10-12 22:45:28"
+last-exported: "2023-10-13 06:43:19"
 sitemap: false
 
 ---

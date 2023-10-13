@@ -6,7 +6,7 @@ slug: tampa-deep-sea-xplorers
 permalink: /exhibits/tampa-deep-sea-xplorers/
 exhibit-id: 23-42
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD16"
 description: "Tampa Deep Sea Xplorers is improving the cost effectiveness of underwater exploration.
 "
 description-long: "A New Wave in AUV Performance
@@ -45,8 +45,8 @@ categories:
   - slug: invention
     name: Invention
 created-jotform: "2023-08-04 11:05:28"
-last-modified-jotform: "2023-09-29 15:56:45"
-last-exported: "2023-09-30 16:47:56"
+last-modified-jotform: "2023-10-12 22:55:00"
+last-exported: "2023-10-13 06:43:20"
 sitemap: false
 
 ---

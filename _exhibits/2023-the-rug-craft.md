@@ -6,7 +6,7 @@ slug: the-rug-craft
 permalink: /exhibits/the-rug-craft/
 exhibit-id: 23-187
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE9"
 description: "Tufting demonstration and display of created products such as keychains, coasters, magnets, and rugs"
 description-long: "Tufting demonstration and display of created products such as keychains, coasters, magnets, and rugs"
 image: /assets/images/exhibit-images/23-187-exhibit-the-rug-craft-43-img-4599-original-6276-large.jpg
@@ -30,8 +30,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2023-10-11 20:23:37"
-last-modified-jotform: "2023-10-11 22:06:10"
-last-exported: "2023-10-11 22:17:47"
+last-modified-jotform: "2023-10-12 22:55:49"
+last-exported: "2023-10-13 06:43:16"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: muvmotors-make-your-projects-move
 permalink: /exhibits/muvmotors-make-your-projects-move/
 exhibit-id: 23-49
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG11"
 description: "Give your projects motion with the Stepper Boss from MuvMotors for animatronic  features."
 description-long: "Controller for animatronics, creature features, mannequins, museum dioramas, and kinetic sculptures. 
 
@@ -91,8 +91,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-08-09 15:31:27"
-last-modified-jotform: "2023-09-29 15:56:09"
-last-exported: "2023-09-30 16:47:56"
+last-modified-jotform: "2023-10-12 23:13:31"
+last-exported: "2023-10-13 06:43:20"
 sitemap: false
 
 ---

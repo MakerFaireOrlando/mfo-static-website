@@ -6,7 +6,7 @@ slug: smart-gardening-nsb-makerspace
 permalink: /exhibits/smart-gardening-nsb-makerspace/
 exhibit-id: 23-100
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE13"
 description: "A Smart Vertical Garden that brings design, gardening, and programming together!"
 description-long: "Our Friends of the Makerspace Group have come together and found common interests among all of our metal working, wood working, 3D printing, tool & die hobbies. We have a handful of projects that have brought our Makers from all different backgrounds together. 
 
@@ -60,8 +60,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2023-08-30 17:03:13"
-last-modified-jotform: "2023-10-09 18:41:37"
-last-exported: "2023-10-09 18:52:32"
+last-modified-jotform: "2023-10-12 22:54:29"
+last-exported: "2023-10-13 06:43:18"
 sitemap: false
 
 ---

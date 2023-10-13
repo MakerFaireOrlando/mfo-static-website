@@ -5,6 +5,7 @@ title: "Tokas Art house"
 slug: tokas-art-house
 permalink: /exhibits/tokas-art-house/
 exhibit-id: 23-53
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Toka art house is a seller here to bring you amazing art prints that you will like from loved Ip"
 description-long: "Toka art house is a seller here to bring you amazing art prints that you will like from loved Ip from anime to star wars"
@@ -52,8 +53,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2023-08-12 17:31:45"
-last-modified-jotform: "2023-10-11 22:23:19"
-last-exported: "2023-10-11 22:28:32"
+last-modified-jotform: "2023-10-11 22:40:25"
+last-exported: "2023-10-12 20:16:22"
 sitemap: false
 
 ---

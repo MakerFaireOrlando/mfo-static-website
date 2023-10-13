@@ -6,7 +6,7 @@ slug: fiber-fun-for-everyone-adds-sound
 permalink: /exhibits/fiber-fun-for-everyone-adds-sound/
 exhibit-id: 23-98
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG18"
 description: "Check out how to spin yarn, weave fabric and the variety of items that can be made with yarn!"
 description-long: "Exhibitors will demonstrate how to spin yarn with hand spindles and wheels, weave fabric, knit/crochet with yarn, and other crafts that use yarn.  There will be many items to see/touch made from handspun yarn and/or woven.  Visitors will be able to make sounds by touching sensors made with conductive yarn on Sparky the Cat and a special quilt. There will also be a simple free takeaway activity for children."
 image: /assets/images/exhibit-images/23-98-exhibit-fiber-fun-for-everyone-adds-sound-stinky-models-rh-woven-scarf-cropped-large.jpg
@@ -54,8 +54,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2023-08-30 16:27:24"
-last-modified-jotform: "2023-09-30 16:50:46"
-last-exported: "2023-09-30 16:50:57"
+last-modified-jotform: "2023-10-12 23:06:25"
+last-exported: "2023-10-13 06:43:18"
 sitemap: false
 
 ---
