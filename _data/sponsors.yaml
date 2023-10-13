@@ -22,7 +22,7 @@ sponsors:
     level: 3
     active: true
   - name: Disney
-    url:
+    url: https://disneyconnect.com/disneyworld/
     logo: Disney-Red-4C.png
     level: 3
     active: true
@@ -69,7 +69,7 @@ sponsors:
   - name: Brasfield & Gorrie
     url: https://www.brasfieldgorrie.com/
     logo: Brasfield-Gorrie-Logo-Blue-JPG.jpg
-    level: 5
+    level: 3
     active: true
   - name: Amphenol Custom Cable
     url: http://www.customcable.com/
