@@ -18,6 +18,9 @@ These details should not change, however we recommend checking this page in the 
 
 **If you have a question that isn’t addressed below, please email us at <makers@makerfaireorlando.com> (or for Combat Robot competitors, email the Robot Ruckus crew at <contact@robotruckus.org>)** Please include your exhibit or team name in the email as it helps us quickly locate your exhibit.
 
+### Anti-Harassment Policy
+Maker Faire Orlando has a zero tolerance policy for harassment of any kind - Learn more: [Anti-Harassment Policy](/anti-harassment/)
+
 
 ## Exhibit Spaces
 * Our standard exhibit space is approximately at 10'x10' space. In some locations, the building structure against walls may protrude into the space.
@@ -47,10 +50,10 @@ You will receive email before the week of the event with exhibitor tickets. You 
 The Maker Mixer is from 6PM to 7PM on Friday night. This is a great time to meet other makers, grab food (we will have some light food, but note that we will not be able to meet all dietary needs, please plan accordingly), and try some of the hands-on activities. Our goal is to have our Make-a-shirt workshop open on Friday evening for the Maker Mixer so that Makers and Maker Helpers are able to make their own Maker Faire Orlando or Robot Ruckus shirt for only $10. We may have other hands-on activities open if those teams are on site Friday night and setup. Stay tuned for more info 🙂 Please note the Maker Mixer is limited to those with event (Maker / volunteer / etc.) credentials, no guests are allowed.
 
 ### Load-out
-Load-out MAY NOT start until AFTER the event ends. Packing or leaving early without prior discussion and agreement may lead to your exhibit not being approved in subsequent years. All exhibits are 2 day exhibits unless you’ve reached specific agreement with the event producers through the exhibit application process or by emailing <makers@makerfaireorlando.com>. Vehicles may not be moved into loading / unloading zones until after the event has ended and the crowd has left the building. The main roadway in front of the Spirit, Curiosity, and Opportunity buildings will not open until at least 1 hour after the event has closed for safety. We know you want to get home after a long weekend, but we ask for your patience as we safely exit the crowd.
+Load-out MAY NOT start until AFTER the event ends. Packing or leaving early without prior discussion and agreement may lead to your exhibit not being approved in subsequent years. All exhibits are 2 day exhibits unless you’ve reached specific agreement with the event producers through the exhibit application process or by emailing <makers@makerfaireorlando.com>. Vehicles may not be moved into loading / unloading zones until after the event has ended and the crowd has left the building. The main roadway in front of the Spirit, Opportunity, and Maker Faire Stage buildings will not open until at least 1 hour after the event has closed for safety. We know you want to get home after a long weekend, but we ask for your patience as we safely exit the crowd.
 
 ## Maker Parking
-Maker parking for the weekend will be on-site with the general parking. You may NOT park near your exhibit building. All parking for Maker Faire Orlando is FREE.
+Maker parking for the weekend will be on-site with the general parking. You may NOT park near your exhibit building. All parking for Maker Faire Orlando is FREE. Please note that in prior years we have had makers who have violated our fencing for their convenience. These fences are for everyone's security, and this action will result in ejection from the event.
 
 ## General tips
 * Bring a cart! We DO NOT have carts available.
