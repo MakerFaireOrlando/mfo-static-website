@@ -16,10 +16,19 @@ assets/js/.DS_Store
 assets/images/.DS_Store
 assets/images/site-branding/.DS_Store
 assets/images/slider-homepage/.DS_Store
+
+#don't add full size images to the export, they aren't used on the website
+#and we need to keep the deployment size smaller!
+assets/images/exhibits/*-full.*
+
 _mdwriter.cson
 
 _data/exhibits.json
 _data/pets.json
 
 _python/private.yaml
+_python/curiosity.csv
+_python/spirit.csv
+_python/opportunity.csv
+
 .python-version
