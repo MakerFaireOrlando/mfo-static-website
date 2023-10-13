@@ -35,7 +35,8 @@ Check out the [full list of maker exhibits](/makers)! You can filter by category
 
 ### Event Schedule & Program
 
-COMING SOON
+Check out the [Maker Faire Program](/program) for a map, schedule and more!
+
 {%comment%}
 Use the event program including map and schedule to find exhibit zones, hands-on activities and times for Power Racing. Click the images below for a PDF version of the program.
 
