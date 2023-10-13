@@ -19,7 +19,7 @@ assets/images/slider-homepage/.DS_Store
 
 #don't add full size images to the export, they aren't used on the website
 #and we need to keep the deployment size smaller!
-assets/images/exhibits/*-full.*
+assets/images/exhibits-images/*-full.*
 
 _mdwriter.cson
 
