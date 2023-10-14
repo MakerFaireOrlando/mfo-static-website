@@ -6,7 +6,7 @@ slug: just-okay-company
 permalink: /exhibits/just-okay-company/
 exhibit-id: 23-159
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA18"
 description: "Just Okay Co makes high quality, whimsical, optimistic, existential graphic t-shirts and trinkets!"
 description-long: "Just Okay Company is the apparel brand of designer Matt Verdier. 
 Specializing in weird, optimistic, whimsical or otherwise thought provoking graphic tees, Just Okay Company invites you to have a laugh considering the absurdity of everyday life. And most of all, to feel affirmed and confident wearing your new favorite t-shirt with some silly text that speaks to you!"
@@ -64,8 +64,8 @@ categories:
   - slug: screen-printing
     name: Screen Printing
 created-jotform: "2023-09-28 19:43:17"
-last-modified-jotform: "2023-10-10 23:04:16"
-last-exported: "2023-10-11 16:05:29"
+last-modified-jotform: "2023-10-13 23:21:44"
+last-exported: "2023-10-14 08:55:25"
 sitemap: false
 
 ---

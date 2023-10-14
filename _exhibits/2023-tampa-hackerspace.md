@@ -6,7 +6,7 @@ slug: tampa-hackerspace
 permalink: /exhibits/tampa-hackerspace/
 exhibit-id: 23-123
 exhibit-zone: "Opportunity"
-space-number: "OC16"
+space-number: "OC15"
 description: "A myriad of projects ranging from a giant CNC foam dinosaur, metal working, electronics and more!"
 description-long: "The Tampa Hackerspace is the longest running Hackerspace/Makerspace in the Greater Tampa Bay Area. We have a vast array of tools including but not limited to: 3D Printers, Laser Cutters, 4x8 Shopbot, Metal and Wood lathes, electronics stations, cosplay, embroidery and more. Come by and check out the vast array of projects created by our makers including a 10 foot foam T-Rex that has been dressed up to mimic the balsa wood punch-outs of old! We always have something for everyone and always have a make and take for our younger (and young at heart) makers."
 image: /assets/images/exhibit-images/23-123-exhibit-tampa-hackerspace-pxl-20221106-213534758-mp-large.jpg
@@ -46,8 +46,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2023-09-02 15:53:07"
-last-modified-jotform: "2023-10-12 22:55:08"
-last-exported: "2023-10-13 06:43:18"
+last-modified-jotform: "2023-10-13 22:34:19"
+last-exported: "2023-10-14 08:56:04"
 sitemap: false
 
 ---

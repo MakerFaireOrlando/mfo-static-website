@@ -6,7 +6,7 @@ slug: geek-dad-shop
 permalink: /exhibits/geek-dad-shop/
 exhibit-id: 23-177
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA7"
 description: "Have fun with 3D printing and provide a leaning environment all ages. Also print cool robot and toys"
 description-long: "Description: Small-scale manufacturing and technology company that focus on the DIY creation of toy for kids, popular trends items, and sci-fi content and fun gadgets. In this company, I will develop and use my skill in engineering to manufacture products. Manufacturing methods includes 3D printing, painting, Computer Aid Design (CAD), programing and others. 
 
@@ -55,8 +55,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-10-09 15:34:06"
-last-modified-jotform: "2023-10-10 22:31:05"
-last-exported: "2023-10-11 16:05:29"
+last-modified-jotform: "2023-10-13 22:30:03"
+last-exported: "2023-10-14 08:55:14"
 sitemap: false
 
 ---

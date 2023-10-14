@@ -6,7 +6,7 @@ slug: zacks-honey-farm
 permalink: /exhibits/zacks-honey-farm/
 exhibit-id: 23-22
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD4"
 description: "We raise honeybees and produce artisan honey."
 description-long: "We are a small family apiary and We make several differant kinds of local honey from florida."
 image: /assets/images/exhibit-images/23-22-exhibit-zacks-honey-farm-img-2969-large.jpeg
@@ -28,8 +28,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2023-07-24 10:07:28"
-last-modified-jotform: "2023-10-10 22:21:59"
-last-exported: "2023-10-11 16:05:33"
+last-modified-jotform: "2023-10-13 23:34:27"
+last-exported: "2023-10-14 08:59:18"
 sitemap: false
 
 ---

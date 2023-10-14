@@ -6,7 +6,7 @@ slug: crystal-knockout
 permalink: /exhibits/crystal-knockout/
 exhibit-id: 23-106
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE16"
 description: "Crystal Knockout creates small-batch, vegan nail polish in a variety of colors and finishes."
 description-long: "Crystal Knockout specializes in handmade, small-batch, vegan nail polish in hundreds of colors and finishes, including color-changing thermals, glow-in-the-dark glitters, and multi-chrome magnetics. We also offer a variety of bath & beauty companion products, as well as jewelry made with or inspired by our nail polish shades. "
 image: /assets/images/exhibit-images/23-106-exhibit-crystal-knockout-photo-mar-11-9-55-07-am-large.jpg
@@ -61,8 +61,8 @@ categories:
   - slug: jewelry
     name: Jewelry
 created-jotform: "2023-08-30 21:05:01"
-last-modified-jotform: "2023-10-10 23:06:01"
-last-exported: "2023-10-11 16:05:30"
+last-modified-jotform: "2023-10-13 23:09:40"
+last-exported: "2023-10-14 08:56:43"
 sitemap: false
 
 ---

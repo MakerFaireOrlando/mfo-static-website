@@ -6,7 +6,7 @@ slug: rock-paper-thistle
 permalink: /exhibits/rock-paper-thistle/
 exhibit-id: 23-84
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE18"
 description: "Unique paper craft creations, using cut paper and origami "
 description-long: "I love to manipulate paper into beautiful works of art, creating conversation pieces and amazing items "
 image: /assets/images/exhibit-images/23-84-exhibit-rock-paper-thistle-cut-paper-love-large.jpeg
@@ -77,8 +77,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2023-08-28 17:00:25"
-last-modified-jotform: "2023-10-10 23:08:14"
-last-exported: "2023-10-11 16:05:31"
+last-modified-jotform: "2023-10-13 23:22:32"
+last-exported: "2023-10-14 08:57:33"
 sitemap: false
 
 ---

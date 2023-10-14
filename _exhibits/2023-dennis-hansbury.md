@@ -6,7 +6,7 @@ slug: dennis-hansbury
 permalink: /exhibits/dennis-hansbury/
 exhibit-id: 23-7
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA26"
 description: "Where the Halloween spirit never wanes, and the magic of the season lingers all year long."
 description-long: "Please enjoy a moment in my world where the Halloween spirit never wanes, and the magic of the season lingers all year long. Welcome to an enchanting exhibit featuring delightfully spooky-cute wooden home decor, that is all hand-cut and painted. From creaky bones and happy bats, to laughing pumpkins and sneaky cats – there is something for every home, no matter the time of year!"
 image: /assets/images/exhibit-images/23-7-exhibit-dennis-hansbury-dennishansbury-1-large.jpg
@@ -50,8 +50,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-07-22 19:06:29"
-last-modified-jotform: "2023-09-29 15:57:40"
-last-exported: "2023-09-30 16:47:57"
+last-modified-jotform: "2023-10-13 23:17:20"
+last-exported: "2023-10-14 08:59:33"
 sitemap: false
 
 ---

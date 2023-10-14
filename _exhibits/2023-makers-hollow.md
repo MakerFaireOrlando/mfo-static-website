@@ -5,8 +5,8 @@ title: "Makers Hollow"
 slug: makers-hollow
 permalink: /exhibits/makers-hollow/
 exhibit-id: 23-70
-exhibit-zone: "The Dark Side (Spirit Building)"
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA16"
 description: "Demonstrating some fun projects that were made at Makers Hollow.  Art and creations."
 description-long: "Demonstrating some fun projects that were made at Makers Hollow.  Art and creations."
 image: /assets/images/exhibit-images/23-70-exhibit-makers-hollow-2017-10-22-15-33-40-large.jpg
@@ -35,8 +35,8 @@ categories:
   - slug: special-effects
     name: Special Effects
 created-jotform: "2023-08-23 09:56:54"
-last-modified-jotform: "2023-09-29 16:00:13"
-last-exported: "2023-09-30 16:47:56"
+last-modified-jotform: "2023-10-13 23:42:09"
+last-exported: "2023-10-14 08:57:40"
 sitemap: false
 
 ---

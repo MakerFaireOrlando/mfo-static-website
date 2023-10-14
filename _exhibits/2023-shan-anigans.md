@@ -6,7 +6,7 @@ slug: shan-anigans
 permalink: /exhibits/shan-anigans/
 exhibit-id: 23-45
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA25"
 description: "Shan-anigans! creates spooky and tattoo inspired watercolors and cottage-core home goods. "
 description-long: "Shan-anigans! has been creating retro watercolors and cottage-core home goods since 2014. Female and LGBTQ+ owned, this Orlando local likes to paint, sew, and cross-stitch all things spooky, tarot, tattoo, and equity-related. She takes custom requests and will be painting at the Shan-anigans! table all weekend long. 
 Made with love and an eye for detail, all items are created as if it were for one of Shan's own friends or family members."
@@ -83,8 +83,8 @@ categories:
   - slug: sewing
     name: Sewing
 created-jotform: "2023-08-06 13:47:42"
-last-modified-jotform: "2023-10-10 22:19:41"
-last-exported: "2023-10-11 16:05:32"
+last-modified-jotform: "2023-10-13 23:17:32"
+last-exported: "2023-10-14 08:58:13"
 sitemap: false
 
 ---

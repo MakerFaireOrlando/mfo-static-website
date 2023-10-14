@@ -7,9 +7,8 @@ permalink: /exhibits/the-royal-trumpets/
 exhibit-id: 23-33
 exhibit-zone: "Outside"
 space-number: Unassigned
-description: "The Royal Trumpets are an EPIC series of 6 kinetic pyrotechnic sound sculptures that stand 15' tall!"
-description-long: "The Royal Trumpets is a series of 6 kinetic pyrotechnic sound sculptures that stand 15' tall and are rendered after the medieval trumpets that greeted kings and queens. They are on linear actuators and move(slowly) from completely vertical to a 45* angle. The system runs on BBQ sized propane tanks and the control system has numerous safety features integrated into the design for failsafe redundancy in the event of an emergency to stop all gas flow. The piece is NFPA code 160 compliant. Event insurance can be provided for the event or the venue can supply insurance, see special requests for budget with breakdown.
-"
+description: "The Royal Trumpets are an EPIC series of 6 kinetic pyrotechnic sound sculptures that stand 15' tall and shoot fire!"
+description-long: "The Royal Trumpets is a series of 6 kinetic pyrotechnic sound sculptures that stand 15' tall and are rendered after the medieval trumpets that greeted kings and queens. They are on linear actuators and move(slowly) from completely vertical to a 45* angle. The system runs on BBQ sized propane tanks and the control system has numerous safety features integrated into the design for failsafe redundancy in the event of an emergency to stop all gas flow. "
 image: /assets/images/exhibit-images/23-33-exhibit-the-royal-trumpets-nail-large.jpg
 image-primary: 
   small: /assets/images/exhibit-images/23-33-exhibit-the-royal-trumpets-nail-small.jpg
@@ -43,8 +42,8 @@ categories:
   - slug: special-effects
     name: Special Effects
 created-jotform: "2023-07-29 18:00:58"
-last-modified-jotform: "2023-10-09 18:04:47"
-last-exported: "2023-10-09 18:52:33"
+last-modified-jotform: "2023-10-14 08:54:57"
+last-exported: "2023-10-14 08:58:40"
 sitemap: false
 
 ---

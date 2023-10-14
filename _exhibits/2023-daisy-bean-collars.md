@@ -6,7 +6,7 @@ slug: daisy-bean-collars
 permalink: /exhibits/daisy-bean-collars/
 exhibit-id: 23-133
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD18"
 description: "I sew and assemble all items I make.  "
 description-long: "Is an exhibitor I would have my sewing machine there, where I could work on assembling, dog collars, and sewing bandannas.. "
 image: /assets/images/exhibit-images/23-133-exhibit-daisy-bean-collars-a3fa9f8c-de07-44df-890c-f7d9151853e2-large.jpeg
@@ -35,8 +35,8 @@ categories:
   - slug: sewing
     name: Sewing
 created-jotform: "2023-09-08 17:28:23"
-last-modified-jotform: "2023-10-10 23:12:53"
-last-exported: "2023-10-11 16:05:30"
+last-modified-jotform: "2023-10-13 23:23:30"
+last-exported: "2023-10-14 08:55:57"
 sitemap: false
 
 ---

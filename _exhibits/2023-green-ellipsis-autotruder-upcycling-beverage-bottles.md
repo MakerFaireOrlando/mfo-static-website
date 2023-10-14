@@ -6,7 +6,7 @@ slug: green-ellipsis-autotruder-upcycling-beverage-bottles
 permalink: /exhibits/green-ellipsis-autotruder-upcycling-beverage-bottles/
 exhibit-id: 23-130
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC22"
 description: "Transforming 2L bottles into 3D printer filament and printing anything you can think of!"
 description-long: "Single-use plastic beverage bottles can be cut into long strips to be pulled through a heated die the same diameter of 3D printer filament. This not only recycles the bottle, but up-cycles it. We will exhibit the current state of the art, which is mostly a manual process whose resulting filament isn’t economically competitive. We envision an automated pultrusion process that accepts unwashed 2-liter bottles and produces quality filament with zero waste products. This is a multi-stage process, including bottle washing, bottle preparation, bottle cutting, strip pultrusion, filament winding, filament splicing, filament packaging and byproduct processing. Every stage is a candidate for automation."
 image: /assets/images/exhibit-images/23-130-exhibit-green-ellipsis-autotruder-upcycling-beverage-bottles-image-50439681-large.JPG
@@ -44,8 +44,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2023-09-07 19:28:20"
-last-modified-jotform: "2023-10-10 22:48:47"
-last-exported: "2023-10-11 16:05:30"
+last-modified-jotform: "2023-10-13 22:56:18"
+last-exported: "2023-10-14 08:55:59"
 sitemap: false
 
 ---

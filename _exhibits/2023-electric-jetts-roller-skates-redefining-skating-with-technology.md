@@ -6,7 +6,7 @@ slug: electric-jetts-roller-skates-redefining-skating-with-technology
 permalink: /exhibits/electric-jetts-roller-skates-redefining-skating-with-technology/
 exhibit-id: 23-140
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC13"
 description: "Elevate your mobility with Electric Jetts Roller Skates"
 description-long: "Our project, *Electric Jetts Roller Skates*, represents a groundbreaking fusion of cutting-edge technology and recreational enjoyment. These electric roller skates have been meticulously designed and engineered to provide a unique and exhilarating experience for users of all ages and skill levels.
  
@@ -122,8 +122,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2023-09-13 19:03:12"
-last-modified-jotform: "2023-09-29 17:49:49"
-last-exported: "2023-09-30 16:47:48"
+last-modified-jotform: "2023-10-13 22:55:13"
+last-exported: "2023-10-14 08:55:55"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: queens-cove-creative
 permalink: /exhibits/queens-cove-creative/
 exhibit-id: 23-5
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA22"
 description: "Queens Cove Creative creates unique laser engraved art as well as fine art and illustration "
 description-long: "Queens Cove Creative is a husband-wife Creative team. L. Jason is the artist. He creates designs and art ranging from unique wood-engraved imaginations to professional illustrations and fine art. He is officially licensed and published with Marvel,  Star Wars, Stranger Things, Halloween, and the Hannibal television franchises. Christy is the leading manager and business professional as well as art director. "
 image: /assets/images/exhibit-images/23-5-exhibit-queens-cove-creative-jqueenprofilepic-large.jpg
@@ -56,8 +56,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-07-22 18:45:22"
-last-modified-jotform: "2023-09-29 15:57:34"
-last-exported: "2023-09-30 16:47:57"
+last-modified-jotform: "2023-10-13 23:18:15"
+last-exported: "2023-10-14 08:59:36"
 sitemap: false
 
 ---

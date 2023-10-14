@@ -6,7 +6,7 @@ slug: t-zero-systems
 permalink: /exhibits/t-zero-systems/
 exhibit-id: 23-104
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC7"
 description: "I make advanced model rockets that operate using guidance and navigation systems like big ones "
 description-long: "I work by trade as a spacecraft operations and design engineer and enjoy the process of making so much I make miniature versions of the systems that I work with at full scale. I always wanted to be able to fly more advanced model rockets and with modern electronics and 3d printing I now can! I design and build my own rocket avionics that control and stabilize them"
 image: /assets/images/exhibit-images/23-104-exhibit-t-zero-systems-thumbnail-v2-large.JPG
@@ -72,8 +72,8 @@ categories:
   - slug: space
     name: Space
 created-jotform: "2023-08-30 20:02:40"
-last-modified-jotform: "2023-10-10 23:09:17"
-last-exported: "2023-10-11 16:05:31"
+last-modified-jotform: "2023-10-13 23:00:03"
+last-exported: "2023-10-14 08:56:54"
 sitemap: false
 
 ---

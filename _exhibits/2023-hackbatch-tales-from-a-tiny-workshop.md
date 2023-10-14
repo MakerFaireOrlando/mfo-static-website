@@ -6,7 +6,7 @@ slug: hackbatch-tales-from-a-tiny-workshop
 permalink: /exhibits/hackbatch-tales-from-a-tiny-workshop/
 exhibit-id: 23-51
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD13"
 description: "Custom designed robots, a drawing machine from a 3D-printer and shiny lights with fancy effects!"
 description-long: "I make things in a tiny workshop tucked away in my bedroom closet. A single workbench and some basic tools are used to build robots, make art and videos, and all sorts of fun lights!
 
@@ -69,8 +69,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-08-11 08:46:01"
-last-modified-jotform: "2023-10-10 23:10:29"
-last-exported: "2023-10-11 16:05:32"
+last-modified-jotform: "2023-10-13 22:51:41"
+last-exported: "2023-10-14 08:58:05"
 sitemap: false
 
 ---

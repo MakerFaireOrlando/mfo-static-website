@@ -6,7 +6,7 @@ slug: amazing-bead-a-rama
 permalink: /exhibits/amazing-bead-a-rama/
 exhibit-id: 23-97
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD19"
 description: "We are a hand made jewelry company"
 description-long: "All our earring are made from sterling silver and gemstone beads. We have been in business for 14 years."
 image: /assets/images/exhibit-images/23-97-exhibit-amazing-bead-a-rama-16d42fb6-fcaa-402a-be65-2f99a821efed-large.jpeg
@@ -54,8 +54,8 @@ categories:
   - slug: jewelry
     name: Jewelry
 created-jotform: "2023-08-30 14:44:17"
-last-modified-jotform: "2023-10-11 22:27:31"
-last-exported: "2023-10-11 22:28:25"
+last-modified-jotform: "2023-10-13 23:26:40"
+last-exported: "2023-10-14 08:57:12"
 sitemap: false
 
 ---

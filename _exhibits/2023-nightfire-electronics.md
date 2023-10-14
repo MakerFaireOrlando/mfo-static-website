@@ -6,7 +6,7 @@ slug: nightfire-electronics
 permalink: /exhibits/nightfire-electronics/
 exhibit-id: 23-8
 exhibit-zone: "Opportunity"
-space-number: "OE8, OE9"
+space-number: "OA8, OA9"
 description: "We offer electronic kits and supplies. We also offer crafts and supplies."
 description-long: "We design and offer electronic kits for school-age children and young adults. This includes audio amplifiers, LED circuits, Timers, Counters, and much more. We also create epoxy resin designs and supplies. This will be our fifth year here and look forward to another great adventure."
 image: /assets/images/exhibit-images/23-8-exhibit-nightfire-electronics-nightfire-amp-large.jpg
@@ -38,8 +38,8 @@ categories:
   - slug: kits
     name: Kits
 created-jotform: "2023-07-22 19:39:13"
-last-modified-jotform: "2023-10-12 23:10:42"
-last-exported: "2023-10-13 06:43:21"
+last-modified-jotform: "2023-10-13 23:36:40"
+last-exported: "2023-10-14 08:59:30"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: wrensketches-by-erin-kelly
 permalink: /exhibits/wrensketches-by-erin-kelly/
 exhibit-id: 23-145
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA17"
 description: "Erin & Martha make watercolor paintings/prints/sketches/wirewrapped crowns/crocheted scarves & more!"
 description-long: "My name is Erin Kelly, and I sketch/paint in watercolor. I sell prints and originals of my work, limited run handmade frames, and bottled faeries. Sharing my space is my mother who makes wirewrapped crowns and hand crocheted wearables and accessories. We love to talk to everyone about our process and how they can make things too!"
 image: /assets/images/exhibit-images/23-145-exhibit-wrensketches-by-erin-kelly-photo-nov-10-5-09-32-pm-large.jpg
@@ -40,8 +40,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2023-09-16 00:53:37"
-last-modified-jotform: "2023-10-10 22:57:06"
-last-exported: "2023-10-11 16:05:29"
+last-modified-jotform: "2023-10-13 23:08:25"
+last-exported: "2023-10-14 08:55:29"
 sitemap: false
 
 ---
