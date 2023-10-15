@@ -6,7 +6,7 @@ slug: j2c-props-and-printing
 permalink: /exhibits/j2c-props-and-printing/
 exhibit-id: 23-26
 exhibit-zone: "Spirit"
-space-number: Unassigned
+space-number: "SG29"
 description: "3D printed pieces & props that showcase the groups expertise in printing, painting will be for sale"
 description-long: "Multiple 3D printed display pieces that showcase the groups expertise in printing, painting, and lighting. The pieces demonstrate various techniques from electronics and lighting, to airbrushing and glow paint. All of the props and miniatures are 3D printed using ABS, PLA, and Resin in a variety of scales from 1/6th to life size.
 We've been 3D printing for many years and we are eager to share the techniques and experience we've learned along with visitors.  Many pieces will be for sale"
@@ -49,8 +49,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2023-07-25 12:31:29"
-last-modified-jotform: "2023-09-29 17:45:36"
-last-exported: "2023-09-30 16:47:57"
+last-modified-jotform: "2023-10-14 13:49:31"
+last-exported: "2023-10-14 15:18:20"
 sitemap: false
 
 ---

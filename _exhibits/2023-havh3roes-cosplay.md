@@ -6,7 +6,7 @@ slug: havh3roes-cosplay
 permalink: /exhibits/havh3roes-cosplay/
 exhibit-id: 23-183
 exhibit-zone: "Spirit"
-space-number: Unassigned
+space-number: "SI36, SJ35, SJ36"
 description: "Watch and learn from HavH3roes? Cosplay as they work on their current builds!"
 description-long: "Watch as HavH3roes? Cosplay works on their current cosplays and learn about their making processes. We will also be showcasing some pieces from our award-winning Borderlands and Wonderlands cosplays."
 image: /assets/images/exhibit-images/23-183-exhibit-havh3roes-cosplay-img-20231010-224259-large.jpg
@@ -33,8 +33,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2023-10-10 23:28:45"
-last-modified-jotform: "2023-10-11 21:39:03"
-last-exported: "2023-10-11 21:43:21"
+last-modified-jotform: "2023-10-14 13:38:29"
+last-exported: "2023-10-14 15:17:05"
 sitemap: false
 
 ---

@@ -5,8 +5,8 @@ title: "Savage Canvas Arts"
 slug: savage-canvas-arts
 permalink: /exhibits/savage-canvas-arts/
 exhibit-id: 23-15
-exhibit-zone: "The Dark Side (Spirit Building)"
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OD3"
 description: "Glow in the dark paintings and t-shirts"
 description-long: "Hand-painted, glow-in-the-dark t-shirts and canvas paintings. All painted by Nick Savage. T-shirts are machine washable with colors and machine dry-able. Most images will have a black image that hides behind a color image. The black image will glow under black light and in the dark. Some products will have one color image that glows."
 image: /assets/images/exhibit-images/23-15-exhibit-savage-canvas-arts-324856890-1079308796253610-942721701091998816-n-large.jpg
@@ -30,8 +30,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2023-07-23 11:12:10"
-last-modified-jotform: "2023-09-29 15:58:25"
-last-exported: "2023-09-30 16:47:57"
+last-modified-jotform: "2023-10-14 14:17:04"
+last-exported: "2023-10-14 15:18:28"
 sitemap: false
 
 ---

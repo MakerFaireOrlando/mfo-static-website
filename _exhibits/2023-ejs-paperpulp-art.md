@@ -6,7 +6,7 @@ slug: ejs-paperpulp-art
 permalink: /exhibits/ejs-paperpulp-art/
 exhibit-id: 23-88
 exhibit-zone: "Spirit"
-space-number: Unassigned
+space-number: "SF27"
 description: "A small collection or art made out of recycled paper. All the work is inspired by Japanese culture."
 description-long: "Ejs Paperpulp Art makes art out of recycled paper and other miscellaneous materials. His work is inspired by Japanese culture but are all of his own original design. This exhibit displays a set or samurai armor, various prop weapons, and multiple masks varying from big too small."
 image: /assets/images/exhibit-images/23-88-exhibit-ejs-paperpulp-art-img-5489-large.jpeg
@@ -85,8 +85,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2023-08-29 10:31:11"
-last-modified-jotform: "2023-09-29 17:47:08"
-last-exported: "2023-09-30 16:47:55"
+last-modified-jotform: "2023-10-14 13:57:56"
+last-exported: "2023-10-14 15:17:39"
 sitemap: false
 
 ---

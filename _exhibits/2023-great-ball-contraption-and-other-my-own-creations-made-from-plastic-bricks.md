@@ -6,7 +6,7 @@ slug: great-ball-contraption-and-other-my-own-creations-made-from-plastic-bricks
 permalink: /exhibits/great-ball-contraption-and-other-my-own-creations-made-from-plastic-bricks/
 exhibit-id: 23-37
 exhibit-zone: "The Dark Side (Spirit Building)"
-space-number: Unassigned
+space-number: "SJ4, SJ5, SJ6"
 description: "Club members have constructed their modules for the GBC. Come see the action and other creations."
 description-long: "The Great Ball Contraption is a collaboration consisting of LEGO fans built modules. These are combined on-site to form a large Rube Goldberg-style mechanical contraption. The goal is to pass LEGO soccer balls and basketballs from one module to the next. This is fun to watch for all ages. In addition to this there will be MOCs or My Own Creations that GFLUG Members have made including mosaics sculptures, vignettes, and various themed displays. "
 image: /assets/images/exhibit-images/23-37-exhibit-great-ball-contraption-and-other-my-own-creations-made-from-plastic-bricks-20221106-114428-large.jpg
@@ -55,8 +55,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-08-02 17:18:41"
-last-modified-jotform: "2023-10-10 22:18:48"
-last-exported: "2023-10-11 16:05:33"
+last-modified-jotform: "2023-10-14 15:16:06"
+last-exported: "2023-10-14 15:18:13"
 sitemap: false
 
 ---

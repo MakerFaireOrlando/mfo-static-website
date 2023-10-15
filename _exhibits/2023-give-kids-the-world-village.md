@@ -6,7 +6,7 @@ slug: give-kids-the-world-village
 permalink: /exhibits/give-kids-the-world-village/
 exhibit-id: 23-131
 exhibit-zone: "The Dark Side (Spirit Building)"
-space-number: Unassigned
+space-number: "SC6, SC7"
 description: "Informational booth on new STEAM activity center at Give Kids The World Village. "
 description-long: "Give Kids The World Village is an 89-acre, nonprofit storybook resort in Central Florida. Here, children with critical illnesses and their families are treated to weeklong, cost-free vacations.
 The newest venue at the Village is Mayor Clayton's WonderLab, a STEAM activity center for families staying on property. This venue will offer activities such as sewing, cardboard construction, soldering, animatronic programming, and so much more! Opening in 2024, we are looking for volunteers with STEAM experience to bring this lab to life.  "
@@ -29,8 +29,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2023-09-08 11:53:15"
-last-modified-jotform: "2023-09-29 17:49:56"
-last-exported: "2023-09-30 16:47:49"
+last-modified-jotform: "2023-10-14 14:23:06"
+last-exported: "2023-10-14 15:17:23"
 sitemap: false
 
 ---

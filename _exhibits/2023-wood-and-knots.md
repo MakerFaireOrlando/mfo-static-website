@@ -6,7 +6,7 @@ slug: wood-and-knots
 permalink: /exhibits/wood-and-knots/
 exhibit-id: 23-87
 exhibit-zone: "The Dark Side (Spirit Building)"
-space-number: Unassigned
+space-number: "SJ8"
 description: "Hand made wood and crochetted items"
 description-long: "We make gifts, keepsakes, household items, animals, scarfs, hats and other hand made items for your enjoyment."
 image: /assets/images/exhibit-images/23-87-exhibit-wood-and-knots-old-large.jpg
@@ -32,8 +32,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-08-29 05:05:57"
-last-modified-jotform: "2023-10-12 22:05:47"
-last-exported: "2023-10-13 06:43:19"
+last-modified-jotform: "2023-10-14 14:35:55"
+last-exported: "2023-10-14 15:17:39"
 sitemap: false
 
 ---

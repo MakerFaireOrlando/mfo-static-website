@@ -6,7 +6,7 @@ slug: brassroots-leather
 permalink: /exhibits/brassroots-leather/
 exhibit-id: 23-43
 exhibit-zone: "Spirit"
-space-number: Unassigned
+space-number: "SE30"
 description: "Steampunk and Pop Culture Inspired Leather Crafts and More..."
 description-long: "We are a small hobby business that got its start by making a leather top hat in 2012. Since then, we have branched out and made more leather items with inspiration in the steampunk genre and more recently in pop culture such as Star Wars belts and some props. 
 We are veterans at the Maker Faire Orlando, and love to come out yearly to sell our creations: goggles, bracelets, collars, wallets, ID Cases, and 3D printed items. Our booth hosts small 10 min classes during the event that showcases quick lessons geared to teach anyone how to make things with leather, stamp & tool, and that is with just the cost of the teaching items. 
@@ -60,8 +60,8 @@ categories:
   - slug: steampunk
     name: SteamPunk
 created-jotform: "2023-08-05 21:19:04"
-last-modified-jotform: "2023-09-29 17:45:54"
-last-exported: "2023-09-30 16:47:56"
+last-modified-jotform: "2023-10-14 13:51:34"
+last-exported: "2023-10-14 15:18:11"
 sitemap: false
 
 ---

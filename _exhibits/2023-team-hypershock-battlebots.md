@@ -6,7 +6,7 @@ slug: team-hypershock-battlebots
 permalink: /exhibits/team-hypershock-battlebots/
 exhibit-id: 23-168
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: Unassigned
+space-number: "SE26"
 description: "Come see Team HyperShock and their bot from the TV show BattleBots on Discovery! "
 description-long: "Come see Team HyperShock and their bot from the TV show BattleBots on Discovery! "
 image: /assets/images/exhibit-images/23-168-exhibit-team-hypershock-battlebots-bb2021-ep615-hypershock-vs-valkyrie-jbp9405-21-spoiler-photographer-jon-c-r-bennett-large.jpg
@@ -33,8 +33,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2023-10-02 20:51:23"
-last-modified-jotform: "2023-10-03 13:44:04"
-last-exported: "2023-10-03 13:47:14"
+last-modified-jotform: "2023-10-14 14:05:09"
+last-exported: "2023-10-14 15:17:09"
 sitemap: false
 
 ---

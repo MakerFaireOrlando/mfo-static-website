@@ -6,7 +6,7 @@ slug: the-quillsmith
 permalink: /exhibits/the-quillsmith/
 exhibit-id: 23-119
 exhibit-zone: "Spirit"
-space-number: Unassigned
+space-number: "SG30"
 description: "Handmade quill pens & re-purposed vintage tea cup designs."
 description-long: "Handmade quill pens wrapped with ribbons & charms on a vintage paper holder. Re-purposed vintage tea cups made into various holiday & thematic vignettes."
 image: /assets/images/exhibit-images/23-119-exhibit-the-quillsmith-img-20230901-184139393-hdr-large.jpg
@@ -31,8 +31,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2023-09-01 19:01:54"
-last-modified-jotform: "2023-10-11 22:26:00"
-last-exported: "2023-10-11 22:28:24"
+last-modified-jotform: "2023-10-14 13:57:28"
+last-exported: "2023-10-14 15:17:23"
 sitemap: false
 
 ---

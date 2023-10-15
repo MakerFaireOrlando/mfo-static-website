@@ -6,7 +6,7 @@ slug: thestarcos
 permalink: /exhibits/thestarcos/
 exhibit-id: 23-179
 exhibit-zone: "Spirit"
-space-number: Unassigned
+space-number: "SJ34"
 description: "Watch a professional cosplayer sew and craft their next projects!"
 description-long: "Star will be sewing and crafting her up coming projects at her table!"
 image: /assets/images/exhibit-images/23-179-exhibit-thestarcos-untitled-artwork-large.jpeg
@@ -33,8 +33,8 @@ categories:
   - slug: fabric-arts
     name: Fabric Arts
 created-jotform: "2023-10-09 23:08:54"
-last-modified-jotform: "2023-10-11 21:40:25"
-last-exported: "2023-10-11 21:43:21"
+last-modified-jotform: "2023-10-14 13:39:26"
+last-exported: "2023-10-14 15:17:05"
 sitemap: false
 
 ---

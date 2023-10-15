@@ -6,7 +6,7 @@ slug: meta-humans-education
 permalink: /exhibits/meta-humans-education/
 exhibit-id: 23-46
 exhibit-zone: "The Dark Side (Spirit Building)"
-space-number: Unassigned
+space-number: "SE7"
 description: "Entrepreneurs, Hackers, Makers, Producers, Gamers & Guardians - Which Tracks will you choose?"
 description-long: "Experience firsthand Orlando’s first, innovative, immersive educational program utilizing STEM, the Arts and Entrepreneurship.
 Ideal for students ages 7-17, META HUMANS prepares students for the challenges and opportunities of the 21st century and provides hands-on activities outside a traditional classroom setting."
@@ -49,8 +49,8 @@ categories:
   - slug: maker-community
     name: Maker Community
 created-jotform: "2023-08-06 13:48:32"
-last-modified-jotform: "2023-10-12 22:47:39"
-last-exported: "2023-10-13 06:43:20"
+last-modified-jotform: "2023-10-14 14:25:55"
+last-exported: "2023-10-14 15:18:08"
 sitemap: false
 
 ---

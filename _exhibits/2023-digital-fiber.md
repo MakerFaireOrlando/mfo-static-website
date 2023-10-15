@@ -6,7 +6,7 @@ slug: digital-fiber
 permalink: /exhibits/digital-fiber/
 exhibit-id: 23-62
 exhibit-zone: "Spirit"
-space-number: Unassigned
+space-number: "SE27"
 description: "E-Textile Demonstration. Technical Embroidery of LEDs, PCBs, and Sensors."
 description-long: "This exhibit offers a project-based overview of electronic textiles, particularly in the domain of technical embroidery.
 
@@ -75,8 +75,8 @@ categories:
   - slug: fiber-arts
     name: Fiber Arts
 created-jotform: "2023-08-21 14:25:58"
-last-modified-jotform: "2023-09-29 17:51:44"
-last-exported: "2023-09-30 16:47:56"
+last-modified-jotform: "2023-10-14 13:59:41"
+last-exported: "2023-10-14 15:17:56"
 sitemap: false
 
 ---

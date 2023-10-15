@@ -6,7 +6,7 @@ slug: darlene-duncan-author
 permalink: /exhibits/darlene-duncan-author/
 exhibit-id: 23-23
 exhibit-zone: "The Dark Side (Spirit Building)"
-space-number: Unassigned
+space-number: "SF3"
 description: "Local author, selling and signing books."
 description-long: "Darlene will be selling and signing her books. If the environment permits she'll do a reading from one of her books. 
 Always willing to talk with her fans and fellow authors, she'll answer questions about writing, self-publishing, and the creative process."
@@ -33,8 +33,8 @@ categories:
   - slug: writing-and-publishing
     name: Writing and Publishing
 created-jotform: "2023-07-24 11:40:24"
-last-modified-jotform: "2023-10-10 22:22:06"
-last-exported: "2023-10-11 16:05:33"
+last-modified-jotform: "2023-10-14 14:55:07"
+last-exported: "2023-10-14 15:18:21"
 sitemap: false
 
 ---

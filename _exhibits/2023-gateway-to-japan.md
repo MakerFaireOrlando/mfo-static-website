@@ -6,7 +6,7 @@ slug: gateway-to-japan
 permalink: /exhibits/gateway-to-japan/
 exhibit-id: 23-67
 exhibit-zone: "Spirit"
-space-number: Unassigned
+space-number: "SG27"
 description: "Workshop: 
 How to fold simple Origami
 Your name and favorite words in Japanese brush calligraphy 
@@ -64,8 +64,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2023-08-22 23:00:11"
-last-modified-jotform: "2023-09-29 17:47:11"
-last-exported: "2023-09-30 16:47:56"
+last-modified-jotform: "2023-10-14 13:58:15"
+last-exported: "2023-10-14 15:17:52"
 sitemap: false
 
 ---

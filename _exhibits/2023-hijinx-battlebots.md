@@ -6,7 +6,7 @@ slug: hijinx-battlebots
 permalink: /exhibits/hijinx-battlebots/
 exhibit-id: 23-176
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: Unassigned
+space-number: "SG26"
 description: "I'm here to talk to you about robots!"
 description-long: "Team Offbeat Robotics has participated in every season of BattleBots since the reboot. The robots have changed from Wrecks to Skorpios to HiJinx, and we are still innovating to bring new and unusual designs to this televised robot competition. "
 image: /assets/images/exhibit-images/23-176-exhibit-hijinx-battlebots-43-hijinx-team-photo-7561-large.png
@@ -27,8 +27,8 @@ categories:
   - slug: battlebots
     name: BattleBots
 created-jotform: "2023-10-09 14:00:08"
-last-modified-jotform: "2023-10-10 22:49:41"
-last-exported: "2023-10-11 16:05:29"
+last-modified-jotform: "2023-10-14 14:06:00"
+last-exported: "2023-10-14 15:17:09"
 sitemap: false
 
 ---

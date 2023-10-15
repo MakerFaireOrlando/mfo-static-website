@@ -6,7 +6,7 @@ slug: lfl-approved-star-wars-costuming-groups
 permalink: /exhibits/lfl-approved-star-wars-costuming-groups/
 exhibit-id: 23-117
 exhibit-zone: "Spirit"
-space-number: Unassigned
+space-number: "SC33, SC34"
 description: "This is the combined group LucasFilm approved Star Wars Costuming Clubs. "
 description-long: "This is the combined group LucasFilm approved Star Wars Costuming Clubs. Including 501st Legion, Rebel Legion, Southern R2 Builders, Saber Guild, Dark Empire and the Mandalorian Mercs. "
 image: /assets/images/exhibit-images/23-117-exhibit-lfl-approved-star-wars-costuming-groups-43-facebook-1693571428671-7103353417560587821-1770-large.jpg
@@ -34,8 +34,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-09-01 08:39:49"
-last-modified-jotform: "2023-09-29 15:54:34"
-last-exported: "2023-09-30 16:47:49"
+last-modified-jotform: "2023-10-14 13:38:46"
+last-exported: "2023-10-14 15:17:23"
 sitemap: false
 
 ---

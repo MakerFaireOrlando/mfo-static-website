@@ -6,7 +6,7 @@ slug: witch-doctor-on-battlebots
 permalink: /exhibits/witch-doctor-on-battlebots/
 exhibit-id: 23-167
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: Unassigned
+space-number: "SF26"
 description: "Come meet Witch Doctor, the award-winning competitor on the TV show BattleBots!"
 description-long: "Learn how you can build and battle your first robot with the launch of Camp Witch Doctor here at Maker Faire Orlando! We will be demoing our new robot kits all weekend, with TEN unique designs. Witch Doctor will also be on display, and members of the team will be available to meet and greet. Come say hello!"
 image: /assets/images/exhibit-images/23-167-exhibit-witch-doctor-on-battlebots-img-9334-sm-large.jpg
@@ -31,8 +31,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2023-10-02 19:30:15"
-last-modified-jotform: "2023-10-03 13:43:34"
-last-exported: "2023-10-03 13:47:20"
+last-modified-jotform: "2023-10-14 14:05:02"
+last-exported: "2023-10-14 15:17:09"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: megan-orussells-book-booth
 permalink: /exhibits/megan-orussells-book-booth/
 exhibit-id: 23-146
 exhibit-zone: "The Dark Side (Spirit Building)"
-space-number: Unassigned
+space-number: "SG4"
 description: "From epic fantasy to dystopian worlds, Megan O'Russell invites you to escape into adventure."
 description-long: "A bestselling author with twenty-nine books across eight series, Megan O'Russell's work ranges from epic fantasy to dystopian adventures and has reached more than half-a-million readers worldwide. Browse for your next adventure, and snag this opportunity to meet the author!"
 image: /assets/images/exhibit-images/23-146-exhibit-megan-orussells-book-booth-megan-book-halo-higher-res-large.jpg
@@ -40,8 +40,8 @@ categories:
   - slug: content-creator
     name: Content Creator
 created-jotform: "2023-09-16 21:14:27"
-last-modified-jotform: "2023-10-10 22:25:13"
-last-exported: "2023-10-11 16:05:29"
+last-modified-jotform: "2023-10-14 15:01:45"
+last-exported: "2023-10-14 15:17:15"
 sitemap: false
 
 ---
