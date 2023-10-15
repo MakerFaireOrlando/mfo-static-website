@@ -36,12 +36,12 @@ Check out the [Event Program, Map & Schedule](/program) to plan your weekend!
 
 ---
 
-## Win a Professional 3D Printer!
-By purchasing a ticket to Maker Faire Orlando online **by November 3rd, 2022**, you are automatically entered to win a DeltaMaker 3D Printer!*  
+## Win a Professional 3D Printer or a Color Printing Laser Cutter!
+Every ticket purchased online for Maker Faire Orlando **by November 3rd, 2022**, is an entry to win a [DeltaMaker 3D Printer](https://www.deltamaker.com/products/deltamaker-2?variant=5444235649) or a [Flux Ador Color Printing Laser Cutter]((https://flux3dp.com/ador/))!*
 
-![3D Printer giveaway](/assets/images/deltamaker-giveaway.jpg)
+[![3D Printer giveaway](/assets/images/giveaway/deltamaker-giveaway.jpg)](https://www.deltamaker.com/products/deltamaker-2?variant=5444235649)
 
-
+[![Color Printing Laser Cutter giveaway](/assets/images/giveaway/flux_adore_MFO23.jpg)](https://flux3dp.com/ador/)
 
 ---
 
@@ -108,6 +108,5 @@ Please see our [Educators page](/educators) for more information.
 **Questions? Email <makers@makerfaireorlando.com>**
 
 ---
-{%comment%}
-*No Purchase Necessary. Tickets must be purchased by 11/4/2021. To receive a single entry for the DeltaMaker 3D Printer giveaway, mail your contact information (name, email address and phone number) to Maker Faire Orlando 3D Printer Giveaway c/o The Maker Effect Foundation, PO Box 3142, Windermere, FL 34786. Entries must be postmarked no later than 11/4/2021.
-{%endcomment%}
+
+*No Purchase Necessary. Tickets must be purchased by 11/3/2023. Two winners will be drawn, the first winner will have their choice of a DeltaMaker 3D Printer (model to be determined by DeltaMaker) or Flux Ador Laser Cutter and the second winner will receive the unclaimed tool. Limit one prize per person. To receive a single entry, mail your contact information (name, email address and phone number) to Maker Faire Orlando Maker Tool Giveaway c/o The Maker Effect Foundation, PO Box 3142, Windermere, FL 34786. Entries must be postmarked no later than 11/4/2023.
