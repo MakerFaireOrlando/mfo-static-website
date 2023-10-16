@@ -6,7 +6,7 @@ slug: dod-starbase-central-florida
 permalink: /exhibits/dod-starbase-central-florida/
 exhibit-id: 23-170
 exhibit-zone: "The Dark Side (Spirit Building)"
-space-number: Unassigned
+space-number: "SH4"
 description: "The Wonderful World of Modeling, Simulation and Training (MS&T)!
 "
 description-long: "This exhibit introduces participants to the world of modeling, simulation and training (MS&T) through the creation of bouncy balls!"
@@ -42,8 +42,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-10-03 08:24:48"
-last-modified-jotform: "2023-10-10 23:04:08"
-last-exported: "2023-10-11 16:05:29"
+last-modified-jotform: "2023-10-14 15:23:13"
+last-exported: "2023-10-15 13:22:35"
 sitemap: false
 
 ---

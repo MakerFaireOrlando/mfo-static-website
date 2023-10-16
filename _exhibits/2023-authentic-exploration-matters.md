@@ -6,7 +6,7 @@ slug: authentic-exploration-matters
 permalink: /exhibits/authentic-exploration-matters/
 exhibit-id: 23-153
 exhibit-zone: "The Dark Side (Spirit Building)"
-space-number: Unassigned
+space-number: "SF4"
 description: "Empowering teachers, transforming minds, enriching futures."
 description-long: "This is the AEM Story.
 
@@ -70,8 +70,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2023-09-20 01:11:12"
-last-modified-jotform: "2023-10-10 23:03:20"
-last-exported: "2023-10-11 16:05:29"
+last-modified-jotform: "2023-10-14 15:58:21"
+last-exported: "2023-10-15 13:22:36"
 sitemap: false
 
 ---

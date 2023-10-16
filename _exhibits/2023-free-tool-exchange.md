@@ -5,7 +5,8 @@ title: "Free Tool Exchange"
 slug: free-tool-exchange
 permalink: /exhibits/free-tool-exchange/
 exhibit-id: 23-188
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OE9"
 description: "FREE TOOL EXCHANGE
 
 Take any tool for free. Give a story, a tool, or donate to Habitat for Humanity"
@@ -51,8 +52,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-10-12 07:55:59"
-last-modified-jotform: "2023-10-13 06:51:47"
-last-exported: "2023-10-13 06:55:16"
+last-modified-jotform: "2023-10-14 15:55:27"
+last-exported: "2023-10-15 13:22:34"
 sitemap: false
 
 ---

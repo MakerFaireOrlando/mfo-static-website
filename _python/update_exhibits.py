@@ -158,6 +158,7 @@ def processImage(eid, eslug, type, url):
         image = image.convert('RGB')
     image.save(largeFn)
 
+
   return filenames
 
 def socialURLClean(url,name):
@@ -337,6 +338,25 @@ def export(outputAll):
             for sn in snList:
               #todo: get fee details to append in the sEID field
               sn = sn.strip().upper()
+
+              #SUPRESS DUPLICATE SPACE NUMBERS for shared exhibits
+              #If there is not an existing list item with same sn, then keep going
+              #if there is, I'd like to kill it - OR replace it with a modified entry that captured both
+              #What is the pythonic way to search the list of lists?
+
+              dup = False
+
+              for spList in spaceplanList:      #is this space number already in the spaceplanList
+                spListN = spList[:1]
+
+
+                if (sn in spListN):
+                  spList[1] = '> > ' + spList[1] #this is the text that goes in the field
+                  spList[2] = '> > ' + spList[2] #this is the text that goes in the field
+                  spList[3] = '> > ' + spList[3] #this is the text that goes in the field
+                  print("DUPLICATE", sn, spList)
+                  dup = True
+
               if (exhibitName != makerName):
                 sEID = sn + " : " + mfoID + "\\" + "\\" + exhibitName[0:20] + "\\" + "\\" + makerName[0:20]
               else:
@@ -345,7 +365,11 @@ def export(outputAll):
               sEM = sn + "\\" + "\\" + exhibitName + "\\" + "\\" + makerName
               sE = exhibitName
               sList = [sn, sEID, sEX, sEM, sE]
-              spaceplanList.append(sList)
+              if (not dup):
+                  spaceplanList.append(sList)
+              else:
+                  print("Skipping append since dup")
+
 
           # create Exhibit markdown file
 

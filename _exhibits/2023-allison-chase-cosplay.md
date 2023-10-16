@@ -6,7 +6,7 @@ slug: allison-chase-cosplay
 permalink: /exhibits/allison-chase-cosplay/
 exhibit-id: 23-160
 exhibit-zone: "Spirit"
-space-number: "SI27, SJ27, SJ28, SJ29"
+space-number: "SI27, SJ27, SJ28"
 description: "Check out these Gigantic, puppeted, hand crafted cosplays by Allison Chase"
 description-long: "Get ready for an extraordinary adventure into the world of larger-than-life cosplays, guided by the creative brilliance of Allison Chase. Imagine stepping into a realm where beloved characters come alive in a breathtaking, larger-than-life spectacle.
 
@@ -40,8 +40,8 @@ categories:
   - slug: cosplay
     name: Cosplay
 created-jotform: "2023-09-29 09:02:13"
-last-modified-jotform: "2023-10-14 13:43:41"
-last-exported: "2023-10-14 15:17:09"
+last-modified-jotform: "2023-10-14 16:03:44"
+last-exported: "2023-10-15 13:22:35"
 sitemap: false
 
 ---

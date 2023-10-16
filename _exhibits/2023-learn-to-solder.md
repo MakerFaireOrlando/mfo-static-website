@@ -5,7 +5,8 @@ title: "Learn to Solder"
 slug: learn-to-solder
 permalink: /exhibits/learn-to-solder/
 exhibit-id: 23-193
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA27, OA28, OA29, OB28, OB29, OC28, OC29"
 description: "Learn to solder and make your own commemorative blinky pin:"
 description-long: "This group of enthusiastic students are roaring into their second year and have worked with the folks at The Maker Effect Foundation to design mini-Makey printed circuit boards with art by Graven Ravenwolf. Printed Circuit Boards sponsored by PCBWay."
 image: /assets/images/exhibit-images/23-193-exhibit-learn-to-solder-6e9ee0cf-9d1c-41c3-90da-e1cbd51cab20-large.jpeg
@@ -35,8 +36,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2023-10-13 15:47:33"
-last-modified-jotform: "2023-10-13 17:25:04"
-last-exported: "2023-10-13 17:25:15"
+last-modified-jotform: "2023-10-14 15:56:04"
+last-exported: "2023-10-15 13:22:25"
 sitemap: false
 
 ---
