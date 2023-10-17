@@ -5,7 +5,8 @@ title: "TrackMe.Ifo"
 slug: trackme-ifo
 permalink: /exhibits/trackme-ifo/
 exhibit-id: 23-191
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC21"
 description: "We are developing an object tracking and lost-n-found website."
 description-long: "We are developing an object tracking and lost-n-found website.  Visit our booth and help spread the word."
 image: /assets/images/exhibit-images/23-191-exhibit-trackme-ifo-us-track-large.png
@@ -32,8 +33,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2023-10-12 22:19:01"
-last-modified-jotform: "2023-10-15 09:47:20"
-last-exported: "2023-10-15 13:22:28"
+last-modified-jotform: "2023-10-16 22:22:16"
+last-exported: "2023-10-16 22:25:17"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: knight-fights
 permalink: /exhibits/knight-fights/
 exhibit-id: 23-134
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "SE33"
 description: "Showcasing Medieval Armored Combat through the Sport of Kings, also known as Buhurt"
 description-long: "Saturday - 
 Panel on how to join buhurt
@@ -57,8 +57,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2023-09-08 18:20:59"
-last-modified-jotform: "2023-09-29 15:53:41"
-last-exported: "2023-09-30 16:47:49"
+last-modified-jotform: "2023-10-16 22:14:00"
+last-exported: "2023-10-16 22:14:07"
 sitemap: false
 
 ---
