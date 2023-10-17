@@ -1,18 +1,53 @@
 ---
 title: Event Schedule
-layout: default
+layout: schedule
 permalink: /schedule/
 redirect_from: "/eventschedule/"
 redirect_from: "/event-schedule/"
+isotope: true
 ---
 
 # Event Schedule
 
+<div class="mtm">
+  <div class="mtm-search">
+    <div class="container">
+	  <div class="row">
+        <div class="col-md-12">
+            <label class="search-filter-label">Search:</label>
+            <input type="text" class="quicksearch form-control" id="maker-search-input" placeholder="Looking for a specific Event?">
+        </div>
+      </div><!-- #row -->
+   </div><!-- #container -->
+ </div><!-- #mtm-search -->
+</div>
 
+<div class="exhibits-container" id="exhibits">
+    {% for event in site.data.schedule %}
+      <div style="width: 100%" class="item{% for category in exhibit.categories -%}
+                        {% if category.name %}
+                          {{- category.slug | prepend: " "-}}
+                        {% endif %}
+                        {%- endfor -%}">
+        <table width="100%">
+            <tr>
+                <td width="33%">{{event.title}}</td>
+                <td width="33%">{{event.description}}</td>
+                <td width="33%">{{event.date | date: "%A"}} {{event.date | date: "%r"}}</td>
+            </tr>
+        </table>
+
+      </div>
+
+{% endfor %}
+</div>
+
+
+{%comment%}
 
 #### Stay Tuned for exciting announcements including the new Maker Faire Stage with special guests, panel discussions, musical performances and more!
 
-{%comment%}
+
 
 Most exhibits and hands-on experiences at Maker Faire Orlando run continuously throughout the event.
 
