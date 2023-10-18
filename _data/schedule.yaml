@@ -1,15 +1,23 @@
-- title: Maker Move in
-  description: Exhibitors 
-  date: 2023-11-03 10:00:00
+#YOU MUST SORT THESE ITEMS!!!
+
 - title: Maker Faire Begins!
-  description: Come on in everyone
+  description: Welcome to Day 1 of Maker Faire Orlando!
   date: 2023-11-04 10:00:00
+  image: /assets/images/site-branding/makey.png
+- title: Theme Park Makers Panel
+  location: Maker Faire Stage
+  description: Hear from makers who are making amazing things in the Themed Entertainment industry including John Smith, Mary Smith, and Ricardo Smith
+  date: 2023-11-04 11:00:00
+  enddate: 2023-11-04 12:00:00
 - title: Maker Faire Friday Closes!
   description: 1st day complete.
   date: 2023-11-05 17:00:00
+  image: /assets/images/site-branding/makey.png
 - title: Maker Faire Resumes!
   description: Second Day Begins!
   date: 2023-11-04 10:00:00
+  image: /assets/images/site-branding/makey.png
 - title: Maker Faire Concludes
   description: Second day ends.
   date: 2023-11-05 17:00:00
+  image: /assets/images/site-branding/makey.png
