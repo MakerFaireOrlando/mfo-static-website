@@ -24,24 +24,29 @@ isotope: true
 
 <div class="exhibits-container" id="exhibits">
     {% for event in site.data.schedule %}
-      <div style="width: 100%" class="item{% for category in exhibit.categories -%}
-                        {% if category.name %}
-                          {{- category.slug | prepend: " "-}}
-                        {% endif %}
-                        {%- endfor -%}">
-        <table width="100%">
-            <tr>
-                <td width="33%">{{event.title}}</td>
-                <td width="33%">{{event.description}}</td>
-                <td width="33%">{{event.date | date: "%A"}} {{event.date | date: "%r"}}</td>
-            </tr>
-        </table>
+        <div style="width: 100%" class="item{% for category in exhibit.categories -%}
+                          {% if category.name %}
+                            {{- category.slug | prepend: " "-}}
+                          {% endif %}
+                          {%- endfor -%}">
+          <table width="100%">
+              <tr>
+                  <td width="10%"><img src="{{event.image}}" style="padding:10px; max-width:100px;"></td>
+                  <td width="20%" align="left" style="padding-left: 5px; padding-right: 10px;"><b>{{event.title}}</b></td>
+                  <td width="30%" align="left" style="padding-right: 20px;">{{event.description}}</td>
+                  <td width="15%" align="left">{{event.location}}</td>
+                  <td width="20%" align="left">
+                    {{event.date | date: "%A"}} {{event.date | date: "%l:%M %P"}}
+                    {% if event.enddate %}- {{event.enddate | date: "%l:%M %P"}}{% endif %}
+                    </td>
 
-      </div>
-
+              </tr>
+          </table>
+        </div>
 {% endfor %}
 </div>
 
+Event schedule subject to change at any time based on the availability of exhibiting makers, special guests, and venue conditions.
 
 {%comment%}
 
