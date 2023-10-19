@@ -214,3 +214,27 @@ max-width: 270px;
 #maker-search-input {
   min-width: 300px;
 }
+
+
+
+
+.events-container {
+  margin: auto;
+}
+
+.events-container .item {
+  /*width: 25%;*/
+  /*border: 1px solid darkgray;*/
+  background: white;
+  padding-top: 0px;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #e5e5e5;
+  min-width: 300px;
+  display:inline-block;
+}
+
+.events-container .item {
+  box-shadow: 4px 4px 10px #888888;
+}

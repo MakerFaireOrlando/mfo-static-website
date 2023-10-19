@@ -27,7 +27,7 @@
 {% include optional-js.html %}
 
 <script>
-    var $container = jQuery('#exhibits');
+    var $container = jQuery('#events');
     $container.isotope({
       // options
       layoutMode: 'vertical',
@@ -36,6 +36,11 @@
       horizontalAlignment: 0,
       }
     });
+    
+    window.onresize = function() {
+      console.log("resize");
+      $container.isotope( 'reloadItems' ).isotope();
+    }
 </script>
 </body>
 

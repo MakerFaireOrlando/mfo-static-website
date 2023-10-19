@@ -22,29 +22,43 @@ isotope: true
  </div><!-- #mtm-search -->
 </div>
 
-<div class="exhibits-container" id="exhibits">
+<div class="events-container" id="events">
+
+    
     {% for event in site.data.schedule %}
-        <div style="width: 100%" class="item{% for category in exhibit.categories -%}
+        <div class="item{% for category in exhibit.categories -%}
                           {% if category.name %}
                             {{- category.slug | prepend: " "-}}
                           {% endif %}
                           {%- endfor -%}">
-          <table width="100%">
-              <tr>
-                  <td width="10%"><img src="{{event.image}}" style="padding:10px; max-width:100px;"></td>
-                  <td width="20%" align="left" style="padding-left: 5px; padding-right: 10px;"><b>{{event.title}}</b></td>
-                  <td width="30%" align="left" style="padding-right: 20px;">{{event.description}}</td>
-                  <td width="15%" align="left">{{event.location}}</td>
-                  <td width="20%" align="left">
-                    {{event.date | date: "%A"}} {{event.date | date: "%l:%M %P"}}
-                    {% if event.enddate %}- {{event.enddate | date: "%l:%M %P"}}{% endif %}
-                    </td>
 
-              </tr>
-          </table>
+            
+            <div class="container" style="width=100%">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <img src="{{event.image}}" style="padding:10px; max-width:100px;">
+                    </div>
+                    <div class="col-sm-2">
+                        <b>{{event.title}}</b>
+                    </div>
+                    <div class="col-sm-2 text-wrap">
+                        {{event.description}}
+                    </div>
+                    <div class="col-sm-2">
+                        {{event.location}}
+                    </div>
+                    <div class="col-sm-2">
+                        {{event.date | date: "%A"}} {{event.date | date: "%l:%M %P"}}
+                        {% if event.enddate %}- {{event.enddate | date: "%l:%M %P"}}{% endif %}
+                    </div>
+                </div>
+            </div>
+
+          
         </div>
 {% endfor %}
 </div>
+
 
 Event schedule subject to change at any time based on the availability of exhibiting makers, special guests, and venue conditions.
 
