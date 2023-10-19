@@ -28,6 +28,8 @@ categories:
     name: Electronics
   - slug: engineering
     name: Engineering
+  - slug: hands-on-workshop
+    name: Hands-On Workshop
   - slug: makerspace
     name: Makerspace
   - slug: robotics
@@ -35,8 +37,8 @@ categories:
   - slug: tools
     name: Tools
 created-jotform: "2023-10-17 14:49:37"
-last-modified-jotform: "2023-10-17 21:50:22"
-last-exported: "2023-10-17 21:56:36"
+last-modified-jotform: "2023-10-17 22:03:16"
+last-exported: "2023-10-17 22:03:23"
 sitemap: false
 
 ---

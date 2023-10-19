@@ -29,6 +29,8 @@ maker:
 categories: 
   - slug: engineering
     name: Engineering
+  - slug: hands-on-workshop
+    name: Hands-On Workshop
   - slug: makerspace
     name: Makerspace
   - slug: metalworking
@@ -36,8 +38,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-09-07 11:10:49"
-last-modified-jotform: "2023-10-09 18:06:07"
-last-exported: "2023-10-09 18:52:31"
+last-modified-jotform: "2023-10-17 22:56:51"
+last-exported: "2023-10-17 22:57:06"
 sitemap: false
 
 ---
