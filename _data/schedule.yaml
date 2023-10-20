@@ -13,10 +13,10 @@
 
 - title: Theme Park Makers Panel
   location: Maker Faire Stage
-  description: Hear from makers who are making amazing things in the Themed Entertainment industry including John Smith, Mary Smith, and Ricardo Smith
+  description: Hear from makers who are making amazing things in the Themed Entertainment industry including Bill Butler of Garner Holt Productions, Scott Harkless of Alcorn McBride and the Universal Creative team.
   date: 2023-11-04 11:00:00
   enddate: 2023-11-04 12:00:00
-  iamge: /assets/images/sponsors/universal-creative.png
+  image: /assets/images/sponsors/universal-creative.png
 
 - title: Power Racing - Relay Race
   location: Power Racing Track
@@ -38,7 +38,7 @@
 
 - title: Magic Wheelchair Builders Panel
   location: Maker Faire Stage
-  description: Meet the builders behind amazing Magic Wheelchair project and hear from the Christine Getman, Executive Director of Magic Wheelchair
+  description: Meet the builders behind amazing Magic Wheelchair projects and hear from the Christine Getman, Executive Director of Magic Wheelchair
   date: 2023-11-04 14:00:00
   enddate: 2023-11-04 14:50:00
   image: /assets/images/magic-wheelchair-logo.jpg
@@ -99,6 +99,12 @@
   description:
   date: 2023-11-05 11:00:00
   image: /assets/images/ppprs-logo.png
+
+- title: Music Makers
+  location: Maker Faire Stage
+  description: Grab lunch and join us for some live music!
+  date: 2023-11-04 12:00:00
+  enddate: 2023-11-04 13:45:00
 
 - title: Power Racing - Meet & Greet
   location: Power Racing Track
