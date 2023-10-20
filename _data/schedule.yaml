@@ -1,0 +1,146 @@
+#YOU MUST SORT THESE ITEMS!!!
+
+- title: Maker Faire Begins!
+  description: Welcome to Day 1 of Maker Faire Orlando!
+  date: 2023-11-04 10:00:00
+  image: /assets/images/site-branding/makey.png
+
+- title: Power Racing - Qualifying
+  location: Power Racing Track
+  description:
+  date: 2023-11-04 10:30:00
+  image: /assets/images/ppprs-logo.png
+
+- title: Theme Park Makers Panel
+  location: Maker Faire Stage
+  description: Hear from makers who are making amazing things in the Themed Entertainment industry including John Smith, Mary Smith, and Ricardo Smith
+  date: 2023-11-04 11:00:00
+  enddate: 2023-11-04 12:00:00
+  iamge: /assets/images/sponsors/universal-creative.png
+
+- title: Power Racing - Relay Race
+  location: Power Racing Track
+  description:
+  date: 2023-11-04 11:00:00
+  image: /assets/images/ppprs-logo.png
+
+- title: Music Makers
+  location: Maker Faire Stage
+  description: Grab lunch and join us for some live music!
+  date: 2023-11-04 12:00:00
+  enddate: 2023-11-04 13:45:00
+
+- title: Power Racing - Sprint Race 1
+  location: Power Racing Track
+  description:
+  date: 2023-11-04 13:00:00
+  image: /assets/images/ppprs-logo.png
+
+- title: Magic Wheelchair Builders Panel
+  location: Maker Faire Stage
+  description: Meet the builders behind amazing Magic Wheelchair project and hear from the Christine Getman, Executive Director of Magic Wheelchair
+  date: 2023-11-04 14:00:00
+  enddate: 2023-11-04 14:50:00
+  image: /assets/images/magic-wheelchair-logo.jpg
+
+- title: Cosplay Creators Panel
+  location: Maker Faire Stage
+  description: A panel of amazing cosplay guests.
+  date: 2023-11-04 15:00:00
+  enddate: 2023-11-04 15:50:00
+
+- title: Power Racing - Meet & Greet
+  location: Power Racing Track
+  description:
+  date: 2023-11-04 13:00:00
+  image: /assets/images/ppprs-logo.png
+
+- title: Nerd Nite Orlando
+  location: Maker Faire Stage
+  description: The Nerd Nite Orlando team is taking over the Maker Faire stage and bringing some amazing Nerds to share their thoughts with you!
+  date: 2023-11-04 16:00:00
+  enddate: 2023-11-04 16:50:00
+  image: /assets/images/nerd-nite-logo.jpg
+
+
+- title: Power Racing - Sprint Race 2
+  location: Power Racing Track
+  description:
+  date: 2023-11-04 13:00:00
+  image: /assets/images/ppprs-logo.png
+
+- title: Maker Faire Day 1 is over!
+  description: 1st day complete.
+  date: 2023-11-04 17:00:00
+  image: /assets/images/site-branding/makey.png
+
+- title: Maker Faire Orlando & Robot Ruckus VIP Fundraiser!
+  location: Maker Faire Stage
+  description: "Join Special Guest Makers & BattleBots teams for a fundraiser benefitting The Maker Effect Foundation. This is a separately ticketed event.
+                <a href='https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser'>More Info</a>"
+  date: 2023-11-04 17:00:00
+  enddate: 2023-11-04 20:00:00
+  image: /assets/images/site-branding/makey.png
+
+
+- title: Maker Faire Resumes!
+  description: Welcome back for day 2 of Maker Faire Orlando 2023!
+  date: 2023-11-04 10:00:00
+  image: /assets/images/site-branding/makey.png
+
+- title: BattleBots Panel
+  location: Maker Faire Stage
+  description: Hear from BattleBots teams...
+  date: 2023-11-05 11:00:00
+  enddate: 2023-11-05 12:00:00
+
+- title: Power Racing - Sprint Race 3
+  location: Power Racing Track
+  description:
+  date: 2023-11-05 11:00:00
+  image: /assets/images/ppprs-logo.png
+
+- title: Power Racing - Meet & Greet
+  location: Power Racing Track
+  description:
+  date: 2023-11-05 13:00:00
+  image: /assets/images/ppprs-logo.png
+
+- title: Assistive Technology Panel
+  location: Maker Faire Stage
+  description: Hear how makers are making a difference for those with disabilities.
+  date: 2023-11-05 14:00:00
+  enddate: 2023-11-05 14:50:00
+
+- title: Power Racing - Endurance Race
+  location: Power Racing Track
+  description:
+  date: 2023-11-05 14:30:00
+  image: /assets/images/ppprs-logo.png
+
+
+- title: Props Producers Panel
+  location: Maker Faire Stage
+  description: Hear from master prop makers...
+  date: 2023-11-05 15:00:00
+  enddate: 2023-11-05 15:50:00
+
+- title: Maker Faire Artists Panel
+  location: Maker Faire Stage
+  description: Meet the artists behind the Maker Faire Orlando artwork
+  date: 2023-11-05 16:00:00
+  enddate: 2023-11-05 16:50:00
+
+- title: Power Racing - Awards Ceremony
+  location: Power Racing Track
+  description:
+  date: 2023-11-05 16:00:00
+  image: /assets/images/ppprs-logo.png
+
+
+- title: Maker Faire Concludes
+  description: Maker Faire Orlando 2023 is over - and we hope to see you next year!
+  date: 2023-11-05 17:00:00
+  image: /assets/images/site-branding/makey.png
+
+#get start times from Ruckus - Sat at 11? Sunday at 10?

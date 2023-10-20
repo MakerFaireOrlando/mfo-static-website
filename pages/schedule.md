@@ -1,16 +1,16 @@
 ---
 title: Event Schedule
-layout: default
+layout: schedule
 permalink: /schedule/
 redirect_from: "/eventschedule/"
 redirect_from: "/event-schedule/"
+isotope: true
 ---
 
 # Event Schedule
 
-
-
 #### Stay Tuned for exciting announcements including the new Maker Faire Stage with special guests, panel discussions, musical performances and more!
+
 
 {%comment%}
 
