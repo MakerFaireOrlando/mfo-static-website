@@ -5,7 +5,8 @@ title: "FLUX Inc."
 slug: flux-inc
 permalink: /exhibits/flux-inc/
 exhibit-id: 23-32
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC24, OC25"
 description: "Empowering Creativity with Innovative Laser Cutting Technology. Bring your designs to life with FLUX"
 description-long: "FLUX is a leading provider of desktop laser cutters, offering innovative solutions for precision cutting and engraving. Our easy-to-use machines empower businesses and individuals to unleash their creativity, transform ideas into reality, and achieve remarkable results. With a focus on user-friendly design, exceptional performance, and versatility, FLUX laser cutters are the ideal choice for a wide range of industries, from small businesses to educational institutions"
 image: /assets/images/exhibit-images/23-32-exhibit-flux-inc-flux-beamo-4-1-large.jpg
@@ -46,8 +47,8 @@ categories:
   - slug: tools
     name: Tools
 created-jotform: "2023-07-28 17:59:27"
-last-modified-jotform: "2023-10-18 07:14:59"
-last-exported: "2023-10-18 07:22:42"
+last-modified-jotform: "2023-10-21 14:17:53"
+last-exported: "2023-10-21 14:18:39"
 sitemap: false
 
 ---

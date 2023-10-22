@@ -6,7 +6,7 @@ slug: boxify-enclosure
 permalink: /exhibits/boxify-enclosure/
 exhibit-id: 23-169
 exhibit-zone: "Opportunity"
-space-number: "OE22"
+space-number: "OD21"
 description: "Demonstration and display of the Boxify Enclosure"
 description-long: "This is a demonstration and display of our enclosure with a variety of 3D printers printing our unique and open-source interfaces in various colors + a card holder that interfaces with it. It's a great demonstration of how you can make connectors without magnets and incorporate the design into any project.
 
@@ -44,8 +44,8 @@ categories:
   - slug: engineering
     name: Engineering
 created-jotform: "2023-10-02 22:11:58"
-last-modified-jotform: "2023-10-13 22:55:47"
-last-exported: "2023-10-14 08:55:17"
+last-modified-jotform: "2023-10-21 14:16:27"
+last-exported: "2023-10-21 14:18:37"
 sitemap: false
 
 ---

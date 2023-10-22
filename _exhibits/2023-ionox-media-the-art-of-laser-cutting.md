@@ -6,7 +6,7 @@ slug: ionox-media-the-art-of-laser-cutting
 permalink: /exhibits/ionox-media-the-art-of-laser-cutting/
 exhibit-id: 23-61
 exhibit-zone: "Opportunity"
-space-number: "OE21"
+space-number: "OC21"
 description: "Geekery/Fandom collection of hand made art and decorum."
 description-long: "IONOX specializes in pop culture inspired art.  From sci-fi to fantasy, and even your favorite video games, we create beautiful forms of art that are sure to spark nostalgia.  We use a range of medium, from layered wood to resin,  leather to canvas, and we are always expanding and trying new things.  We love traveling all over the nation to appear at comic conventions, art festivals, and gallery showings.  Maker-Faire Orlando, is one of our home shows, and a staple for us to attend every year.  If you've got a design you've always dreamt of having in hand or on your wall, let us make your dream a reality."
 image: /assets/images/exhibit-images/23-61-exhibit-ionox-media-the-art-of-laser-cutting-356891440-747859157340126-7654390202829730342-n-large.jpg
@@ -45,8 +45,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-08-20 14:24:31"
-last-modified-jotform: "2023-10-13 23:32:17"
-last-exported: "2023-10-14 08:57:42"
+last-modified-jotform: "2023-10-21 14:16:14"
+last-exported: "2023-10-21 14:18:38"
 sitemap: false
 
 ---
