@@ -5,7 +5,7 @@ title: "Anakhet's Armoury"
 slug: anakhets-armoury
 permalink: /exhibits/anakhets-armoury/
 exhibit-id: 23-6
-exhibit-zone: "Spirit"
+exhibit-zone: "Spirit - East"
 space-number: "SF29"
 description: "Chainmaille, Scalemaille and games woohoo!"
 description-long: "I make the chainmaille and scalemaille starting with just a pile of supplies, two pliers, and my own ideas. The Abandons is a game my husband developed in college while getting a degree in architecture. "
@@ -40,8 +40,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2023-07-22 18:56:04"
-last-modified-jotform: "2023-10-14 14:00:39"
-last-exported: "2023-10-14 15:18:31"
+last-modified-jotform: "2023-10-22 10:22:10"
+last-exported: "2023-10-22 10:30:13"
 sitemap: false
 
 ---

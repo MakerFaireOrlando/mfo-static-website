@@ -5,7 +5,7 @@ title: "DoD STARBASE Central Florida"
 slug: dod-starbase-central-florida
 permalink: /exhibits/dod-starbase-central-florida/
 exhibit-id: 23-170
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Spirit - West"
 space-number: "SH4"
 description: "The Wonderful World of Modeling, Simulation and Training (MS&T)!
 "
@@ -42,8 +42,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-10-03 08:24:48"
-last-modified-jotform: "2023-10-20 20:13:46"
-last-exported: "2023-10-21 11:39:33"
+last-modified-jotform: "2023-10-22 10:20:22"
+last-exported: "2023-10-22 10:30:09"
 sitemap: false
 
 ---

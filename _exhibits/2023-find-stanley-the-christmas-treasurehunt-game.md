@@ -5,7 +5,7 @@ title: "Find Stanley, the Christmas Treasurehunt Game"
 slug: find-stanley-the-christmas-treasurehunt-game
 permalink: /exhibits/find-stanley-the-christmas-treasurehunt-game/
 exhibit-id: 23-109
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Spirit - West"
 space-number: "SC4"
 description: "Meet Santa's New Delivery Guy from Stanley & the Candy Cane Wormhole & make a holiday candy treat!"
 description-long: "Meet Stanley, Santa's New Delivery Guy from Stanley & the Candy Cane Wormhole!  See copies of the book launched last year on Kickstarter and see Stanley's new game, Find Stanley, The Christmas Treasurehunt Game.  Stanley plush toys are now a part of the fun! 
@@ -51,8 +51,8 @@ categories:
   - slug: writing-and-publishing
     name: Writing and Publishing
 created-jotform: "2023-08-30 23:47:47"
-last-modified-jotform: "2023-10-14 14:54:12"
-last-exported: "2023-10-14 15:17:26"
+last-modified-jotform: "2023-10-22 10:23:19"
+last-exported: "2023-10-22 10:30:11"
 sitemap: false
 
 ---

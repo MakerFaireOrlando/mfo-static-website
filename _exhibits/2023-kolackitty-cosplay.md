@@ -5,7 +5,7 @@ title: "Kolackitty Cosplay"
 slug: kolackitty-cosplay
 permalink: /exhibits/kolackitty-cosplay/
 exhibit-id: 23-196
-exhibit-zone: "Spirit"
+exhibit-zone: "Spirit - East"
 space-number: "SJ30"
 description: "Working on my current cosplay project while at a booth "
 description-long: "I was told you needed someone to work on their recent Cosplay projects by a booth. That's what I plan on doing:)"
@@ -29,8 +29,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2023-10-16 16:24:30"
-last-modified-jotform: "2023-10-16 22:18:49"
-last-exported: "2023-10-16 22:25:17"
+last-modified-jotform: "2023-10-22 10:21:51"
+last-exported: "2023-10-22 10:30:09"
 sitemap: false
 
 ---

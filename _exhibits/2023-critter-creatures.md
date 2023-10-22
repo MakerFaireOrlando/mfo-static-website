@@ -5,7 +5,7 @@ title: "Critter Creatures"
 slug: critter-creatures
 permalink: /exhibits/critter-creatures/
 exhibit-id: 23-192
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Spirit - West"
 space-number: "SH10"
 description: "Critter Creatures DIY STEAM project"
 description-long: "Learn basic electrical circuits while using your imagination to design and create fun little creatures to scurry around the table."
@@ -36,8 +36,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2023-10-13 14:11:32"
-last-modified-jotform: "2023-10-14 15:57:24"
-last-exported: "2023-10-15 13:22:26"
+last-modified-jotform: "2023-10-22 10:23:04"
+last-exported: "2023-10-22 10:30:09"
 sitemap: false
 
 ---

@@ -5,7 +5,7 @@ title: "Dune Sea Ranch"
 slug: dune-sea-ranch
 permalink: /exhibits/dune-sea-ranch/
 exhibit-id: 23-125
-exhibit-zone: "Spirit"
+exhibit-zone: "Spirit - East"
 space-number: "SJ32"
 description: "We are a collection of artists that enjoy prop building, cosplay creations, droid making and art."
 description-long: "We are a group of artists that have met at various schools, conventions and gatherings.  We are fantasy and sci fi fans that love prop building and cosplay costuming. We are all traditionally trained artists that love creating."
@@ -33,8 +33,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2023-09-04 14:18:38"
-last-modified-jotform: "2023-10-14 13:40:44"
-last-exported: "2023-10-14 15:17:23"
+last-modified-jotform: "2023-10-22 10:22:03"
+last-exported: "2023-10-22 10:30:11"
 sitemap: false
 
 ---

@@ -5,8 +5,8 @@ title: "Light Control for a Bronco"
 slug: light-control-for-a-bronco
 permalink: /exhibits/light-control-for-a-bronco/
 exhibit-id: 23-94
-exhibit-zone: "Opportunity"
-space-number: "OA6"
+exhibit-zone: "Outside"
+space-number: Unassigned
 description: "How I control my aux lights in my Ford Bronco."
 description-long: "My progress of just using switches to turn on lights. To using microcontrollers, relays, and Rf to turn them on. When I first began I just used 3 switches in a project box.
 Then I upgraded to making a Adafruit Macropad like setup using 2 microcontrollers, 2 neokeys, relay board, rf transmiter, rotary encoder, and oled display. 
@@ -54,8 +54,8 @@ categories:
   - slug: raspberry-pi
     name: Raspberry Pi
 created-jotform: "2023-08-29 18:35:21"
-last-modified-jotform: "2023-10-13 23:01:14"
-last-exported: "2023-10-14 08:57:16"
+last-modified-jotform: "2023-10-22 10:40:08"
+last-exported: "2023-10-22 10:41:24"
 sitemap: false
 
 ---

@@ -5,7 +5,7 @@ title: "Micro Weapons of Mass Destruction by Meta Humans"
 slug: micro-weapons-of-mass-destruction-by-meta-humans
 permalink: /exhibits/micro-weapons-of-mass-destruction-by-meta-humans/
 exhibit-id: 23-46
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Spirit - West"
 space-number: "SE7"
 description: "Build miniature versions of some of the most extraordinary weapons of the Medieval world. "
 description-long: "Imagine & build miniature versions of some of the most extraordinary weapons of the Medieval world. Learn the science of catapults & other weapons perfectly sized for spitball warfare. A fantastic introduction to mechanics, models, and art.
@@ -71,8 +71,8 @@ categories:
   - slug: maker-community
     name: Maker Community
 created-jotform: "2023-08-06 13:48:32"
-last-modified-jotform: "2023-10-20 22:26:53"
-last-exported: "2023-10-21 11:39:40"
+last-modified-jotform: "2023-10-22 10:23:31"
+last-exported: "2023-10-22 10:30:12"
 sitemap: false
 
 ---

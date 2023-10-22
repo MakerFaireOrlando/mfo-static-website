@@ -5,7 +5,7 @@ title: "Give Kids the World Village"
 slug: give-kids-the-world-village
 permalink: /exhibits/give-kids-the-world-village/
 exhibit-id: 23-131
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Spirit - West"
 space-number: "SC6, SC7"
 description: "Informational booth on new STEAM activity center at Give Kids The World Village. "
 description-long: "Give Kids The World Village is an 89-acre, nonprofit storybook resort in Central Florida. Here, children with critical illnesses and their families are treated to weeklong, cost-free vacations.
@@ -29,8 +29,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2023-09-08 11:53:15"
-last-modified-jotform: "2023-10-14 14:23:06"
-last-exported: "2023-10-14 15:17:23"
+last-modified-jotform: "2023-10-22 10:22:40"
+last-exported: "2023-10-22 10:30:11"
 sitemap: false
 
 ---

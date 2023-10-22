@@ -5,7 +5,7 @@ title: "Crystal Bonsai Trees by CHOOL"
 slug: crystal-bonsai-trees-by-chool
 permalink: /exhibits/crystal-bonsai-trees-by-chool/
 exhibit-id: 23-16
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Spirit - West"
 space-number: "SH3"
 description: "Crystal Bonsai Trees and good vibes in general"
 description-long: "I make crystal bonsai trees from scratch using different crystals and stones with specific properties to target well being and peace. "
@@ -60,8 +60,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2023-07-23 11:15:13"
-last-modified-jotform: "2023-10-14 15:22:32"
-last-exported: "2023-10-15 13:23:00"
+last-modified-jotform: "2023-10-22 10:22:43"
+last-exported: "2023-10-22 10:30:13"
 sitemap: false
 
 ---

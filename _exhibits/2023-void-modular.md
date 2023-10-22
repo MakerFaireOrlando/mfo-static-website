@@ -5,7 +5,7 @@ title: "VOID Modular"
 slug: void-modular
 permalink: /exhibits/void-modular/
 exhibit-id: 23-25
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Spirit - West"
 space-number: "SD1"
 description: "Play with Eurorack synthesizers and make some noise!"
 description-long: "I've been designing and building DIY synthesizers for years.  Come play with them while I attempt to explain them to you!"
@@ -40,8 +40,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2023-07-25 09:46:55"
-last-modified-jotform: "2023-10-14 15:02:08"
-last-exported: "2023-10-14 15:18:20"
+last-modified-jotform: "2023-10-22 10:23:10"
+last-exported: "2023-10-22 10:30:13"
 sitemap: false
 
 ---

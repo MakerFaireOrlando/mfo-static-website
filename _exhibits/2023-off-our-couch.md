@@ -5,7 +5,7 @@ title: "Off Our Couch"
 slug: off-our-couch
 permalink: /exhibits/off-our-couch/
 exhibit-id: 23-74
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Spirit - West"
 space-number: "SH6"
 description: "We plan to give away freebies while talking to guests about travel and our channel. "
 description-long: "We would like to encourage guests to sign up for our newsletter and offer them a chance to spin the wheel for a prize. We're planning to give out freebies such as stickers, keychains, water bottles, etc.  We plan to talk to guests about our channel and activities in and around Orlando.  We'll also be filming content of the event to post on our social media sites. "
@@ -29,8 +29,8 @@ categories:
   - slug: talk
     name: Talk
 created-jotform: "2023-08-25 22:53:16"
-last-modified-jotform: "2023-10-14 14:49:09"
-last-exported: "2023-10-14 15:17:49"
+last-modified-jotform: "2023-10-22 10:22:35"
+last-exported: "2023-10-22 10:30:12"
 sitemap: false
 
 ---

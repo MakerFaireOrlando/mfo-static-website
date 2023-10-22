@@ -5,7 +5,7 @@ title: "Pixelation Station"
 slug: pixelation-station
 permalink: /exhibits/pixelation-station/
 exhibit-id: 23-144
-exhibit-zone: "Spirit"
+exhibit-zone: "Spirit - East"
 space-number: "SG32, SH32"
 description: "Swing by & see how beads can spark so much fun. Then pull up a seat and make your own!"
 description-long: "Perler beads have been around since the sixties. So many of us remember making flowers or circles, but there is so much more to these little beads! Join Lori and her team and lets pixelate life!"
@@ -37,8 +37,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2023-09-16 00:09:10"
-last-modified-jotform: "2023-10-14 15:53:57"
-last-exported: "2023-10-15 13:22:36"
+last-modified-jotform: "2023-10-22 10:22:13"
+last-exported: "2023-10-22 10:30:10"
 sitemap: false
 
 ---

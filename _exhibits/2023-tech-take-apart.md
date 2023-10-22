@@ -5,6 +5,7 @@ title: "Tech Take-Apart"
 slug: tech-take-apart
 permalink: /exhibits/tech-take-apart/
 exhibit-id: 23-198
+exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: "SA20, SA21, SA22, SA23, SA24, SB20, SB21, SB22, SB23, SB24"
 description: "The best way to learn how things work is to take them apart! Grab some tools and take apart stuff!"
 description-long: "The best way to learn how things work is to take them apart! Grab some safety goggles, tools, and some patience and take apart old recycled pieces of tech. Organize as you go and figure out how things were made! Don't worry, you don't have to put our tech back together again!"
@@ -37,8 +38,8 @@ categories:
   - slug: tools
     name: Tools
 created-jotform: "2023-10-17 14:49:37"
-last-modified-jotform: "2023-10-17 22:03:16"
-last-exported: "2023-10-17 22:03:23"
+last-modified-jotform: "2023-10-22 10:24:34"
+last-exported: "2023-10-22 10:30:09"
 sitemap: false
 
 ---

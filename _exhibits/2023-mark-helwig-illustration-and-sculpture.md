@@ -5,7 +5,7 @@ title: "Mark Helwig Illustration and Sculpture"
 slug: mark-helwig-illustration-and-sculpture
 permalink: /exhibits/mark-helwig-illustration-and-sculpture/
 exhibit-id: 23-24
-exhibit-zone: "Spirit"
+exhibit-zone: "Spirit - East"
 space-number: "SE27"
 description: "Traditional illustration and sculpture"
 description-long: "Mark is a traditional illustrator, teacher, and sculptor living in the Orlando area. His character driven craftmanship has won him many awards at shows across the country"
@@ -40,8 +40,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2023-07-24 19:15:32"
-last-modified-jotform: "2023-10-14 13:59:23"
-last-exported: "2023-10-14 15:18:21"
+last-modified-jotform: "2023-10-22 10:22:16"
+last-exported: "2023-10-22 10:30:13"
 sitemap: false
 
 ---

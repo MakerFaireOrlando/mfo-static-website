@@ -5,7 +5,7 @@ title: "Gateway to Japan"
 slug: gateway-to-japan
 permalink: /exhibits/gateway-to-japan/
 exhibit-id: 23-67
-exhibit-zone: "Spirit"
+exhibit-zone: "Spirit - East"
 space-number: "SG27"
 description: "Workshop: 
 How to fold simple Origami
@@ -64,8 +64,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2023-08-22 23:00:11"
-last-modified-jotform: "2023-10-20 21:11:56"
-last-exported: "2023-10-21 11:39:40"
+last-modified-jotform: "2023-10-22 10:21:47"
+last-exported: "2023-10-22 10:30:12"
 sitemap: false
 
 ---

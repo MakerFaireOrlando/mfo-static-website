@@ -5,7 +5,7 @@ title: "JT Designs and Miniatures"
 slug: jt-designs-and-miniatures
 permalink: /exhibits/jt-designs-and-miniatures/
 exhibit-id: 23-152
-exhibit-zone: "Spirit"
+exhibit-zone: "Spirit - East"
 space-number: "SC29"
 description: "A collection of studio scale replicas of spaceships from a variety of movies. "
 description-long: "A collection of studio scale models from a variety of movies including Star Wars, Battlestar Galactica, 2001 a Space Odyssey and more. Made from cast resin, abs and styrene plastic, wood and 3D printed."
@@ -68,8 +68,8 @@ categories:
   - slug: special-effects
     name: Special Effects
 created-jotform: "2023-09-19 14:50:32"
-last-modified-jotform: "2023-10-14 16:04:29"
-last-exported: "2023-10-15 13:22:36"
+last-modified-jotform: "2023-10-22 10:21:56"
+last-exported: "2023-10-22 10:30:10"
 sitemap: false
 
 ---

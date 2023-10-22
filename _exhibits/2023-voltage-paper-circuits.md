@@ -5,7 +5,7 @@ title: "Voltage Paper Circuits"
 slug: voltage-paper-circuits
 permalink: /exhibits/voltage-paper-circuits/
 exhibit-id: 23-86
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Spirit - West"
 space-number: "SG10"
 description: "Make a paper circuit that lights up and learn the principles behind how a circuit works."
 description-long: "Using copper tape, two 5 mm LEDS, clear tape, a team Voltage mascot picture, and a 3V button battery, you will be able to make a paper circuit that teaches students about the basics of electricity flow throughout a circuit, from the source of power to the product. "
@@ -51,8 +51,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-08-28 19:09:57"
-last-modified-jotform: "2023-10-20 22:09:40"
-last-exported: "2023-10-21 11:39:39"
+last-modified-jotform: "2023-10-22 10:23:15"
+last-exported: "2023-10-22 10:30:12"
 sitemap: false
 
 ---

@@ -5,7 +5,7 @@ title: "Daleks of Florida"
 slug: daleks-of-florida
 permalink: /exhibits/daleks-of-florida/
 exhibit-id: 23-60
-exhibit-zone: "Spirit"
+exhibit-zone: "Spirit - East"
 space-number: "SF33, SG33, SH33"
 description: "Fan built Daleks from Dr Who. Come see these amazing builds and ask questions about them."
 description-long: "Fan built Daleks by a group of crazy Dr Who fans. Come see these amazing builds and find out what it takes to build one, drive one, and sound like one. "
@@ -39,8 +39,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2023-08-20 13:22:37"
-last-modified-jotform: "2023-10-14 13:48:31"
-last-exported: "2023-10-14 15:17:57"
+last-modified-jotform: "2023-10-22 10:21:30"
+last-exported: "2023-10-22 10:30:12"
 sitemap: false
 
 ---

@@ -5,7 +5,7 @@ title: "Pipes, Buckets, and Strings: DIY Instruments"
 slug: pipes-buckets-and-strings-diy-instruments
 permalink: /exhibits/pipes-buckets-and-strings-diy-instruments/
 exhibit-id: 23-178
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Spirit - West"
 space-number: "SE6"
 description: "We have everything from PVC and copper flutes to water-pipe trombones to washtub basses and more!"
 description-long: "We have everything from PVC and copper flutes to water-pipe trombones to washtub basses and more! We're bringing instruments that can be done start to finish at home in just a few minutes, up to some multi-weekend undertakings. We are musicians passionate about access to instruments that have put together a few low-cost kid-friendly instrument projects that can be done at home."
@@ -50,8 +50,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2023-10-09 19:30:37"
-last-modified-jotform: "2023-10-14 15:03:18"
-last-exported: "2023-10-14 15:17:08"
+last-modified-jotform: "2023-10-22 10:23:00"
+last-exported: "2023-10-22 10:30:09"
 sitemap: false
 
 ---

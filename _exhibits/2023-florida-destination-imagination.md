@@ -5,7 +5,7 @@ title: "Florida Destination Imagination"
 slug: florida-destination-imagination
 permalink: /exhibits/florida-destination-imagination/
 exhibit-id: 23-114
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Spirit - West"
 space-number: "SH7"
 description: "Destination Imagination prepares kids through creative STEAM challenges."
 description-long: "Destination Imagination prepares Florida’s kids to be the innovators of the future by combining the arts, sciences, and technology with creativity, teamwork, and problem solving.  The annual team based challenges consists of technical, engineering, scientific, improvisation and more.    "
@@ -33,8 +33,8 @@ categories:
   - slug: maker-community
     name: Maker Community
 created-jotform: "2023-08-31 22:45:47"
-last-modified-jotform: "2023-10-14 14:47:49"
-last-exported: "2023-10-14 15:17:25"
+last-modified-jotform: "2023-10-22 10:22:52"
+last-exported: "2023-10-22 10:30:11"
 sitemap: false
 
 ---

@@ -5,7 +5,7 @@ title: "Brassroots Leather"
 slug: brassroots-leather
 permalink: /exhibits/brassroots-leather/
 exhibit-id: 23-43
-exhibit-zone: "Spirit"
+exhibit-zone: "Spirit - East"
 space-number: "SE30"
 description: "Steampunk and Pop Culture Inspired Leather Crafts and More..."
 description-long: "We are a small hobby business that got its start by making a leather top hat in 2012. Since then, we have branched out and made more leather items with inspiration in the steampunk genre and more recently in pop culture such as Star Wars belts and some props. 
@@ -60,8 +60,8 @@ categories:
   - slug: steampunk
     name: SteamPunk
 created-jotform: "2023-08-05 21:19:04"
-last-modified-jotform: "2023-10-14 13:51:34"
-last-exported: "2023-10-14 15:18:11"
+last-modified-jotform: "2023-10-22 10:21:05"
+last-exported: "2023-10-22 10:30:12"
 sitemap: false
 
 ---

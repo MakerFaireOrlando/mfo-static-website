@@ -5,7 +5,7 @@ title: "Freedom Montessori Academy"
 slug: freedom-montessori-academy
 permalink: /exhibits/freedom-montessori-academy/
 exhibit-id: 23-92
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Spirit - West"
 space-number: "SE4"
 description: "Use hands-on materials and activities to construct your own knowledge. Make and take activities!"
 description-long: "Use hands-on materials and activities to construct your own knowledge. These nature-based and physical materials help students of all ages make scientific, mathematical, and historical connections to knowledge. Stop by the Freedom Montessori Booth/classroom to use the materials and build your knowledge. Homeschoolers across Florida are enjoying these materials and lessons. We have a make-and-take area! "
@@ -27,8 +27,8 @@ categories:
   - slug: education
     name: Education
 created-jotform: "2023-08-29 18:01:52"
-last-modified-jotform: "2023-10-14 15:09:48"
-last-exported: "2023-10-14 15:17:31"
+last-modified-jotform: "2023-10-22 10:22:49"
+last-exported: "2023-10-22 10:30:12"
 sitemap: false
 
 ---

@@ -5,7 +5,7 @@ title: "Rock Springs Critters"
 slug: rock-springs-critters
 permalink: /exhibits/rock-springs-critters/
 exhibit-id: 23-72
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Spirit - West"
 space-number: "SG9"
 description: "Kid-Owned, 3D-Printed, Solar-Powered, Made From Plants, Must-Have Critters!"
 description-long: "We are siblings who have chosen our favorite articulated STLs and colors to print really fun and cool animals and fidget toys.  We are authorized sellers of STLs designed by Cinderwing3D, MattMireMakes, and Layers in Green.  No need to shop to stop by our booth and check out our critters!  If you fall in love, you can adopt one at the Orlando Maker Faire!"
@@ -34,8 +34,8 @@ categories:
   - slug: 3d-printing
     name: 3D Printing
 created-jotform: "2023-08-24 17:06:33"
-last-modified-jotform: "2023-10-14 15:27:08"
-last-exported: "2023-10-15 13:22:38"
+last-modified-jotform: "2023-10-22 10:22:26"
+last-exported: "2023-10-22 10:30:12"
 sitemap: false
 
 ---

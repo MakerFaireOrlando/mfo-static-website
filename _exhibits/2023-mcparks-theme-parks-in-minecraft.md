@@ -5,7 +5,7 @@ title: "MCParks - Theme Parks in Minecraft"
 slug: mcparks-theme-parks-in-minecraft
 permalink: /exhibits/mcparks-theme-parks-in-minecraft/
 exhibit-id: 23-142
-exhibit-zone: "The Dark Side (Spirit Building)"
+exhibit-zone: "Spirit - West"
 space-number: "SC5"
 description: "A 1:1 scale recreation of the most popular theme parks around the world!"
 description-long: "MCParks is a 1-meter to 1-block recreation of many of the worlds best theme parks in Minecraft, including working shows and attractions. MCParks is home to the Walt Disney World Resort, Universal Orlando Resort, Disneyland Resort, Busch Gardens Tampa, Disneyland Paris, Tokyo Disney Resort and more! Meet some of the team that has been able to build up this community for over a decade, amassing millions of views on TikTok and YouTube alongside an in-game community of a half million players."
@@ -53,8 +53,8 @@ categories:
   - slug: gaming
     name: Gaming
 created-jotform: "2023-09-15 18:49:54"
-last-modified-jotform: "2023-10-14 14:22:42"
-last-exported: "2023-10-14 15:17:17"
+last-modified-jotform: "2023-10-22 10:23:17"
+last-exported: "2023-10-22 10:30:11"
 sitemap: false
 
 ---
