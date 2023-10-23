@@ -33,6 +33,7 @@ Documentation types allowed:
 * Umbrella school registration
 * Membership with the Florida Parent Educator Association (FPEA)
 * Membership with the Homeschool Legal Defense Association (HSLDA)
+* Registration with a Florida Department of Education (FLDOE) approved scholarship-funding organization (SFO) (PEP program) 
 * Letter of Intent to homeschool registered with your municipality
 If you have a question on documentation of homeschool status, please email us at [makers@makerfaireorlando.com](mailto://makers@makerfaireorlando.com)
 
