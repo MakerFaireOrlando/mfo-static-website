@@ -22,7 +22,7 @@ maker:
   description: "
 NOV8Youth is a non-profit organization where our mission is to ignite the spark of curiosity in young minds across the globe by fostering a deep appreciation for STEAM (Science, Technology, Engineering, Arts, and Mathematics) education. Through innovative teaching methodologies and collaborative initiatives, we aim to empower and inspire underserved youth in both local communities and around the world. Our commitment lies in creating transformative learning experiences that transcend geographical boundaries, enabling young learners to embrace creativity, critical thinking, and problem-solving skills. By instilling a passion for STEM disciplines and embracing innovative youth , we are dedicated to shaping the next generation of innovative thinkers who will drive positive change on a global scale. 
 "
-  image-primary: /assets/images/exhibit-images/23-116-maker-nov8youth-img-2293-medium.png
+  image-primary: /assets/images/exhibit-images/23-116-maker-nov8youth-untitled-artwork-medium.png
   instagram: https://www.instagram.com/nov8youth?igshid=NzZhOTFlYzFmZQ==
 categories: 
   - slug: education
@@ -36,8 +36,8 @@ categories:
   - slug: maker-community
     name: Maker Community
 created-jotform: "2023-08-31 23:32:51"
-last-modified-jotform: "2023-10-22 10:23:12"
-last-exported: "2023-10-22 10:30:11"
+last-modified-jotform: "2023-10-23 09:21:38"
+last-exported: "2023-10-23 13:31:00"
 sitemap: false
 
 ---
