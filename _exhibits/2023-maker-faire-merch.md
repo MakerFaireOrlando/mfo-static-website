@@ -25,6 +25,11 @@ additional-images:
     medium: /assets/images/exhibit-images/23-204-exhibit-addl1-maker-faire-merch-lts-test-medium.jpg
     large: /assets/images/exhibit-images/23-204-exhibit-addl1-maker-faire-merch-lts-test-large.jpg
     full: /assets/images/exhibit-images/23-204-exhibit-addl1-maker-faire-merch-lts-test-full.jpg
+  - 2:
+    small: /assets/images/exhibit-images/23-204-exhibit-addl2-maker-faire-merch-stickersheet-approved-proof-small.png
+    medium: /assets/images/exhibit-images/23-204-exhibit-addl2-maker-faire-merch-stickersheet-approved-proof-medium.png
+    large: /assets/images/exhibit-images/23-204-exhibit-addl2-maker-faire-merch-stickersheet-approved-proof-large.png
+    full: /assets/images/exhibit-images/23-204-exhibit-addl2-maker-faire-merch-stickersheet-approved-proof-full.png
 maker: 
   name: "The Maker Effect Foundation"
   description: "Our mission is to activate and amplify the efforts of makers as they learn, build and work together in their communities."
@@ -36,8 +41,8 @@ categories:
   - slug: screen-printing
     name: Screen Printing
 created-jotform: "2023-10-22 14:00:11"
-last-modified-jotform: "2023-10-22 14:24:47"
-last-exported: "2023-10-22 14:24:58"
+last-modified-jotform: "2023-10-22 17:51:11"
+last-exported: "2023-10-22 17:51:27"
 sitemap: false
 
 ---

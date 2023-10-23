@@ -51,8 +51,8 @@ additional-images:
     medium: /assets/images/exhibit-images/23-203-exhibit-addl4-the-claaaaw-prize-door-medium.jpg
     large: /assets/images/exhibit-images/23-203-exhibit-addl4-the-claaaaw-prize-door-large.jpg
     full: /assets/images/exhibit-images/23-203-exhibit-addl4-the-claaaaw-prize-door-full.jpg
-video: "https://youtu.be/lCnfUakUU7I"
-video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/lCnfUakUU7I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="Can you help 3D print Makey Robots for Kids to win at Maker Faire Orlando?"></iframe>'
+video: "https://youtu.be/oCdrGx0BOEQ"
+video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/oCdrGx0BOEQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="Help 3D-print Makey Robots for Kids to Win at Maker Faire Orlando!"></iframe>'
 maker: 
   name: "The Maker Effect Foundation"
   description: "Our mission is to activate and amplify the efforts of makers as they learn, build and work together in their communities."
@@ -68,8 +68,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-10-21 23:28:29"
-last-modified-jotform: "2023-10-22 15:05:23"
-last-exported: "2023-10-22 15:05:31"
+last-modified-jotform: "2023-10-22 18:44:20"
+last-exported: "2023-10-22 18:44:42"
 sitemap: false
 
 ---
