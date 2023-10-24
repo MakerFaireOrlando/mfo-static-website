@@ -74,13 +74,11 @@ categories:
     name: Comics
   - slug: electronics
     name: Electronics
-  - slug: first-robotics
-    name: FIRST Robotics
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2023-08-19 11:46:59"
-last-modified-jotform: "2023-10-22 10:23:50"
-last-exported: "2023-10-22 10:30:12"
+last-modified-jotform: "2023-10-23 17:50:43"
+last-exported: "2023-10-23 17:50:52"
 sitemap: false
 
 ---
