@@ -30,6 +30,21 @@ additional-images:
     medium: /assets/images/exhibit-images/23-204-exhibit-addl2-maker-faire-merch-stickersheet-approved-proof-medium.png
     large: /assets/images/exhibit-images/23-204-exhibit-addl2-maker-faire-merch-stickersheet-approved-proof-large.png
     full: /assets/images/exhibit-images/23-204-exhibit-addl2-maker-faire-merch-stickersheet-approved-proof-full.png
+  - 3:
+    small: /assets/images/exhibit-images/23-204-exhibit-addl3-maker-faire-merch-rr-black-shirt-detail-small.jpg
+    medium: /assets/images/exhibit-images/23-204-exhibit-addl3-maker-faire-merch-rr-black-shirt-detail-medium.jpg
+    large: /assets/images/exhibit-images/23-204-exhibit-addl3-maker-faire-merch-rr-black-shirt-detail-large.jpg
+    full: /assets/images/exhibit-images/23-204-exhibit-addl3-maker-faire-merch-rr-black-shirt-detail-full.jpg
+  - 4:
+    small: /assets/images/exhibit-images/23-204-exhibit-addl4-maker-faire-merch-rr-black-hat-adjustable-perspective-small.jpg
+    medium: /assets/images/exhibit-images/23-204-exhibit-addl4-maker-faire-merch-rr-black-hat-adjustable-perspective-medium.jpg
+    large: /assets/images/exhibit-images/23-204-exhibit-addl4-maker-faire-merch-rr-black-hat-adjustable-perspective-large.jpg
+    full: /assets/images/exhibit-images/23-204-exhibit-addl4-maker-faire-merch-rr-black-hat-adjustable-perspective-full.jpg
+  - 5:
+    small: /assets/images/exhibit-images/23-204-exhibit-addl5-maker-faire-merch-rr-red-hoodie-back-small.jpg
+    medium: /assets/images/exhibit-images/23-204-exhibit-addl5-maker-faire-merch-rr-red-hoodie-back-medium.jpg
+    large: /assets/images/exhibit-images/23-204-exhibit-addl5-maker-faire-merch-rr-red-hoodie-back-large.jpg
+    full: /assets/images/exhibit-images/23-204-exhibit-addl5-maker-faire-merch-rr-red-hoodie-back-full.jpg
 maker: 
   name: "The Maker Effect Foundation"
   description: "Our mission is to activate and amplify the efforts of makers as they learn, build and work together in their communities."
@@ -41,8 +56,8 @@ categories:
   - slug: screen-printing
     name: Screen Printing
 created-jotform: "2023-10-22 14:00:11"
-last-modified-jotform: "2023-10-22 17:51:11"
-last-exported: "2023-10-22 17:51:27"
+last-modified-jotform: "2023-10-23 21:32:11"
+last-exported: "2023-10-23 21:33:43"
 sitemap: false
 
 ---
