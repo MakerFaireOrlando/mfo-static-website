@@ -96,7 +96,7 @@ Hop over to our [tickets](/attend) page for more information including our free 
 ___
 
 ## Want Even More Maker Faire & Robot Ruckus fun with special guests and BattleBots Teams?
-Check out the [Maker Faire Orlando & VIP Fundraiser](https://events.humanitix.com/mfo2022-vip-fundraiser) happening after-hours on Saturday the 5th after the first day of Maker Faire Orlando. This event requires a separate ticket. [Learn More](https://events.humanitix.com/mfo2022-vip-fundraiser)
+Check out the [Maker Faire Orlando & VIP Fundraiser](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser) happening after-hours on Saturday the 5th after the first day of Maker Faire Orlando. This event requires a separate ticket. [Learn More](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser)
 
 
 

@@ -29,9 +29,9 @@ Central Florida Expo Center & Fairgrounds
 
 **Parking is FREE!**
 
-Explore more than [200 Exhibits and Hands-on Activities](/makers) to find your favorites!
+Explore more than [250 Exhibits and Hands-on Activities](/makers) to find your favorites!
 
-Check out the [Event Program, Map & Schedule](/program) to plan your weekend!
+Check out the Maker Faire [Schedule](/schedule) and [Program](/program) to plan your weekend!
 
 
 ---
@@ -83,7 +83,7 @@ Tickets available on [Humanitix](https://events.humanitix.com/makerfaireorlando)
 ---
 {%comment%}
 ### Looking for an Exclusive Experience with Makers, Interactive Artists & BattleBots Teams?
-Check out the [Maker Faire Orlando & Robot Ruckus VIP Fundraiser](https://events.humanitix.com/mfo2022-vip-fundraiser) happening after-hours on Saturday the 5th after the first day of Maker Faire Orlando. This event requires a separate ticket. [Learn More](https://events.humanitix.com/mfo2022-vip-fundraiser)
+Check out the [Maker Faire Orlando & Robot Ruckus VIP Fundraiser](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser) happening after-hours on Saturday the 5th after the first day of Maker Faire Orlando. This event requires a separate ticket. [Learn More](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser)
 
 ---
 {%endcomment%}

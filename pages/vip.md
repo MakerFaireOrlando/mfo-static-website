@@ -6,4 +6,4 @@ sitemap: false #adding this so google webmaster tools will stop warning that it 
 ---
 ### Redirecting to VIP Fundraiser Event...
 
-<meta http-equiv="refresh" content="0;url=https://events.humanitix.com/mfo2022-vip-fundraiser" />
+<meta http-equiv="refresh" content="0;url=https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser" />
