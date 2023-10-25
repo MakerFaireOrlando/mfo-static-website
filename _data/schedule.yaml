@@ -5,11 +5,20 @@
   date: 2023-11-04 10:00:00
   image: /assets/images/site-branding/2023/MFO2023_Round_logo_V3_w_date.jpg
 
+- title: Knight Fights!
+  description: Meet the Florida Armored Combat Club and see demos of armor and weaponry! Then stop back on Sunday for scheduled <a href="/exhibits/knight-fights/">Knight&nbsp;Fights</a> including Defend the Pumpkin, 2v2 / 3v3, and duels!
+  location: Knight Fights Arena (Outdoor)
+  date: 2023-11-04 11:00:00
+  enddate: 2023-11-04 17:00:00
+  image: /assets/images/exhibit-images/23-134-exhibit-knight-fights-sam-and-gary-long-sword-zoom-small.jpg
+  url: /exhibits/knight-fights/
+
 - title: Power Racing - Qualifying
   location: Power Racing Track
   description: These tiny electric racers are ready to race for glory - you can stop by the track to see the qualifying action!
   date: 2023-11-04 10:30:00
   image: /assets/images/ppprs-logo.png
+  url: /makers/?category=power-racing
 
 - title: Theme Park Makers Panel
   location: Maker Faire Stage
@@ -23,6 +32,7 @@
   description:
   date: 2023-11-04 11:00:00
   image: /assets/images/ppprs-logo.png
+  url: /makers/?category=power-racing
 
 - title: Music Makers
   location: Maker Faire Stage
@@ -35,6 +45,7 @@
   description:
   date: 2023-11-04 13:00:00
   image: /assets/images/ppprs-logo.png
+  url: /makers/?category=power-racing
 
 - title: Magic Wheelchair Builders Panel
   location: Maker Faire Stage
@@ -56,6 +67,7 @@
   description: Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!
   date: 2023-11-04 13:00:00
   image: /assets/images/ppprs-logo.png
+  url: /makers/?category=power-racing
 
 - title: Nerd Nite Orlando
   location: Maker Faire Stage
@@ -70,6 +82,7 @@
   description:
   date: 2023-11-04 13:00:00
   image: /assets/images/ppprs-logo.png
+  url: /makers/?category=power-racing
 
 - title: Maker Faire Day 1 is Over!
   description: We will see you Tomorrow! (or at the VIP Fundraiser event on Saturday night!)
@@ -91,6 +104,14 @@
   date: 2023-11-05 10:00:00
   image: /assets/images/site-branding/2023/MFO2023_Round_logo_V3_w_date.jpg
 
+- title: Knight Fights!
+  description: Join the Florida Armored Combat Club for <a href="/exhibits/knight-fights/">Knight&nbsp;Fights</a> including Defend the Pumpkin, 2v2 / 3v3, and duels!
+  location: Knight Fights Arena (Outdoor)
+  date: 2023-11-05 11:00:00
+  enddate: 2023-11-05 11:30:00
+  image: /assets/images/exhibit-images/23-134-exhibit-knight-fights-sam-and-gary-long-sword-zoom-small.jpg
+  url: /exhibits/knight-fights/
+
 - title: BattleBots Panel
   location: Maker Faire Stage
   description: Hear from your favorite BattleBots team members and ask your burning questions!
@@ -104,6 +125,7 @@
   description:
   date: 2023-11-05 11:00:00
   image: /assets/images/ppprs-logo.png
+  url: /makers/?category=power-racing
 
 - title: Music Makers
   location: Maker Faire Stage
@@ -116,6 +138,15 @@
   description: Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!
   date: 2023-11-05 13:00:00
   image: /assets/images/ppprs-logo.png
+  url: /makers/?category=power-racing
+
+- title: Knight Fights!
+  description: Join the Florida Armored Combat Club for <a href="/exhibits/knight-fights/">Knight&nbsp;Fights</a> including Defend the Pumpkin, 2v2 / 3v3, and duels!
+  location: Knight Fights Arena (Outdoor)
+  date: 2023-11-05 13:00:00
+  enddate: 2023-11-05 13:30:00
+  image: /assets/images/exhibit-images/23-134-exhibit-knight-fights-sam-and-gary-long-sword-zoom-small.jpg
+  url: /exhibits/knight-fights/
 
 - title: Assistive Technology Panel
   location: Maker Faire Stage
@@ -131,12 +162,21 @@
   description:
   date: 2023-11-05 14:30:00
   image: /assets/images/ppprs-logo.png
+  url: /makers/?category=power-racing
 
 - title: Props Producers Panel
   location: Maker Faire Stage
   description: Hear from master prop makers including <a href="https://www.instagram.com/schac_attack/">Jen Schachter</a>, <a href="https://www.tiktok.com/@propstohistory/">Michael Corrie</a> and <a href="https://www.instagram.com/stefanfx79/">Stefan Price</a>
   date: 2023-11-05 15:00:00
   enddate: 2023-11-05 15:50:00
+
+- title: Knight Fights!
+  description: Join the Florida Armored Combat Club for <a href="/exhibits/knight-fights/">Knight&nbsp;Fights</a> including Defend the Pumpkin, 2v2 / 3v3, and duels!
+  location: Knight Fights Arena (Outdoor)
+  date: 2023-11-05 15:00:00
+  enddate: 2023-11-05 15:30:00
+  image: /assets/images/exhibit-images/23-134-exhibit-knight-fights-sam-and-gary-long-sword-zoom-small.jpg
+  url: /exhibits/knight-fights/
 
 - title: Giving Back through Art - The Artists behind Maker Faire Orlando
   location: Maker Faire Stage
@@ -149,7 +189,15 @@
   description: The best of the best are on the podium after a long weekend of racing. Cheer them on to glory!
   date: 2023-11-05 16:00:00
   image: /assets/images/ppprs-logo.png
+  url: /makers/?category=power-racing
 
+- title: Knight Fights!
+  description: Join the Florida Armored Combat Club for <a href="/exhibits/knight-fights/">Knight&nbsp;Fights</a> including Defend the Pumpkin, 2v2 / 3v3, and duels!
+  location: Knight Fights Arena (Outdoor)
+  date: 2023-11-05 16:00:00
+  enddate: 2023-11-05 16:30:00
+  image: /assets/images/exhibit-images/23-134-exhibit-knight-fights-sam-and-gary-long-sword-zoom-small.jpg
+  url: /exhibits/knight-fights/
 
 - title: Maker Faire Concludes
   description: Maker Faire Orlando 2023 is over - we will see you next year!
