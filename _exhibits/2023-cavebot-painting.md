@@ -5,8 +5,8 @@ title: "Cavebot Painting"
 slug: cavebot-painting
 permalink: /exhibits/cavebot-painting/
 exhibit-id: 23-58
-exhibit-zone: "Spirit - West"
-space-number: "SE1, SF1"
+exhibit-zone: "Robot Ruckus (Spirit Building)"
+space-number: "SA22, SA23"
 description: "Robot Painting hands-on demonstration. Keep the robot and canvas as a souvenir of Maker Faire. $5"
 description-long: "Hands-on demonstration. Pick out a robot and have it paint a canvas for you. STEM: learn how the small robot works, basic electricity and make some art. Regular acrylic & florescent paint. Keep the robot & canvas. See samples of the artist's work with UV LEDs built into the canvas. Free stickers! "
 image: /assets/images/exhibit-images/23-58-exhibit-cavebot-painting-hands-on-sample-large.jpg
@@ -77,8 +77,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2023-08-19 11:46:59"
-last-modified-jotform: "2023-10-23 17:50:43"
-last-exported: "2023-10-23 17:50:52"
+last-modified-jotform: "2023-10-24 21:55:21"
+last-exported: "2023-10-24 21:55:29"
 sitemap: false
 
 ---

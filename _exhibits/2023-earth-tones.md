@@ -5,6 +5,7 @@ title: "earth tones"
 slug: earth-tones
 permalink: /exhibits/earth-tones/
 exhibit-id: 23-185
+exhibit-zone: "Main Stage"
 space-number: Unassigned
 description: "earth tones is a chamber pop musical community fronted by classical violinist, guitarist & vocalist."
 description-long: "earth tones is a chamber pop musical community fronted by classical violinist, guitarist, and vocalist Anisah."
@@ -27,8 +28,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2023-10-11 16:40:12"
-last-modified-jotform: "2023-10-22 10:24:57"
-last-exported: "2023-10-22 10:30:09"
+last-modified-jotform: "2023-10-24 22:21:51"
+last-exported: "2023-10-24 22:22:01"
 sitemap: false
 
 ---

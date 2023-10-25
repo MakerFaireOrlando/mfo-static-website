@@ -6,7 +6,7 @@ slug: the-high-voltage-guys
 permalink: /exhibits/the-high-voltage-guys/
 exhibit-id: 23-57
 exhibit-zone: "Spirit - West"
-space-number: "SI1, SJ1, SJ2, SJ3"
+space-number: "SH1, SI1, SJ1, SJ2"
 description: " We love designing and building high voltage devices such as Tesla Coils!!"
 description-long: "We are The High Voltage Guys. We're a collaboration between Arc Angel Tesla Coil & SciTubeHD. We love designing and building high voltage devices such as Tesla Coils and anything involving electricity. We will have several different types of high voltage demonstrations including thermal energy, wireless energy transmission,Qcw Tesla Coil, static electricity, and two medium sized Tesla Coils, and much much more even a bike generator!!"
 image: /assets/images/exhibit-images/23-57-exhibit-the-high-voltage-guys-43-5629-7249-large.jpeg
@@ -84,8 +84,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2023-08-16 21:02:21"
-last-modified-jotform: "2023-10-22 10:22:23"
-last-exported: "2023-10-22 10:30:12"
+last-modified-jotform: "2023-10-24 21:45:21"
+last-exported: "2023-10-24 21:45:30"
 sitemap: false
 
 ---

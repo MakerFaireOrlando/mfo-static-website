@@ -6,7 +6,7 @@ slug: florida-odyssey-of-the-mind-association
 permalink: /exhibits/florida-odyssey-of-the-mind-association/
 exhibit-id: 23-83
 exhibit-zone: "Spirit - West"
-space-number: "SG1, SH1"
+space-number: "SE1, SF1"
 description: "We will demonstrate our balsa wood structural engineering project. We will crush structures all day"
 description-long: "We will promote our program and demonstrate balsa wood structure crushing testing how much weight each holds throughout the day. We will also exhibit several examples of creations by team members. "
 image: /assets/images/exhibit-images/23-83-exhibit-florida-odyssey-of-the-mind-association-img-5690-large.jpeg
@@ -40,8 +40,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2023-08-28 11:08:19"
-last-modified-jotform: "2023-10-22 10:23:59"
-last-exported: "2023-10-22 10:30:12"
+last-modified-jotform: "2023-10-24 21:44:34"
+last-exported: "2023-10-24 21:45:09"
 sitemap: false
 
 ---

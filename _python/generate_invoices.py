@@ -320,6 +320,9 @@ def export(outputAll):
           exhibitName = exhibitName.strip()
           mfoID = mfoID.strip()
 
+          #hack for an invoice that WOULD NOT generate would always report cancelled
+          #if (mfoID == "22R-16"): mfoID = "22R-16-F"
+
           viz = False
           vizAns = getAnswerByName(ans,"visibility")
 
