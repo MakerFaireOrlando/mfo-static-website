@@ -39,13 +39,25 @@ Use the schedule below to plan your weekend to catch the panel talks and other s
                 <div class="row">
                     <div class="col-sm-2">
                       {% if event.image %}
+                        {% if event.url %}
+                          <a href="{{event.url}}">
+                        {% endif %}
                         <img src="{{event.image}}" style="padding:10px; max-width:100%;">
+                        {% if event.url %}
+                          </a>
+                        {% endif %}
                       {% else %}
                       <img src="/assets/images/site-branding/makey.png" style="padding:10px; max-width:100%;">
                       {% endif %}
                     </div>
                     <div class="col-sm-2">
+                        {% if event.url %}
+                          <a href="{{event.url}}">
+                        {% endif %}
                         <b>{{event.title}}</b>
+                        {% if event.url %}
+                          </a>
+                        {% endif %}
                     </div>
                     <div class="col-sm-4 text-wrap">
                         {{event.description}}
