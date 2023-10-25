@@ -8,7 +8,7 @@ permalink: /badge/
 Thanks for scanning that handy QR code on your badge! Your reward is this handy info to help you have a great time at Maker Faire Orlando!
 
 ### Event Hours
-Maker Check-in and setup is from 10am to 8pm (exit by 8pm( on Friday, November 3.<br>
+Maker Check-in and setup is from 10am to 8pm (exit by 8pm) on Friday, November 3.<br>
 
 The Maker Mixer (during setup) is from 6pm to 7pm on Friday, November 3 at the Maker Faire Stage.
 
