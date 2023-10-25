@@ -35,6 +35,7 @@ Check out the [full list of maker exhibits](/makers)! You can filter by category
 
 ### Event Schedule & Program
 
+Use the [Online Schedule](/schedule) for the most up-to-date schedule of talks, panels, races and more. <br>
 Check out the [Maker Faire Program](/program) for a map, schedule and more!
 
 {%comment%}
