@@ -3,6 +3,7 @@
 - title: Maker Faire Begins!
   description: Welcome to Day 1 of Maker Faire Orlando!<br>Make sure to check out the <a href="/makers">list of exhibits, hands-on workshops and more so you don't miss any of the action!</a>
   date: 2023-11-04 10:00:00
+  image: /assets/images/site-branding/2023/MFO2023_Round_logo_V3_w_date.jpg
 
 - title: Power Racing - Qualifying
   location: Power Racing Track
@@ -71,6 +72,7 @@
 - title: Maker Faire Day 1 is Over!
   description: We will see you Tomorrow! (or at the VIP Fundraiser event on Saturday night!)
   date: 2023-11-04 17:00:00
+  image: /assets/images/site-branding/2023/MFO2023_Round_logo_V3_w_date.jpg
 
 
 - title: Maker Faire Orlando & Robot Ruckus VIP Fundraiser!
@@ -84,7 +86,8 @@
 
 - title: Maker Faire Resumes!
   description: Welcome back for day 2 of Maker Faire Orlando 2023!
-  date: 2023-11-04 10:00:00
+  date: 2023-11-05 10:00:00
+  image: /assets/images/site-branding/2023/MFO2023_Round_logo_V3_w_date.jpg
 
 - title: BattleBots Panel
   location: Maker Faire Stage
@@ -149,5 +152,6 @@
 - title: Maker Faire Concludes
   description: Maker Faire Orlando 2023 is over - we will see you next year!
   date: 2023-11-05 17:00:00
+  image: /assets/images/site-branding/2023/MFO2023_Round_logo_V3_w_date.jpg
 
 #get start times from Ruckus - Sat at 11? Sunday at 10?
