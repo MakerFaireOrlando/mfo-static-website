@@ -30,7 +30,7 @@
 - title: Power Racing - Relay Race
   location: Power Racing Track
   description:
-  date: 2023-11-04 11:00:00
+  date: 2023-11-04 11:30:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
 
@@ -80,7 +80,7 @@
 - title: Power Racing - Sprint Race 2
   location: Power Racing Track
   description:
-  date: 2023-11-04 13:00:00
+  date: 2023-11-04 16:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
 
@@ -194,8 +194,8 @@
 - title: Knight Fights!
   description: Join the Florida Armored Combat Club for <a href="/exhibits/knight-fights/">Knight&nbsp;Fights</a> including Defend the Pumpkin, 2v2 / 3v3, and duels!
   location: Knight Fights Arena (Outdoor)
-  date: 2023-11-05 16:00:00
-  enddate: 2023-11-05 16:30:00
+  date: 2023-11-05 16:30:00
+  enddate: 2023-11-05 17:00:00
   image: /assets/images/exhibit-images/23-134-exhibit-knight-fights-sam-and-gary-long-sword-zoom-small.jpg
   url: /exhibits/knight-fights/
 
