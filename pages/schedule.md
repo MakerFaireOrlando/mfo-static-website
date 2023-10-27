@@ -9,7 +9,9 @@ isotope: true
 
 # Event Schedule
 
-Use the schedule below to plan your weekend to catch the panel talks and other scheduled activities! Note that most of the [exhibits](/exhibits) and [hands-on activities](/makers/?category=hands-on-workshop) at Maker Faire Orlando happen continuously throughout the weekend. <BR><BR>
+Use the schedule below to plan your weekend to catch the panel talks and other scheduled activities! Note that most of the [exhibits](/exhibits) and [hands-on activities](/makers/?category=hands-on-workshop) at Maker Faire Orlando happen continuously throughout the weekend. <BR>
+
+Check out the [event program](/program) for a printable map, schedule and more!<br><br>
 
 <div class="mtm">
   <div class="mtm-search">
