@@ -7,19 +7,28 @@ permalink: /exhibits/flux-inc/
 exhibit-id: 23-32
 exhibit-zone: "Opportunity"
 space-number: "OC24, OC25"
-description: "Empowering Creativity with Innovative Laser Cutting Technology. Bring your designs to life with FLUX"
-description-long: "FLUX is a leading provider of desktop laser cutters, offering innovative solutions for precision cutting and engraving. Our easy-to-use machines empower businesses and individuals to unleash their creativity, transform ideas into reality, and achieve remarkable results. With a focus on user-friendly design, exceptional performance, and versatility, FLUX laser cutters are the ideal choice for a wide range of industries, from small businesses to educational institutions"
+description: "Experience the World's First Color Printing Laser Cutter, FLUX Ador, at Orlando Maker Faire
+"
+description-long: "FLUX, a leading provider of desktop laser cutters, invites you to explore the cutting edge of printing technology at Orlando Maker Faire . As pioneers in innovative solutions for precision cutting and engraving, FLUX empowers businesses and individuals to transform ideas into reality with remarkable results. Our user-friendly machines cater to a wide range of industries, from small businesses to educational institutions, ensuring exceptional performance and versatility.
+
+Join us for an exclusive experience with FLUX Ador, the world's first color printing laser cutter. This event promises live demonstrations, interactive sessions, and networking opportunities with fellow tech enthusiasts, designers, and innovators. Immerse yourself in the future of printing and design while enjoying a delectable lunch buffet. Limited spots are available, so RSVP now to secure your place in this exciting glimpse into the future of creative technology."
 image: /assets/images/exhibit-images/23-32-exhibit-flux-inc-flux-beamo-4-1-large.jpg
 image-primary: 
   small: /assets/images/exhibit-images/23-32-exhibit-flux-inc-flux-beamo-4-1-small.jpg
   medium: /assets/images/exhibit-images/23-32-exhibit-flux-inc-flux-beamo-4-1-medium.jpg
   large: /assets/images/exhibit-images/23-32-exhibit-flux-inc-flux-beamo-4-1-large.jpg
   full: /assets/images/exhibit-images/23-32-exhibit-flux-inc-flux-beamo-4-1-full.jpg
+additional-images: 
+  - 1:
+    small: /assets/images/exhibit-images/23-32-exhibit-addl1-flux-inc-ador-shop-banner-2560-x-640pc-2jpg-1-small.jpg
+    medium: /assets/images/exhibit-images/23-32-exhibit-addl1-flux-inc-ador-shop-banner-2560-x-640pc-2jpg-1-medium.jpg
+    large: /assets/images/exhibit-images/23-32-exhibit-addl1-flux-inc-ador-shop-banner-2560-x-640pc-2jpg-1-large.jpg
+    full: /assets/images/exhibit-images/23-32-exhibit-addl1-flux-inc-ador-shop-banner-2560-x-640pc-2jpg-1-full.jpg
 website: "https://flux3dp.com/"
 video: "https://www.youtube.com/watch?v=PwR-sX4EbYM"
 video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/PwR-sX4EbYM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="FLUX beamo | World&#39;s Smallest CO2 Laser Cutter"></iframe>'
 maker: 
-  name: "Poppy Hua"
+  name: "FLUX Inc. "
   description: "In 2014, FLUX launched the revolutionary 3D printing technology, Delta+, that made it easier than ever before to work with 3D printers. 
 
 Delta+ quickly became a hit on Kickstarter and raised over 1.64 million dollars from backers across the globe - one of the top three records in 3D printing!
@@ -47,8 +56,8 @@ categories:
   - slug: tools
     name: Tools
 created-jotform: "2023-07-28 17:59:27"
-last-modified-jotform: "2023-10-21 14:17:53"
-last-exported: "2023-10-21 14:18:39"
+last-modified-jotform: "2023-10-26 13:03:00"
+last-exported: "2023-10-26 19:29:40"
 sitemap: false
 
 ---
