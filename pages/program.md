@@ -23,7 +23,7 @@ Check out the Maker Faire Orlando event program to plan your time at Maker Faire
 ---
 
 ## Need Tickets?
-Hop over to our [tickets](/attend) page for more information including our free ticket programs for first responders, educators, and veterans and details on how to win a professional 3D printer package from DeltaMaker 3D!
+Hop over to our [tickets](/attend) page for more information including our free ticket programs for first responders, educators, and veterans and details on how to win in our Maker tools giveaway!
 
 ___
 
@@ -32,4 +32,4 @@ Check out the [Maker Faire Orlando & VIP Fundraiser](https://events.humanitix.co
 
 ---
 
-Exhibiting makers and available experiences are subject to change based on community availablity.
+Exhibiting makers and available experiences are subject to change based on community availability.
