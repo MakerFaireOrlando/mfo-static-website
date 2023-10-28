@@ -7,14 +7,15 @@ permalink: /exhibits/off-our-couch/
 exhibit-id: 23-74
 exhibit-zone: "Spirit - West"
 space-number: "SH6"
-description: "We plan to give away freebies while talking to guests about travel and our channel. "
-description-long: "We would like to encourage guests to sign up for our newsletter and offer them a chance to spin the wheel for a prize. We're planning to give out freebies such as stickers, keychains, water bottles, etc.  We plan to talk to guests about our channel and activities in and around Orlando.  We'll also be filming content of the event to post on our social media sites. "
+description: "Let's talk travel and fun in and around the Orlando area! "
+description-long: "Looking to get off the couch and find more fun things to do in Orlando and the surrounding areas?! So are we! Come by our exhibit to discuss travel and fun things to do as well as time and money-saving tips! Also pick up some cool stickers, pens, and other freebies as we talk about theme parks, water parks, beaches, state parks, and other fun things to do for a day, weekend, or longer stays in Orlando and all around! "
 image: /assets/images/exhibit-images/23-74-exhibit-off-our-couch-ooc-robot-stuff-02-large.png
 image-primary: 
   small: /assets/images/exhibit-images/23-74-exhibit-off-our-couch-ooc-robot-stuff-02-small.png
   medium: /assets/images/exhibit-images/23-74-exhibit-off-our-couch-ooc-robot-stuff-02-medium.png
   large: /assets/images/exhibit-images/23-74-exhibit-off-our-couch-ooc-robot-stuff-02-large.png
   full: /assets/images/exhibit-images/23-74-exhibit-off-our-couch-ooc-robot-stuff-02-full.png
+website: "www.offourcouch.com"
 maker: 
   name: "Off Our Couch "
   description: "We are content creators. Our family is focused on sharing our love of travel and adventure while providing time and money-saving tips to help others plan their trips.  We post on YouTube, Newsbreak, Facebook, Instagram, Medium, and our blog at www.offourcouch.com. "
@@ -29,8 +30,8 @@ categories:
   - slug: talk
     name: Talk
 created-jotform: "2023-08-25 22:53:16"
-last-modified-jotform: "2023-10-22 10:22:35"
-last-exported: "2023-10-22 10:30:12"
+last-modified-jotform: "2023-10-27 12:46:28"
+last-exported: "2023-10-27 21:23:50"
 sitemap: false
 
 ---
