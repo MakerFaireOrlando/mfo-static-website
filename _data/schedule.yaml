@@ -12,7 +12,7 @@
   date: 2023-11-04 10:30:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
-  
+
 - title: Knight Fights!
   description: Meet the Florida Armored Combat Club and see demos of armor and weaponry! Then stop back on Sunday for scheduled <a href="/exhibits/knight-fights/">Knight&nbsp;Fights</a> including Defend the Pumpkin, 2v2 / 3v3, and duels!
   location: Knight Fights Arena (Outdoor)
@@ -36,6 +36,14 @@
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
 
+- title: Musical Telsa Coil Show
+  location: Spirit Building
+  description: The High Voltage Guys will be creating music with a Telsa coil! Stay and play with all the high voltage devices!
+  date: 2023-11-04 11:30:00
+  enddate: 2023-11-04 11:40:00
+  image: /assets/images/exhibit-images/23-57-exhibit-the-high-voltage-guys-43-5629-7249-small.jpeg
+  url: /exhibits/the-high-voltage-guys/
+
 - title: Music Makers
   location: Maker Faire Stage
   description: Grab lunch and join us for some live music from <a href="/exhibits/earth-tones/">earth tones</a>!
@@ -48,6 +56,14 @@
   date: 2023-11-04 13:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
+
+- title: Musical Telsa Coil Show
+  location: Spirit Building
+  description: The High Voltage Guys will be creating music with a Telsa coil! Stay and play with all the high voltage devices!
+  date: 2023-11-04 13:30:00
+  enddate: 2023-11-04 13:40:00
+  image: /assets/images/exhibit-images/23-57-exhibit-the-high-voltage-guys-43-5629-7249-small.jpeg
+  url: /exhibits/the-high-voltage-guys/
 
 - title: Magic Wheelchair Builders Panel
   location: Maker Faire Stage
@@ -70,6 +86,14 @@
   date: 2023-11-04 13:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
+
+- title: Musical Telsa Coil Show
+  location: Spirit Building
+  description: The High Voltage Guys will be creating music with a Telsa coil! Stay and play with all the high voltage devices!
+  date: 2023-11-04 15:30:00
+  enddate: 2023-11-04 15:40:00
+  image: /assets/images/exhibit-images/23-57-exhibit-the-high-voltage-guys-43-5629-7249-small.jpeg
+  url: /exhibits/the-high-voltage-guys/
 
 - title: Nerd Nite Orlando
   location: Maker Faire Stage
@@ -129,6 +153,14 @@
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
 
+- title: Musical Telsa Coil Show
+  location: Spirit Building
+  description: The High Voltage Guys will be creating music with a Telsa coil! Stay and play with all the high voltage devices!
+  date: 2023-11-05 11:30:00
+  enddate: 2023-11-05 11:40:00
+  image: /assets/images/exhibit-images/23-57-exhibit-the-high-voltage-guys-43-5629-7249-small.jpeg
+  url: /exhibits/the-high-voltage-guys/
+
 - title: Music Makers
   location: Maker Faire Stage
   description: Grab lunch and join us for some live music from <a href="/exhibits/earth-tones/">earth tones</a>!
@@ -149,6 +181,14 @@
   enddate: 2023-11-05 13:30:00
   image: /assets/images/exhibit-images/23-134-exhibit-knight-fights-sam-and-gary-long-sword-zoom-small.jpg
   url: /exhibits/knight-fights/
+
+- title: Musical Telsa Coil Show
+  location: Spirit Building
+  description: The High Voltage Guys will be creating music with a Telsa coil! Stay and play with all the high voltage devices!
+  date: 2023-11-05 13:30:00
+  enddate: 2023-11-05 13:40:00
+  image: /assets/images/exhibit-images/23-57-exhibit-the-high-voltage-guys-43-5629-7249-small.jpeg
+  url: /exhibits/the-high-voltage-guys/
 
 - title: Assistive Technology Panel
   location: Maker Faire Stage
@@ -179,6 +219,14 @@
   enddate: 2023-11-05 15:30:00
   image: /assets/images/exhibit-images/23-134-exhibit-knight-fights-sam-and-gary-long-sword-zoom-small.jpg
   url: /exhibits/knight-fights/
+
+- title: Musical Telsa Coil Show
+  location: Spirit Building
+  description: The High Voltage Guys will be creating music with a Telsa coil! Stay and play with all the high voltage devices!
+  date: 2023-11-05 15:30:00
+  enddate: 2023-11-05 15:40:00
+  image: /assets/images/exhibit-images/23-57-exhibit-the-high-voltage-guys-43-5629-7249-small.jpeg
+  url: /exhibits/the-high-voltage-guys/
 
 - title: Giving Back through Art - The Artists behind Maker Faire Orlando
   location: Maker Faire Stage
