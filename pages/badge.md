@@ -5,7 +5,7 @@ permalink: /badge/
 ---
 
 # Quick Info
-Thanks for scanning that handy QR code on your badge! Your reward is this handy info to help you have a great time at Maker Faire Orlando!
+Thanks for participating at Maker Faire Orlando!
 
 ### Event Hours
 Maker Check-in and setup is from 10am to 8pm (exit by 8pm) on Friday, November 3.<br>
@@ -36,24 +36,23 @@ Check out the [full list of maker exhibits](/makers)! You can filter by category
 ### Event Schedule & Program
 
 Use the [Online Schedule](/schedule) for the most up-to-date schedule of talks, panels, races and more. <br>
+
 Check out the [Maker Faire Program](/program) for a map, schedule and more!
 
 ### Space Plans
-[Opportunity Building PDF Space Plan](/assets/pdf/2023/MFO23-OPPORTUNITY.pdf)- Space numbers starting with "O"
+[Opportunity Building PDF Space Plan](/assets/pdf/2023/MFO23-OPPORTUNITY.pdf) - Space numbers starting with "O"
 
-[Spirit Building PDF Space Plan](/assets/pdf/2023/MFO23-SPIRIT.pdf)- Space numbers starting with "S"
+[Spirit Building PDF Space Plan](/assets/pdf/2023/MFO23-SPIRIT.pdf) - Space numbers starting with "S"
 
-{%comment%}
-Use the event program including map and schedule to find exhibit zones, hands-on activities and times for Power Racing. Click the images below for a PDF version of the program.
+Don't know your space number? Find your exhibit on the [exhibits page](/makers), your space number is on that page below the exhibit description.
+
+### Need Help?
+Before the event, email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
+
+During the event, if you need help please locate the crew member assigned to your exhibit zone. They will be roaming in your zone throughout the event.
 
 
-[<a href="/assets/images/program/MFO_2022_Program.pdf"><img src="/assets/images/program/MFO_2022_Program_Page_1-web.jpg" alt="Maker Faire Orlando 2022 event program page 1" width="800" /></a>]
 
-<br>
-
-<a href="/assets/images/program/MFO_2022_Program.pdf"><img src="/assets/images/program/MFO_2022_Program_Page_2-web.jpg" alt="Maker Faire Orlando 2022 event program page 2" width="800" /></a>
-
-{%endcomment%}
 
 ---
 
