@@ -34,21 +34,33 @@ Hear from special guest makers on our Main Stage featuring innovators in the the
     </div>
     <div class="row">
         <div class="col-sm-4">
+          <a href="/schedule"><img src="/assets/images/stage/butler.jpg" style="max-width: 100%; padding:20px;"></a>
+        </div>
+        <div class="col-sm-4">
+          <a href="/schedule"><img src="/assets/images/stage/miga.jpg" style="max-width: 100%; padding:20px;"></a>
+        </div>
+        <div class="col-sm-4">
           <a href="/schedule"><img src="/assets/images/stage/caleb.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
+
+    </div>
+    <div class="row">
         <div class="col-sm-4">
           <a href="/schedule"><img src="/assets/images/stage/charles_thurston.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
           <a href="/schedule"><img src="/assets/images/stage/corrie.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
-    </div>
-    <div class="row">
         <div class="col-sm-4">
           <a href="/schedule"><img src="/assets/images/stage/earthtones.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
+    </div>
+    <div class="row">
         <div class="col-sm-4">
           <a href="/schedule"><img src="/assets/images/stage/fl_armored.jpg" style="max-width: 100%; padding:20px;"></a>
+        </div>
+        <div class="col-sm-4">
+          <a href="/schedule"><img src="/assets/images/stage/schac.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
           <a href="/schedule"><img src="/assets/images/stage/justin-peterson.jpg" style="max-width: 100%; padding:20px;"></a>
@@ -67,7 +79,7 @@ Hear from special guest makers on our Main Stage featuring innovators in the the
     </div>
     <div class="row">
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/schac.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule"><img src="/assets/images/stage/harkless.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
           <a href="/schedule"><img src="/assets/images/stage/stefan.jpg" style="max-width: 100%; padding:20px;"></a>

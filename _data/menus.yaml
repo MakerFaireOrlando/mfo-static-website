@@ -11,6 +11,8 @@ topnav:
     subfolderitems:
       - page: Makers & Exhibits
         url: /makers/
+      - page: Stage Panels, Talks & Performances
+        url: /stage/
       - page: Event Schedule
         url: /schedule/
       - page: Hands-On Workshops
