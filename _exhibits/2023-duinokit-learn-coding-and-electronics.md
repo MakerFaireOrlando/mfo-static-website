@@ -6,7 +6,7 @@ slug: duinokit-learn-coding-and-electronics
 permalink: /exhibits/duinokit-learn-coding-and-electronics/
 exhibit-id: 23-190
 exhibit-zone: "Opportunity"
-space-number: "OG8"
+space-number: "OD22"
 description: "Arduino-based learning kit for coding and electronics."
 description-long: "Learn about how coding and electronics are used to create electronic gadgets and inventions."
 image: /assets/images/exhibit-images/23-190-exhibit-duinokit-learn-coding-and-electronics-avatar-kit-large.jpg
@@ -39,8 +39,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2023-10-12 22:08:39"
-last-modified-jotform: "2023-10-21 14:15:39"
-last-exported: "2023-10-21 14:18:36"
+last-modified-jotform: "2023-10-28 14:47:27"
+last-exported: "2023-10-28 14:47:40"
 sitemap: false
 
 ---

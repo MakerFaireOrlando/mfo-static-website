@@ -6,7 +6,7 @@ slug: extinguisher
 permalink: /exhibits/extinguisher/
 exhibit-id: 23-180
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: "SH26"
+space-number: "SF13"
 description: "A robot that fought on the tv show Battlebots"
 description-long: "A robot that fought on the tv show Battlebots"
 image: /assets/images/exhibit-images/23-180-exhibit-extinguisher-oip-large.jpg
@@ -26,8 +26,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2023-10-09 23:25:29"
-last-modified-jotform: "2023-10-14 14:10:56"
-last-exported: "2023-10-14 15:17:05"
+last-modified-jotform: "2023-10-28 14:38:51"
+last-exported: "2023-10-28 14:41:01"
 sitemap: false
 
 ---

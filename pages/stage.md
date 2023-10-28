@@ -1,5 +1,5 @@
 ---
-title: Stage Talks & Panels at Maker Faire Orlando
+title: Stage Talks, Panels & Performances at Maker Faire Orlando
 layout: default
 permalink: /stage/
 image: /assets/images/stage/stage-header-MFO23.jpg
@@ -88,3 +88,7 @@ Hear from special guest makers on our Main Stage featuring innovators in the the
         </div>
     </div>
 </div>
+
+---
+
+Stage talks, panels and performances are subject to change based on availability of special guests.

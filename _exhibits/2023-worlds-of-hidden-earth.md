@@ -6,7 +6,7 @@ slug: worlds-of-hidden-earth
 permalink: /exhibits/worlds-of-hidden-earth/
 exhibit-id: 23-135
 exhibit-zone: "Spirit - East"
-space-number: "SJ31"
+space-number: "SH27"
 description: "Award-Winning Makers of Steampunk Art ~ Steamunk Weaponry ~ Fantastical AI ~ High Fantasy Adventures"
 description-long: "Welcome to the Worlds of Hidden Earth! From the fantastical imaginations of Don and Janet, creative makers since the 1980s, comes a universe of new worlds chock full of treasures, surprises, and discoveries! You'll definitely want to add their exhibit to your must-see list! Feast your eyes on their amazing Award-winning Steampunk Artistry including 3D Steampunk Weaponry and Steampunk Armor, AI Fantasy Graphics all of which are emcompassed into their Epic High Fantasy Series: Worlds of Hidden Earth. Meet the amazing makers, Don and Janet, to get their autographs and/or take photos. From the Worlds of Hidden Earth Series prepare to meet n' greet - take photos - and get autographs from the author, Janet Beasley, the main character Iona the warrior queen, her sidekick Wiskee, and Sir Bwana from Book 7 Planet Fire. Balthazar's (award-winning) warrior armor will be on display too - another creative piece and character (an automaton, hand crafted by Don and Janet) from Book 7 Planet Fire! Don and Janet have collectively combined all of their award-winning talents as makers into a fantasical realm you have to experience to believe!    "
 image: /assets/images/exhibit-images/23-135-exhibit-worlds-of-hidden-earth-banner-steampunk-wohe-large.jpg
@@ -85,8 +85,8 @@ categories:
   - slug: writing-and-publishing
     name: Writing and Publishing
 created-jotform: "2023-09-09 12:28:19"
-last-modified-jotform: "2023-10-22 10:20:48"
-last-exported: "2023-10-22 10:30:11"
+last-modified-jotform: "2023-10-28 14:32:17"
+last-exported: "2023-10-28 14:41:02"
 sitemap: false
 
 ---

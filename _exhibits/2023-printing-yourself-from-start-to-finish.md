@@ -6,7 +6,7 @@ slug: printing-yourself-from-start-to-finish
 permalink: /exhibits/printing-yourself-from-start-to-finish/
 exhibit-id: 23-120
 exhibit-zone: "Opportunity"
-space-number: "OE12"
+space-number: "OG8"
 description: "We will show the process of recycling/reusing materials. Scanning and printing people. "
 description-long: "We will be using the 3Devo filament extruder to show how to recycle different types of plastics into a usable filament. Then a scanner to scan objects like people. Then a 3D printer using filaments to print."
 image: /assets/images/exhibit-images/23-120-exhibit-printing-yourself-from-start-to-finish-img-6170-large.jpeg
@@ -39,8 +39,8 @@ categories:
   - slug: education
     name: Education
 created-jotform: "2023-09-01 21:45:02"
-last-modified-jotform: "2023-10-13 22:32:33"
-last-exported: "2023-10-14 08:56:09"
+last-modified-jotform: "2023-10-28 15:02:38"
+last-exported: "2023-10-28 15:06:41"
 sitemap: false
 
 ---

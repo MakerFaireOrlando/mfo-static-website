@@ -5,7 +5,8 @@ title: "Matthew Sutton Art"
 slug: matthew-sutton-art
 permalink: /exhibits/matthew-sutton-art/
 exhibit-id: 23-141
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OE19"
 description: "Matthew is a professional Illustrator, card and comic cover artist! "
 description-long: "This exhibit is where any upcoming artists can come meet a working professional in the art field! Matthew enjoyed demystifying art and how it's created especially for young artists. Matthew will have a lot of his work available as well as be actively drawing LIVE!"
 image: /assets/images/exhibit-images/23-141-exhibit-matthew-sutton-art-43-20230902-145203-1788-large.jpg
@@ -30,8 +31,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2023-09-14 10:41:07"
-last-modified-jotform: "2023-10-27 22:03:03"
-last-exported: "2023-10-27 22:16:34"
+last-modified-jotform: "2023-10-28 14:43:24"
+last-exported: "2023-10-28 14:47:41"
 sitemap: false
 
 ---

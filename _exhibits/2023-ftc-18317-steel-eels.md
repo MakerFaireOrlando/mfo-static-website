@@ -5,7 +5,7 @@ title: "FTC 18317: Steel Eels"
 slug: ftc-18317-steel-eels
 permalink: /exhibits/ftc-18317-steel-eels/
 exhibit-id: 23-201
-exhibit-zone: "Opportunity"
+exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "High-school robotics team demoing their season robot and engaging with event attendees."
 description-long: "Students on FIRST Technical Challenge 18317 will be demonstrating their robot based on the 2023 - 2024 FIRST Season Game Centerstage."
@@ -28,8 +28,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-10-21 11:52:33"
-last-modified-jotform: "2023-10-23 17:07:52"
-last-exported: "2023-10-23 17:50:50"
+last-modified-jotform: "2023-10-28 14:58:02"
+last-exported: "2023-10-28 15:06:01"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: nerdy-derby
 permalink: /exhibits/nerdy-derby/
 exhibit-id: 23-212
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA1, OB1, OA2, OA3, OA4, OA5"
 description: "A hands-on activity where you decorate and keep a wooden car to race down a track. "
 description-long: "Nerdy Derby is a hands-on activity that invites you to decorate a small wood car and then race it down one of our tracks. The kids add weights use hot glue to make their cars looks awesome. A $5 workshop fee applies."
 image: /assets/images/exhibit-images/23-212-exhibit-nerdy-derby-img-0913-large.jpeg
@@ -38,8 +38,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-10-25 13:17:27"
-last-modified-jotform: "2023-10-27 07:33:16"
-last-exported: "2023-10-27 21:23:36"
+last-modified-jotform: "2023-10-28 14:49:55"
+last-exported: "2023-10-28 14:50:09"
 sitemap: false
 
 ---
