@@ -38,6 +38,11 @@ Check out the [full list of maker exhibits](/makers)! You can filter by category
 Use the [Online Schedule](/schedule) for the most up-to-date schedule of talks, panels, races and more. <br>
 Check out the [Maker Faire Program](/program) for a map, schedule and more!
 
+### Space Plans
+[Opportunity Building PDF Space Plan](/assets/pdf/2023/MFO23-OPPORTUNITY.pdf)- Space numbers starting with "O"
+
+[Spirit Building PDF Space Plan](/assets/pdf/2023/MFO23-SPIRIT.pdf)- Space numbers starting with "S"
+
 {%comment%}
 Use the event program including map and schedule to find exhibit zones, hands-on activities and times for Power Racing. Click the images below for a PDF version of the program.
 
