@@ -33,15 +33,17 @@ Explore more than [250 Exhibits and Hands-on Activities](/makers) to find your f
 
 Check out the Maker Faire [Schedule](/schedule) and [Program](/program) to plan your weekend!
 
+Don't Miss the Talks, Panels & Performances on the [Main Stage](/stage)!
+<a href="/stage"><img src="/assets/images/stage/stage-header-MFO23.jpg" style="max-width: 100%;"></a>
 
 ---
 
 ## Win a Professional 3D Printer or a Color Printing Laser Cutter!
 Every ticket purchased online for Maker Faire Orlando **by November 3rd, 2022**, is an entry to win a [DeltaMaker 3D Printer](https://www.deltamaker.com/products/deltamaker-2?variant=5444235649) or a [Flux Ador Color Printing Laser Cutter]((https://flux3dp.com/ador/))!*
 
-[![3D Printer giveaway](/assets/images/giveaway/deltamaker-giveaway.jpg)](https://www.deltamaker.com/products/deltamaker-2?variant=5444235649)
+<a href="https://www.deltamaker.com/products/deltamaker-2?variant=5444235649"><img src="/assets/images/giveaway/deltamaker-giveaway.jpg" style="max-width: 100%;" alt="3D Printer Giveaway"></a>
 
-[![Color Printing Laser Cutter giveaway](/assets/images/giveaway/flux_adore_MFO23.jpg)](https://flux3dp.com/ador/)
+<a href="https://flux3dp.com/ador/"><img src="/assets/images/giveaway/flux_adore_MFO23.jpg" style="max-width: 100%; " alt="Color Printing Laser Cutter giveaway"></a>
 
 ---
 
