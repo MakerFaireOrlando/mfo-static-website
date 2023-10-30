@@ -426,6 +426,9 @@ def export(outputAll):
             outfile.write("permalink: /exhibits/" + slug + "/\n")
             outfile.write("exhibit-id: " + mfoID + "\n")
 
+            if (isRuckus):
+                outfile.write("combat-robot: true\n")
+
             if exhibitZone is not None:
               outfile.write("exhibit-zone: " + '"' + exhibitZone + '"' + "\n")
 
