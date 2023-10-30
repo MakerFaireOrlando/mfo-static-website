@@ -5,6 +5,7 @@ title: "Tarragon"
 slug: tarragon
 permalink: /exhibits/tarragon/
 exhibit-id: 22R-17
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Tarragon, 3lbs fighting robot. "
@@ -25,7 +26,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-09 16:42:02"
 last-modified-jotform: "2023-10-07 11:17:49"
-last-exported: "2023-10-07 13:34:21"
+last-exported: "2023-10-30 08:10:37"
 sitemap: false
 
 ---

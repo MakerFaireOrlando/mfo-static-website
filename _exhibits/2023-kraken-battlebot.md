@@ -5,6 +5,7 @@ title: "Kraken BattleBot"
 slug: kraken-battlebot
 permalink: /exhibits/kraken-battlebot/
 exhibit-id: 23R-47
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Kraken from the SMASH HIT TV show BattleBots"
@@ -28,7 +29,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-21 19:08:23"
 last-modified-jotform: "2023-09-22 05:57:04"
-last-exported: "2023-09-22 05:57:15"
+last-exported: "2023-10-30 08:10:29"
 sitemap: false
 
 ---

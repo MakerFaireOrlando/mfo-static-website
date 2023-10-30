@@ -5,6 +5,7 @@ title: "Gallow's Humor"
 slug: gallows-humor
 permalink: /exhibits/gallows-humor/
 exhibit-id: 23R-62
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Gallow's Humor is a 12lb shuffling horizontal spinner. "
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-28 17:52:25"
 last-modified-jotform: "2023-10-07 16:04:44"
-last-exported: "2023-10-07 16:06:43"
+last-exported: "2023-10-30 08:10:28"
 sitemap: false
 
 ---

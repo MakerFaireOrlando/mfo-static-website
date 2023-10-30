@@ -5,6 +5,7 @@ title: "SMASH"
 slug: smash
 permalink: /exhibits/smash/
 exhibit-id: 23R-41
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "N/A"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-20 09:03:56"
 last-modified-jotform: "2023-09-29 17:39:29"
-last-exported: "2023-09-30 16:47:45"
+last-exported: "2023-10-30 08:10:30"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Cybershock & Doomzday"
 slug: cybershock-doomzday
 permalink: /exhibits/cybershock-doomzday/
 exhibit-id: 23R-44
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "3lb. Combat Robot with Beater Bar & 1lb. Combat Robot with a Titanium Wedge"
@@ -30,7 +31,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-21 09:40:30"
 last-modified-jotform: "2023-09-28 22:16:33"
-last-exported: "2023-09-28 23:05:03"
+last-exported: "2023-10-30 08:10:30"
 sitemap: false
 
 ---

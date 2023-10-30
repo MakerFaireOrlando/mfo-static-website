@@ -5,6 +5,7 @@ title: "Liftington Mcgee"
 slug: liftington-mcgee
 permalink: /exhibits/liftington-mcgee/
 exhibit-id: 22R-14
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Liftington McGee : (lift-ing-ton)
@@ -57,7 +58,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-04 18:32:23"
 last-modified-jotform: "2023-09-10 13:05:54"
-last-exported: "2023-09-12 19:33:19"
+last-exported: "2023-10-30 08:10:44"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Skylift"
 slug: skylift
 permalink: /exhibits/skylift/
 exhibit-id: 22R-15
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Antweight Flipper"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-07 19:21:11"
 last-modified-jotform: "2023-09-10 11:40:56"
-last-exported: "2023-09-10 11:43:52"
+last-exported: "2023-10-30 08:10:37"
 sitemap: false
 
 ---

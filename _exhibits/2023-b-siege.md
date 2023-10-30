@@ -5,6 +5,7 @@ title: "B-Siege"
 slug: b-siege
 permalink: /exhibits/b-siege/
 exhibit-id: 23R-81
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Battlebots robot meant to attack other robots."
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-10-16 12:23:19"
 last-modified-jotform: "2023-10-18 15:16:30"
-last-exported: "2023-10-18 15:20:05"
+last-exported: "2023-10-30 08:10:25"
 sitemap: false
 
 ---

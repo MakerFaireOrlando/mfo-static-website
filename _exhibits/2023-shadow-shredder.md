@@ -5,6 +5,7 @@ title: "Shadow Shredder"
 slug: shadow-shredder
 permalink: /exhibits/shadow-shredder/
 exhibit-id: 23R-37
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Shadow Shredder and Kwik Kerfuffle are our current bots. "
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-19 11:50:08"
 last-modified-jotform: "2023-09-22 05:56:37"
-last-exported: "2023-09-22 05:57:15"
+last-exported: "2023-10-30 08:10:30"
 sitemap: false
 
 ---

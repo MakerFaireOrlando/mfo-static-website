@@ -5,6 +5,7 @@ title: "Atropos"
 slug: atropos
 permalink: /exhibits/atropos/
 exhibit-id: 23R-76
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "A compact plastic vertical spinner robot designed for speed. "
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-10-06 13:09:48"
 last-modified-jotform: "2023-10-13 06:48:56"
-last-exported: "2023-10-13 06:54:53"
+last-exported: "2023-10-30 08:10:25"
 sitemap: false
 
 ---

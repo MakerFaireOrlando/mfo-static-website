@@ -5,6 +5,7 @@ title: "Walked Into A Bar"
 slug: walked-into-a-bar
 permalink: /exhibits/walked-into-a-bar/
 exhibit-id: 22R-19
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Plastic ant Thwackbot"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-10 10:13:34"
 last-modified-jotform: "2023-09-20 06:15:59"
-last-exported: "2023-09-20 07:13:46"
+last-exported: "2023-10-30 08:10:37"
 sitemap: false
 
 ---

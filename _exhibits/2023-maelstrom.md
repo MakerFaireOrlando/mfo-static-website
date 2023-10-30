@@ -5,6 +5,7 @@ title: "Maelstrom"
 slug: maelstrom
 permalink: /exhibits/maelstrom/
 exhibit-id: 23R-31
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "A new 30lb sportsman class robot that is designed to suplex its opponents!"
@@ -25,7 +26,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-18 21:42:12"
 last-modified-jotform: "2023-10-16 22:00:34"
-last-exported: "2023-10-16 22:13:45"
+last-exported: "2023-10-30 08:10:36"
 sitemap: false
 
 ---

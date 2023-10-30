@@ -5,6 +5,7 @@ title: "Slam Hawg"
 slug: slam-hawg
 permalink: /exhibits/slam-hawg/
 exhibit-id: 23R-39
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Slam Hawg is a Beetle weight combat robot from Melbourne, FL. "
@@ -27,7 +28,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-19 20:10:04"
 last-modified-jotform: "2023-09-23 09:44:13"
-last-exported: "2023-09-24 14:23:15"
+last-exported: "2023-10-30 08:10:30"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Viper King"
 slug: viper-king
 permalink: /exhibits/viper-king/
 exhibit-id: 22R-9
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "1 lb. vertical spinner"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-03 16:39:18"
 last-modified-jotform: "2023-09-11 18:47:46"
-last-exported: "2023-09-12 19:33:19"
+last-exported: "2023-10-30 08:10:44"
 sitemap: false
 
 ---

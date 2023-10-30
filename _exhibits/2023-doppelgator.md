@@ -5,6 +5,7 @@ title: "Doppelgator"
 slug: doppelgator
 permalink: /exhibits/doppelgator/
 exhibit-id: 23R-54
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Two Beater bar 4wd vert"
@@ -25,7 +26,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-25 23:15:35"
 last-modified-jotform: "2023-10-07 11:17:46"
-last-exported: "2023-10-07 13:34:21"
+last-exported: "2023-10-30 08:10:29"
 sitemap: false
 
 ---

@@ -8,7 +8,7 @@ exhibit-id: 23-206
 exhibit-zone: "Outside"
 space-number: Unassigned
 description: "ICEBREAKR is the socially awkward-less board game, equipped with 45 mini-games that break the ice!"
-description-long: "ICEBREAKR is a social game that indirectly allows players to bond and converse over infinite topics in fun and interesting ways. The 45 mini-games consist of 4 types of games: Choice, Snap, Challenge and 3-N-Out games. These games are intended to be quick and fun, but also to create open-ended conversations as players progress through the board!"
+description-long: "ICEBREAKR is the socially awkward-less board game, equipped with 45 mini-games that break the ice! These 45 mini-games consist of 4 types of games: Choice, Snap, Challenge and 3-N-Out games, with each intended to be quick and fun, open-ended conversation starters as players progress through the board!"
 image: /assets/images/exhibit-images/23-206-exhibit-icebreakr-icebreakr-qr-cup-001-large.jpeg
 image-primary: 
   small: /assets/images/exhibit-images/23-206-exhibit-icebreakr-icebreakr-qr-cup-001-small.jpeg
@@ -69,18 +69,19 @@ additional-images:
 website: "www.marcmade.com/icebreakr"
 maker: 
   name: "Marcus Herndon"
-  description: "Dr. Marcus Herndon is a scientist, rapper and entrepreneur! He received is doctorates in Mechanical Engineering and works for The MITRE Corporation. In his free time, he is a musician by name of MARC.MADE & created the board game ICEBREAKR!"
+  description: "Dr. Marcus Herndon is a scientist, rapper and entrepreneur! He received is doctorates in Mechanical Engineering and works for The MITRE Corporation. In his free time, he is a musician by the name of MARC.MADE & creator of the board game ICEBREAKR!"
   image-primary: /assets/images/exhibit-images/23-206-maker-icebreakr-choosin-interaction-social-003-medium.jpeg
   website: https://www.marcmade.com/icebreakr
   instagram: https://www.instagram.com/icebreakr.game/
+  youtube: https://www.youtube.com/@MARCMADE1?si=S68pX4acRhosvITX
 categories: 
   - slug: gaming
     name: Gaming
   - slug: indie-gaming
     name: Indie Gaming
 created-jotform: "2023-10-23 12:26:44"
-last-modified-jotform: "2023-10-28 14:20:41"
-last-exported: "2023-10-28 14:41:01"
+last-modified-jotform: "2023-10-28 22:15:00"
+last-exported: "2023-10-30 08:11:00"
 sitemap: false
 
 ---

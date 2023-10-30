@@ -5,6 +5,7 @@ title: "Mondo Bizarro"
 slug: mondo-bizarro
 permalink: /exhibits/mondo-bizarro/
 exhibit-id: 23R-32
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Mondo Bizarro is a 3-pound beetleweight drum spinner."
@@ -53,7 +54,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-18 23:35:08"
 last-modified-jotform: "2023-09-23 22:32:18"
-last-exported: "2023-09-24 14:23:18"
+last-exported: "2023-10-30 08:10:36"
 sitemap: false
 
 ---

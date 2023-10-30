@@ -5,6 +5,7 @@ title: "Wascally Wabbit"
 slug: wascally-wabbit
 permalink: /exhibits/wascally-wabbit/
 exhibit-id: 22R-26
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Beater bar robot"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-18 17:28:03"
 last-modified-jotform: "2023-09-23 09:44:17"
-last-exported: "2023-09-24 14:23:18"
+last-exported: "2023-10-30 08:10:36"
 sitemap: false
 
 ---

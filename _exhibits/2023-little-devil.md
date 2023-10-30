@@ -5,6 +5,7 @@ title: "Little Devil"
 slug: little-devil
 permalink: /exhibits/little-devil/
 exhibit-id: 23R-75
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Ant weight flipper robot."
@@ -23,8 +24,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2023-10-06 00:25:46"
-last-modified-jotform: "2023-10-13 06:48:57"
-last-exported: "2023-10-13 06:54:55"
+last-modified-jotform: "2023-10-29 11:51:56"
+last-exported: "2023-10-30 08:10:25"
 sitemap: false
 
 ---

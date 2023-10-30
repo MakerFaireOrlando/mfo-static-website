@@ -5,6 +5,7 @@ title: "Flip slayer"
 slug: flip-slayer
 permalink: /exhibits/flip-slayer/
 exhibit-id: 23R-64
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Flip slayer "
@@ -30,7 +31,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-10-02 21:32:14"
 last-modified-jotform: "2023-10-22 15:19:26"
-last-exported: "2023-10-22 17:43:59"
+last-exported: "2023-10-30 08:10:28"
 sitemap: false
 
 ---

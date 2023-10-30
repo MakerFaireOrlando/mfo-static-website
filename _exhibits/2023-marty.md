@@ -5,6 +5,7 @@ title: "Marty"
 slug: marty
 permalink: /exhibits/marty/
 exhibit-id: 23R-67
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "30 Pound Sportsman Combat Robot"
@@ -26,7 +27,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-10-02 22:24:58"
 last-modified-jotform: "2023-10-20 19:48:28"
-last-exported: "2023-10-21 11:39:30"
+last-exported: "2023-10-30 08:10:28"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Butter side down"
 slug: butter-side-down
 permalink: /exhibits/butter-side-down/
 exhibit-id: 23R-28
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Spinny Doom "
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-18 20:43:18"
 last-modified-jotform: "2023-09-23 09:44:17"
-last-exported: "2023-09-24 14:23:18"
+last-exported: "2023-10-30 08:10:36"
 sitemap: false
 
 ---

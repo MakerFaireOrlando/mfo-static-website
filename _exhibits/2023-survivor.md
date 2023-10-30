@@ -5,6 +5,7 @@ title: "Survivor"
 slug: survivor
 permalink: /exhibits/survivor/
 exhibit-id: 22R-11
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "DOOM!"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-04 06:39:33"
 last-modified-jotform: "2023-09-15 06:17:52"
-last-exported: "2023-09-16 16:02:09"
+last-exported: "2023-10-30 08:10:44"
 sitemap: false
 
 ---

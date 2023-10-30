@@ -5,6 +5,7 @@ title: "Mechanical Advantage"
 slug: mechanical-advantage
 permalink: /exhibits/mechanical-advantage/
 exhibit-id: 23R-55
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "4 wheel drive beater"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-25 23:17:47"
 last-modified-jotform: "2023-09-26 21:30:49"
-last-exported: "2023-09-28 22:16:04"
+last-exported: "2023-10-30 08:10:29"
 sitemap: false
 
 ---

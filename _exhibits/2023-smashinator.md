@@ -5,6 +5,7 @@ title: "Smashinator"
 slug: smashinator
 permalink: /exhibits/smashinator/
 exhibit-id: 23R-60
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Smashinator, aka Perry the Smashypus, is an antweight combat robot. "
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-27 17:37:39"
 last-modified-jotform: "2023-10-19 07:10:10"
-last-exported: "2023-10-19 07:10:22"
+last-exported: "2023-10-30 08:10:28"
 sitemap: false
 
 ---

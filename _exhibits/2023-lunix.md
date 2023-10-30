@@ -5,6 +5,7 @@ title: "Lunix"
 slug: lunix
 permalink: /exhibits/lunix/
 exhibit-id: 23R-63
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "1 pound vertical spinner combat robot"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-30 15:04:31"
 last-modified-jotform: "2023-10-18 07:22:53"
-last-exported: "2023-10-18 15:04:55"
+last-exported: "2023-10-30 08:10:28"
 sitemap: false
 
 ---

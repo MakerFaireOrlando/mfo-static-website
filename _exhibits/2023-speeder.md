@@ -5,6 +5,7 @@ title: "Speeder"
 slug: speeder
 permalink: /exhibits/speeder/
 exhibit-id: 23R-29
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Antweight lifter"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-18 20:47:45"
 last-modified-jotform: "2023-10-01 11:56:09"
-last-exported: "2023-10-01 15:26:35"
+last-exported: "2023-10-30 08:10:36"
 sitemap: false
 
 ---

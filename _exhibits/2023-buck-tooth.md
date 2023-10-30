@@ -5,6 +5,7 @@ title: "Buck Tooth"
 slug: buck-tooth
 permalink: /exhibits/buck-tooth/
 exhibit-id: 23R-77
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "1lbs Plastic Ant Weight
@@ -26,7 +27,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-10-08 19:46:23"
 last-modified-jotform: "2023-10-13 17:25:35"
-last-exported: "2023-10-14 08:55:07"
+last-exported: "2023-10-30 08:10:25"
 sitemap: false
 
 ---

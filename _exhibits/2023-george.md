@@ -5,6 +5,7 @@ title: "George"
 slug: george
 permalink: /exhibits/george/
 exhibit-id: 23R-71
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "1lb battle bot with a horizontal spinner"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-10-03 19:38:12"
 last-modified-jotform: "2023-10-08 09:31:45"
-last-exported: "2023-10-08 13:16:49"
+last-exported: "2023-10-30 08:10:28"
 sitemap: false
 
 ---

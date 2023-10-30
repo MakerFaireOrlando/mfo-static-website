@@ -5,6 +5,7 @@ title: "DinoSore"
 slug: dinosore
 permalink: /exhibits/dinosore/
 exhibit-id: 23R-38
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "1lb vertical spinner robot."
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-19 19:54:23"
 last-modified-jotform: "2023-09-24 09:04:58"
-last-exported: "2023-09-24 14:23:15"
+last-exported: "2023-10-30 08:10:30"
 sitemap: false
 
 ---

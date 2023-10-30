@@ -5,6 +5,7 @@ title: "Insomnia"
 slug: insomnia
 permalink: /exhibits/insomnia/
 exhibit-id: 22R-23
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Big vertical spinner go brrrrrrrrrr."
@@ -27,7 +28,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-14 15:42:25"
 last-modified-jotform: "2023-09-21 22:27:59"
-last-exported: "2023-09-21 22:38:04"
+last-exported: "2023-10-30 08:10:36"
 sitemap: false
 
 ---

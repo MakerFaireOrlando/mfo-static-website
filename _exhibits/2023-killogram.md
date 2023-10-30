@@ -5,6 +5,7 @@ title: "Killogram"
 slug: killogram
 permalink: /exhibits/killogram/
 exhibit-id: 22R-20
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Antweight robot"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-11 19:24:52"
 last-modified-jotform: "2023-09-28 07:50:15"
-last-exported: "2023-09-28 22:16:11"
+last-exported: "2023-10-30 08:10:37"
 sitemap: false
 
 ---

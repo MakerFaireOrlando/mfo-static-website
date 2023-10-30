@@ -5,6 +5,7 @@ title: "The Cat's Claw and Rhino Flipper"
 slug: the-cats-claw-and-rhino-flipper
 permalink: /exhibits/the-cats-claw-and-rhino-flipper/
 exhibit-id: 23R-33
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "These are 2 vertical spinner plastic ants"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-19 00:23:06"
 last-modified-jotform: "2023-09-26 21:31:37"
-last-exported: "2023-09-28 22:16:11"
+last-exported: "2023-10-30 08:10:33"
 sitemap: false
 
 ---

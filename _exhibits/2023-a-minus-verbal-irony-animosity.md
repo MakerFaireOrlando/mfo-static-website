@@ -5,6 +5,7 @@ title: "A-Minus, Verbal Irony, Animosity"
 slug: a-minus-verbal-irony-animosity
 permalink: /exhibits/a-minus-verbal-irony-animosity/
 exhibit-id: 23R-68
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Competing since 2001."
@@ -40,7 +41,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-10-03 09:41:25"
 last-modified-jotform: "2023-10-13 17:25:36"
-last-exported: "2023-10-14 08:55:09"
+last-exported: "2023-10-30 08:10:28"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Dudley / Lil Bolt / Blu-82"
 slug: dudley-lil-bolt-blu-82
 permalink: /exhibits/dudley-lil-bolt-blu-82/
 exhibit-id: 23R-42
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Fighting Robots"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-20 18:18:30"
 last-modified-jotform: "2023-09-21 22:29:39"
-last-exported: "2023-09-21 22:31:06"
+last-exported: "2023-10-30 08:10:30"
 sitemap: false
 
 ---

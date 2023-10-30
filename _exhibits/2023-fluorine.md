@@ -5,6 +5,7 @@ title: "Fluorine"
 slug: fluorine
 permalink: /exhibits/fluorine/
 exhibit-id: 22R-5
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "A horizontal spinner with a lot of character, color and chaos."
@@ -49,7 +50,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-03 15:07:17"
 last-modified-jotform: "2023-09-12 19:33:55"
-last-exported: "2023-09-12 19:34:13"
+last-exported: "2023-10-30 08:10:56"
 sitemap: false
 
 ---

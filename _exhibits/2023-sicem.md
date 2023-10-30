@@ -5,6 +5,7 @@ title: "Sic’em"
 slug: sicem
 permalink: /exhibits/sicem/
 exhibit-id: 22R-13
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Vertical spinner 1lb Ant Robot 
@@ -32,7 +33,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-04 13:18:12"
 last-modified-jotform: "2023-09-10 12:01:05"
-last-exported: "2023-09-12 19:33:19"
+last-exported: "2023-10-30 08:10:44"
 sitemap: false
 
 ---

@@ -35,7 +35,11 @@
 
       <p><b>Exhibit Zone:</b> {{page.exhibit-zone}}</p>
 
-      <p><b>Exhibit Space:</b> {{page.space-number}} {% if page.space-number != "Unassigned" %}(Subject to Change){%endif%}</p>
+      {% if page.combat-robot == true %}
+        <p><b>Exhibit Space:</b> Combat Robot Pits</p>
+      {% else %}
+        <p><b>Exhibit Space:</b> {{page.space-number}} {% if page.space-number != "Unassigned" %}(Subject to Change){%endif%}</p>
+      {% endif %}
 
       <p><b>Exhibit Number:</b> {{page.exhibit-id}}</p>
 

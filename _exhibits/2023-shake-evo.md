@@ -5,6 +5,7 @@ title: "Shake EVO"
 slug: shake-evo
 permalink: /exhibits/shake-evo/
 exhibit-id: 23R-78
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "A 12lb 4wd control bot with a front hinged flipper."
@@ -35,7 +36,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-10-09 00:23:37"
 last-modified-jotform: "2023-10-13 17:25:35"
-last-exported: "2023-10-14 08:55:07"
+last-exported: "2023-10-30 08:10:25"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Peppermint"
 slug: peppermint
 permalink: /exhibits/peppermint/
 exhibit-id: 22R-24
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "A 4-bar beetleweight lifter/flipper combat robot."
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-15 15:40:28"
 last-modified-jotform: "2023-10-07 11:17:48"
-last-exported: "2023-10-07 13:34:21"
+last-exported: "2023-10-30 08:10:36"
 sitemap: false
 
 ---

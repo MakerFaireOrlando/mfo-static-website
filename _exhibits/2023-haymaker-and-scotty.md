@@ -5,6 +5,7 @@ title: "Haymaker and Scotty"
 slug: haymaker-and-scotty
 permalink: /exhibits/haymaker-and-scotty/
 exhibit-id: 23R-45
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Haymaker is a full combat antweight and Scotty is a plastic antweight combat robot"
@@ -30,7 +31,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-21 10:54:43"
 last-modified-jotform: "2023-09-26 21:31:35"
-last-exported: "2023-09-28 22:16:11"
+last-exported: "2023-10-30 08:10:29"
 sitemap: false
 
 ---

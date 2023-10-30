@@ -5,6 +5,7 @@ title: "Rogers Robotics"
 slug: rogers-robotics
 permalink: /exhibits/rogers-robotics/
 exhibit-id: 22R-8
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Robot fighting team and home of the DropKick Dojo robot fighting school and arena."
@@ -39,7 +40,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-03 16:15:03"
 last-modified-jotform: "2023-09-10 11:48:32"
-last-exported: "2023-09-12 19:33:19"
+last-exported: "2023-10-30 08:10:48"
 sitemap: false
 
 ---

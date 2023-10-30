@@ -5,6 +5,7 @@ title: "HyperFixation and Rusty"
 slug: hyperfixation-and-rusty
 permalink: /exhibits/hyperfixation-and-rusty/
 exhibit-id: 23R-72
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Combat robots"
@@ -30,7 +31,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-10-05 00:01:51"
 last-modified-jotform: "2023-10-08 09:31:45"
-last-exported: "2023-10-08 13:16:49"
+last-exported: "2023-10-30 08:10:28"
 sitemap: false
 
 ---

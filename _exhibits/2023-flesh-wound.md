@@ -5,6 +5,7 @@ title: "Flesh Wound"
 slug: flesh-wound
 permalink: /exhibits/flesh-wound/
 exhibit-id: 22R-10
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "3lb Beetlebot"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-03 22:29:57"
 last-modified-jotform: "2023-09-10 11:56:21"
-last-exported: "2023-09-12 19:33:19"
+last-exported: "2023-10-30 08:10:44"
 sitemap: false
 
 ---

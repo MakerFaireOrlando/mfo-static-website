@@ -5,6 +5,7 @@ title: "Derecho"
 slug: derecho
 permalink: /exhibits/derecho/
 exhibit-id: 23R-73
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "3lb beetleweight combat robot."
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-10-05 19:56:17"
 last-modified-jotform: "2023-10-22 17:43:45"
-last-exported: "2023-10-22 17:43:58"
+last-exported: "2023-10-30 08:10:25"
 sitemap: false
 
 ---

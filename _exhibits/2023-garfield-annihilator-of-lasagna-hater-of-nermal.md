@@ -5,6 +5,7 @@ title: "Garfield: Annihilator of Lasagna, Hater of Nermal"
 slug: garfield-annihilator-of-lasagna-hater-of-nermal
 permalink: /exhibits/garfield-annihilator-of-lasagna-hater-of-nermal/
 exhibit-id: 23R-59
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "THE NIGHTMARE FROM THE NORTH.  9 razor sharp wejs and a suplexing arm with as much torque as a car"
@@ -33,7 +34,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-27 15:22:33"
 last-modified-jotform: "2023-10-18 07:22:54"
-last-exported: "2023-10-18 15:04:56"
+last-exported: "2023-10-30 08:10:28"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Delta V"
 slug: delta-v
 permalink: /exhibits/delta-v/
 exhibit-id: 23R-48
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "12lb Hobby weight robot"
@@ -25,7 +26,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-21 21:26:09"
 last-modified-jotform: "2023-10-13 06:46:56"
-last-exported: "2023-10-13 06:55:03"
+last-exported: "2023-10-30 08:10:29"
 sitemap: false
 
 ---

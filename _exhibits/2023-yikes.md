@@ -5,6 +5,7 @@ title: "Yikes!"
 slug: yikes
 permalink: /exhibits/yikes/
 exhibit-id: 23R-65
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Horizontal spinner"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-10-02 21:52:57"
 last-modified-jotform: "2023-10-07 16:04:42"
-last-exported: "2023-10-07 16:06:37"
+last-exported: "2023-10-30 08:10:28"
 sitemap: false
 
 ---

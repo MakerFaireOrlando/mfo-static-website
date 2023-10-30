@@ -5,6 +5,7 @@ title: "Zippy and Zoom"
 slug: zippy-and-zoom
 permalink: /exhibits/zippy-and-zoom/
 exhibit-id: 22R-6
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Zippy and Zoom fight together at NHRL but for Ruckus they will be fighting in their own weight class"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-03 15:16:02"
 last-modified-jotform: "2023-09-15 06:17:53"
-last-exported: "2023-09-16 16:02:09"
+last-exported: "2023-10-30 08:10:48"
 sitemap: false
 
 ---

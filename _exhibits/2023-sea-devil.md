@@ -5,6 +5,7 @@ title: "Sea Devil"
 slug: sea-devil
 permalink: /exhibits/sea-devil/
 exhibit-id: 23R-74
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Sea Devil is a drum spinner robot, new addition to Fish Tank Robotics. "
@@ -26,7 +27,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-10-05 21:17:24"
 last-modified-jotform: "2023-10-08 09:31:44"
-last-exported: "2023-10-08 13:16:49"
+last-exported: "2023-10-30 08:10:25"
 sitemap: false
 
 ---

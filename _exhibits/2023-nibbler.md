@@ -5,6 +5,7 @@ title: "Nibbler"
 slug: nibbler
 permalink: /exhibits/nibbler/
 exhibit-id: 23R-58
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "This little 1 pound robot features a fast-spinning beater to nibble away at the competition!"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-26 18:33:02"
 last-modified-jotform: "2023-09-28 22:16:31"
-last-exported: "2023-09-28 23:05:03"
+last-exported: "2023-10-30 08:10:29"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Element 115 and Foo Fighter"
 slug: element-115-and-foo-fighter
 permalink: /exhibits/element-115-and-foo-fighter/
 exhibit-id: 22R-7
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Element 115 - Vertical Spinner
@@ -29,7 +30,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-03 16:01:16"
 last-modified-jotform: "2023-09-11 18:47:47"
-last-exported: "2023-09-12 19:33:19"
+last-exported: "2023-10-30 08:10:48"
 sitemap: false
 
 ---

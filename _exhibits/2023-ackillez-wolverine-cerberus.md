@@ -5,6 +5,7 @@ title: "Ackillez, Wolverine, Cerberus"
 slug: ackillez-wolverine-cerberus
 permalink: /exhibits/ackillez-wolverine-cerberus/
 exhibit-id: 23R-34
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Killer robots"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-19 07:12:19"
 last-modified-jotform: "2023-09-23 09:44:15"
-last-exported: "2023-09-24 14:23:18"
+last-exported: "2023-10-30 08:10:33"
 sitemap: false
 
 ---

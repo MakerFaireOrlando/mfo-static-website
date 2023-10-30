@@ -5,6 +5,7 @@ title: "Biscuit"
 slug: biscuit
 permalink: /exhibits/biscuit/
 exhibit-id: 22R-12
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "1-pound bot with a horizontal spinner and an AR 500 steel blade. "
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-04 09:39:15"
 last-modified-jotform: "2023-09-12 19:34:08"
-last-exported: "2023-09-12 19:34:13"
+last-exported: "2023-10-30 08:10:44"
 sitemap: false
 
 ---

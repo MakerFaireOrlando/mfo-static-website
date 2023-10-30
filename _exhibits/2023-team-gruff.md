@@ -5,6 +5,7 @@ title: "Team Gruff"
 slug: team-gruff
 permalink: /exhibits/team-gruff/
 exhibit-id: 23R-66
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Gruff and insect weight bots from Ram Robotics a subsidiary of Team Gruff"
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-10-02 22:01:12"
 last-modified-jotform: "2023-10-21 11:10:42"
-last-exported: "2023-10-21 11:39:30"
+last-exported: "2023-10-30 08:10:28"
 sitemap: false
 
 ---

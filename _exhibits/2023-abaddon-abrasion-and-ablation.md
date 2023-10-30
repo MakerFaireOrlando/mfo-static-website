@@ -5,6 +5,7 @@ title: "Abaddon Abrasion and Ablation"
 slug: abaddon-abrasion-and-ablation
 permalink: /exhibits/abaddon-abrasion-and-ablation/
 exhibit-id: 23R-35
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Abaddon is a full combat ant
@@ -45,7 +46,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-19 08:41:37"
 last-modified-jotform: "2023-10-01 11:56:08"
-last-exported: "2023-10-01 15:26:35"
+last-exported: "2023-10-30 08:10:33"
 sitemap: false
 
 ---

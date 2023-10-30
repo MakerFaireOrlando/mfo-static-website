@@ -5,6 +5,7 @@ title: "Hyperdrive"
 slug: hyperdrive
 permalink: /exhibits/hyperdrive/
 exhibit-id: 23R-46
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "3lb Combat Robot"
@@ -25,7 +26,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-21 11:03:31"
 last-modified-jotform: "2023-10-07 11:17:47"
-last-exported: "2023-10-07 13:34:21"
+last-exported: "2023-10-30 08:10:29"
 sitemap: false
 
 ---

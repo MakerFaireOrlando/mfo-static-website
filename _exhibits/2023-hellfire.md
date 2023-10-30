@@ -5,6 +5,7 @@ title: "Hellfire"
 slug: hellfire
 permalink: /exhibits/hellfire/
 exhibit-id: 23R-36
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Hellfire is a former #1 ranked 1lb shuffling ringspinner battlebot."
@@ -30,7 +31,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-19 11:38:24"
 last-modified-jotform: "2023-09-23 09:44:14"
-last-exported: "2023-09-24 14:23:15"
+last-exported: "2023-10-30 08:10:31"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Space Junk"
 slug: space-junk
 permalink: /exhibits/space-junk/
 exhibit-id: 22R-4
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Improved Viper Kit ready to knock others into outer space!"
@@ -35,7 +36,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-03 15:06:37"
 last-modified-jotform: "2023-09-10 13:24:07"
-last-exported: "2023-09-12 19:33:19"
+last-exported: "2023-10-30 08:10:56"
 sitemap: false
 
 ---

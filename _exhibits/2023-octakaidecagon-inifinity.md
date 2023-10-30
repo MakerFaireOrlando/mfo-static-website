@@ -5,6 +5,7 @@ title: "Octakaidecagon Inifinity"
 slug: octakaidecagon-inifinity
 permalink: /exhibits/octakaidecagon-inifinity/
 exhibit-id: 23R-80
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "4 ~3lb robots 2 being shufflers. "
@@ -31,7 +32,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-10-14 01:31:43"
 last-modified-jotform: "2023-10-18 18:08:58"
-last-exported: "2023-10-19 07:10:22"
+last-exported: "2023-10-30 08:10:25"
 sitemap: false
 
 ---
