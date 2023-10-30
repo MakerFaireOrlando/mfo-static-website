@@ -5,6 +5,7 @@ title: "Ragin' Ator"
 slug: ragin-ator
 permalink: /exhibits/ragin-ator/
 exhibit-id: 23R-40
+combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Has 2 saw blades and the spikes designed to flip the competitor. "
@@ -24,7 +25,7 @@ categories:
     name: Combat Robots
 created-jotform: "2023-09-19 21:45:57"
 last-modified-jotform: "2023-10-13 06:46:23"
-last-exported: "2023-10-28 15:08:21"
+last-exported: "2023-10-30 08:10:30"
 sitemap: false
 
 ---
