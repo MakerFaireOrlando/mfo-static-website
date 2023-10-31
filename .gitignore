@@ -30,5 +30,7 @@ _python/private.yaml
 _python/curiosity.csv
 _python/spirit.csv
 _python/opportunity.csv
+_python/*.csv
+
 
 .python-version
