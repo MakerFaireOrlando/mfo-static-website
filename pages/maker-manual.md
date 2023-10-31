@@ -24,7 +24,8 @@ Maker Faire Orlando has a zero tolerance policy for harassment of any kind - Lea
 
 ## Exhibit Spaces
 * Our standard exhibit space is approximately at 10'x10' space. In some locations, the building structure against walls may protrude into the space.
-* By default we provide one 8' table and two folding chairs per exhibit. You are welcome to bring your own tables / chairs so you have the exact configuration you need. If you require multiple tables / more chairs for a hands-on exhibit, etc., please email us (with your exhibit name) at <makers@makerfaireorlando.com>.
+* By default we provide one uncovered 8' table and two folding chairs per exhibit. You are welcome to bring your own tables / chairs so you have the exact configuration you need. If you require multiple tables / more chairs for a hands-on exhibit, etc., please email us (with your exhibit name) at <makers@makerfaireorlando.com>.
+* We do not pipe & drape the event. Some spaces will be against a metal building wall, other spaces will back up to another exhibit. Many makers will use inexpensive backdrop stands to hang a backdrop or banners behind them. Get creative :)
 * We provide power to all interior spaces however it may not be located within your space. We strongly recommend bringing a 25' extension cord and a power strip to ensure you have what you need where you need it.
 * Wi-Fi credentials are provided to selling exhibitors (who paid an exhibitor fee) by the area captain, however the Wi-Fi at the Fairgrounds can be challenging. We recommend bringing a cellular device / hotspot as a backup.
 * Pop-up tents (no larger than 10'x10') are welcomed outdoors, but must be weighted to avoid wind damage. Pop-up tents may not be used inside unless the top canopy is removed, per fire code.
