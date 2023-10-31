@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+<body>
+
+
+<div class="flag-banner header-flag"></div>
+{%comment%}THIS DOES NOT HAVE TOPNAV - ONLY DIFFERENCE{%endcomment%}
+<div id="page_content">
+  <div id="page-body"
+    {% if page.carousel %}
+      {% include carousel.html %}
+    {% else %}
+      <div style = "padding-bottom:20px;"></div>
+    {% endif %}
+    <div class="container">
+    {{ content }}
+    </div>
+  </div>
+</div>
+<div style = "padding-bottom:20px;"></div>
+
+
+{% include footer.html %}
+{% include scripts.html %}
+{% include optional-js.html %}
+
+<script>
+    var $container = jQuery('#events');
+    $container.isotope({
+      // options
+      layoutMode: 'vertical',
+      itemSelector: '.item',    // Individual post item selector
+      vertical: {
+      horizontalAlignment: 0,
+      }
+    });
+
+    window.onresize = function() {
+      console.log("resize");
+      $container.isotope( 'reloadItems' ).isotope();
+    }
+</script>
+</body>
+
+
+</html>
