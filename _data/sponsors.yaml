@@ -40,7 +40,7 @@ sponsors:
     url: https://tlc-engineers.com/
     logo: tlc-engineering.jpg
     level: 5
-    active: false
+    active: true
   - name: DeltaMaker 3D Printers
     url: https://www.deltamaker.com
     logo: deltamaker-logo-3d-printers.png
