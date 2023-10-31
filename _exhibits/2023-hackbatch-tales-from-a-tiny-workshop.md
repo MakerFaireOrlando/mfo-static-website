@@ -12,7 +12,7 @@ description-long: "I make things in a tiny workshop tucked away in my bedroom cl
 
 I will have on display two different versions of my two-wheeled robot in various stages of completion. I recently improved the design and will have a functioning hub-less wheel to demonstrate.
 
-The exhibit will also feature an interactive pen plotter. Visitors can customize a digital card and a real version will be printed using the pen plotter right before their eyes.
+The exhibit will also feature a 3D printer acting as a pen plotter. Visitors can pick up a post card drawn by a robot!
 
 My various tube light fixtures will also be there, shining away and making pretty colors! "
 image: /assets/images/exhibit-images/23-51-exhibit-hackbatch-tales-from-a-tiny-workshop-thumbnail-large.png
@@ -69,8 +69,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2023-08-11 08:46:01"
-last-modified-jotform: "2023-10-16 22:20:50"
-last-exported: "2023-10-30 08:11:52"
+last-modified-jotform: "2023-10-30 18:47:11"
+last-exported: "2023-10-31 08:51:01"
 sitemap: false
 
 ---

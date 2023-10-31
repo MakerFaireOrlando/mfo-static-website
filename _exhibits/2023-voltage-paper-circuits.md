@@ -48,11 +48,13 @@ categories:
     name: Engineering
   - slug: first-robotics
     name: FIRST Robotics
+  - slug: hands-on-workshop
+    name: Hands-On Workshop
   - slug: robotics
     name: Robotics
 created-jotform: "2023-08-28 19:09:57"
-last-modified-jotform: "2023-10-22 10:23:15"
-last-exported: "2023-10-30 08:11:42"
+last-modified-jotform: "2023-10-30 15:35:04"
+last-exported: "2023-10-31 08:50:57"
 sitemap: false
 
 ---

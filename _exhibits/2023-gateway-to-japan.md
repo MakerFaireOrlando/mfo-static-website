@@ -13,9 +13,9 @@ Your name and favorite words in Japanese brush calligraphy
 
 "
 description-long: "Origami is a paper-folding art appreciated in Japan and worldwide. 
-We will do a mini-workshop of how to fold simple pieces with step-by-step instruction. 
+We will do a mini-workshop on how to fold simple pieces with step-by-step instructions. 
 
-We will create a customized gift of Japanese brush calligraphy. The calligraphy artist will write your names and favorite words translated in Japanese. Options to be printed on a tote bag or T-shirt. "
+We will create a customized gift of Japanese brush calligraphy. The calligraphy artist will write your name and favorite words translated into Japanese. "
 image: /assets/images/exhibit-images/23-67-exhibit-gateway-to-japan-img-3672-large.jpeg
 image-primary: 
   small: /assets/images/exhibit-images/23-67-exhibit-gateway-to-japan-img-3672-small.jpeg
@@ -45,7 +45,7 @@ additional-images:
     full: /assets/images/exhibit-images/23-67-exhibit-addl4-gateway-to-japan-img-0920-full.jpeg
 video: "https://youtube.com/@GatewaytoJapan"
 maker: 
-  name: "Gateway to Japan "
+  name: "Izumi Sakurada/Gateway to Japan "
   description: "Japanese cultural and language service 
 With the motto “Your Educational Gateway to Japan”, we have been providing an authentic cultural experience and language service in Central Florida since 2006."
   image-primary: /assets/images/exhibit-images/23-67-maker-gateway-to-japan-img-0201-medium.jpeg
@@ -64,8 +64,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2023-08-22 23:00:11"
-last-modified-jotform: "2023-10-22 10:21:47"
-last-exported: "2023-10-30 08:11:50"
+last-modified-jotform: "2023-10-30 17:52:35"
+last-exported: "2023-10-31 08:51:00"
 sitemap: false
 
 ---

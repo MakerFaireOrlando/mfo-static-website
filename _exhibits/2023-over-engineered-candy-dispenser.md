@@ -16,16 +16,16 @@ description-long: "A robotic candy dispenser. It has several parts
 4. e paper 400x600 welcome sign that will change  from welcome to what to do to get candy when someone gets close by using a distance sensor.
 There will be a button to press to start the action.
 some of the part will be printed using translucent filament, the electronics , motors and wiring will be arranged so the  so the observers can see what is going on."
-image: /assets/images/exhibit-images/23-85-exhibit-over-engineered-candy-dispenser-under-construction-large.jpg
+image: /assets/images/exhibit-images/23-85-exhibit-over-engineered-candy-dispenser-pxl-20231030-214153747-mp-large.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/23-85-exhibit-over-engineered-candy-dispenser-under-construction-small.jpg
-  medium: /assets/images/exhibit-images/23-85-exhibit-over-engineered-candy-dispenser-under-construction-medium.jpg
-  large: /assets/images/exhibit-images/23-85-exhibit-over-engineered-candy-dispenser-under-construction-large.jpg
-  full: /assets/images/exhibit-images/23-85-exhibit-over-engineered-candy-dispenser-under-construction-full.jpg
+  small: /assets/images/exhibit-images/23-85-exhibit-over-engineered-candy-dispenser-pxl-20231030-214153747-mp-small.jpg
+  medium: /assets/images/exhibit-images/23-85-exhibit-over-engineered-candy-dispenser-pxl-20231030-214153747-mp-medium.jpg
+  large: /assets/images/exhibit-images/23-85-exhibit-over-engineered-candy-dispenser-pxl-20231030-214153747-mp-large.jpg
+  full: /assets/images/exhibit-images/23-85-exhibit-over-engineered-candy-dispenser-pxl-20231030-214153747-mp-full.jpg
 maker: 
   name: "Jim 42"
   description: "Just me making stuff. been building thing with my 3d printer and using arduino electronics to create items from a washer and dryer messenger to let me know when the clothes are clean and dry to a temperature and sunlight monitor for my wife's orchids house. Former database and software developer."
-  image-primary: /assets/images/exhibit-images/23-85-maker-over-engineered-candy-dispenser-win-20230828-17-56-35-pro-medium.jpg
+  image-primary: /assets/images/exhibit-images/23-85-maker-over-engineered-candy-dispenser-pxl-20231030-214737285-portrait-medium.jpg
 categories: 
   - slug: 3d-printing
     name: 3D Printing
@@ -38,8 +38,8 @@ categories:
   - slug: engineering
     name: Engineering
 created-jotform: "2023-08-28 18:14:15"
-last-modified-jotform: "2023-10-12 23:14:17"
-last-exported: "2023-10-30 08:11:42"
+last-modified-jotform: "2023-10-30 18:04:00"
+last-exported: "2023-10-31 08:51:00"
 sitemap: false
 
 ---
