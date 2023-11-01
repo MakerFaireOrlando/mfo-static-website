@@ -14,8 +14,13 @@ sitemap: false
 {% if exhibit.exhibit-zone == "Power Racing Track" %} {% continue %} {%endif%}
 {%endcomment%}
 
+{% if exhibit.combat-robot == true %} {% continue %} {%endif%}
+
+{% if exhibit.exhibit-zone == "Power Racing Track" %} {% continue %} {%endif%}
+
+
 <div style="page-break-after: always">
-<img style="margin-bottom:20px;" src="/assets/images/site-branding/2022/mfo_table_sign_header_2022_v1_1000.jpg" alt="Maker Faire Orlando">
+<img style="margin-bottom:20px;" src="/assets/images/site-branding/2023/mfo_table_sign_header_2023_v1_1000.jpg" alt="Maker Faire Orlando">
   <div style="margin-bottom:20px; font-family:lato; font-weight:bold; font-size:50px">{{exhibit.title}}</div>
   <table>
     <tr>
@@ -53,6 +58,15 @@ sitemap: false
         <img src='https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.makerfaireorlando.com{{exhibit.permalink}}'/>
       </td>
       <td style="text-align:center;width:400px; font-family:lato; font-size:20px;">
+        Maker Faire Orlando<br> Event Schedule<br><br>
+        <img width="150px" src='/assets/images/site-branding/schedule_qr_code.png'/>
+      </td>
+      <td style="text-align:center;width:400px; font-family:lato; font-size:20px;">
+        Maker Faire Orlando<br> Event Program & Map<br><br>
+        <img width="150px" src='/assets/images/site-branding/program_qr_code.png'/>
+      </td>
+      {% comment %}
+      <td style="text-align:center;width:400px; font-family:lato; font-size:20px;">
         Maker Faire Orlando<br> Android App<br><br>
         <img width="150px" src='/assets/images/site-branding/android_qr_code_150px.png'/>
       </td>
@@ -60,6 +74,7 @@ sitemap: false
         Maker Faire Orlando<br> iOS App<br><br>
         <img width="150px" src='/assets/images/site-branding/ios_qr_code_150px.png'/>
       </td>
+      {% endcomment %}
     </tr>
   </table>
   <div style="padding:20px; text-align:right; margin-bottom:20px; font-family:lato; font-weight:bold; font-size:12px">{{exhibit.exhibit-zone}} {{exhibit.space-number}} - ID:{{exhibit.exhibit-id}}</div>
