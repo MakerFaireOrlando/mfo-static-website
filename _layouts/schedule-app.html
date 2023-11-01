@@ -6,7 +6,7 @@
 
 
 <div class="flag-banner header-flag"></div>
-{%comment%}THIS DOES NOT HAVE TOPNAV - ONLY DIFFERENCE{%endcomment%}
+{% comment %}NO TOPNAV{% endcomment %}
 <div id="page_content">
   <div id="page-body"
     {% if page.carousel %}
@@ -27,14 +27,25 @@
 {% include optional-js.html %}
 
 <script>
+    var cat = params.get('category')
+    console.log(cat);
+    var initFilter ='';
+    //var initFilter = ':not(.combat-robots)';
+    if (cat) {
+      initFilter = cat;
+      jQuery('.filters-select').val('.' + cat);
+    }
+    console.log("initFilter is " + initFilter);
+
     var $container = jQuery('#events');
     $container.isotope({
       // options
       layoutMode: 'vertical',
       itemSelector: '.item',    // Individual post item selector
       vertical: {
-      horizontalAlignment: 0,
-      }
+        horizontalAlignment: 0,
+      },
+      filter: initFilter
     });
 
     window.onresize = function() {
