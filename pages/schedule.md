@@ -17,10 +17,31 @@ Check out the [event program](/program) for a printable map, schedule and more!<
   <div class="mtm-search">
     <div class="container">
 	  <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-4">
             <label class="search-filter-label">Search:</label>
             <input type="text" class="quicksearch form-control" id="maker-search-input" placeholder="Looking for a specific Event?">
         </div>
+
+        <div class="col-md-4">
+          <label class="search-filter-label">Filter by category:</label>
+          <select class="schedule-filters-select form-control" id="makers-category-select">
+            <option value="" selected="">show all</option>
+            <option value=".power-racing-track">Power Racing</option>
+            <option value=".knight-fights-arena-outdoor">Knight Fights Arena</option>
+            <option value=".maker-faire-stage">Maker Faire Stage</option>
+            <option value=".spirit-building">Spirit Building</option>
+          </select>
+    	  </div>
+
+        <div class="col-md-4">
+          <label class="search-filter-label">Filter by day:</label>
+          <select class="schedule-filters-select-day form-control" id="makers-category-select">
+            <option value="" selected="">show all</option>
+            <option value=".saturday">Saturday</option>
+            <option value=".sunday">Sunday</option>
+          </select>
+    	  </div>
+
       </div><!-- #row -->
    </div><!-- #container -->
  </div><!-- #mtm-search -->
@@ -30,11 +51,12 @@ Check out the [event program](/program) for a printable map, schedule and more!<
 
 
     {% for event in site.data.schedule %}
-        <div class="item{% for category in exhibit.categories -%}
-                          {% if category.name %}
-                            {{- category.slug | prepend: " "-}}
+        <div class="item {% if event.location %}
+                            {{event.location | prepend: " " | slugify}}
                           {% endif %}
-                          {%- endfor -%}">
+                          {% if event.date %}
+                            {{event.date | date: "%A" | slugify}}
+                          {% endif %}" >
 
 
             <div class="container" style="width=100%">

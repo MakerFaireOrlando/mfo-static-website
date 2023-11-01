@@ -12,7 +12,7 @@ var initFilter ='';
 //var initFilter = ':not(.combat-robots)';
 if (cat) {
   initFilter = '.' + cat;
-  jQuery('.filters-select').val('.' + cat);
+  jQuery('.schedule-filters-select').val('.' + cat);
 }
 console.log("initFilter is " + initFilter);
 
@@ -148,3 +148,48 @@ jQuery('.filters-select').on( 'change', function() {
  	console.log("filterValue:" + filterValue);
 //	}//end if filtervalue.includes
 });
+
+// Schedule Code
+var scheduleFilter = ""
+var scheduleFilterDay = ""
+
+jQuery('.schedule-filters-select').on( 'change', function() {
+  // get filter value from option value
+  var filterValue = this.value;
+  // use filterFn if matches value
+  filterValue = filterFns[ filterValue ] || filterValue;
+
+  jQuery('.quicksearch').val('');
+
+  if (filterValue =="*") {
+	  window.history.pushState("object or string", "Title", "/schedule/");
+	} else {
+    window.history.pushState("object or string", "Title", "/schedule/?category=" + filterValue.substring(1));
+	}
+
+  scheduleFilter = filterValue;
+  updateSchedule();
+});
+
+jQuery('.schedule-filters-select-day').on( 'change', function() {
+  // get filter value from option value
+  var filterValue = this.value;
+  // use filterFn if matches value
+  filterValue = filterFns[ filterValue ] || filterValue;
+
+  jQuery('.quicksearch').val('');
+
+  scheduleFilterDay = filterValue;
+  updateSchedule();
+});
+
+function updateSchedule() {
+  scheduleValue = scheduleFilter + scheduleFilterDay
+
+  if (scheduleValue == "") {
+    $container.isotope({ filter: scheduleValue });
+  } else {
+    $container.isotope({ filter: scheduleValue });
+  }
+   console.log("filterValue:" + scheduleValue);  
+}
