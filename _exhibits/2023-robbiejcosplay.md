@@ -6,7 +6,7 @@ slug: robbiejcosplay
 permalink: /exhibits/robbiejcosplay/
 exhibit-id: 23-217
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SH27"
 description: "Cosplayer "
 description-long: "Cosplayer, Designer "
 image: /assets/images/exhibit-images/23-217-exhibit-robbiejcosplay-img-2572-large.jpeg
@@ -37,8 +37,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2023-10-29 22:59:47"
-last-modified-jotform: "2023-10-30 10:09:45"
-last-exported: "2023-10-31 08:50:54"
+last-modified-jotform: "2023-11-01 16:36:53"
+last-exported: "2023-11-01 16:37:06"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: the-dragons-horde
 permalink: /exhibits/the-dragons-horde/
 exhibit-id: 23-79
 exhibit-zone: "Spirit - East"
-space-number: "SF30"
+space-number: "SE27"
 description: "Handmade fantasy sculptures."
 description-long: "Welcome to The Dragon’s Horde! An army of handmade dragons, fantasy sculptures and accessories specially crafted by hand. Everything I make is done by hand. I start by designing on paper, then sculpt in clay, mold with silicone, and cast copies in durable resin that then are hand finished by me."
 image: /assets/images/exhibit-images/23-79-exhibit-the-dragons-horde-img-20211112-195402509-large.jpg
@@ -34,8 +34,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2023-08-27 17:47:09"
-last-modified-jotform: "2023-10-22 10:21:35"
-last-exported: "2023-10-30 08:11:42"
+last-modified-jotform: "2023-11-01 16:34:09"
+last-exported: "2023-11-01 16:36:17"
 sitemap: false
 
 ---
