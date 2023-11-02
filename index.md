@@ -44,6 +44,10 @@ carousel-slides:
 
 
 {% include featured-makers-grid.html %}
+<div>
+<a href="/stage"><img src="/assets/images/stage/stage-header-MFO23-narrow.jpg" style="width: 100%; padding-bottom: 5px;"></a>
+</div>
+<div class="flag-banner"></div>
 
 {% include explore-meet-makers.html %}
 
