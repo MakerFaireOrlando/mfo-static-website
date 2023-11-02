@@ -60,24 +60,27 @@ Hear from special guest makers on our Main Stage featuring innovators in the the
           <a href="/schedule"><img src="/assets/images/stage/fl_armored.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/schac.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule"><img src="/assets/images/stage/graven.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/justin-peterson.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule"><img src="/assets/images/stage/schac.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
     </div>
     <div class="row">
+        <div class="col-sm-4">
+          <a href="/schedule"><img src="/assets/images/stage/justin-peterson.jpg" style="max-width: 100%; padding:20px;"></a>
+        </div>
         <div class="col-sm-4">
           <a href="/schedule"><img src="/assets/images/stage/justok.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
           <a href="/schedule"><img src="/assets/images/stage/MWC.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
+    </div>
+    <div class="row">
         <div class="col-sm-4">
           <a href="/schedule"><img src="/assets/images/stage/nerdnite.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
-    </div>
-    <div class="row">
         <div class="col-sm-4">
           <a href="/schedule"><img src="/assets/images/stage/harkless.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
