@@ -107,6 +107,22 @@ Please see our [Educators page](/educators) for more information.
 
 ---
 
+More Information:
+
+* Weekend Passes cannot be shared between attendees.
+
+* Single Day Passes can be used on a single day, either Saturday OR Sunday.
+
+* You will receive an email confirmation after your purchase with a link to print your tickets from your computer, or you may show your tickets on your mobile device at the gate.
+
+* No outside food or beverages are permitted through the gates unless you have special medical, dietary, or religious requirements. A wide variety of for-purchase food options will be available.
+
+* Strollers, backpacks, and a bottle of water are allowed.
+
+* No pets are allowed, for their safety. Registered service animals are welcome.
+
+
+
 **Questions? Email <makers@makerfaireorlando.com>**
 
 ---
