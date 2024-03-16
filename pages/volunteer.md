@@ -13,26 +13,32 @@ carousel-slides:
     url:
 ---
 
-# Thanks for Volunteering for Maker Faire Orlando 2023
-The event is now underway and we have closed volunteer registration. If you've already registered and have questions, please email us at <makers@makerfaireorlando.com>
+
 
 
 {%comment%}
+# Thanks for Volunteering for {{site.event_name}} {{site.event_year}}
+The event is now underway and we have closed volunteer registration. If you've already registered and have questions, please email us at <makers@makerfaireorlando.com>
+{%endcomment%}
+
+
 # We Need You!
-Volunteering at Maker Faire Orlando is a great way to give back to your local community AND to attend the event without needing to buy a ticket!
+Volunteering at {{site.event_name}} {{site.event_year}} is a great way to give back to your local community AND to attend the event without needing to buy a ticket!
 
-Volunteers who work at least a 4 hour shift will receive free admission for the day they volunteer (if you volunteer late in the day, you are welcome to enjoy the event before your volunteer shift, and if you volunteer for setup day, you can come back for a full day on either Saturday or Sunday). Volunteers also receive a Maker Faire Orlando volunteer t-shirt.
+Volunteers who work at least a 4 hour shift will receive free admission for the day they volunteer (if you volunteer late in the day, you are welcome to enjoy the event before your volunteer shift, and if you volunteer for setup day, you can come back for a full day on either Saturday or Sunday). Volunteers also receive a {{site.event_name}} {{site.event_year}} volunteer t-shirt.
 
+# Volunteer registration typically opens in September, please check back or follow us on social media.
 
-# Volunteering at Maker Faire Orlando
+{%comment%}
+# Volunteering at {{site.event_name}} {{site.event_year}}
 
 
 ---
 
 ### More Details
-* Maker Faire Orlando volunteers must be 13 years of age or older. (Some roles require 16+ or 18+)
+* {{site.event_name}} volunteers must be 13 years of age or older. (Some roles require 16+ or 18+)
 * Community service hours are available from The Maker Effect Foundation, a 501(c)(3) public charity.
-* If you have any questions about volunteering at Maker Faire Orlando, or if you have a specific skill-set (especially photography/videography) not listed below, please email us at <makers@makerfaireorlando.com>
+* If you have any questions about volunteering at {{site.event_name}}, or if you have a specific skill-set (especially photography/videography) not listed below, please email us at <makers@makerfaireorlando.com>
 
 ---
 
