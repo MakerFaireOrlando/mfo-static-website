@@ -8,7 +8,7 @@ permalink: /sponsors/
 
   <div class="row padbottom">
     <div class="col-xs-12">
-      <h2 class="pull-left">{{site.event_year}} Sponsors</h2>
+      <h2 class="pull-left">{{site.sponsor_year}} Sponsors</h2>
       <a class="sponsors-btn-top" href="/become-a-sponsor/">BECOME A SPONSOR</a>
     </div>
   </div>
