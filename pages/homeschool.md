@@ -25,7 +25,7 @@ Are you interested in bringing the maker movement into your homeschool education
 ## Maker Faire Orlando
 Maker Faire Orlando is a community-organized, family-friendly celebration featuring local do-it-yourself science, art, rockets, robots, crafts, technology, music, hands-on-activities, and more. It’s an event where people show what they are making and share what they are learning.
 
-**Homeschool educators receive free admission to Maker Faire Orlando 2023. This admission discount is limited to one homeschool educator per household. Other family members should take [advantage of advance purchase discounts by purchasing tickets online](/attend/).**
+**Homeschool educators receive free admission to {{site.event_name}} {{site.event_year}}. This admission discount is limited to one homeschool educator per household. Other family members should take [advantage of advance purchase discounts by purchasing tickets online](/attend/).**
 
 **To receive free homeschool educator admission to Maker Faire Orlando, please bring a state-issued photo id and documentation of homeschool status (see below) to the ticket booth at the entrance to the event where you will be given a wristband for entry.**
 
