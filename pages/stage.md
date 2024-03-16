@@ -15,6 +15,9 @@ carousel-slides:
     url: /schedule
 ---
 
+#### Stay Tuned for exciting announcements with scheduled activities, special guests, panel discussions, musical performances and more!
+
+{%comment%}
 # Don’t Miss Amazing Makers on Stage at Maker Faire Orlando!
 
 Hear from special guest makers on our Main Stage featuring innovators in the theme park industry, BattleBots teams, cosplay champions, artists, and more!  Check out the [entire schedule of panels, talks & competitions](/schedule) so that you can plan your entire weekend!
@@ -95,3 +98,5 @@ Hear from special guest makers on our Main Stage featuring innovators in the the
 ---
 
 Stage talks, panels and performances are subject to change based on availability of special guests.
+
+{%endcomment%}

@@ -10,9 +10,8 @@ scrolltop: true
 <div class="container">
 <h1>Maker Exhibits</h1>
 
-{% comment %}
-We haven't opened our Call For Makers yet for 2023, but you can see our past exhibits below to see the type of exhibits you can find at Maker Faire Orlando!<br><br>
-{% endcomment %}
+
+We haven't opened our Call For Makers yet for {{site.event_year}}, but you can see our past exhibits below to see the type of exhibits you can find at Maker Faire Orlando!<br><br>
 
 
 <p>Interested in Exhibiting at Maker Faire Orlando? <a href="/exhibit-at-maker-faire-orlando/">Learn more about exhibiting!</a> </p>

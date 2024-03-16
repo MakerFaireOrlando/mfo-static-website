@@ -5,8 +5,8 @@ topnav:
     subfolderitems:
       - page: What is Maker Faire?
         url: /about/
-      - page: Media
-        url: /media/
+#      - page: Media
+#        url: /media/
   - title: Things to See & DO
     subfolderitems:
       - page: Makers & Exhibits

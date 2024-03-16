@@ -9,6 +9,11 @@ isotope: true
 
 # Event Schedule
 
+
+#### Stay Tuned for exciting announcements with scheduled activities, special guests, panel discussions, musical performances and more!
+
+{%comment%}
+
 Use the schedule below to plan your weekend to catch the panel talks and other scheduled activities! Note that most of the [exhibits](/exhibits) and [hands-on activities](/makers/?category=hands-on-workshop) at Maker Faire Orlando happen continuously throughout the weekend. <BR>
 
 Check out the [event program](/program) for a printable map, schedule and more!<br><br>
@@ -104,7 +109,7 @@ Check out the [event program](/program) for a printable map, schedule and more!<
 
 Event schedule subject to change at any time based on the availability of exhibiting makers, special guests, and venue conditions.
 
-{%comment%}
+
 
 #### Stay Tuned for exciting announcements including the new Maker Faire Stage with special guests, panel discussions, musical performances and more!
 
