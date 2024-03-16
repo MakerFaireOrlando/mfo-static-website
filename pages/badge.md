@@ -4,6 +4,10 @@ layout: default
 permalink: /badge/
 ---
 
+# This page will contain info for exhibiting makers as a quick link from badge QR codes. Check back closer to the event :)
+
+{% comment %}
+
 # Quick Info
 Thanks for participating at Maker Faire Orlando!
 
@@ -52,8 +56,8 @@ Before the event, email us at [makers@makerfaireorlando.com](mailto:makers@maker
 During the event, if you need help please locate the crew member assigned to your exhibit zone. They will be roaming in your zone throughout the event.
 
 
-
-
 ---
 
 Exhibiting makers and available experiences are subject to change based on community availability.
+
+{% endcomment %}

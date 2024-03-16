@@ -42,15 +42,20 @@ carousel-slides:
 
 {% include makey-border.html %}
 
-
+{% comment %}
 {% include featured-makers-grid.html %}
+{% endcomment %}
+
+{% comment %}
 <div>
 <a href="/stage"><img src="/assets/images/stage/stage-header-MFO23-narrow.jpg" style="width: 100%; padding-bottom: 5px;"></a>
 </div>
 <div class="flag-banner"></div>
+{% endcomment %}
 
+{% comment %}
 {% include explore-meet-makers.html %}
-
+{% endcomment %}
 
 
 {% comment %}
