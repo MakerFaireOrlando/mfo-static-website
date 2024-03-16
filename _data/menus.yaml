@@ -93,9 +93,6 @@ footernav:
       - title: Facebook
         url: https://www.facebook.com/makerfaireorlando/
         icon: fa-brands fa-facebook
-      - title: Twitter
-        url: https://twitter.com/orlmakerfaire
-        icon: fa-brands fa-twitter
       - title: Instagram
         url: https://www.instagram.com/makerfaireorlando/
         icon: fa-brands fa-instagram
@@ -127,9 +124,6 @@ footernav:
       - title: Facebook
         url: https://www.facebook.com/makerfaire/
         icon: fa-brands fa-facebook
-      - title: Twitter
-        url: https://twitter.com/makerfaire
-        icon: fa-brands fa-twitter
       - title: Instagram
         url: https://www.instagram.com/makerfaire/
         icon: fa-brands fa-instagram
