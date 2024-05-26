@@ -8,7 +8,7 @@ redirect-from:
 scrolltop: true
 ---
 <div class="container">
-<h1>Maker Exhibits</h1>
+<h1>Past Maker Exhibits</h1>
 
 
 We haven't opened our Call For Makers yet for {{site.event_year}}, but you can see our past exhibits below to see the type of exhibits you can find at Maker Faire Orlando!<br><br>
