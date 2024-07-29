@@ -18,12 +18,13 @@ We need people willing to share the things they create and their passion for mak
 
 ## Exhibit Applications
 
-#### We have not yet opened the Call For Makers exhibit application process for {{site.event_year}}. Check back later this summer and follow us on social media for announcements!
-
 {%comment%}
+#### We have not yet opened the Call For Makers exhibit application process for {{site.event_year}}. Check back later this summer and follow us on social media for announcements!
+{%endcomment%}
 
 
-There is no fee for individuals or community groups to exhibit at Maker Faire Orlando. There is a $100 seller fee for individuals to sell products you make at the event. Companies, service businesses, retail businesses, and those looking to advertise should [sponsor Maker Faire Orlando](/become-a-sponsor) which includes significant sponsor benefits. Contact us at <makers@makerfaireorlando.com> for more information.
+
+There is no fee for individuals or community groups to exhibit at Maker Faire Orlando. There is a $150 seller fee for individuals to sell products you make at the event. Companies, service businesses, retail businesses, and those looking to advertise should [sponsor Maker Faire Orlando](/become-a-sponsor) which includes significant sponsor benefits. Contact us at <makers@makerfaireorlando.com> for more information.
 
 Startup businesses are encouraged to contact us at <makers@makerfaireorlando.com> so that we can work with you to determine potential sponsorship discounts based startup phase and size.
 
@@ -32,11 +33,11 @@ Startup businesses are encouraged to contact us at <makers@makerfaireorlando.com
 
 #### Our Call For Makers deadline is August 31st.
 
-
+{%comment%}
 Our application deadline has passed, however we are still accepting applications with placement priority for non-selling makers and community groups.
 
 **Selling makers: You are welcome to continue to submit applications and they will be added to our waitlist in the event we have selling exhibit cancellations.** Interior space will be most limited, indicating flexibility on location (indoor / outdoor) will increase your odds of being accepted.
-
+{%endcomment%}
 &nbsp;
 
 #### What You Will Need to Apply
@@ -50,7 +51,7 @@ Please create a compelling exhibit application, and choose pictures / descriptio
 
 &nbsp;
 
-#### [Click Here to Apply](https://www.jotform.com/makereffect/cfm2023)
+#### [Click Here to Apply](https://www.jotform.com/makereffect/cfm2024)
 
 &nbsp;  
 
@@ -64,7 +65,7 @@ Exhibits are not approved in the order received, and are reviewed and approved i
 
 Unfortunately, we do not have space at the event for all exhibit applications. Please ensure that you highlight your exhibit with good photos / video / description when you submit. We also maintain a balance between selling / non-selling exhibits and a good mix of the type of exhibits.
 
-{%endcomment%}
+
 
 
 ---
