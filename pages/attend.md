@@ -29,13 +29,14 @@ Central Florida Expo Center & Fairgrounds
 
 **Parking is FREE!**
 
-Explore more than [250 Exhibits and Hands-on Activities](/makers) to find your favorites!
+Explore more than [200 Exhibits and Hands-on Activities](/makers) to find your favorites!
 
 Check out the Maker Faire [Schedule](/schedule) and [Program](/program) to plan your weekend!
 
+{%comment%}
 # Tickets will be on-sale later this year. Please check back or follow-us on social media
 
-{%comment%}
+
 Don't Miss the Talks, Panels & Performances on the [Main Stage](/stage)!
 <a href="/stage"><img src="/assets/images/stage/stage-header-MFO23.jpg" style="max-width: 100%;"></a>
 {%endcomment%}
@@ -52,7 +53,7 @@ Every ticket purchased online for Maker Faire Orlando **by November 3rd, 2022**,
 ---
 {%endcomment%}
 
-{%comment%}
+
 ## Tickets
 Tickets available on [Humanitix](https://events.humanitix.com/makerfaireorlando) or use the ticket form below - Humanitix donates 100% of profits to children's charities!
 
@@ -89,7 +90,7 @@ Tickets available on [Humanitix](https://events.humanitix.com/makerfaireorlando)
 </script>
 
 ---
-{%endcomment%}
+
 
 {%comment%}
 ### Looking for an Exclusive Experience with Makers, Interactive Artists & BattleBots Teams?
