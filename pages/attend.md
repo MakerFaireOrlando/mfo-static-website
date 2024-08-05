@@ -31,9 +31,10 @@ Central Florida Expo Center & Fairgrounds
 
 Explore more than [200 Exhibits and Hands-on Activities](/makers) to find your favorites!
 
+{%comment%}
 Check out the Maker Faire [Schedule](/schedule) and [Program](/program) to plan your weekend!
 
-{%comment%}
+
 # Tickets will be on-sale later this year. Please check back or follow-us on social media
 
 
