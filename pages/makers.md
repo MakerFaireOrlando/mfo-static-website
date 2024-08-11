@@ -8,13 +8,14 @@ redirect-from:
 scrolltop: true
 ---
 <div class="container">
-<h1>Past Maker Exhibits</h1>
+<h1>Maker Exhibits</h1>
 
 {%comment%}
 We haven't opened our Call For Makers yet for {{site.event_year}}, but you can see our past exhibits below to see the type of exhibits you can find at Maker Faire Orlando!<br><br>
-{%endcomment%}
+
 
 We haven't started approving exhibits for Maker Faire Orlando {{site.event_year}}, but you can see our past exhibits below get a feel for the event!<br><br>
+{%endcomment%}
 
 <p>Interested in Exhibiting at Maker Faire Orlando? <a href="/exhibit-at-maker-faire-orlando/">Learn more about exhibiting!</a> </p>
 
