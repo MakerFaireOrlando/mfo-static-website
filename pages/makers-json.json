@@ -5,7 +5,7 @@ permalink: /makers-json/
 #thats why all the contol tags are inline
 ---
 
-{ "attend_link": "https://makers.makerfaireorlando.com/attend",
+{ "attend_link": "https://www.makerfaireorlando.com/attend",
 "accepteds_count": {{ site.exhibits.size }},
 "accepteds":[{% for exhibit in site.exhibits limit: page.limit %}{
       "id": "{{ exhibit.exhibit-id }}",

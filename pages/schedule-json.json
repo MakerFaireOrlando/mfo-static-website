@@ -1,0 +1,21 @@
+---
+#front matter required!
+permalink: /schedule-json/
+#whitespace is a pain with this version of jekyll
+#thats why all the contol tags are inline
+---
+
+{ "schedule_link": "https://www.makerfaireorlando.com/schedule",
+"events":[{% for event in site.data.schedule limit: page.limit %}{
+      "title": {{ event.title | smartify | jsonify }},
+      "location": {{ event.location | smartify | jsonify }},
+      "description": {{ event.description | smartify | jsonify }},
+      "date": {{ event.date | smartify | jsonify }},
+      "enddate": {{ event.enddate | smartify | jsonify }},
+      "image": {{ event.image | absolute_url | escape }},
+      "url": {{ event.url | absolute_url | escape }}            
+      }
+    }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+
+]}
