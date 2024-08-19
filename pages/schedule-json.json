@@ -12,8 +12,8 @@ permalink: /schedule-json/
       "description": {{ event.description | smartify | jsonify }},
       "date": {{ event.date | smartify | jsonify }},
       "enddate": {{ event.enddate | smartify | jsonify }},
-      "image": {{ event.image | absolute_url | escape }},
-      "url": {{ event.url | absolute_url | escape }}            
+      "image": "{{ event.image | absolute_url | escape }}",
+      "url": "{{ event.url | absolute_url | escape }}"            
       }
     }{% unless forloop.last %},{% endunless %}
 {% endfor %}
