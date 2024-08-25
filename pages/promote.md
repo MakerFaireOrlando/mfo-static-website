@@ -12,7 +12,7 @@ Tell your fans, friends and family they can see you at Maker Faire Orlando! Just
 
 ### Web Badge
 
-<a href="/assets/images/site-branding/2023/MFO2023_Round_logo_V3_w_date.jpg"><img src="/assets/images/site-branding/2023/MFO2023_Round_logo_V3_w_date.jpg" alt="Maker Faire Orlando 2023 round logo" width="400" /></a>
+<a href="/assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg"><img src="/assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg" alt="Maker Faire Orlando 2024 round logo" width="400" /></a>
 
 
 [Email us](mailto:makers@makerfaireorlando.com) if you need a larger or vector version of the image above.
@@ -21,7 +21,7 @@ Tell your fans, friends and family they can see you at Maker Faire Orlando! Just
 
 Suggested and Common Maker Faire Hashtags
 
-#MFO2023\
+#MFO2024\
 #MakerFaire\
 #RobotRuckus\
 #OrlandoMakers\
@@ -43,18 +43,18 @@ Postcards, Flyers & Social Images
 
 Postcards available at MakerFX Makerspace, FamiLAB, Skycraft, Tampa Hackerspace, Rockler Woodworking and more.  [Email us](mailto:makers@makerfaireorlando.com) if you need a large quantity of postcards for your school, office, group, or location. Postcard images are linked to high-res PDFs.
 
-<a href="/assets/pdf/2023/MFO23-card-front.pdf"><img src="/assets/pdf/2023/MFO23-card-front.jpg" alt="Maker Faire Orlando postcard  - front" width="600" /></a>
+<a href="/assets/pdf/2024/MFO24-card-front.pdf"><img src="/assets/pdf/2024/MFO24-card-front.jpg" alt="Maker Faire Orlando postcard  - front" width="600" /></a>
 
-<a href="/assets/pdf/2023/MFO23-card-back.pdf"><img src="/assets/pdf/2023/MFO23-card-back.jpg" alt="Maker Faire Orlando postcard - back" width="600"/></a>
+<a href="/assets/pdf/2024/MFO24-card-back.pdf"><img src="/assets/pdf/2024/MFO24-card-back.jpg" alt="Maker Faire Orlando postcard - back" width="600"/></a>
 
-
+{%comment%}
 ### Flyers, Posters & More
 
-<a href="/assets/pdf/2023/MFO23-poster.pdf"><img src="/assets/pdf/2023/MFO23-poster.jpg" alt="Maker Faire Orlando poster" width="600"/></a>
+<a href="/assets/pdf/2024/MFO24-poster.pdf"><img src="/assets/pdf/2024/MFO24-poster.jpg" alt="Maker Faire Orlando poster" width="600"/></a>
 
 
 Poster image is linked to high-res PDF.
-
+{%endcomment%}
 
 ---
 
