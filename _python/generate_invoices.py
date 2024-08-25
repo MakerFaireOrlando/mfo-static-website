@@ -50,9 +50,9 @@ class color:
 
 
 #settings
-eventYear = 2023
-formCFM = "Call For Makers MFO2023"
-formRuckus = "CFM - Ruckus - MFO2023"
+eventYear = 2024
+formCFM = "Call For Makers MFO2024"
+formRuckus = "CFM - Ruckus - MFO2024"
 
 outputAll = False #this is now set with a command line param, don't change it here
 
@@ -139,7 +139,7 @@ def createPayPalInvoice(token, exhibitID, makerEmail, makerFirstName, makerLastN
                 "quantity": "1",
                 "unit_amount": {
                     "currency_code": "USD",
-                    "value": "100.00"
+                    "value": "150.00"
                 },
                 "unit_of_measure": "AMOUNT"
             }
@@ -356,7 +356,7 @@ def export(outputAll):
                     fee = getAnswerByName(ans,"registrationFee")
                 else:
                     iType = "seller"
-                    fee = "100.00"
+                    fee = "150.00"
 
 
                 findResp = findPayPalInvoice(pp_access_token, mfoID)
@@ -423,7 +423,7 @@ def export(outputAll):
     print("Total Invoiced: " + str(totalInvoiced))
     print("Combot Robots: " + str(countRobots))
     print("Selling: " + str(countSelling))
-    print("% Vendor {:.1f}%".format((countSelling/countVisible)*100))
+    print("% Vendor {:.1f}%".format((countSelling/countVisible)*150))
     print("---------------------------------------------------------------------------")
     print("Fees Not Required: " + str(countFeeNotReq))
 #    print("Fees Waived: " + str(countFeeWaived))
@@ -433,8 +433,8 @@ def export(outputAll):
     print("Fees Sent: " + str(countFeeSent))
     print("Fees Paid: " + str(countFeePaid))
     print("---------------------------------------------------------------------------")
-    #print("Paid %:" + str(countFeePaid / countFeeSent) * 100)
-    print(color.BOLD + "Paid {:.1f}%".format((countFeePaid / (countFeeSent + countFeePaid))*100) + color.END)
+    #print("Paid %:" + str(countFeePaid / countFeeSent) * 150)
+    print(color.BOLD + "Paid {:.1f}%".format((countFeePaid / (countFeeSent + countFeePaid))*150) + color.END)
     print("")
     print("")
 

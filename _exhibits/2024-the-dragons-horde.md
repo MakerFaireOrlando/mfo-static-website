@@ -8,12 +8,12 @@ exhibit-id: 24-44
 space-number: Unassigned
 description: "A collection of handmade hand painted fantasy creature sculptures made by artist Cid Snook."
 description-long: "A collection of handmade hand painted fantasy creature sculptures made by artist Cid Snook. Mainly featuring dragons, but also features kitsune (foxes), wolves, and a collection of figurines made by hand in clay."
-image: /assets/images/exhibit-images/24-44-exhibit-the-dragons-horde-img-20211112-195402509-large.jpg
+image: /assets/images/exhibit-images/24-44-exhibit-the-dragons-horde-dragons-large.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/24-44-exhibit-the-dragons-horde-img-20211112-195402509-small.jpg
-  medium: /assets/images/exhibit-images/24-44-exhibit-the-dragons-horde-img-20211112-195402509-medium.jpg
-  large: /assets/images/exhibit-images/24-44-exhibit-the-dragons-horde-img-20211112-195402509-large.jpg
-  full: /assets/images/exhibit-images/24-44-exhibit-the-dragons-horde-img-20211112-195402509-full.jpg
+  small: /assets/images/exhibit-images/24-44-exhibit-the-dragons-horde-dragons-small.jpg
+  medium: /assets/images/exhibit-images/24-44-exhibit-the-dragons-horde-dragons-medium.jpg
+  large: /assets/images/exhibit-images/24-44-exhibit-the-dragons-horde-dragons-large.jpg
+  full: /assets/images/exhibit-images/24-44-exhibit-the-dragons-horde-dragons-full.jpg
 additional-images: 
   - 1:
     small: /assets/images/exhibit-images/24-44-exhibit-addl1-the-dragons-horde-img-20191020-203630186-small.jpg
@@ -32,8 +32,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2024-08-06 11:43:35"
-last-modified-jotform: "2024-08-11 16:28:45"
-last-exported: "2024-08-11 16:43:46"
+last-modified-jotform: "2024-08-24 09:16:45"
+last-exported: "2024-08-25 14:27:35"
 sitemap: false
 
 ---
