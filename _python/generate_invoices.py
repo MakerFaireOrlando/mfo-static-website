@@ -321,7 +321,8 @@ def export(outputAll):
           mfoID = mfoID.strip()
 
           #hack for an invoice that WOULD NOT generate would always report cancelled
-          #if (mfoID == "22R-16"): mfoID = "22R-16-F"
+          #if (mfoID == "22R-16"): mfoID = "22R-16-F"   
+          if (mfoID == "24-30"):  mfoID="24-30-2"
 
           viz = False
           vizAns = getAnswerByName(ans,"visibility")
@@ -361,11 +362,15 @@ def export(outputAll):
 
                 findResp = findPayPalInvoice(pp_access_token, mfoID)
                 if ("not-found" in findResp):
-                    invResp = createPayPalInvoice(pp_access_token, mfoID, email, name['first'], name['last'], exhibitName, iType, fee)
+                    
+                    invResp = createPayPalInvoice(pp_access_token, mfoID, email, name['first'].strip(), name['last'].strip(), exhibitName.strip(), iType, fee)
+                    
                     if (invResp == 201):
                       print ("Invoice Generated" + color.END)
                       countInvoiceGenerated = countInvoiceGenerated + 1
-                    else: print ("ERROR GENERATING INVOICE!" + color.END)
+                    else: 
+                        print ("ERROR GENERATING INVOICE! (There is a hack to fix this where mfoID is set) Error Code:" + str(invResp) + color.END)
+                        print(mfoID + " " + email + " " + name['first'].strip() + " " + name['last'].strip() + " " + exhibitName.strip())
                 elif ("DRAFT" in findResp):
                     print (color.BOLD + "LOGIN TO PAYPAL AND SEND THE INVOICE!!" + color.END)
                     countFeeDraft = countFeeDraft + 1
