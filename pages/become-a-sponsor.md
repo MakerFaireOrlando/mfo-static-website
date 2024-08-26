@@ -27,8 +27,8 @@ If you'd like to help support STEAM (Science, Technology, Engineering, Arts & Ma
 
 ---
 
-<div style="margin-bottom:20px"><a href="/assets/pdf/2023/MFO2023-Sponsor-Packet-v1.pdf"><img src="/assets/images/MFO2023-Sponsor-Packet-Cover-v1.jpg" width="400px"></a></div>
-<div><a href="/assets/pdf/2023/MFO2023-Sponsor-Packet-v1.pdf">Download our sponsor packet</a> for more information on sponsorship opportunities, including activations and sponsorship benefits tailed for your goals!</div>
+<div style="margin-bottom:20px"><a href="/assets/pdf/2024/MFO2024-Sponsor-Packet-v1.pdf"><img src="/assets/images/MFO2024-Sponsor-Packet-Cover-v1.jpg" width="400px"></a></div>
+<div><a href="/assets/pdf/2024/MFO2024-Sponsor-Packet-v1.pdf">Download our sponsor packet</a> for more information on sponsorship opportunities, including activations and sponsorship benefits tailed for your goals!</div>
 
 ---
 <iframe width="1140" height="641" src="https://www.youtube.com/embed/g6SkFhdnwmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
