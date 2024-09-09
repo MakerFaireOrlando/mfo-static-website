@@ -62,7 +62,7 @@ additional-images:
     full: /assets/images/exhibit-images/24-13-exhibit-addl9-famousafterdeath-poster-2-full.jpg
 maker: 
   name: "Warren Hart"
-  description: "FAMOUSAFTERDEATH is an artist of many mediums
+  description: "FAMOUSAFTERDEATH is an artist of many mediums
 Mainly, art on antique books. Other mediums are , graphic design, 3d printed toys and laser cut art."
   image-primary: /assets/images/exhibit-images/24-13-maker-famousafterdeath-logo-medium.jpg
   website: https://linktr.ee/famousafterdeath
@@ -82,8 +82,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2024-07-31 18:31:02"
-last-modified-jotform: "2024-08-19 20:45:57"
-last-exported: "2024-08-24 09:15:09"
+last-modified-jotform: "2024-08-30 09:26:58"
+last-exported: "2024-09-09 10:54:38"
 sitemap: false
 
 ---

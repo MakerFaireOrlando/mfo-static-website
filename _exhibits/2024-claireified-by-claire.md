@@ -7,8 +7,8 @@ permalink: /exhibits/claireified-by-claire/
 exhibit-id: 24-38
 space-number: Unassigned
 description: "Fandom inspired handmade soap."
-description-long: "Fandom inspired handmade soap inspired by Disney, Marvel, Star Wars, Supernatural, Harry Potter, Anime, D&D, and more.
-
+description-long: "Fandom inspired handmade soap inspired by Disney, Marvel, Star Wars, Supernatural, Harry Potter, Anime, D&D, and more.
+
 We were vendors at Maker Faire last year as one of the outdoor vendors."
 image: /assets/images/exhibit-images/24-38-exhibit-claireified-by-claire-2023-05-25-14-10-54-large.jpg
 image-primary: 
@@ -29,8 +29,8 @@ additional-images:
     full: /assets/images/exhibit-images/24-38-exhibit-addl2-claireified-by-claire-2024-06-22-08-50-01-full.jpg
 maker: 
   name: "Claireified by Claire"
-  description: "Fandom inspired handmade soap inspired by Disney, Marvel, Star Wars, Supernatural, Harry Potter, Anime, D&D, and more.
-
+  description: "Fandom inspired handmade soap inspired by Disney, Marvel, Star Wars, Supernatural, Harry Potter, Anime, D&D, and more.
+
 We were at Maker Faire last year for the first time. We were one of the outdoor vendors."
   image-primary: /assets/images/exhibit-images/24-38-maker-claireified-by-claire-cbc-lobo-color-medium.png
   website: http://www.claireifiedbyclaire.com
@@ -47,8 +47,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2024-08-05 12:46:05"
-last-modified-jotform: "2024-08-25 15:34:25"
-last-exported: "2024-08-25 17:35:53"
+last-modified-jotform: "2024-08-30 09:26:56"
+last-exported: "2024-09-09 10:52:29"
 sitemap: false
 
 ---

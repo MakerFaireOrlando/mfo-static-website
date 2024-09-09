@@ -7,10 +7,10 @@ permalink: /exhibits/mollietees-creations-and-tales-of-the-undead-crew/
 exhibit-id: 24-30
 space-number: Unassigned
 description: "MTC & TotUC take everyday items otherwise discarded and turn them into one of a kind art! "
-description-long: "Mollietees Creations sews all kind of cool one of a kind gifts - totes, accessories, kitchenware, pet toys and more - all upcycled out of second hand T-shirts.
-
-Tales of the Undead Crew is the original art of Jahnny Aponte hand painted on purses, wallets and records as well as hand made chunky funky punky jewelry. 
-
+description-long: "Mollietees Creations sews all kind of cool one of a kind gifts - totes, accessories, kitchenware, pet toys and more - all upcycled out of second hand T-shirts.
+
+Tales of the Undead Crew is the original art of Jahnny Aponte hand painted on purses, wallets and records as well as hand made chunky funky punky jewelry. 
+
 Everything we make had a life before us and hopefully will have a long life after us. We love that we can keep otherwise discarded things in the community and our of landfill and hope others will follow our examples to keep using and reusing what they have in creative ways! "
 image: /assets/images/exhibit-images/24-30-exhibit-mollietees-creations-and-tales-of-the-undead-crew-inbound2158649737001543834-large.jpg
 image-primary: 
@@ -51,8 +51,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2024-08-04 14:05:10"
-last-modified-jotform: "2024-08-25 16:07:03"
-last-exported: "2024-08-25 17:35:54"
+last-modified-jotform: "2024-09-02 18:50:09"
+last-exported: "2024-09-09 10:53:27"
 sitemap: false
 
 ---
