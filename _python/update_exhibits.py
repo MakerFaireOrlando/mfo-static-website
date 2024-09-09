@@ -3,11 +3,14 @@
 #the vanilla pip install doesnt support python3
 #pip install git+git://github.com/jotform/jotform-api-python.git
 
+#sept 2024 - I had to do the following on windows
+#pip install git+https://github.com/jotform/jotform-api-python.git
 
-from jotform import *
+
+from jotform import *        #see notes above 
 import pprint
 import sys
-import yaml
+import yaml                  #pip install pyyaml
 from slugify import slugify  #pip install python-slugify for python3
 import unicodedata
 import os
