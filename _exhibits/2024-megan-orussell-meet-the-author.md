@@ -28,8 +28,8 @@ additional-images:
 website: "https://meganorussell.com"
 maker: 
   name: "Megan O'Russell"
-  description: "I am an Orlando based author with thirty-one books across eight series. My work ranges from epic fantasy to paranormal dystopian.
-At my booth I sell my own books as well as a select, series related items. 
+  description: "I am an Orlando based author with thirty-one books across eight series. My work ranges from epic fantasy to paranormal dystopian.
+At my booth I sell my own books as well as a select, series related items. 
  "
   image-primary: /assets/images/exhibit-images/24-11-maker-megan-orussell-meet-the-author-megan-orlowski-medium.jpg
   website: https://meganorussell.com/
@@ -44,8 +44,8 @@ categories:
   - slug: writing-and-publishing
     name: Writing and Publishing
 created-jotform: "2024-07-31 14:46:08"
-last-modified-jotform: "2024-08-30 09:26:59"
-last-exported: "2024-09-09 10:54:43"
+last-modified-jotform: "2024-08-19 20:45:58"
+last-exported: "2024-08-24 09:15:09"
 sitemap: false
 
 ---
