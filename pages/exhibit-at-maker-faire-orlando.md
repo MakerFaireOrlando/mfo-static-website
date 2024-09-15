@@ -30,16 +30,15 @@ Startup businesses are encouraged to contact us at <makers@makerfaireorlando.com
 
 ---
 
-
-#### Our Call For Makers deadline is August 31st.
-
 {%comment%}
+#### Our Call For Makers deadline is August 31st.
+{%endcomment%}
+
 Our application deadline has passed, however we are still accepting applications with placement priority for non-selling makers and community groups.
 
 **Selling makers: You are welcome to continue to submit applications and they will be added to our waitlist in the event we have selling exhibit cancellations.** Interior space will be most limited, indicating flexibility on location (indoor / outdoor) will increase your odds of being accepted.
-{%endcomment%}
 &nbsp;
-
+<br><br>
 #### What You Will Need to Apply
 
 * Maker / Maker Group Information - Name, Image (logo or pic), website, social media pages, etc.
