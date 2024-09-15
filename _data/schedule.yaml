@@ -2,256 +2,98 @@
 
 - title: Maker Faire Begins!
   description: Welcome to Day 1 of Maker Faire Orlando!<br>Make sure to check out the <a href="/makers">list of exhibits, hands-on workshops and more so you don't miss any of the action!</a>
-  date: 2023-11-04 10:00:00
-  image: /assets/images/site-branding/2023/MFO2023_Round_logo_V3_w_date.jpg
+  date: 2024-11-09 10:00:00
+  image: /assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg
 
 
 - title: Power Racing - Qualifying
   location: Power Racing Track
   description: These tiny electric racers are ready to race for glory - you can stop by the track to see the qualifying action!
-  date: 2023-11-04 10:30:00
+  date: 2024-11-09 10:30:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
-
-- title: Knight Fights!
-  description: Meet the Florida Armored Combat Club and see demos of armor and weaponry! Then stop back on Sunday for scheduled <a href="/exhibits/knight-fights/">Knight&nbsp;Fights</a> including Defend the Pumpkin, 2v2 / 3v3, and duels!
-  location: Knight Fights Arena (Outdoor)
-  date: 2023-11-04 11:00:00
-  enddate: 2023-11-04 17:00:00
-  image: /assets/images/exhibit-images/23-134-exhibit-knight-fights-sam-and-gary-long-sword-zoom-small.jpg
-  url: /exhibits/knight-fights/
-
-
-- title: Theme Park Makers Panel
-  location: Maker Faire Stage
-  description: Hear from professional makers in the Themed Entertainment industry including Bill Butler of <a href="http://www.garnerholt.com">Garner Holt Productions</a>, Scott Harkless of <a href="https://www.alcornmcbride.com">Alcorn McBride</a> and the team at Universal Creative.
-  date: 2023-11-04 11:00:00
-  enddate: 2023-11-04 12:00:00
-  image: /assets/images/sponsors/universal-creative.png
 
 - title: Power Racing - Relay Race
   location: Power Racing Track
   description:
-  date: 2023-11-04 11:30:00
+  date: 2024-11-09 11:30:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
 
-- title: Musical Telsa Coil Show
-  location: Spirit Building
-  description: The High Voltage Guys will be creating music with a Telsa coil! Stay and play with all the high voltage devices!
-  date: 2023-11-04 11:30:00
-  enddate: 2023-11-04 11:40:00
-  image: /assets/images/exhibit-images/23-57-exhibit-the-high-voltage-guys-43-5629-7249-small.jpeg
-  url: /exhibits/the-high-voltage-guys/
-
 - title: Music Makers
   location: Maker Faire Stage
-  description: Grab lunch and join us for some live music from <a href="/exhibits/earth-tones/">earth tones</a>!
-  date: 2023-11-04 12:00:00
-  enddate: 2023-11-04 13:45:00
+  description: Grab lunch and join us for some music!
+  date: 2024-11-09 12:00:00
+  enddate: 2024-11-09 13:45:00
 
 - title: Power Racing - Sprint Race 1
   location: Power Racing Track
   description:
-  date: 2023-11-04 13:00:00
+  date: 2024-11-09 13:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
-
-- title: Musical Telsa Coil Show
-  location: Spirit Building
-  description: The High Voltage Guys will be creating music with a Telsa coil! Stay and play with all the high voltage devices!
-  date: 2023-11-04 13:30:00
-  enddate: 2023-11-04 13:40:00
-  image: /assets/images/exhibit-images/23-57-exhibit-the-high-voltage-guys-43-5629-7249-small.jpeg
-  url: /exhibits/the-high-voltage-guys/
-
-- title: Magic Wheelchair Builders Panel
-  location: Maker Faire Stage
-  description: Learn about the history of building epic wheelchair costumes, the impact of inclusive cosplay,
-    and how to get involved! Featuring special guest builders behind amazing <a href="https://www.magicwheelchair.org/">Magic Wheelchair</a>
-    costumes and Christine Getman, Executive Director of Magic Wheelchair.
-  date: 2023-11-04 14:00:00
-  enddate: 2023-11-04 14:50:00
-  image: /assets/images/magic-wheelchair-logo.jpg
-
-- title: Cosplay Creators
-  location: Maker Faire Stage
-  description: Hear from amazing cosplay guests including <a href="https://www.tiktok.com/@allison.chase.cosplay">Allison Chase</a> and <a href="https://www.instagram.com/schac_attack/">Jen Schachter</a>
-  date: 2023-11-04 15:00:00
-  enddate: 2023-11-04 15:50:00
 
 - title: Power Racing - Meet & Greet
   location: Power Racing Track
   description: Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!
-  date: 2023-11-04 13:00:00
+  date: 2024-11-09 13:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
-
-- title: Musical Telsa Coil Show
-  location: Spirit Building
-  description: The High Voltage Guys will be creating music with a Telsa coil! Stay and play with all the high voltage devices!
-  date: 2023-11-04 15:30:00
-  enddate: 2023-11-04 15:40:00
-  image: /assets/images/exhibit-images/23-57-exhibit-the-high-voltage-guys-43-5629-7249-small.jpeg
-  url: /exhibits/the-high-voltage-guys/
-
-- title: Nerd Nite Orlando
-  location: Maker Faire Stage
-  description: The Nerd Nite Orlando team is taking over the Maker Faire stage and bringing some amazing Nerds to share their thoughts with you!
-  date: 2023-11-04 16:00:00
-  enddate: 2023-11-04 16:50:00
-  image: /assets/images/nerd-nite-logo.jpg
-
 
 - title: Power Racing - Sprint Race 2
   location: Power Racing Track
   description:
-  date: 2023-11-04 16:00:00
+  date: 2024-11-09 16:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
 
 - title: Maker Faire Day 1 is Over!
-  description: We will see you Tomorrow! (or at the VIP Fundraiser event on Saturday night!)
-  date: 2023-11-04 17:00:00
-  image: /assets/images/site-branding/2023/MFO2023_Round_logo_V3_w_date.jpg
-
-
-- title: Maker Faire Orlando & Robot Ruckus VIP Fundraiser!
-  location: Maker Faire Stage
-  description: "Join Special Guest Makers & BattleBots teams for a fundraiser benefitting The Maker Effect Foundation. This is a separately ticketed event.
-                <a href='https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser'>More Info</a>"
-  date: 2023-11-04 17:00:00
-  enddate: 2023-11-04 20:00:00
-  image: /assets/images/site-branding/tmef_square_red_rocket.png
-
+  description: We will see you Tomorrow!
+  date: 2024-11-09 17:00:00
+  image: /assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg
 
 - title: Maker Faire Resumes!
-  description: Welcome back for day 2 of Maker Faire Orlando 2023!
-  date: 2023-11-05 10:00:00
-  image: /assets/images/site-branding/2023/MFO2023_Round_logo_V3_w_date.jpg
-
-- title: Knight Fights!
-  description: Join the Florida Armored Combat Club for <a href="/exhibits/knight-fights/">Knight&nbsp;Fights</a> including Defend the Pumpkin, 2v2 / 3v3, and duels!
-  location: Knight Fights Arena (Outdoor)
-  date: 2023-11-05 11:00:00
-  enddate: 2023-11-05 11:30:00
-  image: /assets/images/exhibit-images/23-134-exhibit-knight-fights-sam-and-gary-long-sword-zoom-small.jpg
-  url: /exhibits/knight-fights/
-
-- title: BattleBots Panel
-  location: Maker Faire Stage
-  description: Hear from your favorite BattleBots team members and ask your burning questions!
-  date: 2023-11-05 11:00:00
-  enddate: 2023-11-05 12:00:00
-  image: /assets/images/site-branding/robot_ruckus_logo_300w.png
-
+  description: Welcome back for day 2 of Maker Faire Orlando 2024!
+  date: 2024-11-10 10:00:00
+  image: /assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg
 
 - title: Power Racing - Sprint Race 3
   location: Power Racing Track
   description:
-  date: 2023-11-05 11:00:00
+  date: 2024-11-10 11:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
 
-- title: Musical Telsa Coil Show
-  location: Spirit Building
-  description: The High Voltage Guys will be creating music with a Telsa coil! Stay and play with all the high voltage devices!
-  date: 2023-11-05 11:30:00
-  enddate: 2023-11-05 11:40:00
-  image: /assets/images/exhibit-images/23-57-exhibit-the-high-voltage-guys-43-5629-7249-small.jpeg
-  url: /exhibits/the-high-voltage-guys/
-
 - title: Music Makers
   location: Maker Faire Stage
-  description: Grab lunch and join us for some live music from <a href="/exhibits/earth-tones/">earth tones</a>!
-  date: 2023-11-04 12:00:00
-  enddate: 2023-11-04 13:45:00
+  description: Grab lunch and join us for some music!
+  date: 2024-11-09 12:00:00
+  enddate: 2024-11-09 13:45:00
 
 - title: Power Racing - Meet & Greet
   location: Power Racing Track
   description: Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!
-  date: 2023-11-05 13:00:00
+  date: 2024-11-10 13:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
-
-- title: Knight Fights!
-  description: Join the Florida Armored Combat Club for <a href="/exhibits/knight-fights/">Knight&nbsp;Fights</a> including Defend the Pumpkin, 2v2 / 3v3, and duels!
-  location: Knight Fights Arena (Outdoor)
-  date: 2023-11-05 13:00:00
-  enddate: 2023-11-05 13:30:00
-  image: /assets/images/exhibit-images/23-134-exhibit-knight-fights-sam-and-gary-long-sword-zoom-small.jpg
-  url: /exhibits/knight-fights/
-
-- title: Musical Telsa Coil Show
-  location: Spirit Building
-  description: The High Voltage Guys will be creating music with a Telsa coil! Stay and play with all the high voltage devices!
-  date: 2023-11-05 13:30:00
-  enddate: 2023-11-05 13:40:00
-  image: /assets/images/exhibit-images/23-57-exhibit-the-high-voltage-guys-43-5629-7249-small.jpeg
-  url: /exhibits/the-high-voltage-guys/
-
-- title: Assistive Technology Panel
-  location: Maker Faire Stage
-  description: Hear how makers are making a difference for those with disabilities.
-                Panelists include Caleb Kraft of the <a href="https://thecontrollerproject.com/">Controller Project</a>
-                and <a href="https://ablegamers.org/">AbleGamers</a>, Bill Binko of <a href="http://atmakers.org/">ATMakers</a>,
-                and members of the Roaring Riptide FIRST Robotics team who are hosting the <a href="/exhibits/firstwithat-a-tidal-wave-of-assistive-technology/">FIRST with AT</a> exhibit.
-  date: 2023-11-05 14:00:00
-  enddate: 2023-11-05 14:50:00
 
 - title: Power Racing - Endurance Race
   location: Power Racing Track
   description:
-  date: 2023-11-05 14:30:00
+  date: 2024-11-10 14:30:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
-
-- title: Props Producers Panel
-  location: Maker Faire Stage
-  description: Hear from master prop makers including <a href="https://www.instagram.com/schac_attack/">Jen Schachter</a>, <a href="https://www.tiktok.com/@propstohistory/">Michael Corrie</a> and <a href="https://www.instagram.com/stefanfx79/">Stefan Price</a>
-  date: 2023-11-05 15:00:00
-  enddate: 2023-11-05 15:50:00
-
-- title: Knight Fights!
-  description: Join the Florida Armored Combat Club for <a href="/exhibits/knight-fights/">Knight&nbsp;Fights</a> including Defend the Pumpkin, 2v2 / 3v3, and duels!
-  location: Knight Fights Arena (Outdoor)
-  date: 2023-11-05 15:00:00
-  enddate: 2023-11-05 15:30:00
-  image: /assets/images/exhibit-images/23-134-exhibit-knight-fights-sam-and-gary-long-sword-zoom-small.jpg
-  url: /exhibits/knight-fights/
-
-- title: Musical Telsa Coil Show
-  location: Spirit Building
-  description: The High Voltage Guys will be creating music with a Telsa coil! Stay and play with all the high voltage devices!
-  date: 2023-11-05 15:30:00
-  enddate: 2023-11-05 15:40:00
-  image: /assets/images/exhibit-images/23-57-exhibit-the-high-voltage-guys-43-5629-7249-small.jpeg
-  url: /exhibits/the-high-voltage-guys/
-
-- title: Giving Back through Art - The Artists behind Maker Faire Orlando
-  location: Maker Faire Stage
-  description: Meet the artists behind the artwork of Maker Faire Orlando over the past 11 years including Graven Ravenwolf of <a href="/exhibits/digital-warpaint/">Digital Warpaint</a>, creator of this year's amazing artwork!
-  date: 2023-11-05 16:00:00
-  enddate: 2023-11-05 16:50:00
 
 - title: Power Racing - Awards Ceremony
   location: Power Racing Track
   description: The best of the best are on the podium after a long weekend of racing. Cheer them on to glory!
-  date: 2023-11-05 16:00:00
+  date: 2024-11-10 16:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
 
-- title: Knight Fights!
-  description: Join the Florida Armored Combat Club for <a href="/exhibits/knight-fights/">Knight&nbsp;Fights</a> including Defend the Pumpkin, 2v2 / 3v3, and duels!
-  location: Knight Fights Arena (Outdoor)
-  date: 2023-11-05 16:30:00
-  enddate: 2023-11-05 17:00:00
-  image: /assets/images/exhibit-images/23-134-exhibit-knight-fights-sam-and-gary-long-sword-zoom-small.jpg
-  url: /exhibits/knight-fights/
-
 - title: Maker Faire Concludes
-  description: Maker Faire Orlando 2023 is over - we will see you next year!
-  date: 2023-11-05 17:00:00
-  image: /assets/images/site-branding/2023/MFO2023_Round_logo_V3_w_date.jpg
+  description: Maker Faire Orlando 2024 is over - we will see you next year!
+  date: 2024-11-10 17:00:00
+  image: /assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg
 
 #get start times from Ruckus - Sat at 11? Sunday at 10?

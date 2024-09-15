@@ -12,7 +12,6 @@ isotope: true
 
 #### Stay Tuned for exciting announcements with scheduled activities, special guests, panel discussions, musical performances and more!
 
-{%comment%}
 
 Use the schedule below to plan your weekend to catch the panel talks and other scheduled activities! Note that most of the [exhibits](/exhibits) and [hands-on activities](/makers/?category=hands-on-workshop) at Maker Faire Orlando happen continuously throughout the weekend. <BR>
 
@@ -117,7 +116,7 @@ Event schedule subject to change at any time based on the availability of exhibi
 
 Most exhibits and hands-on experiences at Maker Faire Orlando run continuously throughout the event.
 
-
+{%comment%}
 For competition times and more, check out our [event program](/program) below which has additional details. Click the images below for a PDF version of the program.
 
 
@@ -127,22 +126,21 @@ For competition times and more, check out our [event program](/program) below wh
 
 <a href="/assets/images/program/MFO_2022_Program.pdf"><img src="/assets/images/program/MFO_2022_Program_Page_2-web.jpg" alt="Maker Faire Orlando 2022 event program page 2" width="800" /></a>
 
+{%endcomment%}
 
 ---
 
 ## Need Tickets?
-Hop over to our [tickets](/attend) page for more information including our free ticket programs for first responders, educators, and veterans and details on how to win a professional 3D printer package from DeltaMaker 3D!
+Hop over to our [tickets](/attend) page for more information including our free ticket programs for first responders, educators, and veterans!
 
 
+{%comment%}
 ___
-
 ## Want Even More Maker Faire & Robot Ruckus fun with special guests and BattleBots Teams?
 Check out the [Maker Faire Orlando & VIP Fundraiser](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser) happening after-hours on Saturday the 5th after the first day of Maker Faire Orlando. This event requires a separate ticket. [Learn More](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser)
-
-
+{%endcomment%}
 
 ---
 
 Exhibiting makers and available experiences are subject to change based on community availablity.
 
-{%endcomment%}
