@@ -27,10 +27,11 @@ Volunteering at {{site.event_name}} {{site.event_year}} is a great way to give b
 
 Volunteers who work at least a 4 hour shift will receive free admission for the day they volunteer (if you volunteer late in the day, you are welcome to enjoy the event before your volunteer shift, and if you volunteer for setup day, you can come back for a full day on either Saturday or Sunday). Volunteers also receive a {{site.event_name}} {{site.event_year}} volunteer t-shirt.
 
-# Volunteer registration typically opens in September, please check back or follow us on social media.
-
 {%comment%}
-# Volunteering at {{site.event_name}} {{site.event_year}}
+# Volunteer registration typically opens in September, please check back or follow us on social media.
+{%endcomment%}
+
+## Volunteering at {{site.event_name}} {{site.event_year}}
 
 
 ---
@@ -52,32 +53,7 @@ Notes:
 ---
 ### Volunteer Shifts
 
-<iframe id="iframe-container" src="https://events.humanitix.com/maker-faire-orlando-2023-volunteer-signup/tickets?w=true&p=%23353337" width="100%" height="600px" frameborder="0"></iframe>
-<script>
-  var humanitix = {
-      findPos: function(obj) {
-          var curtop = 0;
-          if (obj.offsetParent) {
-          do {
-              curtop += obj.offsetTop;
-          } while ((obj = obj.offsetParent));
-          return [curtop];
-          }
-      }
-  };
-  window.addEventListener('message', function (e) {
-      if (e.origin !== "https://events.humanitix.com"){
-          return;
-      }   
-      var messageData = e.data;
-      var iframeEl = document.getElementById('iframe-container');
-      if (iframeEl && messageData && !isNaN(messageData.scrollHeight)){
-          iframeEl.style.height = messageData.scrollHeight + 'px';
-      }
-      if (iframeEl && messageData && messageData.pageChange) {
-        window.scroll(0, humanitix.findPos(iframeEl));
-    }
+<!-- Add the following to your website's HTML. -->
+<script src="https://events.humanitix.com/scripts/widgets/inline.js" type="module"></script>
+<iframe data-checkout="maker-faire-orlando-2024-volunteer-registration"></iframe>
 
-  }, false);
-</script>
-{%endcomment%}
