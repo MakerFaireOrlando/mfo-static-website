@@ -25,7 +25,7 @@ sponsors:
     url: https://disneyconnect.com/disneyworld/
     logo: Disney-Red-4C.png
     level: 3
-    active: true
+    active: false
   - name: Prusa Reseach
     url: https://www.prusa3d.com/
     logo: prusaresearch.png
@@ -35,12 +35,12 @@ sponsors:
     url: https://www.bocabearings.com/
     logo: BB-logo-full-color-small.png
     level: 4
-    active: true
+    active: false
   - name: TLC Engineering
     url: https://tlc-engineers.com/
     logo: tlc-engineering.jpg
     level: 5
-    active: true
+    active: false
   - name: DeltaMaker 3D Printers
     url: https://www.deltamaker.com
     logo: deltamaker-logo-3d-printers.png
@@ -80,12 +80,12 @@ sponsors:
     url: https://www.betafpv.com
     logo: beta-fpv-transparent.png
     level: 4
-    active: true
+    active: false
   - name: SainSmart
     url: https://www.sainsmart.com
     logo: sainsmart.jpg
     level: 4
-    active: true
+    active: false
   - name: Fulament
     url: https://www.fulament.com
     logo: fulament.png
@@ -95,7 +95,7 @@ sponsors:
     url: https://wiringtech.com/
     logo: WTI_Logo.png
     level: 5
-    active: true
+    active: false
   - name: Remix
     url: https://remixed.net
     logo: remixed-logo.png
@@ -110,14 +110,14 @@ sponsors:
     url: https://www.flux3dp.com
     logo: flux.png
     level: 4
-    active: true
+    active: false
   - name: Revopoint
     url: https://www.revopoint3d.com
     logo: revopoint.png
     level: 4
-    active: true
+    active: false
   - name: PCBWay
     url: https://www.pcbway.com
     logo: pcbway.png
     level: 4
-    active: true
+    active: false
