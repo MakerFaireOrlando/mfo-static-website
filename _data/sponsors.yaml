@@ -121,3 +121,8 @@ sponsors:
     logo: pcbway.png
     level: 4
     active: false
+  - name: Parikh Law
+    url: https://thefloridatriallawyer.com/
+    logo: parikh_law.png
+    level: 5
+    active: true
