@@ -16,7 +16,7 @@ image-primary:
   full: /assets/images/exhibit-images/24-105-exhibit-therianlovedesign-screenshot-2024-08-28-193412-full.png
 maker: 
   name: "TherianLoveDesign"
-  description: "Now, I know some people might think its weird to dress up a animal, but let me tell you, its the best decision I've ever made. I mean, who wouldn't want to be a majestic creature for a day? But lets be real, its not just about the costumes, its about embracing our true selves and socializing with other people. And yes that might mean walking around on all fours and eating raw meat, but that's just part of the fun! And let's not forget about the therapeutic benefits. I mean, who needs a therapist when you can just howl at the moon and roll around in the grass? Now, that what I call true animal therapy! So let's keep spreading therian love, one animal cosplay at a time. And in all seriousness, this is just pretend! We know we are human being, but life's too short to take ourselves seriously! Thanks for following me on this wild and furry journey. See you at the worlds greatest show and tell, Maker Faire Orlando!"
+  description: "Pix, the owner of TherianLoveDesign, is a 6th grader who is very creative and talented. she loves animals and soon became apart of the Furry Fandom and the Therian Community. She makes all of her masks with therian love and with a positive and floofy mindset."
   image-primary: /assets/images/exhibit-images/24-105-maker-therianlovedesign-img-1179-medium.JPEG
 categories: 
   - slug: art
@@ -27,11 +27,11 @@ categories:
     name: Craft
   - slug: education
     name: Education
-  - slug: fabric-arts
-    name: Fabric Arts
+  - slug: sewing
+    name: Sewing
 created-jotform: "2024-08-28 20:08:42"
-last-modified-jotform: "2024-09-15 14:20:42"
-last-exported: "2024-09-15 14:24:40"
+last-modified-jotform: "2024-09-18 19:32:20"
+last-exported: "2024-09-23 14:57:21"
 sitemap: false
 
 ---

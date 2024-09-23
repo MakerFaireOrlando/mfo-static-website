@@ -90,17 +90,18 @@ Tickets available on [Humanitix](https://events.humanitix.com/makerfaireorlando)
   }, false);
 </script>
 
----
-
 
 {%comment%}
+---
 ### Looking for an Exclusive Experience with Makers, Interactive Artists & BattleBots Teams?
 Check out the [Maker Faire Orlando & Robot Ruckus VIP Fundraiser](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser) happening after-hours on Saturday the 5th after the first day of Maker Faire Orlando. This event requires a separate ticket. [Learn More](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser)
 
----
 {%endcomment%}
 
-Follow us on social media or [subscribe to our email newsletter]( {{ site.newsletter_url }} ) for announcements.
+
+---
+
+## Discounted Ticket Programs
 
 **Homeschool educators receive free admission** to Maker Faire Orlando {{site.event_year}} with identification and documentation.
 Please see our [Homeschool Programs page](/homeschool) for more information including requirements and restrictions.
@@ -113,11 +114,12 @@ Please see our [Educators page](/educators) for more information.
 
 **First Responders, Active Military and Veterans receive free admission** to Maker Faire Orlando {{site.event_year}} with identification. Simply bring your identification to the ticket booth at the event to receive a free ticket per eligible person with identification.
 
-**Anti-Harassment Policy** Maker Faire Orlando has a zero-tolerance policy for harassment of any kind. Please see our [Anti-Harassment Policy](/anti-harassment) for more information.
+**Making For All** - individuals with an EBT card receive admission for only $5 per person per day. Simply bring your EBT card to the ticket booth at the event to receive a $5 ticket per eligible person with identification.
 
 ---
 
-More Information:
+
+## More Information
 
 * Weekend Passes cannot be shared between attendees.
 
@@ -131,11 +133,16 @@ More Information:
 
 * No pets are allowed, for their safety. Registered service animals are welcome.
 
+* **Anti-Harassment Policy** Maker Faire Orlando has a zero-tolerance policy for harassment of any kind. Please see our [Anti-Harassment Policy](/anti-harassment) for more information.
 
+---
+
+* Follow us on social media or [subscribe to our email newsletter]( {{ site.newsletter_url }} ) for announcements.
+
+---
 
 **Questions? Email <makers@makerfaireorlando.com>**
 
----
 {%comment%}
 *No Purchase Necessary. Tickets must be purchased by 11/3/2023. Two winners will be drawn, the first winner will have their choice of a DeltaMaker 3D Printer (model to be determined by DeltaMaker) or Flux Ador Laser Cutter and the second winner will receive the unclaimed tool. Limit one prize per person. To receive a single entry, mail your contact information (name, email address and phone number) to Maker Faire Orlando Maker Tool Giveaway c/o The Maker Effect Foundation, PO Box 3142, Windermere, FL 34786. Entries must be postmarked no later than 11/4/2023.
 {%endcomment%}
