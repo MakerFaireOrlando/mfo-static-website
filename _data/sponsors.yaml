@@ -84,8 +84,8 @@ sponsors:
   - name: SainSmart
     url: https://www.sainsmart.com
     logo: sainsmart.jpg
-    level: 4
-    active: false
+    level: 3
+    active: true
   - name: Fulament
     url: https://www.fulament.com
     logo: fulament.png
