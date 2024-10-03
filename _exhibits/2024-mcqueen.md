@@ -18,14 +18,14 @@ image-primary:
   full: /assets/images/exhibit-images/24R-84-exhibit-mcqueen-image-full.jpg
 maker: 
   name: "coconut"
-  description: "Just a family of four interested in robot combat. First competition excited to get started!"
+  description: "High school senior looking to pursue a degree in mechanical engineering. Built a combat robot for fun. First competition excited to get started!"
   image-primary: /assets/images/exhibit-images/24R-84-maker-mcqueen-fullsizer-medium.jpeg
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2024-09-19 14:32:10"
-last-modified-jotform: "2024-09-23 15:01:41"
-last-exported: "2024-09-23 15:02:55"
+last-modified-jotform: "2024-09-23 16:00:29"
+last-exported: "2024-09-23 19:04:32"
 sitemap: false
 
 ---
