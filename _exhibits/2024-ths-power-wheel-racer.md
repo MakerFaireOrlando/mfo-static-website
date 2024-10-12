@@ -5,6 +5,7 @@ title: "THS Power Wheel Racer"
 slug: ths-power-wheel-racer
 permalink: /exhibits/ths-power-wheel-racer/
 exhibit-id: 24-121
+exhibit-zone: "Power Racing Track"
 space-number: Unassigned
 description: "This is the power wheel race car for Tampa Hackerspace. "
 description-long: "This is the power wheel race car for Tampa Hackerspace. It's going to be Spider-man themed this year!"
@@ -23,8 +24,8 @@ categories:
   - slug: power-racing
     name: Power Racing
 created-jotform: "2024-09-05 15:01:35"
-last-modified-jotform: "2024-09-15 14:37:34"
-last-exported: "2024-09-15 14:38:01"
+last-modified-jotform: "2024-10-12 14:15:53"
+last-exported: "2024-10-12 15:42:17"
 sitemap: false
 
 ---

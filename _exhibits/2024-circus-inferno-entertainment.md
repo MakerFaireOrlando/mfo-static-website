@@ -5,6 +5,7 @@ title: "Circus Inferno Entertainment"
 slug: circus-inferno-entertainment
 permalink: /exhibits/circus-inferno-entertainment/
 exhibit-id: 24-130
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Circus Inferno Entertainment -variety show "
 description-long: "Circus inferno entertainment - variety show and entertainment offerings for your next event. "
@@ -77,8 +78,8 @@ categories:
   - slug: special-effects
     name: Special Effects
 created-jotform: "2024-09-16 12:51:04"
-last-modified-jotform: "2024-09-23 20:17:34"
-last-exported: "2024-09-29 14:09:35"
+last-modified-jotform: "2024-10-12 14:19:45"
+last-exported: "2024-10-12 15:42:17"
 sitemap: false
 
 ---

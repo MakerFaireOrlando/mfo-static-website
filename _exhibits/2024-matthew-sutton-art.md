@@ -5,6 +5,7 @@ title: "Matthew Sutton Art"
 slug: matthew-sutton-art
 permalink: /exhibits/matthew-sutton-art/
 exhibit-id: 24-123
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Professional Artist working LIVE to show and empower others that they can make art too! "
 description-long: "My name is MatthewSutton and I'm a full-time professional artist working primarily traditionally for the comic book industry. 
@@ -37,8 +38,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2024-09-09 12:39:09"
-last-modified-jotform: "2024-09-23 21:08:55"
-last-exported: "2024-09-29 14:09:56"
+last-modified-jotform: "2024-10-12 14:52:51"
+last-exported: "2024-10-12 15:42:17"
 sitemap: false
 
 ---

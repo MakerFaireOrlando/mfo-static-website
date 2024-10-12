@@ -5,7 +5,8 @@ title: "Drone Zone"
 slug: drone-zone
 permalink: /exhibits/drone-zone/
 exhibit-id: 24-117
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OF1, OF2, OF3, OF4, OF5, OF6, OG1, OG2, OG3, OG4, OG5, OG6"
 description: "Learn to Fly a drone at Maker Faire Orlando"
 description-long: "Have you wanted to fly a racing drone? Join Maker Faire Orlando and BetaFPV and learn to fly an FPV drone. A first person view (FVP) drone has a camera mounted at the front of the drone. With this camera, a flight controller and a pair VR like goggles or screen, you can experience flight like you're inside the drone. Learn about drone avionics and how makers design, enhance and repair drones"
 image: /assets/images/exhibit-images/24-117-exhibit-drone-zone-drone-zone-trainning-logo-large.jpg
@@ -32,8 +33,8 @@ categories:
   - slug: kits
     name: Kits
 created-jotform: "2024-09-04 16:31:39"
-last-modified-jotform: "2024-09-15 14:35:20"
-last-exported: "2024-09-15 14:35:58"
+last-modified-jotform: "2024-10-12 15:20:26"
+last-exported: "2024-10-12 15:42:17"
 sitemap: false
 
 ---

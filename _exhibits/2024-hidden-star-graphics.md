@@ -5,6 +5,7 @@ title: "Hidden Star Graphics"
 slug: hidden-star-graphics
 permalink: /exhibits/hidden-star-graphics/
 exhibit-id: 24-136
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Original comics. graphic novels, and Novels. 
 Original artwork and fanart and FIRE Art."
@@ -31,8 +32,8 @@ categories:
   - slug: writing-and-publishing
     name: Writing and Publishing
 created-jotform: "2024-09-20 10:09:43"
-last-modified-jotform: "2024-09-23 20:14:49"
-last-exported: "2024-09-29 14:09:06"
+last-modified-jotform: "2024-10-12 14:55:31"
+last-exported: "2024-10-12 15:42:17"
 sitemap: false
 
 ---

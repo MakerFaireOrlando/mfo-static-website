@@ -5,6 +5,7 @@ title: "NightFire Electronics"
 slug: nightfire-electronics
 permalink: /exhibits/nightfire-electronics/
 exhibit-id: 24-62
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "We offer Electronic Kits and Parts, original 3-D prints and epoxy resin crafts. "
 description-long: "Our kits are designed by us, here in Ocala, Fl. We offer all kinds from original LED projects to Arduino projects to Audio Amplifiers to power supplies to fun kits, even ghost detectors. Our 3-D prints are unique and awesome. Our epoxy resin product are specially made with Electronic SMT parts which is our specialty. We integrate Electronic parts into our 3-D designs and into our Epoxy Resin projects to create interesting designs. We provide the parts so you can do it, too."
@@ -52,8 +53,8 @@ categories:
   - slug: special-effects
     name: Special Effects
 created-jotform: "2024-08-16 11:07:07"
-last-modified-jotform: "2024-08-25 17:36:10"
-last-exported: "2024-08-30 09:26:20"
+last-modified-jotform: "2024-10-12 15:26:00"
+last-exported: "2024-10-12 15:42:22"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "FamiLAB"
 slug: familab
 permalink: /exhibits/familab/
 exhibit-id: 24-8
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Makerspace / Hackerspace in Longwood FL"
 description-long: "FamiLAB's mission is to be a community that fosters learning and creativity through hands-on projects, collaboration, and the sharing of skills & tools to improve ourselves and enrich the world around us. We’re a member-run community that provides space, tools, and fun for creative technical learning and projects. If you are looking for a great place to meet like-minded people, learn, collaborate, and have access to great tools, FamiLAB is the place for you! "
@@ -37,8 +38,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2024-07-30 09:52:02"
-last-modified-jotform: "2024-08-11 17:07:41"
-last-exported: "2024-08-11 17:47:10"
+last-modified-jotform: "2024-10-12 15:22:48"
+last-exported: "2024-10-12 15:42:26"
 sitemap: false
 
 ---

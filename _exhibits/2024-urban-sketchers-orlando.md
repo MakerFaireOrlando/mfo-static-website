@@ -5,6 +5,7 @@ title: "Urban Sketchers Orlando"
 slug: urban-sketchers-orlando
 permalink: /exhibits/urban-sketchers-orlando/
 exhibit-id: 24-61
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "The Urban Sketchers Orlando share their experience with the Maker Faire, one sketch at a time."
 description-long: "Urban Sketchers is a nonprofit organization dedicated to raising the artistic, storytelling, and educational value of location drawing, promoting its practice, and connecting people around the world who draw on location where they live and travel. We aim to show the world, one drawing at a time.
@@ -71,8 +72,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2024-08-15 21:11:03"
-last-modified-jotform: "2024-08-18 08:32:25"
-last-exported: "2024-08-18 08:39:31"
+last-modified-jotform: "2024-10-12 14:19:02"
+last-exported: "2024-10-12 15:42:22"
 sitemap: false
 
 ---

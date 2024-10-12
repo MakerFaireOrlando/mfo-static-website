@@ -5,6 +5,7 @@ title: "Southern R2 Builders Group"
 slug: southern-r2-builders-group
 permalink: /exhibits/southern-r2-builders-group/
 exhibit-id: 24-34
+exhibit-zone: "Spirit - East"
 space-number: Unassigned
 description: "We are a club that makes droids and robots from various Sci-Fi film franchises. "
 description-long: "We are a club that mostly makes R2 Droids from the Star Wars film and TV shows as a hobby. We are located all over Florida. We also do charity events with the droids. "
@@ -37,8 +38,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2024-08-04 17:13:31"
-last-modified-jotform: "2024-09-23 08:56:29"
-last-exported: "2024-09-23 14:57:24"
+last-modified-jotform: "2024-10-12 14:32:33"
+last-exported: "2024-10-12 15:42:23"
 sitemap: false
 
 ---

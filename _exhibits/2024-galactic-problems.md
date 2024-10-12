@@ -5,6 +5,7 @@ title: "Galactic Problems"
 slug: galactic-problems
 permalink: /exhibits/galactic-problems/
 exhibit-id: 24-35
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Illustrator and comic creator!"
 description-long: "Hi! I'm an illustrator and comic creator, making a variety of art. My current passion project is an original comic series titled Galactic Problems, which follows private investigators solving mysteries across the galaxy. I make other original art, as well as fan works for the series that inspire me. "
@@ -61,8 +62,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2024-08-04 20:21:01"
-last-modified-jotform: "2024-08-24 09:16:47"
-last-exported: "2024-08-25 14:27:36"
+last-modified-jotform: "2024-10-12 14:49:44"
+last-exported: "2024-10-12 15:42:23"
 sitemap: false
 
 ---

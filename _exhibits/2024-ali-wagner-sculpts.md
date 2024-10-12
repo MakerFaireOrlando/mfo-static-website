@@ -5,6 +5,7 @@ title: "Ali Wagner Sculpts"
 slug: ali-wagner-sculpts
 permalink: /exhibits/ali-wagner-sculpts/
 exhibit-id: 24-60
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Small sculptures from pop culture made to put on your walls and bring joy to your space!"
 description-long: "Ali Wagner Sculpts has the handmade fan art that you need, created by a nerd like you! Everything is hand sculpted, molded, cast, and then hand-painted by Ali. It's all so cute that you have to stop and look, or better yet, start your own collection! Each sculpture is one of a kind and is sure to delight, and adds a nice, unique touch to any room you might display them."
@@ -32,8 +33,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2024-08-15 19:22:35"
-last-modified-jotform: "2024-08-19 22:23:34"
-last-exported: "2024-08-24 09:15:08"
+last-modified-jotform: "2024-10-12 14:50:57"
+last-exported: "2024-10-12 15:42:22"
 sitemap: false
 
 ---

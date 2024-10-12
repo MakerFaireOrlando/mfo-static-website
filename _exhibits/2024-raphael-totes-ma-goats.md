@@ -5,6 +5,7 @@ title: "Raphael/Totes Ma Goats"
 slug: raphael-totes-ma-goats
 permalink: /exhibits/raphael-totes-ma-goats/
 exhibit-id: 24-124
+exhibit-zone: "Power Racing Track"
 space-number: Unassigned
 description: "Is it Raphael, is it Totes Ma Goats? Who can say, he's driving around too fast."
 description-long: "Part of the Power Wheels Racing Series. Raphael as been racing since 2017. Although taking a brief pause to become the great Totes Ma Goats in 2023, the kart has seen more races than most."
@@ -37,8 +38,8 @@ categories:
   - slug: power-racing
     name: Power Racing
 created-jotform: "2024-09-11 11:41:03"
-last-modified-jotform: "2024-09-15 14:39:38"
-last-exported: "2024-09-15 14:41:01"
+last-modified-jotform: "2024-10-12 14:14:29"
+last-exported: "2024-10-12 15:42:17"
 sitemap: false
 
 ---

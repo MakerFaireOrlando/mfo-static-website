@@ -5,6 +5,7 @@ title: "Chaordicwear"
 slug: chaordicwear
 permalink: /exhibits/chaordicwear/
 exhibit-id: 24-83
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Steampunk, Vintage inspired, 
 One of a kind jewelry you can wear everyday!
@@ -83,8 +84,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2024-08-21 16:08:06"
-last-modified-jotform: "2024-09-09 11:02:15"
-last-exported: "2024-09-10 23:22:54"
+last-modified-jotform: "2024-10-12 14:20:42"
+last-exported: "2024-10-12 15:42:22"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Bumble Beemer"
 slug: bumble-beemer
 permalink: /exhibits/bumble-beemer/
 exhibit-id: 24-132
+exhibit-zone: "Power Racing Track"
 space-number: Unassigned
 description: "Bumble Beemer is a bee themed entry for the Power Racing Series."
 description-long: "Bumble Beemer is an entry for the power racing series. It features a custom welded steel frame and is powered by a brushless motor and a single chain reduction. Its max speed is 20+ mph."
@@ -24,8 +25,8 @@ categories:
   - slug: power-racing
     name: Power Racing
 created-jotform: "2024-09-17 15:38:51"
-last-modified-jotform: "2024-09-18 08:56:30"
-last-exported: "2024-09-23 14:57:21"
+last-modified-jotform: "2024-10-12 14:16:39"
+last-exported: "2024-10-12 15:42:17"
 sitemap: false
 
 ---

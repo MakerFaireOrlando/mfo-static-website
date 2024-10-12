@@ -5,6 +5,7 @@ title: "NSB Makerspace Project Collection"
 slug: nsb-makerspace-project-collection
 permalink: /exhibits/nsb-makerspace-project-collection/
 exhibit-id: 24-106
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Come view some of the best and most creative pieces made by our members through the year."
 description-long: "We will have a range of diverse projects in both size and scope completed through classes and hobby work from our youngest Maker Scouts to our seasoned makers from throughout the year. 
@@ -39,8 +40,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2024-08-28 21:34:15"
-last-modified-jotform: "2024-09-15 14:21:13"
-last-exported: "2024-09-15 14:24:39"
+last-modified-jotform: "2024-10-12 15:24:25"
+last-exported: "2024-10-12 15:42:21"
 sitemap: false
 
 ---

@@ -44,8 +44,8 @@ categories:
   - slug: solar
     name: Solar
 created-jotform: "2024-09-11 17:35:38"
-last-modified-jotform: "2024-09-29 14:05:59"
-last-exported: "2024-09-29 14:09:56"
+last-modified-jotform: "2024-10-12 14:43:28"
+last-exported: "2024-10-12 15:42:17"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Allison Chase Cosplay"
 slug: allison-chase-cosplay
 permalink: /exhibits/allison-chase-cosplay/
 exhibit-id: 24-146
+exhibit-zone: "Spirit - East"
 space-number: Unassigned
 description: "Cosplay on a theatrical scale! Using puppetry and other methods to make characters come alive!"
 description-long: "Larger than Life COSPLAY!  Allison Chase Cosplay strives to push boundaries on what can be considered a costume, before it has to be classified as a parade float.  Making characters come to life by combining all kinds of techniques, including Puppetry, sewing, Foam crafting, vacuum forming, thermoplastics, LEDs and more!
@@ -27,8 +28,8 @@ categories:
   - slug: cosplay
     name: Cosplay
 created-jotform: "2024-10-03 14:07:29"
-last-modified-jotform: "2024-10-03 16:04:47"
-last-exported: "2024-10-03 16:06:58"
+last-modified-jotform: "2024-10-12 14:35:31"
+last-exported: "2024-10-12 15:42:17"
 sitemap: false
 
 ---

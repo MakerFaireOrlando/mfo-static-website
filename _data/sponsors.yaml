@@ -131,3 +131,8 @@ sponsors:
     logo: OTC_Horiz.png
     level: 4
     active: true
+  - name: EPAX 3D
+    url: https://epax3d.com/
+    logo: EPAX-3D-Black-Logo.png
+    level: 4
+    active: true

@@ -5,6 +5,7 @@ title: "Tampa Hackerspace"
 slug: tampa-hackerspace
 permalink: /exhibits/tampa-hackerspace/
 exhibit-id: 24-118
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "The Tampa Hackerspace is a community of makers and builders located in the Tampa Bay area."
 description-long: "The Tampa Hackerspace is the longest running Hackerspace/Makerspace in the Greater Tampa Bay Area. We have a vast array of tools including but not limited to: 3D Printers, Laser Cutters, 4x8 Shopbot, Metal and Wood lathes, electronics stations, cosplay, embroidery and more. Come by and check out the vast array of projects created by our makers including a 10 foot foam T-Rex that has been dressed up to mimic the balsa wood punch-outs of old! We always have something for everyone and always have a make and take for our younger (and young at heart) makers."
@@ -46,8 +47,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2024-09-04 21:33:02"
-last-modified-jotform: "2024-09-15 14:35:43"
-last-exported: "2024-09-15 14:35:56"
+last-modified-jotform: "2024-10-12 15:27:17"
+last-exported: "2024-10-12 15:42:17"
 sitemap: false
 
 ---

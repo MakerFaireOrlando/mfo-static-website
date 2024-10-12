@@ -5,6 +5,7 @@ title: "The Art of Dennis Hansbury"
 slug: the-art-of-dennis-hansbury
 permalink: /exhibits/the-art-of-dennis-hansbury/
 exhibit-id: 24-59
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Lots of Spooky Artwork, but nothing to fear, because these items can be displayed any time of year."
 description-long: "Dennis first began creating dark and adorable crocheted animals and undead zombie plushies from his little Arizona apartment in 2005, finding loving homes for them across the world through his first shop on Etsy. As time passed and he moved to Florida, where new passions were ignited – gallery shows and fine art became the focus, but he never stopped incorporating his gloomy, gothic, and gory aesthetic into the  artwork. The passion for creating one-of-a-kind, handmade items would inspire him further, and woodworking soon became a permanent staple in his artwork.
@@ -66,8 +67,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2024-08-15 19:05:25"
-last-modified-jotform: "2024-08-19 22:23:35"
-last-exported: "2024-08-24 09:15:08"
+last-modified-jotform: "2024-10-12 14:52:20"
+last-exported: "2024-10-12 15:42:22"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Ham Radio for Beginners"
 slug: ham-radio-for-beginners
 permalink: /exhibits/ham-radio-for-beginners/
 exhibit-id: 24-103
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Not sure what the Ham Radio thing is all about ?  Stop by and check it out."
 description-long: "Ham Radio and Short Wave Listening (SWL) is a great way to explore electronics technology and have fun doing it.
@@ -40,8 +41,8 @@ categories:
   - slug: manufacturing
     name: Manufacturing
 created-jotform: "2024-08-27 22:12:17"
-last-modified-jotform: "2024-09-15 14:19:26"
-last-exported: "2024-09-15 14:24:44"
+last-modified-jotform: "2024-10-12 15:26:27"
+last-exported: "2024-10-12 15:42:21"
 sitemap: false
 
 ---
