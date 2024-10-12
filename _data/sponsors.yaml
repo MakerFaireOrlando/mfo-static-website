@@ -80,7 +80,7 @@ sponsors:
     url: https://www.betafpv.com
     logo: beta-fpv-transparent.png
     level: 4
-    active: true
+    active: false
   - name: SainSmart
     url: https://www.sainsmart.com
     logo: sainsmart.jpg
