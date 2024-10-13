@@ -42,9 +42,10 @@ carousel-slides:
 
 {% include makey-border.html %}
 
-{% comment %}
+
 {% include featured-makers-grid.html %}
-{% endcomment %}
+
+
 
 {% comment %}
 <div>
@@ -53,10 +54,9 @@ carousel-slides:
 <div class="flag-banner"></div>
 {% endcomment %}
 
-{% comment %}
-{% include explore-meet-makers.html %}
-{% endcomment %}
+{% include event-shirt.html %}
 
+{% include explore-meet-makers.html %}
 
 {% comment %}
 {% include call-for-makers-widget.html %}
@@ -98,7 +98,6 @@ carousel-slides:
     </div>
 
 <div class="row">
-
 <div class="col-sm-6 text-center">
 <a href="/assets/images/program/MFO_2022_Program.pdf"><img src="/assets/images/program/MFO_2022_Program_Page_1-web.jpg" alt="Maker Faire Orlando 2022 event program page 1" width="400" /></a>
 </div>
