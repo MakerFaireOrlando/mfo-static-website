@@ -4,27 +4,24 @@ layout: default
 permalink: /badge/
 ---
 
-# This page will contain info for exhibiting makers as a quick link from badge QR codes. Check back closer to the event :)
 
 {% comment %}
+# This page will contain info for exhibiting makers as a quick link from badge QR codes. Check back closer to the event :)
+{% endcomment %}
 
 # Quick Info
 Thanks for participating at Maker Faire Orlando!
 
 ### Event Hours
-Maker Check-in and setup is from 10am to 8pm (exit by 8pm) on Friday, November 3.<br>
+Maker Check-in and setup is from 3pm to 8pm (exit by 8pm) on Friday, November 8.<br> 
 
-The Maker Mixer (during setup) is from 6pm to 7pm on Friday, November 3 at the Maker Faire Stage.
+The Maker Mixer (during setup) is from 6pm to 7pm on Friday, November 8 at the Maker Faire Stage.
 
-Maker Check-in resumes from 8am to 9am on Saturday, November 4. Gates will not be open to makers before 8am.<br>
+Maker Check-in resumes from 8am to 9am on Saturday, November 9. Gates will not be open to makers before 8am.<br>
 
-Maker Faire Orlando 2023 is open to attendees from 10am to 5pm on November 4 and 5.<br>
+Maker Faire Orlando 2024 is open to attendees from 10am to 5pm on November 9 and 10.<br>
 
-The Maker Faire Orlando VIP Fundraiser event ([separate ticket](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser)) is from 5pm to 8pm on Saturday, November 4
-
-**TIME CHANGE OVERNIGHT**
-
-Gates open for makers at 9am on Sunday, November 5.<br>
+Gates open for makers at 9am on Sunday, November 10.<br>
 
 
 ### Maker Manual
@@ -60,4 +57,4 @@ During the event, if you need help please locate the crew member assigned to you
 
 Exhibiting makers and available experiences are subject to change based on community availability.
 
-{% endcomment %}
+
