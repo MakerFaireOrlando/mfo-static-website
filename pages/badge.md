@@ -13,7 +13,10 @@ permalink: /badge/
 Thanks for participating at Maker Faire Orlando!
 
 ### Event Hours
-Maker Check-in and setup is from 3pm to 8pm (exit by 8pm) on Friday, November 8.<br> 
+
+Maker Faire Education Day (Only for invited makers and OCPS field trip students) is from 10am to 1pm on Friday, November 8.
+
+Maker Check-in and setup is from 3pm to 8pm (exit by 8pm) on Friday, November 8.
 
 The Maker Mixer (during setup) is from 6pm to 7pm on Friday, November 8 at the Maker Faire Stage.
 
