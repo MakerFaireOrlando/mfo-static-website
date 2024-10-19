@@ -5,7 +5,8 @@ title: "Everything Robotics"
 slug: everything-robotics
 permalink: /exhibits/everything-robotics/
 exhibit-id: 24-24
-space-number: Unassigned
+exhibit-zone: "Robot Ruckus (Spirit Building)"
+space-number: "SA25"
 description: "ROBOTS!
 
 "
@@ -57,8 +58,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2024-08-03 09:11:54"
-last-modified-jotform: "2024-08-11 17:43:12"
-last-exported: "2024-08-11 17:46:23"
+last-modified-jotform: "2024-10-19 12:12:43"
+last-exported: "2024-10-19 12:44:48"
 sitemap: false
 
 ---
