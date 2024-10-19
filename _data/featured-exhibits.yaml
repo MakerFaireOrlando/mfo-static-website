@@ -2,14 +2,16 @@
 #override the exhibit data by specifying any of title, description, image
 
 homepage:
+  - exhibit-id: 24-23 #daleks
+  - exhibit-id: 24-34 #r2
+  - exhibit-id: 24-77 #klingon
+    image: assets/images/exhibit-images/24-77-exhibit-addl1-klingon-assault-group-klingon-medium.jpg
+  - exhibit-id: 24-36 #jt designs 
   - exhibit-id: 24-94 #graven
   - exhibit-id: 24-123 #matthew sutton 
   - exhibit-id: 24-61 #urban sketchers
   - exhibit-id: 24-86 #curtis epperson
-  - exhibit-id: 24-113 #meet a dragon
-  - exhibit-id: 24-131 #more fiber fun - nancy reed
-  - exhibit-id: 24-125 #ALSET Cyber sedan 
-  - exhibit-id: 24-12 #3d printed garage
+
 
 
 

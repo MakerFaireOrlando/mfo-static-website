@@ -6,7 +6,7 @@ slug: thestarcos
 permalink: /exhibits/thestarcos/
 exhibit-id: 24-157
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SJ34"
 description: "I'm a professional cosplayer, seamstress and makeup artist with a passion for creating uniqueness!"
 description-long: "I'm a professional cosplayer, SFX makeup and beauty artist. Who enjoys crafting, sewing and wig styling to create unique pieces or art!!!"
 image: /assets/images/exhibit-images/24-157-exhibit-thestarcos-43-img-3259-6752-large.jpeg
@@ -39,8 +39,8 @@ categories:
   - slug: special-effects
     name: Special Effects
 created-jotform: "2024-10-13 14:23:01"
-last-modified-jotform: "2024-10-19 13:59:00"
-last-exported: "2024-10-19 14:04:47"
+last-modified-jotform: "2024-10-19 14:21:37"
+last-exported: "2024-10-19 14:22:30"
 sitemap: false
 
 ---

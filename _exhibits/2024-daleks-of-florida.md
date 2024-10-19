@@ -6,7 +6,7 @@ slug: daleks-of-florida
 permalink: /exhibits/daleks-of-florida/
 exhibit-id: 24-23
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SG33, SH32, SH33"
 description: "Daleks and Tardis, wanna know how to build them. We can help with that."
 description-long: "Dr Who enthusiasts that build Daleks and a Tardis. Come see us and learn what it takes to build these amazing props. These builds use wood working, fiberglass, electronics, 3-d printing, painting, and much more. And a bonus, get a picture with our Tardis. "
 image: /assets/images/exhibit-images/24-23-exhibit-daleks-of-florida-2024-group-photo-large.jpg
@@ -39,8 +39,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2024-08-02 21:00:52"
-last-modified-jotform: "2024-10-12 14:38:57"
-last-exported: "2024-10-12 15:42:23"
+last-modified-jotform: "2024-10-19 14:12:43"
+last-exported: "2024-10-19 14:22:33"
 sitemap: false
 
 ---

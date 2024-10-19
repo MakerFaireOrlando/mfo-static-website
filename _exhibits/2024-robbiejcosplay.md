@@ -6,7 +6,7 @@ slug: robbiejcosplay
 permalink: /exhibits/robbiejcosplay/
 exhibit-id: 24-137
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SJ33"
 description: "Costumer and fashion designer with over 20+ years of experience both on and back stage. "
 description-long: "RobbieJCosplay is a cosplayer, costumer and fashion designer with over 20+ years of experience both on and back stage with major production companies. They have worked for international ballet companies, the cruise line industry and many live theaters  just to list a few. 
 
@@ -54,8 +54,8 @@ categories:
   - slug: sewing
     name: Sewing
 created-jotform: "2024-09-22 16:42:09"
-last-modified-jotform: "2024-10-12 14:35:00"
-last-exported: "2024-10-12 15:42:17"
+last-modified-jotform: "2024-10-19 14:21:08"
+last-exported: "2024-10-19 14:22:30"
 sitemap: false
 
 ---
