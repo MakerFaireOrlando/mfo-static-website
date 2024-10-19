@@ -5,6 +5,7 @@ title: "Klingon Assault Group"
 slug: klingon-assault-group
 permalink: /exhibits/klingon-assault-group/
 exhibit-id: 24-77
+exhibit-zone: "Spirit - East"
 space-number: Unassigned
 description: "Klingon costuming and props"
 description-long: "Klingon costuming and props"
@@ -31,8 +32,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2024-08-18 13:31:29"
-last-modified-jotform: "2024-08-19 19:28:28"
-last-exported: "2024-08-19 19:29:41"
+last-modified-jotform: "2024-10-19 13:57:46"
+last-exported: "2024-10-19 14:08:33"
 sitemap: false
 
 ---

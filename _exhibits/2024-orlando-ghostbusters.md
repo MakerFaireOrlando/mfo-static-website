@@ -5,6 +5,7 @@ title: "Orlando Ghostbusters"
 slug: orlando-ghostbusters
 permalink: /exhibits/orlando-ghostbusters/
 exhibit-id: 24-25
+exhibit-zone: "Spirit - East"
 space-number: Unassigned
 description: "Ghostbusters community group with custom movie props and fun photo ops. We are ready to believe you!"
 description-long: "Who you gonna call? Us! We are ready to serve our community for all your supernatural elimination needs, and we are ready to show off our favorite tools of the trade. Come see proton packs, remote-controlled trap vehicles, possessed artifacts, and more! "
@@ -60,8 +61,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2024-08-03 14:21:51"
-last-modified-jotform: "2024-09-23 13:52:30"
-last-exported: "2024-09-23 14:57:24"
+last-modified-jotform: "2024-10-19 13:57:16"
+last-exported: "2024-10-19 14:08:33"
 sitemap: false
 
 ---

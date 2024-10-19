@@ -5,6 +5,7 @@ title: "Suit Up Cosplay"
 slug: suit-up-cosplay
 permalink: /exhibits/suit-up-cosplay/
 exhibit-id: 24-7
+exhibit-zone: "Spirit - East"
 space-number: Unassigned
 description: "Suit Up Cosplay will have on display various props, masks and creatures to inspire new makers. "
 description-long: "Collin from Suit Up Cosplay will bring in and display some of his best work of a wide variety of projects. Projects such as muscle suits, creature costumes, cosplay lighting and effects, and of course 3d printed props and helmets. In addition he will display a before/after of cosplay weathering to show the important difference of detail. He will also have insight for creators who want to start making video content and how to integrate your cosplays into various media. "
@@ -72,8 +73,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2024-07-30 04:24:02"
-last-modified-jotform: "2024-08-11 17:07:27"
-last-exported: "2024-08-11 17:47:17"
+last-modified-jotform: "2024-10-19 13:56:10"
+last-exported: "2024-10-19 14:08:33"
 sitemap: false
 
 ---
