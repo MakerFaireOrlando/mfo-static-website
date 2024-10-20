@@ -5,6 +5,7 @@ title: "Green Ellipsis"
 slug: green-ellipsis
 permalink: /exhibits/green-ellipsis/
 exhibit-id: 24-46
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Come learn and watch us turn 2L PET bottles into useable filament."
 description-long: "Green Ellipsis will be making 3D printer filament all day using our Filament Extruder machine. Come learn about the ways your team, family, maker's group can help create a more sustainable hobby by purchasing or making your own machines at home."
@@ -30,8 +31,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2024-08-06 18:30:21"
-last-modified-jotform: "2024-08-24 09:16:44"
-last-exported: "2024-08-25 14:27:35"
+last-modified-jotform: "2024-10-19 14:57:31"
+last-exported: "2024-10-20 15:21:29"
 sitemap: false
 
 ---

@@ -5,7 +5,8 @@ title: "Ridiculously Fun Balloons"
 slug: ridiculously-fun-balloons
 permalink: /exhibits/ridiculously-fun-balloons/
 exhibit-id: 24-16
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SF32"
 description: "I will make interesting balloon sculptures, including a display piece and requested items."
 description-long: "I can literally make ANYTHING out of balloons. I will be taking requests on the spot, and I will have a larger display piece to show off my skills. "
 image: /assets/images/exhibit-images/24-16-exhibit-ridiculously-fun-balloons-43-balloons-1090-large.jpg
@@ -59,8 +60,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2024-08-01 15:40:48"
-last-modified-jotform: "2024-08-11 17:45:13"
-last-exported: "2024-08-11 17:46:37"
+last-modified-jotform: "2024-10-19 14:39:35"
+last-exported: "2024-10-20 15:21:30"
 sitemap: false
 
 ---

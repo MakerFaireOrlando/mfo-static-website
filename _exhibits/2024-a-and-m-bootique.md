@@ -5,6 +5,7 @@ title: "A and M Bootique"
 slug: a-and-m-bootique
 permalink: /exhibits/a-and-m-bootique/
 exhibit-id: 24-6
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "I am a sewer and embroider. I also taught sewing at Joann's. Chris is a woodworker and 3D printer"
 description-long: "I'm Amy and enjoy creating things for people. I make costumes and clothing as well as repair and alter clothing. I got into embroidery about 7 years ago and started selling embroidery like keychains, patches bags and accessories.  Chris has been a wood worker for 20 years. He works for a cabinet company.  He recently got into 3D printing and selling at shows as well as customer orders."
@@ -75,8 +76,8 @@ categories:
   - slug: sewing
     name: Sewing
 created-jotform: "2024-07-30 00:07:42"
-last-modified-jotform: "2024-08-19 22:23:42"
-last-exported: "2024-08-24 09:15:09"
+last-modified-jotform: "2024-10-19 15:01:51"
+last-exported: "2024-10-20 15:21:31"
 sitemap: false
 
 ---

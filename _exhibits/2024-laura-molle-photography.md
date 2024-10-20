@@ -5,6 +5,7 @@ title: "Laura Molle Photography"
 slug: laura-molle-photography
 permalink: /exhibits/laura-molle-photography/
 exhibit-id: 24-22
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "The artist matches her photos with object of art including postage stamps, pins  and guitar picks."
 description-long: "The Photo and Stamp exhibit focuses on the artist's ability to combine her eye for a wide variety of photo themes and unique compositions from musical instruments, musicians, still lifes, flowers, animals, and travel. Her unique three- dimensional style will capture the attention of any audience. The art is portable and affordable. Laura's mixed media art is intended to bring joy and happiness."
@@ -38,8 +39,8 @@ categories:
   - slug: photography
     name: Photography
 created-jotform: "2024-08-02 18:14:58"
-last-modified-jotform: "2024-08-24 09:16:49"
-last-exported: "2024-08-25 14:27:36"
+last-modified-jotform: "2024-10-19 15:02:35"
+last-exported: "2024-10-20 15:21:30"
 sitemap: false
 
 ---

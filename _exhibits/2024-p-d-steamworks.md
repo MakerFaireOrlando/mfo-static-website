@@ -5,6 +5,7 @@ title: "P. D. Steamworks"
 slug: p-d-steamworks
 permalink: /exhibits/p-d-steamworks/
 exhibit-id: 24-128
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "TTRPG accessory maker who utilizes 3d printing, resin casting and a lot of tinkering."
 description-long: "I create various table top role playing game accessories from 3D printed dice boxes, a fusion of dice box and dice tower I call a Tower Vault to hand casting resin dice, and have recently started tinkering and experimenting with creating mini-modules for game masters to either add into their own games or (eventually) run a full adventure with."
@@ -68,8 +69,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2024-09-15 20:21:51"
-last-modified-jotform: "2024-10-12 15:36:53"
-last-exported: "2024-10-12 15:42:17"
+last-modified-jotform: "2024-10-19 15:21:57"
+last-exported: "2024-10-20 15:21:26"
 sitemap: false
 
 ---

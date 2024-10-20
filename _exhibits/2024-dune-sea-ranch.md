@@ -6,7 +6,7 @@ slug: dune-sea-ranch
 permalink: /exhibits/dune-sea-ranch/
 exhibit-id: 24-37
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SE32"
 description: "We are creating an immersive Star Wars experience with the use of props, costuming and sets."
 description-long: "We utilize props, costuming and armor to create a unique Star Wars experience.  We will have unique characters, droids and props to help the guest feel like they've stepped into the Star Wars universe."
 image: /assets/images/exhibit-images/24-37-exhibit-dune-sea-ranch-img-4534-large.jpeg
@@ -55,8 +55,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2024-08-04 21:54:33"
-last-modified-jotform: "2024-10-12 14:40:24"
-last-exported: "2024-10-12 15:42:23"
+last-modified-jotform: "2024-10-19 14:31:18"
+last-exported: "2024-10-20 15:21:30"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Florida Destination Imagination"
 slug: florida-destination-imagination
 permalink: /exhibits/florida-destination-imagination/
 exhibit-id: 24-154
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "FL Destination Imagination provides STEAM challenges for K-12 through a process that is creative."
 description-long: "Florida Destination Imagination prepares Florida’s kids to be the innovators of the future by combining the arts, sciences, and technology with creativity, teamwork, and problem solving.  Start your team today (2-7 students from grade K-12) to take on one of the 7 challenges.  Take your built to the State Tournament in March! "
@@ -41,8 +42,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2024-10-12 09:03:07"
-last-modified-jotform: "2024-10-12 15:43:21"
-last-exported: "2024-10-12 15:46:39"
+last-modified-jotform: "2024-10-19 14:59:21"
+last-exported: "2024-10-20 15:21:25"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "IONOX Media"
 slug: ionox-media
 permalink: /exhibits/ionox-media/
 exhibit-id: 24-48
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Collection of hand made art and decorum. Using materials such as layered wood, resin, and fabrics."
 description-long: "IONOX specializes in pop culture inspired art.  From sci-fi to fantasy, and even your favorite video games, we create beautiful forms of art that are sure to spark nostalgia.  We use a range of materials, from layered wood to resin,  leather to canvas, and we are always expanding and trying new things.  We love traveling all over the nation to appear at comic conventions, art festivals, and gallery showings.  Maker-Faire Orlando, is one of our home shows, and a staple for us to attend every year.  If you've got a design you've always dreamt of having in hand or on your wall, let us make your dream a reality."
@@ -82,8 +83,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2024-08-09 00:35:45"
-last-modified-jotform: "2024-08-24 09:16:44"
-last-exported: "2024-08-25 14:27:35"
+last-modified-jotform: "2024-10-19 15:00:59"
+last-exported: "2024-10-20 15:21:29"
 sitemap: false
 
 ---

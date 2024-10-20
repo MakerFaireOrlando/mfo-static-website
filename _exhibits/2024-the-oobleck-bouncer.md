@@ -5,6 +5,7 @@ title: "The Oobleck Bouncer"
 slug: the-oobleck-bouncer
 permalink: /exhibits/the-oobleck-bouncer/
 exhibit-id: 24-120
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "We bounce oobleck on a speaker."
 description-long: "Oobleck is a non-newtonian fluid. It is liquid most of the time, but turns solid when experiencing a sudden impact. By bouncing oobleck on a speaker at low frequency, we can make it dance around."
@@ -24,8 +25,8 @@ categories:
   - slug: electronics
     name: Electronics
 created-jotform: "2024-09-05 14:44:36"
-last-modified-jotform: "2024-09-15 14:36:57"
-last-exported: "2024-09-15 14:38:03"
+last-modified-jotform: "2024-10-19 14:58:58"
+last-exported: "2024-10-20 15:21:26"
 sitemap: false
 
 ---

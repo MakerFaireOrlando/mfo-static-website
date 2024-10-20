@@ -5,6 +5,7 @@ title: "Fairy Berry Industries"
 slug: fairy-berry-industries
 permalink: /exhibits/fairy-berry-industries/
 exhibit-id: 24-142
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Explore the magic possibilities that surround Aerial Arts classes, charity, and performances"
 description-long: "Fairy Berry Industries is an all-encompassing network for the services offered by Kaley Berry in aerial arts instruction, performance coaching, charity, flexibility training, mindfulness practices, and various forms of dance.
@@ -34,8 +35,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2024-09-28 14:44:57"
-last-modified-jotform: "2024-10-19 14:08:14"
-last-exported: "2024-10-19 14:08:29"
+last-modified-jotform: "2024-10-19 15:04:58"
+last-exported: "2024-10-20 15:21:26"
 sitemap: false
 
 ---

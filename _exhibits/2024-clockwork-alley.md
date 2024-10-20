@@ -5,7 +5,8 @@ title: "Clockwork Alley"
 slug: clockwork-alley
 permalink: /exhibits/clockwork-alley/
 exhibit-id: 24-39
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SG29"
 description: "Jewelry and accessories made from vintage watch parts."
 description-long: "Jewelry and accessories made from vintage watch parts.
 Necklaces, bracelets, earrings, hair accessories, pocket watches and more "
@@ -86,8 +87,8 @@ categories:
   - slug: steampunk
     name: SteamPunk
 created-jotform: "2024-08-05 13:50:51"
-last-modified-jotform: "2024-08-24 09:16:46"
-last-exported: "2024-08-25 14:27:35"
+last-modified-jotform: "2024-10-19 15:01:28"
+last-exported: "2024-10-20 15:21:29"
 sitemap: false
 
 ---

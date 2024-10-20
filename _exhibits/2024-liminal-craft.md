@@ -5,6 +5,7 @@ title: "Liminal Craft"
 slug: liminal-craft
 permalink: /exhibits/liminal-craft/
 exhibit-id: 24-26
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Liminal Craft carries original art, handmade accessories, pinback buttons, and fandom history zines."
 description-long: "Check out Liminal Craft's newest works! Come by for a chat about fandom lore and online research, or look at our newest art prints, keychains, buttons, and more!"
@@ -32,8 +33,8 @@ categories:
   - slug: writing-and-publishing
     name: Writing and Publishing
 created-jotform: "2024-08-03 16:18:19"
-last-modified-jotform: "2024-08-24 09:16:48"
-last-exported: "2024-08-25 14:27:36"
+last-modified-jotform: "2024-10-19 15:01:44"
+last-exported: "2024-10-20 15:21:30"
 sitemap: false
 
 ---

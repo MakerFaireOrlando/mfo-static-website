@@ -5,6 +5,7 @@ title: "Shariff DMC: Desktop CNC Machines"
 slug: shariff-dmc-desktop-cnc-machines
 permalink: /exhibits/shariff-dmc-desktop-cnc-machines/
 exhibit-id: 24-51
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "High Power High Accuracy Metal Cutting Desktop CNC Machines in an Affordable Package"
 description-long: "We design and make small desktop CNC machines that are intended for cutting metal (aluminum, steel titanium, stainless etc). The idea is lets take an industrial CNC mill and shrink it down as much as possible while retaining its capabilities, and then make it as a kit that people can buy and build for an incredibly low price. The result is the Shariff DMC2 Desktop CNC, which you can see more of here: https://www.youtube.com/watch?v=e5TsK2Sp-aM"
@@ -39,8 +40,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2024-08-10 03:28:02"
-last-modified-jotform: "2024-09-23 10:50:27"
-last-exported: "2024-09-23 14:57:24"
+last-modified-jotform: "2024-10-19 15:20:52"
+last-exported: "2024-10-20 15:21:29"
 sitemap: false
 
 ---

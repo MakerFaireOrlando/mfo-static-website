@@ -5,6 +5,7 @@ title: "Sew Cool!  with The Steamed Pinks Stitchers"
 slug: sew-cool-with-the-steamed-pinks-stitchers
 permalink: /exhibits/sew-cool-with-the-steamed-pinks-stitchers/
 exhibit-id: 24-54
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "You're Sew Cool!  Donate $5 for a kit & stitch up a simple sleeve for your FREE Freezer-Pop* today!"
 description-long: "Learn how to sew an easy freezer pop sleeve with one of our cool kits (a $5 donation for your choice of designs) - and then enjoy a FREE freezer pop to celebrate your stitching skills!   "
@@ -47,8 +48,8 @@ categories:
   - slug: steampunk
     name: SteamPunk
 created-jotform: "2024-08-12 21:25:22"
-last-modified-jotform: "2024-10-12 14:39:02"
-last-exported: "2024-10-12 15:42:22"
+last-modified-jotform: "2024-10-19 15:02:43"
+last-exported: "2024-10-20 15:21:29"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "FAMOUSAFTERDEATH"
 slug: famousafterdeath
 permalink: /exhibits/famousafterdeath/
 exhibit-id: 24-13
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Graphic designer, Digital Illustrator and Book Art Conjurer"
 description-long: "FAMOUSAFTERDEATH brings new life to old books by reusing them as canvas with hand drawn art and block prints. He also brings along original toys 3d printed and a slew of other mediums that bring his imagination to the real world."
@@ -82,8 +83,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2024-07-31 18:31:02"
-last-modified-jotform: "2024-08-30 09:26:58"
-last-exported: "2024-09-05 11:50:00"
+last-modified-jotform: "2024-10-19 14:57:39"
+last-exported: "2024-10-20 15:21:30"
 sitemap: false
 
 ---

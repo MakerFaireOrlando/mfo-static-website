@@ -5,7 +5,8 @@ title: "Learn chainmaille!"
 slug: learn-chainmaille
 permalink: /exhibits/learn-chainmaille/
 exhibit-id: 24-98
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SG30"
 description: "Learn to make a chainmaille keychain! Free 20-minute class; ages 10 and up, starts every 30 minutes."
 description-long: "Make a chainmaille keychain!  This free 20-minute class is for anyone ages 10 and up and will introduce you to the basics of making chainmaille jewelry (yes, like the armor knights use to wear - but jewelry instead.)  You will learn to make a 1-inch keychain to keep and take home with you.  All supplies were donated by other chainmaillers to further the art form, so this class is totally free!  
 
@@ -42,8 +43,8 @@ categories:
   - slug: jewelry
     name: Jewelry
 created-jotform: "2024-08-27 09:46:19"
-last-modified-jotform: "2024-09-15 14:14:25"
-last-exported: "2024-09-15 14:16:46"
+last-modified-jotform: "2024-10-19 14:47:50"
+last-exported: "2024-10-20 15:21:27"
 sitemap: false
 
 ---

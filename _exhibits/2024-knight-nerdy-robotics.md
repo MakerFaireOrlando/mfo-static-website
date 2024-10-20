@@ -5,6 +5,7 @@ title: "Knight & Nerdy Robotics"
 slug: knight-nerdy-robotics
 permalink: /exhibits/knight-nerdy-robotics/
 exhibit-id: 24-119
+exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "This exhibit showcases our FIRST and VRC Robotics Teams."
 description-long: "This exhibit showcases our FIRST and VRC Robotics Teams. On display will be our robots from prior seasons as well as other tech that we are currently working on."
@@ -30,8 +31,8 @@ categories:
   - slug: vex-robotics
     name: VEX Robotics
 created-jotform: "2024-09-05 07:43:45"
-last-modified-jotform: "2024-09-15 14:36:27"
-last-exported: "2024-09-15 14:38:04"
+last-modified-jotform: "2024-10-19 15:20:38"
+last-exported: "2024-10-20 15:21:26"
 sitemap: false
 
 ---

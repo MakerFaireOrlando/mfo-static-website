@@ -5,6 +5,7 @@ title: "FIRST LEGO League (In School / Homeschool)"
 slug: first-lego-league-in-school-homeschool
 permalink: /exhibits/first-lego-league-in-school-homeschool/
 exhibit-id: 24-143
+exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "FIRST LEGO League introduces science, technology, engineering and math to children 4-16 using LEGO."
 description-long: "FIRST LEGO League introduces science, technology, engineering and math (STEM) to children ages 4-16* through fun, exciting hands-on learning. FIRST LEGO League participants gain real-world problem-solving experiences through a guided, global robotics program, helping today’s students and teachers build a better future together. In FIRST LEGO League, students engage in hands-on STEM experiences, building confidence, growing their knowledge and developing habits of learning. FIRST LEGO League’s three divisions inspire youth to experiment and grow their critical thinking, coding and design skills through hands-on STEM learning and robotics."
@@ -41,8 +42,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2024-09-28 22:27:32"
-last-modified-jotform: "2024-10-03 16:06:08"
-last-exported: "2024-10-03 16:07:02"
+last-modified-jotform: "2024-10-20 12:25:24"
+last-exported: "2024-10-20 15:21:26"
 sitemap: false
 
 ---

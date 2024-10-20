@@ -5,6 +5,7 @@ title: "Wild Bills Soda Co."
 slug: wild-bills-soda-co
 permalink: /exhibits/wild-bills-soda-co/
 exhibit-id: 24-20
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: " Wild Bill's Craft Soda is a veteran owned operated premium beverage brand 
  
@@ -55,8 +56,8 @@ categories:
   - slug: food
     name: Food
 created-jotform: "2024-08-02 11:05:04"
-last-modified-jotform: "2024-08-25 14:57:00"
-last-exported: "2024-08-25 14:58:55"
+last-modified-jotform: "2024-10-19 15:04:08"
+last-exported: "2024-10-20 15:21:30"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: bobs-mighty-miniatures
 permalink: /exhibits/bobs-mighty-miniatures/
 exhibit-id: 24-150
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SG32"
 description: "3D printed fantasy miniatures, Star Wars movie props, articulated toys"
 description-long: "3D printed fantasy miniatures, Star Wars props, articulated toys"
 image: /assets/images/exhibit-images/24-150-exhibit-bobs-mighty-miniatures-img-1627-large.jpeg
@@ -25,8 +25,8 @@ categories:
   - slug: jewelry
     name: Jewelry
 created-jotform: "2024-10-06 16:36:14"
-last-modified-jotform: "2024-10-12 15:45:13"
-last-exported: "2024-10-12 15:46:43"
+last-modified-jotform: "2024-10-20 12:26:36"
+last-exported: "2024-10-20 15:21:25"
 sitemap: false
 
 ---

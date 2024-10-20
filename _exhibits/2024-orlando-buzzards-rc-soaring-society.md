@@ -5,6 +5,7 @@ title: "Orlando Buzzards RC Soaring Society"
 slug: orlando-buzzards-rc-soaring-society
 permalink: /exhibits/orlando-buzzards-rc-soaring-society/
 exhibit-id: 24-75
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "We will have model airplanes/gliders on static display."
 description-long: "Model airplanes/glider on display, club members will interact with visitors answering questions about model aviation, we will give out club information handouts."
@@ -41,8 +42,8 @@ categories:
   - slug: education
     name: Education
 created-jotform: "2024-08-18 08:46:14"
-last-modified-jotform: "2024-10-10 12:03:59"
-last-exported: "2024-10-12 15:42:22"
+last-modified-jotform: "2024-10-19 14:58:04"
+last-exported: "2024-10-20 15:21:28"
 sitemap: false
 
 ---

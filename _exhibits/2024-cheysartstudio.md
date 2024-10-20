@@ -5,6 +5,7 @@ title: "Cheysartstudio"
 slug: cheysartstudio
 permalink: /exhibits/cheysartstudio/
 exhibit-id: 24-10
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Cute and whimsical art in many different forms! Stickers,prints,stuffed animals, paintings and more!"
 description-long: "Hello! My name is Cheyanne, and I'm a multimedia artist that creates cute and whimsical art of original characters, like my “monster potions” and my fruit basket Dino's, my art comes in many different forms, Stickers, paintings, keychains, even crocheted stuffed animals and so much more! I also create some fan art based off my favorite anime’s and video games. "
@@ -76,8 +77,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2024-07-30 18:51:36"
-last-modified-jotform: "2024-08-24 09:16:51"
-last-exported: "2024-08-25 14:27:36"
+last-modified-jotform: "2024-10-19 15:02:06"
+last-exported: "2024-10-20 15:21:31"
 sitemap: false
 
 ---

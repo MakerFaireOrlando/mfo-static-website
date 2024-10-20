@@ -5,6 +5,7 @@ title: "Plucky Pneumatic"
 slug: plucky-pneumatic
 permalink: /exhibits/plucky-pneumatic/
 exhibit-id: 24-93
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Giant hand robot that visitors can manipulate with a controller glove."
 description-long: "This project features 3D printed parts, Arduino controllers, servos, feedback sensors. Participants will be able to control a 12’ tall inflatable hand robot with a controller glove. "
@@ -36,8 +37,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2024-08-25 14:49:43"
-last-modified-jotform: "2024-10-19 12:40:51"
-last-exported: "2024-10-19 12:44:47"
+last-modified-jotform: "2024-10-20 13:45:03"
+last-exported: "2024-10-20 15:21:27"
 sitemap: false
 
 ---

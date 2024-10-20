@@ -5,7 +5,8 @@ title: "Mischief maille"
 slug: mischief-maille
 permalink: /exhibits/mischief-maille/
 exhibit-id: 24-4
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SF30"
 description: "Goth inspired chainmaille jewelry and accessories."
 description-long: "Handmade Gothic inspired chainmaille jewelry and accessories custom fit to you for a perfect fit and look every time."
 image: /assets/images/exhibit-images/24-4-exhibit-mischief-maille-inbound9083071574782939889-large.jpg
@@ -86,8 +87,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2024-07-29 23:24:50"
-last-modified-jotform: "2024-08-19 22:23:43"
-last-exported: "2024-08-24 09:15:09"
+last-modified-jotform: "2024-10-19 14:47:47"
+last-exported: "2024-10-20 15:21:54"
 sitemap: false
 
 ---

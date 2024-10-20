@@ -6,7 +6,7 @@ slug: digital-fiber
 permalink: /exhibits/digital-fiber/
 exhibit-id: 24-156
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SE30"
 description: "Digital Fiber is a toolset that makes circuit embroidery easy"
 description-long: "I've designed a family of electronic components for circuit embroidery. These components are integrated into a custom circuit CAD program that allows you to easily layout circuits as you would in KiCad or Altium. This exhibit demonstrates some of what is possible with the platform. "
 image: /assets/images/exhibit-images/24-156-exhibit-digital-fiber-43-inshot-20241001-114911895-66-large.jpg
@@ -33,8 +33,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2024-10-13 00:27:45"
-last-modified-jotform: "2024-10-19 14:02:00"
-last-exported: "2024-10-19 14:04:48"
+last-modified-jotform: "2024-10-19 14:32:44"
+last-exported: "2024-10-20 15:21:25"
 sitemap: false
 
 ---

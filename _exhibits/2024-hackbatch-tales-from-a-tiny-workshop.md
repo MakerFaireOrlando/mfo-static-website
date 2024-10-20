@@ -5,6 +5,7 @@ title: "Hackbatch - Tales from a tiny workshop"
 slug: hackbatch-tales-from-a-tiny-workshop
 permalink: /exhibits/hackbatch-tales-from-a-tiny-workshop/
 exhibit-id: 24-58
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Work in progress robots, wonderfully colorful LED light fixtures, and other 3D printed projects."
 description-long: "My current robotics project, a two wheeled mobile robot will be on display along with a showcase of a hub-less wheel mechanism from a previous revision.  Also on display will be my 3D printed tube light fixtures which cycle through a variety of spectacular animations. A work in progress are two small robots that move over a TV screen arena using sensors to find their position and play games."
@@ -54,8 +55,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2024-08-15 14:18:51"
-last-modified-jotform: "2024-08-15 20:16:09"
-last-exported: "2024-08-15 20:18:22"
+last-modified-jotform: "2024-10-19 15:15:11"
+last-exported: "2024-10-20 15:21:28"
 sitemap: false
 
 ---

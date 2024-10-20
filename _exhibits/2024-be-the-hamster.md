@@ -5,6 +5,7 @@ title: "Be the Hamster"
 slug: be-the-hamster
 permalink: /exhibits/be-the-hamster/
 exhibit-id: 24-127
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Run like a hamster within an 8' tall hamster wheel while making yourself a snow cone."
 description-long: "Run like a hamster within an 8' tall hamster wheel. Crank some levers, transfer a cup via a mini conveyor, shave some ice while operating the equipment, apply flavors via shower heads, and making yourself a snow cone. Totally hands on!"
@@ -43,8 +44,8 @@ categories:
   - slug: invention
     name: Invention
 created-jotform: "2024-09-15 18:02:11"
-last-modified-jotform: "2024-10-12 15:36:53"
-last-exported: "2024-10-12 15:42:17"
+last-modified-jotform: "2024-10-19 14:59:04"
+last-exported: "2024-10-20 15:21:26"
 sitemap: false
 
 ---
