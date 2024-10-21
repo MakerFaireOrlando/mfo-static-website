@@ -8,7 +8,7 @@ exhibit-id: 24-43
 exhibit-zone: "Spirit - East"
 space-number: "SF27, SG27"
 description: "3D printed display pieces, machine embroidered patches, and hands on painting experience."
-description-long: "Multiple 3D printed display pieces that showcase the groups expertise in printing, painting, and lighting. The pieces demonstrate various techniques from electronics and lighting, to airbrushing and glow paint. All of the props and miniatures are 3D printed using ABS, PLA, and Resin in a variety of scales from 1/6th to life size. We've been 3D printing for many years and we are eager to share the techniques and experience we've learned along with visitors. Many pieces will be for sale"
+description-long: "Multiple 3D printed display pieces that showcase the groups expertise in printing, painting, and lighting. The pieces demonstrate various techniques from electronics and lighting, to airbrushing and glow paint. All of the props and miniatures are 3D printed using ABS, PLA, and Resin in a variety of scales from 1/6th to life size. We've been 3D printing for many years and we are eager to share the techniques and experience we've learned along with visitors. Many pieces will be for sale.  This year we will be also hosting a Hands on Workshop where you will be able to paint 3d printed models for a small fee."
 image: /assets/images/exhibit-images/24-43-exhibit-j2c-props-and-printing-img-9291-large.JPG
 image-primary: 
   small: /assets/images/exhibit-images/24-43-exhibit-j2c-props-and-printing-img-9291-small.JPG
@@ -34,17 +34,17 @@ maker:
 categories: 
   - slug: 3d-printing
     name: 3D Printing
-  - slug: art
-    name: Art
   - slug: cosplay
     name: Cosplay
+  - slug: hands-on-workshop
+    name: Hands-On Workshop
   - slug: props
     name: Props
   - slug: sewing
     name: Sewing
 created-jotform: "2024-08-06 10:55:36"
-last-modified-jotform: "2024-10-19 14:11:36"
-last-exported: "2024-10-19 14:22:32"
+last-modified-jotform: "2024-10-21 14:13:40"
+last-exported: "2024-10-21 14:34:29"
 sitemap: false
 
 ---
