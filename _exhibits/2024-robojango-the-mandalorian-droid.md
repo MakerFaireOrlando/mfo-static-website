@@ -5,6 +5,7 @@ title: "RoboJango - The Mandalorian Droid"
 slug: robojango-the-mandalorian-droid
 permalink: /exhibits/robojango-the-mandalorian-droid/
 exhibit-id: 24-167
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "na"
 description-long: "na"
@@ -30,8 +31,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2024-10-17 23:40:56"
-last-modified-jotform: "2024-10-19 14:01:53"
-last-exported: "2024-10-19 14:04:44"
+last-modified-jotform: "2024-10-22 21:56:13"
+last-exported: "2024-10-25 16:32:47"
 sitemap: false
 
 ---

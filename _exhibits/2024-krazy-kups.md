@@ -5,6 +5,7 @@ title: "Krazy Kups"
 slug: krazy-kups
 permalink: /exhibits/krazy-kups/
 exhibit-id: 24-147
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "Fun stem projects for kids and adults."
 description-long: "This is a stem project that involves tiny vibrating motors and cups. They also use a tiny coin battery and also involve weight by putting the weight of the components on one side of the cup it causes it to spin hence the name (c)Krazy (c)Kups."
@@ -32,8 +33,8 @@ categories:
   - slug: craft
     name: Craft
 created-jotform: "2024-10-03 18:59:36"
-last-modified-jotform: "2024-10-18 11:51:48"
-last-exported: "2024-10-19 12:44:46"
+last-modified-jotform: "2024-10-22 21:58:45"
+last-exported: "2024-10-25 16:32:47"
 sitemap: false
 
 ---

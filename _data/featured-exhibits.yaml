@@ -2,15 +2,19 @@
 #override the exhibit data by specifying any of title, description, image
 
 homepage:
+ 
+  - exhibit-id: 24-170 #mhcosplay
+    image: assets/images/exhibit-images/24-170-maker-mhcosplaydesign-inbound7852636485270038047-medium.jpg
+    description: Matthew brings larger-than-life characters to reality with jaw-dropping skill.
+  - exhibit-id: 24-162 #the full gang
+  - exhibit-id: 24-146 #allison chase
+  - exhibit-id: 24-157 #thestarcos
   - exhibit-id: 24-23 #daleks
   - exhibit-id: 24-34 #r2
   - exhibit-id: 24-77 #klingon
     image: assets/images/exhibit-images/24-77-exhibit-addl1-klingon-assault-group-klingon-medium.jpg
   - exhibit-id: 24-36 #jt designs 
-  - exhibit-id: 24-94 #graven
-  - exhibit-id: 24-123 #matthew sutton 
-  - exhibit-id: 24-61 #urban sketchers
-  - exhibit-id: 24-86 #curtis epperson
+
 
 
 

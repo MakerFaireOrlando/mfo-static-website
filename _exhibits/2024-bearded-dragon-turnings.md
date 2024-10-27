@@ -5,6 +5,7 @@ title: "Bearded Dragon Turnings"
 slug: bearded-dragon-turnings
 permalink: /exhibits/bearded-dragon-turnings/
 exhibit-id: 24-85
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "Selling wood products including bowls, pens, tops and honey dippers. Selling 3D printed orchid pots."
 description-long: "We sell hand turned wood products including bowls, pens, tops and honey dippers.  We also sell 3D printed orchid pots of our own design."
@@ -42,8 +43,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2024-08-21 21:35:45"
-last-modified-jotform: "2024-08-30 09:26:49"
-last-exported: "2024-09-05 11:49:59"
+last-modified-jotform: "2024-10-22 22:11:46"
+last-exported: "2024-10-25 16:32:48"
 sitemap: false
 
 ---

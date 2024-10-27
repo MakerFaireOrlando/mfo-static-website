@@ -5,6 +5,7 @@ title: "MCParks: Creating 1:1 Theme Parks in Minecraft"
 slug: mcparks-creating-1-1-theme-parks-in-minecraft
 permalink: /exhibits/mcparks-creating-1-1-theme-parks-in-minecraft/
 exhibit-id: 24-108
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "MCParks is a Minecraft server that builds real-world theme parks; with rides, shows, & attractions!"
 description-long: "MCParks is a Minecraft server that builds real-world theme parks like Walt Disney World, Universal Orlando Resort, Disneyland, and more to a 1:1 scale, complete with working rides, shows, and attractions. With a volunteer team of over 100 artists, builders, programmers, 3D-modelers, chat moderators, and more, we're always looking for new artistic talent to help us out!
@@ -43,8 +44,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2024-08-29 13:53:20"
-last-modified-jotform: "2024-09-15 14:21:52"
-last-exported: "2024-09-15 14:24:38"
+last-modified-jotform: "2024-10-22 21:57:56"
+last-exported: "2024-10-25 16:32:48"
 sitemap: false
 
 ---

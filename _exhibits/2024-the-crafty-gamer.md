@@ -5,6 +5,7 @@ title: "The Crafty Gamer"
 slug: the-crafty-gamer
 permalink: /exhibits/the-crafty-gamer/
 exhibit-id: 24-79
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "We create custom tabletop themed candles called the Aromas of Adventure."
 description-long: "We create custom tabletop themed candles called the Aromas of Adventure. Visit our new retail location for candle making classes and other tabletop events."
@@ -31,8 +32,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2024-08-19 11:52:58"
-last-modified-jotform: "2024-09-10 23:30:40"
-last-exported: "2024-09-15 10:12:25"
+last-modified-jotform: "2024-10-22 22:13:00"
+last-exported: "2024-10-25 16:32:48"
 sitemap: false
 
 ---

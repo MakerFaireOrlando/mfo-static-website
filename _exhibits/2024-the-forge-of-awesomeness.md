@@ -5,6 +5,7 @@ title: "The Forge of Awesomeness"
 slug: the-forge-of-awesomeness
 permalink: /exhibits/the-forge-of-awesomeness/
 exhibit-id: 24-41
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "We offer Tiffany technique jewelry for sale and hand sculpted pieces."
 description-long: "We offer Tiffany technique jewelry for sale and hand sculpted pieces. We would have photo detailing the step to using this old jewelry making technique and suggestions on how to start making your own pieces."
@@ -64,8 +65,8 @@ categories:
   - slug: jewelry
     name: Jewelry
 created-jotform: "2024-08-05 14:51:05"
-last-modified-jotform: "2024-08-19 22:23:38"
-last-exported: "2024-08-24 09:15:09"
+last-modified-jotform: "2024-10-22 22:18:14"
+last-exported: "2024-10-25 16:32:48"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Newsha Ghasemi"
 slug: newsha-ghasemi
 permalink: /exhibits/newsha-ghasemi/
 exhibit-id: 24-115
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "Selling original and fan art pieces in various mediums. Bookmarks, Wallscrolls, Canvas prints, etc"
 description-long: "Selling original and fan art pieces in various mediums. Bookmarks, Wallscrolls, Canvas prints and more"
@@ -46,8 +47,8 @@ categories:
   - slug: craft
     name: Craft
 created-jotform: "2024-09-02 19:52:34"
-last-modified-jotform: "2024-09-23 21:08:55"
-last-exported: "2024-09-29 14:09:56"
+last-modified-jotform: "2024-10-22 22:14:56"
+last-exported: "2024-10-25 16:32:48"
 sitemap: false
 
 ---

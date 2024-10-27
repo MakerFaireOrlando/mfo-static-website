@@ -5,7 +5,7 @@ title: "iMyth Hero"
 slug: imyth-hero
 permalink: /exhibits/imyth-hero/
 exhibit-id: 24-135
-exhibit-zone: "Opportunity"
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "Have a Disney/Universal interactive experience, ..., all at the palm of your hand!"
 description-long: "Everyone wants to have magical experiences. When we are young, the crowning destinations are Disney/Universal interactive experiences. The realities of life prevent this opportunity for most of Humanity. iMyth develops magical adventures for users as custom created, interactive characters, that come to life through their smartphones. Now the world can have magical Disney/Universal experiences at the palms of their hands. Dare to live the magic!"
@@ -34,8 +34,8 @@ categories:
   - slug: virtual-reality
     name: Virtual Reality
 created-jotform: "2024-09-20 09:55:20"
-last-modified-jotform: "2024-10-19 15:29:02"
-last-exported: "2024-10-20 15:21:26"
+last-modified-jotform: "2024-10-22 22:37:54"
+last-exported: "2024-10-25 16:32:47"
 sitemap: false
 
 ---

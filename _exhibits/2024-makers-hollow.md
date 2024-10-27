@@ -5,6 +5,7 @@ title: "Makers Hollow"
 slug: makers-hollow
 permalink: /exhibits/makers-hollow/
 exhibit-id: 24-176
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "An exhibition of some unique and unusual things created at Makers Hollow and how they were made."
 description-long: "An exhibition of some unique and unusual things created at Makers Hollow and how they were made, like Magic Wheelchair costumes and Makey Zoetropes, props and sets, and art of all kinds."
@@ -38,8 +39,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2024-10-21 10:46:04"
-last-modified-jotform: "2024-10-21 14:31:43"
-last-exported: "2024-10-21 14:34:09"
+last-modified-jotform: "2024-10-25 16:37:44"
+last-exported: "2024-10-26 08:21:53"
 sitemap: false
 
 ---

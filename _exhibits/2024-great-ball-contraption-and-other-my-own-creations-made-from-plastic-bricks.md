@@ -5,6 +5,7 @@ title: "Great Ball Contraption and other My Own Creations made from plastic bric
 slug: great-ball-contraption-and-other-my-own-creations-made-from-plastic-bricks
 permalink: /exhibits/great-ball-contraption-and-other-my-own-creations-made-from-plastic-bricks/
 exhibit-id: 24-152
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "GFLUG will display their ever evolving Great Ball Contraption. More modules are added every year."
 description-long: "GFLUG has been growing the GBC we bring to Maker Faire Orlando very year. In addition we will be exhibiting some other My Own Creations that demonstrate what creativity can be displayed with the LEGO Brick."
@@ -54,8 +55,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2024-10-07 10:04:06"
-last-modified-jotform: "2024-10-12 15:44:23"
-last-exported: "2024-10-12 15:46:42"
+last-modified-jotform: "2024-10-24 13:03:32"
+last-exported: "2024-10-25 16:32:47"
 sitemap: false
 
 ---

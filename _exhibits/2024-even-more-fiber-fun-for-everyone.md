@@ -6,7 +6,7 @@ slug: even-more-fiber-fun-for-everyone
 permalink: /exhibits/even-more-fiber-fun-for-everyone/
 exhibit-id: 24-131
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "p"
 description: "Check out how to spin yarn, weave fabric and the variety of items that can be made with yarn!"
 description-long: "Exhibitors will demonstrate how to spin yarn with hand spindles and wheels, weave fabric, knit/crochet with yarn, and other crafts that use yarn.  There will be many items to see/touch made from handspun yarn and/or woven fabric.  There will also be a simple free takeaway activity for children."
 image: /assets/images/exhibit-images/24-131-exhibit-even-more-fiber-fun-for-everyone-weaving-on-triangle-loom-large.jpeg
@@ -49,8 +49,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2024-09-17 11:08:57"
-last-modified-jotform: "2024-10-12 14:55:05"
-last-exported: "2024-10-12 15:42:17"
+last-modified-jotform: "2024-10-22 22:34:21"
+last-exported: "2024-10-25 16:32:48"
 sitemap: false
 
 ---

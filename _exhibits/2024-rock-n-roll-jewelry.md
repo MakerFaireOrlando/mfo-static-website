@@ -5,6 +5,7 @@ title: "Rock N Roll Jewelry"
 slug: rock-n-roll-jewelry
 permalink: /exhibits/rock-n-roll-jewelry/
 exhibit-id: 24-21
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "We are Rock N Roll Jewelry the original crafters of guitar string jewelry.
 Reduce Re-use Rock-N-Roll"
@@ -47,8 +48,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2024-08-02 11:28:48"
-last-modified-jotform: "2024-08-19 20:45:55"
-last-exported: "2024-08-24 09:15:09"
+last-modified-jotform: "2024-10-25 16:34:06"
+last-exported: "2024-10-26 08:21:55"
 sitemap: false
 
 ---

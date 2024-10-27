@@ -5,6 +5,7 @@ title: "Fandom Sophisticates"
 slug: fandom-sophisticates
 permalink: /exhibits/fandom-sophisticates/
 exhibit-id: 24-91
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Stained glass, sewing, and fiber arts artwork with fandom touches."
 description-long: "Fandom Sophisticates - Orlando-based Maker and Artist specializing in traditional mediums with fandom touches. Specializations in Stained glass, Sewing, Fiber Arts, etc."
@@ -34,8 +35,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2024-08-24 21:03:58"
-last-modified-jotform: "2024-09-02 18:50:05"
-last-exported: "2024-09-05 11:49:58"
+last-modified-jotform: "2024-10-22 22:12:53"
+last-exported: "2024-10-25 16:32:48"
 sitemap: false
 
 ---

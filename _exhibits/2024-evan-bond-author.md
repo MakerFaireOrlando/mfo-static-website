@@ -5,6 +5,7 @@ title: "Evan Bond, Author"
 slug: evan-bond-author
 permalink: /exhibits/evan-bond-author/
 exhibit-id: 24-17
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "Evan Bond is a horror author who loves blending his love of the outdoors with his writings. 
 "
@@ -40,8 +41,8 @@ categories:
   - slug: writing-and-publishing
     name: Writing and Publishing
 created-jotform: "2024-08-01 18:20:44"
-last-modified-jotform: "2024-08-30 09:26:58"
-last-exported: "2024-09-05 11:50:00"
+last-modified-jotform: "2024-10-22 22:12:32"
+last-exported: "2024-10-25 16:32:49"
 sitemap: false
 
 ---

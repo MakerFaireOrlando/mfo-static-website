@@ -5,6 +5,7 @@ title: "Crystal Bonsai Trees by CHOOL"
 slug: crystal-bonsai-trees-by-chool
 permalink: /exhibits/crystal-bonsai-trees-by-chool/
 exhibit-id: 24-104
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Crystal Bonsai Trees "
 description-long: "Crystal Bonsai Trees constructed from scratch. Each piece is unique. "
@@ -24,8 +25,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2024-08-28 13:24:09"
-last-modified-jotform: "2024-09-23 21:08:57"
-last-exported: "2024-09-29 14:09:56"
+last-modified-jotform: "2024-10-22 22:13:41"
+last-exported: "2024-10-25 16:32:48"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Tech Titan Fabrication Society"
 slug: tech-titan-fabrication-society
 permalink: /exhibits/tech-titan-fabrication-society/
 exhibit-id: 24-145
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "An exhibit of the Tech Titan Fabrication Society (TTFS) at Olympia High School"
 description-long: "The students from the Tech Titan Fabrication Society will be exhibiting information about the club, what they've learned and created, in addition to sharing the services they would like to offer to the local community. "
@@ -25,8 +26,8 @@ categories:
   - slug: education
     name: Education
 created-jotform: "2024-10-02 10:23:33"
-last-modified-jotform: "2024-10-19 13:54:31"
-last-exported: "2024-10-19 14:04:59"
+last-modified-jotform: "2024-10-22 21:51:25"
+last-exported: "2024-10-25 16:32:47"
 sitemap: false
 
 ---

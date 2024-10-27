@@ -5,6 +5,7 @@ title: "Czartroniks"
 slug: czartroniks
 permalink: /exhibits/czartroniks/
 exhibit-id: 24-151
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "Czartroniks - an interactive electronic audio/video experience"
 description-long: "Czartroniks - an interactive electronic audio/video experience.  Turn some knobs and make something happen!  "
@@ -30,8 +31,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2024-10-06 20:31:23"
-last-modified-jotform: "2024-10-12 13:13:29"
-last-exported: "2024-10-12 15:42:17"
+last-modified-jotform: "2024-10-22 21:56:24"
+last-exported: "2024-10-25 16:32:47"
 sitemap: false
 
 ---

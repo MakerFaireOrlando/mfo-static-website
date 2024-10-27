@@ -5,6 +5,7 @@ title: "Roll With Adventure"
 slug: roll-with-adventure
 permalink: /exhibits/roll-with-adventure/
 exhibit-id: 24-9
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "Handmade dice made with the spirit of adventure!"
 description-long: "I create custom handmade dice and other gaming accessories for TTRPGS! This includes full sets, single dice, dice rolling potions, dice keychains, dice necklaces, stickers and pins based on original art, crocheted dice bags, dice jails, and dice boxes! "
@@ -45,8 +46,8 @@ categories:
   - slug: manufacturing
     name: Manufacturing
 created-jotform: "2024-07-30 13:53:44"
-last-modified-jotform: "2024-08-24 09:16:52"
-last-exported: "2024-08-25 14:27:36"
+last-modified-jotform: "2024-10-22 22:18:28"
+last-exported: "2024-10-25 16:32:49"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Elizabeth Schechter"
 slug: elizabeth-schechter
 permalink: /exhibits/elizabeth-schechter/
 exhibit-id: 24-15
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "Romance with a Fantastic Flair"
 description-long: "Elizabeth Schechter has been writing award-winning Romantasy since before romantasy was a word. Her writing credits include the award-winning steampunk romance House of Sable Locks, the Celtic fantasy Princes of Air, and 2021 VIVIAN finalist Written in Water."
@@ -41,8 +42,8 @@ categories:
   - slug: writing-and-publishing
     name: Writing and Publishing
 created-jotform: "2024-08-01 14:18:53"
-last-modified-jotform: "2024-08-19 22:23:41"
-last-exported: "2024-08-24 09:15:09"
+last-modified-jotform: "2024-10-22 22:12:28"
+last-exported: "2024-10-25 16:32:49"
 sitemap: false
 
 ---

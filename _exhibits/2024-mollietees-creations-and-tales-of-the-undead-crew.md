@@ -5,6 +5,7 @@ title: "Mollietees Creations and Tales of the Undead Crew"
 slug: mollietees-creations-and-tales-of-the-undead-crew
 permalink: /exhibits/mollietees-creations-and-tales-of-the-undead-crew/
 exhibit-id: 24-30
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "MTC & TotUC take everyday items otherwise discarded and turn them into one of a kind art! "
 description-long: "Mollietees Creations sews all kind of cool one of a kind gifts - totes, accessories, kitchenware, pet toys and more - all upcycled out of second hand T-shirts.
@@ -51,8 +52,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2024-08-04 14:05:10"
-last-modified-jotform: "2024-09-02 18:50:09"
-last-exported: "2024-09-05 11:49:59"
+last-modified-jotform: "2024-10-22 22:18:07"
+last-exported: "2024-10-25 16:32:49"
 sitemap: false
 
 ---

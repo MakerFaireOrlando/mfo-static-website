@@ -6,7 +6,7 @@ slug: retro-computing-roundup
 permalink: /exhibits/retro-computing-roundup/
 exhibit-id: 24-158
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "p"
 description: "Fully interactive exhibit, try the computers of the past.  Learn old programming languages."
 description-long: "Statewide enthusiasts of vintage computing sharing the knowledge and experiences of yesterday.  Try your grandpa's first home computer, write your first basic program, learn how ram works, play the games the set the foundations for today's games."
 image: /assets/images/exhibit-images/24-158-exhibit-retro-computing-roundup-img-2839-large.jpeg
@@ -30,8 +30,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2024-10-13 17:59:14"
-last-modified-jotform: "2024-10-20 12:27:28"
-last-exported: "2024-10-20 15:21:25"
+last-modified-jotform: "2024-10-22 22:39:47"
+last-exported: "2024-10-25 16:32:47"
 sitemap: false
 
 ---

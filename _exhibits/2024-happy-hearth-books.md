@@ -5,6 +5,7 @@ title: "Happy Hearth Books"
 slug: happy-hearth-books
 permalink: /exhibits/happy-hearth-books/
 exhibit-id: 24-141
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "Blind Date with a Book: Curated rescued reads, wrapped with care. Find your next adventure!"
 description-long: "At Happy Hearth Books, we create a personalized book experiences through our Blind Date with a Book offerings. Each book is carefully curated to match readers based on genre preferences, ensuring there’s something for everyone—whether you're into cozy fantasies, thrilling horrors, or heartwarming romances. We rescue gently used books, giving them a second life and an opportunity to find new homes, like yours. Our passion is connecting readers with stories they’ll love, one book at a time!"
@@ -57,8 +58,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2024-09-28 13:42:56"
-last-modified-jotform: "2024-09-29 14:42:53"
-last-exported: "2024-10-03 16:07:02"
+last-modified-jotform: "2024-10-22 22:11:24"
+last-exported: "2024-10-25 16:32:47"
 sitemap: false
 
 ---

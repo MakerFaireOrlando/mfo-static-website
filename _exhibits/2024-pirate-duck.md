@@ -5,6 +5,7 @@ title: "Pirate Duck"
 slug: pirate-duck
 permalink: /exhibits/pirate-duck/
 exhibit-id: 24-19
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "We sell original pop culture, theme park, and sci fi inspired designs that are fun and unique."
 description-long: "We sell original pop culture, theme park, sci fi inspired design. These designs are fun and unique and are sure to bring out your inner child or sense of humor. We also offer custom apparel. You can choose from ready made designs and combine them your favorite garnet color. "
@@ -39,8 +40,8 @@ categories:
   - slug: screen-printing
     name: Screen Printing
 created-jotform: "2024-08-02 10:56:03"
-last-modified-jotform: "2024-08-19 20:45:56"
-last-exported: "2024-08-24 09:15:09"
+last-modified-jotform: "2024-10-25 16:34:07"
+last-exported: "2024-10-26 08:21:55"
 sitemap: false
 
 ---

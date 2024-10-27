@@ -5,6 +5,7 @@ title: "Pixelation Station"
 slug: pixelation-station
 permalink: /exhibits/pixelation-station/
 exhibit-id: 24-129
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "Come make some pixel goodies with Silly Rabbit Crafts!"
 description-long: "Silly Rabbit Crafts specializes in turning perler beads into geeky art that will make any fanboy or fangirl’s day. Silly Rabbit brings all the gear so attendees can make fun goodies to take home."
@@ -40,8 +41,8 @@ categories:
   - slug: kits
     name: Kits
 created-jotform: "2024-09-15 22:17:35"
-last-modified-jotform: "2024-10-12 15:36:52"
-last-exported: "2024-10-12 15:42:17"
+last-modified-jotform: "2024-10-22 21:58:30"
+last-exported: "2024-10-25 16:32:48"
 sitemap: false
 
 ---

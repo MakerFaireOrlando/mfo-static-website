@@ -5,6 +5,7 @@ title: "over engineered candy dispenser V2"
 slug: over-engineered-candy-dispenser-v2
 permalink: /exhibits/over-engineered-candy-dispenser-v2/
 exhibit-id: 24-31
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "This device will dispense a gum ball after a metal ball traverses a Rube Goldberg machine"
 description-long: "This device will dispense a gum ball after a metal ball traverses a Rube Goldberg machine consisting of several items including a drum, xylophone maybe a bell and a few fun thing still in the planning stages"
@@ -22,8 +23,8 @@ categories:
   - slug: invention
     name: Invention
 created-jotform: "2024-08-04 15:58:32"
-last-modified-jotform: "2024-08-25 14:57:40"
-last-exported: "2024-08-25 14:58:51"
+last-modified-jotform: "2024-10-23 19:00:12"
+last-exported: "2024-10-25 16:32:49"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "MuvMotors"
 slug: muvmotors
 permalink: /exhibits/muvmotors/
 exhibit-id: 24-40
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Make your sculptures, robots, animatronics sense presence of an audience then use audio and motion. "
 description-long: "Provides a carrier board for powerful yet inexpensive modules which can provide audience sensing with addition of a PIR Motion Sensor, drive stepper motors, with an LCD and a control knob for user input/output.
@@ -46,8 +47,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2024-08-05 14:50:24"
-last-modified-jotform: "2024-09-23 13:52:44"
-last-exported: "2024-09-23 14:57:24"
+last-modified-jotform: "2024-10-22 22:05:21"
+last-exported: "2024-10-25 16:32:48"
 sitemap: false
 
 ---

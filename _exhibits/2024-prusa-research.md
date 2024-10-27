@@ -5,7 +5,8 @@ title: "Prusa Research"
 slug: prusa-research
 permalink: /exhibits/prusa-research/
 exhibit-id: 24-177
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "p"
 description: "3D Printing company"
 description-long: "Prusa Research was founded as a one-man startup in 2012 by Josef Prusa, a Czech hobbyist, maker, and inventor, and has become one of the fastest-growing tech companies in the Czech Republic in recent years. Currently, more than 900 people work at Prusa Research, and every month over 10,000 printers are shipped worldwide directly from the Prague headquarters."
 image: /assets/images/exhibit-images/24-177-exhibit-prusa-research-orlando-8564-large.jpg
@@ -34,8 +35,8 @@ categories:
   - slug: 3d-printing
     name: 3D Printing
 created-jotform: "2024-10-21 10:59:31"
-last-modified-jotform: "2024-10-21 14:31:32"
-last-exported: "2024-10-21 14:34:05"
+last-modified-jotform: "2024-10-22 22:33:11"
+last-exported: "2024-10-25 16:32:47"
 sitemap: false
 
 ---

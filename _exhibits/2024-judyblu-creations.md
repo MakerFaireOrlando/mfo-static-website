@@ -5,6 +5,7 @@ title: "JudyBlu Creations"
 slug: judyblu-creations
 permalink: /exhibits/judyblu-creations/
 exhibit-id: 24-69
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Fanart from various genres to creative whimsical art."
 description-long: "Fanart from various genres such as tv shows, movies, dc/marvel, anime and more."
@@ -45,8 +46,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2024-08-17 05:43:27"
-last-modified-jotform: "2024-08-30 09:26:52"
-last-exported: "2024-09-05 11:49:59"
+last-modified-jotform: "2024-10-22 22:12:41"
+last-exported: "2024-10-25 16:32:48"
 sitemap: false
 
 ---

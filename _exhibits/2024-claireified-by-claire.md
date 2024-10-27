@@ -5,6 +5,7 @@ title: "Claireified by Claire"
 slug: claireified-by-claire
 permalink: /exhibits/claireified-by-claire/
 exhibit-id: 24-38
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "Fandom inspired handmade soap."
 description-long: "Fandom inspired handmade soap inspired by Disney, Marvel, Star Wars, Supernatural, Harry Potter, Anime, D&D, and more.
@@ -47,8 +48,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2024-08-05 12:46:05"
-last-modified-jotform: "2024-08-30 09:26:56"
-last-exported: "2024-09-05 11:49:59"
+last-modified-jotform: "2024-10-22 22:13:22"
+last-exported: "2024-10-25 16:32:48"
 sitemap: false
 
 ---

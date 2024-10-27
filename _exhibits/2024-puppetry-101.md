@@ -5,6 +5,7 @@ title: "Puppetry 101"
 slug: puppetry-101
 permalink: /exhibits/puppetry-101/
 exhibit-id: 24-110
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "Meet some puppets and see some puppets in progress. Learn about what makes puppetry work!"
 description-long: "Visit with Blueberry, the wandering marionette who has been making his way around Maker Faire Orlando since 2022. See puppets in the building process, and look at (and try!) mechanisms used to control marionettes. Get information about puppet building projects that you can try at home, and see examples of all the different types of puppets around the world to enjoy. Check out a few puppets that you may recognize from your childhood on a certain Street... and be sure to bring along a book for them to look book! Uh-huh!
@@ -32,8 +33,8 @@ categories:
   - slug: puppets
     name: Puppets
 created-jotform: "2024-08-31 01:12:04"
-last-modified-jotform: "2024-09-23 15:11:05"
-last-exported: "2024-09-23 15:12:15"
+last-modified-jotform: "2024-10-22 21:58:22"
+last-exported: "2024-10-25 16:32:48"
 sitemap: false
 
 ---

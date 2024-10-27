@@ -5,6 +5,7 @@ title: "folksylove"
 slug: folksylove
 permalink: /exhibits/folksylove/
 exhibit-id: 24-139
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Folksylove designs and creates acrylic jewelry and accessories in Orlando, FL. "
 description-long: "Folksylove designs and creates acrylic jewelry and accessories in Orlando, FL. I strive to bring a smile to your face when you see my creations. Everything is made with love and the best materials to make your ears happy. "
@@ -41,8 +42,8 @@ categories:
   - slug: laser-cutting-engraving
     name: Laser Cutting & Engraving
 created-jotform: "2024-09-25 15:09:24"
-last-modified-jotform: "2024-10-20 12:26:37"
-last-exported: "2024-10-20 15:21:26"
+last-modified-jotform: "2024-10-25 16:34:05"
+last-exported: "2024-10-26 08:21:53"
 sitemap: false
 
 ---

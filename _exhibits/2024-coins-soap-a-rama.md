@@ -5,6 +5,7 @@ title: "Coin's Soap-a-Rama"
 slug: coins-soap-a-rama
 permalink: /exhibits/coins-soap-a-rama/
 exhibit-id: 24-114
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "At Colin's Soap-A-Rama, be prepared for the unexpected! "
 description-long: "All soaps are handmade in Colin's Orlando kitchen. 2nd grade Colin is both the nose and the brains of the operation. Don't miss his renowned surprise soaps and take home a little bit of mischief in your bag!   "
@@ -24,8 +25,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2024-09-01 13:17:41"
-last-modified-jotform: "2024-10-12 14:39:21"
-last-exported: "2024-10-12 15:42:19"
+last-modified-jotform: "2024-10-22 22:15:37"
+last-exported: "2024-10-25 16:32:48"
 sitemap: false
 
 ---
