@@ -95,12 +95,14 @@ def findPayPalInvoice(token, exhibitID):
     invoice_body_json = invoice_response.json()
 
     if ("items" in invoice_body_json):
-        print ("Invoice status is: ", end="")
-        print (invoice_body_json['items'][0]['status'], end="->")
-        return invoice_body_json['items'][0]['status']
-    else:
-        print ("Invoice does not exist->", end="")
-        return "not-found"
+        if (invoice_body_json['items'][0]['detail']['invoice_number'] == "MFO-" + exhibitID):
+            print ("Invoice status is: ", end="")
+            print (invoice_body_json['items'][0]['status'], end="->")
+            return invoice_body_json['items'][0]['status']
+    
+    #this is not in an else condition since the success condition returns out of the function
+    print ("Invoice does not exist->", end="")
+    return "not-found"
 
 
 def createPayPalInvoice(token, exhibitID, makerEmail, makerFirstName, makerLastName, exhibitName, type, fee):
