@@ -6,7 +6,7 @@ slug: tampa-deep-sea-xplorers
 permalink: /exhibits/tampa-deep-sea-xplorers/
 exhibit-id: 24-29
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD15"
 description: "We build underwater vehicles for mapping the ocean floor bringing deep learning to the deep sea."
 description-long: "Tampa Deep Sea Xplorers INC (TDSX) manufactures Autonomous Underwater Vehicles (AUV). Our flagship product is the Barracuda AUV(R). We are passionate about underwater exploration and discovery. Our mission is to provide deep sea vehicles that are robust enough to reach great depths to accelerate ocean discovery and increase affordable access to the Blue Economy."
 image: /assets/images/exhibit-images/24-29-exhibit-tampa-deep-sea-xplorers-pool-photo-at-joes-large.jpg
@@ -32,8 +32,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2024-08-04 13:46:31"
-last-modified-jotform: "2024-10-12 15:27:35"
-last-exported: "2024-10-12 15:42:23"
+last-modified-jotform: "2024-10-27 15:19:07"
+last-exported: "2024-10-27 17:06:29"
 sitemap: false
 
 ---

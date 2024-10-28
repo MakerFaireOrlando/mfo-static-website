@@ -6,7 +6,7 @@ slug: cooked-audio
 permalink: /exhibits/cooked-audio/
 exhibit-id: 24-133
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE15"
 description: "Hacked audio devices by Jeremy Cook"
 description-long: "Jeremy Cook makes all manner of robotic contraptions. This year he's focusing on his @CookedAudio YouTube project, including hacked musical instruments and an Arduino-based drum machine that will (hopefully) be working by MFO2024!"
 image: /assets/images/exhibit-images/24-133-exhibit-cooked-audio-screenshot-2024-09-17-at-3-54-42-pm-large.png
@@ -42,8 +42,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2024-09-17 16:01:37"
-last-modified-jotform: "2024-10-12 15:28:01"
-last-exported: "2024-10-12 15:42:17"
+last-modified-jotform: "2024-10-27 15:19:21"
+last-exported: "2024-10-27 17:06:25"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: savage-canvas-arts
 permalink: /exhibits/savage-canvas-arts/
 exhibit-id: 24-73
 exhibit-zone: "Spirit - West"
-space-number: Unassigned
+space-number: "SC3"
 description: "I have glow in the dark t-shirts for sale."
 description-long: "I mix custom blend paints that glow in the dark and paint t-shirts. The glow will not be ruined with washing. The paints are both glow in the dark and black light compatible. 
 
@@ -34,8 +34,8 @@ categories:
   - slug: fabric-arts
     name: Fabric Arts
 created-jotform: "2024-08-17 16:23:45"
-last-modified-jotform: "2024-10-22 22:17:52"
-last-exported: "2024-10-25 16:32:48"
+last-modified-jotform: "2024-10-27 13:54:11"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

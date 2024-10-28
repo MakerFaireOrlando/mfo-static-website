@@ -6,7 +6,7 @@ slug: void-modular
 permalink: /exhibits/void-modular/
 exhibit-id: 24-169
 exhibit-zone: "Spirit - West"
-space-number: Unassigned
+space-number: "SD1"
 description: "Modular synthesizers, noise, bleeps, bloops and wires."
 description-long: "Modular synthesizers, noise, bleeps, bloops and wires.  Come learn about modular synthesis and play with my modular synthesizers.  That's really about it."
 image: /assets/images/exhibit-images/24-169-exhibit-void-modular-20221106-105325-large.jpg
@@ -33,8 +33,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2024-10-18 15:55:00"
-last-modified-jotform: "2024-10-19 11:38:13"
-last-exported: "2024-10-19 12:42:29"
+last-modified-jotform: "2024-10-27 13:53:16"
+last-exported: "2024-10-27 17:06:24"
 sitemap: false
 
 ---

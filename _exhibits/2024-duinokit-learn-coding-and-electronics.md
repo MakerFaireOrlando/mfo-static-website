@@ -5,7 +5,8 @@ title: "DuinoKit - Learn Coding and Electronics"
 slug: duinokit-learn-coding-and-electronics
 permalink: /exhibits/duinokit-learn-coding-and-electronics/
 exhibit-id: 24-179
-space-number: Unassigned
+exhibit-zone: "Spirit - West"
+space-number: "SE6"
 description: "STEM learning kit for Arduino based coding and electronics. "
 description-long: "A DuinoKit is a prototyping system that combines the power of coding with the versatility of electronics. It consists of an Arduino microcontroller board, a breadboard, various electronic components, and a set of tutorials to guide you through the learning process."
 image: /assets/images/exhibit-images/24-179-exhibit-duinokit-learn-coding-and-electronics-avatar-kit-small-8464-large.JPG
@@ -42,8 +43,8 @@ categories:
   - slug: maker-community
     name: Maker Community
 created-jotform: "2024-10-22 19:52:52"
-last-modified-jotform: "2024-10-25 16:37:09"
-last-exported: "2024-10-26 08:21:53"
+last-modified-jotform: "2024-10-27 13:51:20"
+last-exported: "2024-10-27 17:06:24"
 sitemap: false
 
 ---

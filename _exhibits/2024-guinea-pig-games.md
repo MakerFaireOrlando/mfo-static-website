@@ -6,7 +6,7 @@ slug: guinea-pig-games
 permalink: /exhibits/guinea-pig-games/
 exhibit-id: 24-47
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE12"
 description: "Guinea Pig Games is a local Orlando company specializing in making retro video games."
 description-long: "Guinea Pig Games is a local Orlando company that specializes in making and publishing retro video games for the Turbografx 16 and PC Engine along with other accessories and retro video game based  arts and crafts."
 image: /assets/images/exhibit-images/24-47-exhibit-guinea-pig-games-img-6850-large.jpeg
@@ -52,8 +52,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2024-08-08 15:10:14"
-last-modified-jotform: "2024-10-22 22:05:47"
-last-exported: "2024-10-25 16:32:48"
+last-modified-jotform: "2024-10-27 15:29:18"
+last-exported: "2024-10-27 17:06:29"
 sitemap: false
 
 ---

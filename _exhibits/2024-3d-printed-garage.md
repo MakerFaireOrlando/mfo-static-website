@@ -6,7 +6,7 @@ slug: 3d-printed-garage
 permalink: /exhibits/3d-printed-garage/
 exhibit-id: 24-12
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD4"
 description: "Customize and 3D print your own DIY RC Car with an interactive website builder & videos guides."
 description-long: "3D Printed Garage is an all-in-one RC vehicle builder website. Plan your ride in the innovative 3DPG car builder, download and print on your 3D printer of choice, and then assemble using guided videos. Finally, when you need a fresh set of wheels, hop back into the virtual builder to upgrade or change your ride."
 image: /assets/images/exhibit-images/24-12-exhibit-3d-printed-garage-kickstarter-banner-feedback-large.jpg
@@ -57,8 +57,8 @@ categories:
   - slug: 4
     name: 4
 created-jotform: "2024-07-31 17:51:16"
-last-modified-jotform: "2024-10-19 15:25:18"
-last-exported: "2024-10-20 15:21:31"
+last-modified-jotform: "2024-10-27 15:27:44"
+last-exported: "2024-10-27 17:06:30"
 sitemap: false
 
 ---

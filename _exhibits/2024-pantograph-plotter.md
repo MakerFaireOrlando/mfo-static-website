@@ -6,7 +6,7 @@ slug: pantograph-plotter
 permalink: /exhibits/pantograph-plotter/
 exhibit-id: 24-144
 exhibit-zone: "Opportunity"
-space-number: "p"
+space-number: "OG17"
 description: "Test your artistic leanings and eye-hand coordination against an Arduino-based pen-plotter. "
 description-long: "Remember the fun (and frustration) of twirling the knobs on an Etch-A-Sketch (tm) drawing toy?  Trying to make a reasonable pattern was really tough.  Well, with the help of an Arduino and a few servos, we've recreated the basic knob-turning drawing experience, with a few enhancements.
 
@@ -35,8 +35,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2024-09-29 11:54:42"
-last-modified-jotform: "2024-10-22 22:34:18"
-last-exported: "2024-10-25 16:32:47"
+last-modified-jotform: "2024-10-27 15:15:56"
+last-exported: "2024-10-27 17:06:25"
 sitemap: false
 
 ---

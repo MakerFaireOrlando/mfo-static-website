@@ -5,7 +5,7 @@ title: "HexoGear"
 slug: hexogear
 permalink: /exhibits/hexogear/
 exhibit-id: 24-111
-exhibit-zone: "Opportunity"
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "HexoGear: Innovating everyday life with 3D-printed tech accessories and practical, stylish solutions"
 description-long: "HexoGear is a brand born from my passion for innovation and a love for making life easier with creative, practical solutions. My name is Carlos Macca, and I’m the inventor behind the HexoCaster, a unique phone hanger and sound amplifier that naturally boosts smartphone audio without the need for batteries or cables.
@@ -81,8 +81,8 @@ categories:
   - slug: invention
     name: Invention
 created-jotform: "2024-08-31 20:34:20"
-last-modified-jotform: "2024-10-22 21:53:57"
-last-exported: "2024-10-25 16:32:48"
+last-modified-jotform: "2024-10-27 13:48:20"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

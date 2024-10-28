@@ -6,7 +6,7 @@ slug: toy-factor-e
 permalink: /exhibits/toy-factor-e/
 exhibit-id: 24-33
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA8"
 description: "TOY FACTOR-E is a fun hands on experience where both kids and adults can assemble 3D printed toys. "
 description-long: "TOY FACTOR-E is a fun hands on experience where both kids and adults can assemble 3D printed toys. This year, TOY FACTOR-E activities are Build Your Own Custom Robot “Build Your Own Ice Cream” and “Build Your Own Colorful Macarons”. Both kids and adults will be able to choose their own colors and designs for their 3D printed toys. "
 image: /assets/images/exhibit-images/24-33-exhibit-toy-factor-e-img-5122-large.png
@@ -23,8 +23,8 @@ categories:
   - slug: 3d-printing
     name: 3D Printing
 created-jotform: "2024-08-04 17:11:36"
-last-modified-jotform: "2024-10-22 22:13:07"
-last-exported: "2024-10-25 16:32:48"
+last-modified-jotform: "2024-10-27 15:29:51"
+last-exported: "2024-10-27 17:06:29"
 sitemap: false
 
 ---

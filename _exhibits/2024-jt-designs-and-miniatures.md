@@ -6,7 +6,7 @@ slug: jt-designs-and-miniatures
 permalink: /exhibits/jt-designs-and-miniatures/
 exhibit-id: 24-36
 exhibit-zone: "Spirit - East"
-space-number: "S29C"
+space-number: "SC29"
 description: "Studio filming scale models and miniatures made from a variety of mediums."
 description-long: "Recreations of some of the most iconic vehicles and characters in cinema history. using silicone molding techniques, fiberglass, wood working, 3D printing and kit bashing. In addition to science fiction topics, real world pieces are also created such as ships,other types of vehicles and creatures."
 image: /assets/images/exhibit-images/24-36-exhibit-jt-designs-and-miniatures-img-1483-large.JPG
@@ -78,8 +78,8 @@ categories:
   - slug: special-effects
     name: Special Effects
 created-jotform: "2024-08-04 20:53:38"
-last-modified-jotform: "2024-10-19 12:28:15"
-last-exported: "2024-10-19 12:44:48"
+last-modified-jotform: "2024-10-27 17:47:16"
+last-exported: "2024-10-27 17:47:33"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: art-of-bianca
 permalink: /exhibits/art-of-bianca/
 exhibit-id: 24-49
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA14"
 description: "Paintings and prints of artwork"
 description-long: "Live painting showcasing original artwork"
 image: /assets/images/exhibit-images/24-49-exhibit-art-of-bianca-screenshot-20240119-175754-01-large.jpg
@@ -25,8 +25,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2024-08-09 12:17:20"
-last-modified-jotform: "2024-10-19 15:00:54"
-last-exported: "2024-10-20 15:21:29"
+last-modified-jotform: "2024-10-27 15:24:34"
+last-exported: "2024-10-27 17:06:29"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: laser-cut-spinning-toy
 permalink: /exhibits/laser-cut-spinning-toy/
 exhibit-id: 24-155
 exhibit-zone: "Spirit - West"
-space-number: Unassigned
+space-number: "SH9"
 description: "Decorating and making spinning toys using laser-cut disks and string. "
 description-long: "E-ffinity Playground presents an engaging workshop where kids and kids at heart can unleash their creativity by decorating and building their own spinning toys using laser-cut disks and string. While crafting these fun toys, participants will explore the concept of rotational inertia, learning how objects spin and behave based on their shape and mass. This hands-on activity makes science fun and interactive, combining art and physics in a playful, educational environment."
 image: /assets/images/exhibit-images/24-155-exhibit-laser-cut-spinning-toy-20241012-101936-large.jpg
@@ -33,8 +33,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2024-10-12 10:46:39"
-last-modified-jotform: "2024-10-23 19:08:02"
-last-exported: "2024-10-25 16:32:47"
+last-modified-jotform: "2024-10-27 13:32:24"
+last-exported: "2024-10-27 17:06:25"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: cavebot-painting
 permalink: /exhibits/cavebot-painting/
 exhibit-id: 24-109
 exhibit-zone: "Spirit - West"
-space-number: Unassigned
+space-number: "SE3, SE4"
 description: "Participants will be provided with everything needed to create your own cavebot painting. "
 description-long: "This is a hands-on make & take presentation! Cavebots are little robots that paint. Maker Faire guests will be provided a robot, 4x6 canvas, paint, instruction and allowed to keep the robot artist and canvas as a memory of MFO24.
 10-20 minutes activity. Limit 50 per day."
@@ -62,8 +62,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2024-08-29 14:58:21"
-last-modified-jotform: "2024-10-22 21:58:02"
-last-exported: "2024-10-25 16:32:48"
+last-modified-jotform: "2024-10-27 13:50:16"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

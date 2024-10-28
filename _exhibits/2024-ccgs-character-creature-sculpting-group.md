@@ -6,7 +6,7 @@ slug: ccgs-character-creature-sculpting-group
 permalink: /exhibits/ccgs-character-creature-sculpting-group/
 exhibit-id: 24-88
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC18"
 description: "Nick Zuccarello, Jun Huang, and Aimee Nilsson feature their mixture of sculpture creations."
 description-long: "The dynamic trio of sculptors, Nick Zuccarello, Jun Huang, and Aimee Nilsson, feature their sculpture creations. As professional artists and entrepreneurs, their artistic mixture of fantasy and reality will surely excite the eclectic interests of this year's guests.
 
@@ -47,8 +47,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2024-08-23 15:34:06"
-last-modified-jotform: "2024-10-22 21:53:14"
-last-exported: "2024-10-25 16:32:48"
+last-modified-jotform: "2024-10-27 15:28:44"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

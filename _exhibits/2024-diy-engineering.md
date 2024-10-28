@@ -6,7 +6,7 @@ slug: diy-engineering
 permalink: /exhibits/diy-engineering/
 exhibit-id: 24-89
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD6"
 description: "New Product Development Adventure Books and Finely Crafted Arcade Emulation Handhelds that Inspire."
 description-long: "Stop by DIY Engineering space to talk tech or find guidance in his DIY New Product Development Adventure book or grab a limited edition finely crafted Arcade Emulation Handheld."
 image: /assets/images/exhibit-images/24-89-exhibit-diy-engineering-maker-fair-a-large.jpg
@@ -45,8 +45,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2024-08-24 11:08:37"
-last-modified-jotform: "2024-10-25 16:34:06"
-last-exported: "2024-10-26 08:21:54"
+last-modified-jotform: "2024-10-27 15:26:53"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

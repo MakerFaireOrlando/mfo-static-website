@@ -6,7 +6,7 @@ slug: crystal-bonsai-trees-by-chool
 permalink: /exhibits/crystal-bonsai-trees-by-chool/
 exhibit-id: 24-104
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD29"
 description: "Crystal Bonsai Trees "
 description-long: "Crystal Bonsai Trees constructed from scratch. Each piece is unique. "
 image: /assets/images/exhibit-images/24-104-exhibit-crystal-bonsai-trees-by-chool-inbound6410300881970778620-large.png
@@ -25,8 +25,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2024-08-28 13:24:09"
-last-modified-jotform: "2024-10-22 22:13:41"
-last-exported: "2024-10-25 16:32:48"
+last-modified-jotform: "2024-10-27 15:30:04"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

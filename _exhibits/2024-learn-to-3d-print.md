@@ -5,8 +5,8 @@ title: "Learn to 3D Print"
 slug: learn-to-3d-print
 permalink: /exhibits/learn-to-3d-print/
 exhibit-id: 24-80
-exhibit-zone: "Opportunity"
-space-number: Unassigned
+exhibit-zone: "Spirit - West"
+space-number: "SH1"
 description: "Hands-on workshop! Come create and 3D print a keychain or a pin. "
 description-long: "Learn about CAD, engineering design and 3D printing with this fun hands-on workshop.
 Participants ages 6+ can design a personalized keychain or pin in TinkerCAD, and 3D print it!"
@@ -32,8 +32,8 @@ categories:
   - slug: maker-community
     name: Maker Community
 created-jotform: "2024-08-19 18:22:31"
-last-modified-jotform: "2024-10-22 22:04:21"
-last-exported: "2024-10-25 16:32:48"
+last-modified-jotform: "2024-10-27 13:28:08"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

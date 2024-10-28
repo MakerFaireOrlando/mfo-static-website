@@ -6,7 +6,7 @@ slug: rock-springs-critters
 permalink: /exhibits/rock-springs-critters/
 exhibit-id: 24-72
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD24"
 description: "Come see the newest 3D printed fidgets by Rock Springs Critters!"
 description-long: "Come see the newest 3D printed fidgets by Rock Springs Critters! No purchase necessary to come play with these cute animals made by kids, with solar-power, and plant-derived PLA filament."
 image: /assets/images/exhibit-images/24-72-exhibit-rock-springs-critters-43-screenshot-20240817-151405-4975-large.png
@@ -30,8 +30,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2024-08-17 15:32:36"
-last-modified-jotform: "2024-10-22 22:15:30"
-last-exported: "2024-10-25 16:32:48"
+last-modified-jotform: "2024-10-27 15:30:30"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

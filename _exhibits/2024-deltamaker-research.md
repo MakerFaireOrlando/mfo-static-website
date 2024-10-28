@@ -5,7 +5,8 @@ title: "DeltaMaker Research"
 slug: deltamaker-research
 permalink: /exhibits/deltamaker-research/
 exhibit-id: 24-183
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC22"
 description: "Showcasing innovations in 3D printing technology through continuous exploration and development."
 description-long: "At DeltaMaker Research, we are focused on advancing the technology behind 3D printing. Here are some of the projects we are currently working on:
 
@@ -44,8 +45,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2024-10-25 13:22:12"
-last-modified-jotform: "2024-10-25 16:31:24"
-last-exported: "2024-10-25 16:32:44"
+last-modified-jotform: "2024-10-27 15:32:19"
+last-exported: "2024-10-27 17:06:24"
 sitemap: false
 
 ---

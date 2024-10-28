@@ -5,6 +5,7 @@ title: "Giant Skeeball machine"
 slug: giant-skeeball-machine
 permalink: /exhibits/giant-skeeball-machine/
 exhibit-id: 24-181
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Come play a giant Skeeball machine!"
 description-long: "This game is about 22' long, 7' high and uses balls the size of bowling balls."
@@ -41,8 +42,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2024-10-25 07:58:23"
-last-modified-jotform: "2024-10-25 16:31:58"
-last-exported: "2024-10-25 16:32:47"
+last-modified-jotform: "2024-10-26 19:18:41"
+last-exported: "2024-10-27 17:06:24"
 sitemap: false
 
 ---

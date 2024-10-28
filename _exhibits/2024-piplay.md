@@ -6,7 +6,7 @@ slug: piplay
 permalink: /exhibits/piplay/
 exhibit-id: 24-32
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE10"
 description: "PiPlay - Video Gaming on the Raspberry Pi!!!"
 description-long: "PiPlay - Video Gaming on the Raspberry Pi!!! All sorts of cool stuff you can do with the Raspberry Pi and Retro gaming."
 image: /assets/images/exhibit-images/24-32-exhibit-piplay-23-28-exhibit-piplay-pxl-20211113-150229208-large-large.jpg
@@ -29,8 +29,8 @@ categories:
   - slug: raspberry-pi
     name: Raspberry Pi
 created-jotform: "2024-08-04 16:35:20"
-last-modified-jotform: "2024-10-12 15:21:30"
-last-exported: "2024-10-12 15:42:23"
+last-modified-jotform: "2024-10-27 15:17:12"
+last-exported: "2024-10-27 17:06:29"
 sitemap: false
 
 ---

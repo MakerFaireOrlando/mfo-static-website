@@ -6,7 +6,7 @@ slug: zacks-honey-farm
 permalink: /exhibits/zacks-honey-farm/
 exhibit-id: 24-140
 exhibit-zone: "Spirit - West"
-space-number: Unassigned
+space-number: "SC4"
 description: "Local varieties of raw honey"
 description-long: "We raise honeybees and produce honey to sell locally"
 image: /assets/images/exhibit-images/24-140-exhibit-zacks-honey-farm-img-0616-large.jpeg
@@ -24,8 +24,8 @@ categories:
   - slug: craft
     name: Craft
 created-jotform: "2024-09-28 11:42:28"
-last-modified-jotform: "2024-10-22 22:36:28"
-last-exported: "2024-10-25 16:32:47"
+last-modified-jotform: "2024-10-27 13:54:44"
+last-exported: "2024-10-27 17:06:25"
 sitemap: false
 
 ---

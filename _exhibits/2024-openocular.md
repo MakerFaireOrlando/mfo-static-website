@@ -5,8 +5,8 @@ title: "OpenOcular"
 slug: openocular
 permalink: /exhibits/openocular/
 exhibit-id: 24-57
-exhibit-zone: "Opportunity"
-space-number: Unassigned
+exhibit-zone: "Spirit - West"
+space-number: "SG1"
 description: "Capture stunning microscopic images on your smartphone with our 3D printable microscope adapter."
 description-long: "Visit our exhibit to experience the microcosmos like never before with our fully 3D-printable microscope-to-smartphone adapter. At our exhibit, you'll have the unique opportunity to connect your own smartphone or use one of ours to explore and capture intricate details of the microscopic world. Our adapter is designed with the community in mind and is available for free download on our website. Whether you're an educator, student, or just curious about the unseen, OpenOcular’s innovative tools make the world of microscopy accessible to everyone. Discover how we’re bridging the gap between modern smartphone technology and the age-old wonders of microscopy, and join a growing community dedicated to exploring, documenting, and sharing the wonders of the microscopic world."
 image: /assets/images/exhibit-images/24-57-exhibit-openocular-img-3724-large.JPG
@@ -57,8 +57,8 @@ categories:
   - slug: 3d-printing
     name: 3D Printing
 created-jotform: "2024-08-15 07:12:11"
-last-modified-jotform: "2024-10-19 15:09:37"
-last-exported: "2024-10-20 15:21:29"
+last-modified-jotform: "2024-10-27 14:56:29"
+last-exported: "2024-10-27 17:06:29"
 sitemap: false
 
 ---

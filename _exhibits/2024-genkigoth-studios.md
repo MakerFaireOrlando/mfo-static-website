@@ -5,7 +5,7 @@ title: "GenkiGoth Studios"
 slug: genkigoth-studios
 permalink: /exhibits/genkigoth-studios/
 exhibit-id: 24-153
-exhibit-zone: "Spirit - West"
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Spray paint artists using UV and glow effects to celebrate multiple fandoms and interests. "
 description-long: "Husband and wife artist duo using spray paint to create one of a kind works of art.  Specializing in blacklight/UV and glow in the dark effects,they collaborate to produce unique orignal art, as well as celebrate their love for all things nerdy."
@@ -65,8 +65,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2024-10-07 20:12:32"
-last-modified-jotform: "2024-10-25 16:34:04"
-last-exported: "2024-10-26 08:21:53"
+last-modified-jotform: "2024-10-26 19:10:14"
+last-exported: "2024-10-27 17:06:25"
 sitemap: false
 
 ---

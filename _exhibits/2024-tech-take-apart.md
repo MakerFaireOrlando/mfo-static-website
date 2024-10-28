@@ -6,7 +6,7 @@ slug: tech-take-apart
 permalink: /exhibits/tech-take-apart/
 exhibit-id: 24-173
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: Unassigned
+space-number: "SA19, SA20, SA21, SA22, SA23, SB20, SB21, SB22, SB23"
 description: "In Tech Take-Apart, guests are invited to dive into the inner workings of discarded electronics."
 description-long: "In Tech Take-Apart, guests are invited to grab tools and dive into the inner workings of discarded electronics, exploring the intricate components of e-waste without the pressure of reassembly. With guidance from knowledgeable staff, participants will learn about the functions of different tech parts as they dismantle gadgets piece by piece. This hands-on activity encourages curiosity and creativity, offering a unique opportunity to understand how everyday devices are built."
 image: /assets/images/exhibit-images/24-173-exhibit-tech-take-apart-tech-take-apart-logo-large.png
@@ -42,8 +42,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2024-10-20 15:17:12"
-last-modified-jotform: "2024-10-20 15:27:57"
-last-exported: "2024-10-20 15:29:34"
+last-modified-jotform: "2024-10-27 15:53:06"
+last-exported: "2024-10-27 17:06:24"
 sitemap: false
 
 ---

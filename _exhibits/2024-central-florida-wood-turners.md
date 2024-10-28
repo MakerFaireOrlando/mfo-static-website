@@ -6,7 +6,7 @@ slug: central-florida-wood-turners
 permalink: /exhibits/central-florida-wood-turners/
 exhibit-id: 24-84
 exhibit-zone: "Spirit - West"
-space-number: Unassigned
+space-number: "SJ9, SJ10"
 description: "We will be exhibiting wood turning techniques and projects on the spot with a wood lathe."
 description-long: "We will be setting up a wood lathe and will be demonstrating how to turn Spinning tops and other quick but fun projects. We will show techniques in embellishing and dying to create unique and whimsical tops from start to finish."
 image: /assets/images/exhibit-images/24-84-exhibit-central-florida-wood-turners-wood-tops-large.jpeg
@@ -25,8 +25,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2024-08-21 16:20:36"
-last-modified-jotform: "2024-10-22 22:11:51"
-last-exported: "2024-10-25 16:32:48"
+last-modified-jotform: "2024-10-27 13:58:43"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

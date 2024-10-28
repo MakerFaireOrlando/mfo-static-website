@@ -6,7 +6,7 @@ slug: valencia-3d-printing
 permalink: /exhibits/valencia-3d-printing/
 exhibit-id: 24-99
 exhibit-zone: "Opportunity"
-space-number: "p"
+space-number: "OG16"
 description: "Rapid prototyping by Valencia students in our 3D printing lab and newly opened Innovation studios."
 description-long: "Showcasing a variety of rapid prototyped objects created by Valencia students in our 3D printing lab. Also featuring craft projects from our newly opened Innovation studio and MakerSpace on West Campus."
 image: /assets/images/exhibit-images/24-99-exhibit-valencia-3d-printing-makerfaire23b-large.jpg
@@ -31,8 +31,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2024-08-27 16:39:24"
-last-modified-jotform: "2024-10-22 22:33:04"
-last-exported: "2024-10-25 16:32:48"
+last-modified-jotform: "2024-10-27 15:15:43"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

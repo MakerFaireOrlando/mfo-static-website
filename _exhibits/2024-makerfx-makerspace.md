@@ -6,7 +6,7 @@ slug: makerfx-makerspace
 permalink: /exhibits/makerfx-makerspace/
 exhibit-id: 24-168
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC9, OC10, OD9, OD10"
 description: "Come by our booth and make something cool!   "
 description-long: "Get hands-on with the amazing tools at MakerFX Makerspace and elevate your next project to the next level! 
 
@@ -44,8 +44,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2024-10-18 15:29:35"
-last-modified-jotform: "2024-10-19 11:38:47"
-last-exported: "2024-10-19 12:42:38"
+last-modified-jotform: "2024-10-27 15:20:01"
+last-exported: "2024-10-27 17:06:24"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: rock-n-roll-jewelry
 permalink: /exhibits/rock-n-roll-jewelry/
 exhibit-id: 24-21
 exhibit-zone: "Spirit - West"
-space-number: Unassigned
+space-number: "SF1"
 description: "We are Rock N Roll Jewelry the original crafters of guitar string jewelry.
 Reduce Re-use Rock-N-Roll"
 description-long: "We are Rock N Roll Jewelry®, the original crafters of guitar string jewelry (since 1991) such as our guitar stRINGs®, Bass-let® bracelets, and the Guitarwrist™, for who?  Guitar(wr)ists of course!  
@@ -48,8 +48,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2024-08-02 11:28:48"
-last-modified-jotform: "2024-10-25 16:34:06"
-last-exported: "2024-10-26 08:21:55"
+last-modified-jotform: "2024-10-27 13:46:11"
+last-exported: "2024-10-27 17:06:29"
 sitemap: false
 
 ---

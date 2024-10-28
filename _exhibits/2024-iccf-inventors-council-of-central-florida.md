@@ -6,7 +6,7 @@ slug: iccf-inventors-council-of-central-florida
 permalink: /exhibits/iccf-inventors-council-of-central-florida/
 exhibit-id: 24-82
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA7"
 description: "Promoting the group and a few of our inventors with their ideas."
 description-long: "We'll promote the group, and showcase a few of our inventors with their products/ideas. Some of our inventors may not be available for both days, so we'll coordinate any changes."
 image: /assets/images/exhibit-images/24-82-exhibit-iccf-inventors-council-of-central-florida-iccf-meeting-image-2024-06-large.jpg
@@ -41,8 +41,8 @@ categories:
   - slug: manufacturing
     name: Manufacturing
 created-jotform: "2024-08-20 15:51:18"
-last-modified-jotform: "2024-10-19 15:03:54"
-last-exported: "2024-10-20 15:21:27"
+last-modified-jotform: "2024-10-27 15:26:10"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

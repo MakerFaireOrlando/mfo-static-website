@@ -6,7 +6,7 @@ slug: print-technologies
 permalink: /exhibits/print-technologies/
 exhibit-id: 24-161
 exhibit-zone: "Opportunity"
-space-number: "p"
+space-number: "OF29, OG28, OG29"
 description: "Displaying wide format printers, plotters, lasers and UV printers. "
 description-long: "We'll be making posters, decals and other products to hand out - We'll demonstrate how to use these technologies and how they might assist Makers as they build their ideas."
 image: /assets/images/exhibit-images/24-161-exhibit-print-technologies-img-4394-large.JPG
@@ -37,8 +37,8 @@ categories:
   - slug: photography
     name: Photography
 created-jotform: "2024-10-15 11:42:12"
-last-modified-jotform: "2024-10-22 22:39:54"
-last-exported: "2024-10-25 16:32:47"
+last-modified-jotform: "2024-10-27 15:23:05"
+last-exported: "2024-10-27 17:06:25"
 sitemap: false
 
 ---

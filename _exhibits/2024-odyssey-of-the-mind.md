@@ -6,7 +6,7 @@ slug: odyssey-of-the-mind
 permalink: /exhibits/odyssey-of-the-mind/
 exhibit-id: 24-66
 exhibit-zone: "Spirit - West"
-space-number: Unassigned
+space-number: "SH3, SH4"
 description: "Creative thinking and problem solving for kids of all ages. Form a team today. "
 description-long: "Odyssey of the Mind encourages creative thinking and problem solving in a team environment. Our booth will display items made by team members. We will also crush balsa wood structures every hour. We will have a make and take mask craft. "
 image: /assets/images/exhibit-images/24-66-exhibit-odyssey-of-the-mind-img-0685-large.jpeg
@@ -55,8 +55,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2024-08-16 19:51:14"
-last-modified-jotform: "2024-10-19 14:57:50"
-last-exported: "2024-10-20 15:21:28"
+last-modified-jotform: "2024-10-27 13:29:00"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

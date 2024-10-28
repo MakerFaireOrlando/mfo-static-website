@@ -6,7 +6,7 @@ slug: lfl-approved-star-wars-costuming-groups
 permalink: /exhibits/lfl-approved-star-wars-costuming-groups/
 exhibit-id: 24-81
 exhibit-zone: "Spirit - East"
-space-number: "SC33, SC 34"
+space-number: "SC33, SC34"
 description: "A gathering of LFL approved costuming organizations. "
 description-long: "A gathering of LFL approved costuming organizations including, 501st Legion, Rebel Legion, Mandalorian Mercs, Southern R2 Builders, Saber Guild and Dark Empire.  
 
@@ -42,8 +42,8 @@ categories:
   - slug: fabric-arts
     name: Fabric Arts
 created-jotform: "2024-08-20 08:34:11"
-last-modified-jotform: "2024-10-19 12:29:26"
-last-exported: "2024-10-19 12:44:47"
+last-modified-jotform: "2024-10-27 17:21:01"
+last-exported: "2024-10-27 17:21:07"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: crystal-knockout
 permalink: /exhibits/crystal-knockout/
 exhibit-id: 24-74
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE29"
 description: "Crystal Knockout specializes in handmade nail polish, hand care items, and cute charm earrings."
 description-long: "Crystal Knockout specializes in small-batch, vegan, and handmade nail polish in a variety of colors and finishes. We offer thermal color-changing polish, as well as glow in the dark, magnetic, glitter, flakies, and more. In addition to our polish selection, we make a small selection of hand care items to make your manicure look even better, as well as a collection of charm earrings inspired by creative hobbies and interests."
 image: /assets/images/exhibit-images/24-74-exhibit-crystal-knockout-1crystalknockoutlogocolorjpg-large.jpg
@@ -71,8 +71,8 @@ categories:
   - slug: jewelry
     name: Jewelry
 created-jotform: "2024-08-17 19:25:07"
-last-modified-jotform: "2024-10-19 15:03:20"
-last-exported: "2024-10-20 15:21:28"
+last-modified-jotform: "2024-10-27 15:25:57"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

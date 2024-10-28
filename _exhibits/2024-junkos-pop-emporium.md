@@ -6,7 +6,7 @@ slug: junkos-pop-emporium
 permalink: /exhibits/junkos-pop-emporium/
 exhibit-id: 24-56
 exhibit-zone: "Spirit - West"
-space-number: Unassigned
+space-number: "SG10"
 description: "The art of paper folding meets pop culture!"
 description-long: "The art of paper folding meets pop culture! Junko's Pop Emporium showcases the art of 3D origami in forms ranging from dragons to birds to movie and tv show characters! Come shop these one-of-a-kind paper sculptures, or just meet the artist and learn about 3D origami!"
 image: /assets/images/exhibit-images/24-56-exhibit-junkos-pop-emporium-000-11225422-950614711656882-712807065031903800-o-large.jpg
@@ -78,8 +78,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2024-08-13 23:07:28"
-last-modified-jotform: "2024-10-19 15:02:54"
-last-exported: "2024-10-20 15:21:29"
+last-modified-jotform: "2024-10-27 13:45:33"
+last-exported: "2024-10-27 17:06:29"
 sitemap: false
 
 ---

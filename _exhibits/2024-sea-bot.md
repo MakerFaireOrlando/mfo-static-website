@@ -6,7 +6,7 @@ slug: sea-bot
 permalink: /exhibits/sea-bot/
 exhibit-id: 24-95
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC3"
 description: "SEA-BOT is a tiny robot made for moving scale miniatures across a repurposed LCD screen."
 description-long: "Using 3D printing, electrical engineering, and coding, we have built the SEA-BOT platform: a diminutive robot for moving scale models around a layout. Combined with some video trickery, we are able to create realistic nautical scenes and dioramas that have never been seen before.
 
@@ -47,8 +47,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2024-08-26 11:34:18"
-last-modified-jotform: "2024-10-19 12:07:39"
-last-exported: "2024-10-19 12:44:47"
+last-modified-jotform: "2024-10-27 15:20:19"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

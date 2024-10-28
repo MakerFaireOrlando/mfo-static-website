@@ -6,7 +6,7 @@ slug: ailuros
 permalink: /exhibits/ailuros/
 exhibit-id: 24-67
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA20"
 description: "Hand made sewn items such as back packs, hand bags, wallets, dice bags, hot accessories and more."
 description-long: "Hand made sewn items using custom fabrics with primarily fandoms. Included items are back packs, hand bags, wallets, dice bags, hair accessories and so much more."
 image: /assets/images/exhibit-images/24-67-exhibit-ailuros-43-img-4178-7184-large.jpeg
@@ -29,8 +29,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2024-08-16 19:52:27"
-last-modified-jotform: "2024-10-12 14:49:13"
-last-exported: "2024-10-12 15:42:22"
+last-modified-jotform: "2024-10-27 15:14:00"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

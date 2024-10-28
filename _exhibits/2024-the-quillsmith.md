@@ -6,7 +6,7 @@ slug: the-quillsmith
 permalink: /exhibits/the-quillsmith/
 exhibit-id: 24-101
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE19"
 description: "Handmade quill pens in the Victorian style &  repurposed vintage teacups into charming scenes."
 description-long: "The QuillSmith creates Victorian inspired quill pens & also repurposed vintage English teacups into charming vignettes & scenes."
 image: /assets/images/exhibit-images/24-101-exhibit-the-quillsmith-img-20240819-210239665-hdr-large.jpg
@@ -37,8 +37,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2024-08-27 21:16:36"
-last-modified-jotform: "2024-10-22 22:13:51"
-last-exported: "2024-10-25 16:32:48"
+last-modified-jotform: "2024-10-27 15:30:13"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

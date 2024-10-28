@@ -6,7 +6,7 @@ slug: make-a-binary-bracelet-or-paper-circuit
 permalink: /exhibits/make-a-binary-bracelet-or-paper-circuit/
 exhibit-id: 24-175
 exhibit-zone: "Spirit - West"
-space-number: Unassigned
+space-number: "SH7"
 description: "Learn basic concepts of a circuit (paper circuit) and binary (binary initials bracelet) "
 description-long: "FIRST Robotics Team Voltage 386 will be teaching the basic concepts of a circuit through our paper circuits. These consist of a paper template, button battery, LEDs, and copper tape to make a design light up! After our students guide you through the process, you can take it home!
 
@@ -56,8 +56,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2024-10-21 10:00:50"
-last-modified-jotform: "2024-10-22 22:02:30"
-last-exported: "2024-10-25 16:32:47"
+last-modified-jotform: "2024-10-27 13:31:35"
+last-exported: "2024-10-27 17:06:24"
 sitemap: false
 
 ---

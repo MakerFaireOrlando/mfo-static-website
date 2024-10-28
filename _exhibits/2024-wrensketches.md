@@ -6,7 +6,7 @@ slug: wrensketches
 permalink: /exhibits/wrensketches/
 exhibit-id: 24-178
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA17"
 description: "Watercolor/pen/ink/pencil of Erin Kelly; with fellow artists Tinker Loop, and Mechanical Oddities."
 description-long: "WrenSketches shares the artwork of Erin Kelly, often watercolor/pen and ink/pencil.  WrenSketches will often showcase the art of her fellow artists Tinker Loop, (wirewrapping and assemblage) and Mechanical Oddities (Mechanical Sculpture, acrylic paintings, and unique creations). Maker Faire is her favorite event of the year!"
 image: /assets/images/exhibit-images/24-178-exhibit-wrensketches-photo-nov-10-5-09-32-pm-large.jpg
@@ -41,8 +41,8 @@ categories:
   - slug: laser-cutting-engraving
     name: Laser Cutting & Engraving
 created-jotform: "2024-10-21 11:30:54"
-last-modified-jotform: "2024-10-22 21:51:12"
-last-exported: "2024-10-25 16:32:47"
+last-modified-jotform: "2024-10-27 15:28:34"
+last-exported: "2024-10-27 17:06:24"
 sitemap: false
 
 ---

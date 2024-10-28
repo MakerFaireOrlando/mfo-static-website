@@ -6,7 +6,7 @@ slug: helpertunitys-eco-carnival-games
 permalink: /exhibits/helpertunitys-eco-carnival-games/
 exhibit-id: 24-18
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD12"
 description: "Play our Games!  Win our Plush Prizes!  Buy our Crafts!  Create Bottle-Brick Art!  Be a Helper-Hero!"
 description-long: "At Maker Faire, you can join in and support Helpertunity's charitable programs by donating /subscribing to sponsor the charity's unique community efforts; and take part in our faire-style fun and games!   Enjoy Helpertunity's spin-and-win wheel / plush-rescue-pet adoption -or- try your hand at our unique Pond-Pong game for even bigger prizes!  You might also enjoy shopping for handmade items from our Eco-Art & Craft Wagon!  Just be sure not to miss participating in Helpertunity's Plastics-Recycling ‘Beautiful-Bottle-Builder’ Challenge; as we save the planet by repurposing clean & compressed single-use plastics into inspiring art and architecture!"
 image: /assets/images/exhibit-images/24-18-exhibit-helpertunitys-eco-carnival-games-mama-dorothy-hosting-the-helpertunity-booth-at-maker-faire-orlando-2023-colorized-large.jpg
@@ -39,8 +39,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2024-08-01 19:44:38"
-last-modified-jotform: "2024-10-19 15:25:25"
-last-exported: "2024-10-20 15:21:30"
+last-modified-jotform: "2024-10-27 15:27:55"
+last-exported: "2024-10-27 17:06:29"
 sitemap: false
 
 ---

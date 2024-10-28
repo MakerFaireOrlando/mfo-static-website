@@ -6,7 +6,7 @@ slug: megan-orussell-meet-the-author
 permalink: /exhibits/megan-orussell-meet-the-author/
 exhibit-id: 24-11
 exhibit-zone: "Spirit - West"
-space-number: Unassigned
+space-number: "SF4"
 description: "Young Adult Fantasy author of thirty-one novels, including Ember and Stone and The Cursebound Thief."
 description-long: "From the epic fantasy world of Ilbrea to the vampire-plagued dystopia of the domes, author Megan O'Russell offers readers thirty-one books across eight series. Available titles include Ember and Stone, The Cursebound Thief, and How I Magically Messed Up My Life in Four Freakin' Days."
 image: /assets/images/exhibit-images/24-11-exhibit-megan-orussell-meet-the-author-img-5272-large.jpg
@@ -45,8 +45,8 @@ categories:
   - slug: writing-and-publishing
     name: Writing and Publishing
 created-jotform: "2024-07-31 14:46:08"
-last-modified-jotform: "2024-10-22 22:15:09"
-last-exported: "2024-10-25 16:32:49"
+last-modified-jotform: "2024-10-27 13:47:47"
+last-exported: "2024-10-27 17:06:30"
 sitemap: false
 
 ---

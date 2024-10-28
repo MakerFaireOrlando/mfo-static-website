@@ -6,7 +6,7 @@ slug: randall-paints
 permalink: /exhibits/randall-paints/
 exhibit-id: 24-92
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG21"
 description: "Artist setup"
 description-long: "Artist setup featuring original paintings, prints, stickers, magnets, buttons all featuring lovable   robots on adventures."
 image: /assets/images/exhibit-images/24-92-exhibit-randall-paints-img-1356-large.jpeg
@@ -34,8 +34,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2024-08-25 07:57:13"
-last-modified-jotform: "2024-10-12 14:50:18"
-last-exported: "2024-10-12 15:42:22"
+last-modified-jotform: "2024-10-27 15:14:32"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

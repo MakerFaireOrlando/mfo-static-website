@@ -6,7 +6,7 @@ slug: orlando-math-circle-mini-math-festival-make-your-own-math
 permalink: /exhibits/orlando-math-circle-mini-math-festival-make-your-own-math/
 exhibit-id: 24-70
 exhibit-zone: "Spirit - West"
-space-number: Unassigned
+space-number: "SI1, SJ1, SJ2"
 description: "Explore math with puzzles, art, zines, and structures. Fun, creative, hands-on math awaits!"
 description-long: "Discover the playful side of mathematics! 
 Dive into a world of puzzles and games, where you can create your own challenges, craft beautiful math-inspired art, design math zines, and build fascinating geometric structures. Whether you're solving or creating, you'll experience the joy of math in a hands-on, creative way. Come and have fun exploring the endless possibilities of mathematics!"
@@ -59,8 +59,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2024-08-17 10:26:52"
-last-modified-jotform: "2024-10-19 14:57:54"
-last-exported: "2024-10-20 15:21:28"
+last-modified-jotform: "2024-10-27 13:21:48"
+last-exported: "2024-10-27 17:06:28"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: ready-set-mow
 permalink: /exhibits/ready-set-mow/
 exhibit-id: 24-53
 exhibit-zone: "Spirit - West"
-space-number: Unassigned
+space-number: "SG7"
 description: "Ready, Set, Mow! is an arcade racing game made from a real-life zero-radius riding lawn mower"
 description-long: "Ready, Set, Mow! is an alternative arcade racing game where the controller is a zero-radius riding lawn mower. You use the lawn mower to control your vehicle in the game as you race to see who can mow the fastest in your neighborhood."
 image: /assets/images/exhibit-images/24-53-exhibit-ready-set-mow-title-logo-large.jpg
@@ -29,8 +29,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2024-08-11 12:56:04"
-last-modified-jotform: "2024-10-22 21:57:11"
-last-exported: "2024-10-25 16:32:48"
+last-modified-jotform: "2024-10-27 13:44:23"
+last-exported: "2024-10-27 17:06:29"
 sitemap: false
 
 ---
