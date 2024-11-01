@@ -6,7 +6,7 @@ slug: morsecode-gpt
 permalink: /exhibits/morsecode-gpt/
 exhibit-id: 24-27
 exhibit-zone: "Opportunity"
-space-number: "OD3"
+space-number: "OA12"
 description: "Morsecode GPT combines Arduino, Morse code, AI, and an LCD for translating Morse code and text."
 description-long: "In the age of digital communication, the charm of classic Morse code continues to captivate passionists and professionals tastes. Now, imagine merging this timeless form of communication with the cutting-edge capabilities of AI. Introducing Morsecode GPT, a invention that combines an Arduino-powered Morse code key with a language model, Ollama LMM (Language Model Machine), and an LCD display. This device allows users to translate Morse code into natural language text and vice versa."
 image: /assets/images/exhibit-images/24-27-exhibit-morsecode-gpt-m1-large.PNG
@@ -36,8 +36,8 @@ categories:
   - slug: engineering
     name: Engineering
 created-jotform: "2024-08-03 21:58:54"
-last-modified-jotform: "2024-10-27 15:31:13"
-last-exported: "2024-10-27 17:06:29"
+last-modified-jotform: "2024-10-28 20:42:07"
+last-exported: "2024-10-28 21:09:23"
 sitemap: false
 
 ---

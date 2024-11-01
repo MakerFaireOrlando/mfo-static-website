@@ -5,8 +5,8 @@ title: "Coruscate Leather and co"
 slug: coruscate-leather-and-co
 permalink: /exhibits/coruscate-leather-and-co/
 exhibit-id: 24-68
-exhibit-zone: "Spirit - East"
-space-number: "SF29"
+exhibit-zone: "Opportunity"
+space-number: "OD3"
 description: "Coruscate leather and Co creates handcrafted leather items such as handbags and accessories."
 description-long: "Coruscate Leather & Co.
 
@@ -82,8 +82,8 @@ categories:
   - slug: fiber-arts
     name: Fiber Arts
 created-jotform: "2024-08-16 20:09:39"
-last-modified-jotform: "2024-10-25 16:34:51"
-last-exported: "2024-10-26 08:21:54"
+last-modified-jotform: "2024-11-01 09:01:46"
+last-exported: "2024-11-01 09:42:33"
 sitemap: false
 
 ---

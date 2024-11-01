@@ -48,11 +48,13 @@ categories:
     name: Electronics
   - slug: first-robotics
     name: FIRST Robotics
+  - slug: hands-on-workshop
+    name: Hands-On Workshop
   - slug: space
     name: Space
 created-jotform: "2024-10-23 15:37:55"
-last-modified-jotform: "2024-10-26 18:19:53"
-last-exported: "2024-10-27 17:06:24"
+last-modified-jotform: "2024-10-28 17:55:17"
+last-exported: "2024-10-28 21:09:21"
 sitemap: false
 
 ---

@@ -10,12 +10,12 @@ exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Flipper bot relying on Christian's driving skills"
 description-long: "A graduate of the Witch Doctor robotics camp, the love of combat robotics was born."
-image: /assets/images/exhibit-images/24R-96-exhibit-frostbyte-20240304-210708-large.jpg
+image: /assets/images/exhibit-images/24R-96-exhibit-frostbyte-frostbyte-large.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/24R-96-exhibit-frostbyte-20240304-210708-small.jpg
-  medium: /assets/images/exhibit-images/24R-96-exhibit-frostbyte-20240304-210708-medium.jpg
-  large: /assets/images/exhibit-images/24R-96-exhibit-frostbyte-20240304-210708-large.jpg
-  full: /assets/images/exhibit-images/24R-96-exhibit-frostbyte-20240304-210708-full.jpg
+  small: /assets/images/exhibit-images/24R-96-exhibit-frostbyte-frostbyte-small.jpg
+  medium: /assets/images/exhibit-images/24R-96-exhibit-frostbyte-frostbyte-medium.jpg
+  large: /assets/images/exhibit-images/24R-96-exhibit-frostbyte-frostbyte-large.jpg
+  full: /assets/images/exhibit-images/24R-96-exhibit-frostbyte-frostbyte-full.jpg
 maker: 
   name: "Heavy Metal Robots"
   description: "Father and son team learning as we go and making great friends along the way"
@@ -24,8 +24,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2024-09-24 01:03:45"
-last-modified-jotform: "2024-10-28 06:44:00"
-last-exported: "2024-10-28 07:34:41"
+last-modified-jotform: "2024-10-31 14:22:43"
+last-exported: "2024-11-01 09:42:21"
 sitemap: false
 
 ---

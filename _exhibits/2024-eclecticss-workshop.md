@@ -15,6 +15,12 @@ image-primary:
   medium: /assets/images/exhibit-images/24-90-exhibit-eclecticss-workshop-20240824-184651-medium.jpg
   large: /assets/images/exhibit-images/24-90-exhibit-eclecticss-workshop-20240824-184651-large.jpg
   full: /assets/images/exhibit-images/24-90-exhibit-eclecticss-workshop-20240824-184651-full.jpg
+additional-images: 
+  - 1:
+    small: /assets/images/exhibit-images/24-90-exhibit-addl1-eclecticss-workshop-pxl-20240831-180538805-small.jpg
+    medium: /assets/images/exhibit-images/24-90-exhibit-addl1-eclecticss-workshop-pxl-20240831-180538805-medium.jpg
+    large: /assets/images/exhibit-images/24-90-exhibit-addl1-eclecticss-workshop-pxl-20240831-180538805-large.jpg
+    full: /assets/images/exhibit-images/24-90-exhibit-addl1-eclecticss-workshop-pxl-20240831-180538805-full.jpg
 maker: 
   name: "Eclectic's Workshop"
   description: "Husband and wife team wanting to share their excitement for making affordable and accessible projects. We have a variety of interests from 3d printing to wood working to converting gas mini-bikes to electric. We have a small YouTube channel with 350+ subscribers where we share our process and finished projects."
@@ -32,8 +38,8 @@ categories:
   - slug: kits
     name: Kits
 created-jotform: "2024-08-24 19:10:34"
-last-modified-jotform: "2024-10-27 13:47:57"
-last-exported: "2024-10-27 17:06:28"
+last-modified-jotform: "2024-10-28 10:46:41"
+last-exported: "2024-10-28 21:09:23"
 sitemap: false
 
 ---

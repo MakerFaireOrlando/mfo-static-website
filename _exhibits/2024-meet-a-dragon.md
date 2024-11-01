@@ -6,7 +6,7 @@ slug: meet-a-dragon
 permalink: /exhibits/meet-a-dragon/
 exhibit-id: 24-113
 exhibit-zone: "Spirit - East"
-space-number: "SH29"
+space-number: "SE33"
 description: "A How To Train Your Dragon super fan has made Toothless the dragon!"
 description-long: "This homemade dragon started out as styrofoam, newspaper, and 200 lbs of clay!  Now he can’t wait to smile for photos and make new friends at Maker Faire!"
 image: /assets/images/exhibit-images/24-113-exhibit-meet-a-dragon-dbb2a71a-c249-48f3-a470-89e4d867524e-large.jpeg
@@ -45,8 +45,8 @@ categories:
   - slug: puppets
     name: Puppets
 created-jotform: "2024-08-31 23:55:55"
-last-modified-jotform: "2024-10-19 14:32:23"
-last-exported: "2024-10-20 15:21:27"
+last-modified-jotform: "2024-10-28 20:43:48"
+last-exported: "2024-10-28 21:09:22"
 sitemap: false
 
 ---

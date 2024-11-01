@@ -6,7 +6,7 @@ slug: colins-soap-a-rama
 permalink: /exhibits/colins-soap-a-rama/
 exhibit-id: 24-114
 exhibit-zone: "Opportunity"
-space-number: "OD3"
+space-number: "OA12"
 description: "At Colin's Soap-A-Rama, be prepared for the unexpected! "
 description-long: "All soaps are handmade in Colin's Orlando kitchen. 2nd grade Colin is both the nose and the brains of the operation. Don't miss his renowned surprise soaps and take home a little bit of mischief in your bag!   "
 image: /assets/images/exhibit-images/24-114-exhibit-colins-soap-a-rama-mixing-dinos-9-11-22-large.jpg
@@ -25,8 +25,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2024-09-01 13:17:41"
-last-modified-jotform: "2024-10-27 15:30:58"
-last-exported: "2024-10-27 17:06:28"
+last-modified-jotform: "2024-10-28 20:40:47"
+last-exported: "2024-10-28 21:09:22"
 sitemap: false
 
 ---

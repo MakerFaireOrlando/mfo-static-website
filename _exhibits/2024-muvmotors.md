@@ -6,7 +6,7 @@ slug: muvmotors
 permalink: /exhibits/muvmotors/
 exhibit-id: 24-40
 exhibit-zone: "Opportunity"
-space-number: "OA9"
+space-number: "OE13"
 description: "Make your sculptures, robots, animatronics sense presence of an audience then use audio and motion. "
 description-long: "Provides a carrier board for powerful yet inexpensive modules which can provide audience sensing with addition of a PIR Motion Sensor, drive stepper motors, with an LCD and a control knob for user input/output.
 - SB-T41_4on_3ext   board drives up to four N17 size stepper motors, and sends signals to up to two external drivers for large stepper motors. 
@@ -47,8 +47,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2024-08-05 14:50:24"
-last-modified-jotform: "2024-10-27 15:29:08"
-last-exported: "2024-10-27 17:06:29"
+last-modified-jotform: "2024-11-01 09:06:08"
+last-exported: "2024-11-01 09:42:34"
 sitemap: false
 
 ---
