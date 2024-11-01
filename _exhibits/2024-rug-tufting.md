@@ -16,7 +16,7 @@ image-primary:
   large: /assets/images/exhibit-images/24-184-exhibit-rug-tufting-60000374wr-easytuft-tuftingtool-eyecandy-1-large.jpg
   full: /assets/images/exhibit-images/24-184-exhibit-rug-tufting-60000374wr-easytuft-tuftingtool-eyecandy-1-full.jpg
 maker: 
-  name: "Heather Bereskin"
+  name: "Maker FX Maker Space"
   description: "MakerFX member"
   image-primary: /assets/images/exhibit-images/24-184-maker-rug-tufting-makerfx-no-text-medium.png
 categories: 
@@ -29,8 +29,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2024-10-27 19:05:49"
-last-modified-jotform: "2024-10-28 07:32:35"
-last-exported: "2024-10-28 07:34:45"
+last-modified-jotform: "2024-11-01 10:13:59"
+last-exported: "2024-11-01 11:40:59"
 sitemap: false
 
 ---

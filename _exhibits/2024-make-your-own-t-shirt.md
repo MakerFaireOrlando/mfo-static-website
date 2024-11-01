@@ -25,9 +25,11 @@ maker:
 categories: 
   - slug: first-robotics
     name: FIRST Robotics
+  - slug: hands-on-workshop
+    name: Hands-On Workshop
 created-jotform: "2024-10-28 13:57:24"
-last-modified-jotform: "2024-11-01 09:33:17"
-last-exported: "2024-11-01 09:42:32"
+last-modified-jotform: "2024-11-01 09:47:26"
+last-exported: "2024-11-01 09:56:00"
 sitemap: false
 
 ---

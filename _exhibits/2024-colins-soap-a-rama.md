@@ -22,11 +22,13 @@ maker:
 categories: 
   - slug: handmade
     name: Handmade
+  - slug: hands-on-workshop
+    name: Hands-On Workshop
   - slug: sustainability
     name: Sustainability
 created-jotform: "2024-09-01 13:17:41"
-last-modified-jotform: "2024-10-28 20:40:47"
-last-exported: "2024-10-28 21:09:22"
+last-modified-jotform: "2024-11-01 09:50:22"
+last-exported: "2024-11-01 09:56:01"
 sitemap: false
 
 ---

@@ -5,8 +5,8 @@ title: "Eclectics's Workshop"
 slug: eclecticss-workshop
 permalink: /exhibits/eclecticss-workshop/
 exhibit-id: 24-90
-exhibit-zone: "Outside"
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA7"
 description: "3D printed speakers, completed and kit versions."
 description-long: "Unique 3D printed speakers designed and built by Eclectic's Workshop owner, Joey. Plug n' Play and advanced kits available with and without pre-printed enclosures. Completed speakers also available. Enclosures come in multiple colors pre-printed, or print your own enclosure at home with the filament of your choice!"
 image: /assets/images/exhibit-images/24-90-exhibit-eclecticss-workshop-20240824-184651-large.jpg
@@ -38,8 +38,8 @@ categories:
   - slug: kits
     name: Kits
 created-jotform: "2024-08-24 19:10:34"
-last-modified-jotform: "2024-10-28 10:46:41"
-last-exported: "2024-10-28 21:09:23"
+last-modified-jotform: "2024-11-01 11:58:26"
+last-exported: "2024-11-01 12:04:00"
 sitemap: false
 
 ---

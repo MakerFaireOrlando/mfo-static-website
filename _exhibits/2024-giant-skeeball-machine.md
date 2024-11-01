@@ -37,13 +37,17 @@ categories:
     name: Electronics
   - slug: engineering
     name: Engineering
+  - slug: handmade
+    name: Handmade
+  - slug: hands-on-workshop
+    name: Hands-On Workshop
   - slug: maker-community
     name: Maker Community
   - slug: woodworking
     name: Woodworking
 created-jotform: "2024-10-25 07:58:23"
-last-modified-jotform: "2024-10-26 19:18:41"
-last-exported: "2024-10-27 17:06:24"
+last-modified-jotform: "2024-11-01 09:48:30"
+last-exported: "2024-11-01 09:56:00"
 sitemap: false
 
 ---

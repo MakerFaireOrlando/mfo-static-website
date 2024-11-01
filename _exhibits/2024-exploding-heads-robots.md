@@ -45,6 +45,10 @@ categories:
     name: Combat Robots
   - slug: engineering
     name: Engineering
+  - slug: handmade
+    name: Handmade
+  - slug: hands-on-workshop
+    name: Hands-On Workshop
   - slug: maker-community
     name: Maker Community
   - slug: makerspace
@@ -52,8 +56,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2024-10-21 07:59:16"
-last-modified-jotform: "2024-10-21 08:05:58"
-last-exported: "2024-10-21 08:06:26"
+last-modified-jotform: "2024-11-01 09:49:07"
+last-exported: "2024-11-01 09:56:00"
 sitemap: false
 
 ---

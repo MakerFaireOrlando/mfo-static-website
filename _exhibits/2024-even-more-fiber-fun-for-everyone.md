@@ -31,6 +31,8 @@ additional-images:
     medium: /assets/images/exhibit-images/24-131-exhibit-addl3-even-more-fiber-fun-for-everyone-stinky-models-rh-woven-scarf-cropped-medium.jpg
     large: /assets/images/exhibit-images/24-131-exhibit-addl3-even-more-fiber-fun-for-everyone-stinky-models-rh-woven-scarf-cropped-large.jpg
     full: /assets/images/exhibit-images/24-131-exhibit-addl3-even-more-fiber-fun-for-everyone-stinky-models-rh-woven-scarf-cropped-full.jpg
+video: "https://youtu.be/Gq9iM9pJjgA"
+video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/Gq9iM9pJjgA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="basic kumihimo"></iframe>'
 maker: 
   name: "Drunken Monkey Spinners/Weavers of Orlando"
   description: "Demonstrators belong to either or both the Weavers of Orlando or the Drunken Monkey Spinning group.  WoO celebrated its 75th anniversary several years ago, and has regular meetings, classes for a variety of fiber crafts, and demonstrates at several events a year.  The Drunken Monkey Spinners meet once at month at the Drunken Monkey Coffee Shop.
@@ -49,8 +51,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2024-09-17 11:08:57"
-last-modified-jotform: "2024-10-27 15:16:07"
-last-exported: "2024-10-27 17:06:25"
+last-modified-jotform: "2024-11-01 10:01:16"
+last-exported: "2024-11-01 11:41:05"
 sitemap: false
 
 ---
