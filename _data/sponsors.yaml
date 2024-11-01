@@ -136,3 +136,8 @@ sponsors:
     logo: EPAX-3D-Black-Logo.png
     level: 4
     active: true
+  - name: Devusol
+    url: https://devusol.com/
+    logo: devusol.png
+    level: 4
+    active: true
