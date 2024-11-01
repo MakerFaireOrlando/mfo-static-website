@@ -2,7 +2,7 @@
 title: Event Program
 layout: default
 permalink: /program/
-image: /assets/images/program/MFO_2023_Program_Page_2-web.jpg
+image: /assets/images/program/MFO_2024_Program_Page_2-web.jpg
 description: Plan your Maker Faire Orlando weekend with our event program!
 ---
 # Maker Faire Orlando Event Program
@@ -14,11 +14,11 @@ Check out the Maker Faire Orlando event program to plan your time at Maker Faire
 
 <br>
 
-<a href="/assets/images/program/MFO_2023_Program.pdf"><img src="/assets/images/program/MFO_2023_Program_Page_1-web.jpg" alt="Maker Faire Orlando 2023 event program page 1" width="800" /></a>
+<a href="/assets/images/program/MFO_2024_Program.pdf"><img src="/assets/images/program/MFO_2024_Program_Page_1-web.jpg" alt="Maker Faire Orlando 2023 event program page 1" width="800" /></a>
 
 <br>
 
-<a href="/assets/images/program/MFO_2023_Program.pdf"><img src="/assets/images/program/MFO_2023_Program_Page_2-web.jpg" alt="Maker Faire Orlando 2023 event program page 2" width="800" /></a>
+<a href="/assets/images/program/MFO_2024_Program.pdf"><img src="/assets/images/program/MFO_2024_Program_Page_2-web.jpg" alt="Maker Faire Orlando 2023 event program page 2" width="800" /></a>
 
 ---
 
