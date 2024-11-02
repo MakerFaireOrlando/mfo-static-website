@@ -23,13 +23,14 @@ Check out the Maker Faire Orlando event program to plan your time at Maker Faire
 ---
 
 ## Need Tickets?
-Hop over to our [tickets](/attend) page for more information including our free ticket programs for first responders, educators, and veterans and details on how to win in our Maker tools giveaway!
+Hop over to our [tickets](/attend) page for more information including our free ticket programs for first responders, educators,  veterans and more.
 
+{%comment%}
 ___
 
 ## Want Even More Maker Faire & Robot Ruckus fun with special guests and BattleBots Teams?
 Check out the [Maker Faire Orlando & VIP Fundraiser](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser) happening after-hours on Saturday the 5th after the first day of Maker Faire Orlando. This event requires a separate ticket. [Learn More](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser)
-
+{%endcomment%}
 ---
 
 Exhibiting makers and available experiences are subject to change based on community availability.
