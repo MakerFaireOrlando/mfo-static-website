@@ -3,6 +3,7 @@
 - title: Maker Faire Begins!
   description: Welcome to Day 1 of Maker Faire Orlando!<br>Make sure to check out the <a href="/makers">list of exhibits, hands-on workshops and more so you don't miss any of the action!</a>
   date: 2024-11-09 10:00:00
+  enddate: 2024-11-09 17:00:00
   image: /assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg
 
 
@@ -10,19 +11,28 @@
   location: Power Racing Track
   description: These tiny electric racers are ready to race for glory - you can stop by the track to see the qualifying action!
   date: 2024-11-09 10:30:00
+  enddate: 2024-11-09 11:30:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
+
+- title: Theme Park Makers Panel
+  location: Main Stage
+  description: Hear from local makers who work to create amazing Theme Park experiences! (more info coming soon)
+  date: 2024-11-09 11:00:00
+  enddate: 2024-11-09 12:00:00
+  url: /stage
 
 - title: Power Racing - Relay Race
   location: Power Racing Track
   description:
   date: 2024-11-09 11:30:00
+  date: 2024-11-09 12:30:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
 
-- title: Music Makers
+- title: Chill Zone - Lunch Seating
   location: Maker Faire Stage
-  description: Grab lunch and join us for some music!
+  description: Grab lunch outside and then join us for air conditioned seating!
   date: 2024-11-09 12:00:00
   enddate: 2024-11-09 13:45:00
 
@@ -30,43 +40,77 @@
   location: Power Racing Track
   description:
   date: 2024-11-09 13:00:00
+  enddate: 2024-11-09 14:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
+
+- title: Cosplay Creators Panel
+  location: Main Stage
+  description: (more info coming soon)
+  date: 2024-11-09 14:00:00
+  enddate: 2024-11-09 14:50:00
+  url: /stage
 
 - title: Power Racing - Meet & Greet
   location: Power Racing Track
   description: Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!
   date: 2024-11-09 13:00:00
+  date: 2024-11-09 14:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
+
+- title: Combat Robot Makers Panel
+  location: Main Stage
+  description: (more info coming soon)
+  date: 2024-11-09 15:00:00
+  enddate: 2024-11-09 15:50:00
+  url: /stage
 
 - title: Power Racing - Sprint Race 2
   location: Power Racing Track
   description:
   date: 2024-11-09 16:00:00
+  date: 2024-11-09 17:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
+
+- title: Orlando Story Club
+  location: Main Stage
+  description: (more info coming soon)
+  date: 2024-11-09 16:00:00
+  enddate: 2024-11-09 17:00:00
+  url: /stage
 
 - title: Maker Faire Day 1 is Over!
   description: We will see you Tomorrow!
   date: 2024-11-09 17:00:00
+  enddate: 2024-11-09 17:00:00
   image: /assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg
 
 - title: Maker Faire Resumes!
   description: Welcome back for day 2 of Maker Faire Orlando 2024!
   date: 2024-11-10 10:00:00
+  enddate: 2024-11-10 17:00:00
   image: /assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg
+
+- title: Theme Park Makers Panel
+  location: Main Stage
+  description: Hear from local makers who work to create amazing Theme Park experiences! (more info coming soon)
+  date: 2024-11-10 11:00:00
+  enddate: 2024-11-10 12:00:00
+  url: /stage
 
 - title: Power Racing - Sprint Race 3
   location: Power Racing Track
   description:
   date: 2024-11-10 11:00:00
+  enddate: 2024-11-10 12:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
 
-- title: Music Makers
+- title: Chill Zone - Lunch Seating
   location: Maker Faire Stage
-  description: Grab lunch and join us for some music!
+  description: Grab lunch outside and then join us for air conditioned seating!
   date: 2024-11-09 12:00:00
   enddate: 2024-11-09 13:45:00
 
@@ -74,26 +118,51 @@
   location: Power Racing Track
   description: Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!
   date: 2024-11-10 13:00:00
+  date: 2024-11-10 14:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
+
+- title: Cosplay Creators Panel
+  location: Main Stage
+  description: (more info coming soon)
+  date: 2024-11-10 14:00:00
+  enddate: 2024-11-10 14:50:00
+  url: /stage
 
 - title: Power Racing - Endurance Race
   location: Power Racing Track
   description:
   date: 2024-11-10 14:30:00
+  date: 2024-11-10 16:00:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
+
+- title: Prop Makers Panel
+  location: Main Stage
+  description: (more info coming soon)
+  date: 2024-11-10 15:00:00
+  enddate: 2024-11-10 15:50:00
+  url: /stage
 
 - title: Power Racing - Awards Ceremony
   location: Power Racing Track
   description: The best of the best are on the podium after a long weekend of racing. Cheer them on to glory!
   date: 2024-11-10 16:00:00
+  date: 2024-11-10 16:30:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
+
+- title: Nerd Nite Orlando
+  location: Main Stage
+  description: (more info coming soon)
+  date: 2024-11-10 16:00:00
+  enddate: 2024-11-10 17:00:00
+  url: /stage
 
 - title: Maker Faire Concludes
   description: Maker Faire Orlando 2024 is over - we will see you next year!
   date: 2024-11-10 17:00:00
+  enddate: 2024-11-10 17:00:00
   image: /assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg
 
 #get start times from Ruckus - Sat at 11? Sunday at 10?
