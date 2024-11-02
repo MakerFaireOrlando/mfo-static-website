@@ -4,12 +4,12 @@
     {% comment %}The next line has an intentional misspelling to match the maker faire theme css{% endcomment %}
     <div class="row spnosors-row" style="padding-bottom:0px; border-top:none">
       <div class="col-xs-12">
-          <div class="faire-sponsors-box" style="width: 1600px">
+          <div class="faire-sponsors-box" style="width: 1800px">
           {% for sponsor in sponsors %}
 
           {% if sponsor.level < 4 %}
               <div class="sponsors-box-lg sponsor-less-than-4" style="width: 350px; border-right: none; margin-top: none; height:100px;" id="{{sponsor.name}}">
-                <a href="{{sponsor.url}}" target="_blank"><img src="/assets/images/sponsors/{{sponsor.logo}}" class="img-responsive" style="max-width:300px; max-height:150px; margin-left: auto; margin-right:auto;" alt="{{sponsor.name}}"></a>
+                <a href="{{sponsor.url}}" target="_blank"><img src="/assets/images/sponsors/{{sponsor.logo}}" class="img-responsive" style="max-width:250px; max-height:150px; margin-left: auto; margin-right:auto;" alt="{{sponsor.name}}"></a>
 
               {% elsif sponsor.level == 4 %}
 
