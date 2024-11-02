@@ -108,7 +108,7 @@ Check out the [event program](/program) for a printable map, schedule and more!<
 
 Event schedule subject to change at any time based on the availability of exhibiting makers, special guests, and venue conditions.
 
-
+{%comment%}
 
 #### Stay Tuned for exciting announcements including the new Maker Faire Stage with special guests, panel discussions, musical performances and more!
 
@@ -118,7 +118,7 @@ Most exhibits and hands-on experiences at Maker Faire Orlando run continuously t
 
 {%comment%}
 For competition times and more, check out our [event program](/program) below which has additional details. Click the images below for a PDF version of the program.
-
+{%endcomment%}
 
 <a href="/assets/images/program/MFO_2022_Program.pdf"><img src="/assets/images/program/MFO_2022_Program_Page_1-web.jpg" alt="Maker Faire Orlando 2022 event program page 1" width="800" /></a>
 
@@ -139,8 +139,4 @@ ___
 ## Want Even More Maker Faire & Robot Ruckus fun with special guests and BattleBots Teams?
 Check out the [Maker Faire Orlando & VIP Fundraiser](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser) happening after-hours on Saturday the 5th after the first day of Maker Faire Orlando. This event requires a separate ticket. [Learn More](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser)
 {%endcomment%}
-
----
-
-Exhibiting makers and available experiences are subject to change based on community availablity.
 

@@ -17,9 +17,10 @@
 
 - title: Theme Park Makers Panel
   location: Main Stage
-  description: Hear from local makers who work to create amazing Theme Park experiences! (more info coming soon)
+  description: Hear from the people who make the marvelous and magical worlds visitors escape to in world famous theme parks around the world, and universe!
   date: 2024-11-09 11:00:00
   enddate: 2024-11-09 12:00:00
+  image: /assets/images/stage/2024/theme-park.jpg
   url: /stage
 
 - title: Power Racing - Relay Race
@@ -46,9 +47,10 @@
 
 - title: Cosplay Creators Panel
   location: Main Stage
-  description: (more info coming soon)
+  description: Explore the challenges and excitement of creating massive cosplay costumes. Our panelists will discuss everything from the design and planning stages to the practicalities of transporting and managing these huge builds.
   date: 2024-11-09 14:00:00
   enddate: 2024-11-09 14:50:00
+  image: /assets/images/stage/2024/mattharden-stage.jpg
   url: /stage
 
 - title: Power Racing - Meet & Greet
@@ -61,9 +63,10 @@
 
 - title: Combat Robot Makers Panel
   location: Main Stage
-  description: (more info coming soon)
+  description: Combat Robotics is a worldwide phenomenon, meet and hear from builders from the TV shows and local champions and learn how you can participate in this upcoming sport!
   date: 2024-11-09 15:00:00
   enddate: 2024-11-09 15:50:00
+  image: /assets/images/stage/2024/combat.jpg
   url: /stage
 
 - title: Power Racing - Sprint Race 2
@@ -76,9 +79,10 @@
 
 - title: Orlando Story Club
   location: Main Stage
-  description: (more info coming soon)
+  description: Orlando Story Club is a live storytelling competition, each storyteller is given 5 minutes to impress the audience!
   date: 2024-11-09 16:00:00
   enddate: 2024-11-09 17:00:00
+  image: /assets/images/stage/2024/danielleziss.jpg
   url: /stage
 
 - title: Maker Faire Day 1 is Over!
@@ -95,9 +99,10 @@
 
 - title: Theme Park Makers Panel
   location: Main Stage
-  description: Hear from local makers who work to create amazing Theme Park experiences! (more info coming soon)
+  description: Hear from local makers who use technology to create amazing Theme Park experiences! 
   date: 2024-11-10 11:00:00
   enddate: 2024-11-10 12:00:00
+  image: /assets/images/stage/2024/theme-park.jpg
   url: /stage
 
 - title: Power Racing - Sprint Race 3
@@ -124,9 +129,10 @@
 
 - title: Cosplay Creators Panel
   location: Main Stage
-  description: (more info coming soon)
+  description: Step into a world of creativity where cosplayers take beloved characters and give them fresh, unexpected looks.
   date: 2024-11-10 14:00:00
   enddate: 2024-11-10 14:50:00
+  image: /assets/images/stage/2024/starcos-stage.jpg
   url: /stage
 
 - title: Power Racing - Endurance Race
@@ -139,9 +145,10 @@
 
 - title: Prop Makers Panel
   location: Main Stage
-  description: (more info coming soon)
+  description: Meet and learn from prop makers who create objects for use in film, TV, theater, and other productions. They work with a range of materials and skills to make props that look realistic and match the production's design
   date: 2024-11-10 15:00:00
   enddate: 2024-11-10 15:50:00
+  image: /assets/images/stage/2024/dunesea.jpg
   url: /stage
 
 - title: Power Racing - Awards Ceremony
@@ -154,9 +161,10 @@
 
 - title: Nerd Nite Orlando
   location: Main Stage
-  description: (more info coming soon)
+  description: Nerd Nite is a series of entertaining and educational presentations. Speakers present for 15 minutes, followed by a brief Q&A with the audience.
   date: 2024-11-10 16:00:00
   enddate: 2024-11-10 17:00:00
+  image: /assets/images/stage/2024/ricardo.jpg
   url: /stage
 
 - title: Maker Faire Concludes
