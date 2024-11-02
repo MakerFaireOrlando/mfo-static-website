@@ -10,12 +10,12 @@ exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Very long boy"
 description-long: "Extremely long boy"
-image: /assets/images/exhibit-images/24R-32-exhibit-sub-optimal-20240902-135559-large.jpg
+image: /assets/images/exhibit-images/24R-32-exhibit-sub-optimal-20241102-064151-large.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/24R-32-exhibit-sub-optimal-20240902-135559-small.jpg
-  medium: /assets/images/exhibit-images/24R-32-exhibit-sub-optimal-20240902-135559-medium.jpg
-  large: /assets/images/exhibit-images/24R-32-exhibit-sub-optimal-20240902-135559-large.jpg
-  full: /assets/images/exhibit-images/24R-32-exhibit-sub-optimal-20240902-135559-full.jpg
+  small: /assets/images/exhibit-images/24R-32-exhibit-sub-optimal-20241102-064151-small.jpg
+  medium: /assets/images/exhibit-images/24R-32-exhibit-sub-optimal-20241102-064151-medium.jpg
+  large: /assets/images/exhibit-images/24R-32-exhibit-sub-optimal-20241102-064151-large.jpg
+  full: /assets/images/exhibit-images/24R-32-exhibit-sub-optimal-20241102-064151-full.jpg
 maker: 
   name: "Panzer Jagers"
   description: "Father - son team that has been competing for the last 8 years
@@ -28,8 +28,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2024-09-04 11:36:01"
-last-modified-jotform: "2024-09-09 10:15:37"
-last-exported: "2024-09-10 23:21:47"
+last-modified-jotform: "2024-11-02 06:44:13"
+last-exported: "2024-11-02 19:53:09"
 sitemap: false
 
 ---
