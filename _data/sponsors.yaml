@@ -30,7 +30,7 @@ sponsors:
     url: https://www.prusa3d.com/
     logo: prusaresearch.png
     level: 3
-    active: false
+    active: true
   - name: Boca Bearing
     url: https://www.bocabearings.com/
     logo: BB-logo-full-color-small.png
