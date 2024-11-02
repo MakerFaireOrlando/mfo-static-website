@@ -90,6 +90,7 @@ Tickets available on [Humanitix](https://events.humanitix.com/makerfaireorlando)
   }, false);
 </script>
 
+*Student tickets include college students with current college student ID. 
 
 {%comment%}
 ---
