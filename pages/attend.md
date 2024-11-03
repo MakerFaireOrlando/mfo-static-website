@@ -132,7 +132,7 @@ Please see our [Educators page](/educators) for more information.
 
 * Strollers, backpacks, and a bottle of water are allowed.
 
-* No pets are allowed, for their safety. Registered service animals are welcome.
+* No pets are allowed, for their safety. Trained service animals as defined by the ADA are welcome.
 
 * **Anti-Harassment Policy** Maker Faire Orlando has a zero-tolerance policy for harassment of any kind. Please see our [Anti-Harassment Policy](/anti-harassment) for more information.
 
