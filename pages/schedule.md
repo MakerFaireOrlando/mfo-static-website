@@ -31,8 +31,7 @@ Check out the [event program](/program) for a printable map, schedule and more!<
           <select class="schedule-filters-select form-control" id="makers-category-select">
             <option value="" selected="">show all</option>
             <option value=".power-racing-track">Power Racing</option>
-            <option value=".knight-fights-arena-outdoor">Knight Fights Arena</option>
-            <option value=".maker-faire-stage">Maker Faire Stage</option>
+            <option value=".main-stage">Main Stage</option>
             <option value=".spirit-building">Spirit Building</option>
           </select>
     	  </div>
