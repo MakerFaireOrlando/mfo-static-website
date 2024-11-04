@@ -44,9 +44,11 @@ Use the [Online Schedule](/schedule) for the most up-to-date schedule of talks, 
 Check out the [Maker Faire Program](/program) for a map, schedule and more!
 
 ### Space Plans
-[Opportunity Building PDF Space Plan](/assets/pdf/2023/MFO23-OPPORTUNITY.pdf) - Space numbers starting with "O"
+[Opportunity Building PDF Space Plan](/assets/pdf/2024/MFO24-OPPORTUNITY.pdf) - Space numbers starting with "O"
 
-[Spirit Building PDF Space Plan](/assets/pdf/2023/MFO23-SPIRIT.pdf) - Space numbers starting with "S"
+[Spirit Building PDF Space Plan](/assets/pdf/2024/MFO24-SPIRIT.pdf) - Space numbers starting with "S"
+
+We do not publish a space plan for outdoor exhibits, we have to validate space conditions when we are on-site at the Fairgrounds. Once you are on-site, our team will help you locate your outdoor exhibit. If you have a question about an outdoor location, email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
 
 Don't know your space number? Find your exhibit on the [exhibits page](/makers), your space number is on that page below the exhibit description.
 
