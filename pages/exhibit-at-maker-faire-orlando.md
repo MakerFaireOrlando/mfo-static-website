@@ -30,11 +30,11 @@ Startup businesses are encouraged to contact us at <makers@makerfaireorlando.com
 
 ---
 
+Our application deadline has passed, and we are no longer accepting new exhibit applications for 2024 unless you've been in contact with our team and we have instructed you to fill out an application. 
+
 {%comment%}
 #### Our Call For Makers deadline is August 31st.
-{%endcomment%}
 
-Our application deadline has passed, however we are still accepting applications with placement priority for non-selling makers and community groups.
 
 **Selling makers: You are welcome to continue to submit applications and they will be added to our waitlist in the event we have selling exhibit cancellations.** Interior space will be most limited, indicating flexibility on location (indoor / outdoor) will increase your odds of being accepted.
 &nbsp;
@@ -49,6 +49,7 @@ Our application deadline has passed, however we are still accepting applications
 Please create a compelling exhibit application, and choose pictures / descriptions that will be compelling to Maker Faire attendees. For examples of exhibits, you can view our [maker exhibits page](/makers/). You will have the opportunity to edit your exhibit application once submitted, and the Maker Faire Orlando team will contact you if you exhibit application does not contain enough information. Please ensure that you will receive emails from makers@makerfaireorlando.com by adding the email to your contacts or prioritizing for your inbox.
 
 &nbsp;
+{%endcomment%}
 
 #### [Click Here to Apply](https://www.jotform.com/makereffect/cfm2024)
 
