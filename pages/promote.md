@@ -47,14 +47,12 @@ Postcards available at MakerFX Makerspace, FamiLAB, Skycraft, Tampa Hackerspace,
 
 <a href="/assets/pdf/2024/MFO24-card-back.pdf"><img src="/assets/pdf/2024/MFO24-card-back.jpg" alt="Maker Faire Orlando postcard - back" width="600"/></a>
 
-{%comment%}
-### Flyers, Posters & More
+
+### Poster
 
 <a href="/assets/pdf/2024/MFO24-poster.pdf"><img src="/assets/pdf/2024/MFO24-poster.jpg" alt="Maker Faire Orlando poster" width="600"/></a>
 
-
 Poster image is linked to high-res PDF.
-{%endcomment%}
 
 ---
 
