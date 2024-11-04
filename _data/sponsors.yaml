@@ -95,7 +95,7 @@ sponsors:
     url: https://wiringtech.com/
     logo: WTI_Logo.png
     level: 5
-    active: false
+    active: true
   - name: Remix
     url: https://remixed.net
     logo: remixed-logo.png
