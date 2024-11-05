@@ -29,17 +29,19 @@ Central Florida Expo Center & Fairgrounds
 
 **Parking is FREE!**
 
-Explore more than [200 Exhibits and Hands-on Activities](/makers) to find your favorites!
+Explore more than [250 Exhibits, Hands-on Activities and Competitions](/makers) to find your favorites!
+
+Check out the Maker Faire [Schedule](/schedule) and [Program](/program) to plan your weekend!
+
+Don't Miss the Talks, Panels & Performances on the [Main Stage](/stage)!
+
 
 {%comment%}
-Check out the Maker Faire [Schedule](/schedule) and [Program](/program) to plan your weekend!
 
 
 # Tickets will be on-sale later this year. Please check back or follow-us on social media
 
 
-Don't Miss the Talks, Panels & Performances on the [Main Stage](/stage)!
-<a href="/stage"><img src="/assets/images/stage/stage-header-MFO23.jpg" style="max-width: 100%;"></a>
 {%endcomment%}
 ---
 
