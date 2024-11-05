@@ -7,8 +7,13 @@ permalink: /exhibits/famousafterdeath/
 exhibit-id: 24-13
 exhibit-zone: "Opportunity"
 space-number: "OC21, OD21"
-description: "Graphic designer, Digital Illustrator and Book Art Conjurer"
-description-long: "FAMOUSAFTERDEATH brings new life to old books by reusing them as canvas with hand drawn art and block prints. He also brings along original toys 3d printed and a slew of other mediums that bring his imagination to the real world."
+description: "Graphic designer, Digital Illustrator and Book Art Conjurer
+Block printing modernizer!"
+description-long: "Get ready to unleash your creativity with **FAMOUSAFTERDEATH**, an artist whose work spans an array of fascinating mediums—from art on antique books to 3D printed toys and intricate laser-cut designs!
+
+Ever wondered what it’s like to make your own block print? Now’s your chance! Swing by my booth for a hands-on experience where you’ll dive into the timeless craft of block printing—with a fresh, modern twist. Choose from a selection of unique designs, and create a one-of-a-kind print to take home. 
+
+Don't miss out—come make something unforgettable with me. See you there!"
 image: /assets/images/exhibit-images/24-13-exhibit-famousafterdeath-img-2258-1-large.JPG
 image-primary: 
   small: /assets/images/exhibit-images/24-13-exhibit-famousafterdeath-img-2258-1-small.JPG
@@ -17,54 +22,52 @@ image-primary:
   full: /assets/images/exhibit-images/24-13-exhibit-famousafterdeath-img-2258-1-full.JPG
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/24-13-exhibit-addl1-famousafterdeath-img-1366-small.JPEG
-    medium: /assets/images/exhibit-images/24-13-exhibit-addl1-famousafterdeath-img-1366-medium.JPEG
-    large: /assets/images/exhibit-images/24-13-exhibit-addl1-famousafterdeath-img-1366-large.JPEG
-    full: /assets/images/exhibit-images/24-13-exhibit-addl1-famousafterdeath-img-1366-full.JPEG
+    small: /assets/images/exhibit-images/24-13-exhibit-addl1-famousafterdeath-img-1742-small.JPEG
+    medium: /assets/images/exhibit-images/24-13-exhibit-addl1-famousafterdeath-img-1742-medium.JPEG
+    large: /assets/images/exhibit-images/24-13-exhibit-addl1-famousafterdeath-img-1742-large.JPEG
+    full: /assets/images/exhibit-images/24-13-exhibit-addl1-famousafterdeath-img-1742-full.JPEG
   - 2:
-    small: /assets/images/exhibit-images/24-13-exhibit-addl2-famousafterdeath-img-1742-small.JPEG
-    medium: /assets/images/exhibit-images/24-13-exhibit-addl2-famousafterdeath-img-1742-medium.JPEG
-    large: /assets/images/exhibit-images/24-13-exhibit-addl2-famousafterdeath-img-1742-large.JPEG
-    full: /assets/images/exhibit-images/24-13-exhibit-addl2-famousafterdeath-img-1742-full.JPEG
+    small: /assets/images/exhibit-images/24-13-exhibit-addl2-famousafterdeath-img-1849-small.JPEG
+    medium: /assets/images/exhibit-images/24-13-exhibit-addl2-famousafterdeath-img-1849-medium.JPEG
+    large: /assets/images/exhibit-images/24-13-exhibit-addl2-famousafterdeath-img-1849-large.JPEG
+    full: /assets/images/exhibit-images/24-13-exhibit-addl2-famousafterdeath-img-1849-full.JPEG
   - 3:
-    small: /assets/images/exhibit-images/24-13-exhibit-addl3-famousafterdeath-img-1849-small.JPEG
-    medium: /assets/images/exhibit-images/24-13-exhibit-addl3-famousafterdeath-img-1849-medium.JPEG
-    large: /assets/images/exhibit-images/24-13-exhibit-addl3-famousafterdeath-img-1849-large.JPEG
-    full: /assets/images/exhibit-images/24-13-exhibit-addl3-famousafterdeath-img-1849-full.JPEG
+    small: /assets/images/exhibit-images/24-13-exhibit-addl3-famousafterdeath-img-2297-small.JPEG
+    medium: /assets/images/exhibit-images/24-13-exhibit-addl3-famousafterdeath-img-2297-medium.JPEG
+    large: /assets/images/exhibit-images/24-13-exhibit-addl3-famousafterdeath-img-2297-large.JPEG
+    full: /assets/images/exhibit-images/24-13-exhibit-addl3-famousafterdeath-img-2297-full.JPEG
   - 4:
-    small: /assets/images/exhibit-images/24-13-exhibit-addl4-famousafterdeath-img-2297-small.JPEG
-    medium: /assets/images/exhibit-images/24-13-exhibit-addl4-famousafterdeath-img-2297-medium.JPEG
-    large: /assets/images/exhibit-images/24-13-exhibit-addl4-famousafterdeath-img-2297-large.JPEG
-    full: /assets/images/exhibit-images/24-13-exhibit-addl4-famousafterdeath-img-2297-full.JPEG
+    small: /assets/images/exhibit-images/24-13-exhibit-addl4-famousafterdeath-toy-3-small.jpg
+    medium: /assets/images/exhibit-images/24-13-exhibit-addl4-famousafterdeath-toy-3-medium.jpg
+    large: /assets/images/exhibit-images/24-13-exhibit-addl4-famousafterdeath-toy-3-large.jpg
+    full: /assets/images/exhibit-images/24-13-exhibit-addl4-famousafterdeath-toy-3-full.jpg
   - 5:
-    small: /assets/images/exhibit-images/24-13-exhibit-addl5-famousafterdeath-toy-3-small.jpg
-    medium: /assets/images/exhibit-images/24-13-exhibit-addl5-famousafterdeath-toy-3-medium.jpg
-    large: /assets/images/exhibit-images/24-13-exhibit-addl5-famousafterdeath-toy-3-large.jpg
-    full: /assets/images/exhibit-images/24-13-exhibit-addl5-famousafterdeath-toy-3-full.jpg
+    small: /assets/images/exhibit-images/24-13-exhibit-addl5-famousafterdeath-toy-5-small.jpg
+    medium: /assets/images/exhibit-images/24-13-exhibit-addl5-famousafterdeath-toy-5-medium.jpg
+    large: /assets/images/exhibit-images/24-13-exhibit-addl5-famousafterdeath-toy-5-large.jpg
+    full: /assets/images/exhibit-images/24-13-exhibit-addl5-famousafterdeath-toy-5-full.jpg
   - 6:
-    small: /assets/images/exhibit-images/24-13-exhibit-addl6-famousafterdeath-toy-5-small.jpg
-    medium: /assets/images/exhibit-images/24-13-exhibit-addl6-famousafterdeath-toy-5-medium.jpg
-    large: /assets/images/exhibit-images/24-13-exhibit-addl6-famousafterdeath-toy-5-large.jpg
-    full: /assets/images/exhibit-images/24-13-exhibit-addl6-famousafterdeath-toy-5-full.jpg
+    small: /assets/images/exhibit-images/24-13-exhibit-addl6-famousafterdeath-key-chain-3-small.jpg
+    medium: /assets/images/exhibit-images/24-13-exhibit-addl6-famousafterdeath-key-chain-3-medium.jpg
+    large: /assets/images/exhibit-images/24-13-exhibit-addl6-famousafterdeath-key-chain-3-large.jpg
+    full: /assets/images/exhibit-images/24-13-exhibit-addl6-famousafterdeath-key-chain-3-full.jpg
   - 7:
-    small: /assets/images/exhibit-images/24-13-exhibit-addl7-famousafterdeath-key-chain-3-small.jpg
-    medium: /assets/images/exhibit-images/24-13-exhibit-addl7-famousafterdeath-key-chain-3-medium.jpg
-    large: /assets/images/exhibit-images/24-13-exhibit-addl7-famousafterdeath-key-chain-3-large.jpg
-    full: /assets/images/exhibit-images/24-13-exhibit-addl7-famousafterdeath-key-chain-3-full.jpg
+    small: /assets/images/exhibit-images/24-13-exhibit-addl7-famousafterdeath-key-chain-4-small.jpg
+    medium: /assets/images/exhibit-images/24-13-exhibit-addl7-famousafterdeath-key-chain-4-medium.jpg
+    large: /assets/images/exhibit-images/24-13-exhibit-addl7-famousafterdeath-key-chain-4-large.jpg
+    full: /assets/images/exhibit-images/24-13-exhibit-addl7-famousafterdeath-key-chain-4-full.jpg
   - 8:
-    small: /assets/images/exhibit-images/24-13-exhibit-addl8-famousafterdeath-key-chain-4-small.jpg
-    medium: /assets/images/exhibit-images/24-13-exhibit-addl8-famousafterdeath-key-chain-4-medium.jpg
-    large: /assets/images/exhibit-images/24-13-exhibit-addl8-famousafterdeath-key-chain-4-large.jpg
-    full: /assets/images/exhibit-images/24-13-exhibit-addl8-famousafterdeath-key-chain-4-full.jpg
-  - 9:
-    small: /assets/images/exhibit-images/24-13-exhibit-addl9-famousafterdeath-poster-2-small.jpg
-    medium: /assets/images/exhibit-images/24-13-exhibit-addl9-famousafterdeath-poster-2-medium.jpg
-    large: /assets/images/exhibit-images/24-13-exhibit-addl9-famousafterdeath-poster-2-large.jpg
-    full: /assets/images/exhibit-images/24-13-exhibit-addl9-famousafterdeath-poster-2-full.jpg
+    small: /assets/images/exhibit-images/24-13-exhibit-addl8-famousafterdeath-poster-2-small.jpg
+    medium: /assets/images/exhibit-images/24-13-exhibit-addl8-famousafterdeath-poster-2-medium.jpg
+    large: /assets/images/exhibit-images/24-13-exhibit-addl8-famousafterdeath-poster-2-large.jpg
+    full: /assets/images/exhibit-images/24-13-exhibit-addl8-famousafterdeath-poster-2-full.jpg
 maker: 
   name: "Warren Hart"
-  description: "FAMOUSAFTERDEATH is an artist of many mediums
-Mainly, art on antique books. Other mediums are , graphic design, 3d printed toys and laser cut art."
+  description: "Get ready to unleash your creativity with **FAMOUSAFTERDEATH**, an artist whose work spans an array of fascinating mediums—from art on antique books to 3D printed toys and intricate laser-cut designs!
+
+Ever wondered what it’s like to make your own block print? Now’s your chance! Swing by my booth for a hands-on experience where you’ll dive into the timeless craft of block printing—with a fresh, modern twist. Choose from a selection of unique designs, and create a one-of-a-kind print to take home. 
+
+Don't miss out—come make something unforgettable with me. See you there!"
   image-primary: /assets/images/exhibit-images/24-13-maker-famousafterdeath-logo-medium.jpg
   website: https://linktr.ee/famousafterdeath
   instagram: https://www.instagram.com/famousafterdeath/
@@ -83,8 +86,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2024-07-31 18:31:02"
-last-modified-jotform: "2024-10-27 15:23:52"
-last-exported: "2024-10-27 17:06:29"
+last-modified-jotform: "2024-11-04 10:01:13"
+last-exported: "2024-11-04 20:37:07"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: klingon-assault-group
 permalink: /exhibits/klingon-assault-group/
 exhibit-id: 24-77
 exhibit-zone: "Spirit - East"
-space-number: "SF33"
+space-number: "SH32"
 description: "Klingon costuming and props"
 description-long: "Klingon costuming and props"
 image: /assets/images/exhibit-images/24-77-exhibit-klingon-assault-group-43-kagbaneer-24x48sm-2-3473-large.png
@@ -38,8 +38,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2024-08-18 13:31:29"
-last-modified-jotform: "2024-10-19 14:31:43"
-last-exported: "2024-10-20 15:21:28"
+last-modified-jotform: "2024-11-04 16:51:20"
+last-exported: "2024-11-04 20:36:56"
 sitemap: false
 
 ---
