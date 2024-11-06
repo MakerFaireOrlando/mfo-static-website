@@ -8,7 +8,13 @@ exhibit-id: 24-82
 exhibit-zone: "Opportunity"
 space-number: "OA9"
 description: "Come meet our group and some of our inventors showcasing their products!"
-description-long: "Come meet us and some of our inventors showcasing their products:
+description-long: "Inventors helping inventors since 1974.
+
+For the past 50 years, we've been a non-profit group of inventors of all levels who help each other develop, protect, and promote their ideas to become successful.
+If you're an inventor in central Florida, come see if we can help you too.
+https://www.meetup.com/inventors-council-of-central-florida/
+
+Come meet us at Maker Faire and some of our inventors will be showcasing their products:
 
 Wayne Rasanen, IN10DID, Inc:  Advancing Human-Computer Interaction
 Chording keyboard
@@ -16,7 +22,6 @@ Chording keyboard
 David Woods, TECreation Development and Mission Fins by Sherwood Scuba
 After years of research and development TECreation has finally made the production version of the world's most efficient bipedal swim fins.  Now you can see the Mission fins and many of the prototypes that made it happen along with a test tank to show how it works.
 
-Christine Farag: Vacuum dust pan
 "
 image: /assets/images/exhibit-images/24-82-exhibit-iccf-inventors-council-of-central-florida-iccf-meeting-image-2024-06-large.jpg
 image-primary: 
@@ -41,20 +46,15 @@ additional-images:
     large: /assets/images/exhibit-images/24-82-exhibit-addl3-iccf-inventors-council-of-central-florida-mfo2024-decatxt-3-0-web-page-4364-large.png
     full: /assets/images/exhibit-images/24-82-exhibit-addl3-iccf-inventors-council-of-central-florida-mfo2024-decatxt-3-0-web-page-4364-full.png
   - 4:
-    small: /assets/images/exhibit-images/24-82-exhibit-addl4-iccf-inventors-council-of-central-florida-mfo2024-farag-full-vacuum-transformed-720-824-small.png
-    medium: /assets/images/exhibit-images/24-82-exhibit-addl4-iccf-inventors-council-of-central-florida-mfo2024-farag-full-vacuum-transformed-720-824-medium.png
-    large: /assets/images/exhibit-images/24-82-exhibit-addl4-iccf-inventors-council-of-central-florida-mfo2024-farag-full-vacuum-transformed-720-824-large.png
-    full: /assets/images/exhibit-images/24-82-exhibit-addl4-iccf-inventors-council-of-central-florida-mfo2024-farag-full-vacuum-transformed-720-824-full.png
+    small: /assets/images/exhibit-images/24-82-exhibit-addl4-iccf-inventors-council-of-central-florida-mfo2024-microtxt-one-touch-interface-2682-small.jpg
+    medium: /assets/images/exhibit-images/24-82-exhibit-addl4-iccf-inventors-council-of-central-florida-mfo2024-microtxt-one-touch-interface-2682-medium.jpg
+    large: /assets/images/exhibit-images/24-82-exhibit-addl4-iccf-inventors-council-of-central-florida-mfo2024-microtxt-one-touch-interface-2682-large.jpg
+    full: /assets/images/exhibit-images/24-82-exhibit-addl4-iccf-inventors-council-of-central-florida-mfo2024-microtxt-one-touch-interface-2682-full.jpg
   - 5:
-    small: /assets/images/exhibit-images/24-82-exhibit-addl5-iccf-inventors-council-of-central-florida-mfo2024-microtxt-one-touch-interface-2682-small.jpg
-    medium: /assets/images/exhibit-images/24-82-exhibit-addl5-iccf-inventors-council-of-central-florida-mfo2024-microtxt-one-touch-interface-2682-medium.jpg
-    large: /assets/images/exhibit-images/24-82-exhibit-addl5-iccf-inventors-council-of-central-florida-mfo2024-microtxt-one-touch-interface-2682-large.jpg
-    full: /assets/images/exhibit-images/24-82-exhibit-addl5-iccf-inventors-council-of-central-florida-mfo2024-microtxt-one-touch-interface-2682-full.jpg
-  - 6:
-    small: /assets/images/exhibit-images/24-82-exhibit-addl6-iccf-inventors-council-of-central-florida-mfo2024-mission-fin-vista-print-template-02-720-7517-small.jpg
-    medium: /assets/images/exhibit-images/24-82-exhibit-addl6-iccf-inventors-council-of-central-florida-mfo2024-mission-fin-vista-print-template-02-720-7517-medium.jpg
-    large: /assets/images/exhibit-images/24-82-exhibit-addl6-iccf-inventors-council-of-central-florida-mfo2024-mission-fin-vista-print-template-02-720-7517-large.jpg
-    full: /assets/images/exhibit-images/24-82-exhibit-addl6-iccf-inventors-council-of-central-florida-mfo2024-mission-fin-vista-print-template-02-720-7517-full.jpg
+    small: /assets/images/exhibit-images/24-82-exhibit-addl5-iccf-inventors-council-of-central-florida-mfo2024-mission-fin-vista-print-template-02-720-7517-small.jpg
+    medium: /assets/images/exhibit-images/24-82-exhibit-addl5-iccf-inventors-council-of-central-florida-mfo2024-mission-fin-vista-print-template-02-720-7517-medium.jpg
+    large: /assets/images/exhibit-images/24-82-exhibit-addl5-iccf-inventors-council-of-central-florida-mfo2024-mission-fin-vista-print-template-02-720-7517-large.jpg
+    full: /assets/images/exhibit-images/24-82-exhibit-addl5-iccf-inventors-council-of-central-florida-mfo2024-mission-fin-vista-print-template-02-720-7517-full.jpg
 website: "https://www.inventcf.com"
 maker: 
   name: "ICCF - Inventors Council of Central Florida"
@@ -81,8 +81,8 @@ categories:
   - slug: manufacturing
     name: Manufacturing
 created-jotform: "2024-08-20 15:51:18"
-last-modified-jotform: "2024-11-04 14:11:10"
-last-exported: "2024-11-04 20:36:56"
+last-modified-jotform: "2024-11-06 15:35:25"
+last-exported: "2024-11-06 16:11:33"
 sitemap: false
 
 ---

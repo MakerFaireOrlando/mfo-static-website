@@ -72,7 +72,7 @@ sitemap: false
         <img width="150px" src='/assets/images/site-branding/android_qr_code_150px.png'/>
       </td>
       <td style="text-align:center;width:400px; font-family:lato; font-size:20px;">
-        Maker Faire Orlando<br> iOS App<br><br>
+        Maker Faire Orlando<br> iPhone App<br><br>
         <img width="150px" src='/assets/images/site-branding/ios_qr_code_150px.png'/>
       </td>
    
