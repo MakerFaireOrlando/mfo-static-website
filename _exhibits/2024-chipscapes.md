@@ -6,7 +6,7 @@ slug: chipscapes
 permalink: /exhibits/chipscapes/
 exhibit-id: 24-102
 exhibit-zone: "Opportunity"
-space-number: "OG8, OG9"
+space-number: "OG13, OG14"
 description: "ChipScapes reveal the hidden beauty of vintage microchips and their amazing stories."
 description-long: "Imagine peering into a tiny world hidden within the circuits of a vintage microchip. ChipScapes take you on a journey into these microscopic landscapes, transforming the silvery-gray silicon of computer chips into vibrant, colorful works of art. Using a microscope and specialized lighting, I reveal the hidden beauty of these chips, turning the ordinary into the extraordinary.
 
@@ -87,8 +87,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2024-08-27 21:18:49"
-last-modified-jotform: "2024-10-27 15:18:05"
-last-exported: "2024-10-27 17:06:28"
+last-modified-jotform: "2024-11-07 19:03:53"
+last-exported: "2024-11-07 19:23:30"
 sitemap: false
 
 ---
