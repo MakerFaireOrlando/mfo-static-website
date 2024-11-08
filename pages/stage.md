@@ -27,6 +27,17 @@ Hear from special guest makers on our Main Stage featuring innovators in the the
 <div class="container" style="width=100%">
     <div class="row">
         <div class="col-sm-4">
+          <a href="/schedule"><img src="/assets/images/stage/2024/dale.jpg" style="max-width: 100%; padding:20px;"></a>
+        </div>
+        <div class="col-sm-4">
+          <a href="/schedule"><img src="/assets/images/stage/2024/geoff.jpg" style="max-width: 100%; padding:20px;"></a>
+        </div>
+        <div class="col-sm-4">
+          <a href="/schedule"><img src="/assets/images/stage/2024/eric.jpg" style="max-width: 100%; padding:20px;"></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
           <a href="/schedule"><img src="/assets/images/stage/2024/AllisonChase-stage.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
