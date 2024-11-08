@@ -33,7 +33,7 @@ Hear from special guest makers on our Main Stage featuring innovators in the the
           <a href="/schedule"><img src="/assets/images/stage/2024/geoff.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/eric.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule"><img src="/assets/images/stage/2024/Eric.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
     </div>
     <div class="row">
