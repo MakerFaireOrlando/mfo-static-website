@@ -16,6 +16,7 @@
   url: /makers/?category=power-racing
 
 - title: Theme Park Makers Panel
+  slug: theme-park-sat
   location: Main Stage
   description: Hear from the people who make the marvelous and magical worlds visitors escape to in world famous theme parks around the world, and universe!
   date: 2024-11-09 11:00:00
@@ -46,6 +47,7 @@
   url: /makers/?category=power-racing
 
 - title: Cosplay Creators Panel
+  slug: cosplay-creators-sat
   location: Main Stage
   description: Explore the challenges and excitement of creating massive cosplay costumes. Our panelists will discuss everything from the design and planning stages to the practicalities of transporting and managing these huge builds.
   date: 2024-11-09 14:00:00
@@ -62,6 +64,7 @@
   url: /makers/?category=power-racing
 
 - title: Combat Robot Makers Panel
+  slug: combat-robot
   location: Main Stage
   description: Combat Robotics is a worldwide phenomenon, meet and hear from builders from the TV shows and local champions and learn how you can participate in this upcoming sport!
   date: 2024-11-09 15:00:00
@@ -78,6 +81,7 @@
   url: /makers/?category=power-racing
 
 - title: Orlando Story Club
+  slug: orlando-story-club
   location: Main Stage
   description: Orlando Story Club is a live storytelling competition, each storyteller is given 5 minutes to impress the audience!
   date: 2024-11-09 16:00:00
@@ -98,6 +102,7 @@
   image: /assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg
 
 - title: Theme Park Makers Panel
+  slug: theme-park-sun
   location: Main Stage
   description: Hear from local makers who use technology to create amazing Theme Park experiences! 
   date: 2024-11-10 11:00:00
@@ -123,11 +128,12 @@
   location: Power Racing Track
   description: Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!
   date: 2024-11-10 13:00:00
-  date: 2024-11-10 13:45:00
+  enddate: 2024-11-10 13:45:00
   image: /assets/images/ppprs-logo.png
   url: /makers/?category=power-racing
 
 - title: Cosplay Creators Panel
+  slug: cosplay-creators-sun
   location: Main Stage
   description: Step into a world of creativity where cosplayers take beloved characters and give them fresh, unexpected looks.
   date: 2024-11-10 14:00:00
@@ -144,6 +150,7 @@
   url: /makers/?category=power-racing
 
 - title: Prop Makers Panel
+  slug: prop-makers
   location: Main Stage
   description: Meet and learn from prop makers who create objects for use in film, TV, theater, and other productions. They work with a range of materials and skills to make props that look realistic and match the production's design
   date: 2024-11-10 15:00:00
@@ -160,6 +167,7 @@
   url: /makers/?category=power-racing
 
 - title: Nerd Nite Orlando
+  slug: nerd-nite
   location: Main Stage
   description: Nerd Nite is a series of entertaining and educational presentations. Speakers present for 15 minutes, followed by a brief Q&A with the audience.
   date: 2024-11-10 16:00:00
