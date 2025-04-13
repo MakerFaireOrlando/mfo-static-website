@@ -54,6 +54,7 @@ Check out the [event program](/program) for a printable map, schedule and more!<
 
 
     {% for event in site.data.schedule %}
+       
         <div class="item {% if event.location %}
                             {{event.location | prepend: " " | slugify}}
                           {% endif %}
@@ -61,7 +62,9 @@ Check out the [event program](/program) for a printable map, schedule and more!<
                             {{event.date | date: "%A" | slugify}}
                           {% endif %}" >
 
-
+             {% if event.location %}
+              <a name="{{event.slug}}"></a>
+            {% endif %}
             <div class="container" style="width=100%">
                 <div class="row">
                     <div class="col-sm-2">

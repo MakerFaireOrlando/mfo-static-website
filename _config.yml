@@ -46,7 +46,6 @@ defaults:
     values:
       sitemap: false
 
-
 collections:
   sponsors:
     output: false
@@ -61,13 +60,13 @@ timezone: America/New_York
 newsletter_url: http://eepurl.com/bpCB8T
 
 
-event_year: 2024
+event_year: 2025
 sponsor_year: 2024 #use this when showing prior year sponsors
 
 event_name: Maker Faire Orlando
 
-event_date_descr: November 9 & 10, 2024
-event_date_descr_month_day: November 9 & 10
+event_date_descr: November 8 & 9, 2025
+event_date_descr_month_day: November 8 & 9
 
 event_location_descr: Central Florida Fairgrounds & Expo Halls
 cta_event_url: /attend
