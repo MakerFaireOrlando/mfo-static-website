@@ -8,14 +8,18 @@ redirect-from:
 scrolltop: true
 ---
 <div class="container">
+{% if site.data.settings.maker_exhibits_holdover %}
+<h1>Maker Exhibits from {{site.event_year | minus: 1 }}</h1>
+
+  {% if site.data.settings.call_for_makers_open %}
+  We haven't started approving exhibits for Maker Faire Orlando {{site.event_year}}, but you can see our past exhibits below get a feel for the event!<br><br>
+  {% else %}
+  We haven't opened our Call For Makers yet for {{site.event_year}}, but you can see our past exhibits below to see the type of exhibits you can find at Maker Faire Orlando!<br><br>
+  {% endif %}
+
+{% else %}
 <h1>Maker Exhibits</h1>
-
-{%comment%}
-We haven't opened our Call For Makers yet for {{site.event_year}}, but you can see our past exhibits below to see the type of exhibits you can find at Maker Faire Orlando!<br><br>
-
-
-We haven't started approving exhibits for Maker Faire Orlando {{site.event_year}}, but you can see our past exhibits below get a feel for the event!<br><br>
-{%endcomment%}
+{% endif %}
 
 <p>Interested in Exhibiting at Maker Faire Orlando? <a href="/exhibit-at-maker-faire-orlando/">Learn more about exhibiting!</a> </p>
 
