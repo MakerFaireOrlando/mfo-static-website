@@ -42,9 +42,9 @@ carousel-slides:
 
 {% include makey-border.html %}
 
-
+{% if site.data.settings.featured_makers %}
 {% include featured-makers-grid.html %}
-
+{% endif %}
 
 
 {% comment %}
@@ -54,13 +54,15 @@ carousel-slides:
 <div class="flag-banner"></div>
 {% endcomment %}
 
+{% if site.data.settings.event_shirt_promo %}
 {% include event-shirt.html %}
+{% endif %}
 
 {% include explore-meet-makers.html %}
 
-{% comment %}
+{% if site.data.settings.call_for_makers_open %}
 {% include call-for-makers-widget.html %}
-{% endcomment %}
+{% endif %}
 
 
 {% comment %}
