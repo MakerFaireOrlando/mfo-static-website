@@ -3,9 +3,11 @@ maker_exhibits_holdover: true
 test_text: "my settings text"
 
 
-call_for_makers_open: true
+call_for_makers_open: false 
 
 #homepage settings
 featured_makers: false
 event_shirt_promo: false
+explore_meet_makers: false
+
 
