@@ -22,7 +22,7 @@ scrolltop: true
 #### Maker Faire Orlando is a non-profit, community-organized, family-friendly celebration featuring local do-it-yourself science, art, rockets, robots, crafts, technology, music, hands-on-activities, and more.
 
 
-Saturday, November 9 & Sunday, November 10 - 10AM to 5PM (Both Days)
+Saturday, November 8 & Sunday, November 9 - 10AM to 5PM (Both Days)
 
 Central Florida Expo Center & Fairgrounds
 4603 W Colonial Dr, Orlando, FL 32808
@@ -36,13 +36,8 @@ Check out the Maker Faire [Schedule](/schedule) and [Program](/program) to plan 
 Don't Miss the Talks, Panels & Performances on the [Main Stage](/stage)!
 
 
-{%comment%}
-
-
 # Tickets will be on-sale later this year. Please check back or follow-us on social media
 
-
-{%endcomment%}
 ---
 
 {%comment%}
@@ -56,7 +51,7 @@ Every ticket purchased online for Maker Faire Orlando **by November 3rd, 2022**,
 ---
 {%endcomment%}
 
-
+{%comment%}
 ## Tickets
 Tickets available on [Humanitix](https://events.humanitix.com/makerfaireorlando) or use the ticket form below - Humanitix donates 100% of profits to children's charities!
 
@@ -93,6 +88,8 @@ Tickets available on [Humanitix](https://events.humanitix.com/makerfaireorlando)
 </script>
 
 *Student tickets include college students with current college student ID. 
+
+{%endcomment%}
 
 {%comment%}
 ---

@@ -18,6 +18,10 @@ carousel-slides:
 ---
 
 # Harness the Maker Movement in Your Classroom!
+
+We will be announcing a new Educator offering for Maker Faire Orlando 2025, please check back for more information. 
+
+{%comment%}
 Are you interested in learning more about making in the classroom, makerspaces, or the maker movement in general? There are lots of ways we can help!
 
 We can help you:
@@ -63,3 +67,4 @@ If you would like to learn more about [Maker Faire Orlando](https://www.makerfa
 * [Melrose Center](http://tic.ocls.info/) is part of the Orange County Library System that uses their experience as providers of informal learning and technology education to provide services for community members to gain the understanding required to be both contributor to, developer for, and consumer of today's emerging technologies.
 
 **If you would like to learn more about [Maker Faire Orlando](http://www.makerfaireorlando.com/) or for assistance bringing the maker movement into your classroom, email us at <makers@makerfaireorlando.com>**
+{%endcomment%}

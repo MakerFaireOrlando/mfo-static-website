@@ -17,6 +17,9 @@ carousel-slides:
 ---
 # Homeschool Programs
 
+We will be announcing a new Homeschool offering for Maker Faire Orlando 2025, please check back for more information. 
+
+{%comment%}
 Are you interested in bringing the maker movement into your homeschool education program?  Check out the offerings from The Maker Effect Foundation including Maker Faire Orlando, [MakerFX Makerspace](http://www.makerfx.org) and more.
 
 ## The Maker Effect Foundation
@@ -42,3 +45,4 @@ If you have a question on documentation of homeschool status, please email us at
 Each year we curate (in the month before the event) a special set of Maker Faire Orlando exhibits that are targeted for educators. If you can’t see everything at Maker Faire, you can use this list to prioritize! Many of these exhibits are created by educators, or these makers have indicated they are willing to help educators.
 
 If you have additional questions about our programs for Homeschool educators, email us at [makers@makerfaireorlando.com](mailto://makers@makerfaireorlando.com).
+{%endcomment%}
