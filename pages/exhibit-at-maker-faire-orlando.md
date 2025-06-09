@@ -14,7 +14,7 @@ carousel-slides:
 ---
 
 # Maker Faire Orlando Can’t Happen Without Makers!
-We need people willing to share the things they create and their passion for making. Join us **{{site.event_date_descr_month_day}}** for our public days and on **{{site.edu_date_descr_month_day}}** for our Education Day to help inspire thousands in our community.
+We need people willing to share the things they create and their passion for making. Join us **{{site.event_date_descr_month_day}}** for our public days and on **{{site.edu_date_descr_month_day}}** for [Field Trip Day](/field-trip-day/) to help inspire thousands in our community.
 
 ## Exhibit Applications
 
@@ -45,7 +45,7 @@ Our application deadline has passed, and we are no longer accepting new exhibit 
 
 * Maker / Maker Group Information - Name, Image (logo or pic), website, social media pages, etc.
 * Exhibit Information - Name, description, images, website, social media pages, etc.
-* Exhibit Availability (Ideally Maker Faire exhibits are available all weekend, and are invited to participate in Education Day on Friday)
+* Exhibit Availability (Ideally Maker Faire exhibits are available all weekend, and are invited to participate in Field Trip Day on Friday)
 * Exhibit Requirements - Power, water, light levels, sound levels, safety, time needed to setup, etc.
 
 Please create a compelling exhibit application, and choose pictures / descriptions that will be compelling to Maker Faire attendees. For examples of exhibits, you can view our [maker exhibits page](/makers/). You will have the opportunity to edit your exhibit application once submitted, and the Maker Faire Orlando team will contact you if you exhibit application does not contain enough information. Please ensure that you will receive emails from makers@makerfaireorlando.com by adding the email to your contacts or prioritizing for your inbox.
