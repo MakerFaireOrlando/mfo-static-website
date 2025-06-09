@@ -15,9 +15,8 @@ carousel-slides:
     url: /schedule
 ---
 
-{%comment%}
 #### Stay Tuned for exciting announcements with scheduled activities, special guests, panel discussions, musical performances and more!
-{%endcomment%}
+{%comment%}
 
 # Don’t Miss Amazing Makers on Stage at Maker Faire Orlando!
 
@@ -110,4 +109,4 @@ Hear from special guest makers on our Main Stage featuring innovators in the the
 ---
 
 Stage talks, panels and performances are subject to change based on availability of special guests.
-
+{%endcomment%}
