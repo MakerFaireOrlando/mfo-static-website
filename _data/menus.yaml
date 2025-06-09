@@ -38,10 +38,8 @@ topnav:
     subfolderitems:
       - page: Tickets & Info
         url: /attend/
-      - page: Homeschool Educators
-        url: /homeschool/
-      - page: School Educators
-        url: /educators/
+      - page: Field Trip Day
+        url: /field-trip-day/
 #  - title: THINGS TO SEE & DO
 #    subfolderitems:
 #      - page: Makers & Exhibits

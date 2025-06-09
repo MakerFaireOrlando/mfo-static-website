@@ -1,7 +1,8 @@
 ---
-title: Education Day
+title: Field Trip Day
 layout: default
-permalink: /education-day/
+permalink: /field-trip-day/
+redirect_from: /education-day/
 image: /assets/images/educator-page-header-bok-academy.jpg
 description: A day of hands-on discovery for students, educators, and homeschoolers!
 carousel: true
@@ -14,15 +15,15 @@ carousel-slides:
 footer-cta: false
 ---
 
-# Education Day at Maker Faire Orlando – {{ site.edu_date_descr }}
+# Field Trip Day at Maker Faire Orlando – {{ site.edu_date_descr }}
 
-On Friday, {{ site.edu_date_descr }}, Maker Faire Orlando invites students, teachers, and homeschool families to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Education Day!
+On Friday, {{ site.edu_date_descr }}, Maker Faire Orlando invites students, teachers, and homeschool families to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Field Trip Day!
 
 This special preview day is designed exclusively for public, private, and charter school field trips, homeschool familes and co-ops. Students and educators will have the chance to immerse themselves in interactive exhibits and engage directly with makers, artists, engineers, and inventors from across Florida.
 
 Whether it’s screen printing a custom t-shirt, driving a robot or drone, or collaborating on an art project, there’s something to spark every student’s curiosity and imagination. With a focus on STEAM (Science, Technology, Engineering, Art, and Math), the day is full of enriching experiences that bring learning to life.
 
-Education Day provides a unique opportunity for students and educators to:
+Field Trip Day provides a unique opportunity for students and educators to:
 * Meet and interact with real-world makers and creators
 * Explore innovative technologies and artistic processes
 * Participate in hands-on projects designed to inspire creativity and critical thinking
@@ -30,17 +31,18 @@ Education Day provides a unique opportunity for students and educators to:
 
 Check out the [exhibits](/makers), [hands-on workshops](/makers?category=hands-on-workshop), [schedule](/schedule) and more!
 
-This event takes place ahead of the main Maker Faire Orlando weekend, giving school groups special access to exhibits, reduced crowds, and dedicated programming tailored to young learners and educators.
+This event takes place ahead of Maker Faire Orlando, giving school groups special access to exhibits, reduced crowds, and dedicated programming tailored to young learners and educators.
 
-### Education Day is FREE
-Educators, field trip groups, homeschool families, and co-ops receive free admission to Education Day at Maker Faire Orlando
+### Field Trip Day is FREE
+Educators, field trip groups, homeschool families, and co-ops receive free admission to Field Trip Day at Maker Faire Orlando
 
 #### Registration Details
-* Advance registration is required - **Registration will open in June, please watch this page for registration link**
-* Education day is not part of the standard admission for Maker Faire Orlando, and **Maker Faire Orlando tickets will not be usable on Education Day**.
+* **Advance registration is required** - Registration will open in June, please watch this page for registration link
+* Field Trip day is not part of the standard admission for Maker Faire Orlando, and **Maker Faire Orlando tickets will not be usable on Field Trip Day**.
 
 
 Space is limited, so we encourage schools and homeschool groups to register early. 
 
 Come make, learn, and play with us at Maker Faire Orlando!
 
+Field Trip Day details including activities, event hours, etc. are subject to change. 
