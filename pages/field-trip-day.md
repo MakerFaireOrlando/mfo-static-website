@@ -19,7 +19,7 @@ footer-cta: false
 
 On Friday, {{ site.edu_date_descr }}, Maker Faire Orlando invites students, teachers, and homeschool families to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Field Trip Day!
 
-This special preview day is designed exclusively for public, private, and charter school field trips, homeschool familes and co-ops. Students and educators will have the chance to immerse themselves in interactive exhibits and engage directly with makers, artists, engineers, and inventors from across Florida.
+This special preview day is designed exclusively for public, private, and charter school field trips, homeschool families and co-ops. Students and educators will have the chance to immerse themselves in interactive exhibits and engage directly with makers, artists, engineers, and inventors from across Florida.
 
 Whether it’s screen printing a custom t-shirt, driving a robot or drone, or collaborating on an art project, there’s something to spark every student’s curiosity and imagination. With a focus on STEAM (Science, Technology, Engineering, Art, and Math), the day is full of enriching experiences that bring learning to life.
 
