@@ -51,63 +51,27 @@ Every ticket purchased online for Maker Faire Orlando **by November 3rd, 2022**,
 ---
 {%endcomment%}
 
-{%comment%}
+
 ## Tickets
 Tickets available on [Humanitix](https://events.humanitix.com/makerfaireorlando) or use the ticket form below - Humanitix donates 100% of profits to children's charities!
 
 
 ---
 
-<iframe id="iframe-container" src="https://events.humanitix.com/makerfaireorlando/tickets?w=true&p=%23353337" width="100%" height="600px" frameborder="0"></iframe>
-<script>
-  var humanitix = {
-      findPos: function(obj) {
-          var curtop = 0;
-          if (obj.offsetParent) {
-          do {
-              curtop += obj.offsetTop;
-          } while ((obj = obj.offsetParent));
-          return [curtop];
-          }
-      }
-  };
-  window.addEventListener('message', function (e) {
-      if (e.origin !== "https://events.humanitix.com"){
-          return;
-      }   
-      var messageData = e.data;
-      var iframeEl = document.getElementById('iframe-container');
-      if (iframeEl && messageData && !isNaN(messageData.scrollHeight)){
-          iframeEl.style.height = messageData.scrollHeight + 'px';
-      }
-      if (iframeEl && messageData && messageData.pageChange) {
-        window.scroll(0, humanitix.findPos(iframeEl));
-    }
-
-  }, false);
-</script>
+<script src="https://events.humanitix.com/scripts/widgets/inline.js" type="module"></script>
+<iframe data-checkout="makerfaireorlando"></iframe>
 
 *Student tickets include college students with current college student ID. 
-
-{%endcomment%}
-
-{%comment%}
----
-### Looking for an Exclusive Experience with Makers, Interactive Artists & BattleBots Teams?
-Check out the [Maker Faire Orlando & Robot Ruckus VIP Fundraiser](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser) happening after-hours on Saturday the 5th after the first day of Maker Faire Orlando. This event requires a separate ticket. [Learn More](https://events.humanitix.com/maker-faire-orlando-and-robot-ruckus-vip-fundraiser)
-
-{%endcomment%}
 
 
 ---
 
 ## Discounted Ticket Programs
 
-**Homeschool educators receive free admission** to Maker Faire Orlando {{site.event_year}} with identification and documentation.
-Please see our [Homeschool Programs page](/homeschool) for more information including requirements and restrictions.
-
 **Employees of schools, colleges, universities, and libraries** receive free admission to Maker Faire Orlando {{site.event_year}} with identification.
 Please see our [Educators page](/educators) for more information including requirements and restrictions.
+
+**Field Trip Day** - On Friday, November 7, 2025, Maker Faire Orlando invites students, teachers, and homeschool families to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Field Trip Day! [Learn more](/field-trip-day/)
 
 **Registered groups from Title I schools receive free admission** to Maker Faire Orlando {{site.event_year}}.
 Please see our [Educators page](/educators) for more information.
