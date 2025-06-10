@@ -27,9 +27,10 @@ Volunteering at {{site.event_name}} {{site.event_year}} is a great way to give b
 
 Volunteers who work at least a 4 hour shift will receive free admission for the day they volunteer (if you volunteer late in the day, you are welcome to enjoy the event before your volunteer shift, and if you volunteer for setup day, you can come back for a full day on either Saturday or Sunday). Volunteers also receive a {{site.event_name}} {{site.event_year}} volunteer t-shirt.
 
+
+### Volunteer registration typically opens in September, please check back or follow us on social media.
+
 {%comment%}
-# Volunteer registration typically opens in September, please check back or follow us on social media.
-{%endcomment%}
 
 ## Volunteering at {{site.event_name}} {{site.event_year}}
 
@@ -57,3 +58,4 @@ Notes:
 <script src="https://events.humanitix.com/scripts/widgets/inline.js" type="module"></script>
 <iframe data-checkout="maker-faire-orlando-2024-volunteer-registration"></iframe>
 
+{%endcomment%}
