@@ -1,5 +1,5 @@
 #future settings file
-maker_exhibits_holdover: true
+maker_exhibits_holdover: false
 test_text: "my settings text"
 
 
