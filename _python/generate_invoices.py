@@ -50,9 +50,9 @@ class color:
 
 
 #settings
-eventYear = 2024
-formCFM = "Call For Makers MFO2024"
-formRuckus = "CFM - Ruckus - MFO2024"
+eventYear = 2025
+formCFM = "Call For Makers MFO2025"
+formRuckus = "CFM - Ruckus - MFO2025"
 
 outputAll = False #this is now set with a command line param, don't change it here
 
