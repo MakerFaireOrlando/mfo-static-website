@@ -12,16 +12,15 @@ Tell your fans, friends and family they can see you at Maker Faire Orlando! Just
 
 ### Web Badge
 
-<a href="/assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg"><img src="/assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg" alt="Maker Faire Orlando 2024 round logo" width="400" /></a>
+<a href="/assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg"><img src="/assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg" alt="Maker Faire Orlando 2025 round logo" width="400" /></a>
 
 
 [Email us](mailto:makers@makerfaireorlando.com) if you need a larger or vector version of the image above.
 
---------------------------------------------------------
 
-Suggested and Common Maker Faire Hashtags
+### Maker Faire Hashtags
 
-#MFO2024\
+#MFO2025\
 #MakerFaire\
 #RobotRuckus\
 #OrlandoMakers\
@@ -35,9 +34,13 @@ Suggested and Common Maker Faire Hashtags
 #GreatestShow&(Tell)onEarth\
 #MakeSomething
 
+--- 
 
-Postcards, Flyers & Social Images
----------------------------------
+### Postcards, Flyers & Social Images
+#### Coming soon!
+
+
+{% comment %}
 
 ### Postcards
 
@@ -53,6 +56,8 @@ Postcards available at MakerFX Makerspace, FamiLAB, Skycraft, Tampa Hackerspace,
 <a href="/assets/pdf/2024/MFO24-poster.pdf"><img src="/assets/pdf/2024/MFO24-poster.jpg" alt="Maker Faire Orlando poster" width="600"/></a>
 
 Poster image is linked to high-res PDF.
+
+{% endcomment %}
 
 ---
 
