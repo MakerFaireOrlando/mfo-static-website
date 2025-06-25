@@ -2,6 +2,7 @@
 title: Badge Quick Links
 layout: default
 permalink: /badge/
+page_footer_ad: false
 ---
 
 
