@@ -36,7 +36,6 @@ Check out the Maker Faire [Schedule](/schedule) and [Program](/program) to plan 
 Don't Miss the Talks, Panels & Performances on the [Main Stage](/stage)!
 
 
-# Tickets will be on-sale later this year. Please check back or follow-us on social media
 
 ---
 
