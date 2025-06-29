@@ -13,6 +13,7 @@ carousel-slides:
     caption: School group at Maker Faire Orlando
     url:
 footer-cta: false
+page_footer_ad: false
 ---
 
 # Field Trip Day at Maker Faire Orlando – {{ site.edu_date_descr }}
@@ -46,3 +47,15 @@ Space is limited, so we encourage schools and homeschool groups to register earl
 Come make, learn, and play with us at Maker Faire Orlando!
 
 Field Trip Day details including activities, event hours, etc. are subject to change. 
+
+
+<div class="faq-container">
+  <details class="faq-item">
+    <summary class="faq-question">What is Maker Faire Orlando?</summary>
+    <div class="faq-answer">
+      <p>
+        Maker Faire is a gathering of fascinating, curious people who enjoy learning and who love sharing what they can do. From engineers to artists to scientists to crafters, Maker Faire is a venue for these “makers” to show hobbies, experiments, projects.
+      </p>  
+    </div>
+  </details>
+</div>

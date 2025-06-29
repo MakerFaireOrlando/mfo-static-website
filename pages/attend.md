@@ -16,6 +16,7 @@ carousel-slides:
     caption: Family at Maker Faire
     url:
 scrolltop: true
+page_footer_ad: false
 ---
 
 # Maker Faire Orlando {{site.event_year}} - {{site.event_date_descr_month_day}}

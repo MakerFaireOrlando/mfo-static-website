@@ -195,7 +195,7 @@ max-width: 270px;
 }
 
 
-//makers search and filter
+/* //makers search and filter */
 
 .exhibits-search row {
   height: 100px;
@@ -237,4 +237,98 @@ max-width: 270px;
 
 .events-container .item {
   box-shadow: 4px 4px 10px #888888;
+}
+
+.banner {
+  position: fixed;  /* Makes the footer stay in place */
+  bottom: 0;       /* Positions the footer at the bottom */
+  left: 0;        /* Positions the footer on the left side */
+  width: 100%;    /* Makes the footer span the entire width of the screen */
+  background-color: #1C92C4; /* Optional: Set a background color */
+  padding: 10px;    /* Optional: Add some padding for visual spacing */
+  text-align: center; /* Optional: Center the text */
+}
+
+ /* for footer ad spacing */
+body {
+  padding-bottom: 100px;
+}
+
+.faq-container {
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
+
+.faq-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+  border-color: #1C92C4;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.faq-question {
+  background-color: #f8f9fa;
+  padding: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  list-style: none;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #e9ecef;
+}
+
+/* Custom arrow */
+.faq-question::after {
+  content: '▼';
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: #1C92C4;
+  transition: transform 0.3s ease;
+}
+
+/* Rotate arrow when open */
+.faq-item[open] .faq-question::after {
+  content: '▲'; /* Up arrow when open */
+  /* transform: translateY(-50%) rotate(45deg); */
+}
+
+/* Hide default arrow */
+.faq-question::-webkit-details-marker {
+  display: none;
+}
+
+.faq-answer {
+  padding: 20px;
+  background-color: white;
+  border-top: 1px solid #eee;
+}
+
+.faq-answer p {
+  margin: 0;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Open state styling */
+.faq-item[open] .faq-question {
+  background-color: #1C92C4;
+  color: white;
+}
+
+.faq-item[open] .faq-question::after {
+  color: white;
 }

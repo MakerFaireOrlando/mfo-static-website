@@ -20,7 +20,9 @@
 {% assign mfo = site.data.menus.footernav.first %}
 {% assign mf =  site.data.menus.footernav.last %}
 
+{% comment %}
 {% include cta-panel-widget.html cta_text=site.data.cta.footer.text cta_url=site.data.cta.footer.url %}
+{% endcomment %}
 
 <footer class="gmf-footer">
   <div class="container">
@@ -85,4 +87,11 @@
       </div>
     <div>
   </div>
+  {% if page.page_footer_ad != false and site.data.settings.footer_ad==true %}
+  <div class="banner">
+    <picture>
+      <a href="{{site.data.settings.footer_ad_url}}"><img src="/assets/images/site-branding/2025/bottom-footer.png" alt="Maker Faire Orlando Advanced Tickets Now On Sale" style="max-width: 100%; height: auto;"></a>
+    </picture>
+  </div>
+  {% endif %}
 </footer>
