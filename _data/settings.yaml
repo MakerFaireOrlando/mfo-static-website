@@ -1,7 +1,7 @@
-maker_exhibits_holdover: true
+maker_exhibits_holdover: false
 test_text: "my settings text"
 
-call_for_makers_open: false 
+call_for_makers_open: true 
 
 #homepage settings
 featured_makers: false
