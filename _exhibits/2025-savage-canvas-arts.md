@@ -14,6 +14,27 @@ image-primary:
   medium: /assets/images/exhibit-images/25-13-exhibit-savage-canvas-arts-17487853051365570891819620720129-medium.jpg
   large: /assets/images/exhibit-images/25-13-exhibit-savage-canvas-arts-17487853051365570891819620720129-large.jpg
   full: /assets/images/exhibit-images/25-13-exhibit-savage-canvas-arts-17487853051365570891819620720129-full.jpg
+additional-images: 
+  - 1:
+    small: /assets/images/exhibit-images/25-13-exhibit-addl1-savage-canvas-arts-turtle-club-small.jpg
+    medium: /assets/images/exhibit-images/25-13-exhibit-addl1-savage-canvas-arts-turtle-club-medium.jpg
+    large: /assets/images/exhibit-images/25-13-exhibit-addl1-savage-canvas-arts-turtle-club-large.jpg
+    full: /assets/images/exhibit-images/25-13-exhibit-addl1-savage-canvas-arts-turtle-club-full.jpg
+  - 2:
+    small: /assets/images/exhibit-images/25-13-exhibit-addl2-savage-canvas-arts-size-reference-for-template-small.jpg
+    medium: /assets/images/exhibit-images/25-13-exhibit-addl2-savage-canvas-arts-size-reference-for-template-medium.jpg
+    large: /assets/images/exhibit-images/25-13-exhibit-addl2-savage-canvas-arts-size-reference-for-template-large.jpg
+    full: /assets/images/exhibit-images/25-13-exhibit-addl2-savage-canvas-arts-size-reference-for-template-full.jpg
+  - 3:
+    small: /assets/images/exhibit-images/25-13-exhibit-addl3-savage-canvas-arts-img-20231130-123454117-small.jpg
+    medium: /assets/images/exhibit-images/25-13-exhibit-addl3-savage-canvas-arts-img-20231130-123454117-medium.jpg
+    large: /assets/images/exhibit-images/25-13-exhibit-addl3-savage-canvas-arts-img-20231130-123454117-large.jpg
+    full: /assets/images/exhibit-images/25-13-exhibit-addl3-savage-canvas-arts-img-20231130-123454117-full.jpg
+  - 4:
+    small: /assets/images/exhibit-images/25-13-exhibit-addl4-savage-canvas-arts-camphalfblood-small.jpg
+    medium: /assets/images/exhibit-images/25-13-exhibit-addl4-savage-canvas-arts-camphalfblood-medium.jpg
+    large: /assets/images/exhibit-images/25-13-exhibit-addl4-savage-canvas-arts-camphalfblood-large.jpg
+    full: /assets/images/exhibit-images/25-13-exhibit-addl4-savage-canvas-arts-camphalfblood-full.jpg
 website: "www.savagecanvasarts.com"
 maker: 
   name: "Savage Canvas Arts"
@@ -27,8 +48,8 @@ categories:
   - slug: fabric-arts
     name: Fabric Arts
 created-jotform: "2025-06-01 09:44:54"
-last-modified-jotform: "2025-06-29 12:15:54"
-last-exported: "2025-06-29 13:42:03"
+last-modified-jotform: "2025-06-30 12:48:28"
+last-exported: "2025-06-30 20:22:40"
 sitemap: false
 
 ---
