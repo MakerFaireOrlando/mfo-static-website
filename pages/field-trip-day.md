@@ -18,9 +18,9 @@ page_footer_ad: false
 
 # Field Trip Day at Maker Faire Orlando – {{ site.edu_date_descr }}
 
-On Friday, {{ site.edu_date_descr }}, Maker Faire Orlando invites students, teachers, and homeschool families to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Field Trip Day!
+The Maker Effect Foundation and our sponsors invite students to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Field Trip Day on Friday, {{ site.edu_date_descr }}
 
-This special preview day is designed exclusively for public, private, and charter school field trips, homeschool families and co-ops. Students and educators will have the chance to immerse themselves in interactive exhibits and engage directly with makers, artists, engineers, and inventors from across Florida.
+This special preview day is designed exclusively for public, private, and charter school field trips, homeschool students, co-ops and full-time virtual school students. Students and educators will have the chance to immerse themselves in interactive exhibits and engage directly with makers, artists, engineers, and inventors from across Florida.
 
 Whether it’s screen printing a custom t-shirt, driving a robot or drone, or collaborating on an art project, there’s something to spark every student’s curiosity and imagination. With a focus on STEAM (Science, Technology, Engineering, Art, and Math), the day is full of enriching experiences that bring learning to life.
 
@@ -32,22 +32,34 @@ Field Trip Day provides a unique opportunity for students and educators to:
 
 Check out the [exhibits](/makers), [hands-on workshops](/makers?category=hands-on-workshop), [schedule](/schedule) and more!
 
-This event takes place ahead of Maker Faire Orlando, giving school groups special access to exhibits, reduced crowds, and dedicated programming tailored to young learners and educators.
-
-### Field Trip Day is FREE
-Educators, field trip groups, homeschool families, and co-ops receive free admission to Field Trip Day at Maker Faire Orlando
-
-#### Registration Details
-* **Advance registration is required** - Registration will open in July, please watch this page for registration link
-* Field Trip day is not part of the standard admission for Maker Faire Orlando, and **Maker Faire Orlando tickets will not be usable on Field Trip Day**.
+This event takes place ahead of Maker Faire Orlando, giving students access to exhibits, reduced crowds, and dedicated programming tailored to young learners and educators.
 
 
-Space is limited, so we encourage schools and homeschool groups to register early. 
+### School Field Trips 
+If you are an educator affiliated with a school, this program includes free admission for students, teachers, administrators and chaperones. 
 
-Come make, learn, and play with us at Maker Faire Orlando!
+### Homeschool & Virtual School Groups 
+If your student is homeschooled, or is part of a full-time virtual school program, this program includes free admission for students and and a parent or guardian. This program is limited to one adult per student. Participants will be required to upload documentation showing homeschool or full-time virtual school status. 
 
-Field Trip Day details including activities, event hours, etc. are subject to change. 
+### Important Notes
 
+* All students must be supervised at the event by an adult at all times. Please plan for proper adult / student ratios and supervision. 
+
+* **WE ARE UNABLE TO ACCEPT ANYONE THAT ARRIVES ON THE DAY OF THE EVENT WITHOUT COMPLETING THIS PROCESS. THE DEADLINE TO SUBMIT THIS REQUEST FORM IS OCTOBER 24TH. PLEASE SUBMIT AS SOON AS POSSIBLE.**
+
+* All group members must check-in at the same time. Parking and Check-in instructions will be sent before the event. 
+
+* This program is limited to Field Trip Day, and **Field Trip Day admission will NOT be valid for Maker Faire Orlando main event days.** 
+
+<br>
+## [Registration Form Link](https://form.jotform.com/makereffect/mfo2025-field-trip-day)
+
+<br>
+
+
+**Field Trip Day details including activities, event hours, etc. are subject to change.** 
+
+{%comment%}
 
 <div class="faq-container">
   <details class="faq-item">
@@ -59,3 +71,4 @@ Field Trip Day details including activities, event hours, etc. are subject to ch
     </div>
   </details>
 </div>
+{%endcomment%}
