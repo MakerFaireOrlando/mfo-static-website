@@ -38,7 +38,7 @@ This event takes place ahead of Maker Faire Orlando, giving school groups specia
 Educators, field trip groups, homeschool families, and co-ops receive free admission to Field Trip Day at Maker Faire Orlando
 
 #### Registration Details
-* **Advance registration is required** - Registration will open in June, please watch this page for registration link
+* **Advance registration is required** - Registration will open in July, please watch this page for registration link
 * Field Trip day is not part of the standard admission for Maker Faire Orlando, and **Maker Faire Orlando tickets will not be usable on Field Trip Day**.
 
 
