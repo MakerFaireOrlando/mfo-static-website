@@ -33,7 +33,7 @@
         {%- endif -%}{%- endfor -%}
       </div>
 
-     
+      {% if site.data.settings.maker_exhibits_show_location %}
       <p><b>Exhibit Zone:</b> {{page.exhibit-zone}}</p>
 
       {% if page.combat-robot == true %}
@@ -42,6 +42,7 @@
         <p><b>Exhibit Space:</b> {{page.space-number}} {% if page.space-number != "Unassigned" %}(Subject to Change){%endif%}</p>
       {% endif %}
       
+      {%endif%}
       <p><b>Exhibit Number:</b> {{page.exhibit-id}}</p>
     
 
