@@ -37,3 +37,4 @@ _python/*.csv
 
 .python-version
 _python/tickets-last-count.txt
+_python/temp_image.jpg
