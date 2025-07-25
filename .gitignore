@@ -36,3 +36,4 @@ _python/*.csv
 
 
 .python-version
+_python/tickets-last-count.txt
