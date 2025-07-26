@@ -2,11 +2,11 @@ topnav:
   #text: Subscribe for Info
   #url: http://eepurl.com/bpCB8T
   text: Get Tickets!
-  url: https://www.makerfaireorlando.com/attend
+  url: /attend/
 
 
 footer:
   #text: Subscribe for Info
   #url: http://eepurl.com/bpCB8T
   text: Get Tickets!
-  url: https://www.makerfaireorlando.com/attend
+  url: /attend/
