@@ -24,7 +24,7 @@ We need people willing to share the things they create and their passion for mak
 
 
 
-There is no fee for individuals or community groups to exhibit at Maker Faire Orlando. There is a $150 seller fee for individuals to sell products you make at the event. Companies, service businesses, retail businesses, and those looking to advertise should [sponsor Maker Faire Orlando](/become-a-sponsor) which includes significant sponsor benefits. Contact us at <makers@makerfaireorlando.com> for more information.
+There is no fee for individuals or community groups to exhibit at Maker Faire Orlando. There is a $150 seller fee for individuals to sell products you make at the event. Companies, service businesses, retail businesses, and those looking to advertise should [sponsor Maker Faire Orlando](/become-a-sponsor/) which includes significant sponsor benefits. Contact us at <makers@makerfaireorlando.com> for more information.
 
 Startup businesses are encouraged to contact us at <makers@makerfaireorlando.com> so that we can work with you to determine potential sponsorship discounts based startup phase and size.
 
