@@ -27,7 +27,7 @@ If you'd like to help support STEAM (Science, Technology, Engineering, Arts & Ma
 
 ---
 
-<div style="margin-bottom:20px"><a href="/assets/pdf/2025/MFO2025-Sponsor-Packet.pdf"><img src="/assets/pdf/2025/MFO2025-Sponsor-Packet.jpg" width="400px"></a></div>
+<div style="margin-bottom:20px"><a href="/assets/pdf/2025/MFO2025-Sponsor-Packet.pdf"><img src="/assets/pdf/2025/MFO2025-Sponsor-Packet.jpg" alt="Maker Faire Orlando sponsor packet" width="400px"></a></div>
 <div><a href="/assets/pdf/2025/MFO2025-Sponsor-Packet.pdf">Download our sponsor packet</a> for more information on sponsorship opportunities, including activations and sponsorship benefits tailed for your goals!</div>
 
 ---
