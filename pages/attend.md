@@ -69,12 +69,12 @@ Tickets available on [Humanitix](https://events.humanitix.com/makerfaireorlando)
 ## Discounted Ticket Programs
 
 **Employees of schools, colleges, universities, and libraries** receive free admission to Maker Faire Orlando {{site.event_year}} with identification.
-Please see our [Educators page](/educators) for more information including requirements and restrictions.
+Please see our [Educators page](/educators/) for more information including requirements and restrictions.
 
 **Field Trip Day** - On Friday, November 7, 2025, Maker Faire Orlando invites students, teachers, and homeschool families to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Field Trip Day! [Learn more](/field-trip-day/)
 
 **Registered groups from Title I schools receive free admission** to Maker Faire Orlando {{site.event_year}}.
-Please see our [Educators page](/educators) for more information.
+Please see our [Educators page](/educators/) for more information.
 
 **First Responders, Active Military and Veterans receive free admission** to Maker Faire Orlando {{site.event_year}} with identification. Simply bring your identification to the ticket booth at the event to receive a free ticket per eligible person with identification.
 
