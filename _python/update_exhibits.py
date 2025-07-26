@@ -195,6 +195,7 @@ def export(outputAll):
     countVisible = 0
     countExhibitsRemoved = 0
     countExport = 0
+    countFTD=0
 
     spaceplanList = []
 
@@ -309,7 +310,15 @@ def export(outputAll):
             #note, there could be multiple exhibitZones
 
           categories      = getAnswerByName(ans,"exhibitCategories")
+          
+          #added july 2025 for Field Trip Day
+          exhibitAvail = getAnswerByName(ans, "exhibitAvailability51")
+          if ("Education Day" in exhibitAvail) or ("Field Trip Day" in exhibitAvail):  
+            categories.append("Field Trip Day")
+            if viz == True:
+              countFTD = countFTD + 1
 
+            
           exhibitImage    = processImage(mfoID,slug,"exhibit",getAnswerByName(ans,"exhibitImage")[0])
 
           exhibitAddlImages = getAnswerByName(ans,"exhibitImage44")
@@ -372,6 +381,7 @@ def export(outputAll):
                   spaceplanList.append(sList)
               else:
                   print("Skipping append since dup")
+
 
 
           # create Exhibit markdown file
@@ -630,9 +640,12 @@ def export(outputAll):
 
     #todo: count regular CFM vs Ruckus CFM separately and also give total
     print("Submissions Found: " + str(countSubmissions))
-    print("Submissions Visible: " + str(countVisible))
+    print("Submissions Visible:", countVisible, f"{countFTD / countVisible * 100:.1f}%")
+    print("Field Trip Day (Visible): " + str(countFTD))
     print("Exhibits Removed: " + str(countExhibitsRemoved))
     print("Exported: " + str(countExport))
+    
+    
 
 def main():
 
