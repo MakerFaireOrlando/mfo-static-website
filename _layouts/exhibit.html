@@ -16,7 +16,7 @@
 
     <h1>{{page.title}}</h1>
     <div>
-      <img class="img-responsive entry-image" src="{{page.image-primary.large}}" alt="{{page.name}}">
+      <img class="img-responsive entry-image" src="{{page.image-primary.large}}" alt="{{page.title}}">
       <p class="lead">{{page.description-long | newline_to_br}}</p>
 
       {% if page.website %}
@@ -80,7 +80,7 @@
                   {%- else -%}
                     <div class="item">
                   {%- endif -%}
-                     <img src="{{image.large}}">
+                     <img src="{{image.large}}" alt="{{page.title}} - exhibit image {{forloop.index}}">
                    </div>
               {%- endfor -%}
 
