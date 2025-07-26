@@ -6,6 +6,8 @@ isotope: true
 redirect-from:
   - /exhibits/
 scrolltop: true
+canonical_url: '/makers/' 
+
 ---
 <div class="container">
 {% if site.data.settings.maker_exhibits_holdover %}
