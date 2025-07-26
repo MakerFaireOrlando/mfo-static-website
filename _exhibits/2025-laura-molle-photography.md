@@ -21,7 +21,7 @@ additional-images:
     medium: /assets/images/exhibit-images/25-15-exhibit-addl1-laura-molle-photography-butterfly-white-stripe-website-medium.jpg
     large: /assets/images/exhibit-images/25-15-exhibit-addl1-laura-molle-photography-butterfly-white-stripe-website-large.jpg
     full: /assets/images/exhibit-images/25-15-exhibit-addl1-laura-molle-photography-butterfly-white-stripe-website-full.jpg
-website: "www.photoandstamp.com"
+website: "https://www.photoandstamp.com"
 maker: 
   name: "Laura Mollé"
   description: "I make mixed media art including photography cards, wall art, jewelry, musical instruments, keychains and other unique items all using postage stamps, guitar picks and I create many other interesting objects into art."
@@ -42,7 +42,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-06-03 10:26:35"
 last-modified-jotform: "2025-06-24 06:19:55"
-last-exported: "2025-07-26 12:43:24"
+last-exported: "2025-07-26 14:33:27"
 sitemap: false
 
 ---

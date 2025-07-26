@@ -20,12 +20,12 @@ additional-images:
     medium: /assets/images/exhibit-images/25-79-exhibit-addl1-dune-sea-ranch-img-8185-medium.jpeg
     large: /assets/images/exhibit-images/25-79-exhibit-addl1-dune-sea-ranch-img-8185-large.jpeg
     full: /assets/images/exhibit-images/25-79-exhibit-addl1-dune-sea-ranch-img-8185-full.jpeg
-website: "www.dunesearanch.com"
+website: "https://www.dunesearanch.com"
 maker: 
   name: "Dune Sea Ranch"
   description: "We are prop makers for cosplayers and anyone interested in costuming.  We use 3D printing and more traditional methods to make armor, weapons and droids.  We also make original artwork."
   image-primary: /assets/images/exhibit-images/25-79-maker-dune-sea-ranch-3x3-copy-medium.jpg
-  website: http://www.dunesearanch.com
+  website: https://www.dunesearanch.com
   twitter: https://www.twitter.com/x.com/duneranch
   instagram: https://www.instagram.com/dune_sea_ranch
 categories: 
@@ -43,7 +43,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-07-10 20:11:12"
 last-modified-jotform: "2025-07-12 15:38:46"
-last-exported: "2025-07-26 12:43:22"
+last-exported: "2025-07-26 14:33:25"
 sitemap: false
 
 ---

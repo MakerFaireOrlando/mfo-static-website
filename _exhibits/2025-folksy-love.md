@@ -20,12 +20,12 @@ additional-images:
     medium: /assets/images/exhibit-images/25-38-exhibit-addl1-folksy-love-screen-shot-2025-06-16-at-3-24-47-pm-medium.png
     large: /assets/images/exhibit-images/25-38-exhibit-addl1-folksy-love-screen-shot-2025-06-16-at-3-24-47-pm-large.png
     full: /assets/images/exhibit-images/25-38-exhibit-addl1-folksy-love-screen-shot-2025-06-16-at-3-24-47-pm-full.png
-website: "www.folksylove.com"
+website: "https://www.folksylove.com"
 maker: 
   name: "Rossitza Kostova"
   description: "Originally designed acrylic earrings, bookmarks, magnets and hairclaws exhibited in a vintage mini Japanese kei truck."
   image-primary: /assets/images/exhibit-images/25-38-maker-folksy-love-48f0909e-8b6e-4bce-ac4c-adce982b3a99-medium.jpeg
-  website: http://www.folksylove.com
+  website: https://www.folksylove.com
   instagram: https://www.instagram.com/folksylove/
   facebook: https://www.facebook.com/folksylove/
   tiktok: https://www.tiktok.com/@folksylove
@@ -38,7 +38,7 @@ categories:
     name: Sustainability
 created-jotform: "2025-06-16 15:27:57"
 last-modified-jotform: "2025-06-23 21:03:21"
-last-exported: "2025-07-26 12:43:23"
+last-exported: "2025-07-26 14:33:26"
 sitemap: false
 
 ---

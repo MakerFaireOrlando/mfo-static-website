@@ -45,7 +45,7 @@ additional-images:
     medium: /assets/images/exhibit-images/25-8-exhibit-addl6-roll-with-adventure-dsc-0119-medium.jpeg
     large: /assets/images/exhibit-images/25-8-exhibit-addl6-roll-with-adventure-dsc-0119-large.jpeg
     full: /assets/images/exhibit-images/25-8-exhibit-addl6-roll-with-adventure-dsc-0119-full.jpeg
-website: "HTTPS://Rollwithadventuredice.com"
+website: "https://Rollwithadventuredice.com"
 maker: 
   name: "Jocelyn Torres"
   description: "I make handmade dice for tabletop roleplaying games!"
@@ -68,7 +68,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-05-27 13:52:21"
 last-modified-jotform: "2025-06-29 11:45:54"
-last-exported: "2025-07-26 12:43:24"
+last-exported: "2025-07-26 14:33:27"
 sitemap: false
 
 ---

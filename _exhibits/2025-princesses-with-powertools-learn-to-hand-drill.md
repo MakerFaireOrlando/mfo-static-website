@@ -21,7 +21,7 @@ maker:
   name: "Reinvented Inc."
   description: "Reinvented Inc. is a 501(c)(3) nonprofit that works to empower and inspire the next generation of girls in science, technology, engineering, technology (STEM), and making."
   image-primary: /assets/images/exhibit-images/25-91-maker-princesses-with-powertools-learn-to-hand-drill-pwp2-medium.jpg
-  website: http://www.reinventedmagazine.com
+  website: https://www.reinventedmagazine.com
   instagram: https://www.instagram.com/reinventedmagazine
   facebook: https://www.facebook.com/ReinventedMagazine/
   youtube: https://www.youtube.com/c/BeautyandtheBolt
@@ -40,7 +40,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-07-15 15:30:18"
 last-modified-jotform: "2025-07-25 22:42:57"
-last-exported: "2025-07-26 12:43:22"
+last-exported: "2025-07-26 14:33:25"
 sitemap: false
 
 ---

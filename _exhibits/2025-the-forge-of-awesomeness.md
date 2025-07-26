@@ -50,7 +50,7 @@ additional-images:
     medium: /assets/images/exhibit-images/25-33-exhibit-addl7-the-forge-of-awesomeness-inbound5696615515561593854-medium.png
     large: /assets/images/exhibit-images/25-33-exhibit-addl7-the-forge-of-awesomeness-inbound5696615515561593854-large.png
     full: /assets/images/exhibit-images/25-33-exhibit-addl7-the-forge-of-awesomeness-inbound5696615515561593854-full.png
-website: "https://www.etsy.com/shop/ForgeOfAwesomeness"
+website: "https://www.etsy.com/shop/forgeofawesomeness"
 maker: 
   name: "The Forge of Awesomeness"
   description: "We offer Tiffany technique jewelry for sale and hand sculpted pieces. We would have photo detailing the step to using this old jewelry making technique and suggestions on how to start making your own pieces"
@@ -72,7 +72,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-06-12 20:16:10"
 last-modified-jotform: "2025-06-23 21:03:24"
-last-exported: "2025-07-26 12:43:23"
+last-exported: "2025-07-26 14:33:26"
 sitemap: false
 
 ---

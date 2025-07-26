@@ -24,7 +24,7 @@ additional-images:
     medium: /assets/images/exhibit-images/25-26-exhibit-addl1-wild-bills-soda-co-mug-2-medium.jpg
     large: /assets/images/exhibit-images/25-26-exhibit-addl1-wild-bills-soda-co-mug-2-large.jpg
     full: /assets/images/exhibit-images/25-26-exhibit-addl1-wild-bills-soda-co-mug-2-full.jpg
-website: "www.wildbillssoda.com"
+website: "https://www.wildbillssoda.com"
 video: "https://www.youtube.com/watch?v=dX9n5K_N5jc"
 video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/dX9n5K_N5jc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="The Wild Bill&#39;s Experience"></iframe>'
 maker: 
@@ -33,7 +33,7 @@ maker:
 
 Premium Stainless Steele Mugs"
   image-primary: /assets/images/exhibit-images/25-26-maker-wild-bills-soda-co-650-pic-medium.png
-  website: http://www.wildbillssoda.com
+  website: https://www.wildbillssoda.com
   twitter: https://www.twitter.com/wildbillssoda
 categories: 
   - slug: food
@@ -42,7 +42,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-06-11 09:02:37"
 last-modified-jotform: "2025-06-30 12:20:19"
-last-exported: "2025-07-26 12:43:24"
+last-exported: "2025-07-26 14:33:27"
 sitemap: false
 
 ---

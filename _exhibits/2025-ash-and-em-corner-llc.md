@@ -30,7 +30,7 @@ additional-images:
     medium: /assets/images/exhibit-images/25-16-exhibit-addl3-ash-and-em-corner-llc-6730970e-2029-45b7-9860-8343b25ae26d-medium.jpeg
     large: /assets/images/exhibit-images/25-16-exhibit-addl3-ash-and-em-corner-llc-6730970e-2029-45b7-9860-8343b25ae26d-large.jpeg
     full: /assets/images/exhibit-images/25-16-exhibit-addl3-ash-and-em-corner-llc-6730970e-2029-45b7-9860-8343b25ae26d-full.jpeg
-website: "HTTPS://Ashandemcorner.etsy.com"
+website: "https://Ashandemcorner.etsy.com"
 maker: 
   name: "Ash and Em Corner"
   description: "Mother/daughter crafty adventures. Mostly doing perler art"
@@ -51,7 +51,7 @@ categories:
     name: Laser Cutting & Engraving
 created-jotform: "2025-06-03 12:23:33"
 last-modified-jotform: "2025-07-05 13:05:41"
-last-exported: "2025-07-26 12:43:24"
+last-exported: "2025-07-26 14:33:27"
 sitemap: false
 
 ---

@@ -50,7 +50,7 @@ additional-images:
     medium: /assets/images/exhibit-images/25-109-exhibit-addl7-pirate-duck-img-0010-medium.jpeg
     large: /assets/images/exhibit-images/25-109-exhibit-addl7-pirate-duck-img-0010-large.jpeg
     full: /assets/images/exhibit-images/25-109-exhibit-addl7-pirate-duck-img-0010-full.jpeg
-website: "HTTPS://www.Pirateducktees.com"
+website: "https://www.Pirateducktees.com"
 maker: 
   name: "Pirate Duck"
   description: "We create original designs that range from pop culture, sci-fi, and theme attractions."
@@ -74,7 +74,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-07-25 08:35:54"
 last-modified-jotform: "2025-07-25 23:09:36"
-last-exported: "2025-07-26 12:43:22"
+last-exported: "2025-07-26 14:33:25"
 sitemap: false
 
 ---

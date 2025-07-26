@@ -20,14 +20,14 @@ additional-images:
     medium: /assets/images/exhibit-images/25-69-exhibit-addl1-bianca-francheska-electric-violinist-img-3668-medium.jpg
     large: /assets/images/exhibit-images/25-69-exhibit-addl1-bianca-francheska-electric-violinist-img-3668-large.jpg
     full: /assets/images/exhibit-images/25-69-exhibit-addl1-bianca-francheska-electric-violinist-img-3668-full.jpg
-website: "www.biancafrancheska.com"
+website: "https://www.biancafrancheska.com"
 video: "https://youtu.be/m6Owws5esv4?si=GtiSDnqYs2JRCMTs"
 video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/m6Owws5esv4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="Bianca Francheska- Andromeda (Official Music Video)"></iframe>'
 maker: 
   name: "Bianca Francheska"
   description: "Electric Violinist playing pop songs, anime and videogame music."
   image-primary: /assets/images/exhibit-images/25-69-maker-bianca-francheska-electric-violinist-img-3694-medium.PNG
-  website: http://www.biancafrancheska.com
+  website: https://www.biancafrancheska.com
   instagram: https://www.instagram.com/bfrancheska_?igsh=MXV3bWJhd2Z5OGhwcQ==
   facebook: https://www.facebook.com/share/16VjGBKKFK/
   youtube: https://www.youtube.com/channel/UCt_QEZKpRTNQygC_sIKgFGA
@@ -47,7 +47,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-07-06 14:45:25"
 last-modified-jotform: "2025-07-14 19:30:49"
-last-exported: "2025-07-26 12:43:22"
+last-exported: "2025-07-26 14:33:25"
 sitemap: false
 
 ---

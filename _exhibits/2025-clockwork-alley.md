@@ -60,7 +60,7 @@ additional-images:
     medium: /assets/images/exhibit-images/25-34-exhibit-addl9-clockwork-alley-dsc09170-medium.JPG
     large: /assets/images/exhibit-images/25-34-exhibit-addl9-clockwork-alley-dsc09170-large.JPG
     full: /assets/images/exhibit-images/25-34-exhibit-addl9-clockwork-alley-dsc09170-full.JPG
-website: "www.clockworkalley.com"
+website: "https://www.clockworkalley.com"
 maker: 
   name: "Lorry Volkens"
   description: "Steampunk inspired jewelry and accessories"
@@ -83,7 +83,7 @@ categories:
     name: Upcycling
 created-jotform: "2025-06-12 20:43:41"
 last-modified-jotform: "2025-06-29 11:04:11"
-last-exported: "2025-07-26 12:43:23"
+last-exported: "2025-07-26 14:33:26"
 sitemap: false
 
 ---

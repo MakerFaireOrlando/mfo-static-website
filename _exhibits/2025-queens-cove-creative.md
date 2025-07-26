@@ -20,7 +20,7 @@ additional-images:
     medium: /assets/images/exhibit-images/25-2-exhibit-addl1-queens-cove-creative-screenshot-20250520-150629-instagram-1-medium.jpg
     large: /assets/images/exhibit-images/25-2-exhibit-addl1-queens-cove-creative-screenshot-20250520-150629-instagram-1-large.jpg
     full: /assets/images/exhibit-images/25-2-exhibit-addl1-queens-cove-creative-screenshot-20250520-150629-instagram-1-full.jpg
-website: "www.queenscovecreative.com"
+website: "https://www.queenscovecreative.com"
 maker: 
   name: "Queens Cove Creative LLC"
   description: "I'm a fine artist, illustrator and laser wood artist.  I'm also currently a Topps Sketch card artist with licensed work on Marvel, Star Wars,   Major League Baseball,  Spongebob and Stranger Things."
@@ -43,7 +43,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-05-20 15:11:33"
 last-modified-jotform: "2025-06-29 15:09:00"
-last-exported: "2025-07-26 12:43:24"
+last-exported: "2025-07-26 14:33:28"
 sitemap: false
 
 ---

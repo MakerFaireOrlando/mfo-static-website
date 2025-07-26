@@ -30,7 +30,7 @@ additional-images:
     medium: /assets/images/exhibit-images/25-67-exhibit-addl3-puppets-props-with-the-second-breakfast-club-show-cookies-medium.jpg
     large: /assets/images/exhibit-images/25-67-exhibit-addl3-puppets-props-with-the-second-breakfast-club-show-cookies-large.jpg
     full: /assets/images/exhibit-images/25-67-exhibit-addl3-puppets-props-with-the-second-breakfast-club-show-cookies-full.jpg
-website: "https://www.youtube.com/@TheSecondBreakfastClubShow"
+website: "https://www.youtube.com/@thesecondbreakfastclubshow"
 video: "https://www.youtube.com/@TheSecondBreakfastClubShow"
 maker: 
   name: "The Second Breakfast Club Show"
@@ -58,7 +58,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-07-04 19:27:39"
 last-modified-jotform: "2025-07-06 08:38:45"
-last-exported: "2025-07-26 12:43:22"
+last-exported: "2025-07-26 14:33:26"
 sitemap: false
 
 ---

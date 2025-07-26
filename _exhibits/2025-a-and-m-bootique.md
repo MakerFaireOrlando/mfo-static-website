@@ -66,7 +66,7 @@ additional-images:
     medium: /assets/images/exhibit-images/25-22-exhibit-addl10-a-and-m-bootique-17496046109524532217468168698407-medium.jpg
     large: /assets/images/exhibit-images/25-22-exhibit-addl10-a-and-m-bootique-17496046109524532217468168698407-large.jpg
     full: /assets/images/exhibit-images/25-22-exhibit-addl10-a-and-m-bootique-17496046109524532217468168698407-full.jpg
-website: "Https://etsy.com/shop/aandmbootique"
+website: "https://etsy.com/shop/aandmbootique"
 maker: 
   name: "Amy andrew-loo/ Chris Loo"
   description: "I am a sewer and embroiderer  Chris 3D prints toys and accessories  we will have"
@@ -87,7 +87,7 @@ categories:
     name: Sewing
 created-jotform: "2025-06-10 21:27:07"
 last-modified-jotform: "2025-06-23 21:03:27"
-last-exported: "2025-07-26 12:43:24"
+last-exported: "2025-07-26 14:33:27"
 sitemap: false
 
 ---

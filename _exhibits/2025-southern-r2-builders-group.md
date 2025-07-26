@@ -24,7 +24,7 @@ maker:
   name: "Southern R2 Builders Group"
   description: "We are a nation of Builders that build life size droids from various film franchise but mostly from Star Wars."
   image-primary: /assets/images/exhibit-images/25-57-maker-southern-r2-builders-group-southern-r2-builders-club-logo-r-medium.jpg
-  website: http://www.astromech.net
+  website: https://www.astromech.net
 categories: 
   - slug: 3d-printing
     name: 3D Printing
@@ -40,7 +40,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-06-29 19:29:16"
 last-modified-jotform: "2025-06-30 20:13:56"
-last-exported: "2025-07-26 12:43:23"
+last-exported: "2025-07-26 14:33:26"
 sitemap: false
 
 ---

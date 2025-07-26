@@ -35,7 +35,7 @@ additional-images:
     medium: /assets/images/exhibit-images/25-13-exhibit-addl4-savage-canvas-arts-camphalfblood-medium.jpg
     large: /assets/images/exhibit-images/25-13-exhibit-addl4-savage-canvas-arts-camphalfblood-large.jpg
     full: /assets/images/exhibit-images/25-13-exhibit-addl4-savage-canvas-arts-camphalfblood-full.jpg
-website: "www.savagecanvasarts.com"
+website: "https://www.savagecanvasarts.com"
 maker: 
   name: "Savage Canvas Arts"
   description: "Glow in the dark, hand painted t shirts, I also am an author and sell my books."
@@ -49,7 +49,7 @@ categories:
     name: Fabric Arts
 created-jotform: "2025-06-01 09:44:54"
 last-modified-jotform: "2025-07-06 08:15:29"
-last-exported: "2025-07-26 12:43:24"
+last-exported: "2025-07-26 14:33:27"
 sitemap: false
 
 ---

@@ -75,7 +75,7 @@ additional-images:
     medium: /assets/images/exhibit-images/25-4-exhibit-addl10-renlug-royal-rally-racing-custom-moc-lego-displays-rally-trunk-medium.JPG
     large: /assets/images/exhibit-images/25-4-exhibit-addl10-renlug-royal-rally-racing-custom-moc-lego-displays-rally-trunk-large.JPG
     full: /assets/images/exhibit-images/25-4-exhibit-addl10-renlug-royal-rally-racing-custom-moc-lego-displays-rally-trunk-full.JPG
-website: "www.renlug.org"
+website: "https://www.renlug.org"
 maker: 
   name: "RenLUG"
   description: "RenLUG: LEGO® Art, Innovation, and STEM Engagement
@@ -86,7 +86,7 @@ Our members volunteer their time to lead STEM-focused events, collaborate with e
 
 We believe building with LEGO® isn’t just about bricks; it’s about building a better future through learning, curiosity, and community."
   image-primary: /assets/images/exhibit-images/25-4-maker-renlug-royal-rally-racing-custom-moc-lego-displays-491919955-10232538750224432-7109660522182212861-n-medium.jpg
-  website: http://www.renlug.org
+  website: https://www.renlug.org
   instagram: https://www.instagram.com/renlug.bricks/
   facebook: https://www.facebook.com/renlugpage
 categories: 
@@ -104,7 +104,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-05-22 11:27:42"
 last-modified-jotform: "2025-07-05 12:56:20"
-last-exported: "2025-07-26 12:43:24"
+last-exported: "2025-07-26 14:33:27"
 sitemap: false
 
 ---

@@ -22,7 +22,7 @@ additional-images:
     medium: /assets/images/exhibit-images/25-98-exhibit-addl1-zanti-jewelry-zanti-jewelry-group-shot-4-medium.jpg
     large: /assets/images/exhibit-images/25-98-exhibit-addl1-zanti-jewelry-zanti-jewelry-group-shot-4-large.jpg
     full: /assets/images/exhibit-images/25-98-exhibit-addl1-zanti-jewelry-zanti-jewelry-group-shot-4-full.jpg
-website: "www.zantijewelry.com"
+website: "https://www.zantijewelry.com"
 maker: 
   name: "chris orlando"
   description: "I sculpt and hand cast my own horror and sci fi themed pewter jewlery."
@@ -36,7 +36,7 @@ categories:
     name: Jewelry
 created-jotform: "2025-07-21 09:51:48"
 last-modified-jotform: "2025-07-25 23:09:38"
-last-exported: "2025-07-26 12:43:22"
+last-exported: "2025-07-26 14:33:25"
 sitemap: false
 
 ---
