@@ -6,7 +6,7 @@ layout: default
 ---
 # Anti-Harassment Policy
 
-### We have a zero tolerance policy for harassment of any kind, including but not limited to:
+## We have a zero tolerance policy for harassment of any kind, including but not limited to:
 
 * Stalking
 * Offensive Verbal Comments
@@ -19,7 +19,7 @@ layout: default
 * Inappropriate Physical Contact
 * Hate Symbols
 
-### In relation, but not limited to:
+## In relation, but not limited to:
 
 * Race
 * National Origin
