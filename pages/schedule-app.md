@@ -69,7 +69,7 @@ Check out the [event program](/program) for a printable map, schedule and more!<
                           </a>
                         {% endif %}
                       {% else %}
-                      <img src="/assets/images/site-branding/makey.png" style="padding:10px; max-width:100%;">
+                      <img src="/assets/images/site-branding/makey.png" alt="Makey robot" style="padding:10px; max-width:100%;">
                       {% endif %}
                     </div>
                     <div class="col-sm-2">
