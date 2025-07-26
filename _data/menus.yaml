@@ -103,21 +103,21 @@ footernav:
     imagealt: Maker Faire logo
     subfolderitems:
       - page: About Maker Faire
-        url: https://makerfaire.com/makerfairehistory/
+        url: https://makerfaire.com/makerfairehistory/?utm_source=mforlando&utm_medium=footer
       - page: Find a Faire Near You
-        url: https://makerfaire.com/map/
-      - page: Be a Maker
-        url: https://makerfaire.com/be-a-maker/
-      - page: Become a Make&#58; Community Member
-        url: https://make.co/
-      - page: Make&#58; News & Projects
-        url: https://makezine.com/?utm_source=mfglobal&utm_medium=footer
-      - page: Maker Shed
-        url: https://www.makershed.com/?utm_source=mfglobal&utm_medium=footer
+        url: https://makerfaire.com/map/?utm_source=mforlando&utm_medium=footer
+      - page: Upcoming Maker Faires
+        url: https://makerfaire.com/upcoming-faires?utm_source=mforlando&utm_medium=footer
+      - page: "Subscribe to Make: Magazine"
+        url: https://make.co/join/?utm_source=mforlando&utm_medium=footer
+      - page: "Make: News & Projects"
+        url: https://makezine.com/?utm_source=mforlando&utm_medium=footer
+      - page: Shop
+        url: https://www.makershed.com/?utm_source=mforlando&utm_medium=footer
       - page: Maker Camp
-        url: https://makercamp.com/?utm_source=mfglobal&utm_medium=footer
-      - page: Get The Magazine
-        url: https://readerservices.makezine.com/mk/default.aspx?utm_source=mfglobal&utm_medium=footer&pc=MK&pk=M8JMK
+        url: https://makercamp.com/?utm_source=mforlando&utm_medium=footer
+      - page: Makerspaces
+        url: https://makerspace.com/?utm_source=mforlando&utm_medium=footer
     socialitems:
       - title: Facebook
         url: https://www.facebook.com/makerfaire/
