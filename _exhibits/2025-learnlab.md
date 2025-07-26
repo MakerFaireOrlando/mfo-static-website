@@ -79,9 +79,11 @@ categories:
     name: Special Effects
   - slug: virtual-reality
     name: Virtual Reality
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-07-21 14:31:22"
-last-modified-jotform: "2025-07-25 22:48:50"
-last-exported: "2025-07-25 22:49:58"
+last-modified-jotform: "2025-07-25 23:09:37"
+last-exported: "2025-07-26 12:43:22"
 sitemap: false
 
 ---

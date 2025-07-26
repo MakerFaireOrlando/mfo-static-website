@@ -65,9 +65,11 @@ categories:
     name: Manufacturing
   - slug: woodworking
     name: Woodworking
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-07-09 13:03:03"
 last-modified-jotform: "2025-07-12 15:38:47"
-last-exported: "2025-07-12 15:39:41"
+last-exported: "2025-07-26 12:43:22"
 sitemap: false
 
 ---

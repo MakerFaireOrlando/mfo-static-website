@@ -63,9 +63,11 @@ categories:
     name: Indie Gaming
   - slug: writing-and-publishing
     name: Writing and Publishing
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-06-22 20:54:41"
 last-modified-jotform: "2025-06-30 20:18:27"
-last-exported: "2025-06-30 20:22:33"
+last-exported: "2025-07-26 12:43:23"
 sitemap: false
 
 ---

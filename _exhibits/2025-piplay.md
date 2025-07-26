@@ -35,9 +35,11 @@ categories:
     name: Gaming
   - slug: raspberry-pi
     name: Raspberry Pi
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-06-29 14:56:43"
 last-modified-jotform: "2025-06-29 15:07:17"
-last-exported: "2025-06-29 15:08:46"
+last-exported: "2025-07-26 12:43:23"
 sitemap: false
 
 ---

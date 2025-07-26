@@ -37,9 +37,11 @@ categories:
     name: Education
   - slug: hands-on-workshop
     name: Hands-On Workshop
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-07-02 22:49:35"
 last-modified-jotform: "2025-07-06 13:26:56"
-last-exported: "2025-07-06 13:27:15"
+last-exported: "2025-07-26 12:43:23"
 sitemap: false
 
 ---

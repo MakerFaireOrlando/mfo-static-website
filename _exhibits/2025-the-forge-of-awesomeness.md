@@ -68,9 +68,11 @@ categories:
     name: Jewelry
   - slug: metalworking
     name: Metalworking
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-06-12 20:16:10"
 last-modified-jotform: "2025-06-23 21:03:24"
-last-exported: "2025-06-23 22:47:50"
+last-exported: "2025-07-26 12:43:23"
 sitemap: false
 
 ---

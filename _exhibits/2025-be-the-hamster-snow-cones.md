@@ -32,9 +32,11 @@ categories:
     name: Hands-On Workshop
   - slug: steampunk
     name: SteamPunk
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-07-03 19:17:18"
 last-modified-jotform: "2025-07-14 19:34:29"
-last-exported: "2025-07-14 19:35:49"
+last-exported: "2025-07-26 12:43:23"
 sitemap: false
 
 ---

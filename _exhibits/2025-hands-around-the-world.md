@@ -30,9 +30,11 @@ categories:
     name: Engineering
   - slug: robotics
     name: Robotics
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-06-10 08:06:58"
 last-modified-jotform: "2025-06-30 20:20:17"
-last-exported: "2025-06-30 20:22:35"
+last-exported: "2025-07-26 12:43:24"
 sitemap: false
 
 ---

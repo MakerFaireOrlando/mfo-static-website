@@ -66,9 +66,11 @@ categories:
     name: Sustainability
   - slug: writing-and-publishing
     name: Writing and Publishing
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-07-10 09:59:52"
 last-modified-jotform: "2025-07-25 22:04:00"
-last-exported: "2025-07-25 22:43:10"
+last-exported: "2025-07-26 12:43:22"
 sitemap: false
 
 ---

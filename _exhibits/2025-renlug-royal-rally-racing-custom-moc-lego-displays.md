@@ -100,9 +100,11 @@ categories:
     name: LEGO
   - slug: maker-community
     name: Maker Community
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-05-22 11:27:42"
 last-modified-jotform: "2025-07-05 12:56:20"
-last-exported: "2025-07-06 08:15:45"
+last-exported: "2025-07-26 12:43:24"
 sitemap: false
 
 ---

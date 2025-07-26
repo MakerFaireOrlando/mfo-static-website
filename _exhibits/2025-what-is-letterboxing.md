@@ -41,9 +41,11 @@ categories:
     name: Handmade
   - slug: hands-on-workshop
     name: Hands-On Workshop
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-07-13 13:29:50"
 last-modified-jotform: "2025-07-13 14:34:59"
-last-exported: "2025-07-13 17:43:46"
+last-exported: "2025-07-26 12:43:22"
 sitemap: false
 
 ---

@@ -39,9 +39,11 @@ categories:
     name: Craft
   - slug: props
     name: Props
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-07-10 20:11:12"
 last-modified-jotform: "2025-07-12 15:38:46"
-last-exported: "2025-07-12 15:39:29"
+last-exported: "2025-07-26 12:43:22"
 sitemap: false
 
 ---

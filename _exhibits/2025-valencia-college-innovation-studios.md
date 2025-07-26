@@ -52,9 +52,11 @@ categories:
     name: Engineering
   - slug: woodworking
     name: Woodworking
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-07-14 16:23:07"
 last-modified-jotform: "2025-07-14 19:29:08"
-last-exported: "2025-07-14 19:35:18"
+last-exported: "2025-07-26 12:43:22"
 sitemap: false
 
 ---

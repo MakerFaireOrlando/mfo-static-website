@@ -39,9 +39,11 @@ maker:
 categories: 
   - slug: writing-and-publishing
     name: Writing and Publishing
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-07-03 09:38:39"
 last-modified-jotform: "2025-07-12 15:34:51"
-last-exported: "2025-07-12 15:39:45"
+last-exported: "2025-07-26 12:43:23"
 sitemap: false
 
 ---

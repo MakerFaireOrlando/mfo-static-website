@@ -32,9 +32,11 @@ categories:
     name: Craft
   - slug: fiber-arts
     name: Fiber Arts
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-06-07 15:07:39"
 last-modified-jotform: "2025-07-12 15:34:57"
-last-exported: "2025-07-12 15:39:46"
+last-exported: "2025-07-26 12:43:24"
 sitemap: false
 
 ---
