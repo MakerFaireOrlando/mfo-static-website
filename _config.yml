@@ -57,7 +57,7 @@ collections:
 # set timezone
 timezone: America/New_York
 
-newsletter_url: http://eepurl.com/bpCB8T
+newsletter_url: https://eepurl.com/bpCB8T
 
 
 event_year: 2025
@@ -72,7 +72,7 @@ edu_date_descr_month_day: November 7
 event_date_descr_month_day_w_edu: November 7, 8 & 9
 
 event_location_descr: Central Florida Fairgrounds & Expo Halls
-cta_event_url: /attend
+cta_event_url: /attend/
 
 contact_email: makers@makerfaireorlando.com
 
