@@ -14,6 +14,13 @@ import imgflip
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
+#define global variables
+imgflipUser = ''
+imgflipPass = ''
+slackToken = ''
+eventID = ''
+
+
 def slackPermissionTroubleshooting():
     #Helpful code for troubleshooting channel permissions
     #permissions check, let's list private channels for this user
@@ -29,10 +36,12 @@ def slackPermissionTroubleshooting():
             print(e.response["needed"]) #this will tell us a missing permission scope 
 
             
-def postToSlack(sToken):
+def postToSlack():
 
+    global slackToken
+    print("slackToken:" , slackToken)
     # Initialize Slack client
-    client = WebClient(token=sToken)
+    client = WebClient(token=slackToken)
    
     # Upload the image to Slack
     try:
@@ -57,12 +66,6 @@ def postToSlack(sToken):
 def createImage(tix):
 
     print("createImage")
-    # Prompt for Imgflip credentials
-    username = imgflipUser
-    password = imgflipPass
-
-    # Prompt for Slack webhook URL
-    slack_webhook_url = 'tbd'
 
     # Meme details
     template_id = '15865071'  # Template ID for "The-Count"
@@ -75,8 +78,8 @@ def createImage(tix):
     # Create meme
     payload = {
         'template_id': template_id,
-        'username': username,
-        'password': password,
+        'username': imgflipUser,
+        'password': imgflipPass,
         'text0': top_text,
         'text1': bottom_text
     }
@@ -93,18 +96,24 @@ def createImage(tix):
         print("Meme URL:", meme_url)
 
          # Download the image
-        response = requests.get(image_url)
+        response = requests.get(meme_url)
         if response.status_code == 200:
+            print("Saving image")
             with open("temp_image.jpg", "wb") as f:
                 f.write(response.content)
         else:
             print("Failed to download image.")
 
-        postToSlack(meme_url)
+        postToSlack()
     else: print("Meme error: ", response)
 
 
 def count():    
+
+    global imgflipUser 
+    global imgflipPass 
+    global slackToken
+    global eventID
 
     if path.exists('private.yaml'):
       yamlFile = 'private.yaml'
@@ -121,7 +130,7 @@ def count():
       imgflipPass = settings['imgflip-password']
       slackToken = settings['slack-the-count-token']
       eventID = settings['humanitix-event-id']
-
+      
     url = "https://api.humanitix.com/v1/events/" + eventID +  "/tickets?page=1"
 
     headers = {
@@ -139,18 +148,16 @@ def count():
         #get last count        
         with open("tickets-last-count.txt", "r") as file:
             total_last = int(file.read())
-        print ("Last Count: ", total_last)
+        print ("Last Count:   ", total_last)
 
         if total > total_last: 
             print("Creating new image")
-            
-            #createImage(total)
-            postToSlack(slackToken) #temp skip
+            createImage(total)
 
             #print("Saving current count")
             with open("tickets-last-count.txt", "w") as file:
                 file.write(str(total))
-
+        else: print("No change in ticket count - exiting.")
 
     else:
         #print(f"Failed with status code: {response.status_code}")
