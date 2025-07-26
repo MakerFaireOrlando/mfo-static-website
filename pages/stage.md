@@ -14,8 +14,9 @@ carousel-slides:
     caption: Check out the Featured Guests, Panels & Talks at Maker Faire Orlando!
     url: /schedule
 ---
+# Stay Tuned!
 
-#### Stay Tuned for exciting announcements with scheduled activities, special guests, panel discussions, musical performances and more!
+#### Watch for exciting announcements with scheduled activities, special guests, panel discussions, musical performances and more!
 {%comment%}
 
 # Don’t Miss Amazing Makers on Stage at Maker Faire Orlando!

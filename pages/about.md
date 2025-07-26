@@ -24,15 +24,12 @@ carousel-slides:
     caption: See racing action!
     url: /power-racing/
 ---
-{% include what-is-maker-faire.html %}
-{% include makey-border.html %}
-
 <div style="margin-top: 20px"></div>
 
 
   <div class="row text-center">
     <div class="title-w-border-y">
-      <h2>About Maker Faire Orlando</h2>
+      <h1>About Maker Faire Orlando</h1>
     </div>
   </div>
   <div class="row">
