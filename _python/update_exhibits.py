@@ -210,7 +210,7 @@ def socialURLClean(url,name):
 def urlClean(url):
   site = urlparse(url)
   if site.scheme == "":
-    site = site._replace(scheme = "http")
+    site = site._replace(scheme = "https")
   sitepath = site.path.lower()
   site = site._replace(path = sitepath)
   return site.geturl().replace("///", "//")
@@ -513,7 +513,7 @@ def export(outputAll):
               i = i+1
 
             if exhibitWebsite is not None:
-              outfile.write("website: " + '"' + exhibitWebsite + '"' + "\n")
+              outfile.write("website: " + '"' + urlClean(exhibitWebsite) + '"' + "\n")
 
             if exhibitVideo is not None:
               outfile.write("video: " + '"' + exhibitVideo + '"' + "\n")
