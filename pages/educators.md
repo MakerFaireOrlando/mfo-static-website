@@ -37,7 +37,7 @@ We can help you:
 
 Educators (all grade levels including college / university and libraries) receive free admission to Maker Faire Orlando. If your organization is interested in sponsoring our programs for educators, please visit our [sponsor information page](/become-a-sponsor/).
 
-To receive free educator admission to Maker Faire Orlando for you and a guest, please bring your school ID to the ticket booth at the entrance to the event where you will be given a wristband for entry. You are welcome to attend the event with your guest on both days of the event, however you will need to check-in and show ID both days. If you attend on two separate days, you may bring the same guest both days, however you may only bring a total of one guest to the event regardless of how many days you attend. Your guest may be asked to show identification. Please subscribe to our [Maker Faire Orlando Educator email newsletter](http://eepurl.com/buLkzr) (and add makers@makerfaireorlando.com to your contacts) so that you can stay informed on event information and any updates to the check-in process.
+To receive free educator admission to Maker Faire Orlando for you and a guest, please bring your school ID to the ticket booth at the entrance to the event where you will be given a wristband for entry. You are welcome to attend the event with your guest on both days of the event, however you will need to check-in and show ID both days. If you attend on two separate days, you may bring the same guest both days, however you may only bring a total of one guest to the event regardless of how many days you attend. Your guest may be asked to show identification. Please subscribe to our [Maker Faire Orlando Educator email newsletter](https://eepurl.com/buLkzr) (and add makers@makerfaireorlando.com to your contacts) so that you can stay informed on event information and any updates to the check-in process.
 
 Field Trip Day on the Friday before Maker Faire Orlando allows home, charter, public, and private school field trip groups to attend for free! For more details, visit our [Field Trip Day page](/field-trip-day/).
 
@@ -45,7 +45,7 @@ Each year we curate (in the month before the event) a special set of Maker Faire
 
 We maintain a list of local makers that are willing to do demonstrations or talks in your classrooms, help with project ideas, or provide training for educators looking to expand their skills sets and we partner with makerspaces such as [FamiLAB](https://familab.org/), and [MakerFX](https://www.makerfx.org/) as well as organizations including [Deltamaker 3D Printers](http://www.deltamaker.com/) and [The Orlando Science Center](http://osc.org/).
 
-**Stay up to date with the latest on the Maker Movement in Central Florida with our [Maker Faire Orlando Educator email newsletter](http://eepurl.com/buLkzr).**
+**Stay up to date with the latest on the Maker Movement in Central Florida with our [Maker Faire Orlando Educator email newsletter](https://eepurl.com/buLkzr).**
 
 If you would like to learn more about [Maker Faire Orlando](https://www.makerfaireorlando.com/) or for assistance bringing the maker movement into your classroom, email us at <makers@makerfaireorlando.com>
 
@@ -61,4 +61,4 @@ If you would like to learn more about [Maker Faire Orlando](https://www.makerfa
 
 * [Melrose Center](http://tic.ocls.info/) is part of the Orange County Library System that uses their experience as providers of informal learning and technology education to provide services for community members to gain the understanding required to be both contributor to, developer for, and consumer of today's emerging technologies.
 
-**If you would like to learn more about [Maker Faire Orlando](http://www.makerfaireorlando.com/) or for assistance bringing the maker movement into your classroom, email us at <makers@makerfaireorlando.com>**
+**If you would like to learn more about [Maker Faire Orlando](https://www.makerfaireorlando.com/) or for assistance bringing the maker movement into your classroom, email us at <makers@makerfaireorlando.com>**
