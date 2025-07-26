@@ -23,6 +23,7 @@ import time
 import getopt
 import csv
 import requests
+from collections import Counter
 
 #from urlparse import urlparse    python2
 
@@ -51,6 +52,31 @@ outputAll = False #this is now set with a command line param, don't change it he
 
 #NOTE: Image pulls will fail unless you go to jotform settings for the account and
 #       remove the requirement to be logged in to see uploaded items
+
+
+def exportCategories(categories: Counter):
+  exported = []
+  optionStringFull =""
+
+  for name, count in sorted(categories.items(), key=lambda x: x[0].lower()):
+      
+      slug = slugify(name)
+      exported.append({
+          "name": name,
+          "slug": slug,
+          "count": count
+      })
+      print (name, slug, count)
+      option_str = f'<option value=".{slug}">{name} ({count})</option>'
+      print (option_str)
+      optionStringFull+=option_str
+  
+  print(optionStringFull)
+  with open("../_includes/category-options.html", "w", encoding="utf-8") as file:
+    file.write(optionStringFull)
+
+  return exported
+
 
 #get youtube embed from watch url using oembed API
 def getYouTubeEmbed (url):
@@ -197,6 +223,8 @@ def export(outputAll):
     countExport = 0
     countFTD=0
 
+    uniqueCategories = Counter()
+
     spaceplanList = []
 
     if path.exists('private.yaml'):
@@ -310,7 +338,8 @@ def export(outputAll):
             #note, there could be multiple exhibitZones
 
           categories      = getAnswerByName(ans,"exhibitCategories")
-          
+          uniqueCategories.update(categories)
+
           #added july 2025 for Field Trip Day
           exhibitAvail = getAnswerByName(ans, "exhibitAvailability51")
           if ("Education Day" in exhibitAvail) or ("Field Trip Day" in exhibitAvail):  
@@ -555,6 +584,7 @@ def export(outputAll):
             outfile.write("\n---\n")
             outfile.close()
 
+        
 
     if countExhibitsRemoved or countExport:
         print ("Exporting CSV files for Illustrator")
@@ -637,6 +667,9 @@ def export(outputAll):
         writeCSVFile("spirit.csv", csvrowS);
         writeCSVFile("opportunity.csv", csvrowO);
     #end if changes then write export files
+
+    #create include snippet with categories for the makers page
+    exportCategories(uniqueCategories)
 
     #todo: count regular CFM vs Ruckus CFM separately and also give total
     print("Submissions Found: " + str(countSubmissions))
