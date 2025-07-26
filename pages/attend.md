@@ -30,11 +30,11 @@ Central Florida Expo Center & Fairgrounds
 
 **Parking is FREE!**
 
-Explore more than [250 Exhibits, Hands-on Activities and Competitions](/makers) to find your favorites!
+Explore more than [250 Exhibits, Hands-on Activities and Competitions](/makers/) to find your favorites!
 
-Check out the Maker Faire [Schedule](/schedule) and [Program](/program) to plan your weekend!
+Check out the Maker Faire [Schedule](/schedule/) and [Program](/program/) to plan your weekend!
 
-Don't Miss the Talks, Panels & Performances on the [Main Stage](/stage)!
+Don't Miss the Talks, Panels & Performances on the [Main Stage](/stage/)!
 
 
 
@@ -97,7 +97,7 @@ Please see our [Educators page](/educators) for more information.
 
 * No pets are allowed, for their safety. Trained service animals as defined by the ADA are welcome.
 
-* **Anti-Harassment Policy** Maker Faire Orlando has a zero-tolerance policy for harassment of any kind. Please see our [Anti-Harassment Policy](/anti-harassment) for more information.
+* **Anti-Harassment Policy** Maker Faire Orlando has a zero-tolerance policy for harassment of any kind. Please see our [Anti-Harassment Policy](/anti-harassment/) for more information.
 
 ---
 
