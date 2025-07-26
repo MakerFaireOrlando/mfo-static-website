@@ -83,9 +83,9 @@ Here you'll find the official Maker Faire Orlando logos to download and use for 
 
 The rules are simple: don't use them in a way that makes people think we've endorsed anyone's products or services, and when you use one on a website, it should link back to makerfaireorlando.com. If you do something neat with them on one of your projects, please let us know.
 
-[![](/assets/images/site-branding/mfo_one_line_border.png)](/assets/images/site-branding/mfo_one_line_border.png)
+[![Maker Faire Orlando one line logo](/assets/images/site-branding/mfo_one_line_border.png)](/assets/images/site-branding/mfo_one_line_border.png)
 
-[![orlando_mf_logo_border](/assets/images/site-branding/mfo_two_line_border.png)](/assets/images/site-branding/mfo_two_line_border.png)
+[![Maker Faire Orlando two line logo](/assets/images/site-branding/mfo_two_line_border.png)](/assets/images/site-branding/mfo_two_line_border.png)
 
 [Email us](mailto:makers@makerfaireorlando.com) if you need a larger or vector versions of the images above.
 
