@@ -33,7 +33,7 @@ carousel-slides:
     caption: Make Art with a Steamroller!
   - image: /assets/images/slider/raphael.jpg
     caption: Pow-Pow-Power Racing!
-    url: /power-racing
+    url: /power-racing/
 ---
 
 {% capture cta_event_text %}{{ site.event_date_descr }} – 10am to 5pm – {{ site.event_location_descr }}{% endcapture %} {% include cta-panel-widget.html cta_text=cta_event_text cta_url=site.cta_event_url %}
