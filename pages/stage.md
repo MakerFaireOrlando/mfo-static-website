@@ -21,7 +21,7 @@ carousel-slides:
 
 # Don’t Miss Amazing Makers on Stage at Maker Faire Orlando!
 
-Hear from special guest makers on our Main Stage featuring innovators in the theme park industry, combat robot competitors, cosplay champions, artists, storytellers and more!  Check out the [entire schedule of panels, talks & competitions](/schedule) so that you can plan your entire weekend!
+Hear from special guest makers on our Main Stage featuring innovators in the theme park industry, combat robot competitors, cosplay champions, artists, storytellers and more!  Check out the [entire schedule of panels, talks & competitions](/schedule/) so that you can plan your entire weekend!
 
 
 <div class="container" style="width=100%">
