@@ -7,7 +7,7 @@
 <div class="flag-banner header-flag"></div>
 {% include topnav.html %}
 <div id="page_content">
-  <div><a href="/attend"><img class="img-responsive" src="/assets/images/site-branding/2021/exhibit-page-banner-2021.jpg" alt="Exhibit header banner"></a></div>
+  <div><a href="/attend/"><img class="img-responsive" src="/assets/images/site-branding/2021/exhibit-page-banner-2021.jpg" alt="Exhibit header banner"></a></div>
   <div id="page-body">
     <div class="container" id="exhibit-{{page.exhibit-id}}">
     <!- created-jotform: {{page.created-jotform}}->
@@ -20,7 +20,7 @@
       <p class="lead">{{page.description-long | newline_to_br}}</p>
 
       {% if page.website %}
-      <p><a href="{{page.website}}" class="btn btn-info" target="_blank">Learn More</a></p>
+      <p><a href="{{page.website}}" class="btn btn-info" target="_blank" rel="noopener">Learn More</a></p>
       {% endif %}
 
 
@@ -108,24 +108,24 @@
               {{page.maker.description}}
               <div class="row exhibit-social-row">
                 {% if page.maker.website %}
-                 <div class="col-md-4 pull-left"><a href="{{page.maker.website}}" class="btn btn-info" target="_blank">Learn More</a></div>
+                 <div class="col-md-4 pull-left"><a href="{{page.maker.website}}" class="btn btn-info" target="_blank" rel="noopener">Learn More</a></div>
                 {% endif %}
                    <div class="col-md-5">
                      <ul class="list-inline">
                        {% if page.maker.twitter %}
-                        <li><a href="{{page.maker.twitter}}" target="_blank" <i="" class="fa-brands fa-twitter fa-2xl" aria-hidden="true"></a></li>
+                        <li><a href="{{page.maker.twitter}}" target="_blank" rel="noopener" <i="" class="fa-brands fa-twitter fa-2xl" aria-hidden="true"></a></li>
                        {% endif %}
                        {% if page.maker.instagram %}
-                       <li><a href="{{page.maker.instagram}}" target="_blank" <i="" class="fa-brands fa-instagram fa-2xl" aria-hidden="true"></a></li>
+                       <li><a href="{{page.maker.instagram}}" target="_blank" rel="noopener" <i="" class="fa-brands fa-instagram fa-2xl" aria-hidden="true"></a></li>
                        {% endif %}
                        {% if page.maker.facebook %}
-                        <li><a href="{{page.maker.facebook}}" target="_blank" <i="" class="fa-brands fa-facebook fa-2xl" aria-hidden="true"></a></li>
+                        <li><a href="{{page.maker.facebook}}" target="_blank" rel="noopener" <i="" class="fa-brands fa-facebook fa-2xl" aria-hidden="true"></a></li>
                        {% endif %}
                        {% if page.maker.youtube %}
-                        <li><a href="{{page.maker.youtube}}" target="_blank" <i="" class="fa-brands fa-youtube fa-2xl" aria-hidden="true"></a></li>
+                        <li><a href="{{page.maker.youtube}}" target="_blank" rel="noopener" <i="" class="fa-brands fa-youtube fa-2xl" aria-hidden="true"></a></li>
                        {% endif %}
                        {% if page.maker.tiktok %}
-                        <li><a href="{{page.maker.tiktok}}" target="_blank" <i="" class="fa-brands fa-tiktok fa-2xl" aria-hidden="true"></a></li>
+                        <li><a href="{{page.maker.tiktok}}" target="_blank" rel="noopener" <i="" class="fa-brands fa-tiktok fa-2xl" aria-hidden="true"></a></li>
                        {% endif %}
                     </ul>
                   </div>
