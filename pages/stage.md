@@ -12,7 +12,7 @@ carousel-controls: false
 carousel-slides:
   - image: /assets/images/stage/2024/stage-header-MFO24.jpg
     caption: Check out the Featured Guests, Panels & Talks at Maker Faire Orlando!
-    url: /schedule
+    url: /schedule/
 ---
 # Stay Tuned!
 
@@ -27,80 +27,80 @@ Hear from special guest makers on our Main Stage featuring innovators in the the
 <div class="container" style="width=100%">
     <div class="row">
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/dale.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/dale.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/geoff.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/geoff.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/Eric.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/Eric.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
     </div>
     <div class="row">
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/AllisonChase-stage.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/AllisonChase-stage.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/anna.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/anna.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/bobbywesley.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/bobbywesley.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
     </div>
     <div class="row">
       <div class="col-sm-4">
-        <a href="/schedule"><img src="/assets/images/stage/2024/danielleziss.jpg" style="max-width: 100%; padding:20px;"></a>
+        <a href="/schedule/"><img src="/assets/images/stage/2024/danielleziss.jpg" style="max-width: 100%; padding:20px;"></a>
       </div>
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/dunesea.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/dunesea.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/HANOEE.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/HANOEE.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
 
     </div>
     <div class="row">
       <div class="col-sm-4">
-        <a href="/schedule"><img src="/assets/images/stage/2024/haveheros-stage.jpg" style="max-width: 100%; padding:20px;"></a>
+        <a href="/schedule/"><img src="/assets/images/stage/2024/haveheros-stage.jpg" style="max-width: 100%; padding:20px;"></a>
       </div>
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/ianif.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/ianif.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/JackGrham.jpg" style="max-width: 100%; padding:20px;"></a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/JesseJames.jpg" style="max-width: 100%; padding:20px;"></a>
-        </div>
-        <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/mattharden-stage.jpg" style="max-width: 100%; padding:20px;"></a>
-        </div>
-        <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/maxjacj.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/JackGrham.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
     </div>
     <div class="row">
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/ricardo.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/JesseJames.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/robbie.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/mattharden-stage.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/starcos-stage.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/maxjacj.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
     </div>
     <div class="row">
         <div class="col-sm-4">
-          <a href="/schedule"><img src="/assets/images/stage/2024/stefan-price.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/ricardo.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
-         <a href="/schedule"><img src="/assets/images/stage/2024/theme-park.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/robbie.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
-         <a href="/schedule"><img src="/assets/images/stage/2024/combat.jpg" style="max-width: 100%; padding:20px;"></a>
+          <a href="/schedule/"><img src="/assets/images/stage/2024/starcos-stage.jpg" style="max-width: 100%; padding:20px;"></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+          <a href="/schedule/"><img src="/assets/images/stage/2024/stefan-price.jpg" style="max-width: 100%; padding:20px;"></a>
+        </div>
+        <div class="col-sm-4">
+         <a href="/schedule/"><img src="/assets/images/stage/2024/theme-park.jpg" style="max-width: 100%; padding:20px;"></a>
+        </div>
+        <div class="col-sm-4">
+         <a href="/schedule/"><img src="/assets/images/stage/2024/combat.jpg" style="max-width: 100%; padding:20px;"></a>
         </div>
         <div class="col-sm-4">
         </div>

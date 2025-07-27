@@ -12,10 +12,10 @@ carousel-slides:
     caption: Meet your favorite Star Wars Characters!
   - image: /assets/images/slider/3dprinter.jpg
     caption: The Latest in 3D Printing!
-    url: /exhibits/categories/3d-printing
+    url: /exhibits/categories/3d-printing/
   - image: /assets/images/slider/fred-and-elle-cosplay-painting.jpg
     caption: Meet Award-Winning Cosplay Makers!
-    url: /exhibits/categories/cosplay
+    url: /exhibits/categories/cosplay/
   - image: /assets/images/slider/gateway-to-japan.jpg
     caption: Experience Maker Culture from Around The World!
   - image: /assets/images/slider/learn-to-solder-3.jpg
@@ -24,7 +24,7 @@ carousel-slides:
     caption: Meet Makers from your Local Makerspace!
   - image: /assets/images/slider/robot-ruckus-small-arena.jpg
     caption: See Fighting Robots!
-    url: /exhibits/categories/combat-robots
+    url: /exhibits/categories/combat-robots/
   - image: /assets/images/slider/synths.jpg
     caption: Make Music!
   - image: /assets/images/slider/take-it-apart.jpg
