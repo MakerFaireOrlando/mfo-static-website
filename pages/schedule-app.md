@@ -7,7 +7,7 @@ isotope: true
 
 # Event Schedule
 
-Use the schedule below to plan your weekend to catch the panel talks and other scheduled activities! Note that most of the [exhibits](/exhibits) and [hands-on activities](/makers/?category=hands-on-workshop) at Maker Faire Orlando happen continuously throughout the weekend. <BR>
+Use the schedule below to plan your weekend to catch the panel talks and other scheduled activities! Note that most of the [exhibits](/exhibits) and [hands-on activities](/exhibits/categories/hands-on-workshop) at Maker Faire Orlando happen continuously throughout the weekend. <BR>
 
 Check out the [event program](/program) for a printable map, schedule and more!<br><br>
 
@@ -124,7 +124,7 @@ For competition times and more, check out our [event program](/program) below wh
 ---
 
 ## Need Tickets?
-Hop over to our [tickets](/attend) page for more information including our free ticket programs for first responders, educators, and veterans and details on how to win a professional 3D printer package from DeltaMaker 3D!
+Hop over to our [tickets](/attend/) page for more information including our free ticket programs for first responders, educators, and veterans and details on how to win a professional 3D printer package from DeltaMaker 3D!
 
 
 ___

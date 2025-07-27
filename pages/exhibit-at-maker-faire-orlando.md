@@ -48,7 +48,7 @@ Our application deadline has passed, and we are no longer accepting new exhibit 
 * Exhibit Availability (Ideally Maker Faire exhibits are available all weekend, and are invited to participate in Field Trip Day on Friday)
 * Exhibit Requirements - Power, water, light levels, sound levels, safety, time needed to setup, etc.
 
-Please create a compelling exhibit application, and choose pictures / descriptions that will be compelling to Maker Faire attendees. For examples of exhibits, you can view our [maker exhibits page](/makers/). You will have the opportunity to edit your exhibit application once submitted, and the Maker Faire Orlando team will contact you if you exhibit application does not contain enough information. Please ensure that you will receive emails from makers@makerfaireorlando.com by adding the email to your contacts or prioritizing for your inbox.
+Please create a compelling exhibit application, and choose pictures / descriptions that will be compelling to Maker Faire attendees. For examples of exhibits, you can view our [maker exhibits page](/exhibits/). You will have the opportunity to edit your exhibit application once submitted, and the Maker Faire Orlando team will contact you if you exhibit application does not contain enough information. Please ensure that you will receive emails from makers@makerfaireorlando.com by adding the email to your contacts or prioritizing for your inbox.
 
 &nbsp;
 

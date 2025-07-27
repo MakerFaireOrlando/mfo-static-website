@@ -30,7 +30,7 @@ Field Trip Day provides a unique opportunity for students and educators to:
 * Participate in hands-on projects designed to inspire creativity and critical thinking
 * Discover potential career paths and hobbies rooted in the maker mindset
 
-Check out the [exhibits](/makers/), [hands-on workshops](/makers/?category=hands-on-workshop), [schedule](/schedule/) and more!
+Check out the [exhibits](/exhibits/), [hands-on workshops](/exhibits/categories/hands-on-workshop/), [schedule](/schedule/) and more!
 
 This event takes place ahead of Maker Faire Orlando, giving students access to exhibits, reduced crowds, and dedicated programming tailored to young learners and educators.
 

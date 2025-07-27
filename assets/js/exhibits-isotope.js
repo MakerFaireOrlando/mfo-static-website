@@ -1,20 +1,20 @@
 console.log("isotope helper js loaded -010");
 
-//add filter for query params
-const params = new URLSearchParams(window.location.search)
-for (const param of params) {
-  console.log(param)
-}
 
-var cat = params.get('category')
-console.log(cat);
-//var initFilter ='';
+//new for Jul 2025 - switch category mechanism
 var initFilter = ':not(.combat-robots)';
-if (cat) {
-  initFilter = '.' + cat;
-  jQuery('.schedule-filters-select').val('.' + cat);
+
+if (window.location.href.includes("categories")) {
+
+  const pathSegments = window.location.pathname.split('/');
+  const cat = pathSegments.filter(Boolean).pop();
+  console.log("Category slug: ", cat);
+  jQuery('.filters-select').val('.' + cat);
 }
-console.log("initFilter is " + initFilter);
+  else {
+    jQuery('.filters-select').val(':not(.combat-robots)');
+  }
+
 
 
 // quick search regex
@@ -125,7 +125,10 @@ var filterFns = {
     return name.match( /ium$/ );
   }
 };
-// bind filter on select change
+
+
+
+// /makers /exhibits /categories pages - bind filter on select change
 jQuery('.filters-select').on( 'change', function() {
   // get filter value from option value
   var filterValue = this.value;
@@ -135,11 +138,13 @@ jQuery('.filters-select').on( 'change', function() {
   jQuery('.quicksearch').val('');
 
   if (filterValue =="*") {
-	window.history.pushState("object or string", "Title", "/makers/");
+    console.log("redirecting to: /exhibits")
+	  window.location = "/exhibits/";
 	}
   else {
-//	window.history.pushState("object or string", "Title", "/makers/?category=" + filterValue.substring(1));
-  window.history.pushState("object or string", "Title", "/makers/?category=" + filterValue.substring(1));
+    url = "/exhibits/categories/" + filterValue.substring(1) + "/"
+    console.log("redirecting to: " + url )
+    window.location = url;
 	}
 
 //  if ( filterValue.includes("battlebot") || filterValue.includes("combat-robot")) window.location.reload();
@@ -148,6 +153,8 @@ jQuery('.filters-select').on( 'change', function() {
  	console.log("filterValue:" + filterValue);
 //	}//end if filtervalue.includes
 });
+
+
 
 // Schedule Code
 var scheduleFilter = ""

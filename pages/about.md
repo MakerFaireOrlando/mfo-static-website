@@ -10,7 +10,7 @@ carousel-controls: true
 carousel-slides:
   - image: /assets/images/slider/kid-with-stormtroopers.jpg  
     caption: Meet your heroes!
-    url: /makers/
+    url: /exhibits/
 
   - image: /assets/images/slider/Hype-or-shock-crusty-grab.jpg  
     caption: Fighting Robots!
@@ -18,7 +18,7 @@ carousel-slides:
 
   - image: /assets/images/slider/learn-to-solder-2019.jpg
     caption: Learn how to makes something!
-    url: /makers/?category=workshop
+    url: /exhibits/categories/hands-on-workshop/
 
   - image: /assets/images/slider/taco-bus-prs.jpg  
     caption: See racing action!

@@ -13,7 +13,7 @@
   date: 2024-11-09 10:30:00
   enddate: 2024-11-09 11:30:00
   image: /assets/images/ppprs-logo.png
-  url: /makers/?category=power-racing
+  url: /exhibits/categories/power-racing/
 
 - title: Theme Park Makers Panel
   slug: theme-park-sat
@@ -30,7 +30,7 @@
   date: 2024-11-09 11:30:00
   date: 2024-11-09 12:00:00
   image: /assets/images/ppprs-logo.png
-  url: /makers/?category=power-racing
+  url: /exhibits/categories/power-racing/
 
 - title: Chill Zone - Lunch Seating
   location: Main Stage
@@ -44,7 +44,7 @@
   date: 2024-11-09 13:00:00
   enddate: 2024-11-09 13:30:00
   image: /assets/images/ppprs-logo.png
-  url: /makers/?category=power-racing
+  url: /exhibits/categories/power-racing/
 
 - title: Cosplay Creators Panel
   slug: cosplay-creators-sat
@@ -61,7 +61,7 @@
   date: 2024-11-09 13:00:00
   date: 2024-11-09 13:45:00
   image: /assets/images/ppprs-logo.png
-  url: /makers/?category=power-racing
+  url: /exhibits/categories/power-racing/
 
 - title: Combat Robot Makers Panel
   slug: combat-robot
@@ -78,7 +78,7 @@
   date: 2024-11-09 16:00:00
   date: 2024-11-09 16:30:00
   image: /assets/images/ppprs-logo.png
-  url: /makers/?category=power-racing
+  url: /exhibits/categories/power-racing/
 
 - title: Orlando Story Club
   slug: orlando-story-club
@@ -116,7 +116,7 @@
   date: 2024-11-10 11:00:00
   enddate: 2024-11-10 11:30:00
   image: /assets/images/ppprs-logo.png
-  url: /makers/?category=power-racing
+  url: /exhibits/categories/power-racing/
 
 - title: Chill Zone - Lunch Seating
   location: Main Stage
@@ -130,7 +130,7 @@
   date: 2024-11-10 13:00:00
   enddate: 2024-11-10 13:45:00
   image: /assets/images/ppprs-logo.png
-  url: /makers/?category=power-racing
+  url: /exhibits/categories/power-racing/
 
 - title: Cosplay Creators Panel
   slug: cosplay-creators-sun
@@ -147,7 +147,7 @@
   date: 2024-11-10 14:30:00
   date: 2024-11-10 16:00:00
   image: /assets/images/ppprs-logo.png
-  url: /makers/?category=power-racing
+  url: /exhibits/categories/power-racing/
 
 - title: Prop Makers Panel
   slug: prop-makers
@@ -164,7 +164,7 @@
   date: 2024-11-10 16:00:00
   date: 2024-11-10 16:15:00
   image: /assets/images/ppprs-logo.png
-  url: /makers/?category=power-racing
+  url: /exhibits/categories/power-racing/
 
 - title: Nerd Nite Orlando
   slug: nerd-nite

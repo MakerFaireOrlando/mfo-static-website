@@ -28,7 +28,7 @@ Check out the Maker Faire Orlando event program to plan your time at Maker Faire
 ---
 
 ## Need Tickets?
-Hop over to our [tickets](/attend) page for more information including our free ticket programs for first responders, educators,  veterans and more.
+Hop over to our [tickets](/attend/) page for more information including our free ticket programs for first responders, educators,  veterans and more.
 ---
 
 Exhibiting makers and available experiences are subject to change based on community availability.

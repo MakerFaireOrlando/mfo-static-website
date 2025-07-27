@@ -70,8 +70,22 @@ def exportCategories(categories: Counter):
       option_str = f'<option value=".{slug}">{name} ({count})</option>'
       print (option_str)
       optionStringFull+=option_str
+
+      #title: "Learn to Solder"
+      #slug: mfo-learn-to-solder
+      #permalink: /exhibits/mfo-learn-to-solder/
+      fn = "../_categories/" + slug + ".md"
+      with open(fn, "w", encoding="utf-8") as catfile:
+        catfile.write("---\n")
+        catfile.write("title: " + '"' + name + '"' + "\n")
+        catfile.write("slug: " + slug + "\n")
+        catfile.write("permalink: /exhibits/categories/" + slug + "/\n")
+        catfile.write("description: Check out all the " + name + " exhibits at Maker Faire Orlando!\n") #for SEO
+        catfile.write("image: /assets/images/site-branding/mfo_two_line_border.png\n") #for SEO
+        catfile.write("isotope: true\n") #get that JS included
+        catfile.write("\n\n\n---\n")
   
-  print(optionStringFull)
+  #print(optionStringFull)
   with open("../_includes/category-options.html", "w", encoding="utf-8") as file:
     file.write(optionStringFull)
 
@@ -338,7 +352,7 @@ def export(outputAll):
             #note, there could be multiple exhibitZones
 
           categories      = getAnswerByName(ans,"exhibitCategories")
-          uniqueCategories.update(categories)
+          
 
           #added july 2025 for Field Trip Day
           exhibitAvail = getAnswerByName(ans, "exhibitAvailability51")
@@ -346,7 +360,8 @@ def export(outputAll):
             categories.append("Field Trip Day")
             if viz == True:
               countFTD = countFTD + 1
-
+              
+          uniqueCategories.update(categories)
             
           exhibitImage    = processImage(mfoID,slug,"exhibit",getAnswerByName(ans,"exhibitImage")[0])
 

@@ -45,6 +45,12 @@ defaults:
       path: "events-json/index.html" #don't index the json
     values:
       sitemap: false
+  -
+    scope: 
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
 
 collections:
   sponsors:
@@ -53,6 +59,9 @@ collections:
   exhibits:
     output: true
     sort_by: Name
+  categories:
+    output: true
+    sort_by: Name 
 
 # set timezone
 timezone: America/New_York

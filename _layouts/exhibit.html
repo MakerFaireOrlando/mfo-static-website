@@ -29,7 +29,7 @@
         {%- for category in page.categories -%}
         {%- if category.name -%}
         {%- if forloop.first == false %},&nbsp{%- endif -%}
-        <a href="/makers/?category={{-category.slug-}}">{{- category.name -}}</a>
+        <a href="/exhibits/categories/{{category.slug}}/">{{- category.name -}}</a>
         {%- endif -%}{%- endfor -%}
       </div>
 
@@ -142,10 +142,10 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <a href="/makers/"><img class="aligncenter size-full" src="/assets/images/site-branding/explore-the-exhibits.png" alt="Explore the Exhibits"></a>
+          <a href="/exhibits/"><img class="aligncenter size-full" src="/assets/images/site-branding/explore-the-exhibits.png" alt="Explore the Exhibits"></a>
         </div>
         <div class="col-sm-6">
-          <a href="/makers/"><img class="aligncenter size-full" src="/assets/images/site-branding/meet-the-makers.png" alt="Meet the Makers"></a>
+          <a href="/exhibits/"><img class="aligncenter size-full" src="/assets/images/site-branding/meet-the-makers.png" alt="Meet the Makers"></a>
         </div>
       </div>
     </div>

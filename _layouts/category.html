@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+<body>
+  <div class="flag-banner header-flag"></div>
+  {% include topnav.html %}
+  <div id="page_content">
+    <div id="page-body"
+      {% if page.carousel %}
+        {% include carousel.html %}
+      {% else %}
+        <div style = "padding-bottom:20px;"></div>
+      {% endif %}
+
+      {%- include exhibits-header.html -%}
+
+      <div class="exhibits-container" id="exhibits">
+        {%- if page.url contains "categories" -%}
+          {% for exhibit in site.exhibits %}
+            {%- for category in exhibit.categories -%}
+                {%- if category.slug == page.slug -%}
+                  {%- include exhibit-card.html -%}
+              {%- endif -%}
+            {%- endfor -%}
+        {% endfor %}
+      {%- else -%}
+          {% for exhibit in site.exhibits %}
+            {%- include exhibit-card.html -%}
+          {% endfor %}
+        {%- endif -%}
+      </div>
+
+  </div>
+
+  <div style = "padding-bottom:20px;"></div>
+
+
+  {% include footer.html %}
+  {% include scripts.html %}
+  {% include optional-js.html %}
+
+</body>

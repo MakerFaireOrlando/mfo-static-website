@@ -10,13 +10,13 @@ topnav:
   - title: Things to See & DO
     subfolderitems:
       - page: Makers & Exhibits
-        url: /makers/
+        url: /exhibits/
       - page: Stage Panels, Talks & Performances
         url: /stage/
       - page: Event Schedule
         url: /schedule/
       - page: Hands-On Workshops
-        url: /makers/?category=hands-on-workshop
+        url: /exhibits/categories/hands-on-workshop/
       - page: Power Racing Series
         url: /power-racing/
       - page: Robot Ruckus
@@ -43,11 +43,11 @@ topnav:
 #  - title: THINGS TO SEE & DO
 #    subfolderitems:
 #      - page: Makers & Exhibits
-#        url: /makers/
+#        url: /exhibits/
 #      - page: Event Schedule
 #        url: /schedule/
 #      - page: Hands-On Workshops
-#        url: /makers/?category=workshop
+#        url: /exhibits/categories/hands-on-workshop
 #      - page: Combat Robots
 #        url: /combat-robots/
 #      - page: Power Racing

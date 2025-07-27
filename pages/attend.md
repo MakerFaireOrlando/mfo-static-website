@@ -30,7 +30,7 @@ Central Florida Expo Center & Fairgrounds
 
 **Parking is FREE!**
 
-Explore more than [250 Exhibits, Hands-on Activities and Competitions](/makers/) to find your favorites!
+Explore more than [250 Exhibits, Hands-on Activities and Competitions](/exhibits/) to find your favorites!
 
 Check out the Maker Faire [Schedule](/schedule/) and [Program](/program/) to plan your weekend!
 
