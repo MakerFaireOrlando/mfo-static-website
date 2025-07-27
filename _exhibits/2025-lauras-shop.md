@@ -8,67 +8,202 @@ exhibit-id: 25-55
 space-number: Unassigned
 description: "Laser pictures, 3D printed toys and games, wood pens and pencils, had draws art, and stuffed animals"
 description-long: "Everything I sell is made 100% by me. I design, create and make toys, 3D layered pictures, drawings, dragon tiles, books and crocheted animals and toys."
-image: /assets/images/exhibit-images/25-55-exhibit-lauras-shop-img-7640-7996-large.jpeg
+image: /assets/images/exhibit-images/25-55-e-lauras-shop-img-7640-7996-300x225.jpeg
 image-primary: 
-  small: /assets/images/exhibit-images/25-55-exhibit-lauras-shop-img-7640-7996-small.jpeg
-  medium: /assets/images/exhibit-images/25-55-exhibit-lauras-shop-img-7640-7996-medium.jpeg
-  large: /assets/images/exhibit-images/25-55-exhibit-lauras-shop-img-7640-7996-large.jpeg
-  full: /assets/images/exhibit-images/25-55-exhibit-lauras-shop-img-7640-7996-full.jpeg
+  full:
+    url: /assets/images/exhibit-images/25-55-e-lauras-shop-img-7640-7996-full.jpeg
+    width: 4032
+    height: 3024
+  small:
+    url: /assets/images/exhibit-images/25-55-e-lauras-shop-img-7640-7996-150x113.jpeg
+    width: 150
+    height: 113
+  medium:
+    url: /assets/images/exhibit-images/25-55-e-lauras-shop-img-7640-7996-300x225.jpeg
+    width: 300
+    height: 225
+  large:
+    url: /assets/images/exhibit-images/25-55-e-lauras-shop-img-7640-7996-1024x768.jpeg
+    width: 1024
+    height: 768
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-55-exhibit-addl1-lauras-shop-img-8068-small.jpeg
-    medium: /assets/images/exhibit-images/25-55-exhibit-addl1-lauras-shop-img-8068-medium.jpeg
-    large: /assets/images/exhibit-images/25-55-exhibit-addl1-lauras-shop-img-8068-large.jpeg
-    full: /assets/images/exhibit-images/25-55-exhibit-addl1-lauras-shop-img-8068-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-55-e1-lauras-shop-img-8068-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-55-e1-lauras-shop-img-8068-112x150.jpeg
+      width: 112
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-55-e1-lauras-shop-img-8068-225x300.jpeg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-55-e1-lauras-shop-img-8068-768x1024.jpeg
+      width: 768
+      height: 1024
   - 2:
-    small: /assets/images/exhibit-images/25-55-exhibit-addl2-lauras-shop-img-8107-small.jpeg
-    medium: /assets/images/exhibit-images/25-55-exhibit-addl2-lauras-shop-img-8107-medium.jpeg
-    large: /assets/images/exhibit-images/25-55-exhibit-addl2-lauras-shop-img-8107-large.jpeg
-    full: /assets/images/exhibit-images/25-55-exhibit-addl2-lauras-shop-img-8107-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-55-e2-lauras-shop-img-8107-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-55-e2-lauras-shop-img-8107-150x113.jpeg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-55-e2-lauras-shop-img-8107-300x225.jpeg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-55-e2-lauras-shop-img-8107-1024x768.jpeg
+      width: 1024
+      height: 768
   - 3:
-    small: /assets/images/exhibit-images/25-55-exhibit-addl3-lauras-shop-img-7886-small.jpeg
-    medium: /assets/images/exhibit-images/25-55-exhibit-addl3-lauras-shop-img-7886-medium.jpeg
-    large: /assets/images/exhibit-images/25-55-exhibit-addl3-lauras-shop-img-7886-large.jpeg
-    full: /assets/images/exhibit-images/25-55-exhibit-addl3-lauras-shop-img-7886-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-55-e3-lauras-shop-img-7886-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-55-e3-lauras-shop-img-7886-112x150.jpeg
+      width: 112
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-55-e3-lauras-shop-img-7886-225x300.jpeg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-55-e3-lauras-shop-img-7886-768x1024.jpeg
+      width: 768
+      height: 1024
   - 4:
-    small: /assets/images/exhibit-images/25-55-exhibit-addl4-lauras-shop-img-7452-small.jpeg
-    medium: /assets/images/exhibit-images/25-55-exhibit-addl4-lauras-shop-img-7452-medium.jpeg
-    large: /assets/images/exhibit-images/25-55-exhibit-addl4-lauras-shop-img-7452-large.jpeg
-    full: /assets/images/exhibit-images/25-55-exhibit-addl4-lauras-shop-img-7452-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-55-e4-lauras-shop-img-7452-full.jpeg
+      width: 3021
+      height: 2994
+    small:
+      url: /assets/images/exhibit-images/25-55-e4-lauras-shop-img-7452-150x149.jpeg
+      width: 150
+      height: 149
+    medium:
+      url: /assets/images/exhibit-images/25-55-e4-lauras-shop-img-7452-300x297.jpeg
+      width: 300
+      height: 297
+    large:
+      url: /assets/images/exhibit-images/25-55-e4-lauras-shop-img-7452-1024x1015.jpeg
+      width: 1024
+      height: 1015
   - 5:
-    small: /assets/images/exhibit-images/25-55-exhibit-addl5-lauras-shop-img-7394-small.jpeg
-    medium: /assets/images/exhibit-images/25-55-exhibit-addl5-lauras-shop-img-7394-medium.jpeg
-    large: /assets/images/exhibit-images/25-55-exhibit-addl5-lauras-shop-img-7394-large.jpeg
-    full: /assets/images/exhibit-images/25-55-exhibit-addl5-lauras-shop-img-7394-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-55-e5-lauras-shop-img-7394-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-55-e5-lauras-shop-img-7394-112x150.jpeg
+      width: 112
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-55-e5-lauras-shop-img-7394-225x300.jpeg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-55-e5-lauras-shop-img-7394-768x1024.jpeg
+      width: 768
+      height: 1024
   - 6:
-    small: /assets/images/exhibit-images/25-55-exhibit-addl6-lauras-shop-img-7397-small.jpeg
-    medium: /assets/images/exhibit-images/25-55-exhibit-addl6-lauras-shop-img-7397-medium.jpeg
-    large: /assets/images/exhibit-images/25-55-exhibit-addl6-lauras-shop-img-7397-large.jpeg
-    full: /assets/images/exhibit-images/25-55-exhibit-addl6-lauras-shop-img-7397-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-55-e6-lauras-shop-img-7397-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-55-e6-lauras-shop-img-7397-112x150.jpeg
+      width: 112
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-55-e6-lauras-shop-img-7397-225x300.jpeg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-55-e6-lauras-shop-img-7397-768x1024.jpeg
+      width: 768
+      height: 1024
   - 7:
-    small: /assets/images/exhibit-images/25-55-exhibit-addl7-lauras-shop-img-7883-small.jpeg
-    medium: /assets/images/exhibit-images/25-55-exhibit-addl7-lauras-shop-img-7883-medium.jpeg
-    large: /assets/images/exhibit-images/25-55-exhibit-addl7-lauras-shop-img-7883-large.jpeg
-    full: /assets/images/exhibit-images/25-55-exhibit-addl7-lauras-shop-img-7883-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-55-e7-lauras-shop-img-7883-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-55-e7-lauras-shop-img-7883-112x150.jpeg
+      width: 112
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-55-e7-lauras-shop-img-7883-225x300.jpeg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-55-e7-lauras-shop-img-7883-768x1024.jpeg
+      width: 768
+      height: 1024
   - 8:
-    small: /assets/images/exhibit-images/25-55-exhibit-addl8-lauras-shop-img-8177-small.jpeg
-    medium: /assets/images/exhibit-images/25-55-exhibit-addl8-lauras-shop-img-8177-medium.jpeg
-    large: /assets/images/exhibit-images/25-55-exhibit-addl8-lauras-shop-img-8177-large.jpeg
-    full: /assets/images/exhibit-images/25-55-exhibit-addl8-lauras-shop-img-8177-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-55-e8-lauras-shop-img-8177-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-55-e8-lauras-shop-img-8177-112x150.jpeg
+      width: 112
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-55-e8-lauras-shop-img-8177-225x300.jpeg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-55-e8-lauras-shop-img-8177-768x1024.jpeg
+      width: 768
+      height: 1024
   - 9:
-    small: /assets/images/exhibit-images/25-55-exhibit-addl9-lauras-shop-img-7377-small.jpeg
-    medium: /assets/images/exhibit-images/25-55-exhibit-addl9-lauras-shop-img-7377-medium.jpeg
-    large: /assets/images/exhibit-images/25-55-exhibit-addl9-lauras-shop-img-7377-large.jpeg
-    full: /assets/images/exhibit-images/25-55-exhibit-addl9-lauras-shop-img-7377-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-55-e9-lauras-shop-img-7377-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-55-e9-lauras-shop-img-7377-112x150.jpeg
+      width: 112
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-55-e9-lauras-shop-img-7377-225x300.jpeg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-55-e9-lauras-shop-img-7377-768x1024.jpeg
+      width: 768
+      height: 1024
   - 10:
-    small: /assets/images/exhibit-images/25-55-exhibit-addl10-lauras-shop-img-7228-small.jpeg
-    medium: /assets/images/exhibit-images/25-55-exhibit-addl10-lauras-shop-img-7228-medium.jpeg
-    large: /assets/images/exhibit-images/25-55-exhibit-addl10-lauras-shop-img-7228-large.jpeg
-    full: /assets/images/exhibit-images/25-55-exhibit-addl10-lauras-shop-img-7228-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-55-e10-lauras-shop-img-7228-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-55-e10-lauras-shop-img-7228-112x150.jpeg
+      width: 112
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-55-e10-lauras-shop-img-7228-225x300.jpeg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-55-e10-lauras-shop-img-7228-768x1024.jpeg
+      width: 768
+      height: 1024
 maker: 
   name: "Laura Melnik"
   description: "Self. I make pictures from my laser, 3D printed toys and games, wood pens and pencils, had draws art, and stuffed animals. Everything I sell I make."
-  image-primary: /assets/images/exhibit-images/25-55-maker-lauras-shop-img-8243-medium.jpeg
+  image-primary:
+    url: /assets/images/exhibit-images/25-55-m-lauras-shop-img-8243-147x150.jpeg
+    width: 147
+    height: 150
   facebook: https://www.facebook.com/laura.melnik
 categories: 
   - slug: 3d-printing
@@ -85,7 +220,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-06-29 17:54:15"
 last-modified-jotform: "2025-06-30 20:19:45"
-last-exported: "2025-07-26 22:56:12"
+last-exported: "2025-07-27 11:28:10"
 sitemap: false
 
 ---

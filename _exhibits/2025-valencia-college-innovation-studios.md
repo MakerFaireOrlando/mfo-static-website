@@ -8,38 +8,101 @@ exhibit-id: 25-90
 space-number: Unassigned
 description: "The Valencia College Innovation Studios will showcase Metal/Plastic/Wood student projects."
 description-long: "The Valencia College Innovation Studios formally the 3D Printing Studio will showcase Metal/Plastic/Wood student projects that were made in the new Innovation Studios located at the West Campus. Do not worry we will continue to bring old favorites like the 3D printed violins for attendees to play as well. Visit our table and talk to faculty or the students who made the projects in the Built Environment and Engineering programs. Learn about what the Built Environment and the School of Engineering, Technology, and Advanced Manufacturing (ETAM) has to offer."
-image: /assets/images/exhibit-images/25-90-exhibit-valencia-college-innovation-studios-presentation-1027-large.jpg
+image: /assets/images/exhibit-images/25-90-e-valencia-college-innovation-studios-presentation-1027-300x225.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/25-90-exhibit-valencia-college-innovation-studios-presentation-1027-small.jpg
-  medium: /assets/images/exhibit-images/25-90-exhibit-valencia-college-innovation-studios-presentation-1027-medium.jpg
-  large: /assets/images/exhibit-images/25-90-exhibit-valencia-college-innovation-studios-presentation-1027-large.jpg
-  full: /assets/images/exhibit-images/25-90-exhibit-valencia-college-innovation-studios-presentation-1027-full.jpg
+  full:
+    url: /assets/images/exhibit-images/25-90-e-valencia-college-innovation-studios-presentation-1027-full.jpg
+    width: 1920
+    height: 1440
+  small:
+    url: /assets/images/exhibit-images/25-90-e-valencia-college-innovation-studios-presentation-1027-150x113.jpg
+    width: 150
+    height: 113
+  medium:
+    url: /assets/images/exhibit-images/25-90-e-valencia-college-innovation-studios-presentation-1027-300x225.jpg
+    width: 300
+    height: 225
+  large:
+    url: /assets/images/exhibit-images/25-90-e-valencia-college-innovation-studios-presentation-1027-1024x768.jpg
+    width: 1024
+    height: 768
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-90-exhibit-addl1-valencia-college-innovation-studios-thumbnail-img-0561-small.jpg
-    medium: /assets/images/exhibit-images/25-90-exhibit-addl1-valencia-college-innovation-studios-thumbnail-img-0561-medium.jpg
-    large: /assets/images/exhibit-images/25-90-exhibit-addl1-valencia-college-innovation-studios-thumbnail-img-0561-large.jpg
-    full: /assets/images/exhibit-images/25-90-exhibit-addl1-valencia-college-innovation-studios-thumbnail-img-0561-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-90-e1-valencia-college-innovation-studios-thumbnail-img-0561-full.jpg
+      width: 1920
+      height: 1440
+    small:
+      url: /assets/images/exhibit-images/25-90-e1-valencia-college-innovation-studios-thumbnail-img-0561-150x113.jpg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-90-e1-valencia-college-innovation-studios-thumbnail-img-0561-300x225.jpg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-90-e1-valencia-college-innovation-studios-thumbnail-img-0561-1024x768.jpg
+      width: 1024
+      height: 768
   - 2:
-    small: /assets/images/exhibit-images/25-90-exhibit-addl2-valencia-college-innovation-studios-thumbnail-img-0219-small.jpg
-    medium: /assets/images/exhibit-images/25-90-exhibit-addl2-valencia-college-innovation-studios-thumbnail-img-0219-medium.jpg
-    large: /assets/images/exhibit-images/25-90-exhibit-addl2-valencia-college-innovation-studios-thumbnail-img-0219-large.jpg
-    full: /assets/images/exhibit-images/25-90-exhibit-addl2-valencia-college-innovation-studios-thumbnail-img-0219-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-90-e2-valencia-college-innovation-studios-thumbnail-img-0219-full.jpg
+      width: 1920
+      height: 1440
+    small:
+      url: /assets/images/exhibit-images/25-90-e2-valencia-college-innovation-studios-thumbnail-img-0219-150x113.jpg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-90-e2-valencia-college-innovation-studios-thumbnail-img-0219-300x225.jpg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-90-e2-valencia-college-innovation-studios-thumbnail-img-0219-1024x768.jpg
+      width: 1024
+      height: 768
   - 3:
-    small: /assets/images/exhibit-images/25-90-exhibit-addl3-valencia-college-innovation-studios-thumbnail-img-0254-small.jpg
-    medium: /assets/images/exhibit-images/25-90-exhibit-addl3-valencia-college-innovation-studios-thumbnail-img-0254-medium.jpg
-    large: /assets/images/exhibit-images/25-90-exhibit-addl3-valencia-college-innovation-studios-thumbnail-img-0254-large.jpg
-    full: /assets/images/exhibit-images/25-90-exhibit-addl3-valencia-college-innovation-studios-thumbnail-img-0254-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-90-e3-valencia-college-innovation-studios-thumbnail-img-0254-full.jpg
+      width: 1920
+      height: 1440
+    small:
+      url: /assets/images/exhibit-images/25-90-e3-valencia-college-innovation-studios-thumbnail-img-0254-150x113.jpg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-90-e3-valencia-college-innovation-studios-thumbnail-img-0254-300x225.jpg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-90-e3-valencia-college-innovation-studios-thumbnail-img-0254-1024x768.jpg
+      width: 1024
+      height: 768
   - 4:
-    small: /assets/images/exhibit-images/25-90-exhibit-addl4-valencia-college-innovation-studios-thumbnail-img-4406-small.jpg
-    medium: /assets/images/exhibit-images/25-90-exhibit-addl4-valencia-college-innovation-studios-thumbnail-img-4406-medium.jpg
-    large: /assets/images/exhibit-images/25-90-exhibit-addl4-valencia-college-innovation-studios-thumbnail-img-4406-large.jpg
-    full: /assets/images/exhibit-images/25-90-exhibit-addl4-valencia-college-innovation-studios-thumbnail-img-4406-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-90-e4-valencia-college-innovation-studios-thumbnail-img-4406-full.jpg
+      width: 1920
+      height: 1440
+    small:
+      url: /assets/images/exhibit-images/25-90-e4-valencia-college-innovation-studios-thumbnail-img-4406-150x113.jpg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-90-e4-valencia-college-innovation-studios-thumbnail-img-4406-300x225.jpg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-90-e4-valencia-college-innovation-studios-thumbnail-img-4406-1024x768.jpg
+      width: 1024
+      height: 768
 website: "https://valenciacollege.edu/academics/departments/engineering/index.php"
 maker: 
   name: "Valencia College Innovation Studios"
   description: "The Valencia College Innovation Studios formally the 3D Printing Studio will show Metal/Plastic/Wood student projects that were made in the new Innovation Studios located at the West Campus. Do not worry we will continue to bring old favorites like the 3D printed violins for attendees to play as well. Visit our table and talk to faculty or the students who made the projects in the Built Environment and Engineering programs. Learn about what the Built Environment and the School of Engineering, Technology, and Advanced Manufacturing (ETAM) has to offer."
-  image-primary: /assets/images/exhibit-images/25-90-maker-valencia-college-innovation-studios-presentation-medium.jpg
+  image-primary:
+    url: /assets/images/exhibit-images/25-90-m-valencia-college-innovation-studios-presentation-150x113.jpg
+    width: 150
+    height: 113
   website: https://valenciacollege.edu/academics/departments/engineering/index.php
 categories: 
   - slug: 3d-printing
@@ -56,7 +119,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-07-14 16:23:07"
 last-modified-jotform: "2025-07-14 19:29:08"
-last-exported: "2025-07-26 22:56:10"
+last-exported: "2025-07-27 11:24:28"
 sitemap: false
 
 ---

@@ -8,28 +8,67 @@ exhibit-id: 25-64
 space-number: Unassigned
 description: "From epic fantasy to dystopian, Megan O'Russell offers readers thirty-two books across nine series."
 description-long: "From the epic fantasy world of Ilbrea to the vampire-plagued dystopia of the domes, Megan O'Russell offers readers thirty-two books across nine series. Megan's newest novel, Sketchbook of a Wayward Seer, is presented in partnership with the Page by Page podcast where you can listen to a new full chapter of the book every week. Available titles include Ember and Stone, Girl of Glass, The Cursebound Thief, and How I Magically Messed Up My Life in Four Freakin' Days."
-image: /assets/images/exhibit-images/25-64-exhibit-megan-orussell-meet-the-author-img-7900-large.jpg
+image: /assets/images/exhibit-images/25-64-e-megan-orussell-meet-the-author-img-7900-300x225.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/25-64-exhibit-megan-orussell-meet-the-author-img-7900-small.jpg
-  medium: /assets/images/exhibit-images/25-64-exhibit-megan-orussell-meet-the-author-img-7900-medium.jpg
-  large: /assets/images/exhibit-images/25-64-exhibit-megan-orussell-meet-the-author-img-7900-large.jpg
-  full: /assets/images/exhibit-images/25-64-exhibit-megan-orussell-meet-the-author-img-7900-full.jpg
+  full:
+    url: /assets/images/exhibit-images/25-64-e-megan-orussell-meet-the-author-img-7900-full.jpg
+    width: 4032
+    height: 3024
+  small:
+    url: /assets/images/exhibit-images/25-64-e-megan-orussell-meet-the-author-img-7900-150x113.jpg
+    width: 150
+    height: 113
+  medium:
+    url: /assets/images/exhibit-images/25-64-e-megan-orussell-meet-the-author-img-7900-300x225.jpg
+    width: 300
+    height: 225
+  large:
+    url: /assets/images/exhibit-images/25-64-e-megan-orussell-meet-the-author-img-7900-1024x768.jpg
+    width: 1024
+    height: 768
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-64-exhibit-addl1-megan-orussell-meet-the-author-megan-banner-for-cons-reduced-small.jpg
-    medium: /assets/images/exhibit-images/25-64-exhibit-addl1-megan-orussell-meet-the-author-megan-banner-for-cons-reduced-medium.jpg
-    large: /assets/images/exhibit-images/25-64-exhibit-addl1-megan-orussell-meet-the-author-megan-banner-for-cons-reduced-large.jpg
-    full: /assets/images/exhibit-images/25-64-exhibit-addl1-megan-orussell-meet-the-author-megan-banner-for-cons-reduced-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-64-e1-megan-orussell-meet-the-author-megan-banner-for-cons-reduced-full.jpg
+      width: 3499
+      height: 1458
+    small:
+      url: /assets/images/exhibit-images/25-64-e1-megan-orussell-meet-the-author-megan-banner-for-cons-reduced-150x63.jpg
+      width: 150
+      height: 63
+    medium:
+      url: /assets/images/exhibit-images/25-64-e1-megan-orussell-meet-the-author-megan-banner-for-cons-reduced-300x125.jpg
+      width: 300
+      height: 125
+    large:
+      url: /assets/images/exhibit-images/25-64-e1-megan-orussell-meet-the-author-megan-banner-for-cons-reduced-1024x427.jpg
+      width: 1024
+      height: 427
   - 2:
-    small: /assets/images/exhibit-images/25-64-exhibit-addl2-megan-orussell-meet-the-author-img-6113-2-small.jpg
-    medium: /assets/images/exhibit-images/25-64-exhibit-addl2-megan-orussell-meet-the-author-img-6113-2-medium.jpg
-    large: /assets/images/exhibit-images/25-64-exhibit-addl2-megan-orussell-meet-the-author-img-6113-2-large.jpg
-    full: /assets/images/exhibit-images/25-64-exhibit-addl2-megan-orussell-meet-the-author-img-6113-2-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-64-e2-megan-orussell-meet-the-author-img-6113-2-full.jpg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-64-e2-megan-orussell-meet-the-author-img-6113-2-150x113.jpg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-64-e2-megan-orussell-meet-the-author-img-6113-2-300x225.jpg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-64-e2-megan-orussell-meet-the-author-img-6113-2-1024x768.jpg
+      width: 1024
+      height: 768
 website: "https://meganorussell.com/"
 maker: 
   name: "Megan O'Russell"
   description: "From the epic fantasy world of Ilbrea to the vampire-plagued dystopia of the domes, Megan O'Russell offers readers thirty-two books across nine series. Megan's newest novel, Sketchbook of a Wayward Seer, is presented in partnership with the Page by Page podcast where you can listen to a new full chapter of the book every week. Available titles include Ember and Stone, Girl of Glass, The Cursebound Thief, and How I Magically Messed Up My Life in Four Freakin' Days."
-  image-primary: /assets/images/exhibit-images/25-64-maker-megan-orussell-meet-the-author-thumbnail-ink-worlds-press-logo-c2-1-medium.png
+  image-primary:
+    url: /assets/images/exhibit-images/25-64-m-megan-orussell-meet-the-author-thumbnail-ink-worlds-press-logo-c2-1-150x150.png
+    width: 150
+    height: 150
   website: https://meganorussell.com/
   twitter: https://www.twitter.com/MeganORussell
   instagram: https://www.instagram.com/orussellauthor/
@@ -43,7 +82,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-07-03 09:38:39"
 last-modified-jotform: "2025-07-12 15:34:51"
-last-exported: "2025-07-26 22:56:11"
+last-exported: "2025-07-27 11:27:10"
 sitemap: false
 
 ---

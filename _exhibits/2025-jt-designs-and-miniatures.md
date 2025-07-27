@@ -8,52 +8,151 @@ exhibit-id: 25-25
 space-number: Unassigned
 description: "A collection of studio scale models of ships and characters from movies and TV shows."
 description-long: "A collection of studio scale models from some of the most popular movies and TV shows of all time like Star Wars, Battlestar Galactica, Alien and many more. All pieces are made from 3D printing, scratch building, woodworking, silicone molding and readily available kits."
-image: /assets/images/exhibit-images/25-25-exhibit-jt-designs-and-miniatures-img-1483-large.JPG
+image: /assets/images/exhibit-images/25-25-e-jt-designs-and-miniatures-img-1483-300x225.JPG
 image-primary: 
-  small: /assets/images/exhibit-images/25-25-exhibit-jt-designs-and-miniatures-img-1483-small.JPG
-  medium: /assets/images/exhibit-images/25-25-exhibit-jt-designs-and-miniatures-img-1483-medium.JPG
-  large: /assets/images/exhibit-images/25-25-exhibit-jt-designs-and-miniatures-img-1483-large.JPG
-  full: /assets/images/exhibit-images/25-25-exhibit-jt-designs-and-miniatures-img-1483-full.JPG
+  full:
+    url: /assets/images/exhibit-images/25-25-e-jt-designs-and-miniatures-img-1483-full.JPG
+    width: 3264
+    height: 2448
+  small:
+    url: /assets/images/exhibit-images/25-25-e-jt-designs-and-miniatures-img-1483-150x113.JPG
+    width: 150
+    height: 113
+  medium:
+    url: /assets/images/exhibit-images/25-25-e-jt-designs-and-miniatures-img-1483-300x225.JPG
+    width: 300
+    height: 225
+  large:
+    url: /assets/images/exhibit-images/25-25-e-jt-designs-and-miniatures-img-1483-1024x768.JPG
+    width: 1024
+    height: 768
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-25-exhibit-addl1-jt-designs-and-miniatures-img-2029-small.jpeg
-    medium: /assets/images/exhibit-images/25-25-exhibit-addl1-jt-designs-and-miniatures-img-2029-medium.jpeg
-    large: /assets/images/exhibit-images/25-25-exhibit-addl1-jt-designs-and-miniatures-img-2029-large.jpeg
-    full: /assets/images/exhibit-images/25-25-exhibit-addl1-jt-designs-and-miniatures-img-2029-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-25-e1-jt-designs-and-miniatures-img-2029-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-25-e1-jt-designs-and-miniatures-img-2029-150x113.jpeg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-25-e1-jt-designs-and-miniatures-img-2029-300x225.jpeg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-25-e1-jt-designs-and-miniatures-img-2029-1024x768.jpeg
+      width: 1024
+      height: 768
   - 2:
-    small: /assets/images/exhibit-images/25-25-exhibit-addl2-jt-designs-and-miniatures-img-0697-small.JPG
-    medium: /assets/images/exhibit-images/25-25-exhibit-addl2-jt-designs-and-miniatures-img-0697-medium.JPG
-    large: /assets/images/exhibit-images/25-25-exhibit-addl2-jt-designs-and-miniatures-img-0697-large.JPG
-    full: /assets/images/exhibit-images/25-25-exhibit-addl2-jt-designs-and-miniatures-img-0697-full.JPG
+    full:
+      url: /assets/images/exhibit-images/25-25-e2-jt-designs-and-miniatures-img-0697-full.JPG
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-25-e2-jt-designs-and-miniatures-img-0697-150x113.JPG
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-25-e2-jt-designs-and-miniatures-img-0697-300x225.JPG
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-25-e2-jt-designs-and-miniatures-img-0697-1024x768.JPG
+      width: 1024
+      height: 768
   - 3:
-    small: /assets/images/exhibit-images/25-25-exhibit-addl3-jt-designs-and-miniatures-img-1862-small.jpeg
-    medium: /assets/images/exhibit-images/25-25-exhibit-addl3-jt-designs-and-miniatures-img-1862-medium.jpeg
-    large: /assets/images/exhibit-images/25-25-exhibit-addl3-jt-designs-and-miniatures-img-1862-large.jpeg
-    full: /assets/images/exhibit-images/25-25-exhibit-addl3-jt-designs-and-miniatures-img-1862-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-25-e3-jt-designs-and-miniatures-img-1862-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-25-e3-jt-designs-and-miniatures-img-1862-150x113.jpeg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-25-e3-jt-designs-and-miniatures-img-1862-300x225.jpeg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-25-e3-jt-designs-and-miniatures-img-1862-1024x768.jpeg
+      width: 1024
+      height: 768
   - 4:
-    small: /assets/images/exhibit-images/25-25-exhibit-addl4-jt-designs-and-miniatures-img-1776-small.jpeg
-    medium: /assets/images/exhibit-images/25-25-exhibit-addl4-jt-designs-and-miniatures-img-1776-medium.jpeg
-    large: /assets/images/exhibit-images/25-25-exhibit-addl4-jt-designs-and-miniatures-img-1776-large.jpeg
-    full: /assets/images/exhibit-images/25-25-exhibit-addl4-jt-designs-and-miniatures-img-1776-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-25-e4-jt-designs-and-miniatures-img-1776-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-25-e4-jt-designs-and-miniatures-img-1776-150x113.jpeg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-25-e4-jt-designs-and-miniatures-img-1776-300x225.jpeg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-25-e4-jt-designs-and-miniatures-img-1776-1024x768.jpeg
+      width: 1024
+      height: 768
   - 5:
-    small: /assets/images/exhibit-images/25-25-exhibit-addl5-jt-designs-and-miniatures-img-1968-small.jpeg
-    medium: /assets/images/exhibit-images/25-25-exhibit-addl5-jt-designs-and-miniatures-img-1968-medium.jpeg
-    large: /assets/images/exhibit-images/25-25-exhibit-addl5-jt-designs-and-miniatures-img-1968-large.jpeg
-    full: /assets/images/exhibit-images/25-25-exhibit-addl5-jt-designs-and-miniatures-img-1968-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-25-e5-jt-designs-and-miniatures-img-1968-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-25-e5-jt-designs-and-miniatures-img-1968-150x113.jpeg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-25-e5-jt-designs-and-miniatures-img-1968-300x225.jpeg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-25-e5-jt-designs-and-miniatures-img-1968-1024x768.jpeg
+      width: 1024
+      height: 768
   - 6:
-    small: /assets/images/exhibit-images/25-25-exhibit-addl6-jt-designs-and-miniatures-img-1717-small.jpeg
-    medium: /assets/images/exhibit-images/25-25-exhibit-addl6-jt-designs-and-miniatures-img-1717-medium.jpeg
-    large: /assets/images/exhibit-images/25-25-exhibit-addl6-jt-designs-and-miniatures-img-1717-large.jpeg
-    full: /assets/images/exhibit-images/25-25-exhibit-addl6-jt-designs-and-miniatures-img-1717-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-25-e6-jt-designs-and-miniatures-img-1717-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-25-e6-jt-designs-and-miniatures-img-1717-150x113.jpeg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-25-e6-jt-designs-and-miniatures-img-1717-300x225.jpeg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-25-e6-jt-designs-and-miniatures-img-1717-1024x768.jpeg
+      width: 1024
+      height: 768
   - 7:
-    small: /assets/images/exhibit-images/25-25-exhibit-addl7-jt-designs-and-miniatures-img-1677-small.jpeg
-    medium: /assets/images/exhibit-images/25-25-exhibit-addl7-jt-designs-and-miniatures-img-1677-medium.jpeg
-    large: /assets/images/exhibit-images/25-25-exhibit-addl7-jt-designs-and-miniatures-img-1677-large.jpeg
-    full: /assets/images/exhibit-images/25-25-exhibit-addl7-jt-designs-and-miniatures-img-1677-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-25-e7-jt-designs-and-miniatures-img-1677-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-25-e7-jt-designs-and-miniatures-img-1677-112x150.jpeg
+      width: 112
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-25-e7-jt-designs-and-miniatures-img-1677-225x300.jpeg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-25-e7-jt-designs-and-miniatures-img-1677-768x1024.jpeg
+      width: 768
+      height: 1024
 maker: 
   name: "Jerry Testa"
   description: "Recreations of some of the most iconic vehicles and characters in cinema history. Using silicone molding techniques, fiberglass, wood working, 3D printing and kit bashing. In addition to science fiction topics, real world pieces are also created such as ships and other types of vehicles and creatures."
-  image-primary: /assets/images/exhibit-images/25-25-maker-jt-designs-and-miniatures-jt-designs-medium.jpg
+  image-primary:
+    url: /assets/images/exhibit-images/25-25-m-jt-designs-and-miniatures-jt-designs-150x92.jpg
+    width: 150
+    height: 92
   website: http:// www.jtdesignsandminiatures.com
 categories: 
   - slug: 3d-printing
@@ -68,7 +167,7 @@ categories:
     name: Special Effects
 created-jotform: "2025-06-10 23:03:13"
 last-modified-jotform: "2025-06-16 20:55:41"
-last-exported: "2025-07-26 22:56:13"
+last-exported: "2025-07-27 11:31:44"
 sitemap: false
 
 ---

@@ -17,44 +17,119 @@ At TherianLoveDesign, we don't sell just masks and suits - we create portals. Po
 
 So dip a toe in the water, or dive headfirst.
    The tide is in your favor"
-image: /assets/images/exhibit-images/25-6-exhibit-therianlovedesign-cosplay-therian-gear-img-2591-8167-large.JPEG
+image: /assets/images/exhibit-images/25-6-e-therianlovedesign-cosplay-therian-gear-img-2591-8167-300x226.JPEG
 image-primary: 
-  small: /assets/images/exhibit-images/25-6-exhibit-therianlovedesign-cosplay-therian-gear-img-2591-8167-small.JPEG
-  medium: /assets/images/exhibit-images/25-6-exhibit-therianlovedesign-cosplay-therian-gear-img-2591-8167-medium.JPEG
-  large: /assets/images/exhibit-images/25-6-exhibit-therianlovedesign-cosplay-therian-gear-img-2591-8167-large.JPEG
-  full: /assets/images/exhibit-images/25-6-exhibit-therianlovedesign-cosplay-therian-gear-img-2591-8167-full.JPEG
+  full:
+    url: /assets/images/exhibit-images/25-6-e-therianlovedesign-cosplay-therian-gear-img-2591-8167-full.JPEG
+    width: 478
+    height: 360
+  small:
+    url: /assets/images/exhibit-images/25-6-e-therianlovedesign-cosplay-therian-gear-img-2591-8167-150x113.JPEG
+    width: 150
+    height: 113
+  medium:
+    url: /assets/images/exhibit-images/25-6-e-therianlovedesign-cosplay-therian-gear-img-2591-8167-300x226.JPEG
+    width: 300
+    height: 226
+  large:
+    url: /assets/images/exhibit-images/25-6-e-therianlovedesign-cosplay-therian-gear-img-2591-8167-478x360.JPEG
+    width: 478
+    height: 360
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-6-exhibit-addl1-therianlovedesign-cosplay-therian-gear-img-2558-1-small.JPEG
-    medium: /assets/images/exhibit-images/25-6-exhibit-addl1-therianlovedesign-cosplay-therian-gear-img-2558-1-medium.JPEG
-    large: /assets/images/exhibit-images/25-6-exhibit-addl1-therianlovedesign-cosplay-therian-gear-img-2558-1-large.JPEG
-    full: /assets/images/exhibit-images/25-6-exhibit-addl1-therianlovedesign-cosplay-therian-gear-img-2558-1-full.JPEG
+    full:
+      url: /assets/images/exhibit-images/25-6-e1-therianlovedesign-cosplay-therian-gear-img-2558-1-full.JPEG
+      width: 366
+      height: 468
+    small:
+      url: /assets/images/exhibit-images/25-6-e1-therianlovedesign-cosplay-therian-gear-img-2558-1-117x150.JPEG
+      width: 117
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-6-e1-therianlovedesign-cosplay-therian-gear-img-2558-1-235x300.JPEG
+      width: 235
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-6-e1-therianlovedesign-cosplay-therian-gear-img-2558-1-366x468.JPEG
+      width: 366
+      height: 468
   - 2:
-    small: /assets/images/exhibit-images/25-6-exhibit-addl2-therianlovedesign-cosplay-therian-gear-img-2582-small.JPEG
-    medium: /assets/images/exhibit-images/25-6-exhibit-addl2-therianlovedesign-cosplay-therian-gear-img-2582-medium.JPEG
-    large: /assets/images/exhibit-images/25-6-exhibit-addl2-therianlovedesign-cosplay-therian-gear-img-2582-large.JPEG
-    full: /assets/images/exhibit-images/25-6-exhibit-addl2-therianlovedesign-cosplay-therian-gear-img-2582-full.JPEG
+    full:
+      url: /assets/images/exhibit-images/25-6-e2-therianlovedesign-cosplay-therian-gear-img-2582-full.JPEG
+      width: 550
+      height: 314
+    small:
+      url: /assets/images/exhibit-images/25-6-e2-therianlovedesign-cosplay-therian-gear-img-2582-150x86.JPEG
+      width: 150
+      height: 86
+    medium:
+      url: /assets/images/exhibit-images/25-6-e2-therianlovedesign-cosplay-therian-gear-img-2582-300x171.JPEG
+      width: 300
+      height: 171
+    large:
+      url: /assets/images/exhibit-images/25-6-e2-therianlovedesign-cosplay-therian-gear-img-2582-550x314.JPEG
+      width: 550
+      height: 314
   - 3:
-    small: /assets/images/exhibit-images/25-6-exhibit-addl3-therianlovedesign-cosplay-therian-gear-img-2596-6374-small.JPEG
-    medium: /assets/images/exhibit-images/25-6-exhibit-addl3-therianlovedesign-cosplay-therian-gear-img-2596-6374-medium.JPEG
-    large: /assets/images/exhibit-images/25-6-exhibit-addl3-therianlovedesign-cosplay-therian-gear-img-2596-6374-large.JPEG
-    full: /assets/images/exhibit-images/25-6-exhibit-addl3-therianlovedesign-cosplay-therian-gear-img-2596-6374-full.JPEG
+    full:
+      url: /assets/images/exhibit-images/25-6-e3-therianlovedesign-cosplay-therian-gear-img-2596-6374-full.JPEG
+      width: 466
+      height: 352
+    small:
+      url: /assets/images/exhibit-images/25-6-e3-therianlovedesign-cosplay-therian-gear-img-2596-6374-150x113.JPEG
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-6-e3-therianlovedesign-cosplay-therian-gear-img-2596-6374-300x227.JPEG
+      width: 300
+      height: 227
+    large:
+      url: /assets/images/exhibit-images/25-6-e3-therianlovedesign-cosplay-therian-gear-img-2596-6374-466x352.JPEG
+      width: 466
+      height: 352
   - 4:
-    small: /assets/images/exhibit-images/25-6-exhibit-addl4-therianlovedesign-cosplay-therian-gear-img-2568-small.JPEG
-    medium: /assets/images/exhibit-images/25-6-exhibit-addl4-therianlovedesign-cosplay-therian-gear-img-2568-medium.JPEG
-    large: /assets/images/exhibit-images/25-6-exhibit-addl4-therianlovedesign-cosplay-therian-gear-img-2568-large.JPEG
-    full: /assets/images/exhibit-images/25-6-exhibit-addl4-therianlovedesign-cosplay-therian-gear-img-2568-full.JPEG
+    full:
+      url: /assets/images/exhibit-images/25-6-e4-therianlovedesign-cosplay-therian-gear-img-2568-full.JPEG
+      width: 388
+      height: 442
+    small:
+      url: /assets/images/exhibit-images/25-6-e4-therianlovedesign-cosplay-therian-gear-img-2568-132x150.JPEG
+      width: 132
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-6-e4-therianlovedesign-cosplay-therian-gear-img-2568-263x300.JPEG
+      width: 263
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-6-e4-therianlovedesign-cosplay-therian-gear-img-2568-388x442.JPEG
+      width: 388
+      height: 442
   - 5:
-    small: /assets/images/exhibit-images/25-6-exhibit-addl5-therianlovedesign-cosplay-therian-gear-img-2600-small.JPEG
-    medium: /assets/images/exhibit-images/25-6-exhibit-addl5-therianlovedesign-cosplay-therian-gear-img-2600-medium.JPEG
-    large: /assets/images/exhibit-images/25-6-exhibit-addl5-therianlovedesign-cosplay-therian-gear-img-2600-large.JPEG
-    full: /assets/images/exhibit-images/25-6-exhibit-addl5-therianlovedesign-cosplay-therian-gear-img-2600-full.JPEG
+    full:
+      url: /assets/images/exhibit-images/25-6-e5-therianlovedesign-cosplay-therian-gear-img-2600-full.JPEG
+      width: 334
+      height: 514
+    small:
+      url: /assets/images/exhibit-images/25-6-e5-therianlovedesign-cosplay-therian-gear-img-2600-97x150.JPEG
+      width: 97
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-6-e5-therianlovedesign-cosplay-therian-gear-img-2600-195x300.JPEG
+      width: 195
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-6-e5-therianlovedesign-cosplay-therian-gear-img-2600-334x514.JPEG
+      width: 334
+      height: 514
 maker: 
   name: "Hannah Black"
   description: "Step into the world of Hannah Black, a talented 7th-grade cosplayer and fursuit maker with a passion for blending personal identity and craftsmanship. Awakened as a therian at the age of 10, Hannah has always felt a deep connection to the animal world, and this unique experience is the heart and soul of her creations.
       Since joining the fandom and launching her shop in 2023, Hannah has specialized in creating custom fursuits and therian masks that allow others to express their identities, whether they’re embracing their therian nature or simply passionate about cosplay. Each piece is a reflection of her personal journey and dedication to the art of self-expression.
 Visitors to the booth can explore Hannah’s one-of-a-kind creations, learn about the intricacies of fursuit making, and discover the meaning behind therian masks. Whether you're already part of the fandom or just curious, Hannah’s creations offer a unique glimpse into this vibrant and creative world."
-  image-primary: /assets/images/exhibit-images/25-6-maker-therianlovedesign-cosplay-therian-gear-img-2591-medium.JPEG
+  image-primary:
+    url: /assets/images/exhibit-images/25-6-m-therianlovedesign-cosplay-therian-gear-img-2591-150x113.JPEG
+    width: 150
+    height: 113
 categories: 
   - slug: cosplay
     name: Cosplay
@@ -68,7 +143,7 @@ categories:
     name: Props
 created-jotform: "2025-05-24 20:19:33"
 last-modified-jotform: "2025-07-25 22:46:03"
-last-exported: "2025-07-26 22:56:14"
+last-exported: "2025-07-27 11:33:38"
 sitemap: false
 
 ---

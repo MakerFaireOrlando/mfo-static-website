@@ -8,38 +8,101 @@ exhibit-id: 25-13
 space-number: Unassigned
 description: "I hand paint glow in the dark tshirts and clothes"
 description-long: "I custom mix my paints to create a machine washability that won't diminish the glow of the shirts. I offer short or long sleeve, women's cut, and hoodies. Custom orders welcome."
-image: /assets/images/exhibit-images/25-13-exhibit-savage-canvas-arts-17487853051365570891819620720129-large.jpg
+image: /assets/images/exhibit-images/25-13-e-savage-canvas-arts-17487853051365570891819620720129-300x135.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/25-13-exhibit-savage-canvas-arts-17487853051365570891819620720129-small.jpg
-  medium: /assets/images/exhibit-images/25-13-exhibit-savage-canvas-arts-17487853051365570891819620720129-medium.jpg
-  large: /assets/images/exhibit-images/25-13-exhibit-savage-canvas-arts-17487853051365570891819620720129-large.jpg
-  full: /assets/images/exhibit-images/25-13-exhibit-savage-canvas-arts-17487853051365570891819620720129-full.jpg
+  full:
+    url: /assets/images/exhibit-images/25-13-e-savage-canvas-arts-17487853051365570891819620720129-full.jpg
+    width: 4000
+    height: 1800
+  small:
+    url: /assets/images/exhibit-images/25-13-e-savage-canvas-arts-17487853051365570891819620720129-150x68.jpg
+    width: 150
+    height: 68
+  medium:
+    url: /assets/images/exhibit-images/25-13-e-savage-canvas-arts-17487853051365570891819620720129-300x135.jpg
+    width: 300
+    height: 135
+  large:
+    url: /assets/images/exhibit-images/25-13-e-savage-canvas-arts-17487853051365570891819620720129-1024x461.jpg
+    width: 1024
+    height: 461
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-13-exhibit-addl1-savage-canvas-arts-turtle-club-small.jpg
-    medium: /assets/images/exhibit-images/25-13-exhibit-addl1-savage-canvas-arts-turtle-club-medium.jpg
-    large: /assets/images/exhibit-images/25-13-exhibit-addl1-savage-canvas-arts-turtle-club-large.jpg
-    full: /assets/images/exhibit-images/25-13-exhibit-addl1-savage-canvas-arts-turtle-club-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-13-e1-savage-canvas-arts-turtle-club-full.jpg
+      width: 1800
+      height: 4000
+    small:
+      url: /assets/images/exhibit-images/25-13-e1-savage-canvas-arts-turtle-club-68x150.jpg
+      width: 68
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-13-e1-savage-canvas-arts-turtle-club-135x300.jpg
+      width: 135
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-13-e1-savage-canvas-arts-turtle-club-461x1024.jpg
+      width: 461
+      height: 1024
   - 2:
-    small: /assets/images/exhibit-images/25-13-exhibit-addl2-savage-canvas-arts-size-reference-for-template-small.jpg
-    medium: /assets/images/exhibit-images/25-13-exhibit-addl2-savage-canvas-arts-size-reference-for-template-medium.jpg
-    large: /assets/images/exhibit-images/25-13-exhibit-addl2-savage-canvas-arts-size-reference-for-template-large.jpg
-    full: /assets/images/exhibit-images/25-13-exhibit-addl2-savage-canvas-arts-size-reference-for-template-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-13-e2-savage-canvas-arts-size-reference-for-template-full.jpg
+      width: 4000
+      height: 1800
+    small:
+      url: /assets/images/exhibit-images/25-13-e2-savage-canvas-arts-size-reference-for-template-68x150.jpg
+      width: 68
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-13-e2-savage-canvas-arts-size-reference-for-template-135x300.jpg
+      width: 135
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-13-e2-savage-canvas-arts-size-reference-for-template-461x1024.jpg
+      width: 461
+      height: 1024
   - 3:
-    small: /assets/images/exhibit-images/25-13-exhibit-addl3-savage-canvas-arts-img-20231130-123454117-small.jpg
-    medium: /assets/images/exhibit-images/25-13-exhibit-addl3-savage-canvas-arts-img-20231130-123454117-medium.jpg
-    large: /assets/images/exhibit-images/25-13-exhibit-addl3-savage-canvas-arts-img-20231130-123454117-large.jpg
-    full: /assets/images/exhibit-images/25-13-exhibit-addl3-savage-canvas-arts-img-20231130-123454117-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-13-e3-savage-canvas-arts-img-20231130-123454117-full.jpg
+      width: 4000
+      height: 1800
+    small:
+      url: /assets/images/exhibit-images/25-13-e3-savage-canvas-arts-img-20231130-123454117-68x150.jpg
+      width: 68
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-13-e3-savage-canvas-arts-img-20231130-123454117-135x300.jpg
+      width: 135
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-13-e3-savage-canvas-arts-img-20231130-123454117-461x1024.jpg
+      width: 461
+      height: 1024
   - 4:
-    small: /assets/images/exhibit-images/25-13-exhibit-addl4-savage-canvas-arts-camphalfblood-small.jpg
-    medium: /assets/images/exhibit-images/25-13-exhibit-addl4-savage-canvas-arts-camphalfblood-medium.jpg
-    large: /assets/images/exhibit-images/25-13-exhibit-addl4-savage-canvas-arts-camphalfblood-large.jpg
-    full: /assets/images/exhibit-images/25-13-exhibit-addl4-savage-canvas-arts-camphalfblood-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-13-e4-savage-canvas-arts-camphalfblood-full.jpg
+      width: 1800
+      height: 4000
+    small:
+      url: /assets/images/exhibit-images/25-13-e4-savage-canvas-arts-camphalfblood-68x150.jpg
+      width: 68
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-13-e4-savage-canvas-arts-camphalfblood-135x300.jpg
+      width: 135
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-13-e4-savage-canvas-arts-camphalfblood-461x1024.jpg
+      width: 461
+      height: 1024
 website: "https://www.savagecanvasarts.com"
 maker: 
   name: "Savage Canvas Arts"
   description: "Glow in the dark, hand painted t shirts, I also am an author and sell my books."
-  image-primary: /assets/images/exhibit-images/25-13-maker-savage-canvas-arts-17487850330904748624015727628815-medium.jpg
+  image-primary:
+    url: /assets/images/exhibit-images/25-13-m-savage-canvas-arts-17487850330904748624015727628815-150x68.jpg
+    width: 150
+    height: 68
   website: https://Www.savagecanvasarts.com
   instagram: https://www.instagram.com/theauthornicksavage
   facebook: https://www.facebook.com/theauthornicksavage
@@ -49,7 +112,7 @@ categories:
     name: Fabric Arts
 created-jotform: "2025-06-01 09:44:54"
 last-modified-jotform: "2025-07-06 08:15:29"
-last-exported: "2025-07-26 22:56:14"
+last-exported: "2025-07-27 11:32:58"
 sitemap: false
 
 ---

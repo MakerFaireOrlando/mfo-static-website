@@ -12,38 +12,101 @@ description-long: "Here be dragons, among other fantastical creatures. Local art
 Cid has always had a love of dragons, and at Maker Faire there are many like minded people who also share this deep love of the mystical winged reptiles. Sculpting in clay has allowed Cid to bring these mythical beasts to life!
 
 Every sculpture starts out as a wire armature that is built upon with clay. After the sculpture is complete it is molded and resin casts are made which are each hand finished and hand painted by Cid. Cid works the entire year to bring these creations to Maker Faire and it is a true passion to bring her creatures to life."
-image: /assets/images/exhibit-images/25-88-exhibit-the-dragons-horde-img-20231103-150919-745-large.jpg
+image: /assets/images/exhibit-images/25-88-e-the-dragons-horde-img-20231103-150919-745-300x300.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/25-88-exhibit-the-dragons-horde-img-20231103-150919-745-small.jpg
-  medium: /assets/images/exhibit-images/25-88-exhibit-the-dragons-horde-img-20231103-150919-745-medium.jpg
-  large: /assets/images/exhibit-images/25-88-exhibit-the-dragons-horde-img-20231103-150919-745-large.jpg
-  full: /assets/images/exhibit-images/25-88-exhibit-the-dragons-horde-img-20231103-150919-745-full.jpg
+  full:
+    url: /assets/images/exhibit-images/25-88-e-the-dragons-horde-img-20231103-150919-745-full.jpg
+    width: 3072
+    height: 3072
+  small:
+    url: /assets/images/exhibit-images/25-88-e-the-dragons-horde-img-20231103-150919-745-150x150.jpg
+    width: 150
+    height: 150
+  medium:
+    url: /assets/images/exhibit-images/25-88-e-the-dragons-horde-img-20231103-150919-745-300x300.jpg
+    width: 300
+    height: 300
+  large:
+    url: /assets/images/exhibit-images/25-88-e-the-dragons-horde-img-20231103-150919-745-1024x1024.jpg
+    width: 1024
+    height: 1024
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-88-exhibit-addl1-the-dragons-horde-img-20230928-184820-582-small.jpg
-    medium: /assets/images/exhibit-images/25-88-exhibit-addl1-the-dragons-horde-img-20230928-184820-582-medium.jpg
-    large: /assets/images/exhibit-images/25-88-exhibit-addl1-the-dragons-horde-img-20230928-184820-582-large.jpg
-    full: /assets/images/exhibit-images/25-88-exhibit-addl1-the-dragons-horde-img-20230928-184820-582-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-88-e1-the-dragons-horde-img-20230928-184820-582-full.jpg
+      width: 3072
+      height: 3072
+    small:
+      url: /assets/images/exhibit-images/25-88-e1-the-dragons-horde-img-20230928-184820-582-150x150.jpg
+      width: 150
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-88-e1-the-dragons-horde-img-20230928-184820-582-300x300.jpg
+      width: 300
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-88-e1-the-dragons-horde-img-20230928-184820-582-1024x1024.jpg
+      width: 1024
+      height: 1024
   - 2:
-    small: /assets/images/exhibit-images/25-88-exhibit-addl2-the-dragons-horde-pxl-20241109-002619491-small.jpg
-    medium: /assets/images/exhibit-images/25-88-exhibit-addl2-the-dragons-horde-pxl-20241109-002619491-medium.jpg
-    large: /assets/images/exhibit-images/25-88-exhibit-addl2-the-dragons-horde-pxl-20241109-002619491-large.jpg
-    full: /assets/images/exhibit-images/25-88-exhibit-addl2-the-dragons-horde-pxl-20241109-002619491-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-88-e2-the-dragons-horde-pxl-20241109-002619491-full.jpg
+      width: 3472
+      height: 4624
+    small:
+      url: /assets/images/exhibit-images/25-88-e2-the-dragons-horde-pxl-20241109-002619491-113x150.jpg
+      width: 113
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-88-e2-the-dragons-horde-pxl-20241109-002619491-225x300.jpg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-88-e2-the-dragons-horde-pxl-20241109-002619491-769x1024.jpg
+      width: 769
+      height: 1024
   - 3:
-    small: /assets/images/exhibit-images/25-88-exhibit-addl3-the-dragons-horde-pxl-20241109-002649575-small.jpg
-    medium: /assets/images/exhibit-images/25-88-exhibit-addl3-the-dragons-horde-pxl-20241109-002649575-medium.jpg
-    large: /assets/images/exhibit-images/25-88-exhibit-addl3-the-dragons-horde-pxl-20241109-002649575-large.jpg
-    full: /assets/images/exhibit-images/25-88-exhibit-addl3-the-dragons-horde-pxl-20241109-002649575-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-88-e3-the-dragons-horde-pxl-20241109-002649575-full.jpg
+      width: 3472
+      height: 4624
+    small:
+      url: /assets/images/exhibit-images/25-88-e3-the-dragons-horde-pxl-20241109-002649575-113x150.jpg
+      width: 113
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-88-e3-the-dragons-horde-pxl-20241109-002649575-225x300.jpg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-88-e3-the-dragons-horde-pxl-20241109-002649575-769x1024.jpg
+      width: 769
+      height: 1024
   - 4:
-    small: /assets/images/exhibit-images/25-88-exhibit-addl4-the-dragons-horde-pxl-20241109-002627219-small.jpg
-    medium: /assets/images/exhibit-images/25-88-exhibit-addl4-the-dragons-horde-pxl-20241109-002627219-medium.jpg
-    large: /assets/images/exhibit-images/25-88-exhibit-addl4-the-dragons-horde-pxl-20241109-002627219-large.jpg
-    full: /assets/images/exhibit-images/25-88-exhibit-addl4-the-dragons-horde-pxl-20241109-002627219-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-88-e4-the-dragons-horde-pxl-20241109-002627219-full.jpg
+      width: 3472
+      height: 4624
+    small:
+      url: /assets/images/exhibit-images/25-88-e4-the-dragons-horde-pxl-20241109-002627219-113x150.jpg
+      width: 113
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-88-e4-the-dragons-horde-pxl-20241109-002627219-225x300.jpg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-88-e4-the-dragons-horde-pxl-20241109-002627219-769x1024.jpg
+      width: 769
+      height: 1024
 website: "https://snookdragon.com"
 maker: 
   name: "Cid Snook"
   description: "Traditional handmade fantasy sculptures by local artist Cid Snook. Cid sculpts all of her creations by hand. One thing is clear Cid has always loved DRAGONS!"
-  image-primary: /assets/images/exhibit-images/25-88-maker-the-dragons-horde-starsdragonetsybanner-medium.jpg
+  image-primary:
+    url: /assets/images/exhibit-images/25-88-m-the-dragons-horde-starsdragonetsybanner-150x63.jpg
+    width: 150
+    height: 63
   website: http://Snookdragon.com
   instagram: https://www.instagram.com/snookdragon
   facebook: https://www.facebook.com/SnookDragon
@@ -54,7 +117,7 @@ categories:
     name: Art
 created-jotform: "2025-07-13 19:38:46"
 last-modified-jotform: "2025-07-25 23:09:39"
-last-exported: "2025-07-26 22:56:10"
+last-exported: "2025-07-27 11:24:52"
 sitemap: false
 
 ---

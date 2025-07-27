@@ -8,22 +8,49 @@ exhibit-id: 25-57
 space-number: Unassigned
 description: "We are a group of builders that make life size robots from various film franchise but mostly R2D2"
 description-long: "We are small part of a bigger club. We are the Southern R2 Builders Group. The bigger club is a world wide club. We are mostly located in the state of Florida"
-image: /assets/images/exhibit-images/25-57-exhibit-southern-r2-builders-group-1-maker-faire-2021-sr2b-large.jpg
+image: /assets/images/exhibit-images/25-57-e-southern-r2-builders-group-1-maker-faire-2021-sr2b-300x225.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/25-57-exhibit-southern-r2-builders-group-1-maker-faire-2021-sr2b-small.jpg
-  medium: /assets/images/exhibit-images/25-57-exhibit-southern-r2-builders-group-1-maker-faire-2021-sr2b-medium.jpg
-  large: /assets/images/exhibit-images/25-57-exhibit-southern-r2-builders-group-1-maker-faire-2021-sr2b-large.jpg
-  full: /assets/images/exhibit-images/25-57-exhibit-southern-r2-builders-group-1-maker-faire-2021-sr2b-full.jpg
+  full:
+    url: /assets/images/exhibit-images/25-57-e-southern-r2-builders-group-1-maker-faire-2021-sr2b-full.jpg
+    width: 1236
+    height: 927
+  small:
+    url: /assets/images/exhibit-images/25-57-e-southern-r2-builders-group-1-maker-faire-2021-sr2b-150x113.jpg
+    width: 150
+    height: 113
+  medium:
+    url: /assets/images/exhibit-images/25-57-e-southern-r2-builders-group-1-maker-faire-2021-sr2b-300x225.jpg
+    width: 300
+    height: 225
+  large:
+    url: /assets/images/exhibit-images/25-57-e-southern-r2-builders-group-1-maker-faire-2021-sr2b-1024x768.jpg
+    width: 1024
+    height: 768
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-57-exhibit-addl1-southern-r2-builders-group-past-maker-faire-small.jpg
-    medium: /assets/images/exhibit-images/25-57-exhibit-addl1-southern-r2-builders-group-past-maker-faire-medium.jpg
-    large: /assets/images/exhibit-images/25-57-exhibit-addl1-southern-r2-builders-group-past-maker-faire-large.jpg
-    full: /assets/images/exhibit-images/25-57-exhibit-addl1-southern-r2-builders-group-past-maker-faire-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-57-e1-southern-r2-builders-group-past-maker-faire-full.jpg
+      width: 960
+      height: 720
+    small:
+      url: /assets/images/exhibit-images/25-57-e1-southern-r2-builders-group-past-maker-faire-150x113.jpg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-57-e1-southern-r2-builders-group-past-maker-faire-300x225.jpg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-57-e1-southern-r2-builders-group-past-maker-faire-960x720.jpg
+      width: 960
+      height: 720
 maker: 
   name: "Southern R2 Builders Group"
   description: "We are a nation of Builders that build life size droids from various film franchise but mostly from Star Wars."
-  image-primary: /assets/images/exhibit-images/25-57-maker-southern-r2-builders-group-southern-r2-builders-club-logo-r-medium.jpg
+  image-primary:
+    url: /assets/images/exhibit-images/25-57-m-southern-r2-builders-group-southern-r2-builders-club-logo-r-148x150.jpg
+    width: 148
+    height: 150
   website: https://www.astromech.net
 categories: 
   - slug: 3d-printing
@@ -40,7 +67,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-06-29 19:29:16"
 last-modified-jotform: "2025-07-26 17:25:35"
-last-exported: "2025-07-26 22:56:12"
+last-exported: "2025-07-27 11:27:47"
 sitemap: false
 
 ---

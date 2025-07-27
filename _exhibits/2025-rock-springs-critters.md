@@ -8,38 +8,101 @@ exhibit-id: 25-29
 space-number: Unassigned
 description: "Come see the newest 3D printed fidgets, and whimsical household hacks by Rock Springs Critters!"
 description-long: "Come see the newest 3D printed fidgets and whimsical and innovative household hacks by Rock Springs Critters! No purchase necessary to come play with these cute animals and plants made by kids, with solar-power, and plant-derived PLA filament."
-image: /assets/images/exhibit-images/25-29-exhibit-rock-springs-critters-rock-springs-critters-2025-4955-large.jpg
+image: /assets/images/exhibit-images/25-29-e-rock-springs-critters-rock-springs-critters-2025-4955-300x226.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/25-29-exhibit-rock-springs-critters-rock-springs-critters-2025-4955-small.jpg
-  medium: /assets/images/exhibit-images/25-29-exhibit-rock-springs-critters-rock-springs-critters-2025-4955-medium.jpg
-  large: /assets/images/exhibit-images/25-29-exhibit-rock-springs-critters-rock-springs-critters-2025-4955-large.jpg
-  full: /assets/images/exhibit-images/25-29-exhibit-rock-springs-critters-rock-springs-critters-2025-4955-full.jpg
+  full:
+    url: /assets/images/exhibit-images/25-29-e-rock-springs-critters-rock-springs-critters-2025-4955-full.jpg
+    width: 4080
+    height: 3072
+  small:
+    url: /assets/images/exhibit-images/25-29-e-rock-springs-critters-rock-springs-critters-2025-4955-150x113.jpg
+    width: 150
+    height: 113
+  medium:
+    url: /assets/images/exhibit-images/25-29-e-rock-springs-critters-rock-springs-critters-2025-4955-300x226.jpg
+    width: 300
+    height: 226
+  large:
+    url: /assets/images/exhibit-images/25-29-e-rock-springs-critters-rock-springs-critters-2025-4955-1024x771.jpg
+    width: 1024
+    height: 771
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-29-exhibit-addl1-rock-springs-critters-pxl-20250625-025446577-small.jpg
-    medium: /assets/images/exhibit-images/25-29-exhibit-addl1-rock-springs-critters-pxl-20250625-025446577-medium.jpg
-    large: /assets/images/exhibit-images/25-29-exhibit-addl1-rock-springs-critters-pxl-20250625-025446577-large.jpg
-    full: /assets/images/exhibit-images/25-29-exhibit-addl1-rock-springs-critters-pxl-20250625-025446577-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-29-e1-rock-springs-critters-pxl-20250625-025446577-full.jpg
+      width: 4080
+      height: 3072
+    small:
+      url: /assets/images/exhibit-images/25-29-e1-rock-springs-critters-pxl-20250625-025446577-150x113.jpg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-29-e1-rock-springs-critters-pxl-20250625-025446577-300x226.jpg
+      width: 300
+      height: 226
+    large:
+      url: /assets/images/exhibit-images/25-29-e1-rock-springs-critters-pxl-20250625-025446577-1024x771.jpg
+      width: 1024
+      height: 771
   - 2:
-    small: /assets/images/exhibit-images/25-29-exhibit-addl2-rock-springs-critters-pxl-20250625-024229615-small.jpg
-    medium: /assets/images/exhibit-images/25-29-exhibit-addl2-rock-springs-critters-pxl-20250625-024229615-medium.jpg
-    large: /assets/images/exhibit-images/25-29-exhibit-addl2-rock-springs-critters-pxl-20250625-024229615-large.jpg
-    full: /assets/images/exhibit-images/25-29-exhibit-addl2-rock-springs-critters-pxl-20250625-024229615-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-29-e2-rock-springs-critters-pxl-20250625-024229615-full.jpg
+      width: 4080
+      height: 3072
+    small:
+      url: /assets/images/exhibit-images/25-29-e2-rock-springs-critters-pxl-20250625-024229615-150x113.jpg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-29-e2-rock-springs-critters-pxl-20250625-024229615-300x226.jpg
+      width: 300
+      height: 226
+    large:
+      url: /assets/images/exhibit-images/25-29-e2-rock-springs-critters-pxl-20250625-024229615-1024x771.jpg
+      width: 1024
+      height: 771
   - 3:
-    small: /assets/images/exhibit-images/25-29-exhibit-addl3-rock-springs-critters-1000047736-small.jpg
-    medium: /assets/images/exhibit-images/25-29-exhibit-addl3-rock-springs-critters-1000047736-medium.jpg
-    large: /assets/images/exhibit-images/25-29-exhibit-addl3-rock-springs-critters-1000047736-large.jpg
-    full: /assets/images/exhibit-images/25-29-exhibit-addl3-rock-springs-critters-1000047736-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-29-e3-rock-springs-critters-1000047736-full.jpg
+      width: 3072
+      height: 4080
+    small:
+      url: /assets/images/exhibit-images/25-29-e3-rock-springs-critters-1000047736-113x150.jpg
+      width: 113
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-29-e3-rock-springs-critters-1000047736-226x300.jpg
+      width: 226
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-29-e3-rock-springs-critters-1000047736-771x1024.jpg
+      width: 771
+      height: 1024
   - 4:
-    small: /assets/images/exhibit-images/25-29-exhibit-addl4-rock-springs-critters-1000046493-small.jpg
-    medium: /assets/images/exhibit-images/25-29-exhibit-addl4-rock-springs-critters-1000046493-medium.jpg
-    large: /assets/images/exhibit-images/25-29-exhibit-addl4-rock-springs-critters-1000046493-large.jpg
-    full: /assets/images/exhibit-images/25-29-exhibit-addl4-rock-springs-critters-1000046493-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-29-e4-rock-springs-critters-1000046493-full.jpg
+      width: 3072
+      height: 4080
+    small:
+      url: /assets/images/exhibit-images/25-29-e4-rock-springs-critters-1000046493-113x150.jpg
+      width: 113
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-29-e4-rock-springs-critters-1000046493-226x300.jpg
+      width: 226
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-29-e4-rock-springs-critters-1000046493-771x1024.jpg
+      width: 771
+      height: 1024
 website: "https://www.instagram.com/rockspringscritters/"
 maker: 
   name: "Rock Springs Critters"
   description: "Kid-Owned, 3D printed, Solar Powered, & Made from Plants! The Rock Springs Critters print the cutest and fun fidgety animals and new innovative and whimsical household builds!"
-  image-primary: /assets/images/exhibit-images/25-29-maker-rock-springs-critters-rock-springs-critters-2025-medium.jpg
+  image-primary:
+    url: /assets/images/exhibit-images/25-29-m-rock-springs-critters-rock-springs-critters-2025-150x113.jpg
+    width: 150
+    height: 113
   website: https://www.instagram.com/rockspringscritters/
   instagram: https://www.instagram.com/rockspringscritters/
   facebook: https://www.facebook.com/rockspringscritters?mibextid=ZbWKwL
@@ -57,7 +120,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-06-11 12:03:05"
 last-modified-jotform: "2025-06-29 11:45:43"
-last-exported: "2025-07-26 22:56:12"
+last-exported: "2025-07-27 11:31:16"
 sitemap: false
 
 ---

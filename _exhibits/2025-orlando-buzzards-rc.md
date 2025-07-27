@@ -8,17 +8,32 @@ exhibit-id: 25-56
 space-number: Unassigned
 description: "We will have RC models on display and hand out information cards."
 description-long: "We will have RC models on display and hand out information cards"
-image: /assets/images/exhibit-images/25-56-exhibit-orlando-buzzards-rc-img-2125-1156-large.jpeg
+image: /assets/images/exhibit-images/25-56-e-orlando-buzzards-rc-img-2125-1156-300x295.jpeg
 image-primary: 
-  small: /assets/images/exhibit-images/25-56-exhibit-orlando-buzzards-rc-img-2125-1156-small.jpeg
-  medium: /assets/images/exhibit-images/25-56-exhibit-orlando-buzzards-rc-img-2125-1156-medium.jpeg
-  large: /assets/images/exhibit-images/25-56-exhibit-orlando-buzzards-rc-img-2125-1156-large.jpeg
-  full: /assets/images/exhibit-images/25-56-exhibit-orlando-buzzards-rc-img-2125-1156-full.jpeg
+  full:
+    url: /assets/images/exhibit-images/25-56-e-orlando-buzzards-rc-img-2125-1156-full.jpeg
+    width: 915
+    height: 899
+  small:
+    url: /assets/images/exhibit-images/25-56-e-orlando-buzzards-rc-img-2125-1156-150x147.jpeg
+    width: 150
+    height: 147
+  medium:
+    url: /assets/images/exhibit-images/25-56-e-orlando-buzzards-rc-img-2125-1156-300x295.jpeg
+    width: 300
+    height: 295
+  large:
+    url: /assets/images/exhibit-images/25-56-e-orlando-buzzards-rc-img-2125-1156-915x899.jpeg
+    width: 915
+    height: 899
 website: "https://www.orlandobuzzards.org"
 maker: 
   name: "Orlando Buzzards RC Soaring Society"
   description: "We are a model airplane and sailplane flying club, we also build models from kits, some club members make their own designs from scratch of blue prints, we then install the electronics and a propeltion system and get them ready for flight. We also build and fly drones and model helicopters."
-  image-primary: /assets/images/exhibit-images/25-56-maker-orlando-buzzards-rc-img-2125-medium.jpeg
+  image-primary:
+    url: /assets/images/exhibit-images/25-56-m-orlando-buzzards-rc-img-2125-150x147.jpeg
+    width: 150
+    height: 147
   website: https://www.orlandobuzzards.org
   facebook: https://www.facebook.com/orlandobuzzardsrc
 categories: 
@@ -30,7 +45,7 @@ categories:
     name: Education
 created-jotform: "2025-06-29 19:00:43"
 last-modified-jotform: "2025-06-30 20:21:08"
-last-exported: "2025-07-26 22:56:12"
+last-exported: "2025-07-27 11:27:50"
 sitemap: false
 
 ---

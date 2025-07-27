@@ -8,23 +8,50 @@ exhibit-id: 25-79
 space-number: Unassigned
 description: "We have props and weapons for cosplayers. We will feature original art."
 description-long: "We are prop makers who use 3D printing and other traditional means to make detailed prop pieces for cosplayers and anyone interested in costuming.  We will have original artwork as well as custom Star Wars themed wanted posters."
-image: /assets/images/exhibit-images/25-79-exhibit-dune-sea-ranch-img-8993-large.jpeg
+image: /assets/images/exhibit-images/25-79-e-dune-sea-ranch-img-8993-300x225.jpeg
 image-primary: 
-  small: /assets/images/exhibit-images/25-79-exhibit-dune-sea-ranch-img-8993-small.jpeg
-  medium: /assets/images/exhibit-images/25-79-exhibit-dune-sea-ranch-img-8993-medium.jpeg
-  large: /assets/images/exhibit-images/25-79-exhibit-dune-sea-ranch-img-8993-large.jpeg
-  full: /assets/images/exhibit-images/25-79-exhibit-dune-sea-ranch-img-8993-full.jpeg
+  full:
+    url: /assets/images/exhibit-images/25-79-e-dune-sea-ranch-img-8993-full.jpeg
+    width: 4032
+    height: 3024
+  small:
+    url: /assets/images/exhibit-images/25-79-e-dune-sea-ranch-img-8993-150x113.jpeg
+    width: 150
+    height: 113
+  medium:
+    url: /assets/images/exhibit-images/25-79-e-dune-sea-ranch-img-8993-300x225.jpeg
+    width: 300
+    height: 225
+  large:
+    url: /assets/images/exhibit-images/25-79-e-dune-sea-ranch-img-8993-1024x768.jpeg
+    width: 1024
+    height: 768
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-79-exhibit-addl1-dune-sea-ranch-img-8185-small.jpeg
-    medium: /assets/images/exhibit-images/25-79-exhibit-addl1-dune-sea-ranch-img-8185-medium.jpeg
-    large: /assets/images/exhibit-images/25-79-exhibit-addl1-dune-sea-ranch-img-8185-large.jpeg
-    full: /assets/images/exhibit-images/25-79-exhibit-addl1-dune-sea-ranch-img-8185-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-79-e1-dune-sea-ranch-img-8185-full.jpeg
+      width: 2811
+      height: 2706
+    small:
+      url: /assets/images/exhibit-images/25-79-e1-dune-sea-ranch-img-8185-150x144.jpeg
+      width: 150
+      height: 144
+    medium:
+      url: /assets/images/exhibit-images/25-79-e1-dune-sea-ranch-img-8185-300x289.jpeg
+      width: 300
+      height: 289
+    large:
+      url: /assets/images/exhibit-images/25-79-e1-dune-sea-ranch-img-8185-1024x986.jpeg
+      width: 1024
+      height: 986
 website: "https://www.dunesearanch.com"
 maker: 
   name: "Dune Sea Ranch"
   description: "We are prop makers for cosplayers and anyone interested in costuming.  We use 3D printing and more traditional methods to make armor, weapons and droids.  We also make original artwork."
-  image-primary: /assets/images/exhibit-images/25-79-maker-dune-sea-ranch-3x3-copy-medium.jpg
+  image-primary:
+    url: /assets/images/exhibit-images/25-79-m-dune-sea-ranch-3x3-copy-150x149.jpg
+    width: 150
+    height: 149
   website: https://www.dunesearanch.com
   twitter: https://www.twitter.com/x.com/duneranch
   instagram: https://www.instagram.com/dune_sea_ranch
@@ -43,7 +70,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-07-10 20:11:12"
 last-modified-jotform: "2025-07-12 15:38:46"
-last-exported: "2025-07-26 22:56:10"
+last-exported: "2025-07-27 11:25:53"
 sitemap: false
 
 ---

@@ -20,24 +20,51 @@ We believe that not everyone can afford to buy expensive costumes at one time. O
 You the client are of the utmost importance and deserve the best quality.  Our entire team, and network of builders are committed to meeting those needs. As a result, a high percentage of our business is from repeat customers and many new referrals. 
 
 We would welcome the opportunity to earn your trust and deliver you the best service in this growing business that builds in a simple garage."
-image: /assets/images/exhibit-images/25-82-exhibit-brassroots-leather-img-7830-large.jpeg
+image: /assets/images/exhibit-images/25-82-e-brassroots-leather-img-7830-300x225.jpeg
 image-primary: 
-  small: /assets/images/exhibit-images/25-82-exhibit-brassroots-leather-img-7830-small.jpeg
-  medium: /assets/images/exhibit-images/25-82-exhibit-brassroots-leather-img-7830-medium.jpeg
-  large: /assets/images/exhibit-images/25-82-exhibit-brassroots-leather-img-7830-large.jpeg
-  full: /assets/images/exhibit-images/25-82-exhibit-brassroots-leather-img-7830-full.jpeg
+  full:
+    url: /assets/images/exhibit-images/25-82-e-brassroots-leather-img-7830-full.jpeg
+    width: 4032
+    height: 3024
+  small:
+    url: /assets/images/exhibit-images/25-82-e-brassroots-leather-img-7830-150x113.jpeg
+    width: 150
+    height: 113
+  medium:
+    url: /assets/images/exhibit-images/25-82-e-brassroots-leather-img-7830-300x225.jpeg
+    width: 300
+    height: 225
+  large:
+    url: /assets/images/exhibit-images/25-82-e-brassroots-leather-img-7830-1024x768.jpeg
+    width: 1024
+    height: 768
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-82-exhibit-addl1-brassroots-leather-img-7831-small.jpeg
-    medium: /assets/images/exhibit-images/25-82-exhibit-addl1-brassroots-leather-img-7831-medium.jpeg
-    large: /assets/images/exhibit-images/25-82-exhibit-addl1-brassroots-leather-img-7831-large.jpeg
-    full: /assets/images/exhibit-images/25-82-exhibit-addl1-brassroots-leather-img-7831-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-82-e1-brassroots-leather-img-7831-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-82-e1-brassroots-leather-img-7831-150x113.jpeg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-82-e1-brassroots-leather-img-7831-300x225.jpeg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-82-e1-brassroots-leather-img-7831-1024x768.jpeg
+      width: 1024
+      height: 768
 website: "https://www.brassrootsleather.com/"
 video: "www.youtube.com/BrassrootsLeather"
 maker: 
   name: "Jusnel Gonzalez"
   description: "Steampunk and Pop Culture Inspired Leather Crafts and more."
-  image-primary: /assets/images/exhibit-images/25-82-maker-brassroots-leather-img-7824-medium.jpeg
+  image-primary:
+    url: /assets/images/exhibit-images/25-82-m-brassroots-leather-img-7824-150x113.jpeg
+    width: 150
+    height: 113
   website: https://www.brassrootsleather.com/
   twitter: https://www.twitter.com/Brassroots_Lthr
   instagram: https://www.instagram.com/brassroots_leather
@@ -59,7 +86,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-07-12 15:22:16"
 last-modified-jotform: "2025-07-12 15:38:44"
-last-exported: "2025-07-26 22:56:10"
+last-exported: "2025-07-27 11:25:18"
 sitemap: false
 
 ---

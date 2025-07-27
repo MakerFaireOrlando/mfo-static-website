@@ -8,48 +8,135 @@ exhibit-id: 25-44
 space-number: Unassigned
 description: "I mostly create TTRPG accessories with 3D printing, resin casting, and some hand book binding."
 description-long: "I create various table top role playing game accessories from 3D printed dice boxes, a fusion of dice box and dice tower I call a Tower Vault to hand casting resin dice, and have recently started making miniature modules and books for game masters and players to add to their own games or (eventually) run a full adventure with."
-image: /assets/images/exhibit-images/25-44-exhibit-p-d-steamworks-splashpic-large.jpg
+image: /assets/images/exhibit-images/25-44-e-p-d-steamworks-splashpic-300x300.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/25-44-exhibit-p-d-steamworks-splashpic-small.jpg
-  medium: /assets/images/exhibit-images/25-44-exhibit-p-d-steamworks-splashpic-medium.jpg
-  large: /assets/images/exhibit-images/25-44-exhibit-p-d-steamworks-splashpic-large.jpg
-  full: /assets/images/exhibit-images/25-44-exhibit-p-d-steamworks-splashpic-full.jpg
+  full:
+    url: /assets/images/exhibit-images/25-44-e-p-d-steamworks-splashpic-full.jpg
+    width: 3024
+    height: 3024
+  small:
+    url: /assets/images/exhibit-images/25-44-e-p-d-steamworks-splashpic-150x150.jpg
+    width: 150
+    height: 150
+  medium:
+    url: /assets/images/exhibit-images/25-44-e-p-d-steamworks-splashpic-300x300.jpg
+    width: 300
+    height: 300
+  large:
+    url: /assets/images/exhibit-images/25-44-e-p-d-steamworks-splashpic-1024x1024.jpg
+    width: 1024
+    height: 1024
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-44-exhibit-addl1-p-d-steamworks-makerfairorlando2024-small.jpg
-    medium: /assets/images/exhibit-images/25-44-exhibit-addl1-p-d-steamworks-makerfairorlando2024-medium.jpg
-    large: /assets/images/exhibit-images/25-44-exhibit-addl1-p-d-steamworks-makerfairorlando2024-large.jpg
-    full: /assets/images/exhibit-images/25-44-exhibit-addl1-p-d-steamworks-makerfairorlando2024-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-44-e1-p-d-steamworks-makerfairorlando2024-full.jpg
+      width: 3024
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-44-e1-p-d-steamworks-makerfairorlando2024-150x150.jpg
+      width: 150
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-44-e1-p-d-steamworks-makerfairorlando2024-300x300.jpg
+      width: 300
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-44-e1-p-d-steamworks-makerfairorlando2024-1024x1024.jpg
+      width: 1024
+      height: 1024
   - 2:
-    small: /assets/images/exhibit-images/25-44-exhibit-addl2-p-d-steamworks-finnconmdc2025-3064-small.jpg
-    medium: /assets/images/exhibit-images/25-44-exhibit-addl2-p-d-steamworks-finnconmdc2025-3064-medium.jpg
-    large: /assets/images/exhibit-images/25-44-exhibit-addl2-p-d-steamworks-finnconmdc2025-3064-large.jpg
-    full: /assets/images/exhibit-images/25-44-exhibit-addl2-p-d-steamworks-finnconmdc2025-3064-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-44-e2-p-d-steamworks-finnconmdc2025-3064-full.jpg
+      width: 3024
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-44-e2-p-d-steamworks-finnconmdc2025-3064-150x150.jpg
+      width: 150
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-44-e2-p-d-steamworks-finnconmdc2025-3064-300x300.jpg
+      width: 300
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-44-e2-p-d-steamworks-finnconmdc2025-3064-1024x1024.jpg
+      width: 1024
+      height: 1024
   - 3:
-    small: /assets/images/exhibit-images/25-44-exhibit-addl3-p-d-steamworks-pic2-small.jpg
-    medium: /assets/images/exhibit-images/25-44-exhibit-addl3-p-d-steamworks-pic2-medium.jpg
-    large: /assets/images/exhibit-images/25-44-exhibit-addl3-p-d-steamworks-pic2-large.jpg
-    full: /assets/images/exhibit-images/25-44-exhibit-addl3-p-d-steamworks-pic2-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-44-e3-p-d-steamworks-pic2-full.jpg
+      width: 3024
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-44-e3-p-d-steamworks-pic2-150x150.jpg
+      width: 150
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-44-e3-p-d-steamworks-pic2-300x300.jpg
+      width: 300
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-44-e3-p-d-steamworks-pic2-1024x1024.jpg
+      width: 1024
+      height: 1024
   - 4:
-    small: /assets/images/exhibit-images/25-44-exhibit-addl4-p-d-steamworks-pic1-small.jpg
-    medium: /assets/images/exhibit-images/25-44-exhibit-addl4-p-d-steamworks-pic1-medium.jpg
-    large: /assets/images/exhibit-images/25-44-exhibit-addl4-p-d-steamworks-pic1-large.jpg
-    full: /assets/images/exhibit-images/25-44-exhibit-addl4-p-d-steamworks-pic1-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-44-e4-p-d-steamworks-pic1-full.jpg
+      width: 3024
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-44-e4-p-d-steamworks-pic1-150x150.jpg
+      width: 150
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-44-e4-p-d-steamworks-pic1-300x300.jpg
+      width: 300
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-44-e4-p-d-steamworks-pic1-1024x1024.jpg
+      width: 1024
+      height: 1024
   - 5:
-    small: /assets/images/exhibit-images/25-44-exhibit-addl5-p-d-steamworks-pic3-small.jpg
-    medium: /assets/images/exhibit-images/25-44-exhibit-addl5-p-d-steamworks-pic3-medium.jpg
-    large: /assets/images/exhibit-images/25-44-exhibit-addl5-p-d-steamworks-pic3-large.jpg
-    full: /assets/images/exhibit-images/25-44-exhibit-addl5-p-d-steamworks-pic3-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-44-e5-p-d-steamworks-pic3-full.jpg
+      width: 3024
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-44-e5-p-d-steamworks-pic3-150x150.jpg
+      width: 150
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-44-e5-p-d-steamworks-pic3-300x300.jpg
+      width: 300
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-44-e5-p-d-steamworks-pic3-1024x1024.jpg
+      width: 1024
+      height: 1024
   - 6:
-    small: /assets/images/exhibit-images/25-44-exhibit-addl6-p-d-steamworks-pic4-small.jpg
-    medium: /assets/images/exhibit-images/25-44-exhibit-addl6-p-d-steamworks-pic4-medium.jpg
-    large: /assets/images/exhibit-images/25-44-exhibit-addl6-p-d-steamworks-pic4-large.jpg
-    full: /assets/images/exhibit-images/25-44-exhibit-addl6-p-d-steamworks-pic4-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-44-e6-p-d-steamworks-pic4-full.jpg
+      width: 3024
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/25-44-e6-p-d-steamworks-pic4-150x150.jpg
+      width: 150
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-44-e6-p-d-steamworks-pic4-300x300.jpg
+      width: 300
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-44-e6-p-d-steamworks-pic4-1024x1024.jpg
+      width: 1024
+      height: 1024
 website: "https://pdsteamworks.storenvy.com/"
 maker: 
   name: "Paul Davis"
   description: "I am an animator, tinkerer and nerd at heart who dove deep into trpgs. Got into 3d printing a good few years ago now and have been fusing my love of various media, 3d printing, tinkering, and ttrpg accessories."
-  image-primary: /assets/images/exhibit-images/25-44-maker-p-d-steamworks-pdslogo-medium.png
+  image-primary:
+    url: /assets/images/exhibit-images/25-44-m-p-d-steamworks-pdslogo-150x150.png
+    width: 150
+    height: 150
   website: https://pdsteamworks.storenvy.com/
   instagram: https://www.instagram.com/rasieldraconis/
 categories: 
@@ -67,7 +154,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-06-22 20:54:41"
 last-modified-jotform: "2025-06-30 20:18:27"
-last-exported: "2025-07-26 22:56:12"
+last-exported: "2025-07-27 11:29:05"
 sitemap: false
 
 ---

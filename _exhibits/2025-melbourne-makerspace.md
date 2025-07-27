@@ -8,63 +8,186 @@ exhibit-id: 25-80
 space-number: Unassigned
 description: "People working on woodworking, pottery, laser cutting, electronics, software, and 3D printing, etc."
 description-long: "We will be displaying representative examples of some completed projects provided by some of our members. We will also have a couple of live interactive projects involving cameras with Raspberry Pi computers. There is a video tour of our MakerSpace as well as a Slideshow of various completed projects that are too large to bring to MakerFaire Orlando."
-image: /assets/images/exhibit-images/25-80-exhibit-melbourne-makerspace-dsc01424-large.JPG
+image: /assets/images/exhibit-images/25-80-e-melbourne-makerspace-dsc01424-300x66.JPG
 image-primary: 
-  small: /assets/images/exhibit-images/25-80-exhibit-melbourne-makerspace-dsc01424-small.JPG
-  medium: /assets/images/exhibit-images/25-80-exhibit-melbourne-makerspace-dsc01424-medium.JPG
-  large: /assets/images/exhibit-images/25-80-exhibit-melbourne-makerspace-dsc01424-large.JPG
-  full: /assets/images/exhibit-images/25-80-exhibit-melbourne-makerspace-dsc01424-full.JPG
+  full:
+    url: /assets/images/exhibit-images/25-80-e-melbourne-makerspace-dsc01424-full.JPG
+    width: 4912
+    height: 1080
+  small:
+    url: /assets/images/exhibit-images/25-80-e-melbourne-makerspace-dsc01424-150x33.JPG
+    width: 150
+    height: 33
+  medium:
+    url: /assets/images/exhibit-images/25-80-e-melbourne-makerspace-dsc01424-300x66.JPG
+    width: 300
+    height: 66
+  large:
+    url: /assets/images/exhibit-images/25-80-e-melbourne-makerspace-dsc01424-1024x225.JPG
+    width: 1024
+    height: 225
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-80-exhibit-addl1-melbourne-makerspace-dsc01425-small.JPG
-    medium: /assets/images/exhibit-images/25-80-exhibit-addl1-melbourne-makerspace-dsc01425-medium.JPG
-    large: /assets/images/exhibit-images/25-80-exhibit-addl1-melbourne-makerspace-dsc01425-large.JPG
-    full: /assets/images/exhibit-images/25-80-exhibit-addl1-melbourne-makerspace-dsc01425-full.JPG
+    full:
+      url: /assets/images/exhibit-images/25-80-e1-melbourne-makerspace-dsc01425-full.JPG
+      width: 4912
+      height: 1080
+    small:
+      url: /assets/images/exhibit-images/25-80-e1-melbourne-makerspace-dsc01425-150x33.JPG
+      width: 150
+      height: 33
+    medium:
+      url: /assets/images/exhibit-images/25-80-e1-melbourne-makerspace-dsc01425-300x66.JPG
+      width: 300
+      height: 66
+    large:
+      url: /assets/images/exhibit-images/25-80-e1-melbourne-makerspace-dsc01425-1024x225.JPG
+      width: 1024
+      height: 225
   - 2:
-    small: /assets/images/exhibit-images/25-80-exhibit-addl2-melbourne-makerspace-dsc01423-small.JPG
-    medium: /assets/images/exhibit-images/25-80-exhibit-addl2-melbourne-makerspace-dsc01423-medium.JPG
-    large: /assets/images/exhibit-images/25-80-exhibit-addl2-melbourne-makerspace-dsc01423-large.JPG
-    full: /assets/images/exhibit-images/25-80-exhibit-addl2-melbourne-makerspace-dsc01423-full.JPG
+    full:
+      url: /assets/images/exhibit-images/25-80-e2-melbourne-makerspace-dsc01423-full.JPG
+      width: 4912
+      height: 1080
+    small:
+      url: /assets/images/exhibit-images/25-80-e2-melbourne-makerspace-dsc01423-150x33.JPG
+      width: 150
+      height: 33
+    medium:
+      url: /assets/images/exhibit-images/25-80-e2-melbourne-makerspace-dsc01423-300x66.JPG
+      width: 300
+      height: 66
+    large:
+      url: /assets/images/exhibit-images/25-80-e2-melbourne-makerspace-dsc01423-1024x225.JPG
+      width: 1024
+      height: 225
   - 3:
-    small: /assets/images/exhibit-images/25-80-exhibit-addl3-melbourne-makerspace-dsc01426-small.JPG
-    medium: /assets/images/exhibit-images/25-80-exhibit-addl3-melbourne-makerspace-dsc01426-medium.JPG
-    large: /assets/images/exhibit-images/25-80-exhibit-addl3-melbourne-makerspace-dsc01426-large.JPG
-    full: /assets/images/exhibit-images/25-80-exhibit-addl3-melbourne-makerspace-dsc01426-full.JPG
+    full:
+      url: /assets/images/exhibit-images/25-80-e3-melbourne-makerspace-dsc01426-full.JPG
+      width: 4608
+      height: 3456
+    small:
+      url: /assets/images/exhibit-images/25-80-e3-melbourne-makerspace-dsc01426-150x113.JPG
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-80-e3-melbourne-makerspace-dsc01426-300x225.JPG
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-80-e3-melbourne-makerspace-dsc01426-1024x768.JPG
+      width: 1024
+      height: 768
   - 4:
-    small: /assets/images/exhibit-images/25-80-exhibit-addl4-melbourne-makerspace-dsc01433-small.JPG
-    medium: /assets/images/exhibit-images/25-80-exhibit-addl4-melbourne-makerspace-dsc01433-medium.JPG
-    large: /assets/images/exhibit-images/25-80-exhibit-addl4-melbourne-makerspace-dsc01433-large.JPG
-    full: /assets/images/exhibit-images/25-80-exhibit-addl4-melbourne-makerspace-dsc01433-full.JPG
+    full:
+      url: /assets/images/exhibit-images/25-80-e4-melbourne-makerspace-dsc01433-full.JPG
+      width: 4608
+      height: 3456
+    small:
+      url: /assets/images/exhibit-images/25-80-e4-melbourne-makerspace-dsc01433-150x113.JPG
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-80-e4-melbourne-makerspace-dsc01433-300x225.JPG
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-80-e4-melbourne-makerspace-dsc01433-1024x768.JPG
+      width: 1024
+      height: 768
   - 5:
-    small: /assets/images/exhibit-images/25-80-exhibit-addl5-melbourne-makerspace-dsc01427-small.JPG
-    medium: /assets/images/exhibit-images/25-80-exhibit-addl5-melbourne-makerspace-dsc01427-medium.JPG
-    large: /assets/images/exhibit-images/25-80-exhibit-addl5-melbourne-makerspace-dsc01427-large.JPG
-    full: /assets/images/exhibit-images/25-80-exhibit-addl5-melbourne-makerspace-dsc01427-full.JPG
+    full:
+      url: /assets/images/exhibit-images/25-80-e5-melbourne-makerspace-dsc01427-full.JPG
+      width: 4608
+      height: 3456
+    small:
+      url: /assets/images/exhibit-images/25-80-e5-melbourne-makerspace-dsc01427-150x113.JPG
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-80-e5-melbourne-makerspace-dsc01427-300x225.JPG
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-80-e5-melbourne-makerspace-dsc01427-1024x768.JPG
+      width: 1024
+      height: 768
   - 6:
-    small: /assets/images/exhibit-images/25-80-exhibit-addl6-melbourne-makerspace-dsc01428-small.JPG
-    medium: /assets/images/exhibit-images/25-80-exhibit-addl6-melbourne-makerspace-dsc01428-medium.JPG
-    large: /assets/images/exhibit-images/25-80-exhibit-addl6-melbourne-makerspace-dsc01428-large.JPG
-    full: /assets/images/exhibit-images/25-80-exhibit-addl6-melbourne-makerspace-dsc01428-full.JPG
+    full:
+      url: /assets/images/exhibit-images/25-80-e6-melbourne-makerspace-dsc01428-full.JPG
+      width: 4608
+      height: 3456
+    small:
+      url: /assets/images/exhibit-images/25-80-e6-melbourne-makerspace-dsc01428-150x113.JPG
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-80-e6-melbourne-makerspace-dsc01428-300x225.JPG
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-80-e6-melbourne-makerspace-dsc01428-1024x768.JPG
+      width: 1024
+      height: 768
   - 7:
-    small: /assets/images/exhibit-images/25-80-exhibit-addl7-melbourne-makerspace-dsc01429-small.JPG
-    medium: /assets/images/exhibit-images/25-80-exhibit-addl7-melbourne-makerspace-dsc01429-medium.JPG
-    large: /assets/images/exhibit-images/25-80-exhibit-addl7-melbourne-makerspace-dsc01429-large.JPG
-    full: /assets/images/exhibit-images/25-80-exhibit-addl7-melbourne-makerspace-dsc01429-full.JPG
+    full:
+      url: /assets/images/exhibit-images/25-80-e7-melbourne-makerspace-dsc01429-full.JPG
+      width: 4608
+      height: 3456
+    small:
+      url: /assets/images/exhibit-images/25-80-e7-melbourne-makerspace-dsc01429-150x113.JPG
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-80-e7-melbourne-makerspace-dsc01429-300x225.JPG
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-80-e7-melbourne-makerspace-dsc01429-1024x768.JPG
+      width: 1024
+      height: 768
   - 8:
-    small: /assets/images/exhibit-images/25-80-exhibit-addl8-melbourne-makerspace-dsc01431-small.JPG
-    medium: /assets/images/exhibit-images/25-80-exhibit-addl8-melbourne-makerspace-dsc01431-medium.JPG
-    large: /assets/images/exhibit-images/25-80-exhibit-addl8-melbourne-makerspace-dsc01431-large.JPG
-    full: /assets/images/exhibit-images/25-80-exhibit-addl8-melbourne-makerspace-dsc01431-full.JPG
+    full:
+      url: /assets/images/exhibit-images/25-80-e8-melbourne-makerspace-dsc01431-full.JPG
+      width: 4608
+      height: 3456
+    small:
+      url: /assets/images/exhibit-images/25-80-e8-melbourne-makerspace-dsc01431-150x113.JPG
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-80-e8-melbourne-makerspace-dsc01431-300x225.JPG
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-80-e8-melbourne-makerspace-dsc01431-1024x768.JPG
+      width: 1024
+      height: 768
   - 9:
-    small: /assets/images/exhibit-images/25-80-exhibit-addl9-melbourne-makerspace-dsc01434-small.JPG
-    medium: /assets/images/exhibit-images/25-80-exhibit-addl9-melbourne-makerspace-dsc01434-medium.JPG
-    large: /assets/images/exhibit-images/25-80-exhibit-addl9-melbourne-makerspace-dsc01434-large.JPG
-    full: /assets/images/exhibit-images/25-80-exhibit-addl9-melbourne-makerspace-dsc01434-full.JPG
+    full:
+      url: /assets/images/exhibit-images/25-80-e9-melbourne-makerspace-dsc01434-full.JPG
+      width: 4608
+      height: 3456
+    small:
+      url: /assets/images/exhibit-images/25-80-e9-melbourne-makerspace-dsc01434-150x113.JPG
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-80-e9-melbourne-makerspace-dsc01434-300x225.JPG
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-80-e9-melbourne-makerspace-dsc01434-1024x768.JPG
+      width: 1024
+      height: 768
 maker: 
   name: "Melbourne Makerspace"
   description: "A Makerspace is literally a place where people make things. It is a laboratory of sorts for people who are interested in designing things, learning new stuff, and generally being creative!
 Makerspaces have a set of community-owned tools to share. Our space offers machine shop tools, woodworking tools, electronics equipment, and other fabrication devices."
-  image-primary: /assets/images/exhibit-images/25-80-maker-melbourne-makerspace-melbmakerspacelogo-medium.jpg
+  image-primary:
+    url: /assets/images/exhibit-images/25-80-m-melbourne-makerspace-melbmakerspacelogo-150x50.jpg
+    width: 150
+    height: 50
   website: https://melbournemakerspace.org/
   instagram: https://www.instagram.com/melbourne_makerspace/
   facebook: https://www.facebook.com/MelbourneMakerspace
@@ -75,7 +198,7 @@ categories:
     name: Makerspace
 created-jotform: "2025-07-11 16:11:41"
 last-modified-jotform: "2025-07-12 14:59:57"
-last-exported: "2025-07-26 22:56:10"
+last-exported: "2025-07-27 11:25:48"
 sitemap: false
 
 ---

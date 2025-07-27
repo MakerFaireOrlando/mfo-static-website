@@ -14,18 +14,42 @@ Step into the world of letterboxing, a unique hobby that combines art, explorati
 We’ll have live stamp carving demonstrations, informational handouts to help you get started, and a chance to carve your own stamp (for a small materials fee). Whether you’re an artist, adventurer, or puzzle-solver, letterboxing offers something for everyone—and it’s a great activity for families too!
 
 Come discover how you can join a global community of explorers and creatives. For more info, visit www.AtlasQuest.com."
-image: /assets/images/exhibit-images/25-85-exhibit-what-is-letterboxing-inbound8354965347092826786-large.jpg
+image: /assets/images/exhibit-images/25-85-e-what-is-letterboxing-inbound8354965347092826786-225x300.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/25-85-exhibit-what-is-letterboxing-inbound8354965347092826786-small.jpg
-  medium: /assets/images/exhibit-images/25-85-exhibit-what-is-letterboxing-inbound8354965347092826786-medium.jpg
-  large: /assets/images/exhibit-images/25-85-exhibit-what-is-letterboxing-inbound8354965347092826786-large.jpg
-  full: /assets/images/exhibit-images/25-85-exhibit-what-is-letterboxing-inbound8354965347092826786-full.jpg
+  full:
+    url: /assets/images/exhibit-images/25-85-e-what-is-letterboxing-inbound8354965347092826786-full.jpg
+    width: 3024
+    height: 4032
+  small:
+    url: /assets/images/exhibit-images/25-85-e-what-is-letterboxing-inbound8354965347092826786-112x150.jpg
+    width: 112
+    height: 150
+  medium:
+    url: /assets/images/exhibit-images/25-85-e-what-is-letterboxing-inbound8354965347092826786-225x300.jpg
+    width: 225
+    height: 300
+  large:
+    url: /assets/images/exhibit-images/25-85-e-what-is-letterboxing-inbound8354965347092826786-768x1024.jpg
+    width: 768
+    height: 1024
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-85-exhibit-addl1-what-is-letterboxing-inbound1228927434611788262-small.jpg
-    medium: /assets/images/exhibit-images/25-85-exhibit-addl1-what-is-letterboxing-inbound1228927434611788262-medium.jpg
-    large: /assets/images/exhibit-images/25-85-exhibit-addl1-what-is-letterboxing-inbound1228927434611788262-large.jpg
-    full: /assets/images/exhibit-images/25-85-exhibit-addl1-what-is-letterboxing-inbound1228927434611788262-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-85-e1-what-is-letterboxing-inbound1228927434611788262-full.jpg
+      width: 3024
+      height: 2420
+    small:
+      url: /assets/images/exhibit-images/25-85-e1-what-is-letterboxing-inbound1228927434611788262-150x120.jpg
+      width: 150
+      height: 120
+    medium:
+      url: /assets/images/exhibit-images/25-85-e1-what-is-letterboxing-inbound1228927434611788262-300x240.jpg
+      width: 300
+      height: 240
+    large:
+      url: /assets/images/exhibit-images/25-85-e1-what-is-letterboxing-inbound1228927434611788262-1024x819.jpg
+      width: 1024
+      height: 819
 maker: 
   name: "Letterboxing outreach"
   description: "Hello! I’m a passionate letterboxing hobbyist, and I would love the opportunity to host an outreach booth at the Maker Faire to introduce others to this creative and adventurous hobby.
@@ -33,7 +57,10 @@ maker:
 Letterboxing combines art, exploration, and puzzle-solving—perfect for the curious, hands-on spirit of Maker Faire attendees. At my booth, I’ll provide engaging information about the hobby, live stamp carving demonstrations, and an opportunity for visitors to try carving their own stamps (for a small materials fee).
 
 Letterboxing is a wonderful blend of creativity and discovery, and I believe it fits right in with the Maker Faire community."
-  image-primary: /assets/images/exhibit-images/25-85-maker-what-is-letterboxing-inbound4559790138162629101-medium.jpg
+  image-primary:
+    url: /assets/images/exhibit-images/25-85-m-what-is-letterboxing-inbound4559790138162629101-112x150.jpg
+    width: 112
+    height: 150
 categories: 
   - slug: art
     name: Art
@@ -45,7 +72,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-07-13 13:29:50"
 last-modified-jotform: "2025-07-13 14:34:59"
-last-exported: "2025-07-26 22:56:10"
+last-exported: "2025-07-27 11:25:06"
 sitemap: false
 
 ---

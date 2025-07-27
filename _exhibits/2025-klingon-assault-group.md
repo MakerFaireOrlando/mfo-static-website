@@ -8,16 +8,31 @@ exhibit-id: 25-32
 space-number: Unassigned
 description: "Various props from the various Star Trek series (homemade)"
 description-long: "Various props from the various Star Trek series (homemade)"
-image: /assets/images/exhibit-images/25-32-exhibit-klingon-assault-group-klin-zha-board-large.jpg
+image: /assets/images/exhibit-images/25-32-e-klingon-assault-group-klin-zha-board-246x300.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/25-32-exhibit-klingon-assault-group-klin-zha-board-small.jpg
-  medium: /assets/images/exhibit-images/25-32-exhibit-klingon-assault-group-klin-zha-board-medium.jpg
-  large: /assets/images/exhibit-images/25-32-exhibit-klingon-assault-group-klin-zha-board-large.jpg
-  full: /assets/images/exhibit-images/25-32-exhibit-klingon-assault-group-klin-zha-board-full.jpg
+  full:
+    url: /assets/images/exhibit-images/25-32-e-klingon-assault-group-klin-zha-board-full.jpg
+    width: 461
+    height: 563
+  small:
+    url: /assets/images/exhibit-images/25-32-e-klingon-assault-group-klin-zha-board-123x150.jpg
+    width: 123
+    height: 150
+  medium:
+    url: /assets/images/exhibit-images/25-32-e-klingon-assault-group-klin-zha-board-246x300.jpg
+    width: 246
+    height: 300
+  large:
+    url: /assets/images/exhibit-images/25-32-e-klingon-assault-group-klin-zha-board-461x563.jpg
+    width: 461
+    height: 563
 maker: 
   name: "Klingon Assault Group"
   description: "Star Trek fan group"
-  image-primary: /assets/images/exhibit-images/25-32-maker-klingon-assault-group-meet-kag-medium.png
+  image-primary:
+    url: /assets/images/exhibit-images/25-32-m-klingon-assault-group-meet-kag-150x129.png
+    width: 150
+    height: 129
   website: http://kag.org
 categories: 
   - slug: 3d-printing
@@ -32,7 +47,7 @@ categories:
     name: Handmade
 created-jotform: "2025-06-12 07:56:52"
 last-modified-jotform: "2025-07-06 14:27:28"
-last-exported: "2025-07-26 22:56:12"
+last-exported: "2025-07-27 11:30:22"
 sitemap: false
 
 ---

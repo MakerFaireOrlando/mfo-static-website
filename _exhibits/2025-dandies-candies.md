@@ -8,28 +8,67 @@ exhibit-id: 25-35
 space-number: Unassigned
 description: "Handcrafted Vintage 3D Lollipops"
 description-long: "Handcrafted Vintage 3D Lollipops, hard Pillow Candies, Brittle Brattle, Crystal Candies and more. Lollipops are made with molds from the 1880's-1940's"
-image: /assets/images/exhibit-images/25-35-exhibit-dandies-candies-20241018-132144-large.jpg
+image: /assets/images/exhibit-images/25-35-e-dandies-candies-20241018-132144-225x300.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/25-35-exhibit-dandies-candies-20241018-132144-small.jpg
-  medium: /assets/images/exhibit-images/25-35-exhibit-dandies-candies-20241018-132144-medium.jpg
-  large: /assets/images/exhibit-images/25-35-exhibit-dandies-candies-20241018-132144-large.jpg
-  full: /assets/images/exhibit-images/25-35-exhibit-dandies-candies-20241018-132144-full.jpg
+  full:
+    url: /assets/images/exhibit-images/25-35-e-dandies-candies-20241018-132144-full.jpg
+    width: 4000
+    height: 3000
+  small:
+    url: /assets/images/exhibit-images/25-35-e-dandies-candies-20241018-132144-112x150.jpg
+    width: 112
+    height: 150
+  medium:
+    url: /assets/images/exhibit-images/25-35-e-dandies-candies-20241018-132144-225x300.jpg
+    width: 225
+    height: 300
+  large:
+    url: /assets/images/exhibit-images/25-35-e-dandies-candies-20241018-132144-768x1024.jpg
+    width: 768
+    height: 1024
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-35-exhibit-addl1-dandies-candies-grinch-small.jpg
-    medium: /assets/images/exhibit-images/25-35-exhibit-addl1-dandies-candies-grinch-medium.jpg
-    large: /assets/images/exhibit-images/25-35-exhibit-addl1-dandies-candies-grinch-large.jpg
-    full: /assets/images/exhibit-images/25-35-exhibit-addl1-dandies-candies-grinch-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-35-e1-dandies-candies-grinch-full.jpg
+      width: 640
+      height: 481
+    small:
+      url: /assets/images/exhibit-images/25-35-e1-dandies-candies-grinch-150x113.jpg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/25-35-e1-dandies-candies-grinch-300x225.jpg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/25-35-e1-dandies-candies-grinch-640x481.jpg
+      width: 640
+      height: 481
   - 2:
-    small: /assets/images/exhibit-images/25-35-exhibit-addl2-dandies-candies-lollis-small.jpg
-    medium: /assets/images/exhibit-images/25-35-exhibit-addl2-dandies-candies-lollis-medium.jpg
-    large: /assets/images/exhibit-images/25-35-exhibit-addl2-dandies-candies-lollis-large.jpg
-    full: /assets/images/exhibit-images/25-35-exhibit-addl2-dandies-candies-lollis-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-35-e2-dandies-candies-lollis-full.jpg
+      width: 640
+      height: 476
+    small:
+      url: /assets/images/exhibit-images/25-35-e2-dandies-candies-lollis-150x112.jpg
+      width: 150
+      height: 112
+    medium:
+      url: /assets/images/exhibit-images/25-35-e2-dandies-candies-lollis-300x223.jpg
+      width: 300
+      height: 223
+    large:
+      url: /assets/images/exhibit-images/25-35-e2-dandies-candies-lollis-640x476.jpg
+      width: 640
+      height: 476
 website: "https://www.dandiescandiesfl.com"
 maker: 
   name: "Dan Cote"
   description: "Handcrafted Vintage 3D lollipops"
-  image-primary: /assets/images/exhibit-images/25-35-maker-dandies-candies-original-size-original-size-lollipop-shapes-medium.png
+  image-primary:
+    url: /assets/images/exhibit-images/25-35-m-dandies-candies-original-size-original-size-lollipop-shapes-150x150.png
+    width: 150
+    height: 150
   website: https://www.dandiescandiesfl.com
   instagram: https://www.instagram.com/dandiescandiesfl/
   facebook: https://www.facebook.com/DandiesCandiesFL/
@@ -45,7 +84,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-06-13 20:34:45"
 last-modified-jotform: "2025-06-24 15:46:41"
-last-exported: "2025-07-26 22:56:12"
+last-exported: "2025-07-27 11:29:50"
 sitemap: false
 
 ---

@@ -8,19 +8,34 @@ exhibit-id: 25-91
 space-number: Unassigned
 description: "Learn to use your first powertool from our amazing women engineers dressed as princesses!"
 description-long: "Attendees will learn to use a power drill from women engineers dressed as princesses, and will leave with a take-away souvenir constellation projector they made themselves. We’ll be bringing our drill booths, power tools, princesses, and all the materials needed."
-image: /assets/images/exhibit-images/25-91-exhibit-princesses-with-powertools-learn-to-hand-drill-20230401-093352-large.jpeg
+image: /assets/images/exhibit-images/25-91-e-princesses-with-powertools-learn-to-hand-drill-20230401-093352-300x146.jpeg
 image-primary: 
-  small: /assets/images/exhibit-images/25-91-exhibit-princesses-with-powertools-learn-to-hand-drill-20230401-093352-small.jpeg
-  medium: /assets/images/exhibit-images/25-91-exhibit-princesses-with-powertools-learn-to-hand-drill-20230401-093352-medium.jpeg
-  large: /assets/images/exhibit-images/25-91-exhibit-princesses-with-powertools-learn-to-hand-drill-20230401-093352-large.jpeg
-  full: /assets/images/exhibit-images/25-91-exhibit-princesses-with-powertools-learn-to-hand-drill-20230401-093352-full.jpeg
+  full:
+    url: /assets/images/exhibit-images/25-91-e-princesses-with-powertools-learn-to-hand-drill-20230401-093352-full.jpeg
+    width: 2560
+    height: 1244
+  small:
+    url: /assets/images/exhibit-images/25-91-e-princesses-with-powertools-learn-to-hand-drill-20230401-093352-150x73.jpeg
+    width: 150
+    height: 73
+  medium:
+    url: /assets/images/exhibit-images/25-91-e-princesses-with-powertools-learn-to-hand-drill-20230401-093352-300x146.jpeg
+    width: 300
+    height: 146
+  large:
+    url: /assets/images/exhibit-images/25-91-e-princesses-with-powertools-learn-to-hand-drill-20230401-093352-1024x498.jpeg
+    width: 1024
+    height: 498
 website: "https://www.reinventedmagazine.com/princesses-with-powertools"
 video: "https://youtu.be/FmwELOx01cM?feature=shared"
 video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/FmwELOx01cM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="How Xyla Foxlin Got Started On YouTube || WATT&#39;S UP GIRL EP. 1"></iframe>'
 maker: 
   name: "Reinvented Inc."
   description: "Reinvented Inc. is a 501(c)(3) nonprofit that works to empower and inspire the next generation of girls in science, technology, engineering, technology (STEM), and making."
-  image-primary: /assets/images/exhibit-images/25-91-maker-princesses-with-powertools-learn-to-hand-drill-pwp2-medium.jpg
+  image-primary:
+    url: /assets/images/exhibit-images/25-91-m-princesses-with-powertools-learn-to-hand-drill-pwp2-150x113.jpg
+    width: 150
+    height: 113
   website: https://www.reinventedmagazine.com
   instagram: https://www.instagram.com/reinventedmagazine
   facebook: https://www.facebook.com/ReinventedMagazine/
@@ -40,7 +55,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-07-15 15:30:18"
 last-modified-jotform: "2025-07-25 22:42:57"
-last-exported: "2025-07-26 22:56:10"
+last-exported: "2025-07-27 11:24:23"
 sitemap: false
 
 ---

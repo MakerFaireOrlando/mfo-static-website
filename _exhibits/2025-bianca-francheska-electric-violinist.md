@@ -8,25 +8,52 @@ exhibit-id: 25-69
 space-number: Unassigned
 description: "Electric Violinist"
 description-long: "Electric Violinist plays pop songs, classic anime, videogame music, and original songs!"
-image: /assets/images/exhibit-images/25-69-exhibit-bianca-francheska-electric-violinist-img-3694-9583-large.PNG
+image: /assets/images/exhibit-images/25-69-e-bianca-francheska-electric-violinist-img-3694-9583-225x300.PNG
 image-primary: 
-  small: /assets/images/exhibit-images/25-69-exhibit-bianca-francheska-electric-violinist-img-3694-9583-small.PNG
-  medium: /assets/images/exhibit-images/25-69-exhibit-bianca-francheska-electric-violinist-img-3694-9583-medium.PNG
-  large: /assets/images/exhibit-images/25-69-exhibit-bianca-francheska-electric-violinist-img-3694-9583-large.PNG
-  full: /assets/images/exhibit-images/25-69-exhibit-bianca-francheska-electric-violinist-img-3694-9583-full.PNG
+  full:
+    url: /assets/images/exhibit-images/25-69-e-bianca-francheska-electric-violinist-img-3694-9583-full.PNG
+    width: 1620
+    height: 2160
+  small:
+    url: /assets/images/exhibit-images/25-69-e-bianca-francheska-electric-violinist-img-3694-9583-112x150.PNG
+    width: 112
+    height: 150
+  medium:
+    url: /assets/images/exhibit-images/25-69-e-bianca-francheska-electric-violinist-img-3694-9583-225x300.PNG
+    width: 225
+    height: 300
+  large:
+    url: /assets/images/exhibit-images/25-69-e-bianca-francheska-electric-violinist-img-3694-9583-768x1024.PNG
+    width: 768
+    height: 1024
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-69-exhibit-addl1-bianca-francheska-electric-violinist-img-3668-small.jpg
-    medium: /assets/images/exhibit-images/25-69-exhibit-addl1-bianca-francheska-electric-violinist-img-3668-medium.jpg
-    large: /assets/images/exhibit-images/25-69-exhibit-addl1-bianca-francheska-electric-violinist-img-3668-large.jpg
-    full: /assets/images/exhibit-images/25-69-exhibit-addl1-bianca-francheska-electric-violinist-img-3668-full.jpg
+    full:
+      url: /assets/images/exhibit-images/25-69-e1-bianca-francheska-electric-violinist-img-3668-full.jpg
+      width: 2160
+      height: 1212
+    small:
+      url: /assets/images/exhibit-images/25-69-e1-bianca-francheska-electric-violinist-img-3668-150x84.jpg
+      width: 150
+      height: 84
+    medium:
+      url: /assets/images/exhibit-images/25-69-e1-bianca-francheska-electric-violinist-img-3668-300x168.jpg
+      width: 300
+      height: 168
+    large:
+      url: /assets/images/exhibit-images/25-69-e1-bianca-francheska-electric-violinist-img-3668-1024x575.jpg
+      width: 1024
+      height: 575
 website: "https://www.biancafrancheska.com"
 video: "https://youtu.be/m6Owws5esv4?si=GtiSDnqYs2JRCMTs"
 video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/m6Owws5esv4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="Bianca Francheska- Andromeda (Official Music Video)"></iframe>'
 maker: 
   name: "Bianca Francheska"
   description: "Electric Violinist playing pop songs, anime and videogame music."
-  image-primary: /assets/images/exhibit-images/25-69-maker-bianca-francheska-electric-violinist-img-3694-medium.PNG
+  image-primary:
+    url: /assets/images/exhibit-images/25-69-m-bianca-francheska-electric-violinist-img-3694-112x150.PNG
+    width: 112
+    height: 150
   website: https://www.biancafrancheska.com
   instagram: https://www.instagram.com/bfrancheska_?igsh=MXV3bWJhd2Z5OGhwcQ==
   facebook: https://www.facebook.com/share/16VjGBKKFK/
@@ -47,7 +74,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-07-06 14:45:25"
 last-modified-jotform: "2025-07-14 19:30:49"
-last-exported: "2025-07-26 22:56:11"
+last-exported: "2025-07-27 11:26:34"
 sitemap: false
 
 ---

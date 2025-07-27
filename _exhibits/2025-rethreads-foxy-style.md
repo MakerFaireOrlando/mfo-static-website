@@ -12,18 +12,42 @@ description-long: "Erin Fox grew up in a home in Maryland nearly as old as the r
 Erin's business name came from what was her mother's business name. reThreads. But, now she is walking in her own style, reThreads: Foxy Style. Her husband purchased a Laser at the beginning of Covid and that was what catapulted her business making 3d Laser Cut Wooden Art. As a Mother and Wife her art helps put food on the table and pave the way for her kids to create their own dreams.
 
 Erin is based out of Howey-in-the-Hills, Florida but can be found throughout Central Florida at various craft shows and festivals!"
-image: /assets/images/exhibit-images/25-10-exhibit-rethreads-foxy-style-booth-pic-large.jpg
+image: /assets/images/exhibit-images/25-10-e-rethreads-foxy-style-booth-pic-225x300.jpg
 image-primary: 
-  small: /assets/images/exhibit-images/25-10-exhibit-rethreads-foxy-style-booth-pic-small.jpg
-  medium: /assets/images/exhibit-images/25-10-exhibit-rethreads-foxy-style-booth-pic-medium.jpg
-  large: /assets/images/exhibit-images/25-10-exhibit-rethreads-foxy-style-booth-pic-large.jpg
-  full: /assets/images/exhibit-images/25-10-exhibit-rethreads-foxy-style-booth-pic-full.jpg
+  full:
+    url: /assets/images/exhibit-images/25-10-e-rethreads-foxy-style-booth-pic-full.jpg
+    width: 3024
+    height: 4032
+  small:
+    url: /assets/images/exhibit-images/25-10-e-rethreads-foxy-style-booth-pic-112x150.jpg
+    width: 112
+    height: 150
+  medium:
+    url: /assets/images/exhibit-images/25-10-e-rethreads-foxy-style-booth-pic-225x300.jpg
+    width: 225
+    height: 300
+  large:
+    url: /assets/images/exhibit-images/25-10-e-rethreads-foxy-style-booth-pic-768x1024.jpg
+    width: 768
+    height: 1024
 additional-images: 
   - 1:
-    small: /assets/images/exhibit-images/25-10-exhibit-addl1-rethreads-foxy-style-scene-1-small.jpeg
-    medium: /assets/images/exhibit-images/25-10-exhibit-addl1-rethreads-foxy-style-scene-1-medium.jpeg
-    large: /assets/images/exhibit-images/25-10-exhibit-addl1-rethreads-foxy-style-scene-1-large.jpeg
-    full: /assets/images/exhibit-images/25-10-exhibit-addl1-rethreads-foxy-style-scene-1-full.jpeg
+    full:
+      url: /assets/images/exhibit-images/25-10-e1-rethreads-foxy-style-scene-1-full.jpeg
+      width: 3024
+      height: 4032
+    small:
+      url: /assets/images/exhibit-images/25-10-e1-rethreads-foxy-style-scene-1-112x150.jpeg
+      width: 112
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-10-e1-rethreads-foxy-style-scene-1-225x300.jpeg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-10-e1-rethreads-foxy-style-scene-1-768x1024.jpeg
+      width: 768
+      height: 1024
 website: "http://www.rethreadsfoxystyle.com"
 maker: 
   name: "Erin Fox"
@@ -34,7 +58,10 @@ Erin Fox grew up in a home in Maryland nearly as old as the radio. It was her pa
 Erin's business name came from what was her mother's business name. reThreads. But, now she is walking in her own style, reThreads: Foxy Style. Her husband purchased a Laser at the beginning of Covid and that was what catapulted her business making 3d Laser Cut Wooden Art. As a Mother and Wife her art helps put food on the table and pave the way for her kids to create their own dreams.
 
 Erin is based out of Howey-in-the-Hills, Florida but can be found throughout Central Florida at various craft shows and festivals!"
-  image-primary: /assets/images/exhibit-images/25-10-maker-rethreads-foxy-style-rethreads-logo-medium.jpg
+  image-primary:
+    url: /assets/images/exhibit-images/25-10-m-rethreads-foxy-style-rethreads-logo-150x94.jpg
+    width: 150
+    height: 94
   website: http://rethreadsfoxystyle.com
   instagram: https://www.instagram.com/rethreadsfoxystyle
   facebook: https://www.facebook.com/rethreadsfoxystyle.com
@@ -50,7 +77,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-05-28 18:39:50"
 last-modified-jotform: "2025-06-23 21:03:28"
-last-exported: "2025-07-26 22:56:14"
+last-exported: "2025-07-27 11:33:07"
 sitemap: false
 
 ---
