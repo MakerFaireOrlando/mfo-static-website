@@ -136,10 +136,12 @@ def getAnswerByName (aDict, id):
     print ("Error: getAnswerByName - " + id)
     sys.exit(1)
 
+
 # save image locally if not exists
-# return local url
+# return local url for each size 
 def processImage(eid, eslug, type, url):
 
+  fileData = []
   a = parse.urlparse(url)
   aFn, aFnExt = os.path.splitext(url)
   #print aFnExt
@@ -148,12 +150,8 @@ def processImage(eid, eslug, type, url):
 
   base = "../assets/images/exhibit-images/" + eid + "-" + type + "-" + eslug + "-" + last
   fullFn      = base + "-full"    + aFnExt
-  smallFn     = base + "-small"   + aFnExt
-  mediumFn    = base + "-medium"  + aFnExt
-  largeFn     = base + "-large"   + aFnExt
 
-  filenames = (smallFn, mediumFn, largeFn, fullFn)
-
+  #check for local version of full size image
   if not path.exists(fullFn):
     url = url.replace(" ", "%20")
     print ("Downloading: " + url)
@@ -165,44 +163,57 @@ def processImage(eid, eslug, type, url):
     url = urllib.parse.urlunsplit(url)
     print(url)
 
-    #print (fullFn)
-    #resource = urllib.request.urlopen(url)
     import requests
     r = requests.get(url)
-    #print (r)
 
-    #print (resource)
     output = open(fullFn,"wb")
     output.write(r.content)
     output.close()
+  
+  #get sizes even though we don't need to save
+  image = Image.open(fullFn)
+  final_width, final_height = image.size
+  fileData.append ([fullFn, final_width, final_height])
 
-  if not path.exists(smallFn):
-    # creating a object
-    image = Image.open(fullFn)
-    image = ImageOps.exif_transpose(image)
-    image.thumbnail((150,150))
-    image.save(smallFn)
+  #resize to small to get the dimensions, and if filename doesnt exist, write it
+  image = Image.open(fullFn)
+  image = ImageOps.exif_transpose(image)
+  image.thumbnail((150,150))
+  if image.mode != 'RGB':
+      image = image.convert('RGB')      
+  final_width, final_height = image.size
+  fn = base + "-" + str(final_width) + "x" + str(final_height) + aFnExt
+  fileData.append ([fn, final_width, final_height])
+  if not path.exists(fn):
+    image.save(fn, optimize=True)
 
-  if not path.exists(mediumFn):
-    # creating a object
-    image = Image.open(fullFn)
-    image = ImageOps.exif_transpose(image)
-    image.thumbnail((300,300))
-    image.save(mediumFn)
+  #resize to medium
+  image = Image.open(fullFn)
+  image = ImageOps.exif_transpose(image)
+  image.thumbnail((300,300))
+  if image.mode != 'RGB':
+      image = image.convert('RGB')      
+  final_width, final_height = image.size
+  fn = base + "-" + str(final_width) + "x" + str(final_height) + aFnExt
+  fileData.append ([fn, final_width, final_height])
+  if not path.exists(fn):
+    image.save(fn, optimize=True)
 
-  if not path.exists(largeFn):
-    # creating a object
-    image = Image.open(fullFn)
-    image = ImageOps.exif_transpose(image)
-    image.thumbnail((1024,1024))
-    #23-135 yielded error - https://stackoverflow.com/questions/21669657/getting-cannot-write-mode-p-as-jpeg-while-operating-on-jpg-image
-    #should I do this for every size??
-    if image.mode != 'RGB':
-        image = image.convert('RGB')
-    image.save(largeFn)
+  #resize to large
+  image = Image.open(fullFn)
+  image = ImageOps.exif_transpose(image)
+  image.thumbnail((1024,1024))
+  if image.mode != 'RGB':
+      image = image.convert('RGB')      
+  final_width, final_height = image.size
+  fn = base + "-" + str(final_width) + "x" + str(final_height) + aFnExt
+  fileData.append ([fn, final_width, final_height])
+  if not path.exists(fn):
+    image.save(fn, optimize=True)
 
 
-  return filenames
+  
+  return fileData
 
 def socialURLClean(url,name):
   social = urlparse(url)
@@ -363,7 +374,8 @@ def export(outputAll):
               
           uniqueCategories.update(categories)
             
-          exhibitImage    = processImage(mfoID,slug,"exhibit",getAnswerByName(ans,"exhibitImage")[0])
+          #exhibitImage    = processImage(mfoID,slug,"e",getAnswerByName(ans,"exhibitImage")[0])
+          exhibitImage    = getAnswerByName(ans,"exhibitImage")
 
           exhibitAddlImages = getAnswerByName(ans,"exhibitImage44")
 
@@ -376,7 +388,9 @@ def export(outputAll):
           #jotform currently does not let you change the field name of these image fields :(
           #it looks possible via API, but trying to keep it simple at the moment :)
 
-          makerImage      = processImage(mfoID,slug,"maker",getAnswerByName(ans,"maker18")[0])
+          #makerImage      = processImage(mfoID,slug,"m",getAnswerByName(ans,"maker18")[0])
+          makerImage      = getAnswerByName(ans,"maker18")
+          
           makerEmail      = getAnswerByName(ans,"makerEmail")
           makerWebsite    = getAnswerByName(ans,"makerWebsite")
           makerTwitter    = getAnswerByName(ans,"makerTwitter")
@@ -503,14 +517,32 @@ def export(outputAll):
             outfile.write("description: " + '"' + descShort + '"' + "\n")
             outfile.write("description-long: " + '"' + descLong + '"' + "\n")
 
-            outfile.write("image: "   + exhibitImage[2][2:] + "\n")
-
+           
+            image = processImage(mfoID,slug,"e",exhibitImage[0])
+            outfile.write("image: "   + image[2][0][2:] + "\n")
 
             outfile.write("image-primary: \n")
-            outfile.write("  small: "   + exhibitImage[0][2:] + "\n")
-            outfile.write("  medium: "  + exhibitImage[1][2:] + "\n")
-            outfile.write("  large: "   + exhibitImage[2][2:] + "\n")
-            outfile.write("  full: "    + exhibitImage[3][2:] + "\n")
+
+            outfile.write("  full:\n")
+            outfile.write("    url: "    + image[0][0][2:] + "\n")
+            outfile.write("    width: "   + str(image[0][1]) + "\n")
+            outfile.write("    height: "   + str(image[0][2]) + "\n")
+
+            outfile.write("  small:\n")
+            outfile.write("    url: "      + image[1][0][2:] + "\n")
+            outfile.write("    width: "    + str(image[1][1]) + "\n")
+            outfile.write("    height: "   + str(image[1][2]) + "\n")
+            
+            outfile.write("  medium:\n")
+            outfile.write("    url: "  + image[2][0][2:] + "\n")
+            outfile.write("    width: "   + str(image[2][1]) + "\n")
+            outfile.write("    height: "   + str(image[2][2]) + "\n")
+
+            outfile.write("  large:\n")
+            outfile.write("    url: "   + image[3][0][2:] + "\n")
+            outfile.write("    width: "   + str(image[3][1]) + "\n")
+            outfile.write("    height: "   + str(image[3][2]) + "\n")
+
 
             if len(exhibitAddlImages) > 0:
               outfile.write("additional-images: \n")
@@ -518,13 +550,28 @@ def export(outputAll):
             i=1
             for addlImage in exhibitAddlImages:
 
-              image = processImage(mfoID,slug,"exhibit-addl" + str(i),addlImage)
+              image = processImage(mfoID,slug,"e" + str(i),addlImage)
 
               outfile.write("  - " + str(i) + ":\n")
-              outfile.write("    small: "   + image[0][2:] + "\n")
-              outfile.write("    medium: "  + image[1][2:] + "\n")
-              outfile.write("    large: "   + image[2][2:] + "\n")
-              outfile.write("    full: "    + image[3][2:] + "\n")
+              outfile.write("    full:\n")
+              outfile.write("      url: "    + image[0][0][2:] + "\n")
+              outfile.write("      width: "   + str(image[0][1]) + "\n")
+              outfile.write("      height: "   + str(image[0][2]) + "\n")
+
+              outfile.write("    small:\n")
+              outfile.write("      url: "      + image[1][0][2:] + "\n")
+              outfile.write("      width: "    + str(image[1][1]) + "\n")
+              outfile.write("      height: "   + str(image[1][2]) + "\n")
+              
+              outfile.write("    medium:\n")
+              outfile.write("      url: "  + image[2][0][2:] + "\n")
+              outfile.write("      width: "   + str(image[2][1]) + "\n")
+              outfile.write("      height: "   + str(image[2][2]) + "\n")
+
+              outfile.write("    large:\n")
+              outfile.write("      url: "   + image[3][0][2:] + "\n")
+              outfile.write("      width: "   + str(image[3][1]) + "\n")
+              outfile.write("      height: "   + str(image[3][2]) + "\n")              
               i = i+1
 
             if exhibitWebsite is not None:
@@ -537,11 +584,16 @@ def export(outputAll):
                 outfile.write("video-embed: " + "'" + exhibitVideoEmbed + "'" + "\n")
 
 
-            #maker info
+            #maker info     
             outfile.write("maker: \n")
-            outfile.write ("  name: " + '"' + makerName + '"' + "\n")
-            outfile.write ("  description: " + '"' + makerDesc + '"' + "\n")
-            outfile.write ("  image-primary: " + makerImage[1][2:] + "\n")
+            outfile.write("  name: " + '"' + makerName + '"' + "\n")
+            outfile.write("  description: " + '"' + makerDesc + '"' + "\n")
+
+            image = processImage(mfoID,slug,"m",makerImage[0])
+            outfile.write("  image-primary:\n")
+            outfile.write("    url: "   + image[1][0][2:] + "\n")
+            outfile.write("    width: "   + str(image[1][1]) + "\n")
+            outfile.write("    height: "   + str(image[1][2]) + "\n")              
 
             #Let's stop listing email on the site, too easy to scrape...
             #if makerEmail is not None: outfile.write("email: " + makerEmail + "\n")

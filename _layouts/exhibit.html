@@ -16,7 +16,8 @@
 
     <h1>{{page.title}}</h1>
     <div>
-      <img class="img-responsive entry-image" src="{{page.image-primary.large}}" alt="{{page.title}}">
+      <img class="img-responsive entry-image" src="{{page.image-primary.large.url}}" 
+          style="width:{{page.image-primary.large.width}}px; height:{{page.image-primary.large.height}}px;" alt="{{page.title}}">
       <p class="lead">{{page.description-long | newline_to_br}}</p>
 
       {% if page.website %}
@@ -80,7 +81,8 @@
                   {%- else -%}
                     <div class="item">
                   {%- endif -%}
-                     <img src="{{image.large}}" alt="{{page.title}} - exhibit image {{forloop.index}}">
+                     <img src="{{image.large.url}}" style="width:{{image.large.width}}px; height:{{image.large.height}}px;" 
+                        alt="{{page.title}} - exhibit image {{forloop.index}}">
                    </div>
               {%- endfor -%}
 
@@ -102,7 +104,8 @@
 
     <h2>Maker</h2><hr>
       <div class="row center-block maker-profile-row">
-        <img class="col-md-3 pull-left img-responsive" src="{{page.maker.image-primary}}" alt="{{page.maker.name}}">
+        <img class="col-md-3 pull-left img-responsive" src="{{page.maker.image-primary.url}}" 
+            style="width:{{page.maker.image-primary.width}}px; height:{{page.maker.image-primary.height}}px;" alt="{{page.maker.name}}">
         <div class="col-md-7">
           <h3>{{page.maker.name}}</h3>
               {{page.maker.description}}
