@@ -12,10 +12,6 @@ carousel-slides:
     caption: Meet your heroes!
     url: /exhibits/
 
-  - image: /assets/images/slider/Hype-or-shock-crusty-grab.jpg  
-    caption: Fighting Robots!
-    url: /combat-robots/
-
   - image: /assets/images/slider/learn-to-solder-2019.jpg
     caption: Learn how to makes something!
     url: /exhibits/categories/hands-on-workshop/
