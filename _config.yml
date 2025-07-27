@@ -40,6 +40,7 @@ defaults:
       type: "exhibits" # a collection in your site, in plural form
     values:
       layout: "exhibit"
+      #sitemap: #this is specified on each individual exhibit md file
   -
     scope: 
       path: ""
