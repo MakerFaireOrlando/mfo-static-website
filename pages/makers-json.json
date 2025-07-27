@@ -1,9 +1,13 @@
 ---
 #front matter required!
+
 permalink: /makers-json/
+sitemap: false
+
 #whitespace is a pain with this version of jekyll
 #thats why all the contol tags are inline
 #update - learned about the {%- -%} syntax
+
 ---
 
 { "attend_link": "https://www.makerfaireorlando.com/attend/",

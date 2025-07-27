@@ -3,6 +3,7 @@ title: Redirect to Maker Faire Waiver
 permalink: /waiver/
 layout: default
 sitemap: false #adding this so google webmaster tools will stop warning that it is marked nofollow
+noindex: true
 ---
 ### Redirecting to Maker Faire Orlando Waiver...
 

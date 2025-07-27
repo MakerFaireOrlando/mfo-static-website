@@ -1,6 +1,8 @@
 ---
 #front matter required!
 permalink: /schedule-json/
+sitemap: false
+
 #whitespace is a pain with this version of jekyll
 #thats why all the contol tags are inline
 ---

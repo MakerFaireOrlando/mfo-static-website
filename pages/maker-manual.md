@@ -4,6 +4,7 @@ layout: default
 permalink: /maker-manual/
 image:
 sitemap: false
+noindex: true
 
 
 ---

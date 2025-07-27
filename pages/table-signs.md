@@ -4,6 +4,7 @@ permalink: /table-signs/
 redirect: /tablesigns/
 layout: table-signs
 sitemap: false
+noindex: true
 ---
 
 {% for exhibit in site.exhibits limit: page.limit %}
