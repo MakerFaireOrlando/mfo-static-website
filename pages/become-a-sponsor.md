@@ -39,7 +39,7 @@ If you'd like to help support STEAM (Science, Technology, Engineering, Arts & Ma
 
   <div class="row padbottom">
     <div class="col-xs-12">
-      <h2 class="pull-left">{{site.event_year}} Sponsors</h2>
+      <h2 class="pull-left">{{site.sponsor_year}} Sponsors</h2>
 
     </div>
   </div>
