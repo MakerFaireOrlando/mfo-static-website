@@ -5,7 +5,7 @@
                           {%- endfor -%}">
           <div class="img-container"><a href="{{exhibit.url}}">
             <img src="{{exhibit.image-primary.medium.url}}" alt="{{exhibit.title}}" 
-                style="width:{{exhibit.image-primary.medium.width}}px; height:{{exhibit.image-primary.medium.height}}px"></a>
+                width="{{exhibit.image-primary.medium.width}}" height="{{exhibit.image-primary.medium.height}}"></a>
           </div>
           <div class="title-container"><a href="{{exhibit.url}}">{{exhibit.title}}</a></div>
           <div class="description-container" style="display:none">{{exhibit.description}}</div>
