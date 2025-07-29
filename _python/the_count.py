@@ -1,4 +1,7 @@
 import sys
+print("Launching script...", flush=True)
+print("This goes to stderr", file=sys.stderr, flush=True)
+
 import yaml
 import unicodedata
 import os
@@ -115,13 +118,16 @@ def count():
     global slackToken
     global eventID
 
-    if path.exists('private.yaml'):
-      yamlFile = 'private.yaml'
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(script_dir, "private.yaml")
+
+    if path.exists(file_path):
+      print("Settings file found.")
     else:
-      print("Error: Cannot locate settings file")
+      print("Error: Cannot locate settings file.")
       sys.exit(1)
 
-    with open(yamlFile) as settingsFile:
+    with open(file_path) as settingsFile:
       settings = yaml.load(settingsFile, Loader = yaml.FullLoader)
       #print (settings)
 
@@ -145,8 +151,9 @@ def count():
         total = data.get("total")
         print("Total Tickets:", total)
 
-        #get last count        
-        with open("tickets-last-count.txt", "r") as file:
+        #get last count 
+        file_path = os.path.join(script_dir, "tickets-last-count.txt")       
+        with open(file_path, "r") as file:
             total_last = int(file.read())
         print ("Last Count:   ", total_last)
 
