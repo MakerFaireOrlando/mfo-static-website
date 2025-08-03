@@ -62,8 +62,8 @@ categories:
   - slug: jewelry
     name: Jewelry
 created-jotform: "2025-07-21 09:51:48"
-last-modified-jotform: "2025-07-25 23:09:38"
-last-exported: "2025-07-27 11:24:13"
+last-modified-jotform: "2025-08-03 16:58:42"
+last-exported: "2025-08-03 17:08:24"
 sitemap: false
 
 ---
