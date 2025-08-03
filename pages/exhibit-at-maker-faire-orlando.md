@@ -37,7 +37,11 @@ Our application deadline has passed, and we are no longer accepting new exhibit 
 <br><br>
 {%endcomment%}
 
-#### Our Call For Makers deadline is July 31st.
+#### We are seeking applications for individual and community group projects, art and more!  
+Our Call For Makers deadline was July 31st, however we are still looking to add compelling exhibits.
+
+**Selling makers: You are welcome to continue to submit applications and they will be added to our waitlist in the event we have selling exhibit cancellations.** Interior space will be most limited, indicating flexibility on location (indoor / outdoor) will increase your odds of being accepted.
+
 
 <br><br>
 
