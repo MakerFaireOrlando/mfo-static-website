@@ -20,7 +20,7 @@ sponsors:
     url: https://jobs.universalparks.com/universal-creative/
     logo: universal-creative.png
     level: 3
-    active: true
+    active: false
   - name: Disney
     url: https://disneyconnect.com/disneyworld/
     logo: Disney-Red-4C.png
@@ -30,37 +30,27 @@ sponsors:
     url: https://www.prusa3d.com/
     logo: prusaresearch.png
     level: 3
-    active: true
+    active: false
   - name: Boca Bearing
     url: https://www.bocabearings.com/
     logo: BB-logo-full-color-small.png
     level: 4
-    active: true
+    active: false
   - name: TLC Engineering
     url: https://tlc-engineers.com/
     logo: tlc-engineering.jpg
     level: 5
-    active: true
+    active: false
   - name: DeltaMaker 3D Printers
     url: https://www.deltamaker.com
     logo: deltamaker-logo-3d-printers.png
-    level: 4
-    active: true
-  - name: Watershed Innovation
-    url: http://www.correctcraft.com/watershed/
-    logo: watershed-v5.png
-    level: 4
-    active: false
-  - name: OpenBuilds
-    url: https://openbuilds.com/
-    logo: OpenBuilds.png
     level: 4
     active: false
   - name: Dorado Graphix
     url: https://doradographix.com/
     logo: DoradoLogo.jpg
     level: 4
-    active: true
+    active: false
   - name: Skycraft
     url: https://www.skycraftsurplus.com
     logo: skycraft_saucer_logo_wht-line-Maker.png
@@ -70,35 +60,25 @@ sponsors:
     url: https://www.brasfieldgorrie.com/
     logo: Brasfield-Gorrie-Logo-Blue-JPG-border.jpg
     level: 3
-    active: true
+    active: false
   - name: Amphenol Custom Cable
     url: http://www.customcable.com/
     logo: amphenol.jpg
     level: 5
-    active: true
+    active: false
   - name: BetaFPV
     url: https://www.betafpv.com
     logo: beta-fpv-transparent.png
     level: 4
-    active: true
+    active: false
   - name: SainSmart
     url: https://www.sainsmart.com
     logo: sainsmart.jpg
     level: 4
-    active: true
-  - name: Fulament
-    url: https://www.fulament.com
-    logo: fulament.png
-    level: 5
     active: false
   - name: Wiring Technologies
     url: https://wiringtech.com/
     logo: WTI_Logo.png
-    level: 5
-    active: true
-  - name: Remix
-    url: https://remixed.net
-    logo: remixed-logo.png
     level: 5
     active: false
   - name: Digital Warpaint
@@ -106,16 +86,6 @@ sponsors:
     logo: digital-warpaint.png
     level: 4
     active: true
-  - name: FLUX
-    url: https://www.flux3dp.com
-    logo: flux.png
-    level: 4
-    active: false
-  - name: Revopoint
-    url: https://www.revopoint3d.com
-    logo: revopoint.png
-    level: 4
-    active: false
   - name: PCBWay
     url: https://www.pcbway.com
     logo: pcbway.png
@@ -125,17 +95,17 @@ sponsors:
     url: https://thefloridatriallawyer.com/
     logo: parikh_law.png
     level: 5
-    active: true
+    active: false
   - name: Orange Technical College
     url: https://www.orangetechcollege.net/
     logo: OTC_Horiz.png
     level: 4
-    active: true
+    active: false
   - name: EPAX 3D
     url: https://epax3d.com/
     logo: EPAX-3D-Black-Logo.png
     level: 4
-    active: true
+    active: false
   - name: Devusol
     url: https://devusol.com/
     logo: devusol.png
