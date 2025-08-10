@@ -33,7 +33,7 @@ Maker Faire Orlando has a zero tolerance policy for harassment of any kind - Lea
 
 ## Load-in & Load-out 
 ### Load-in Times (Changed for 2025)
-* **General load-in is on Friday from 4PM to 8PM (completed by 8PM please, not arriving at 8PM). This has changed from prior years due to the addition of a Field Trip Day on Friday that limits load-in activity.** If you are exhibiting at the Field Trip Day on Friday, you will have special load-in times on Thursday. If your exhibit requires additional load-in time and you need to start before Friday at 4PM, please email us at <makers@makerfaireorlando.com>. 
+* **General load-in is on Friday from 4PM to 8PM (completed by 8PM please, not arriving at 8PM). This has changed from prior years due to the addition of a Field Trip Day on Friday that limits load-in activity.** If you are exhibiting at the Field Trip Day on Friday, load in will be from 4pm to 8pm. If your exhibit requires additional load-in time and you need to start before 4PM on either day, please email us at <makers@makerfaireorlando.com>. 
 * Saturday load-in is from 8AM to 9AM. Makers arriving after 8:30AM will need to park in general parking and bring their items in. Makers arriving late adds a lot of stress for the maker and for our crew. Please arrive before 8:30AM if you need to unload as the parking area becomes quite congested after this point.
 * On Sunday, exhibitors can arrive at 9AM, park in general parking and all exhibits should be ready for opening at 9:45AM.
 
