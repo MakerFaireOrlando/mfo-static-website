@@ -332,3 +332,11 @@ body {
 .faq-item[open] .faq-question::after {
   color: white;
 }
+
+body .navbar-nav>li>.dropdown-menu>li>a:hover,
+body .navbar-nav>li>.dropdown-menu>li>a:focus {
+  background-color: #00A3DA !important;
+  background: #00A3DA !important;
+  color: #ffffff !important;
+  transition: none !important;
+}
