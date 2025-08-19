@@ -26,6 +26,58 @@ image-primary:
     url: /assets/images/exhibit-images/25-74-e-bluupiecrochets-2cb08507-5215-45f2-862e-5cd4d7196c4e-2118-1024x768.jpeg
     width: 1024
     height: 768
+additional-images: 
+  - 1:
+    full:
+      url: /assets/images/exhibit-images/25-74-e1-bluupiecrochets-bluupie-dino-full.png
+      width: 694
+      height: 779
+    small:
+      url: /assets/images/exhibit-images/25-74-e1-bluupiecrochets-bluupie-dino-134x150.png
+      width: 134
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-74-e1-bluupiecrochets-bluupie-dino-267x300.png
+      width: 267
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-74-e1-bluupiecrochets-bluupie-dino-694x779.png
+      width: 694
+      height: 779
+  - 2:
+    full:
+      url: /assets/images/exhibit-images/25-74-e2-bluupiecrochets-bluupie-snow-full.png
+      width: 686
+      height: 826
+    small:
+      url: /assets/images/exhibit-images/25-74-e2-bluupiecrochets-bluupie-snow-125x150.png
+      width: 125
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-74-e2-bluupiecrochets-bluupie-snow-249x300.png
+      width: 249
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-74-e2-bluupiecrochets-bluupie-snow-686x826.png
+      width: 686
+      height: 826
+  - 3:
+    full:
+      url: /assets/images/exhibit-images/25-74-e3-bluupiecrochets-bluupie-kirby-full.png
+      width: 735
+      height: 726
+    small:
+      url: /assets/images/exhibit-images/25-74-e3-bluupiecrochets-bluupie-kirby-150x148.png
+      width: 150
+      height: 148
+    medium:
+      url: /assets/images/exhibit-images/25-74-e3-bluupiecrochets-bluupie-kirby-300x296.png
+      width: 300
+      height: 296
+    large:
+      url: /assets/images/exhibit-images/25-74-e3-bluupiecrochets-bluupie-kirby-735x726.png
+      width: 735
+      height: 726
 maker: 
   name: "Hannah nevarez"
   description: "Hi! I’m Hannah i love making things that others enjoy! I like seeing how seeing their favorite character made plush makes them light up! I love expressing myself through yarn and spreading joy through this art medium!"
@@ -46,8 +98,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-07 23:47:28"
-last-modified-jotform: "2025-07-25 23:09:41"
-last-exported: "2025-07-27 11:26:12"
+last-modified-jotform: "2025-08-18 20:30:59"
+last-exported: "2025-08-18 20:31:59"
 sitemap: false
 
 ---
