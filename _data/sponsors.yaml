@@ -40,7 +40,7 @@ sponsors:
     url: https://tlc-engineers.com/
     logo: tlc-engineering.jpg
     level: 5
-    active: false
+    active: true
   - name: DeltaMaker 3D Printers
     url: https://www.deltamaker.com
     logo: deltamaker-logo-3d-printers.png
@@ -59,8 +59,8 @@ sponsors:
   - name: Brasfield & Gorrie
     url: https://www.brasfieldgorrie.com/
     logo: Brasfield-Gorrie-Logo-Blue-JPG-border.jpg
-    level: 3
-    active: false
+    level: 4
+    active: true
   - name: Amphenol Custom Cable
     url: http://www.customcable.com/
     logo: amphenol.jpg
@@ -114,5 +114,10 @@ sponsors:
   - name: Theta Machines
     url: https://www.thetamachines.com/
     logo: theta-machines-920x283.png
+    level: 4
+    active: true
+  - name: Weirdly Wired
+    url: https://www.weirdlywired.com/
+    logo: weirdly-wired.avif
     level: 4
     active: true
