@@ -20,7 +20,7 @@ sponsors:
     url: https://jobs.universalparks.com/universal-creative/
     logo: universal-creative.png
     level: 3
-    active: false
+    active: true
   - name: Disney
     url: https://disneyconnect.com/disneyworld/
     logo: Disney-Red-4C.png
@@ -119,5 +119,15 @@ sponsors:
   - name: Weirdly Wired
     url: https://www.weirdlywired.com/
     logo: weirdly-wired.avif
+    level: 4
+    active: true
+  - name: 3D Printing Nerd
+    url: https://www.The3DPrintingNerd.com
+    logo: 3dpnbotlogo.jpg
+    level: 4
+    active: true
+  - name: Audiojack
+    url: https://www.audiojack.com
+    logo: audiojack.jpg
     level: 4
     active: true
