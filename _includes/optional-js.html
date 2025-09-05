@@ -1,31 +1,29 @@
 {% if page.carousel %}
-  <script language="JavaScript" type="text/javascript">
-    $(document).ready(function(){
-      var randomSlide = Math.floor(Math.random() * $('#mfoCarousel .carousel-inner div').size());
-      console.log(randomSlide);
-      $('#mfoCarousel').carousel(randomSlide);
-      $('#mfoCarousel').carousel({
-        interval: {{page.carousel-delay}}
-      })
-    });
-  </script>
-{% endif %}
-
-{% if sponsor-carousel %}
-  <script language="JavaScript" type="text/javascript">
-    $(document).ready(function(){
-      $('#carousel-sponsors-slider').carousel({
-        interval: {{page.carousel-delay}}
-      })
-    });
-  </script>
-{% endif %}
-
-{% if page.scrolltop %}
+<script language="JavaScript" type="text/javascript">
+  $(document).ready(function(){
+    var randomSlide = Math.floor(Math.random() * $('#mfoCarousel .carousel-inner div').size());
+    console.log(randomSlide);
+    $('#mfoCarousel').carousel(randomSlide);
+    $('#mfoCarousel').carousel({
+      interval: {{page.carousel-delay}}
+    })
+  });
+</script>
+{% endif %} {% if sponsor-carousel %}
+<script language="JavaScript" type="text/javascript">
+  $(document).ready(function(){
+    $('#carousel-sponsors-slider').carousel({
+      interval: {{page.carousel-delay}}
+    })
+  });
+</script>
+{% endif %} {% if page.scrolltop %}
 <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-<script>addBackToTop({
-  diameter: 56,
-  backgroundColor: 'rgb(255, 82, 82)',
-  textColor: '#fff'
-})</script>
+<script>
+  addBackToTop({
+    diameter: Math.round(window.innerWidth * 0.05),
+    backgroundColor: "rgb(255, 82, 82)",
+    textColor: "#fff",
+  });
+</script>
 {% endif %}
