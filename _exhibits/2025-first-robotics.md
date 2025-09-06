@@ -5,6 +5,7 @@ title: "FIRST Robotics"
 slug: first-robotics
 permalink: /exhibits/first-robotics/
 exhibit-id: 25-135
+exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Students and robots showing off what they do."
 description-long: "We will have students from ages 9-18 showing off their robots and explaining how they designed  and built them.   They will also talk about their community outreach."
@@ -46,8 +47,8 @@ categories:
   - slug: lego
     name: LEGO
 created-jotform: "2025-07-31 11:26:18"
-last-modified-jotform: "2025-08-03 16:47:02"
-last-exported: "2025-08-03 17:07:22"
+last-modified-jotform: "2025-09-06 09:48:32"
+last-exported: "2025-09-06 09:49:08"
 sitemap: false
 
 ---

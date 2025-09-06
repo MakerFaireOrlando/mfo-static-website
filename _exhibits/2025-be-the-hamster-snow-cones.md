@@ -5,6 +5,7 @@ title: "Be the Hamster Snow Cones"
 slug: be-the-hamster-snow-cones
 permalink: /exhibits/be-the-hamster-snow-cones/
 exhibit-id: 25-65
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Come make your very own snow cone via an 8 foot tall human powered hamster wheel"
 description-long: "Human powered is how we roll. It's a human powered hamster wheel that grinds up ice to make snow cones while you're running. An example of Rube Goldberg at its finest. Be the hamster and make a snow cone."
@@ -50,8 +51,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-03 19:17:18"
-last-modified-jotform: "2025-07-14 19:34:29"
-last-exported: "2025-07-27 11:27:03"
+last-modified-jotform: "2025-09-06 09:42:07"
+last-exported: "2025-09-06 09:49:17"
 sitemap: false
 
 ---

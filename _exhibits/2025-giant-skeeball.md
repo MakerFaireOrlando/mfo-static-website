@@ -5,6 +5,7 @@ title: "Giant Skeeball"
 slug: giant-skeeball
 permalink: /exhibits/giant-skeeball/
 exhibit-id: 25-152
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Come try out a 22' long Skeeball machine!"
 description-long: "Skeeball machine is 22' long over 4' wide and 7' tall. Entire machine was made and programmed from scratch. Try and beat the high score of the day!"
@@ -51,8 +52,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-22 06:59:08"
-last-modified-jotform: "2025-08-25 20:02:34"
-last-exported: "2025-08-25 20:09:19"
+last-modified-jotform: "2025-09-06 09:45:25"
+last-exported: "2025-09-06 09:49:06"
 sitemap: false
 
 ---

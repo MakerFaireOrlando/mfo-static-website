@@ -131,3 +131,8 @@ sponsors:
     logo: audiojack.jpg
     level: 4
     active: true
+  - name: Siemon
+    url: https://www.siemon.com/em/
+    logo: siemon.png
+    level: 5
+    active: true

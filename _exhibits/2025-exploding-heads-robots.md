@@ -5,6 +5,7 @@ title: "Exploding heads robots"
 slug: exploding-heads-robots
 permalink: /exhibits/exploding-heads-robots/
 exhibit-id: 25-151
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Shake up a can of seltzer water and see if you can make you opponent's head explode!"
 description-long: "Manually operated steel battling robots."
@@ -47,8 +48,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2025-08-21 12:51:59"
-last-modified-jotform: "2025-08-25 20:02:54"
-last-exported: "2025-08-25 20:09:21"
+last-modified-jotform: "2025-09-06 09:42:30"
+last-exported: "2025-09-06 09:49:07"
 sitemap: false
 
 ---

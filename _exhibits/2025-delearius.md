@@ -5,6 +5,7 @@ title: "DeLearius"
 slug: delearius
 permalink: /exhibits/delearius/
 exhibit-id: 25-27
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Prius powered Hot rod from a LEAR jet fuselage, with inspiration from Sci-Fi"
 description-long: "Classic vintage 1975 Lear 25d retired and turned into a steet rod.
@@ -70,8 +71,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-11 10:23:39"
-last-modified-jotform: "2025-06-16 21:04:53"
-last-exported: "2025-07-27 11:31:28"
+last-modified-jotform: "2025-09-06 09:44:50"
+last-exported: "2025-09-06 09:49:19"
 sitemap: false
 
 ---

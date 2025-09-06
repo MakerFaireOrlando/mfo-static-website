@@ -5,6 +5,7 @@ title: "Camp Witch Doctor Tournament"
 slug: camp-witch-doctor-tournament
 permalink: /exhibits/camp-witch-doctor-tournament/
 exhibit-id: 25-114
+exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "We're hosting battle robot tournaments all weekend! Come join us as a builder or a spectator!"
 description-long: "We will host a series of battle robot tournaments throughout the weekend! Our goal is to provide a supportive and beginner-friendly option for young builders to participate in their first event. Ages 5-15 welcome (children must have parental supervision).
@@ -49,8 +50,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-28 14:20:54"
-last-modified-jotform: "2025-07-28 20:04:44"
-last-exported: "2025-07-28 20:37:42"
+last-modified-jotform: "2025-09-06 09:48:21"
+last-exported: "2025-09-06 09:49:10"
 sitemap: false
 
 ---

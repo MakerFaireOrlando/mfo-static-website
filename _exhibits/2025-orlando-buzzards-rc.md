@@ -5,6 +5,7 @@ title: "Orlando Buzzards RC"
 slug: orlando-buzzards-rc
 permalink: /exhibits/orlando-buzzards-rc/
 exhibit-id: 25-56
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "We will have RC models on display and hand out information cards."
 description-long: "We will have RC models on display and hand out information cards"
@@ -44,8 +45,8 @@ categories:
   - slug: education
     name: Education
 created-jotform: "2025-06-29 19:00:43"
-last-modified-jotform: "2025-06-30 20:21:08"
-last-exported: "2025-07-27 11:27:50"
+last-modified-jotform: "2025-09-06 09:42:01"
+last-exported: "2025-09-06 09:49:17"
 sitemap: false
 
 ---

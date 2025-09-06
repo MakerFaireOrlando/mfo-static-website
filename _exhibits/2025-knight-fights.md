@@ -5,6 +5,7 @@ title: "Knight Fights"
 slug: knight-fights
 permalink: /exhibits/knight-fights/
 exhibit-id: 25-107
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "See the Knights fight and learn about medieval weapons, armor, and combat."
 description-long: "Castle Tournaments and Florida Armored Combat Presents Knight Fights!  Armored Combat, (aka buhurt) is a competitive sport rooted in medieval tournament history; the weapons, armor, and battles are real!  We are not re-enactors, nothing staged or choreographed, the knights are competitors willing to take this sport of Kings and Lords to the next level.  See the fights, talk to the Knights, and take photos and video of past warriors in the present day."
@@ -116,8 +117,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2025-07-25 00:03:27"
-last-modified-jotform: "2025-07-28 20:08:49"
-last-exported: "2025-07-28 20:38:34"
+last-modified-jotform: "2025-09-06 09:42:26"
+last-exported: "2025-09-06 09:49:14"
 sitemap: false
 
 ---
