@@ -9,9 +9,7 @@
     })
   });
 </script>
-{% endif %} 
-
-{% if sponsor-carousel %}
+{% endif %} {% if sponsor-carousel %}
 <script language="JavaScript" type="text/javascript">
   $(document).ready(function(){
     $('#carousel-sponsors-slider').carousel({
@@ -19,13 +17,17 @@
     })
   });
 </script>
-{% endif %} {% if page.scrolltop %}
+{% endif %} 
+
+{% if page.scrolltop %}
 <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
 <script>
-  addBackToTop({
-    diameter: Math.round(window.innerWidth * 0.05),
-    backgroundColor: "rgb(255, 82, 82)",
-    textColor: "#fff",
+  $(document).ready(function () {
+    addBackToTop({
+      diameter: Math.round(window.innerWidth * (window.innerWidth < 1400 ? 0.05 : 0.03)),
+      backgroundColor: "rgb(255, 82, 82)",
+      textColor: "#fff",
+    });
   });
 </script>
 {% endif %}
