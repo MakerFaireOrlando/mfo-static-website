@@ -5,6 +5,7 @@ title: "Bianca Francheska Electric Violinist"
 slug: bianca-francheska-electric-violinist
 permalink: /exhibits/bianca-francheska-electric-violinist/
 exhibit-id: 25-69
+exhibit-zone: "Main Stage"
 space-number: Unassigned
 description: "Electric Violinist"
 description-long: "Electric Violinist plays pop songs, classic anime, videogame music, and original songs!"
@@ -73,8 +74,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-06 14:45:25"
-last-modified-jotform: "2025-07-14 19:30:49"
-last-exported: "2025-07-27 11:26:34"
+last-modified-jotform: "2025-09-13 10:51:24"
+last-exported: "2025-09-13 11:26:46"
 sitemap: false
 
 ---

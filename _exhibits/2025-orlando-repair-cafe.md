@@ -5,6 +5,7 @@ title: "Orlando Repair Cafe"
 slug: orlando-repair-cafe
 permalink: /exhibits/orlando-repair-cafe/
 exhibit-id: 25-156
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Coming soon! Learn to repair your own stuff, or sign up to volunteer and help others learn!"
 description-long: "Repair Cafe is an international movement to help everyday people repair their own stuff. Come help us create a community space where everyone in Orlando can get free access to tools, knowledge and help to repair just about anything. We'll be showing off a few household repairs and projects that anyone can do"
@@ -62,8 +63,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-24 13:21:07"
-last-modified-jotform: "2025-08-25 20:00:36"
-last-exported: "2025-08-25 20:09:18"
+last-modified-jotform: "2025-09-13 10:57:08"
+last-exported: "2025-09-13 11:26:16"
 sitemap: false
 
 ---

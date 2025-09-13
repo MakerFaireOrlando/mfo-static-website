@@ -5,6 +5,7 @@ title: "The Exquisite Collective: A Creative Technology Showcase"
 slug: the-exquisite-collective-a-creative-technology-showcase
 permalink: /exhibits/the-exquisite-collective-a-creative-technology-showcase/
 exhibit-id: 25-141
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Interactivity & creativity collide in this playful celebration of imagination & technology."
 description-long: "The Exquisite Collective invites you to experience three joyful, hands-on exhibits that blend technology, art, and cultural inspiration.
@@ -128,8 +129,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-31 22:44:51"
-last-modified-jotform: "2025-08-03 16:50:07"
-last-exported: "2025-08-03 17:06:55"
+last-modified-jotform: "2025-09-13 11:18:17"
+last-exported: "2025-09-13 11:26:26"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Colin's Soap-a-Rama"
 slug: colins-soap-a-rama
 permalink: /exhibits/colins-soap-a-rama/
 exhibit-id: 25-103
+exhibit-zone: "Curiosity"
 space-number: Unassigned
 description: "Colin is an 8 year old soap maker!"
 description-long: "At Colin's Soap-a-Rama, attendess will be delighted by learning about soap from an 8 year old! Soap Demonstrations and take home make-it-yourself kits are just part of the fun!"
@@ -48,8 +49,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-23 13:11:37"
-last-modified-jotform: "2025-07-23 13:15:13"
-last-exported: "2025-07-27 11:23:54"
+last-modified-jotform: "2025-09-13 11:04:10"
+last-exported: "2025-09-13 11:26:30"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Queens Cove Creative"
 slug: queens-cove-creative
 permalink: /exhibits/queens-cove-creative/
 exhibit-id: 25-2
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "I'm a artist, illustrator and graphic designer."
 description-long: "I'm a artist, illustrator and graphic designer.  My work encompasses anything from traditional illustration,  sketch cards and fine art to laser engraved wood art. I'm also currently a sketch card artist for Topps having licensed work with Star Wars,  Marvel,  Major League Baseball, SpongeBob and Stranger Things."
@@ -69,8 +70,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-05-20 15:11:33"
-last-modified-jotform: "2025-06-29 15:09:00"
-last-exported: "2025-07-27 16:17:29"
+last-modified-jotform: "2025-09-13 11:18:30"
+last-exported: "2025-09-13 11:27:00"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "The Comic Con Elvis Tribute"
 slug: the-comic-con-elvis-tribute
 permalink: /exhibits/the-comic-con-elvis-tribute/
 exhibit-id: 25-118
+exhibit-zone: "Main Stage"
 space-number: Unassigned
 description: "Experience the King of Rock like never before as he brings his legendary hits to modern fandoms!"
 description-long: "The Comic Con Elvis Tribute is an anime and comic-themed Elvis Presley show merging together cosplay and classic Elvis hits and motifs, including in-character interactions between the King of Rock and other anime/comic characters, unique cosplay variations (i.e., X-Men, Attack on Titan, Spiderverse, etc.), and Elvis hits rewritten around popular fandoms. During this show, my band and I will be performing in costume and improv-acting with audience members, bringing the historic Elvis’ legendary energy, talent and spirit to modern audiences with a fresh, exciting cosplay twist."
@@ -42,8 +43,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2025-07-28 22:57:40"
-last-modified-jotform: "2025-08-25 20:05:57"
-last-exported: "2025-08-25 20:09:29"
+last-modified-jotform: "2025-09-13 10:48:23"
+last-exported: "2025-09-13 11:26:27"
 sitemap: false
 
 ---

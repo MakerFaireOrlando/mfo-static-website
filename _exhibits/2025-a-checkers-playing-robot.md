@@ -85,9 +85,9 @@ maker:
   name: "Theta Machines"
   description: "We're the makers of RTMC, an advanced motion control platform for robots, CNCs, and other automated devices."
   image-primary:
-    url: /assets/images/exhibit-images/25-97-m-a-checkers-playing-robot-black-text-849-150x42.png
+    url: /assets/images/exhibit-images/25-97-m-a-checkers-playing-robot-theta-machines-920x283-whitebg-150x46.jpg
     width: 150
-    height: 42
+    height: 46
   website: https://www.thetamachines.com
   instagram: https://www.instagram.com/theta.machines/
   youtube: https://www.youtube.com/@theta-machines
@@ -105,8 +105,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-19 00:45:35"
-last-modified-jotform: "2025-08-25 20:07:57"
-last-exported: "2025-08-25 20:09:34"
+last-modified-jotform: "2025-09-13 11:25:50"
+last-exported: "2025-09-13 11:26:36"
 sitemap: false
 
 ---

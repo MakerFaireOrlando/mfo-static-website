@@ -5,6 +5,7 @@ title: "Stained Glass by Vivacqua Glass Works"
 slug: stained-glass-by-vivacqua-glass-works
 permalink: /exhibits/stained-glass-by-vivacqua-glass-works/
 exhibit-id: 25-163
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Tiffany Style Stained Glass and Woodworking inspired by nature and science."
 description-long: "Stained glass inspired by nature and science. Tiffany style stained glass panels made in Longwood, Florida."
@@ -136,8 +137,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-28 11:03:12"
-last-modified-jotform: "2025-09-13 10:09:00"
-last-exported: "2025-09-13 10:09:12"
+last-modified-jotform: "2025-09-13 10:56:37"
+last-exported: "2025-09-13 11:26:11"
 sitemap: false
 
 ---

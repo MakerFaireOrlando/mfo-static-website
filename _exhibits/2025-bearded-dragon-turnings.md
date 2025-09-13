@@ -5,6 +5,7 @@ title: "Bearded Dragon Turnings"
 slug: bearded-dragon-turnings
 permalink: /exhibits/bearded-dragon-turnings/
 exhibit-id: 25-70
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Beautiful hand turned wood products."
 description-long: "Beautiful hand turned wood products.  Our offerings include bowls, hollow forms, tops and pens.  Our bowls and hollow forms are made from reclaimed wood from the central Florida area."
@@ -74,8 +75,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2025-07-06 15:42:15"
-last-modified-jotform: "2025-07-14 19:34:28"
-last-exported: "2025-07-27 11:26:28"
+last-modified-jotform: "2025-09-13 11:02:48"
+last-exported: "2025-09-13 11:26:44"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "3 D Printed Engines & Cars"
 slug: 3-d-printed-engines-cars
 permalink: /exhibits/3-d-printed-engines-cars/
 exhibit-id: 25-176
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "We’ll showcase an exciting lineup of 3D-printed RC trucks, autonomous bots, and more."
 description-long: "Get ready for an interactive, high-energy experience. We’re bringing a full lineup of 3D RC trucks, agile 3-D printed objects, and more cutting-edge tech for hands-on demos and live showcases. Attendees can explore precision-engineered components up close and see how advanced materials and bearings elevate performance, durability, and control. Our team will highlight real-world applications, answer technical questions, and share tips on setup, maintenance, and optimization. Whether you’re a hobbyist, engineer, or curious first-timer, this is a unique chance to engage with next-generation robotics and RC systems in action."
@@ -68,8 +69,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2025-09-11 11:02:55"
-last-modified-jotform: "2025-09-13 10:04:34"
-last-exported: "2025-09-13 10:04:50"
+last-modified-jotform: "2025-09-13 11:11:45"
+last-exported: "2025-09-13 11:26:07"
 sitemap: false
 
 ---

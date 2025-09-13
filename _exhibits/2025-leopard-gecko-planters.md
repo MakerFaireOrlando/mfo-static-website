@@ -5,6 +5,7 @@ title: "Leopard Gecko Planters"
 slug: leopard-gecko-planters
 permalink: /exhibits/leopard-gecko-planters/
 exhibit-id: 25-71
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Selling 3D printed planters of our own design."
 description-long: "We sell fun and creative 3D printed planters of our design."
@@ -91,8 +92,8 @@ categories:
   - slug: 3d-printing
     name: 3D Printing
 created-jotform: "2025-07-06 16:00:55"
-last-modified-jotform: "2025-07-14 19:34:28"
-last-exported: "2025-07-27 11:26:23"
+last-modified-jotform: "2025-09-13 11:02:52"
+last-exported: "2025-09-13 11:26:43"
 sitemap: false
 
 ---

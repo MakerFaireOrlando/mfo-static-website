@@ -5,6 +5,7 @@ title: "SEDA VII"
 slug: seda-vii
 permalink: /exhibits/seda-vii/
 exhibit-id: 25-5
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "A collection of handmade items, gifts and home decor"
 description-long: "A collection of handmade items using woodworking, lichtenberg, resin, and 3d printing"
@@ -152,8 +153,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2025-05-24 02:28:31"
-last-modified-jotform: "2025-07-07 19:38:52"
-last-exported: "2025-07-27 11:33:49"
+last-modified-jotform: "2025-09-13 11:20:54"
+last-exported: "2025-09-13 11:26:57"
 sitemap: false
 
 ---
