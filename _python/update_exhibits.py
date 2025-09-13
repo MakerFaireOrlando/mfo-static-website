@@ -37,7 +37,7 @@ from os import path
 #settings
 eventYear = 2025
 formCFM = "Call For Makers MFO2025"
-formRuckus = "CFM - Ruckus - MFO2025"
+formRuckus = "MFO2025 - Ruckus - CFM"
 
 
 outputAll = False #this is now set with a command line param, don't change it here
@@ -66,9 +66,9 @@ def exportCategories(categories: Counter):
           "slug": slug,
           "count": count
       })
-      print (name, slug, count)
+      #print (name, slug, count)
       option_str = f'<option value=".{slug}">{name} ({count})</option>'
-      print (option_str)
+      #print (option_str)
       optionStringFull+=option_str
 
       #title: "Learn to Solder"
@@ -363,14 +363,16 @@ def export(outputAll):
             #note, there could be multiple exhibitZones
 
           categories      = getAnswerByName(ans,"exhibitCategories")
-          
 
-          #added july 2025 for Field Trip Day
-          exhibitAvail = getAnswerByName(ans, "exhibitAvailability51")
-          if ("Education Day" in exhibitAvail) or ("Field Trip Day" in exhibitAvail):  
-            categories.append("Field Trip Day")
-            if viz == True:
-              countFTD = countFTD + 1
+          if isRuckus:
+            categories = ["Combat Robots"]
+          else:  
+            #added july 2025 for Field Trip Day
+            exhibitAvail = getAnswerByName(ans, "exhibitAvailability51")
+            if ("Education Day" in exhibitAvail) or ("Field Trip Day" in exhibitAvail):  
+              categories.append("Field Trip Day")
+              if viz == True:
+                countFTD = countFTD + 1
               
           uniqueCategories.update(categories)
             

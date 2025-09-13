@@ -2,7 +2,9 @@ console.log("isotope helper js loaded -010");
 
 
 //new for Jul 2025 - switch category mechanism
-var initFilter = ':not(.combat-robots)';
+//var initFilter = ':not(.combat-robots)';
+var initFilter = '';
+
 
 if (window.location.href.includes("categories")) {
 
@@ -12,7 +14,7 @@ if (window.location.href.includes("categories")) {
   jQuery('.filters-select').val('.' + cat);
 }
   else {
-    jQuery('.filters-select').val(':not(.combat-robots)');
+    //jQuery('.filters-select').val(':not(.combat-robots)');
   }
 
 
