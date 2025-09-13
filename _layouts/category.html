@@ -26,7 +26,9 @@
         {% endfor %}
       {%- else -%}
           {% for exhibit in site.exhibits %}
-            {%- include exhibit-card.html -%}
+            {%- unless exhibit.exhibit-id contains "R" -%}
+              {%- include exhibit-card.html -%}
+            {%- endunless -%}  
           {% endfor %}
         {%- endif -%}
       </div>

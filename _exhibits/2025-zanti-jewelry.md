@@ -5,6 +5,7 @@ title: "Zanti Jewelry"
 slug: zanti-jewelry
 permalink: /exhibits/zanti-jewelry/
 exhibit-id: 25-98
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "I sculpt and hand cast my own sculptures and designs wich seperates me from other jewlery sellers"
 description-long: "Zanti Jewelry is a proudly independent jewelry brand specializing in hand-cast pewter pieces that blend the eerie, the curious, and the cosmic. Every design is sculpted and manufactured in-house, using only high-quality, nickel-free pewter for comfort and durability. Our pieces are finished with genuine silver plating, giving them a rich, antique luster that highlights every detail.
@@ -62,8 +63,8 @@ categories:
   - slug: jewelry
     name: Jewelry
 created-jotform: "2025-07-21 09:51:48"
-last-modified-jotform: "2025-08-03 16:58:42"
-last-exported: "2025-08-03 17:08:24"
+last-modified-jotform: "2025-09-13 12:01:06"
+last-exported: "2025-09-13 12:02:16"
 sitemap: false
 
 ---

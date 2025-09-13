@@ -5,6 +5,7 @@ title: "Digital Warpaint"
 slug: digital-warpaint
 permalink: /exhibits/digital-warpaint/
 exhibit-id: 25-112
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Join Graven RavenWolf as he showcases where Digital and Traditional Art meet with Digital Warpaint!"
 description-long: "Join artist Graven RavenWolf as he showcases where Digital and Traditional Art meet within the world of Digital Warpaint!
@@ -228,8 +229,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-28 08:57:46"
-last-modified-jotform: "2025-07-28 20:06:48"
-last-exported: "2025-07-28 20:38:15"
+last-modified-jotform: "2025-09-13 12:04:23"
+last-exported: "2025-09-13 12:08:42"
 sitemap: false
 
 ---

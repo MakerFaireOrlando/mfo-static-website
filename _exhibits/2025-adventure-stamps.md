@@ -5,6 +5,7 @@ title: "Adventure Stamps"
 slug: adventure-stamps
 permalink: /exhibits/adventure-stamps/
 exhibit-id: 25-85
+exhibit-zone: "Curiosity"
 space-number: Unassigned
 description: "blend of art, treasure hunting, and puzzle-solving. live stamp carving demos or carve your own stamp"
 description-long: "Letterboxing: A Creative Adventure Awaits!
@@ -71,8 +72,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-13 13:29:50"
-last-modified-jotform: "2025-08-25 20:06:58"
-last-exported: "2025-08-25 20:09:35"
+last-modified-jotform: "2025-09-13 11:56:56"
+last-exported: "2025-09-13 11:59:02"
 sitemap: false
 
 ---

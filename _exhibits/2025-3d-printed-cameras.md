@@ -5,6 +5,7 @@ title: "3D Printed Cameras!"
 slug: 3d-printed-cameras
 permalink: /exhibits/3d-printed-cameras/
 exhibit-id: 25-58
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Learn how to build a camera with a 3D printer, public 3D models, and some simple hardware!"
 description-long: "Have you ever wanted to build your own camera? If you have access to a 3D printer, you can! Stop by the booth to learn about how you can find existing designs or design your own photography accessories, camera parts, or even entire cameras."
@@ -153,8 +154,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-29 23:10:01"
-last-modified-jotform: "2025-08-25 20:06:48"
-last-exported: "2025-08-25 20:09:40"
+last-modified-jotform: "2025-09-13 11:46:34"
+last-exported: "2025-09-13 11:59:21"
 sitemap: false
 
 ---

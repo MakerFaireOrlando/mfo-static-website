@@ -5,6 +5,7 @@ title: "Solo Cello Entertainment"
 slug: solo-cello-entertainment
 permalink: /exhibits/solo-cello-entertainment/
 exhibit-id: 25-116
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Playing top 40s hits as well as video game music with backing tracks"
 description-long: "Playing top 40s hits as well as video game music with backing tracks"
@@ -41,8 +42,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2025-07-28 20:58:40"
-last-modified-jotform: "2025-09-13 10:05:19"
-last-exported: "2025-09-13 10:05:39"
+last-modified-jotform: "2025-09-13 12:04:55"
+last-exported: "2025-09-13 12:08:34"
 sitemap: false
 
 ---

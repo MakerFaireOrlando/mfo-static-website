@@ -5,6 +5,7 @@ title: "Southern R2 Builders Group"
 slug: southern-r2-builders-group
 permalink: /exhibits/southern-r2-builders-group/
 exhibit-id: 25-57
+exhibit-zone: "Spirit - East"
 space-number: Unassigned
 description: "We are a group of builders that make life size robots from various film franchise but mostly R2D2"
 description-long: "We are small part of a bigger club. We are the Southern R2 Builders Group. The bigger club is a world wide club. We are mostly located in the state of Florida"
@@ -66,8 +67,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-29 19:29:16"
-last-modified-jotform: "2025-07-26 17:25:35"
-last-exported: "2025-07-27 11:27:47"
+last-modified-jotform: "2025-09-13 11:46:21"
+last-exported: "2025-09-13 11:59:22"
 sitemap: false
 
 ---

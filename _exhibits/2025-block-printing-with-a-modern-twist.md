@@ -5,6 +5,7 @@ title: "Block Printing with a Modern Twist"
 slug: block-printing-with-a-modern-twist
 permalink: /exhibits/block-printing-with-a-modern-twist/
 exhibit-id: 25-59
+exhibit-zone: "Curiosity"
 space-number: Unassigned
 description: "Hands-on experience where you’ll dive into the timeless craft of block printing with a modern twist."
 description-long: "Get ready to unleash your creativity with **FAMOUSAFTERDEATH**, an artist whose work spans an array of fascinating mediums—from art on antique books to 3D printed toys and intricate laser-cut designs! Ever wondered what it’s like to make your own block print? Now’s your chance! Swing by my booth for a hands-on experience where you’ll dive into the timeless craft of block printing—with a fresh, modern twist. Choose from a selection of unique designs, and create a one-of-a-kind print to take home. Don't miss out—come make something unforgettable with me. See you there!"
@@ -155,8 +156,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-30 09:39:04"
-last-modified-jotform: "2025-06-30 20:16:09"
-last-exported: "2025-07-27 11:27:39"
+last-modified-jotform: "2025-09-13 11:49:03"
+last-exported: "2025-09-13 11:59:18"
 sitemap: false
 
 ---

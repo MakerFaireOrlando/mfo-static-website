@@ -5,6 +5,7 @@ title: "P. D. Steamworks"
 slug: p-d-steamworks
 permalink: /exhibits/p-d-steamworks/
 exhibit-id: 25-44
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "I mostly create TTRPG accessories with 3D printing, resin casting, and some hand book binding."
 description-long: "I create various table top role playing game accessories from 3D printed dice boxes, a fusion of dice box and dice tower I call a Tower Vault to hand casting resin dice, and have recently started making miniature modules and books for game masters and players to add to their own games or (eventually) run a full adventure with."
@@ -153,8 +154,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-22 20:54:41"
-last-modified-jotform: "2025-06-30 20:18:27"
-last-exported: "2025-07-27 11:29:05"
+last-modified-jotform: "2025-09-13 11:40:44"
+last-exported: "2025-09-13 11:59:42"
 sitemap: false
 
 ---

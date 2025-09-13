@@ -5,6 +5,7 @@ title: "Curtis Epperson Art"
 slug: curtis-epperson-art
 permalink: /exhibits/curtis-epperson-art/
 exhibit-id: 25-75
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Word art where every hand-drawn word describes the image—no repeats, just letters turned into art!"
 description-long: "It’s art made entirely of words—every single word is carefully chosen to describe the subject of the piece. Each letter is hand-drawn, one at a time, with no word ever repeated. The result is a visually stunning and deeply meaningful design where form and language work together to tell a story. Every detail is crafted with intention, blending illustration and typography into a unique piece that’s as thoughtful as it is beautiful."
@@ -46,8 +47,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-08 14:59:10"
-last-modified-jotform: "2025-07-14 19:34:26"
-last-exported: "2025-07-27 11:26:10"
+last-modified-jotform: "2025-09-13 11:55:58"
+last-exported: "2025-09-13 11:59:07"
 sitemap: false
 
 ---

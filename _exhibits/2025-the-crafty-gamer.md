@@ -5,6 +5,7 @@ title: "The Crafty Gamer"
 slug: the-crafty-gamer
 permalink: /exhibits/the-crafty-gamer/
 exhibit-id: 25-51
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "We are a local hobby shop that creates a tabletop inspired scent line called Aromas of Adventure."
 description-long: "We are a local hobby shop that creates a tabletop inspired scent line called Aromas of Adventure. We offer family friendly Pokemon nights, candle making classes, camps and various other activities."
@@ -47,8 +48,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-29 13:15:29"
-last-modified-jotform: "2025-07-25 22:04:03"
-last-exported: "2025-07-27 11:28:19"
+last-modified-jotform: "2025-09-13 11:44:07"
+last-exported: "2025-09-13 11:59:31"
 sitemap: false
 
 ---

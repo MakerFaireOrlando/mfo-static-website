@@ -5,6 +5,7 @@ title: "Jeremy Cook's Projects"
 slug: jeremy-cooks-projects
 permalink: /exhibits/jeremy-cooks-projects/
 exhibit-id: 25-86
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Projects by Jeremy Cook!"
 description-long: "Jeremy Cook makes lots of things. This year he will be displaying one or more of his musical contraptions!"
@@ -50,8 +51,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2025-07-13 14:14:46"
-last-modified-jotform: "2025-07-13 14:32:10"
-last-exported: "2025-07-27 11:25:01"
+last-modified-jotform: "2025-09-13 11:57:07"
+last-exported: "2025-09-13 11:59:01"
 sitemap: false
 
 ---

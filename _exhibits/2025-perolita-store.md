@@ -5,6 +5,7 @@ title: "Perolita_store"
 slug: perolita-store
 permalink: /exhibits/perolita-store/
 exhibit-id: 25-92
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Arte tradicional y digital, fanart animes película etc"
 description-long: "Me dedico a pintar cuadros en acrílico y bolsos de tela con pintura textil realizó artes de animes fanart películas populares mayormente studio Ghibli etc."
@@ -71,8 +72,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-15 23:28:21"
-last-modified-jotform: "2025-09-11 14:42:33"
-last-exported: "2025-09-13 09:56:20"
+last-modified-jotform: "2025-09-13 11:58:47"
+last-exported: "2025-09-13 11:58:52"
 sitemap: false
 
 ---

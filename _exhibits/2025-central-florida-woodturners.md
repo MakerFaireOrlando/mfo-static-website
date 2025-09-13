@@ -5,6 +5,7 @@ title: "Central Florida Woodturners"
 slug: central-florida-woodturners
 permalink: /exhibits/central-florida-woodturners/
 exhibit-id: 25-113
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Central Florida Woodturners live woodturning demo"
 description-long: "Central Florida Woodturners will be doing live woodturning demonstrations during the Makers Fair and presenting some turned items to some of the attendees."
@@ -146,8 +147,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2025-07-28 11:06:50"
-last-modified-jotform: "2025-07-28 20:05:46"
-last-exported: "2025-07-28 20:37:58"
+last-modified-jotform: "2025-09-13 12:04:43"
+last-exported: "2025-09-13 12:08:38"
 sitemap: false
 
 ---

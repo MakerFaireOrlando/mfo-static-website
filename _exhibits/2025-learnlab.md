@@ -5,6 +5,7 @@ title: "LeARnLab"
 slug: learnlab
 permalink: /exhibits/learnlab/
 exhibit-id: 25-100
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "AR books that bring lessons to life. Experience learning by seeing, exploring & hearing!"
 description-long: "LeARnLab brings books to life with interactive AR/VR adventures! Our vibrant, educational stories leap off the page. They're perfect for curious kids, busy parents, and forward-thinking teachers. Think science, history, and imagination with digital 3D experiences that teach as much as they wow. Enhance reading, spark creativity, and upgrade every learning moment in a way you've never experienced before!"
@@ -205,8 +206,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-21 14:31:22"
-last-modified-jotform: "2025-08-03 16:58:40"
-last-exported: "2025-08-03 17:08:23"
+last-modified-jotform: "2025-09-13 12:01:52"
+last-exported: "2025-09-13 12:02:15"
 sitemap: false
 
 ---

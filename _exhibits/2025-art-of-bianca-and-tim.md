@@ -5,6 +5,7 @@ title: "Art of Bianca and Tim"
 slug: art-of-bianca-and-tim
 permalink: /exhibits/art-of-bianca-and-tim/
 exhibit-id: 25-99
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Paintings and prints from local artists Bianca and Tim"
 description-long: "Original paintings and prints"
@@ -42,8 +43,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-21 11:10:40"
-last-modified-jotform: "2025-08-09 11:04:35"
-last-exported: "2025-08-10 09:27:58"
+last-modified-jotform: "2025-09-13 12:01:13"
+last-exported: "2025-09-13 12:02:15"
 sitemap: false
 
 ---

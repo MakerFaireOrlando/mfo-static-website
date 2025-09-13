@@ -5,6 +5,7 @@ title: "Dennis Hansbury"
 slug: dennis-hansbury
 permalink: /exhibits/dennis-hansbury/
 exhibit-id: 25-48
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "A beautiful blend of hauntingly sweet illustrations, handcrafted décor, and storytelling."
 description-long: "Dennis first began creating dark and adorable crocheted animals and undead zombie plushies from his Arizona apartment in 2005, finding loving homes for them across the world through his first shop on Etsy. As time passed and he moved to Florida, where new passions were ignited – gallery shows and fine art became the focus, but he never stopped incorporating the gloomy, gothic, and gory aesthetic into his artwork. The passion for creating one-of-a-kind, handmade items would inspire him further, and woodworking soon became a permanent staple in his artwork.
@@ -138,8 +139,8 @@ categories:
   - slug: illustration
     name: Illustration
 created-jotform: "2025-06-29 11:48:23"
-last-modified-jotform: "2025-06-29 13:57:57"
-last-exported: "2025-07-27 11:28:40"
+last-modified-jotform: "2025-09-13 11:41:03"
+last-exported: "2025-09-13 11:59:35"
 sitemap: false
 
 ---

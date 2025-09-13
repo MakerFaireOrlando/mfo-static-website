@@ -5,6 +5,7 @@ title: "Accelerate Orlando"
 slug: accelerate-orlando
 permalink: /exhibits/accelerate-orlando/
 exhibit-id: 25-138
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Come check out AI demos built by local Techno-Optimists"
 description-long: "Come check out AI demos built by local Techno-Optimists.  We'll display some of the latest capabilities of AI including incorporating voice and live data into experiences that bring out our creativity."
@@ -42,8 +43,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-31 21:07:38"
-last-modified-jotform: "2025-08-31 09:50:32"
-last-exported: "2025-09-06 09:49:07"
+last-modified-jotform: "2025-09-13 12:13:36"
+last-exported: "2025-09-13 12:15:34"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "folksy love"
 slug: folksy-love
 permalink: /exhibits/folksy-love/
 exhibit-id: 25-38
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Originally designed acrylic earrings, bookmarks, magnets and hairclaws all made in Orlando."
 description-long: "Originally designed acrylic earrings, bookmarks, magnets and hairclaws exhibited in a vintage mini Japanese kei truck. Every piece of jewelry is handmade right here in Orlando."
@@ -64,8 +65,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2025-06-16 15:27:57"
-last-modified-jotform: "2025-06-23 21:03:21"
-last-exported: "2025-07-27 11:29:36"
+last-modified-jotform: "2025-09-13 11:38:09"
+last-exported: "2025-09-13 11:59:45"
 sitemap: false
 
 ---

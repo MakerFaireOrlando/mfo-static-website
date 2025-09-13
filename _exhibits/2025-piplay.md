@@ -5,6 +5,7 @@ title: "PiPlay"
 slug: piplay
 permalink: /exhibits/piplay/
 exhibit-id: 25-54
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "PiPlay - Video Gaming on the Raspberry Pi!!!"
 description-long: "PiPlay - Video Gaming on the Raspberry Pi!!! All sorts of cool stuff you can do with the Raspberry Pi and Retro gaming."
@@ -65,8 +66,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-29 14:56:43"
-last-modified-jotform: "2025-06-29 15:07:17"
-last-exported: "2025-07-27 11:28:11"
+last-modified-jotform: "2025-09-13 11:45:58"
+last-exported: "2025-09-13 11:59:29"
 sitemap: false
 
 ---

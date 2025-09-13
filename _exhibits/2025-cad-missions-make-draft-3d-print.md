@@ -5,6 +5,7 @@ title: "CAD Missions: Make, Draft, 3D Print!"
 slug: cad-missions-make-draft-3d-print
 permalink: /exhibits/cad-missions-make-draft-3d-print/
 exhibit-id: 25-96
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Design, draft, and 3D print your first shapes. Explore engineering design hands-on!"
 description-long: "Dive into CAD Missions! In just 20 minutes, you'll design a simple 3D shape using Tinkercad, create its technical drawing on real drafting paper, and bring it to life on a 3D printer. Take home your creation, plus a paper model to cut and assemble. Perfect for beginners, no experience required!"
@@ -48,8 +49,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-18 22:50:35"
-last-modified-jotform: "2025-07-25 22:46:46"
-last-exported: "2025-07-27 11:24:18"
+last-modified-jotform: "2025-09-13 11:59:39"
+last-exported: "2025-09-13 12:02:20"
 sitemap: false
 
 ---

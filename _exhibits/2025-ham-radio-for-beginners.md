@@ -5,6 +5,7 @@ title: "Ham Radio for beginners"
 slug: ham-radio-for-beginners
 permalink: /exhibits/ham-radio-for-beginners/
 exhibit-id: 25-53
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Ham radio is for everyone, and a great career choice..."
 description-long: "Ham radio is for everyone, and a great career choice.  It is a technical hobby and requires an FCC license - on the flip side you will be able to operate on dozens of radio frequency bands and communicate world wide."
@@ -67,8 +68,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-29 14:54:38"
-last-modified-jotform: "2025-08-25 17:29:33"
-last-exported: "2025-08-25 19:07:46"
+last-modified-jotform: "2025-09-13 11:45:48"
+last-exported: "2025-09-13 11:59:29"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "A Checkers Playing Robot"
 slug: a-checkers-playing-robot
 permalink: /exhibits/a-checkers-playing-robot/
 exhibit-id: 25-97
+exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Play checkers with a robot and learn about motion control!"
 description-long: "Come play checkers with a robot arm! Our goal is to get you excited about robotics and show off our brand new motion controller: the RTMC Card.
@@ -105,8 +106,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-19 00:45:35"
-last-modified-jotform: "2025-09-13 11:37:49"
-last-exported: "2025-09-13 11:38:08"
+last-modified-jotform: "2025-09-13 12:00:29"
+last-exported: "2025-09-13 12:02:19"
 sitemap: false
 
 ---

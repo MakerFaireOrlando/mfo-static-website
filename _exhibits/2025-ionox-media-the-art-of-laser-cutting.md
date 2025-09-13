@@ -5,6 +5,7 @@ title: "IONOX Media - The Art of Laser Cutting"
 slug: ionox-media-the-art-of-laser-cutting
 permalink: /exhibits/ionox-media-the-art-of-laser-cutting/
 exhibit-id: 25-77
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Laser-cut maps & art inspired by theme parks, films, and nostalgic places."
 description-long: "Step into the IONOX Media booth and discover laser-cut art that captures the magic of the places and stories you love. From detailed topographic maps of legendary theme parks and resorts to imaginative tributes to iconic movies, every piece is crafted with precision and a deep respect for nostalgia. Using advanced laser technology, Mike and Kara transform wood into layered works that feel both modern and timeless.
@@ -143,8 +144,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-09 13:03:03"
-last-modified-jotform: "2025-08-26 06:15:46"
-last-exported: "2025-08-26 06:16:05"
+last-modified-jotform: "2025-09-13 11:56:10"
+last-exported: "2025-09-13 11:59:06"
 sitemap: false
 
 ---

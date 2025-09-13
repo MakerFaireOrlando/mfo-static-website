@@ -5,6 +5,7 @@ title: "Shariff DMC: Desktop CNC Machines"
 slug: shariff-dmc-desktop-cnc-machines
 permalink: /exhibits/shariff-dmc-desktop-cnc-machines/
 exhibit-id: 25-108
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Shariff DMC: Mini metal cutting desktop CNC machines for Makers!"
 description-long: "Shariff DMC makes small desktop sized CNC machines for cutting aluminum, steel, stainless, titanium - just about any material! All in a compact form factor with features like flood cooling and probing, and the precision you'd expect in machine shop parts. Our goal is to bring the cost to entry as low as possible into CNC machining while still retaining all of the capabilities of a traditional machine shop."
@@ -49,8 +50,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-25 02:37:48"
-last-modified-jotform: "2025-08-09 11:04:34"
-last-exported: "2025-08-10 09:27:58"
+last-modified-jotform: "2025-09-13 12:03:46"
+last-exported: "2025-09-13 12:08:55"
 sitemap: false
 
 ---

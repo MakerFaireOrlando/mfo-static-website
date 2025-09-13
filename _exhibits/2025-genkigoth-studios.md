@@ -5,6 +5,7 @@ title: "GenkiGoth Studios"
 slug: genkigoth-studios
 permalink: /exhibits/genkigoth-studios/
 exhibit-id: 25-123
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "One of a kind UV, glow, and hidden image spray paint canvases, celebrating all things nerdy!"
 description-long: "Husband and wife artist duo who specialize one of a kind spray painted canvas and mural art, specializing in neon, UV and glow in the dark hidden imagery, centered around anime, video games, and pop culture fandoms."
@@ -149,8 +150,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-29 16:31:27"
-last-modified-jotform: "2025-08-31 10:27:24"
-last-exported: "2025-09-06 09:49:09"
+last-modified-jotform: "2025-09-13 12:06:26"
+last-exported: "2025-09-13 12:08:34"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "EJ’s Recreations: Props, Masks, and More!"
 slug: ejs-recreations-props-masks-and-more
 permalink: /exhibits/ejs-recreations-props-masks-and-more/
 exhibit-id: 25-50
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "A show and tell as well as sale of masks, prop swords, art, and trinkets."
 description-long: "This exhibit is a show and tell and sale of all the variations of art I have made over the years. This includes prop weapons, face masks, keychains, sculptures, and wall-hung pieces. All made form locally sourced recycled materials!"
@@ -133,8 +134,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2025-06-29 12:40:21"
-last-modified-jotform: "2025-07-14 19:29:34"
-last-exported: "2025-07-27 11:28:28"
+last-modified-jotform: "2025-09-13 11:41:19"
+last-exported: "2025-09-13 11:59:33"
 sitemap: false
 
 ---
