@@ -5,6 +5,7 @@ title: "Liminal Craft"
 slug: liminal-craft
 permalink: /exhibits/liminal-craft/
 exhibit-id: 25-36
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Liminal Craft stocks zines, coin pendants, handmade jewelry, original and fanart prints, and more!"
 description-long: "Want to make a zine? Want to peruse some truly shenanigans (or educational) zines yourself? Art is freedom and no one can stop you! Come check out our fan and historical zines, as well as art, jewelry, and pin accessories."
@@ -49,8 +50,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-14 20:59:38"
-last-modified-jotform: "2025-07-05 12:57:09"
-last-exported: "2025-07-27 11:29:45"
+last-modified-jotform: "2025-09-13 11:37:03"
+last-exported: "2025-09-13 11:38:10"
 sitemap: false
 
 ---

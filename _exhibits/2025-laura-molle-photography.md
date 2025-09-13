@@ -5,6 +5,7 @@ title: "Laura Molle Photography"
 slug: laura-molle-photography
 permalink: /exhibits/laura-molle-photography/
 exhibit-id: 25-15
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Unique art creations of mixed media combining postage, guitar picks, jewelry and more with my photos"
 description-long: "As a photographer, I use my creative skills to make mixed media art including photo cards and wall art suitable for framing or gifting.  I also make jewelry, enhance musical instruments, keychains, bookmarks and other unique items all using postage stamps, guitar picks and I turn many everyday objects into art.
@@ -68,8 +69,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-03 10:26:35"
-last-modified-jotform: "2025-06-24 06:19:55"
-last-exported: "2025-07-27 11:32:48"
+last-modified-jotform: "2025-09-13 11:32:34"
+last-exported: "2025-09-13 11:38:35"
 sitemap: false
 
 ---
