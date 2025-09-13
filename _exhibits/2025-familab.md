@@ -5,6 +5,7 @@ title: "FamiLAB"
 slug: familab
 permalink: /exhibits/familab/
 exhibit-id: 25-161
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Community Makerspace in Longwood, FL"
 description-long: "FamiLAB is a community that fosters learning and creativity through hands-on projects, collaboration, and the sharing of skills & tools to improve ourselves and enrich the world around us."
@@ -87,8 +88,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-28 07:59:55"
-last-modified-jotform: "2025-09-06 09:30:10"
-last-exported: "2025-09-06 09:48:56"
+last-modified-jotform: "2025-09-06 09:53:04"
+last-exported: "2025-09-08 19:14:34"
 sitemap: false
 
 ---

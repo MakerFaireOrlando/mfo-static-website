@@ -5,6 +5,7 @@ title: "Klingon Assault Group"
 slug: klingon-assault-group
 permalink: /exhibits/klingon-assault-group/
 exhibit-id: 25-32
+exhibit-zone: "Spirit - East"
 space-number: Unassigned
 description: "Various props from the various Star Trek series (homemade)"
 description-long: "Various props from the various Star Trek series (homemade)"
@@ -46,8 +47,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2025-06-12 07:56:52"
-last-modified-jotform: "2025-07-06 14:27:28"
-last-exported: "2025-07-27 11:30:22"
+last-modified-jotform: "2025-09-06 09:51:32"
+last-exported: "2025-09-08 19:14:51"
 sitemap: false
 
 ---

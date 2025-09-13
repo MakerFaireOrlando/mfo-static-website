@@ -5,6 +5,7 @@ title: "Melbourne Makerspace"
 slug: melbourne-makerspace
 permalink: /exhibits/melbourne-makerspace/
 exhibit-id: 25-80
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "People working on woodworking, pottery, laser cutting, electronics, software, and 3D printing, etc."
 description-long: "We will be displaying representative examples of some completed projects provided by some of our members. We will also have a couple of live interactive projects involving cameras with Raspberry Pi computers. There is a video tour of our MakerSpace as well as a Slideshow of various completed projects that are too large to bring to MakerFaire Orlando."
@@ -197,8 +198,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2025-07-11 16:11:41"
-last-modified-jotform: "2025-07-12 14:59:57"
-last-exported: "2025-07-27 11:25:48"
+last-modified-jotform: "2025-09-06 09:53:00"
+last-exported: "2025-09-08 19:14:44"
 sitemap: false
 
 ---
