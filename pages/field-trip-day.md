@@ -18,7 +18,7 @@ page_footer_ad: false
 
 # Field Trip Day at Maker Faire Orlando – {{ site.edu_date_descr }}
 
-The Maker Effect Foundation and our sponsors invite students to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Field Trip Day on Friday, {{ site.edu_date_descr }}
+The Maker Effect Foundation and our sponsors invite students to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Field Trip Day on Friday, {{ site.edu_date_descr }} from 10am to 3pm.
 
 This special preview day is designed exclusively for public, private, and charter school field trips, homeschool students, co-ops and full-time virtual school students. Students and educators will have the chance to immerse themselves in interactive exhibits and engage directly with makers, artists, engineers, and inventors from across Florida.
 
