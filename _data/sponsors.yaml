@@ -75,7 +75,7 @@ sponsors:
     url: https://www.sainsmart.com
     logo: sainsmart.jpg
     level: 4
-    active: false
+    active: true
   - name: Wiring Technologies
     url: https://wiringtech.com/
     logo: WTI_Logo.png
