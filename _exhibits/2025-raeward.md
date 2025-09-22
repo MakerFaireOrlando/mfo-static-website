@@ -5,6 +5,7 @@ title: "RaeWard"
 slug: raeward
 permalink: /exhibits/raeward/
 exhibit-id: 25-146
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "I am an artist that specializes in animals and creature arts."
 description-long: "I am an artist that specializes in animals and creature arts. I design and make my own cross-stitch patterns and sell kits of my designs. I also sell charms, including fidget charms, that I design and assemble myself, art prints, acrylic goods such as standees and enamel pins."
@@ -68,8 +69,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-05 22:37:36"
-last-modified-jotform: "2025-08-25 19:40:10"
-last-exported: "2025-08-25 20:09:22"
+last-modified-jotform: "2025-09-21 18:04:50"
+last-exported: "2025-09-21 21:21:34"
 sitemap: false
 
 ---

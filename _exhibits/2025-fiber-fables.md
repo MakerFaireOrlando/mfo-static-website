@@ -5,6 +5,7 @@ title: "Fiber & Fables"
 slug: fiber-fables
 permalink: /exhibits/fiber-fables/
 exhibit-id: 25-102
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Crocheted Fantasy and whimsical amigurumi (animal and doll) pieces."
 description-long: "I am a crochet artisan and pattern designer. My creations are mainly fantasy oriented. All pieces of work are created by me. Most of my work is my own design, but I do make creatures from other designers."
@@ -218,8 +219,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-22 16:39:11"
-last-modified-jotform: "2025-08-10 14:16:28"
-last-exported: "2025-08-13 05:38:38"
+last-modified-jotform: "2025-09-21 18:00:43"
+last-exported: "2025-09-21 21:21:55"
 sitemap: false
 
 ---

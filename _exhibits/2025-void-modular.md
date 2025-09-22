@@ -5,6 +5,7 @@ title: "Void Modular"
 slug: void-modular
 permalink: /exhibits/void-modular/
 exhibit-id: 25-170
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Synthesizers to play with."
 description-long: "Step into the world of sound exploration! Twist knobs, patch wires, and uncover the strange and wonderful voices of modular synthesizers. Whether you’re curious about how synths work, love experimenting with noise, or just want to play, come make some unexpected music with us."
@@ -50,8 +51,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-02 08:50:08"
-last-modified-jotform: "2025-09-06 09:26:09"
-last-exported: "2025-09-06 09:48:45"
+last-modified-jotform: "2025-09-21 18:05:17"
+last-exported: "2025-09-21 21:21:24"
 sitemap: false
 
 ---

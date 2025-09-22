@@ -5,6 +5,7 @@ title: "DeltaMaker 3D Printers"
 slug: deltamaker-3d-printers
 permalink: /exhibits/deltamaker-3d-printers/
 exhibit-id: 25-104
+exhibit-zone: "Spirit - East"
 space-number: Unassigned
 description: "Showcasing innovations in 3D printing technology through continuous exploration and development."
 description-long: "At DeltaMaker, we are focused on advancing the technology behind 3D printing. Here are some of the projects we are currently working on:
@@ -53,8 +54,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-24 11:55:46"
-last-modified-jotform: "2025-07-28 20:10:36"
-last-exported: "2025-07-28 20:38:44"
+last-modified-jotform: "2025-09-15 22:12:54"
+last-exported: "2025-09-21 21:21:54"
 sitemap: false
 
 ---

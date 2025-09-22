@@ -5,6 +5,7 @@ title: "Pirate Duck"
 slug: pirate-duck
 permalink: /exhibits/pirate-duck/
 exhibit-id: 25-109
+exhibit-zone: "Curiosity"
 space-number: Unassigned
 description: "We sell original designs that range from pop culture, sci-fi, and theme attractions."
 description-long: "We sell original designs that range from pop culture, sci-fi, and theme attractions. You can create your very own custom garment from a range of designs and garments available."
@@ -172,8 +173,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-25 08:35:54"
-last-modified-jotform: "2025-08-17 15:04:59"
-last-exported: "2025-08-17 15:51:40"
+last-modified-jotform: "2025-09-21 18:01:15"
+last-exported: "2025-09-21 21:21:53"
 sitemap: false
 
 ---

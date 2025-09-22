@@ -5,6 +5,7 @@ title: "Czartroniks"
 slug: czartroniks
 permalink: /exhibits/czartroniks/
 exhibit-id: 25-120
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Interactive musical toys with audiovisual elements."
 description-long: "Interactive musical toys with audiovisual elements, MIDI and TouchDesigner explorations, video kaleidoscopes, visual feedback, etc."
@@ -45,8 +46,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2025-07-29 01:08:27"
-last-modified-jotform: "2025-08-03 16:54:49"
-last-exported: "2025-08-03 17:08:02"
+last-modified-jotform: "2025-09-21 18:01:33"
+last-exported: "2025-09-21 21:21:48"
 sitemap: false
 
 ---

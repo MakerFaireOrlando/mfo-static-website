@@ -5,6 +5,7 @@ title: "reThreads: Foxy Style"
 slug: rethreads-foxy-style
 permalink: /exhibits/rethreads-foxy-style/
 exhibit-id: 25-10
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "3d Laser Cut Wooden Art, made from new and recycled materials."
 description-long: "Erin Fox grew up in a home in Maryland nearly as old as the radio. It was her parents who helped to pave the way to her discovering her passion for creating. Erin's parents renovated their house and barn to include a workshop with every toll you could imagine. They even dug out a basement and turned it into a ceramic's studio. Those experiences, and that love and passion for creating something beautiful from something forgotten or tossed aside, helped form her into who she is today and what she creates. 
@@ -76,8 +77,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-05-28 18:39:50"
-last-modified-jotform: "2025-09-06 09:43:07"
-last-exported: "2025-09-06 09:49:23"
+last-modified-jotform: "2025-09-15 21:55:07"
+last-exported: "2025-09-21 21:23:01"
 sitemap: false
 
 ---

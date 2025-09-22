@@ -154,7 +154,7 @@ maker:
     url: /assets/images/exhibit-images/25-25-m-jt-designs-and-miniatures-jt-designs-150x92.jpg
     width: 150
     height: 92
-  website: http:// www.jtdesignsandminiatures.com
+  website: http://www.jtdesignsandminiatures.com
 categories: 
   - slug: 3d-printing
     name: 3D Printing
@@ -167,8 +167,8 @@ categories:
   - slug: special-effects
     name: Special Effects
 created-jotform: "2025-06-10 23:03:13"
-last-modified-jotform: "2025-09-13 11:34:41"
-last-exported: "2025-09-13 11:38:23"
+last-modified-jotform: "2025-09-21 22:20:56"
+last-exported: "2025-09-21 21:22:52"
 sitemap: false
 
 ---

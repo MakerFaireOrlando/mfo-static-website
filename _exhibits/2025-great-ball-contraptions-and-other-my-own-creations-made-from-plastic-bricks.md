@@ -5,6 +5,7 @@ title: "Great Ball Contraptions and other my own creations made from plastic bri
 slug: great-ball-contraptions-and-other-my-own-creations-made-from-plastic-bricks
 permalink: /exhibits/great-ball-contraptions-and-other-my-own-creations-made-from-plastic-bricks/
 exhibit-id: 25-31
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "GFLUG will display their ever evolving Great Ball Contraptions . More modules are added each year."
 description-long: "GFLUG has been growing the GBC we bring to maker faire Orlando each year.  In addition we will be exhibiting some other my own creations that demonstrate what creativity can be displayed with the LEGO brick."
@@ -202,8 +203,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-11 20:32:16"
-last-modified-jotform: "2025-09-10 06:55:12"
-last-exported: "2025-09-13 09:56:33"
+last-modified-jotform: "2025-09-21 18:07:18"
+last-exported: "2025-09-21 21:22:47"
 sitemap: false
 
 ---

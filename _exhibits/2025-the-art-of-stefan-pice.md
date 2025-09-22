@@ -5,6 +5,7 @@ title: "The Art of Stefan Pice"
 slug: the-art-of-stefan-pice
 permalink: /exhibits/the-art-of-stefan-pice/
 exhibit-id: 25-160
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Artist and maker forging worlds, machines, and illusions where craft meets the uncanny."
 description-long: "Stefan Price is a multidisciplinary creator blending art, engineering, and storytelling. As founder of Roundtable Productions, he has built worlds for Disney, Universal, film, and live events, mastering everything from sculpting and scenic painting to metalwork and effects. His personal art brand, Bits and Bots, features retro-futurist robots—imperfect, eerie, and allegorical—exploring humanity’s evolving relationship with technology. Alongside his fabrication work, Stefan creates mesmerizing zoetropes, bringing mechanical wonder to life through motion and illusion. Whether crafting large-scale experiences or intimate works of art, his creations inhabit the space where dreams, machines, and the uncanny meet.  Come see examples of various projects and ask about how they were made."
@@ -139,8 +140,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-26 23:50:08"
-last-modified-jotform: "2025-09-06 09:30:37"
-last-exported: "2025-09-06 09:49:02"
+last-modified-jotform: "2025-09-15 21:50:59"
+last-exported: "2025-09-21 21:21:32"
 sitemap: false
 
 ---

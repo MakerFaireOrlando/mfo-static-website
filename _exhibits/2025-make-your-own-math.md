@@ -5,6 +5,7 @@ title: "Make Your Own Math"
 slug: make-your-own-math
 permalink: /exhibits/make-your-own-math/
 exhibit-id: 25-63
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Explore magic squares, soma cubes, fractals & polyhedra with Orlando Math Circle facilitators!"
 description-long: "Join us for a day of infinite possibilities to play with math through puzzles, games and hands-on math art. Math festival is an event at which children and adults play with mathematics. There are numerous tables set up, each with a facilitator and a problem set, game, puzzle, or activity. Participants play and explore individually or in groups, share insights, and make discoveries."
@@ -55,8 +56,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-02 22:49:35"
-last-modified-jotform: "2025-08-25 17:56:45"
-last-exported: "2025-08-25 19:07:45"
+last-modified-jotform: "2025-09-15 22:11:37"
+last-exported: "2025-09-21 21:22:08"
 sitemap: false
 
 ---

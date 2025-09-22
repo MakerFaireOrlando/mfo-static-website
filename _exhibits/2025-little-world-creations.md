@@ -5,6 +5,7 @@ title: "Little World Creations"
 slug: little-world-creations
 permalink: /exhibits/little-world-creations/
 exhibit-id: 25-137
+exhibit-zone: "Spirit - East"
 space-number: Unassigned
 description: "Upcycled vintage teacups made into miniature creations for small display."
 description-long: "Little World Creations are miniature scenes crafted from vintage English & antique American teacups with saucers. Each design is one of a kind, whatever inspires me on any given day! I do all the creations myself & can create special holiday varieties & made to order occasions."
@@ -216,8 +217,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-31 15:10:21"
-last-modified-jotform: "2025-08-26 06:15:45"
-last-exported: "2025-08-26 06:16:03"
+last-modified-jotform: "2025-09-21 18:03:48"
+last-exported: "2025-09-21 21:21:44"
 sitemap: false
 
 ---

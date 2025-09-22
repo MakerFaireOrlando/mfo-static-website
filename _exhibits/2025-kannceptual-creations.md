@@ -5,6 +5,7 @@ title: "KannCeptual Creations"
 slug: kannceptual-creations
 permalink: /exhibits/kannceptual-creations/
 exhibit-id: 25-78
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "KannCeptual Creations features local indie author Diane Kann eco-focused books, artwork, and more!"
 description-long: "KannCeptual Creations features local indie author Diane Kann eco-focused books, artwork, and related items. 3d objects created by her son, Devin Kann, are also featured as they relate to the eco-focus."
@@ -168,8 +169,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-10 09:59:52"
-last-modified-jotform: "2025-07-25 22:04:00"
-last-exported: "2025-07-27 11:26:01"
+last-modified-jotform: "2025-09-21 18:06:52"
+last-exported: "2025-09-21 21:22:04"
 sitemap: false
 
 ---

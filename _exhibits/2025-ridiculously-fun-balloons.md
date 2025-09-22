@@ -5,6 +5,7 @@ title: "Ridiculously Fun Balloons"
 slug: ridiculously-fun-balloons
 permalink: /exhibits/ridiculously-fun-balloons/
 exhibit-id: 25-122
+exhibit-zone: "Spirit - East"
 space-number: Unassigned
 description: "Balloon animals for everyone. I can make anything. Challenge me."
 description-long: "I make detailed balloon animals and shapes, including your favorite characters. Seriously, whatever your nerdy little heart desires, I can make it. Even if I've never heard of it before, just show me a picture and I will figure it out."
@@ -148,8 +149,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-29 11:54:44"
-last-modified-jotform: "2025-08-25 17:30:05"
-last-exported: "2025-08-25 19:07:34"
+last-modified-jotform: "2025-09-21 18:01:41"
+last-exported: "2025-09-21 21:21:47"
 sitemap: false
 
 ---

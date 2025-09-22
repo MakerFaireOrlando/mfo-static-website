@@ -5,6 +5,7 @@ title: "Sumobot Challenge"
 slug: sumobot-challenge
 permalink: /exhibits/sumobot-challenge/
 exhibit-id: 25-158
+exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Self driving, autonomous robots duke it out on the dohyo to see which Sumo robot reigns supreme!"
 description-long: "This exhibit features completely autonomous robots squaring off to wrestle each other in the sumo dohyo.  Robots must react to their opponents, attack, feign, escape and attempt to push their opponents off the edge of the platform, while avoiding the opponent from doing the same!
@@ -28,6 +29,7 @@ image-primary:
     url: /assets/images/exhibit-images/25-158-e-sumobot-challenge-robojoust-profile-1024x1024.jpg
     width: 1024
     height: 1024
+website: "https://buildersdb.com/sumobotchallenge2025"
 video: "https://youtu.be/IS7MtAFusbs?si=y4Mrs05Tr6Cx2S9o&t=227"
 video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/IS7MtAFusbs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="Knights Out Sumo Joust Event - September 24, 2024"></iframe>'
 maker: 
@@ -48,8 +50,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2025-08-25 12:25:47"
-last-modified-jotform: "2025-09-06 09:45:57"
-last-exported: "2025-09-06 09:49:04"
+last-modified-jotform: "2025-09-19 21:17:12"
+last-exported: "2025-09-21 21:21:32"
 sitemap: false
 
 ---

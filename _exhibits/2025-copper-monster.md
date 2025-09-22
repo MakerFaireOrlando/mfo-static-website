@@ -5,6 +5,7 @@ title: "Copper Monster"
 slug: copper-monster
 permalink: /exhibits/copper-monster/
 exhibit-id: 25-62
+exhibit-zone: "Curiosity"
 space-number: Unassigned
 description: "Handmade upcycled, recycled, and new eco-friendly items to help keep trash out of landfills!"
 description-long: "Handmade upcycled, recycled, and new eco-friendly items to help keep trash out of landfills! Soda can earrings, snack packaging into purses, feed bags into totes - the limit does not exist! I also sew washable, reusable things such as dish scrubbers, bowl cozies, jar toppers, fabric bookmarks, scrunchies, and more!"
@@ -84,8 +85,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2025-07-02 16:57:27"
-last-modified-jotform: "2025-07-12 15:34:52"
-last-exported: "2025-07-27 11:27:16"
+last-modified-jotform: "2025-09-15 22:09:06"
+last-exported: "2025-09-21 21:22:09"
 sitemap: false
 
 ---

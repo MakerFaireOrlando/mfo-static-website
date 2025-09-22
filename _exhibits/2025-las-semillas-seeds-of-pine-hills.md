@@ -5,6 +5,7 @@ title: "Las Semillas/ Seeds of Pine Hills"
 slug: las-semillas-seeds-of-pine-hills
 permalink: /exhibits/las-semillas-seeds-of-pine-hills/
 exhibit-id: 25-144
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "We are a youth-led mutual aid network in Pine Hills, FL"
 description-long: "We are a youth-led mutual aid network in Pine Hills, FL, working to mobilize and organize Pine Hills residents towards a liberatory future through arts, culture, education and grassroots organizing."
@@ -26,6 +27,58 @@ image-primary:
     url: /assets/images/exhibit-images/25-144-e-las-semillas-seeds-of-pine-hills-white-minimalist-simple-aesthetic-name-twitter-header-1024x341.png
     width: 1024
     height: 341
+additional-images: 
+  - 1:
+    full:
+      url: /assets/images/exhibit-images/25-144-e1-las-semillas-seeds-of-pine-hills-img-9063-full.jpg
+      width: 386
+      height: 514
+    small:
+      url: /assets/images/exhibit-images/25-144-e1-las-semillas-seeds-of-pine-hills-img-9063-113x150.jpg
+      width: 113
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-144-e1-las-semillas-seeds-of-pine-hills-img-9063-225x300.jpg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-144-e1-las-semillas-seeds-of-pine-hills-img-9063-386x514.jpg
+      width: 386
+      height: 514
+  - 2:
+    full:
+      url: /assets/images/exhibit-images/25-144-e2-las-semillas-seeds-of-pine-hills-img-9548-full.jpg
+      width: 481
+      height: 642
+    small:
+      url: /assets/images/exhibit-images/25-144-e2-las-semillas-seeds-of-pine-hills-img-9548-112x150.jpg
+      width: 112
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-144-e2-las-semillas-seeds-of-pine-hills-img-9548-225x300.jpg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-144-e2-las-semillas-seeds-of-pine-hills-img-9548-481x642.jpg
+      width: 481
+      height: 642
+  - 3:
+    full:
+      url: /assets/images/exhibit-images/25-144-e3-las-semillas-seeds-of-pine-hills-img-6687-full.jpg
+      width: 481
+      height: 642
+    small:
+      url: /assets/images/exhibit-images/25-144-e3-las-semillas-seeds-of-pine-hills-img-6687-112x150.jpg
+      width: 112
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25-144-e3-las-semillas-seeds-of-pine-hills-img-6687-225x300.jpg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25-144-e3-las-semillas-seeds-of-pine-hills-img-6687-481x642.jpg
+      width: 481
+      height: 642
 website: "https://seedsofpinehills.org"
 maker: 
   name: "Las Semillas"
@@ -43,8 +96,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2025-08-04 06:54:57"
-last-modified-jotform: "2025-08-25 19:45:19"
-last-exported: "2025-08-25 20:09:22"
+last-modified-jotform: "2025-09-21 18:04:35"
+last-exported: "2025-09-21 21:21:36"
 sitemap: false
 
 ---

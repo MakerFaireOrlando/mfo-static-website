@@ -5,6 +5,7 @@ title: "Megan O'Russell Meet the Author"
 slug: megan-orussell-meet-the-author
 permalink: /exhibits/megan-orussell-meet-the-author/
 exhibit-id: 25-64
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "From epic fantasy to dystopian, Megan O'Russell offers readers thirty-two books across nine series."
 description-long: "From the epic fantasy world of Ilbrea to the vampire-plagued dystopia of the domes, Megan O'Russell offers readers thirty-two books across nine series. Megan's newest novel, Sketchbook of a Wayward Seer, is presented in partnership with the Page by Page podcast where you can listen to a new full chapter of the book every week. Available titles include Ember and Stone, Girl of Glass, The Cursebound Thief, and How I Magically Messed Up My Life in Four Freakin' Days."
@@ -81,8 +82,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-03 09:38:39"
-last-modified-jotform: "2025-07-12 15:34:51"
-last-exported: "2025-07-27 11:27:10"
+last-modified-jotform: "2025-09-21 17:59:48"
+last-exported: "2025-09-21 21:22:07"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Glowcake"
 slug: glowcake
 permalink: /exhibits/glowcake/
 exhibit-id: 25-28
+exhibit-zone: "Curiosity"
 space-number: Unassigned
 description: "Check out our projection mapping technology! We're demonstrating projection mapped cakes!"
 description-long: "Spatial augmented reality is an exciting approach to augmenting reality without headsets or glasses. The enabling technology is a custom software system which accurately calibrates the 3d pose and focal length of one or more projectors. Game engines such as Unity, Unreal and Blender can be used to provide real time graphics and interaction by rendering and displaying from game engine views aligned with the real world projectors. We are also able to scan objects like cakes and heads in 3d."
@@ -69,8 +70,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-11 11:00:33"
-last-modified-jotform: "2025-06-29 11:52:02"
-last-exported: "2025-07-27 11:31:18"
+last-modified-jotform: "2025-09-21 17:58:21"
+last-exported: "2025-09-21 21:22:47"
 sitemap: false
 
 ---

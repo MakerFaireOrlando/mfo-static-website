@@ -5,6 +5,7 @@ title: "Puppets & Props with The Second Breakfast Club Show"
 slug: puppets-props-with-the-second-breakfast-club-show
 permalink: /exhibits/puppets-props-with-the-second-breakfast-club-show/
 exhibit-id: 25-67
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Puppets & props made for The Second Breakfast Club Show, a sketch comedy show from Central Florida."
 description-long: "Join us as we share some of the puppets and props made for The Second Breakfast Club Show. With some creativity, and a green screen, we're able to take our comedic vision from paper to produced. From felt puppets to air dry clay cookies on sticks, just add imagination and anything can be a puppet!"
@@ -108,8 +109,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-04 19:27:39"
-last-modified-jotform: "2025-07-06 08:38:45"
-last-exported: "2025-07-27 11:26:57"
+last-modified-jotform: "2025-09-21 18:00:09"
+last-exported: "2025-09-21 21:22:05"
 sitemap: false
 
 ---

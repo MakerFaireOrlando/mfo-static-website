@@ -5,6 +5,7 @@ title: "Theme Park Candles"
 slug: theme-park-candles
 permalink: /exhibits/theme-park-candles/
 exhibit-id: 25-174
+exhibit-zone: "Curiosity"
 space-number: Unassigned
 description: "Theme Park Candles: premium park-inspired scents that give back—50% donated to Give Kids The World."
 description-long: "Theme Park Candles brings the wonder of the theme parks into your home with fragrances designed to spark memories of your happiest adventures. Each candle is thoughtfully crafted with clean ingredients and long-lasting scents that evoke moments like walking down Main Street, celebrating under the fireworks, or stepping into a holiday-decorated resort lobby.
@@ -117,8 +118,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-09 13:25:15"
-last-modified-jotform: "2025-09-13 10:20:35"
-last-exported: "2025-09-13 10:21:49"
+last-modified-jotform: "2025-09-21 18:06:16"
+last-exported: "2025-09-21 21:21:20"
 sitemap: false
 
 ---

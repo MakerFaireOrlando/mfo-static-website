@@ -5,6 +5,7 @@ title: "Coruscate Leather"
 slug: coruscate-leather
 permalink: /exhibits/coruscate-leather/
 exhibit-id: 25-9
+exhibit-zone: "Spirit - East"
 space-number: Unassigned
 description: "Coruscate Leather creates handcrafted hand-carved leather handbags and accessories."
 description-long: "Welcome to Coruscate Leather & Co. - where craftsmanship and creativity collide in a world of nature, magic, and story. We handcraft unique leather goods for everyday wear and epic adventures alike. From carved butterfly barrettes and hand-painted earrings to custom handbags, hair-on-hide accessories, and detailed cosplay and LARP pieces, our work is made to bring your character, or your spirit, to life. Whether you’re stepping into a Renaissance fair, a fantasy realm, or just want something one-of-a-kind for your day-to-day, our designs carry the soul of slow fashion and the spirit of storytelling. Inspired by wild places, handmade with heart, and always a little magical."
@@ -167,8 +168,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-05-28 18:22:39"
-last-modified-jotform: "2025-09-13 10:21:54"
-last-exported: "2025-09-13 10:24:26"
+last-modified-jotform: "2025-09-15 22:14:43"
+last-exported: "2025-09-21 21:23:06"
 sitemap: false
 
 ---

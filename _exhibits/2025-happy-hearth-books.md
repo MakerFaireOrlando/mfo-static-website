@@ -5,6 +5,7 @@ title: "Happy Hearth Books"
 slug: happy-hearth-books
 permalink: /exhibits/happy-hearth-books/
 exhibit-id: 25-18
+exhibit-zone: "Curiosity"
 space-number: Unassigned
 description: "We sell Blind Date with a Book. We curate and wrap books to ensure they find their perfect match."
 description-long: "Our goal is to make sure that we have a book for every type of person. We search and rescue our books. We clean them up. And we wrapp them so beautifully so that they become irresistible. 🧡 We carry all genres for all people."
@@ -112,8 +113,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2025-06-03 15:26:33"
-last-modified-jotform: "2025-06-29 11:04:11"
-last-exported: "2025-07-27 11:32:31"
+last-modified-jotform: "2025-09-21 17:57:49"
+last-exported: "2025-09-21 21:22:56"
 sitemap: false
 
 ---

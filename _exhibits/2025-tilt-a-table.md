@@ -5,6 +5,7 @@ title: "Tilt-A-Table"
 slug: tilt-a-table
 permalink: /exhibits/tilt-a-table/
 exhibit-id: 25-140
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "This exhibits features a tiltable (TV) table with a marble maze-like Unity Game within!"
 description-long: "Tilt and turn your way through this table-size digital maze powered by Unity!
@@ -49,8 +50,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2025-07-31 22:43:34"
-last-modified-jotform: "2025-08-03 16:49:13"
-last-exported: "2025-08-03 17:06:57"
+last-modified-jotform: "2025-09-21 18:04:19"
+last-exported: "2025-09-21 21:21:38"
 sitemap: false
 
 ---
