@@ -40,6 +40,8 @@ This event takes place ahead of Maker Faire Orlando, giving students access to e
 ### School Field Trips 
 If you are an educator affiliated with a school, this program includes free admission for students, teachers, administrators and chaperones. 
 
+<strong>WE ARE UNABLE TO ACCOMODATE ANY ADDITIONAL SCHOOL GROUPS DUE TO AN AMAZING RESPONSE FOR THIS PROGRAM.</strong> If this is a significant hardship, please email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
+
 ### Homeschool & Virtual School Groups 
 If your student is homeschooled, or is part of a full-time virtual school program, this program includes free admission for students and and a parent or guardian. This program is limited to one adult per student. Participants will be required to upload documentation showing homeschool or full-time virtual school status. 
 
@@ -53,8 +55,11 @@ If your student is homeschooled, or is part of a full-time virtual school progra
 
 * This program is limited to Field Trip Day, and **Field Trip Day admission will NOT be valid for Maker Faire Orlando main event days.** 
 
+### Questions? Email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
+
 <br>
 ## [Registration Form Link](https://form.jotform.com/makereffect/mfo2025-field-trip-day)
+<strong>WE ARE UNABLE TO ACCOMODATE ANY ADDITIONAL SCHOOL GROUPS DUE TO AN AMAZING RESPONSE FOR THIS PROGRAM.</strong> If this is a significant hardship, please email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
 
 <br>
 
