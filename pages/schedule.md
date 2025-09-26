@@ -4,18 +4,20 @@ layout: schedule
 permalink: /schedule/
 redirect_from: "/eventschedule/"
 redirect_from: "/event-schedule/"
-isotope: true
+isotope-schedule: true
 ---
 
 # Event Schedule
 
 
-#### Stay Tuned for exciting announcements with scheduled activities, special guests, panel discussions, musical performances and more!
 
-{% comment %}
+
 Use the schedule below to plan your weekend to catch the panel talks and other scheduled activities! Note that most of the [exhibits](/exhibits) and [hands-on activities](/exhibits/?categories/hands-on-workshop/) at Maker Faire Orlando happen continuously throughout the weekend. <BR>
 
 Check out the [event program](/program) for a printable map, schedule and more!<br><br>
+
+#### Panels have been announced, stay tuned for more info on our guest panelists!
+
 
 <div class="mtm">
   <div class="mtm-search">
@@ -40,6 +42,7 @@ Check out the [event program](/program) for a printable map, schedule and more!<
           <label class="search-filter-label">Filter by day:</label>
           <select class="schedule-filters-select-day form-control" id="makers-category-select">
             <option value="" selected="">show all</option>
+            <option value=".friday">Friday</option>
             <option value=".saturday">Saturday</option>
             <option value=".sunday">Sunday</option>
           </select>
@@ -52,33 +55,19 @@ Check out the [event program](/program) for a printable map, schedule and more!<
 
 <div class="events-container" id="events">
 
-
     {% for event in site.data.schedule %}
        
-        <div class="item {% if event.location %}
-                            {{event.location | prepend: " " | slugify}}
-                          {% endif %}
-                          {% if event.date %}
-                            {{event.date | date: "%A" | slugify}}
-                          {% endif %}" >
+        <div class="item {% if event.location %}{{event.location | prepend: " " | slugify}}{% endif %}
+            {% if event.date %}{{event.date | date: "%A" | slugify}}{% endif %}" >
 
-             {% if event.location %}
+             {%- if event.location -%}
               <a name="{{event.slug}}"></a>
-            {% endif %}
+            {%- endif -%}
             <div class="container" style="width=100%">
                 <div class="row">
                     <div class="col-sm-2">
-                      {% if event.image %}
-                        {% if event.url %}
-                          <a href="{{event.url}}">
-                        {% endif %}
-                        <img src="{{event.image}}" style="padding:10px; max-width:100%;">
-                        {% if event.url %}
-                          </a>
-                        {% endif %}
-                      {% else %}
-                      <img src="/assets/images/site-branding/makey.png" alt="Makey robot" style="padding:10px; max-width:100%;">
-                      {% endif %}
+                       <b>{{event.date | date: "%A"}}<br>{{event.date | date: "%l:%M&nbsp;%P"}}
+                        {% if event.enddate %}- {{event.enddate | date: "%l:%M&nbsp;%P"}}{% endif %}</b>
                     </div>
                     <div class="col-sm-2">
                         {% if event.url %}
@@ -96,8 +85,17 @@ Check out the [event program](/program) for a printable map, schedule and more!<
                         {{event.location}}
                     </div>
                     <div class="col-sm-2">
-                        <b>{{event.date | date: "%A"}} {{event.date | date: "%l:%M&nbsp;%P"}}
-                        {% if event.enddate %}- {{event.enddate | date: "%l:%M&nbsp;%P"}}{% endif %}</b>
+                        {% if event.image %}
+                        {% if event.url %}
+                          <a href="{{event.url}}">
+                        {% endif %}
+                        <img src="{{event.image}}" style="padding:10px; max-width:100%;">
+                        {% if event.url %}
+                          </a>
+                        {% endif %}
+                      {% else %}
+                      <img src="/assets/images/site-branding/makey.png" alt="Makey robot" style="padding:10px; max-width:100%">
+                      {% endif %}
                     </div>
                 </div>
             </div>
@@ -113,6 +111,6 @@ Event schedule subject to change at any time based on the availability of exhibi
 
 ## Need Tickets?
 Hop over to our [tickets](/attend/) page for more information including our free ticket programs for first responders, educators, and veterans!
-{% endcomment %}
+
 
 

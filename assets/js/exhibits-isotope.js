@@ -1,6 +1,5 @@
 console.log("isotope helper js loaded -010");
 
-
 //new for Jul 2025 - switch category mechanism
 //var initFilter = ':not(.combat-robots)';
 var initFilter = '';
@@ -147,7 +146,7 @@ jQuery('.filters-select').on( 'change', function() {
     url = "/exhibits/categories/" + filterValue.substring(1) + "/"
     console.log("redirecting to: " + url )
     window.location = url;
-	}
+	}s
 
 //  if ( filterValue.includes("battlebot") || filterValue.includes("combat-robot")) window.location.reload();
 //  else {

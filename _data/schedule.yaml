@@ -1,134 +1,197 @@
 #YOU MUST SORT THESE ITEMS!!!
+- title: Field Trip Day Begins!
+  description: Welcome to Field Trip Day at Maker Faire Orlando 2025!<br>Make sure to check out the <a href="/makers">list of exhibits, hands-on workshops and more so you don't miss any of the action!</a>
+  date: 2025-11-07 10:00:00
+  enddate: 2025-11-07 15:00:00
+  image: /assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg
+
+- title: Minecraft Makers
+  slug: ftd-mcparks
+  location: Main Stage
+  description: See entire theme parks created in Minecraft by the <a href="https://www.mcparks.us" target="_blank">MCParks</a> team and learn how you can be part of the amazing volunteer team that builds and maintains these creations!
+  date: 2025-11-07 10:30:00
+  enddate: 2025-11-07 10:55:00
+  url: /stage
+
+- title: YouTube Makers
+  slug: ftd-youtube
+  location: Main Stage
+  description: Meet popular YouTube content creators as they share how creativity, cosplay, and 3D printing come together to inspire the next generation of makers.
+  date: 2025-11-07 11:00:00
+  enddate: 2025-11-07 11:25:00
+  url: /stage
+
+- title: Lunch Seating
+  location: Main Stage
+  description: Grab lunch and then join us for air conditioned seating!
+  date: 2025-11-07 11:30:00
+  enddate: 2025-11-07 13:15:00
+
+- title: Young Makers
+  slug: ftd-youtube
+  location: Main Stage
+  description: Meet inspiring young makers as they share how curiosity, creativity, and hands-on making are helping them build cool projects—and a bright future.
+  date: 2025-11-07 13:30:00
+  enddate: 2025-11-07 13:55:00
+  url: /stage
+
+- title: Robot Makers
+  slug: ftd-youtube
+  location: Main Stage
+  description: Meet passionate robot makers—from high school teams to seasoned builders—as they share how design, engineering, and competition fuel their creations in FIRST robotics and combat arenas.
+  date: 2025-11-07 14:00:00
+  enddate: 2025-11-07 14:25:00
+  url: /stage
+
+- title: Field Trip Day Ends!
+  description: Field Trip Day at Maker Faire Orlando 2025 is over - we will see you next year!
+  date: 2025-11-07 15:00:00
+  image: /assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg
+
 
 - title: Maker Faire Begins!
   description: Welcome to Day 1 of Maker Faire Orlando!<br>Make sure to check out the <a href="/makers">list of exhibits, hands-on workshops and more so you don't miss any of the action!</a>
-  date: 2024-11-09 10:00:00
-  enddate: 2024-11-09 17:00:00
-  image: /assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg
-
-
-- title: Power Racing - Qualifying
-  location: Power Racing Track
-  description: These tiny electric racers are ready to race for glory - you can stop by the track to see the qualifying action!
-  date: 2024-11-09 10:30:00
-  enddate: 2024-11-09 11:30:00
-  image: /assets/images/ppprs-logo.png
-  url: /exhibits/categories/power-racing/
+  date: 2025-11-08 10:00:00
+  enddate: 2025-11-08 17:00:00
+  image: /assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg
 
 - title: Theme Park Makers Panel
   slug: theme-park-sat
   location: Main Stage
-  description: Hear from the people who make the marvelous and magical worlds visitors escape to in world famous theme parks around the world, and universe!
-  date: 2024-11-09 11:00:00
-  enddate: 2024-11-09 12:00:00
+  description: Meet the creators behind the marvelous, immersive worlds that transport visitors in world-famous theme parks across the globe!
+  date: 2025-11-08 10:30:00
+  enddate: 2025-11-08 11:15:00
   image: /assets/images/stage/2024/theme-park.jpg
+  url: /stage
+
+- title: Power Racing - Qualifying
+  location: Power Racing Track
+  description: These tiny electric racers are ready to race for glory - you can stop by the track to see the qualifying action!
+  date: 2025-11-08 10:30:00
+  enddate: 2025-11-08 11:30:00
+  image: /assets/images/ppprs-logo.png
+  url: /exhibits/categories/power-racing/
+
+- title: 3D Printing for Theme Parks
+  slug: 3dprinting-sat
+  location: Main Stage
+  description: Explore how 3D printing is transforming themed entertainment in this panel led by Joel from 3D Printing Nerd with industry experts from Universal, Adirondak Studios, and more.
+  date: 2025-11-08 11:30:00
+  enddate: 2025-11-08 12:15:00
   url: /stage
 
 - title: Power Racing - Relay Race
   location: Power Racing Track
   description:
-  date: 2024-11-09 11:30:00
-  date: 2024-11-09 12:00:00
+  date: 2025-11-08 11:30:00
+  date: 2025-11-08 12:00:00
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
-- title: Chill Zone - Lunch Seating
+- title: Lunch Seating & Local Musicians 
   location: Main Stage
-  description: Grab lunch outside and then join us for air conditioned seating!
-  date: 2024-11-09 12:00:00
-  enddate: 2024-11-09 13:45:00
+  description: Grab lunch outside and then join us for air conditioned seating and music from local musicians!
+  date: 2025-11-08 12:30:00
+  enddate: 2025-11-08 13:45:00
 
 - title: Power Racing - Sprint Race 1
   location: Power Racing Track
   description:
-  date: 2024-11-09 13:00:00
-  enddate: 2024-11-09 13:30:00
+  date: 2025-11-08 13:00:00
+  enddate: 2025-11-08 13:30:00
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
-- title: Cosplay Creators Panel
+- title: Cosplay Costumes Panel
   slug: cosplay-creators-sat
   location: Main Stage
-  description: Explore the challenges and excitement of creating massive cosplay costumes. Our panelists will discuss everything from the design and planning stages to the practicalities of transporting and managing these huge builds.
-  date: 2024-11-09 14:00:00
-  enddate: 2024-11-09 14:50:00
-  image: /assets/images/stage/2024/mattharden-stage.jpg
+  description: Join top cosplay creators Allison Chase, Frankly Builds, Evettesniche, and Willow Creative as they unveil the secrets behind crafting show-stopping costumes for cosplay and beyond.
+  date: 2025-11-08 14:00:00
+  enddate: 2025-11-08 14:45:00
   url: /stage
 
 - title: Power Racing - Meet & Greet
   location: Power Racing Track
   description: Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!
-  date: 2024-11-09 13:00:00
-  date: 2024-11-09 13:45:00
+  date: 2025-11-08 13:00:00
+  date: 2025-11-08 13:45:00
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
 - title: Combat Robot Makers Panel
-  slug: combat-robot
+  slug: combat-robots
   location: Main Stage
   description: Combat Robotics is a worldwide phenomenon, meet and hear from builders from the TV shows and local champions and learn how you can participate in this upcoming sport!
-  date: 2024-11-09 15:00:00
-  enddate: 2024-11-09 15:50:00
+  date: 2025-11-08 15:00:00
+  enddate: 2025-11-08 15:45:00
   image: /assets/images/stage/2024/combat.jpg
   url: /stage
 
 - title: Power Racing - Sprint Race 2
   location: Power Racing Track
   description:
-  date: 2024-11-09 16:00:00
-  date: 2024-11-09 16:30:00
+  date: 2025-11-08 16:00:00
+  date: 2025-11-08 16:30:00
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
-- title: Orlando Story Club
-  slug: orlando-story-club
+- title: Nerd Nite Orlando - Trivia!
+  slug: nerd-nite
   location: Main Stage
-  description: Orlando Story Club is a live storytelling competition, each storyteller is given 5 minutes to impress the audience!
-  date: 2024-11-09 16:00:00
-  enddate: 2024-11-09 17:00:00
-  image: /assets/images/stage/2024/danielleziss.jpg
+  description: Join the Nerd Nite crew for an special edition of Nerd Nite trivia!
+  date: 2025-11-08 16:00:00
+  enddate: 2025-11-08 17:00:00
+  image: /assets/images/stage/2024/ricardo.jpg
   url: /stage
 
 - title: Maker Faire Day 1 is Over!
   description: We will see you Tomorrow!
-  date: 2024-11-09 17:00:00
-  enddate: 2024-11-09 17:00:00
-  image: /assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg
+  date: 2025-11-08 17:00:00
+  enddate: 2025-11-08 17:00:00
+  image: /assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg
 
 - title: Maker Faire Resumes!
-  description: Welcome back for day 2 of Maker Faire Orlando 2024!
-  date: 2024-11-10 10:00:00
-  enddate: 2024-11-10 17:00:00
-  image: /assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg
+  description: Welcome back for day 2 of Maker Faire Orlando 2025!
+  date: 2025-11-09 10:00:00
+  enddate: 2025-11-09 17:00:00
+  image: /assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg
 
 - title: Theme Park Makers Panel
   slug: theme-park-sun
   location: Main Stage
   description: Hear from local makers who use technology to create amazing Theme Park experiences! 
-  date: 2024-11-10 11:00:00
-  enddate: 2024-11-10 12:00:00
+  date: 2025-11-09 10:30:00
+  enddate: 2025-11-09 11:15:00
   image: /assets/images/stage/2024/theme-park.jpg
+  url: /stage
+
+- title: The Future of 3D Printing
+  slug: 3d-printing-sun
+  location: Main Stage
+  description: Dive into the future of 3D printing with Joel (3D Printing Nerd) and top makers as they explore cutting-edge trends, tech, and holiday printer picks.
+  date: 2025-11-09 11:30:00
+  enddate: 2025-11-09 12:15:00
   url: /stage
 
 - title: Power Racing - Sprint Race 3
   location: Power Racing Track
   description:
-  date: 2024-11-10 11:00:00
-  enddate: 2024-11-10 11:30:00
+  date: 2025-11-09 11:00:00
+  enddate: 2025-11-09 11:30:00
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
-- title: Chill Zone - Lunch Seating
+- title: Lunch Seating & Local Musicians 
   location: Main Stage
-  description: Grab lunch outside and then join us for air conditioned seating!
-  date: 2024-11-09 12:00:00
-  enddate: 2024-11-09 13:45:00
+  description: Grab lunch outside and then join us for air conditioned seating and music from local musicians!
+  date: 2025-11-09 12:30:00
+  enddate: 2025-11-08 13:45:00
 
 - title: Power Racing - Meet & Greet
   location: Power Racing Track
   description: Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!
-  date: 2024-11-10 13:00:00
-  enddate: 2024-11-10 13:45:00
+  date: 2025-11-09 13:00:00
+  enddate: 2025-11-09 13:45:00
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
@@ -136,16 +199,15 @@
   slug: cosplay-creators-sun
   location: Main Stage
   description: Step into a world of creativity where cosplayers take beloved characters and give them fresh, unexpected looks.
-  date: 2024-11-10 14:00:00
-  enddate: 2024-11-10 14:50:00
-  image: /assets/images/stage/2024/starcos-stage.jpg
+  date: 2025-11-09 14:00:00
+  enddate: 2025-11-09 14:50:00
   url: /stage
 
 - title: Power Racing - Endurance Race
   location: Power Racing Track
   description:
-  date: 2024-11-10 14:30:00
-  date: 2024-11-10 16:00:00
+  date: 2025-11-09 14:30:00
+  date: 2025-11-09 16:00:00
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
@@ -153,32 +215,31 @@
   slug: prop-makers
   location: Main Stage
   description: Meet and learn from prop makers who create objects for use in film, TV, theater, and other productions. They work with a range of materials and skills to make props that look realistic and match the production's design
-  date: 2024-11-10 15:00:00
-  enddate: 2024-11-10 15:50:00
-  image: /assets/images/stage/2024/dunesea.jpg
+  date: 2025-11-09 15:00:00
+  enddate: 2025-11-09 15:50:00
   url: /stage
 
 - title: Power Racing - Awards Ceremony
   location: Power Racing Track
   description: The best of the best are on the podium after a long weekend of racing. Cheer them on to glory!
-  date: 2024-11-10 16:00:00
-  date: 2024-11-10 16:15:00
+  date: 2025-11-09 16:00:00
+  date: 2025-11-09 16:15:00
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
-- title: Nerd Nite Orlando
-  slug: nerd-nite
+- title: Orlando Story Club
+  slug: orlando-story-club
   location: Main Stage
-  description: Nerd Nite is a series of entertaining and educational presentations. Speakers present for 15 minutes, followed by a brief Q&A with the audience.
-  date: 2024-11-10 16:00:00
-  enddate: 2024-11-10 17:00:00
-  image: /assets/images/stage/2024/ricardo.jpg
+  description: Orlando Story Club is a live storytelling competition, each storyteller is given 5 minutes to impress the audience!
+  date: 2025-11-09 16:00:00
+  enddate: 2025-11-09 17:00:00
+  image: /assets/images/stage/2024/danielleziss.jpg
   url: /stage
 
 - title: Maker Faire Concludes
-  description: Maker Faire Orlando 2024 is over - we will see you next year!
-  date: 2024-11-10 17:00:00
-  enddate: 2024-11-10 17:00:00
-  image: /assets/images/site-branding/2024/MFO2024_Round_logo_V3_w_date.jpg
+  description: Maker Faire Orlando 2025 is over - we will see you next year!
+  date: 2025-11-09 17:00:00
+  enddate: 2025-11-09 17:00:00
+  image: /assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg
 
 #get start times from Ruckus - Sat at 11? Sunday at 10?
