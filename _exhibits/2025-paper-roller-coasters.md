@@ -5,6 +5,7 @@ title: "Paper Roller Coasters"
 slug: paper-roller-coasters
 permalink: /exhibits/paper-roller-coasters/
 exhibit-id: 25-153
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Help us design and build a giant paper roller coaster while exploring physics and engineering."
 description-long: "Kids at the fair can build upon our paper roller coaster! Using strips of paper, cutting, folding, and taping, kids can create sturdy tracks while exploring the physics of energy, motion, and the engineering design process."
@@ -84,8 +85,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-22 11:55:00"
-last-modified-jotform: "2025-09-28 10:02:08"
-last-exported: "2025-09-28 10:05:51"
+last-modified-jotform: "2025-09-28 11:46:18"
+last-exported: "2025-09-28 13:16:48"
 sitemap: false
 
 ---

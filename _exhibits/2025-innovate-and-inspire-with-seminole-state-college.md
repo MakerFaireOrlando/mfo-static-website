@@ -5,6 +5,7 @@ title: "Innovate and Inspire with Seminole State College"
 slug: innovate-and-inspire-with-seminole-state-college
 permalink: /exhibits/innovate-and-inspire-with-seminole-state-college/
 exhibit-id: 25-182
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Future-ready tech and hands-on fun from Seminole State College"
 description-long: "Orlando Maker Faire Application
@@ -134,8 +135,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-15 09:42:38"
-last-modified-jotform: "2025-09-28 10:06:36"
-last-exported: "2025-09-28 10:07:29"
+last-modified-jotform: "2025-09-28 11:43:14"
+last-exported: "2025-09-28 13:16:39"
 sitemap: false
 
 ---

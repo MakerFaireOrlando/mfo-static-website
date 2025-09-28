@@ -5,6 +5,7 @@ title: "Novella Cooper Illustrations"
 slug: novella-cooper-illustrations
 permalink: /exhibits/novella-cooper-illustrations/
 exhibit-id: 25-184
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "This exhibit is a collection of the many quirky and whimsical works of Novella Cooper."
 description-long: "This exhibit is a collection of the many quirky, gothic, and whimsical works of Novella Cooper. With over 10 years of experience in the field of visual arts and design, Novella has found her passion in illustration, creating comics and designing art for books, landing her first book gig in 2018."
@@ -159,8 +160,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2025-09-15 21:45:59"
-last-modified-jotform: "2025-09-28 10:16:37"
-last-exported: "2025-09-28 10:16:57"
+last-modified-jotform: "2025-09-28 11:43:36"
+last-exported: "2025-09-28 13:16:39"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Pixel Symphony"
 slug: pixel-symphony
 permalink: /exhibits/pixel-symphony/
 exhibit-id: 25-192
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "A creative fusion of AI, Arduino, and an LED matrix designed to blend music with visual art."
 description-long: "Our goal is to transform song lyrics into a dynamic LED light show, creating a unique and immersive visual experience for attendees."
@@ -43,8 +44,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2025-09-23 00:42:55"
-last-modified-jotform: "2025-09-28 10:30:12"
-last-exported: "2025-09-28 10:30:44"
+last-modified-jotform: "2025-09-28 11:44:54"
+last-exported: "2025-09-28 13:16:30"
 sitemap: false
 
 ---

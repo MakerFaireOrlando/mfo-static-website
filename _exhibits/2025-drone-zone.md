@@ -5,6 +5,7 @@ title: "Drone Zone"
 slug: drone-zone
 permalink: /exhibits/drone-zone/
 exhibit-id: 25-179
+exhibit-zone: "Curiosity"
 space-number: Unassigned
 description: "The Drone Zone is an activity area where attendees can learn to fly FPV (first-person view) drones."
 description-long: "Step into the Drone Zone at Maker Faire Orlando, where you can slip on FPV goggles and pilot a drone through thrilling obstacle courses, learn the basics of building and flying from local makers, and explore the intersection of aviation tech, engineering, and creativity. Perfect for all ages, the Drone Zone offers friendly guidance for first-time flyers, immersive hands-on experiences, and plenty of spectator fun — whether you’re taking the controls yourself or just enjoying the mesmerizing flights zipping through the course."
@@ -51,8 +52,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-14 04:04:32"
-last-modified-jotform: "2025-09-28 09:59:55"
-last-exported: "2025-09-28 10:05:25"
+last-modified-jotform: "2025-09-28 11:42:03"
+last-exported: "2025-09-28 13:16:45"
 sitemap: false
 
 ---

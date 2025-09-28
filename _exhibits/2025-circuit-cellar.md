@@ -5,6 +5,7 @@ title: "Circuit Cellar"
 slug: circuit-cellar
 permalink: /exhibits/circuit-cellar/
 exhibit-id: 25-183
+exhibit-zone: "Curiosity"
 space-number: Unassigned
 description: "Circuit Cellar is the publication for in-depth, hands-on articles about IoT hardware and software."
 description-long: "Circuit Cellar is the only publication that provides intensive, exploratory articles about hardware and software methods for embedded-control systems. Circuit Cellar is the premier media resource providing critical information on embedded electronics technology. It does so at a unique level of technical depth tailored to inspire professional engineers, academic technologists and other electronics technology decision makers worldwide across a broad range of applications. This exhibit will allow attendees to meet and get to know Circuit Cellar."
@@ -53,8 +54,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-15 19:23:02"
-last-modified-jotform: "2025-09-28 10:07:13"
-last-exported: "2025-09-28 10:07:25"
+last-modified-jotform: "2025-09-28 11:43:25"
+last-exported: "2025-09-28 13:16:39"
 sitemap: false
 
 ---

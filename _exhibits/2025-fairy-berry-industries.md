@@ -5,6 +5,7 @@ title: "Fairy Berry Industries"
 slug: fairy-berry-industries
 permalink: /exhibits/fairy-berry-industries/
 exhibit-id: 25-185
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Uplifting other through classes, workshops, and performances"
 description-long: "Fairy Berry Industries is an all-encompassing
@@ -102,8 +103,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-16 08:21:11"
-last-modified-jotform: "2025-09-28 10:17:26"
-last-exported: "2025-09-28 10:17:59"
+last-modified-jotform: "2025-09-28 11:43:52"
+last-exported: "2025-09-28 13:16:35"
 sitemap: false
 
 ---

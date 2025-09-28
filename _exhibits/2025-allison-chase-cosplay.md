@@ -5,6 +5,7 @@ title: "Allison Chase Cosplay"
 slug: allison-chase-cosplay
 permalink: /exhibits/allison-chase-cosplay/
 exhibit-id: 25-195
+exhibit-zone: "Spirit - East"
 space-number: Unassigned
 description: "Larger than Lift Cosplay"
 description-long: "Come see all the Giant Cosplays and find out the strange ways they were built!"
@@ -78,8 +79,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-26 13:02:19"
-last-modified-jotform: "2025-09-28 10:21:14"
-last-exported: "2025-09-28 10:30:38"
+last-modified-jotform: "2025-09-28 11:44:33"
+last-exported: "2025-09-28 13:16:29"
 sitemap: false
 
 ---

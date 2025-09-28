@@ -5,6 +5,7 @@ title: "The Pink Team"
 slug: the-pink-team
 permalink: /exhibits/the-pink-team/
 exhibit-id: 25-147
+exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Selling 3D prints"
 description-long: "The Pink Team is a FIRST Robotics Team based out of Rockledge, Fl. The team sells 3D Prints to fundraise for the upcoming season and operating costs"
@@ -63,8 +64,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-07 12:33:17"
-last-modified-jotform: "2025-09-28 10:38:05"
-last-exported: "2025-09-28 10:44:05"
+last-modified-jotform: "2025-09-28 11:45:57"
+last-exported: "2025-09-28 13:16:50"
 sitemap: false
 
 ---

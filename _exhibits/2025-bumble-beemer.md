@@ -5,6 +5,7 @@ title: "Bumble Beemer"
 slug: bumble-beemer
 permalink: /exhibits/bumble-beemer/
 exhibit-id: 25-186
+exhibit-zone: "Power Racing Track"
 space-number: Unassigned
 description: "Bumble Beemer is built to buzz to the podium."
 description-long: "Bumble Beemer is an electric vehicle featuring a custom welded chassis, a brushless motor, and interchangeable gearing to optimize acceleration for each track."
@@ -37,8 +38,8 @@ categories:
   - slug: power-racing
     name: Power Racing
 created-jotform: "2025-09-16 10:50:58"
-last-modified-jotform: "2025-09-28 10:18:02"
-last-exported: "2025-09-28 10:30:47"
+last-modified-jotform: "2025-09-28 11:44:07"
+last-exported: "2025-09-28 13:16:34"
 sitemap: false
 
 ---

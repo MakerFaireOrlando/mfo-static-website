@@ -82,7 +82,7 @@ def exportCategories(categories: Counter):
         catfile.write("permalink: /exhibits/categories/" + slug + "/\n")
         catfile.write("description: Check out all the " + name + " exhibits at Maker Faire Orlando!\n") #for SEO
         catfile.write("image: /assets/images/site-branding/mfo_two_line_border.png\n") #for SEO
-        catfile.write("isotope: true\n") #get that JS included
+        catfile.write("isotope-exhibits: true\n") #get that JS included
         catfile.write("\n\n\n---\n")
   
   #print(optionStringFull)

@@ -5,6 +5,7 @@ title: "Dancing Flexi"
 slug: dancing-flexi
 permalink: /exhibits/dancing-flexi/
 exhibit-id: 25-180
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Arduino based sound activated dancing articulated 3d Print"
 description-long: "Assemble an Arduino based project that will dance to music. Circuit Board is already Soldered just pop in the Arduino Nano, attach all the components and Blast your favorite tunes and watch your print dance away.
@@ -71,8 +72,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-14 10:32:52"
-last-modified-jotform: "2025-09-28 10:01:01"
-last-exported: "2025-09-28 10:05:24"
+last-modified-jotform: "2025-09-28 11:42:32"
+last-exported: "2025-09-28 13:16:45"
 sitemap: false
 
 ---
