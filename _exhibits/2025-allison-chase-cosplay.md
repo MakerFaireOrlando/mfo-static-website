@@ -6,8 +6,8 @@ slug: allison-chase-cosplay
 permalink: /exhibits/allison-chase-cosplay/
 exhibit-id: 25-195
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
-description: "Larger than Lift Cosplay"
+space-number: "SJ27, SJ28, SJ29, SI27"
+description: "Larger than Life Cosplay"
 description-long: "Come see all the Giant Cosplays and find out the strange ways they were built!"
 image: /assets/images/exhibit-images/25-195-e-allison-chase-cosplay-screenshot-2025-09-26-124711-5257-204x300.png
 image-primary: 
@@ -79,8 +79,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-26 13:02:19"
-last-modified-jotform: "2025-09-28 11:44:33"
-last-exported: "2025-09-28 13:16:29"
+last-modified-jotform: "2025-10-01 12:07:32"
+last-exported: "2025-10-02 19:45:30"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: rock-springs-critters
 permalink: /exhibits/rock-springs-critters/
 exhibit-id: 25-29
 exhibit-zone: "Curiosity"
-space-number: Unassigned
+space-number: "CJ1"
 description: "Come see the newest 3D printed fidgets, and whimsical household hacks by Rock Springs Critters!"
 description-long: "Come see the newest 3D printed fidgets and whimsical and innovative household hacks by Rock Springs Critters! No purchase necessary to come play with these cute animals and plants made by kids, with solar-power, and plant-derived PLA filament."
 image: /assets/images/exhibit-images/25-29-e-rock-springs-critters-rock-springs-critters-2025-4955-300x226.jpg
@@ -120,8 +120,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-11 12:03:05"
-last-modified-jotform: "2025-09-13 11:35:14"
-last-exported: "2025-09-13 11:38:19"
+last-modified-jotform: "2025-09-30 19:46:57"
+last-exported: "2025-10-02 19:47:12"
 sitemap: false
 
 ---

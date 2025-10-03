@@ -5,6 +5,7 @@ title: "Mobile Escape Room"
 slug: mobile-escape-room
 permalink: /exhibits/mobile-escape-room/
 exhibit-id: 25-194
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Mobile escape room and interactive adventure game."
 description-long: "At the intersection of storytelling and technology is this interactive mobile escape room. Follow the captivating stories and solve clues before time runs out."
@@ -50,8 +51,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-24 19:20:02"
-last-modified-jotform: "2025-09-28 10:28:15"
-last-exported: "2025-09-28 10:30:40"
+last-modified-jotform: "2025-09-28 13:52:59"
+last-exported: "2025-10-02 19:45:31"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: unique-hobby-miniatures-and-dioramas
 permalink: /exhibits/unique-hobby-miniatures-and-dioramas/
 exhibit-id: 25-41
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SG29"
 description: "Hobby miniatures and dioramas designed for train layouts, doll collections, and fantasy scenes."
 description-long: "Step into a world where craftsmanship meets imagination in an exhibit showcasing artist designed and developed hobby miniatures and dioramas designed for train layouts, doll collections, and fantasy scenes. Each piece is meticulously crafted using advanced 3D sculpting tools like ZBrush, allowing the artist to shape intricate details and bring life to tiny landscapes, accessories, and structures.
 
@@ -189,8 +189,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-19 13:19:37"
-last-modified-jotform: "2025-09-21 17:59:18"
-last-exported: "2025-09-21 21:22:40"
+last-modified-jotform: "2025-09-30 20:35:46"
+last-exported: "2025-10-02 19:46:58"
 sitemap: false
 
 ---

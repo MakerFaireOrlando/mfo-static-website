@@ -6,7 +6,7 @@ slug: j2c-props-and-printing
 permalink: /exhibits/j2c-props-and-printing/
 exhibit-id: 25-42
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SJ33, SJ34"
 description: "3D printed display pieces, machine embroidered patches, and hands on painting experience."
 description-long: "Multiple 3D printed display pieces that showcase the groups expertise in printing, painting, and lighting. The pieces demonstrate various techniques from electronics and lighting, to airbrushing and glow paint. All of the props and miniatures are 3D printed using ABS, PLA, and Resin in a variety of scales from 1/6th to life size. We've been 3D printing for many years and we are eager to share the techniques and experience we've learned along with visitors. Many pieces will be for sale.  This year we will be also hosting a Hands on Workshop where you will be able to paint 3d printed models for a small fee."
 image: /assets/images/exhibit-images/25-42-e-j2c-props-and-printing-img-8973-300x139.PNG
@@ -101,8 +101,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-20 14:38:05"
-last-modified-jotform: "2025-09-06 09:51:35"
-last-exported: "2025-09-08 19:14:51"
+last-modified-jotform: "2025-09-30 20:34:40"
+last-exported: "2025-10-02 19:46:55"
 sitemap: false
 
 ---

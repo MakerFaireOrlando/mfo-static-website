@@ -6,7 +6,7 @@ slug: custom-star-charts-by-kaluohs
 permalink: /exhibits/custom-star-charts-by-kaluohs/
 exhibit-id: 25-87
 exhibit-zone: "Curiosity"
-space-number: Unassigned
+space-number: "CG4"
 description: "See how the sky looked when you were born with a custom star chart like you've never seen before."
 description-long: "Get a deeper understanding of your horoscopes with this quick tool to understand your sun sign, rising sign, moon sign as well as many other exciting notes like your chiron, midheaven, North and South nodes. These few tips can help you unlock more aspects of your personality and purpose than you could with a horoscope alone. Understand how to navigate the noisy astrological landscape with a better map; a custom star chart by KALUOHS!"
 image: /assets/images/exhibit-images/25-87-e-custom-star-charts-by-kaluohs-deluxe-50-jessica-226x300.jpg
@@ -108,8 +108,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-13 18:04:08"
-last-modified-jotform: "2025-09-21 18:07:47"
-last-exported: "2025-09-21 21:21:57"
+last-modified-jotform: "2025-09-30 19:44:43"
+last-exported: "2025-10-02 19:46:24"
 sitemap: false
 
 ---

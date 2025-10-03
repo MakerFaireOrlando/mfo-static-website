@@ -6,7 +6,7 @@ slug: hybrid-swimmable-mermaid-tail-princess-shirahoshi-from-one-piece
 permalink: /exhibits/hybrid-swimmable-mermaid-tail-princess-shirahoshi-from-one-piece/
 exhibit-id: 25-149
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SH29"
 description: "Princess Shirahoshi cosplay made from fabric, resin scales, and silicone molding techniques."
 description-long: "Princess Shirahoshi is a mermaid from One Piece. This cosplay was made to be entirely swimmable using sculpture, silicone molding and casting techniques, over 900 hand sewn resin acrylic scales, scuba neoprene fabric, and an entirely swimmable monofin fluke."
 image: /assets/images/exhibit-images/25-149-e-hybrid-swimmable-mermaid-tail-princess-shirahoshi-from-one-piece-img-4875-202x300.jpeg
@@ -67,8 +67,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-13 08:16:32"
-last-modified-jotform: "2025-09-28 11:46:07"
-last-exported: "2025-09-28 13:16:49"
+last-modified-jotform: "2025-09-30 20:21:38"
+last-exported: "2025-10-02 19:45:55"
 sitemap: false
 
 ---

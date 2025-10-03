@@ -5,7 +5,7 @@ title: "Silly Rabbit Crafts"
 slug: silly-rabbit-crafts
 permalink: /exhibits/silly-rabbit-crafts/
 exhibit-id: 25-72
-exhibit-zone: "Spirit - East"
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Get Pixelated with Silly Rabbit Crafts and explore some awesome Perler items & even make your OWN!"
 description-long: "Join Silly Rabbit Crafts and enjoy the retro style of 8bit! you can buy handmade premade items, or have a seat and make your own take home pixelation creation."
@@ -69,8 +69,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-06 22:41:53"
-last-modified-jotform: "2025-09-13 11:55:33"
-last-exported: "2025-09-13 11:59:08"
+last-modified-jotform: "2025-09-30 20:46:23"
+last-exported: "2025-10-02 19:46:31"
 sitemap: false
 
 ---

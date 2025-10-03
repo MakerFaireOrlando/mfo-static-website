@@ -82,7 +82,7 @@ additional-images:
       height: 768
 website: "https://outthinkmedia.com/taming-of-the-screens/"
 maker: 
-  name: "Cindy Marie Jenkins / Out Think Media"
+  name: "Cynthia M Jenkins"
   description: "I teach digital literacy for families to learn together. Through hands-on , interactive learning, and plentiful resources for families to share together. Besides the podcast and website education I provide for free, we piloted a workshop at last May's Orlando Kids' Fringe Festival called Taming of the Screens, where I taught how to spot a troll and de-escalate a fight through scenes from Romeo & Juliet. These workshops and carnival games work best when they're in a festival atmosphere, and I created a unique game for MakerFaire that lets kids build their ideal brain and understand the effects of the internet on their development. I can run specialized workshops for the field trip day and parents/educators will leave with a literal bag of tricks."
   image-primary:
     url: /assets/images/exhibit-images/25-105-m-taming-of-the-screens-w-out-think-media-pxl-20250517-165551358-150x113.jpg
@@ -107,8 +107,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-24 14:33:12"
-last-modified-jotform: "2025-09-13 11:05:49"
-last-exported: "2025-09-13 11:26:30"
+last-modified-jotform: "2025-10-01 11:06:01"
+last-exported: "2025-10-02 19:46:13"
 sitemap: false
 
 ---

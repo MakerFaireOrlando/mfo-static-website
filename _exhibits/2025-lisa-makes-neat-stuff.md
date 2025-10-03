@@ -6,7 +6,7 @@ slug: lisa-makes-neat-stuff
 permalink: /exhibits/lisa-makes-neat-stuff/
 exhibit-id: 25-24
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SF32"
 description: "I am bringing an eclectic selection of odd and whimsical props, replicas, costume pieces and more."
 description-long: "I am an independent artist and maker who loves creating odd, whimsical and spooky things. I have worked as a professional prop maker, puppet designer, and model builder in a cross-section of the entertainment world including theater, film, and theme park. And I have worked as a not-professional cosplayer, replica maker, and creator of things that make people say, What is that exactly? 
 
@@ -169,8 +169,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2025-06-10 22:40:52"
-last-modified-jotform: "2025-09-13 10:50:06"
-last-exported: "2025-09-13 11:26:48"
+last-modified-jotform: "2025-09-30 20:40:52"
+last-exported: "2025-10-02 19:47:19"
 sitemap: false
 
 ---

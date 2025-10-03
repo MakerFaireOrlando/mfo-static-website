@@ -6,7 +6,7 @@ slug: princesses-with-powertools-learn-to-hand-drill
 permalink: /exhibits/princesses-with-powertools-learn-to-hand-drill/
 exhibit-id: 25-91
 exhibit-zone: "Curiosity"
-space-number: Unassigned
+space-number: "CF4"
 description: "Learn to use your first powertool from our amazing women engineers dressed as princesses!"
 description-long: "Attendees will learn to use a power drill from women engineers dressed as princesses, and will leave with a take-away souvenir constellation projector they made themselves. We’ll be bringing our drill booths, power tools, princesses, and all the materials needed."
 image: /assets/images/exhibit-images/25-91-e-princesses-with-powertools-learn-to-hand-drill-20230401-093352-300x146.jpeg
@@ -55,8 +55,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-15 15:30:18"
-last-modified-jotform: "2025-09-13 11:58:18"
-last-exported: "2025-09-13 11:58:53"
+last-modified-jotform: "2025-09-30 19:42:49"
+last-exported: "2025-10-02 19:46:15"
 sitemap: false
 
 ---

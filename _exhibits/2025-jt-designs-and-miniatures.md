@@ -6,7 +6,7 @@ slug: jt-designs-and-miniatures
 permalink: /exhibits/jt-designs-and-miniatures/
 exhibit-id: 25-25
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SC34"
 description: "A collection of studio scale models of ships and characters from movies and TV shows."
 description-long: "A collection of studio scale models from some of the most popular movies and TV shows of all time like Star Wars, Battlestar Galactica, Alien and many more. All pieces are made from 3D printing, scratch building, woodworking, silicone molding and readily available kits."
 image: /assets/images/exhibit-images/25-25-e-jt-designs-and-miniatures-img-1483-300x225.JPG
@@ -167,8 +167,8 @@ categories:
   - slug: special-effects
     name: Special Effects
 created-jotform: "2025-06-10 23:03:13"
-last-modified-jotform: "2025-09-21 22:20:56"
-last-exported: "2025-09-23 06:43:04"
+last-modified-jotform: "2025-09-30 20:40:02"
+last-exported: "2025-10-02 19:47:17"
 sitemap: false
 
 ---

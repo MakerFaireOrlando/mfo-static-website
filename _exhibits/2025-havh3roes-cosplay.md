@@ -6,7 +6,7 @@ slug: havh3roes-cosplay
 permalink: /exhibits/havh3roes-cosplay/
 exhibit-id: 25-66
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SJ35, SJ36, SI36"
 description: "We are here to build for you and share our successes and failures. Happy to entertain for you."
 description-long: "We are here to build for you and share our successes and failures. Happy to entertain for you."
 image: /assets/images/exhibit-images/25-66-e-havh3roes-cosplay-3ac8d473-e946-41e6-a597-d28c771c643d-300x300.jpeg
@@ -70,8 +70,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-04 09:54:25"
-last-modified-jotform: "2025-09-06 09:51:43"
-last-exported: "2025-09-08 19:14:46"
+last-modified-jotform: "2025-09-30 20:31:49"
+last-exported: "2025-10-02 19:46:42"
 sitemap: false
 
 ---

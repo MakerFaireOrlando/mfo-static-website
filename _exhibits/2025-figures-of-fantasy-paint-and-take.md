@@ -6,7 +6,7 @@ slug: figures-of-fantasy-paint-and-take
 permalink: /exhibits/figures-of-fantasy-paint-and-take/
 exhibit-id: 25-159
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SH27, SG27"
 description: "Practice painting a fantasy figure of your own!"
 description-long: "Participants will have the chance to paint a tabletop gaming figure of their own to take home. The figures will be a mix of DLP prints, injection molded plastics, and cast resin. 
 
@@ -190,8 +190,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-25 16:59:01"
-last-modified-jotform: "2025-09-13 11:17:00"
-last-exported: "2025-09-13 11:26:15"
+last-modified-jotform: "2025-09-30 20:21:16"
+last-exported: "2025-10-02 19:45:50"
 sitemap: false
 
 ---

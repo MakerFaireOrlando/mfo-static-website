@@ -5,7 +5,8 @@ title: "Simply Crocheted"
 slug: simply-crocheted
 permalink: /exhibits/simply-crocheted/
 exhibit-id: 25-190
-space-number: Unassigned
+exhibit-zone: "Curiosity"
+space-number: "CH1"
 description: "Cute hand-crocheted stuffed animals."
 description-long: "Cute hand-made crochet stuffed animals and other apparel varying in price. Everything is very colorful and eye-catching."
 image: /assets/images/exhibit-images/25-190-e-simply-crocheted-img-1583-225x300.jpg
@@ -97,8 +98,8 @@ categories:
   - slug: sewing
     name: Sewing
 created-jotform: "2025-09-21 19:49:20"
-last-modified-jotform: "2025-09-28 10:34:05"
-last-exported: "2025-09-28 10:43:37"
+last-modified-jotform: "2025-09-30 19:48:13"
+last-exported: "2025-10-02 19:45:33"
 sitemap: false
 
 ---

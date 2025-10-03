@@ -6,7 +6,7 @@ slug: daleks-of-florida
 permalink: /exhibits/daleks-of-florida/
 exhibit-id: 25-30
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SC31, SC32, SC33"
 description: "Come learn what it takes to build, transport, and store a Dalek and Tardis."
 description-long: "A group of Dr Who enthusiasts that like build those pesky Daleks. We have also built our own Tardis. We can show all the processes that it takes to build Daleks & a Tardis. The builds include wood work, electrical, fiberglass, 3-d printing, painting and much more."
 image: /assets/images/exhibit-images/25-30-e-daleks-of-florida-20250209-165620-300x135.jpg
@@ -66,8 +66,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2025-06-11 19:40:33"
-last-modified-jotform: "2025-09-06 09:51:28"
-last-exported: "2025-09-08 19:14:53"
+last-modified-jotform: "2025-09-30 20:39:34"
+last-exported: "2025-10-02 19:47:07"
 sitemap: false
 
 ---

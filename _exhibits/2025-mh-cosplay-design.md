@@ -6,7 +6,7 @@ slug: mh-cosplay-design
 permalink: /exhibits/mh-cosplay-design/
 exhibit-id: 25-175
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SJ31"
 description: "Custom cosplay builds & props. Creativity, craftsmanship, and wearable art!"
 description-long: "Step into a world of creativity and craftsmanship at the MH Cosplay Design booth. Featuring custom-built armor, props, and costumes inspired by gaming, anime, and fantasy worlds, our display showcases the artistry behind cosplay. Visitors can view full-scale builds, learn about the design and fabrication process, and connect with a creator passionate about bringing characters to life. Whether you’re a seasoned cosplayer or just curious, the booth offers inspiration, conversation, and a closer look at how imagination transforms into wearable art."
 image: /assets/images/exhibit-images/25-175-e-mh-cosplay-design-4140912b2f04b97c37e724f7c86bf04d-225x300.jpg
@@ -40,8 +40,8 @@ categories:
   - slug: cosplay
     name: Cosplay
 created-jotform: "2025-09-10 14:07:58"
-last-modified-jotform: "2025-09-13 10:48:02"
-last-exported: "2025-09-13 11:26:08"
+last-modified-jotform: "2025-09-30 20:19:51"
+last-exported: "2025-10-02 19:45:38"
 sitemap: false
 
 ---

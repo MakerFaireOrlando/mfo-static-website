@@ -5,7 +5,8 @@ title: "Palm Beach 4-H TechGarage"
 slug: palm-beach-4-h-techgarage
 permalink: /exhibits/palm-beach-4-h-techgarage/
 exhibit-id: 25-178
-space-number: Unassigned
+exhibit-zone: "Curiosity"
+space-number: "CK1, CL1"
 description: "Award-winning TechGarage Solar Car Team showcases solar & electrathon vehicles"
 description-long: "Come meet the award-winning national champions! The Palm Beach 4-H TechGarage Solar Car Team will showcase their full-size solar car and electrathon racing vehicles. Team members will be on hand to share their experiences in designing, building, and competing in solar-powered racing, and to spark conversations about renewable energy, engineering, and the future of transportation. The team is gearing up for the 2025 Solar Car Challenge, an exciting “Tour of Texas” road race this summer."
 image: /assets/images/exhibit-images/25-178-e-palm-beach-4-h-techgarage-20250719-155518-300x140.jpg
@@ -133,8 +134,8 @@ categories:
   - slug: vehicles
     name: Vehicles
 created-jotform: "2025-09-13 16:00:31"
-last-modified-jotform: "2025-09-28 09:58:27"
-last-exported: "2025-09-28 10:05:31"
+last-modified-jotform: "2025-09-30 19:37:04"
+last-exported: "2025-10-02 19:45:37"
 sitemap: false
 
 ---

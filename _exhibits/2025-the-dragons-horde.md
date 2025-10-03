@@ -6,7 +6,7 @@ slug: the-dragons-horde
 permalink: /exhibits/the-dragons-horde/
 exhibit-id: 25-88
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SE27, SF27"
 description: "Traditional handmade fantasy sculptures by local artist Cid Snook."
 description-long: "Here be dragons, among other fantastical creatures. Local artist Cid Snook specializes in traditional handmade sculptures with a flair for colorful fantasy designs.
 
@@ -117,8 +117,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2025-07-13 19:38:46"
-last-modified-jotform: "2025-09-13 11:57:25"
-last-exported: "2025-09-13 11:59:00"
+last-modified-jotform: "2025-09-30 20:27:35"
+last-exported: "2025-10-02 19:46:23"
 sitemap: false
 
 ---

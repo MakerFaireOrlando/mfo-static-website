@@ -6,7 +6,7 @@ slug: the-faulty-forge
 permalink: /exhibits/the-faulty-forge/
 exhibit-id: 25-68
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SH33"
 description: "Several prop builds on tables with a banner. Aiming to inform the audience about my process."
 description-long: "I aim to have several prop builds featured with descriptions of each and how the process went for each. I specialize in hard surface painting, so my setup will aim to highlight this. I will have a 3 foot pit droid that matches the one from the phantom menace, a blaster from alien romulus, various Indiana Jones props and some from Jaws. Others may come as well.
 
@@ -228,8 +228,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-05 07:46:50"
-last-modified-jotform: "2025-09-13 11:54:30"
-last-exported: "2025-09-13 11:59:13"
+last-modified-jotform: "2025-09-30 20:30:52"
+last-exported: "2025-10-02 19:46:42"
 sitemap: false
 
 ---

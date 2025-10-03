@@ -41,6 +41,8 @@ maker:
     height: 129
   website: https://www.teamwitchdoctor.com
 categories: 
+  - slug: battlebots
+    name: BattleBots
   - slug: combat-robots
     name: Combat Robots
   - slug: education
@@ -50,8 +52,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-28 14:20:54"
-last-modified-jotform: "2025-09-06 09:48:21"
-last-exported: "2025-09-06 09:49:10"
+last-modified-jotform: "2025-09-28 13:21:13"
+last-exported: "2025-10-02 19:46:04"
 sitemap: false
 
 ---

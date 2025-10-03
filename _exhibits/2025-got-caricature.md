@@ -6,7 +6,7 @@ slug: got-caricature
 permalink: /exhibits/got-caricature/
 exhibit-id: 25-177
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SE29"
 description: "Sculpted pop culture caricature busts"
 description-long: "On a whim I ordered some clay and paints online and just gave it a go. While the first few weren't bad I can definitely say I've gotten much better with practice. What started as a whim to add some decor to my home suddently grew when I discovered I loved to sculpt heads and paint them. ​
 ​
@@ -64,8 +64,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2025-09-13 15:52:16"
-last-modified-jotform: "2025-09-28 11:41:04"
-last-exported: "2025-09-28 13:16:46"
+last-modified-jotform: "2025-09-30 20:28:04"
+last-exported: "2025-10-02 19:45:38"
 sitemap: false
 
 ---
