@@ -28,9 +28,9 @@
   enddate: 2025-11-07 13:15:00
 
 - title: Young Makers
-  slug: ftd-youtube
+  slug: ftd-youngmakers
   location: Main Stage
-  description: Meet inspiring young makers as they share how curiosity, creativity, and hands-on making are helping them build cool projects—and a bright future.
+  description: Meet inspiring young makers as they share how curiosity, creativity, and hands-on making are helping them build cool projects—and a bright future. Hosted by <a href="https://www.youtube.com/@3DPrintingNerd" target="_blank">Joel Telling of 3D Printing Nerd</a>
   date: 2025-11-07 13:30:00
   enddate: 2025-11-07 13:55:00
   url: /stage
@@ -61,7 +61,7 @@
   description: Meet the creators behind the marvelous, immersive worlds that transport visitors in world-famous theme parks across the globe!
   date: 2025-11-08 10:30:00
   enddate: 2025-11-08 11:15:00
-  image: /assets/images/stage/2024/theme-park.jpg
+  #image: /assets/images/stage/2024/theme-park.jpg
   url: /stage
 
 - title: Power Racing - Qualifying
@@ -75,7 +75,7 @@
 - title: 3D Printing for Theme Parks
   slug: 3dprinting-sat
   location: Main Stage
-  description: Explore how 3D printing is transforming themed entertainment in this panel led by Joel from 3D Printing Nerd with industry experts from Universal, Adirondak Studios, and more.
+  description: Explore how 3D printing is transforming themed entertainment in this panel with industry experts from Universal, Adirondak Studios, and more. Hosted by <a href="https://www.youtube.com/@3DPrintingNerd" target="_blank">Joel Telling of 3D Printing Nerd</a>.
   date: 2025-11-08 11:30:00
   enddate: 2025-11-08 12:15:00
   url: /stage
@@ -124,7 +124,7 @@
   description: Combat Robotics is a worldwide phenomenon, meet and hear from builders from the TV shows and local champions and learn how you can participate in this upcoming sport!
   date: 2025-11-08 15:00:00
   enddate: 2025-11-08 15:45:00
-  image: /assets/images/stage/2024/combat.jpg
+  #image: /assets/images/stage/2024/combat.jpg
   url: /stage
 
 - title: Power Racing - Sprint Race 2
@@ -141,7 +141,7 @@
   description: Join the Nerd Nite crew for an special edition of Nerd Nite trivia!
   date: 2025-11-08 16:00:00
   enddate: 2025-11-08 17:00:00
-  image: /assets/images/stage/2024/ricardo.jpg
+  #image: /assets/images/stage/2024/ricardo.jpg
   url: /stage
 
 - title: Maker Faire Day 1 is Over!
@@ -162,13 +162,13 @@
   description: Hear from local makers who use technology to create amazing Theme Park experiences! 
   date: 2025-11-09 10:30:00
   enddate: 2025-11-09 11:15:00
-  image: /assets/images/stage/2024/theme-park.jpg
+  #image: /assets/images/stage/2024/theme-park.jpg
   url: /stage
 
 - title: The Future of 3D Printing
   slug: 3d-printing-sun
   location: Main Stage
-  description: Dive into the future of 3D printing with Joel (3D Printing Nerd) and top makers as they explore cutting-edge trends, tech, and holiday printer picks.
+  description: Dive into the future of 3D printing top makers as they explore cutting-edge trends, tech, and holiday printer picks. Hosted by <a href="https://www.youtube.com/@3DPrintingNerd" target="_blank">Joel Telling of 3D Printing Nerd</a>.
   date: 2025-11-09 11:30:00
   enddate: 2025-11-09 12:15:00
   url: /stage
@@ -233,7 +233,7 @@
   description: Orlando Story Club is a live storytelling competition, each storyteller is given 5 minutes to impress the audience!
   date: 2025-11-09 16:00:00
   enddate: 2025-11-09 17:00:00
-  image: /assets/images/stage/2024/danielleziss.jpg
+  #image: /assets/images/stage/2024/danielleziss.jpg
   url: /stage
 
 - title: Maker Faire Concludes
