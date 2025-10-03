@@ -6,7 +6,7 @@ slug: chloesaurascrafts
 permalink: /exhibits/chloesaurascrafts/
 exhibit-id: 25-181
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SF29"
 description: "ChloeSaurasCrafts specialises in creating 3D printed props, trinkets and display weapons!"
 description-long: "ChloeSaurasCrafts specialises in creating 3D printed props, trinkets and display weapons from all genres such as Sea Of Thieves, Halo, Star Wars and many more! Each item is hand crafted and painted to upmost perfection and care."
 image: /assets/images/exhibit-images/25-181-e-chloesaurascrafts-videocapture-20231009-234716-300x169.jpg
@@ -216,8 +216,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2025-09-14 11:33:17"
-last-modified-jotform: "2025-09-28 11:42:50"
-last-exported: "2025-09-28 13:16:44"
+last-modified-jotform: "2025-10-02 21:16:58"
+last-exported: "2025-10-03 07:30:02"
 sitemap: false
 
 ---

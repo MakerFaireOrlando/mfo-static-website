@@ -6,7 +6,7 @@ slug: collincosplay
 permalink: /exhibits/collincosplay/
 exhibit-id: 25-191
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SG32"
 description: "Cosplayer and professional character performer, Collin loves cosplaying comics characters!"
 description-long: "Cosplayer and professional character performer, Collin loves cosplaying comics, movies and gaming characters! He's been cosplaying for 10 years and loves making new, often obscure cosplays incorporating new techniques that offer new challanges. An Orlando local, he works as a atmospheric character for hire for birthday parties and corporate events!"
 image: /assets/images/exhibit-images/25-191-e-collincosplay-snapchat-1730870880-7436-225x300.jpg
@@ -48,8 +48,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2025-09-21 21:24:59"
-last-modified-jotform: "2025-09-28 11:45:06"
-last-exported: "2025-09-28 13:16:30"
+last-modified-jotform: "2025-10-02 21:16:35"
+last-exported: "2025-10-03 07:29:56"
 sitemap: false
 
 ---

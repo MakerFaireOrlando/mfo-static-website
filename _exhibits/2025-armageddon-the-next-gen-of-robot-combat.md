@@ -5,7 +5,8 @@ title: "Armageddon - The Next Gen of Robot Combat"
 slug: armageddon-the-next-gen-of-robot-combat
 permalink: /exhibits/armageddon-the-next-gen-of-robot-combat/
 exhibit-id: 25-162
-space-number: Unassigned
+exhibit-zone: "Robot Ruckus (Spirit Building)"
+space-number: "SE26"
 description: "Armageddon: a BattleBot with dual robotic arms redefining robot combat to inspire a new generation!"
 description-long: "Armageddon is a 250-lb next-generation BattleBot, built to compete on the world stage with a unique twist: instead of traditional spinners or hammers, it wields dual articulated arms for combat. Designed and built by Robotic Legends, Armageddon showcases the fusion of advanced engineering, 3D printing, and wearable control systems. Our exhibit invites visitors to see how we’re pushing combat robotics into bold new territory—one that inspires future builders to think beyond convention."
 image: /assets/images/exhibit-images/25-162-e-armageddon-the-next-gen-of-robot-combat-armageddon-omf-image-01-300x248.JPG
@@ -186,8 +187,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2025-08-28 09:34:27"
-last-modified-jotform: "2025-09-06 09:46:19"
-last-exported: "2025-09-06 09:48:53"
+last-modified-jotform: "2025-10-02 20:54:49"
+last-exported: "2025-10-03 07:30:05"
 sitemap: false
 
 ---

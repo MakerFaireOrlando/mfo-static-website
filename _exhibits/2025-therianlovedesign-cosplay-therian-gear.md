@@ -6,7 +6,7 @@ slug: therianlovedesign-cosplay-therian-gear
 permalink: /exhibits/therianlovedesign-cosplay-therian-gear/
 exhibit-id: 25-6
 exhibit-zone: "Spirit - East"
-space-number: Unassigned
+space-number: "SG30"
 description: "Magical fursuits & masks for wild souls, handmade by a soggy cat with sea-sparkle dreams."
 description-long: "Welcome to TherianLoveDesign, a tide-tossed cove where magic gathers in pools and puddles, and creatures of every realm come to find their true form.
 
@@ -143,8 +143,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2025-05-24 20:19:33"
-last-modified-jotform: "2025-09-13 10:49:46"
-last-exported: "2025-09-13 11:26:53"
+last-modified-jotform: "2025-10-02 21:16:17"
+last-exported: "2025-10-03 07:30:28"
 sitemap: false
 
 ---

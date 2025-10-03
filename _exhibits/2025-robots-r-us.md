@@ -6,7 +6,7 @@ slug: robots-r-us
 permalink: /exhibits/robots-r-us/
 exhibit-id: 25-187
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: Unassigned
+space-number: "SA21"
 description: "A showcase of the robots designed and built by the Robotics Club of Central Florida."
 description-long: "A showcase of the robots designed and built by the Robotics Club of Central Florida. Categorically, the showcase will include some interactive robots used by the club in Outreach events, a couple of our competition robots, a few of our leisurely projects, and Tape-measure (Our Boston Dynamics Spot robot). Apart from the physical robots, we will have info-graphics that detail how we built the robots and what we use them for."
 image: /assets/images/exhibit-images/25-187-e-robots-r-us-club-poster-300x169.png
@@ -42,8 +42,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2025-09-16 16:21:06"
-last-modified-jotform: "2025-09-28 11:44:25"
-last-exported: "2025-09-28 13:16:34"
+last-modified-jotform: "2025-10-02 21:23:41"
+last-exported: "2025-10-03 07:29:57"
 sitemap: false
 
 ---

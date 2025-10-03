@@ -6,7 +6,7 @@ slug: team-voltage-386
 permalink: /exhibits/team-voltage-386/
 exhibit-id: 25-131
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: Unassigned
+space-number: "SA23"
 description: "Team Voltage 386 is a FIRST Robotics Competition team based out of Melbourne, FL."
 description-long: "Team Voltage 386 is a FIRST Robotics Competition team that teaches high school students mechanical, electrical, software, and business skills. Our goal is to inspire the next generation of student leaders through our mentorship and outreach with science, technology, engineering, art, and math principles."
 image: /assets/images/exhibit-images/25-131-e-team-voltage-386-screenshot-2025-07-30-210922-300x197.png
@@ -122,8 +122,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2025-07-30 21:47:51"
-last-modified-jotform: "2025-09-21 18:03:38"
-last-exported: "2025-09-21 21:21:45"
+last-modified-jotform: "2025-10-02 21:25:37"
+last-exported: "2025-10-03 07:30:09"
 sitemap: false
 
 ---
