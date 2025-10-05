@@ -6,7 +6,7 @@ slug: chipscapes
 permalink: /exhibits/chipscapes/
 exhibit-id: 25-111
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA13, OA14"
 description: "ChipScapes are photos of vintage computer chips, turned into colorful art using microscopes."
 description-long: "ChipScapes are artistic photographs of vintage computer chips—tiny, complex circuits from the 1970s and 1980s—captured through a microscope. While silicon chips normally look dull and gray, special lighting and angles reveal brilliant colors and patterns hidden in their layered structure. This natural prism effect turns old microprocessors and memory chips into vibrant, abstract landscapes—hence the name “ChipScapes,” short for chip landscapes. Each image transforms forgotten tech into a miniature world of color and design, celebrating the hidden beauty inside the machines that powered the early digital age."
 image: /assets/images/exhibit-images/25-111-e-chipscapes-maker-faire-295x300.jpg
@@ -204,8 +204,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-27 12:31:57"
-last-modified-jotform: "2025-09-24 14:48:41"
-last-exported: "2025-09-28 10:05:56"
+last-modified-jotform: "2025-10-05 12:50:19"
+last-exported: "2025-10-05 14:45:54"
 sitemap: false
 
 ---

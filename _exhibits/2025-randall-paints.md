@@ -6,7 +6,7 @@ slug: randall-paints
 permalink: /exhibits/randall-paints/
 exhibit-id: 25-60
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE21"
 description: "Original character-driven art with  the goal of make the viewer smile."
 description-long: "My work blends bold colors, playful storytelling, and just the right amount of chaos.
 
@@ -71,8 +71,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-30 12:09:35"
-last-modified-jotform: "2025-09-13 11:49:32"
-last-exported: "2025-09-13 11:59:14"
+last-modified-jotform: "2025-10-05 14:38:11"
+last-exported: "2025-10-05 14:46:11"
 sitemap: false
 
 ---

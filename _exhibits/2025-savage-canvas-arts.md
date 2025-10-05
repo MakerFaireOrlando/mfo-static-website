@@ -6,7 +6,7 @@ slug: savage-canvas-arts
 permalink: /exhibits/savage-canvas-arts/
 exhibit-id: 25-13
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA24"
 description: "I hand paint glow in the dark tshirts and clothes"
 description-long: "I custom mix my paints to create a machine washability that won't diminish the glow of the shirts. I offer short or long sleeve, women's cut, and hoodies. Custom orders welcome."
 image: /assets/images/exhibit-images/25-13-e-savage-canvas-arts-17487853051365570891819620720129-300x135.jpg
@@ -114,8 +114,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-01 09:44:54"
-last-modified-jotform: "2025-09-21 17:57:21"
-last-exported: "2025-09-21 21:22:59"
+last-modified-jotform: "2025-10-05 14:30:11"
+last-exported: "2025-10-05 14:46:38"
 sitemap: false
 
 ---

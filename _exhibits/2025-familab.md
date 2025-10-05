@@ -6,7 +6,7 @@ slug: familab
 permalink: /exhibits/familab/
 exhibit-id: 25-161
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC15"
 description: "Community Makerspace in Longwood, FL"
 description-long: "FamiLAB is a community that fosters learning and creativity through hands-on projects, collaboration, and the sharing of skills & tools to improve ourselves and enrich the world around us."
 image: /assets/images/exhibit-images/25-161-e-familab-familab-makerfaire-orlando-2024-3324-300x225.jpg
@@ -88,8 +88,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-28 07:59:55"
-last-modified-jotform: "2025-09-15 22:15:38"
-last-exported: "2025-09-21 21:21:28"
+last-modified-jotform: "2025-10-05 12:54:35"
+last-exported: "2025-10-05 14:45:32"
 sitemap: false
 
 ---

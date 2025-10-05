@@ -6,7 +6,7 @@ slug: the-pink-team
 permalink: /exhibits/the-pink-team/
 exhibit-id: 25-147
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA26"
 description: "Selling 3D prints"
 description-long: "The Pink Team is a FIRST Robotics Team based out of Rockledge, Fl. The team sells 3D Prints to fundraise for the upcoming season and operating costs"
 image: /assets/images/exhibit-images/25-147-e-the-pink-team-img-7172-300x225.jpg
@@ -64,8 +64,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-07 12:33:17"
-last-modified-jotform: "2025-10-02 21:23:20"
-last-exported: "2025-10-03 07:30:07"
+last-modified-jotform: "2025-10-05 11:21:42"
+last-exported: "2025-10-05 11:36:45"
 sitemap: false
 
 ---

@@ -5,8 +5,8 @@ title: "Tech Take-Apart"
 slug: tech-take-apart
 permalink: /exhibits/tech-take-apart/
 exhibit-id: 25-128
-exhibit-zone: "Opportunity"
-space-number: Unassigned
+exhibit-zone: "Robot Ruckus (Spirit Building)"
+space-number: "SA14, SB14, SA15, SB15"
 description: "The best way to learn how things work is to take them apart! Learn the inner-workings of tech!"
 description-long: "The best way to learn how things work is to take them apart! Stop by and learn the inner-workings of various recycled pieces of tech! 
 Recommended age 8+"
@@ -64,8 +64,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2025-07-30 11:54:24"
-last-modified-jotform: "2025-09-13 12:10:39"
-last-exported: "2025-09-13 12:13:30"
+last-modified-jotform: "2025-10-05 14:53:46"
+last-exported: "2025-10-05 17:01:30"
 sitemap: false
 
 ---

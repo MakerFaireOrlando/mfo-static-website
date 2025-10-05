@@ -6,7 +6,7 @@ slug: junkos-pop-emporium
 permalink: /exhibits/junkos-pop-emporium/
 exhibit-id: 25-89
 exhibit-zone: "Curiosity"
-space-number: "CH6"
+space-number: "CG6"
 description: "Handmade 3D origami"
 description-long: "Handmade 3D origami"
 image: /assets/images/exhibit-images/25-89-e-junkos-pop-emporium-img-20250714-114527139-hdr-300x215.jpg
@@ -213,8 +213,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2025-07-14 11:59:08"
-last-modified-jotform: "2025-09-30 19:43:13"
-last-exported: "2025-10-02 19:46:19"
+last-modified-jotform: "2025-10-05 16:33:35"
+last-exported: "2025-10-05 17:01:39"
 sitemap: false
 
 ---

@@ -132,8 +132,8 @@ additional-images:
       width: 1024
       height: 768
 website: "https://ultimate-robot-archive.fandom.com/wiki/fluorine"
-video: "https://youtu.be/wpu_k7E7iQU?si=0dEsjGG5LjtuWHrI"
-video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/wpu_k7E7iQU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="TR 2025 Beetle Fight 3: Chlorine vs Systematic Chaos"></iframe>'
+video: "https://youtu.be/uRmHtHB7-Q0?si=l3f0BgbAk2eTXTDg"
+video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/uRmHtHB7-Q0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="RRS 2025: Ant Fight 2: Fluorine vs CLOWNED"></iframe>'
 maker: 
   name: "Team Halogen Robotics"
   description: "Making robots that entertain others with chaos and destruction... assuming they work correctly of course."
@@ -148,8 +148,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-08-25 20:15:42"
-last-modified-jotform: "2025-10-03 07:29:04"
-last-exported: "2025-10-03 07:29:47"
+last-modified-jotform: "2025-10-03 10:42:52"
+last-exported: "2025-10-05 10:01:05"
 sitemap: false
 
 ---

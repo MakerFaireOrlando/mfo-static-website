@@ -6,7 +6,7 @@ slug: fiber-fun-for-everyone-2025
 permalink: /exhibits/fiber-fun-for-everyone-2025/
 exhibit-id: 25-133
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG14"
 description: "Fiber crafts to be demonstrated include spinning yarn, weaving, kumihimo and more."
 description-long: "A variety of fiber crafts will be demonstrated, including spinning yarn on spindles and wheels, weaving on a variety of looms, kumihimo, knitting, crochet, and more. 
  Items including woven towels, shawls, bags, jewelry, etc. will be on display to show what can be made.  We will have a free kumihimo-style make-and-take activity."
@@ -86,8 +86,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-30 22:05:10"
-last-modified-jotform: "2025-09-13 12:12:45"
-last-exported: "2025-09-13 12:13:28"
+last-modified-jotform: "2025-10-05 12:56:01"
+last-exported: "2025-10-05 14:45:44"
 sitemap: false
 
 ---

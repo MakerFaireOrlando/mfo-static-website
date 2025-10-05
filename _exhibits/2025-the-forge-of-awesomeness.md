@@ -6,7 +6,7 @@ slug: the-forge-of-awesomeness
 permalink: /exhibits/the-forge-of-awesomeness/
 exhibit-id: 25-33
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA22"
 description: "We offer hand made silver solder Tiffany technique jewelry and hand sculpted clay jewelry."
 description-long: "We offer hand made silver solder Tiffany technique jewelry and hand sculpted clay jewelry with fantasy, nerdy and mythological themes. Examples of our pieces can be found at @theforgeofawesomeness on Instagram"
 image: /assets/images/exhibit-images/25-33-e-the-forge-of-awesomeness-inbound3637023792252349959-300x300.jpg
@@ -171,8 +171,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-12 20:16:10"
-last-modified-jotform: "2025-10-02 21:17:45"
-last-exported: "2025-10-03 07:30:23"
+last-modified-jotform: "2025-10-05 14:27:41"
+last-exported: "2025-10-05 14:46:32"
 sitemap: false
 
 ---

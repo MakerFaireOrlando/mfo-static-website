@@ -6,7 +6,7 @@ slug: simple-synth-sounds
 permalink: /exhibits/simple-synth-sounds/
 exhibit-id: 25-132
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG13"
 description: "Experiment and learn a bit about how the sounds in Electronic Music are actually produced."
 description-long: "Find out hands-on how some of the sound effects used in contemporary and historical electronic music are produced.  Experiment with oscillators, filters, envelope generators and other effects in an environment easily accessible for kids and grown-ups. 
 
@@ -54,8 +54,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-30 21:57:00"
-last-modified-jotform: "2025-09-13 12:12:39"
-last-exported: "2025-09-13 12:13:29"
+last-modified-jotform: "2025-10-05 12:56:07"
+last-exported: "2025-10-05 14:45:45"
 sitemap: false
 
 ---

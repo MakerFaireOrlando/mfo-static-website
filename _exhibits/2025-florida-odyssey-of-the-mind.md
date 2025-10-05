@@ -6,7 +6,7 @@ slug: florida-odyssey-of-the-mind
 permalink: /exhibits/florida-odyssey-of-the-mind/
 exhibit-id: 25-189
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG11"
 description: "Learn about Odyssey of the Mind, explore creative mask making, crush Balsawood structures."
 description-long: "We will be crushing Balsawood structures every hour.  Come learn about Odyssey of the Mind, talk with problem captains, and explore the creative use of materials in mask making with a free make and take mask project."
 image: /assets/images/exhibit-images/25-189-e-florida-odyssey-of-the-mind-img-4223-225x300.jpeg
@@ -67,8 +67,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-21 18:59:13"
-last-modified-jotform: "2025-09-30 19:51:57"
-last-exported: "2025-10-02 19:45:35"
+last-modified-jotform: "2025-10-05 12:46:25"
+last-exported: "2025-10-05 12:48:48"
 sitemap: false
 
 ---

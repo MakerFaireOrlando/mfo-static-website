@@ -6,7 +6,7 @@ slug: renlug-royal-rally-racing-custom-moc-lego-displays
 permalink: /exhibits/renlug-royal-rally-racing-custom-moc-lego-displays/
 exhibit-id: 25-4
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG29, OF29, OE29, OC29, OC28, OD28, OE28, OF28, OG28"
 description: "RenLUG's Royal Rally Racing & custom LEGO® MOC displays from a STEM-focused AFOL builder community."
 description-long: "RenLUG Royal Rally Racing & Custom LEGO® MOC Displays
 
@@ -239,8 +239,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-05-22 11:27:42"
-last-modified-jotform: "2025-09-21 18:06:38"
-last-exported: "2025-09-21 21:23:08"
+last-modified-jotform: "2025-10-05 11:09:58"
+last-exported: "2025-10-05 11:37:03"
 sitemap: false
 
 ---

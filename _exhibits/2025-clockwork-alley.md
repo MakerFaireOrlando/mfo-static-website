@@ -6,7 +6,7 @@ slug: clockwork-alley
 permalink: /exhibits/clockwork-alley/
 exhibit-id: 25-34
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA23"
 description: "Steampunk inspired jewelry and accessories."
 description-long: "Handmade Steampunk inspired jewelry and accessories made from vintage watch parts and resin. Necklaces, earrings, bracelets, pill boxes and hair accessories."
 image: /assets/images/exhibit-images/25-34-e-clockwork-alley-dsc00158-300x225.JPG
@@ -206,8 +206,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2025-06-12 20:43:41"
-last-modified-jotform: "2025-10-02 21:15:39"
-last-exported: "2025-10-03 07:30:21"
+last-modified-jotform: "2025-10-05 14:28:09"
+last-exported: "2025-10-05 14:46:30"
 sitemap: false
 
 ---

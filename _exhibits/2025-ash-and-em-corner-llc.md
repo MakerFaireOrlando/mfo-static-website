@@ -6,7 +6,7 @@ slug: ash-and-em-corner-llc
 permalink: /exhibits/ash-and-em-corner-llc/
 exhibit-id: 25-16
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD22"
 description: "We are a family of crafters who enjoy maker perler bead art, 3d printing and engraving pieces."
 description-long: "We are a family of crafters who love crafting. We make pixel art with perle beads, 3d printing designs and engraving coaster and other things with our laser engraver."
 image: /assets/images/exhibit-images/25-16-e-ash-and-em-corner-llc-fe6447e9-6e1b-4c03-a83c-8ce5384eb23b-43-22-240x300.jpeg
@@ -102,8 +102,8 @@ categories:
   - slug: laser-cutting-engraving
     name: Laser Cutting & Engraving
 created-jotform: "2025-06-03 12:23:33"
-last-modified-jotform: "2025-09-13 11:33:00"
-last-exported: "2025-09-13 11:38:35"
+last-modified-jotform: "2025-10-05 14:32:36"
+last-exported: "2025-10-05 14:46:35"
 sitemap: false
 
 ---

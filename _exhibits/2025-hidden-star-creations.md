@@ -6,7 +6,7 @@ slug: hidden-star-creations
 permalink: /exhibits/hidden-star-creations/
 exhibit-id: 25-93
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA25"
 description: "Make a friend, burn some art, and step into a story with Hidden Star Creations."
 description-long: "Hidden Star Creations, led by maker and STEAM educator Ms. Martinez (aka The STEAM Pirate), is where storytelling and hands-on creativity collide. Guests are invited to dive into immersive, maker-focused experiences that blend art, fantasy, and personal expression.
 
@@ -76,8 +76,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-16 06:26:35"
-last-modified-jotform: "2025-09-13 11:59:22"
-last-exported: "2025-09-13 12:02:21"
+last-modified-jotform: "2025-10-05 14:44:19"
+last-exported: "2025-10-05 14:46:03"
 sitemap: false
 
 ---

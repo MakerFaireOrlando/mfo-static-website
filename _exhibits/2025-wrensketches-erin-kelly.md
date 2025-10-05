@@ -6,7 +6,7 @@ slug: wrensketches-erin-kelly
 permalink: /exhibits/wrensketches-erin-kelly/
 exhibit-id: 25-165
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA20"
 description: "Erin is an artist/maker/fabricator of 2D art, props, sets, practical effects, and more."
 description-long: "Erin Kelly (aka @WrenSketches) is an artist who works primarily in watercolor and pencil. She loves to share her process and encourage others to pursue their maker tendencies. In addition to 2-D art Erin has spent years as a partner at Roundtable Productions LLC - a custom fabrication company. She shares knowledge and experiences about build techniques and fabrication methods for props, sets, practical effects, and more. She also co-owns Makers Hollow, a place that fellow makers can rent for their own creative endeavors."
 image: /assets/images/exhibit-images/25-165-e-wrensketches-erin-kelly-img-2694-5052-300x298.jpeg
@@ -47,8 +47,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2025-08-29 23:42:57"
-last-modified-jotform: "2025-09-15 21:51:04"
-last-exported: "2025-09-21 21:21:27"
+last-modified-jotform: "2025-10-05 12:29:39"
+last-exported: "2025-10-05 12:48:49"
 sitemap: false
 
 ---

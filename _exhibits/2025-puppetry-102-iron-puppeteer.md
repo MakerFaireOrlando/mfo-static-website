@@ -6,7 +6,7 @@ slug: puppetry-102-iron-puppeteer
 permalink: /exhibits/puppetry-102-iron-puppeteer/
 exhibit-id: 25-130
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OA11"
 description: "Try your hand at bringing some marionettes to life. Can you make the puppet sad? Scared? Joyful?"
 description-long: "Get some experience bringing marionettes to life by trying to make some emotion happen with just some cord and beads! Basic desktop marionettes will be available, along with challenge cards for emotions and reactions your puppet can make. Fling those arms! Sway that puppet! How many challenges can you manage? Will you become an Iron Puppeteer?
 
@@ -49,8 +49,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-30 21:20:08"
-last-modified-jotform: "2025-09-21 18:03:08"
-last-exported: "2025-09-21 21:21:46"
+last-modified-jotform: "2025-10-05 11:45:21"
+last-exported: "2025-10-05 11:54:39"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: tilt-a-table
 permalink: /exhibits/tilt-a-table/
 exhibit-id: 25-140
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE15"
 description: "This exhibits features a tiltable (TV) table with a marble maze-like Unity Game within!"
 description-long: "Tilt and turn your way through this table-size digital maze powered by Unity!
 
@@ -31,7 +31,7 @@ image-primary:
     height: 759
 maker: 
   name: "Eric Chan"
-  description: "I am a Software Engineer who works for Universal Orlando who is interested in making fun little interactives that make people happy! I want to bring that joy and inspire others through the creations I make.
+  description: "I am a Software Engineer who is interested in making fun little interactives that make people happy! I want to bring that joy and inspire others through the creations I make.
 
 After seeing Anthony Melo and Logan Bender put out really great makes last year, I was inspired to join and make something for this year!"
   image-primary:
@@ -50,8 +50,8 @@ categories:
   - slug: software
     name: Software
 created-jotform: "2025-07-31 22:43:34"
-last-modified-jotform: "2025-09-21 18:04:19"
-last-exported: "2025-09-21 21:21:38"
+last-modified-jotform: "2025-10-05 14:45:43"
+last-exported: "2025-10-05 17:01:29"
 sitemap: false
 
 ---

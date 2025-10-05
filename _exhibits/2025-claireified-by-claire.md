@@ -5,7 +5,7 @@ title: "Claireified by Claire"
 slug: claireified-by-claire
 permalink: /exhibits/claireified-by-claire/
 exhibit-id: 25-37
-exhibit-zone: "Opportunity"
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Fandom inspired soaps from Disney to Star Wars, Anime to Supernatural, Marvel, Harry Potter and more"
 description-long: "Fandom inspired soaps from Disney to Star Wars, Anime to Supernatural, Marvel, Harry Potter. Related products including wax melts, linen/room spray, lotion, stickers and decals, and new for 2025, laser cut items such as clocks, key holders and more."
@@ -118,8 +118,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2025-06-16 13:53:20"
-last-modified-jotform: "2025-09-21 17:58:42"
-last-exported: "2025-09-21 21:22:42"
+last-modified-jotform: "2025-10-05 15:00:36"
+last-exported: "2025-10-05 17:01:55"
 sitemap: false
 
 ---

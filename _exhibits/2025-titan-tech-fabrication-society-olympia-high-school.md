@@ -6,7 +6,7 @@ slug: titan-tech-fabrication-society-olympia-high-school
 permalink: /exhibits/titan-tech-fabrication-society-olympia-high-school/
 exhibit-id: 25-94
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD16"
 description: "Olympia HS's TTFS Club showcases innovative student projects, including 3D printing and modeling!"
 description-long: "TTFS will showcase a variety of passion projects and commissions, including robots and 3D models. A slideshow featuring 3D renders and other projects not on physical display will also be running throughout the event. Additionally, we’ll have a hands-on fidget toy station and a small shop offering other fidget toys, display figures, and simple mechanical systems.
 
@@ -49,8 +49,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-17 06:49:23"
-last-modified-jotform: "2025-09-13 11:59:32"
-last-exported: "2025-09-13 12:02:20"
+last-modified-jotform: "2025-10-05 12:22:43"
+last-exported: "2025-10-05 12:48:58"
 sitemap: false
 
 ---

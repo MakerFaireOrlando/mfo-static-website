@@ -6,7 +6,7 @@ slug: dune-sea-ranch
 permalink: /exhibits/dune-sea-ranch/
 exhibit-id: 25-79
 exhibit-zone: "Spirit - East"
-space-number: "SH31"
+space-number: "SH32"
 description: "We have props and weapons for cosplayers. We will feature original art."
 description-long: "We are prop makers who use 3D printing and other traditional means to make detailed prop pieces for cosplayers and anyone interested in costuming.  We will have original artwork as well as custom Star Wars themed wanted posters."
 image: /assets/images/exhibit-images/25-79-e-dune-sea-ranch-img-8993-300x225.jpeg
@@ -70,8 +70,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-10 20:11:12"
-last-modified-jotform: "2025-09-30 20:29:04"
-last-exported: "2025-10-02 19:46:30"
+last-modified-jotform: "2025-10-05 10:32:59"
+last-exported: "2025-10-05 10:40:32"
 sitemap: false
 
 ---

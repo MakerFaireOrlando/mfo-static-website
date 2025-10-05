@@ -5,7 +5,7 @@ title: "Roll With Adventure"
 slug: roll-with-adventure
 permalink: /exhibits/roll-with-adventure/
 exhibit-id: 25-8
-exhibit-zone: "Opportunity"
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "I create handmade dice for tabletop roleplaying games and other gaming accessories!"
 description-long: "I create handmade dice for tabletop roleplaying games and other gaming accessories! This includes: custom character sets, full sets of dice, micro sets, single dice, dice bags, dice jails, dice jewelry, stickers, pins, keychains, dice potions, stationary, indie rpgs, and cosplay horns!"
@@ -155,8 +155,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-05-27 13:52:21"
-last-modified-jotform: "2025-09-13 11:22:01"
-last-exported: "2025-09-13 11:26:52"
+last-modified-jotform: "2025-10-05 15:00:55"
+last-exported: "2025-10-05 17:02:09"
 sitemap: false
 
 ---

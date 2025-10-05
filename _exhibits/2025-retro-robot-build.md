@@ -6,7 +6,7 @@ slug: retro-robot-build
 permalink: /exhibits/retro-robot-build/
 exhibit-id: 25-43
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC16"
 description: "I am working on building V.I.N.Cent the robot from the movie The Black Hole."
 description-long: "I am working on building V.I.N.Cent the robot from the movie The Black Hole. This is a work in progress, so you will get to see all the inner workings, the mechanisms that make him tick!   From articulate eyes to telescoping feet you will get to see the mechanisms making the movements, instead of movie props that rely on human manipulation and CGI."
 image: /assets/images/exhibit-images/25-43-e-retro-robot-build-screenshot-20250621-141405-638-5852-300x162.png
@@ -48,8 +48,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-21 14:37:17"
-last-modified-jotform: "2025-09-15 21:50:35"
-last-exported: "2025-09-21 21:22:38"
+last-modified-jotform: "2025-10-05 12:22:57"
+last-exported: "2025-10-05 12:49:04"
 sitemap: false
 
 ---

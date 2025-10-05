@@ -5,8 +5,8 @@ title: "MCParks - Theme Parks in Minecraft"
 slug: mcparks-theme-parks-in-minecraft
 permalink: /exhibits/mcparks-theme-parks-in-minecraft/
 exhibit-id: 25-188
-exhibit-zone: "Opportunity"
-space-number: Unassigned
+exhibit-zone: "Curiosity"
+space-number: "CH4"
 description: "MCParks is a Minecraft community recreating real-world theme parks and resorts at a 1:1 scale."
 description-long: "For over ten years, MCParks has been dedicated to our mission to create the ultimate destination for theme parks in Minecraft. We specialize in recreating real-world theme parks and resorts (like the Walt Disney World Resort, Universal Orlando Resort, and Disneyland Resort) at a 1:1 scale within the game of Minecraft. Since April 2013, we've welcomed over 450,000 unique Guests, and currently staff a team of over 150 volunteer Cast Members."
 image: /assets/images/exhibit-images/25-188-e-mcparks-theme-parks-in-minecraft-castlemcparks-300x169.png
@@ -118,8 +118,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-19 02:15:08"
-last-modified-jotform: "2025-09-28 11:45:42"
-last-exported: "2025-09-28 13:16:34"
+last-modified-jotform: "2025-10-05 16:24:48"
+last-exported: "2025-10-05 17:01:23"
 sitemap: false
 
 ---
