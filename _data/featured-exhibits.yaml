@@ -1,21 +1,21 @@
 #get the exhibit id by doing "inspect" on the title on the exhibit page
 #override the exhibit data by specifying any of title, description, image
 
+#  - exhibit-id: 24-170 #mhcosplay
+#    image: assets/images/exhibit-images/24-170-maker-mhcosplaydesign-inbound7852636485270038047-medium.jpg
+#    description: Matthew brings larger-than-life characters to reality with jaw-dropping skill.
+
+
+
 homepage:
- 
-  - exhibit-id: 24-170 #mhcosplay
-    image: assets/images/exhibit-images/24-170-maker-mhcosplaydesign-inbound7852636485270038047-medium.jpg
-    description: Matthew brings larger-than-life characters to reality with jaw-dropping skill.
-  - exhibit-id: 24-162 #the full gang
-  - exhibit-id: 24-146 #allison chase
-  - exhibit-id: 24-157 #thestarcos
-  - exhibit-id: 24-23 #daleks
-  - exhibit-id: 24-34 #r2
-  - exhibit-id: 24-77 #klingon
-    image: assets/images/exhibit-images/24-77-exhibit-addl1-klingon-assault-group-klingon-medium.jpg
-  - exhibit-id: 24-36 #jt designs 
 
-
+  - exhibit-id: 25-198 #501st
+    description: Learn how to bring Star Wars to life with screen-accurate costumes, lightsaber demos and more!
+  - exhibit-id: 25-57 #r2
+    image: assets/images/exhibit-images/25-57-e1-southern-r2-builders-group-past-maker-faire-960x720.jpg
+  - exhibit-id: 25-30 #daleks
+  - exhibit-id: 25-12 #ghostbuster
+  
 
 
 
