@@ -15,9 +15,9 @@
         {%- if exhibit.image -%}
           {%- assign i = exhibit.image -%}
         {%- else -%}
-          {%- assign i = f[0].image-primary.medium -%}
+          {%- assign i = f[0].image-primary.large.url -%}
         {%- endif -%}
-
+        
         {%- if exhibit.title -%}
           {%- assign t = exhibit.title -%}
         {%- else -%}
