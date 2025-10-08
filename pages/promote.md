@@ -37,27 +37,20 @@ Tell your fans, friends and family they can see you at Maker Faire Orlando! Just
 --- 
 
 ### Postcards, Flyers & Social Images
-#### Coming soon!
 
-
-{% comment %}
-
-### Postcards
+#### Postcards
 
 Postcards available at MakerFX Makerspace, FamiLAB, Skycraft, Tampa Hackerspace, Rockler Woodworking and more.  [Email us](mailto:makers@makerfaireorlando.com) if you need a large quantity of postcards for your school, office, group, or location. Postcard images are linked to high-res PDFs.
 
-<a href="/assets/pdf/2024/MFO24-card-front.pdf"><img src="/assets/pdf/2024/MFO24-card-front.jpg" alt="Maker Faire Orlando postcard  - front" width="600" /></a>
+<a href="/assets/pdf/2025/MFO2025_flyer.pdf"><img src="/assets/images/site-branding/2025/MFO2025_flyer_front.png" alt="Maker Faire Orlando postcard  - front" width="300" /></a>
 
-<a href="/assets/pdf/2024/MFO24-card-back.pdf"><img src="/assets/pdf/2024/MFO24-card-back.jpg" alt="Maker Faire Orlando postcard - back" width="600"/></a>
+<a href="/assets/pdf/2025/MFO2025_flyer.pdf"><img src="/assets/images/site-branding/2025/MFO2025_flyer_back.png" alt="Maker Faire Orlando postcard  - back" width="300" /></a>
 
+#### Poster
 
-### Poster
-
-<a href="/assets/pdf/2024/MFO24-poster.pdf"><img src="/assets/pdf/2024/MFO24-poster.jpg" alt="Maker Faire Orlando poster" width="600"/></a>
+<a href="/assets/pdf/2025/MFO2025_poster.pdf"><img src="/assets/images/site-branding/2025/MFO2025_poster.png" alt="Maker Faire Orlando poster" width="600"/></a>
 
 Poster image is linked to high-res PDF.
-
-{% endcomment %}
 
 ---
 
@@ -65,14 +58,13 @@ Poster image is linked to high-res PDF.
 
 Looking for photos of Maker Faire Orlando? Check out the [Maker Faire Orlando Flickr group](https://www.flickr.com/groups/makerfaireorlando/ "Maker Faire Orlando on Flickr"). If you have photos of Maker Faire Orlando, please share them with us by joining the Flickr group, or [Email us](mailto:makers@makerfaireorlando.com) if you would transfer them using a different method.
 
-
-{%comment%}
-
 ---
 ### Facebook Cover Photo
 
-<a href="/assets/images/site-branding/2021/MFO2021-FB-header-v2.png"><img src="/assets/images/site-branding/2021/MFO2021-FB-header-v2.png" alt="Maker Faire Orlando facebook cover photo" width="600"/></a>
-{%endcomment%}
+<a href="/assets/images/site-branding/2025/MFO2025_facebook.jpg"><img src="/assets/images/site-branding/2025/MFO2025_facebook.jpg" alt="Maker Faire Orlando facebook cover photo" width="600"/></a>
+
+<a href="/assets/images/site-branding/2025/MFO2025_profile.jpg"><img src="/assets/images/site-branding/2025/MFO2025_profile.jpg" alt="Maker Faire Orlando facebook cover photo" width="200"/></a>
+
 
 ---
 
