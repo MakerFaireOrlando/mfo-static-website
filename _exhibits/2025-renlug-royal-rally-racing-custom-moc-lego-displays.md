@@ -6,19 +6,15 @@ slug: renlug-royal-rally-racing-custom-moc-lego-displays
 permalink: /exhibits/renlug-royal-rally-racing-custom-moc-lego-displays/
 exhibit-id: 25-4
 exhibit-zone: "Opportunity"
-space-number: "OG29, OF29, OE29, OC29, OC28, OD28, OE28, OF28, OG28"
+space-number: "OG29, OF29, OE29, OC29, OC28, OD28, OE28, OF28, OG28, OD29"
 description: "RenLUG's Royal Rally Racing & custom LEGO® MOC displays from a STEM-focused AFOL builder community."
 description-long: "RenLUG Royal Rally Racing & Custom LEGO® MOC Displays
 
-RenLUG invites you to experience the thrill of Royal Rally Racing, where creativity and engineering collide! Build and race your own LEGO® derby car down our 32 foot long track, then explore an impressive showcase of custom LEGO® MOCs (My Own Creations) built by our talented Adult Fans of LEGO® (AFOL) community.
+RenLUG invites you to experience the thrill of Royal Rally Racing, where creativity and engineering collide! Build and race your own LEGO® derby car down our 35 foot long track, then explore an impressive showcase of custom LEGO® MOCs (My Own Creations) built by our talented Adult Fans of LEGO® (AFOL) community.
 
 From intricate medieval castles and fantasy realms to robotics, vehicles, and modular cities, our displays highlight the intersection of storytelling, design, and STEM. As a builder community passionate about education and innovation, RenLUG aims to inspire curiosity, creativity, and hands-on learning through LEGO®. Whether you're a future engineer or a lifelong fan, there’s something for everyone in our interactive display space.
 
-Renaissance – a time of great technological innovation and artistic advancements
-+ 
-LUG – LEGO® User Group
-____________________________
-RenLUG"
+Renaissance, a time of great technological innovation and artistic advancements + LUG (LEGO® User Group) = RenLUG"
 image: /assets/images/exhibit-images/25-4-e-renlug-royal-rally-racing-custom-moc-lego-displays-renlug-group-picture-from-brick-convention-300x164.JPG
 image-primary: 
   full:
@@ -223,8 +219,9 @@ We believe building with LEGO® isn’t just about bricks; it’s about building
     width: 88
     height: 150
   website: https://www.renlug.org
-  instagram: https://www.instagram.com/renlug.bricks/
+  instagram: https://www.instagram.com/renlug.florida/
   facebook: https://www.facebook.com/renlugpage
+  youtube: https://www.youtube.com/watch?v=lXuVEWtYClI&t=2s
 categories: 
   - slug: education
     name: Education
@@ -239,8 +236,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-05-22 11:27:42"
-last-modified-jotform: "2025-10-05 11:09:58"
-last-exported: "2025-10-05 11:37:03"
+last-modified-jotform: "2025-10-07 10:18:14"
+last-exported: "2025-10-07 18:06:34"
 sitemap: false
 
 ---

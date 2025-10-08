@@ -6,7 +6,7 @@ slug: valencia-college-innovation-studios
 permalink: /exhibits/valencia-college-innovation-studios/
 exhibit-id: 25-90
 exhibit-zone: "Opportunity"
-space-number: "OG11"
+space-number: "OG12"
 description: "The Valencia College Innovation Studios will showcase Metal/Plastic/Wood student projects."
 description-long: "The Valencia College Innovation Studios formally the 3D Printing Studio will showcase Metal/Plastic/Wood student projects that were made in the new Innovation Studios located at the West Campus. Do not worry we will continue to bring old favorites like the 3D printed violins for attendees to play as well. Visit our table and talk to faculty or the students who made the projects in the Built Environment and Engineering programs. Learn about what the Built Environment and the School of Engineering, Technology, and Advanced Manufacturing (ETAM) has to offer."
 image: /assets/images/exhibit-images/25-90-e-valencia-college-innovation-studios-presentation-1027-300x225.jpg
@@ -119,8 +119,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-14 16:23:07"
-last-modified-jotform: "2025-10-05 12:55:31"
-last-exported: "2025-10-05 14:46:04"
+last-modified-jotform: "2025-10-06 08:40:25"
+last-exported: "2025-10-07 18:06:24"
 sitemap: false
 
 ---

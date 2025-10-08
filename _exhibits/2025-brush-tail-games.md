@@ -5,7 +5,7 @@ title: "Brush-Tail Games"
 slug: brush-tail-games
 permalink: /exhibits/brush-tail-games/
 exhibit-id: 25-7
-exhibit-zone: "Opportunity"
+exhibit-zone: "Curiosity"
 space-number: "CI3"
 description: "Waddle Waddle is an educational tabletop game that teaches about Penguins and the Antarctic."
 description-long: "Waddle Waddle is an educational tabletop game that teaches about Penguins and the Antarctic that was created by local board game designer and photographer Darren Humphrey.
@@ -53,8 +53,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-05-27 09:10:19"
-last-modified-jotform: "2025-10-05 16:34:40"
-last-exported: "2025-10-05 17:02:10"
+last-modified-jotform: "2025-10-06 08:39:34"
+last-exported: "2025-10-07 18:06:30"
 sitemap: false
 
 ---
