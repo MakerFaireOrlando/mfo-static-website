@@ -12,6 +12,11 @@
   date: 2025-11-07 10:30:00
   enddate: 2025-11-07 10:55:00
   url: /stage
+  image: /assets/images/stage/2025/mcparks.jpg
+  guests:
+    - name: MCParks
+      image: /assets/images/stage/2025/mcparks.jpg
+      url: /exhibits/mcparks-theme-parks-in-minecraft/
 
 - title: YouTube Makers
   slug: ftd-youtube
@@ -34,6 +39,14 @@
   date: 2025-11-07 13:30:00
   enddate: 2025-11-07 13:55:00
   url: /stage
+  image: /assets/images/stage/2025/youngmakers.gif
+  guests: 
+    - name: Colin King
+      image: /assets/images/stage/2025/colin_king.jpg
+      url: /exhibits/colins-soap-a-rama/
+    - name: Rock Springs Critters
+      image: /assets/images/stage/2025/rock_springs_critters.jpg
+      url: /exhibits/rock-springs-critters/
 
 - title: Robot Makers
   slug: ftd-youtube

@@ -6,6 +6,18 @@ redirect_from: "/eventschedule/"
 redirect_from: "/event-schedule/"
 isotope-schedule: true
 ---
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<div id="testCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://via.placeholder.com/300x200?text=Image+1" class="d-block w-100" alt="Image 1">
+    </div>
+    <div class="carousel-item">
+      <img src="https://via.placeholder.com/300x200?text=Image+2" class="d-block w-100" alt="Image 2">
+    </div>
+  </div>
+</div>
+
 
 # Event Schedule
 
@@ -63,11 +75,14 @@ Check out the [event program](/program) for a printable map, schedule and more!<
              {%- if event.location -%}
               <a name="{{event.slug}}"></a>
             {%- endif -%}
-            <div class="container" style="width=100%">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-2">
                        <b>{{event.date | date: "%A"}}<br>{{event.date | date: "%l:%M&nbsp;%P"}}
                         {% if event.enddate %}- {{event.enddate | date: "%l:%M&nbsp;%P"}}{% endif %}</b>
+
+                         <br>
+                        {% if event.location %}<br><b>{{event.location}}</b>{% endif %}
                     </div>
                     <div class="col-sm-2">
                         {% if event.url %}
@@ -77,24 +92,25 @@ Check out the [event program](/program) for a printable map, schedule and more!<
                         {% if event.url %}
                           </a>
                         {% endif %}
+                       
                     </div>
-                    <div class="col-sm-4 text-wrap">
-                        {{event.description}}
+                    <div class="col-sm-5 text-wrap">
+                        {{event.description}}<br>
+                        {%- if event.guests -%}<br>Featuring: <br>{%- endif -%}
+                         {%- for guest in event.guests -%}
+                            {%-if guest.url -%}<a href="{{guest.url}}" target="_blank">{%- endif -%}
+                              {{ guest.name }}
+                            {%-if guest.url -%}</a>{%- endif -%}
+                            {%- unless forloop.last -%}, {% endunless -%}
+                         {%- endfor -%}   
                     </div>
-                    <div class="col-sm-2">
-                        {{event.location}}
-                    </div>
-                    <div class="col-sm-2">
-                        {% if event.image %}
-                        {% if event.url %}
-                          <a href="{{event.url}}">
-                        {% endif %}
+                    <div class="col-sm-3">
+                      {% if event.image %}
+                        {% if event.url %}<a href="{{event.url}}">{% endif %}
                         <img src="{{event.image}}" style="padding:10px; max-width:100%;">
-                        {% if event.url %}
-                          </a>
-                        {% endif %}
+                        {% if event.url %}</a>{% endif %}
                       {% else %}
-                      <img src="/assets/images/site-branding/makey.png" alt="Makey robot" style="padding:10px; max-width:100%">
+                        <img src="/assets/images/site-branding/makey.png" alt="Makey robot" style="padding:10px; max-width:100%">
                       {% endif %}
                     </div>
                 </div>
