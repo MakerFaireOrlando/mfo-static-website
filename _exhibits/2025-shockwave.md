@@ -32,7 +32,7 @@ maker:
   name: "Abhiram Pinnity"
   description: "I am a member of Gator robotics competing with them under a separate team."
   image-primary:
-    url: /assets/images/exhibit-images/25R-14-m-shockwave-img-3873-150x91.jpeg
+    url: /assets/images/exhibit-images/25R-14-m-shockwave-img-3873-300x182.jpeg
     width: 150
     height: 91
 categories: 
@@ -40,7 +40,7 @@ categories:
     name: Combat Robots
 created-jotform: "2025-08-28 14:51:19"
 last-modified-jotform: "2025-10-03 07:28:54"
-last-exported: "2025-10-07 18:06:03"
+last-exported: "2025-10-11 11:10:44"
 sitemap: false
 
 ---
