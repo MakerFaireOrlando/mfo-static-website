@@ -593,7 +593,7 @@ def export(outputAll):
 
             image = processImage(mfoID,slug,"m",makerImage[0])
             outfile.write("  image-primary:\n")
-            outfile.write("    url: "   + image[1][0][2:] + "\n")
+            outfile.write("    url: "   + image[2][0][2:] + "\n")
             outfile.write("    width: "   + str(image[1][1]) + "\n")
             outfile.write("    height: "   + str(image[1][2]) + "\n")              
 
