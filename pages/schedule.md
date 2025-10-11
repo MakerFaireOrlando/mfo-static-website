@@ -6,18 +6,6 @@ redirect_from: "/eventschedule/"
 redirect_from: "/event-schedule/"
 isotope-schedule: true
 ---
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-<div id="testCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://via.placeholder.com/300x200?text=Image+1" class="d-block w-100" alt="Image 1">
-    </div>
-    <div class="carousel-item">
-      <img src="https://via.placeholder.com/300x200?text=Image+2" class="d-block w-100" alt="Image 2">
-    </div>
-  </div>
-</div>
-
 
 # Event Schedule
 
