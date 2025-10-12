@@ -6,7 +6,7 @@ slug: delearius
 permalink: /exhibits/delearius/
 exhibit-id: 25-27
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "Car"
 description: "Prius powered Hot rod from a LEAR jet fuselage, with inspiration from Sci-Fi"
 description-long: "Classic vintage 1975 Lear 25d retired and turned into a steet rod.
  (youtube videos editing now may 2025).  This unique vehicle has been shortened to  8 feet wide by 10 feet tall and 26 feet long.  An infinity mirror in the afterburner provides real world special effects.   It is powered by a 1.5 liter toyota hybrid system and a 1.1 kw/hour battery pack.  Viewers are welcome to climb aboard and view the mixture of retro and modern instruments on the  functional dash"
@@ -52,7 +52,7 @@ maker:
   name: "AutoBeYours.com"
   description: "hybrid powered hot rods , steam punk, rat rod"
   image-primary:
-    url: /assets/images/exhibit-images/25-27-m-delearius-20241113-111004-112x150.jpg
+    url: /assets/images/exhibit-images/25-27-m-delearius-20241113-111004-225x300.jpg
     width: 112
     height: 150
   website: https://autobeyours.com/priustoric.htm
@@ -71,8 +71,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-11 10:23:39"
-last-modified-jotform: "2025-09-06 09:44:50"
-last-exported: "2025-09-06 09:49:19"
+last-modified-jotform: "2025-10-11 21:34:50"
+last-exported: "2025-10-12 10:42:33"
 sitemap: false
 
 ---

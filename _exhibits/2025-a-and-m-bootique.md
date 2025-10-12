@@ -6,7 +6,7 @@ slug: a-and-m-bootique
 permalink: /exhibits/a-and-m-bootique/
 exhibit-id: 25-22
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC18"
 description: "I am a sewer and embroiderer.  I embroider keychains,  patches and accessories. Chris 3D prints toys"
 description-long: "I've been sewing 30 years and love creating.  I also taught sewing and knitting at Joanns for 5 years. I love teaching others how to sew and embroider 
  I will have an embroidery machine to show how I create some of my products.  Chris has been 3D printing for 2 years. He will have an A one mini printer at the show. He will show how to 3D print and answer questions"
@@ -222,8 +222,8 @@ categories:
   - slug: sewing
     name: Sewing
 created-jotform: "2025-06-10 21:27:07"
-last-modified-jotform: "2025-09-13 11:34:13"
-last-exported: "2025-10-11 11:11:27"
+last-modified-jotform: "2025-10-11 22:35:07"
+last-exported: "2025-10-12 10:42:51"
 sitemap: false
 
 ---

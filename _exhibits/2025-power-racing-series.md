@@ -5,6 +5,7 @@ title: "Power Racing Series"
 slug: power-racing-series
 permalink: /exhibits/power-racing-series/
 exhibit-id: 25-211
+exhibit-zone: "Power Racing Track"
 space-number: Unassigned
 description: "We are participating in the Power Racing Series."
 description-long: "We have 3 cars that we will bring to participate in the Power Racing Series."
@@ -42,8 +43,8 @@ categories:
   - slug: power-racing
     name: Power Racing
 created-jotform: "2025-10-10 08:12:59"
-last-modified-jotform: "2025-10-11 10:51:05"
-last-exported: "2025-10-11 11:10:58"
+last-modified-jotform: "2025-10-11 22:04:17"
+last-exported: "2025-10-12 10:39:25"
 sitemap: false
 
 ---

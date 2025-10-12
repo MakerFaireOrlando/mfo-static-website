@@ -6,7 +6,7 @@ slug: red-heart-candles
 permalink: /exhibits/red-heart-candles/
 exhibit-id: 25-20
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC21"
 description: "Hand-poured soy candles with unique scents, eco-friendly design, and a warm, handmade touch."
 description-long: "**Red Heart Candles – Handcrafted with Heart**
 
@@ -241,7 +241,7 @@ Warmly,
 **Red Heart Candles**
 www.RedHeartCandles.com"
   image-primary:
-    url: /assets/images/exhibit-images/25-20-m-red-heart-candles-redheartcandles-color-140x150.jpg
+    url: /assets/images/exhibit-images/25-20-m-red-heart-candles-redheartcandles-color-280x300.jpg
     width: 140
     height: 150
   website: https://www.redheartcandles.com
@@ -258,8 +258,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-09 14:36:44"
-last-modified-jotform: "2025-10-05 14:43:01"
-last-exported: "2025-10-05 14:46:33"
+last-modified-jotform: "2025-10-11 23:15:23"
+last-exported: "2025-10-12 10:42:52"
 sitemap: false
 
 ---

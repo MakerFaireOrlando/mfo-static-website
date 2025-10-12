@@ -6,7 +6,7 @@ slug: accelerate-orlando
 permalink: /exhibits/accelerate-orlando/
 exhibit-id: 25-138
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG4"
 description: "Come check out AI demos built by local Techno-Optimists"
 description-long: "Come check out AI demos built by local Techno-Optimists.  We'll display some of the latest capabilities of AI including incorporating voice and live data into experiences that bring out our creativity."
 image: /assets/images/exhibit-images/25-138-e-accelerate-orlando-guruthrill-an-inspiring-image-of-a-modern-downtown-orlando-incl-bf0e596b-46ba-4293-80e6-666a675fa46b-2514-300x150.png
@@ -31,7 +31,7 @@ maker:
   name: "Accelerate Orlando"
   description: "Accelerate Orlando is a meetup group focused on Techno-Optimism, we're a part of Orlando Devs, a 503c catering to the Orlando Developer Community."
   image-primary:
-    url: /assets/images/exhibit-images/25-138-m-accelerate-orlando-guruthrill-an-inspiring-image-of-a-modern-downtown-orlando-incl-bf0e596b-46ba-4293-80e6-666a675fa46b-150x75.png
+    url: /assets/images/exhibit-images/25-138-m-accelerate-orlando-guruthrill-an-inspiring-image-of-a-modern-downtown-orlando-incl-bf0e596b-46ba-4293-80e6-666a675fa46b-300x150.png
     width: 150
     height: 75
   website: https://lu.ma/accelerateorlando
@@ -43,8 +43,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-31 21:07:38"
-last-modified-jotform: "2025-09-13 12:13:36"
-last-exported: "2025-09-13 12:15:34"
+last-modified-jotform: "2025-10-11 22:46:28"
+last-exported: "2025-10-12 10:40:47"
 sitemap: false
 
 ---

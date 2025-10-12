@@ -6,7 +6,7 @@ slug: wonder-arte
 permalink: /exhibits/wonder-arte/
 exhibit-id: 25-155
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "Tent"
 description: "With themes such as twinkling night skies, kids safely add LED lights to make their artwork glow."
 description-long: "Children pick fun themes—glowing flowers, twinkling night skies, or spooky Halloween ghosts—and paint their designs on canvas. Afterward, they safely add tiny LED lights that make their artwork glow.
 
@@ -68,7 +68,7 @@ maker:
   name: "Wonder Arte"
   description: "At Wonder Arte, we believe every child is an artist! Our programs for ages 5–12 blend painting, sand art and mixed media to build creativity, focus, and confidence. During the Maker Faire, kids will experience the joy of making art that’s interactive, exciting, and screen-free, for example with Light-Up Canvases. Attendees will be delighted at Wonder Arte STEAM projects and how they transform simple materials into unforgettable creations!”"
   image-primary:
-    url: /assets/images/exhibit-images/25-155-m-wonder-arte-wonder-logo-150x150.png
+    url: /assets/images/exhibit-images/25-155-m-wonder-arte-wonder-logo-300x300.png
     width: 150
     height: 150
   website: https://wonderarte.square.site/
@@ -86,8 +86,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2025-08-23 01:05:27"
-last-modified-jotform: "2025-10-02 20:06:29"
-last-exported: "2025-10-03 07:30:06"
+last-modified-jotform: "2025-10-11 21:48:33"
+last-exported: "2025-10-12 10:40:23"
 sitemap: false
 
 ---

@@ -5,8 +5,8 @@ title: "LeARnLab"
 slug: learnlab
 permalink: /exhibits/learnlab/
 exhibit-id: 25-100
-exhibit-zone: "Opportunity"
-space-number: Unassigned
+exhibit-zone: "Curiosity"
+space-number: "CI4"
 description: "AR books that bring lessons to life. Experience learning by seeing, exploring & hearing!"
 description-long: "LeARnLab brings books to life with interactive AR/VR adventures! Our vibrant, educational stories leap off the page. They're perfect for curious kids, busy parents, and forward-thinking teachers. Think science, history, and imagination with digital 3D experiences that teach as much as they wow. Enhance reading, spark creativity, and upgrade every learning moment in a way you've never experienced before!"
 image: /assets/images/exhibit-images/25-100-e-learnlab-screenshot-2025-07-03-151933-300x165.jpg
@@ -185,7 +185,7 @@ maker:
   name: "LeARnLab"
   description: "Hello and welcome to LeARnLab! We make futuristic books using AR and VR. Each page in our books comes to life in the form of a living, breathing 3D object. Make dinosaurs roar, watch planets spin, listen to a heart beat as blood flows through the chambers, or watch an engine come to life and roar with all cylinders!"
   image-primary:
-    url: /assets/images/exhibit-images/25-100-m-learnlab-learnlab-logo-png-file-1-150x113.png
+    url: /assets/images/exhibit-images/25-100-m-learnlab-learnlab-logo-png-file-1-300x225.png
     width: 150
     height: 113
   website: http://www.learnlabar.com
@@ -206,8 +206,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-21 14:31:22"
-last-modified-jotform: "2025-09-13 12:01:52"
-last-exported: "2025-09-13 12:02:15"
+last-modified-jotform: "2025-10-11 22:20:22"
+last-exported: "2025-10-12 10:41:23"
 sitemap: false
 
 ---

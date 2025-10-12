@@ -5,8 +5,8 @@ title: "Mobile Escape Room"
 slug: mobile-escape-room
 permalink: /exhibits/mobile-escape-room/
 exhibit-id: 25-194
-exhibit-zone: "Opportunity"
-space-number: Unassigned
+exhibit-zone: "Outside"
+space-number: "Tent"
 description: "Mobile escape room and interactive adventure game."
 description-long: "At the intersection of storytelling and technology is this interactive mobile escape room. Follow the captivating stories and solve clues before time runs out."
 image: /assets/images/exhibit-images/25-194-e-mobile-escape-room-blossomers-aunties-treasure-6912-300x225.jpeg
@@ -31,7 +31,7 @@ maker:
   name: "Blossomers Media, Inc."
   description: "Product prototyping and manufacturing company that specializes in IoT based technologies."
   image-primary:
-    url: /assets/images/exhibit-images/25-194-m-mobile-escape-room-b-lossomers-150x150.png
+    url: /assets/images/exhibit-images/25-194-m-mobile-escape-room-b-lossomers-300x300.png
     width: 150
     height: 150
   website: http://blossomers.com
@@ -51,8 +51,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-24 19:20:02"
-last-modified-jotform: "2025-09-28 13:52:59"
-last-exported: "2025-10-02 19:45:31"
+last-modified-jotform: "2025-10-11 21:51:49"
+last-exported: "2025-10-12 10:39:35"
 sitemap: false
 
 ---

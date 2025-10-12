@@ -6,7 +6,7 @@ slug: ham-radio-for-beginners
 permalink: /exhibits/ham-radio-for-beginners/
 exhibit-id: 25-53
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC7"
 description: "Ham radio is for everyone, and a great career choice..."
 description-long: "Ham radio is for everyone, and a great career choice.  It is a technical hobby and requires an FCC license - on the flip side you will be able to operate on dozens of radio frequency bands and communicate world wide."
 image: /assets/images/exhibit-images/25-53-e-ham-radio-for-beginners-makerfaire-w1hv-maker-2024-244x300.jpg
@@ -50,7 +50,7 @@ maker:
   name: "Ken Vanslette"
   description: "Maker / Engineer / Ham radio for my whole career, starting in Grade school and going strong ever since."
   image-primary:
-    url: /assets/images/exhibit-images/25-53-m-ham-radio-for-beginners-makerfaire-w1hvcompress-g-122x150.jpg
+    url: /assets/images/exhibit-images/25-53-m-ham-radio-for-beginners-makerfaire-w1hvcompress-g-244x300.jpg
     width: 122
     height: 150
   website: https://HamRadioSupply.com
@@ -68,8 +68,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-29 14:54:38"
-last-modified-jotform: "2025-09-13 11:45:48"
-last-exported: "2025-09-13 11:59:29"
+last-modified-jotform: "2025-10-11 22:38:42"
+last-exported: "2025-10-12 10:41:56"
 sitemap: false
 
 ---

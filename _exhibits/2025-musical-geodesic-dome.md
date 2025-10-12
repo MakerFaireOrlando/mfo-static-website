@@ -6,7 +6,7 @@ slug: musical-geodesic-dome
 permalink: /exhibits/musical-geodesic-dome/
 exhibit-id: 25-124
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC3"
 description: "Touch the struts of this geodesic dome to trigger musical sound. Fun and interactive!"
 description-long: "This one of a kind 7 foot tall geodesic dome plays music when you touch the struts of the dome. You can play by yourself or collaborate with others. It's a combination of art, geometry, and architecture!"
 image: /assets/images/exhibit-images/25-124-e-musical-geodesic-dome-geodesic-dome-musical-300x200.jpg
@@ -33,7 +33,7 @@ maker:
   name: "Tom Heck"
   description: "Tom Heck is an inventor, musician, author, and educator who lives in Asheville, NC. Tom has written articles for MAKE Magazine. He has trained K12 educators throughout the US and Canada how to teach Invention Literacy in the classroom. Tom has written multiple books and has spoken on the TEDx stage. Tom is one of the volunteer organizers of the Asheville Maker Faire."
   image-primary:
-    url: /assets/images/exhibit-images/25-124-m-musical-geodesic-dome-tom-heck-horse-112x150.jpg
+    url: /assets/images/exhibit-images/25-124-m-musical-geodesic-dome-tom-heck-horse-225x300.jpg
     width: 112
     height: 150
   website: https://www.tomheck.com/
@@ -49,8 +49,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-29 16:36:23"
-last-modified-jotform: "2025-09-21 18:02:01"
-last-exported: "2025-09-21 21:21:46"
+last-modified-jotform: "2025-10-11 22:45:46"
+last-exported: "2025-10-12 10:40:48"
 sitemap: false
 
 ---

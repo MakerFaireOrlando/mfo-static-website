@@ -6,7 +6,7 @@ slug: perolita-store
 permalink: /exhibits/perolita-store/
 exhibit-id: 25-92
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG16"
 description: "Arte tradicional y digital, fanart animes película etc"
 description-long: "Me dedico a pintar cuadros en acrílico y bolsos de tela con pintura textil realizó artes de animes fanart películas populares mayormente studio Ghibli etc."
 image: /assets/images/exhibit-images/25-92-e-perolita-store-img-20250427-092103680-hdr-225x300.jpg
@@ -50,7 +50,7 @@ maker:
   name: "Diana Juron Montero y Chris Juron"
   description: "Mi esposo y yo estamos en conjunto yo hago las obras y mi esposo me apoya con las ventas de los productos"
   image-primary:
-    url: /assets/images/exhibit-images/25-92-m-perolita-store-1-20250715-225649-0000-103x150.png
+    url: /assets/images/exhibit-images/25-92-m-perolita-store-1-20250715-225649-0000-206x300.png
     width: 103
     height: 150
   website: https://www.instagram.com/perolita_store?igsh=M3MzNXo2OGw1MjMz
@@ -72,8 +72,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-15 23:28:21"
-last-modified-jotform: "2025-09-13 11:58:47"
-last-exported: "2025-09-13 11:58:52"
+last-modified-jotform: "2025-10-11 22:27:06"
+last-exported: "2025-10-12 10:41:31"
 sitemap: false
 
 ---

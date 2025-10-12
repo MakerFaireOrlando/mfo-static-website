@@ -6,7 +6,7 @@ slug: guinea-pig-games
 permalink: /exhibits/guinea-pig-games/
 exhibit-id: 25-23
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD6"
 description: "Makers of Turbografx16 reproduction games, independent publisher and creator of handmade accessories"
 description-long: "We build and create games and accessories for the legendary Turbografx 16 gaming console. We also sell, make accessories and hand made art to enhance your retro gaming collection!"
 image: /assets/images/exhibit-images/25-23-e-guinea-pig-games-guinea-pig-games-llc-logo-v2-2576-300x268.png
@@ -102,7 +102,7 @@ maker:
   name: "Guinea Pig Games"
   description: "We create retro games, accessories and hand made art pieces to enhance your retro gaming collections."
   image-primary:
-    url: /assets/images/exhibit-images/25-23-m-guinea-pig-games-guinea-pig-games-llc-logo-v2-150x134.png
+    url: /assets/images/exhibit-images/25-23-m-guinea-pig-games-guinea-pig-games-llc-logo-v2-300x268.png
     width: 150
     height: 134
   website: https://guineapiggames.com/
@@ -120,8 +120,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-10 22:19:04"
-last-modified-jotform: "2025-09-13 11:34:30"
-last-exported: "2025-09-13 11:38:26"
+last-modified-jotform: "2025-10-11 22:52:05"
+last-exported: "2025-10-12 10:42:42"
 sitemap: false
 
 ---

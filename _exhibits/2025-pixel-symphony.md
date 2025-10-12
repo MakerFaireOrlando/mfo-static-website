@@ -6,7 +6,7 @@ slug: pixel-symphony
 permalink: /exhibits/pixel-symphony/
 exhibit-id: 25-192
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC6"
 description: "A creative fusion of AI, Arduino, and an LED matrix designed to blend music with visual art."
 description-long: "Our goal is to transform song lyrics into a dynamic LED light show, creating a unique and immersive visual experience for attendees."
 image: /assets/images/exhibit-images/25-192-e-pixel-symphony-concpet-300x300.png
@@ -31,7 +31,7 @@ maker:
   name: "Man Kwan QualiEd College"
   description: "We are a student group from Man Kwan QualiEd College which is located in Hong Kong."
   image-primary:
-    url: /assets/images/exhibit-images/25-192-m-pixel-symphony-full-mkqc-logo-6012-150x57.png
+    url: /assets/images/exhibit-images/25-192-m-pixel-symphony-full-mkqc-logo-6012-300x114.png
     width: 150
     height: 57
   website: https://www.mkqc.edu.hk
@@ -44,8 +44,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2025-09-23 00:42:55"
-last-modified-jotform: "2025-09-28 11:44:54"
-last-exported: "2025-09-28 13:16:30"
+last-modified-jotform: "2025-10-11 22:51:15"
+last-exported: "2025-10-12 10:39:52"
 sitemap: false
 
 ---

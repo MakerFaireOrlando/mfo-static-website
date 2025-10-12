@@ -83,7 +83,7 @@ maker:
   name: "Heidi Little"
   description: "Heidi sells crochet items that she makes herself, including stuffed animals and other cute apparel. She is 14 but started when she was 10. She has been to many craft fairs before to sell her products."
   image-primary:
-    url: /assets/images/exhibit-images/25-190-m-simply-crocheted-biz-sticker-150x150.png
+    url: /assets/images/exhibit-images/25-190-m-simply-crocheted-biz-sticker-300x300.png
     width: 150
     height: 150
 categories: 
@@ -98,8 +98,8 @@ categories:
   - slug: sewing
     name: Sewing
 created-jotform: "2025-09-21 19:49:20"
-last-modified-jotform: "2025-09-30 19:48:13"
-last-exported: "2025-10-02 19:45:33"
+last-modified-jotform: "2025-10-11 21:29:27"
+last-exported: "2025-10-12 10:39:56"
 sitemap: false
 
 ---

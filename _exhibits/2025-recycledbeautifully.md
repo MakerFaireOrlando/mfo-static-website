@@ -6,7 +6,7 @@ slug: recycledbeautifully
 permalink: /exhibits/recycledbeautifully/
 exhibit-id: 25-173
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE6"
 description: "Handmade wire wrapped recycled copper tree of life pendants"
 description-long: "Recycled Beautifully creates elegant jewelry that starts as garbage. Celina Ortiz and her husband find discarded television sets and deconstruct them, removing the copper and aluminum wire in the process. With this valuable material in hand, they wrap the material around stone pendants in a tree-like design. The wire spans the width of the teardrop and oval forms, framing them with delicate branches that electrifyingly extend and wrap around the stone."
 image: /assets/images/exhibit-images/25-173-e-recycledbeautifully-img-0904-4866-300x300.png
@@ -168,7 +168,7 @@ maker:
   name: "Celina and John Ortiz"
   description: "Handmade wire wrapped tree of life pendants"
   image-primary:
-    url: /assets/images/exhibit-images/25-173-m-recycledbeautifully-img-0904-150x150.png
+    url: /assets/images/exhibit-images/25-173-m-recycledbeautifully-img-0904-300x300.png
     width: 150
     height: 150
 categories: 
@@ -185,8 +185,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-08 23:34:46"
-last-modified-jotform: "2025-09-21 18:05:49"
-last-exported: "2025-09-21 21:21:22"
+last-modified-jotform: "2025-10-11 22:50:30"
+last-exported: "2025-10-12 10:40:00"
 sitemap: false
 
 ---

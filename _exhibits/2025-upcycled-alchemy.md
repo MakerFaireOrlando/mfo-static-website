@@ -6,7 +6,7 @@ slug: upcycled-alchemy
 permalink: /exhibits/upcycled-alchemy/
 exhibit-id: 25-40
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "Tent"
 description: "Needful things hand sewn from upcycled clothing"
 description-long: "Upcycled Alchemy sews all kind of cool one of a kind gifts - totes, accessories, kitchenware, pet toys and more - all upcycled out of second hand T-shirts.
 Everything we make had a life before us and hopefully will have a long life after us. We love that we can keep otherwise discarded things in the community and out of landfills and hope others will follow our examples to keep using and reusing what they have in creative ways!"
@@ -50,7 +50,7 @@ maker:
   name: "Mollie Cortes"
   description: "Mollie Cortes is a Central Florida creative who dabbles in both performance art and physical creations! A cosplayer, a drag artist and an upcyling seamstress, Mollie believes anyone can make something wild weird and wonderful with what they have on hand!"
   image-primary:
-    url: /assets/images/exhibit-images/25-40-m-upcycled-alchemy-meet-the-artist-ua-113x150.jpg
+    url: /assets/images/exhibit-images/25-40-m-upcycled-alchemy-meet-the-artist-ua-226x300.jpg
     width: 113
     height: 150
   instagram: https://www.instagram.com/upcycledalchemy?igsh=aHNkZXU2MHQ1dWxx
@@ -60,8 +60,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2025-06-17 11:24:44"
-last-modified-jotform: "2025-09-13 11:00:54"
-last-exported: "2025-09-13 11:26:47"
+last-modified-jotform: "2025-10-11 21:36:33"
+last-exported: "2025-10-12 10:42:22"
 sitemap: false
 
 ---

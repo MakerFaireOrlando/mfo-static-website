@@ -6,7 +6,7 @@ slug: central-florida-tool-library
 permalink: /exhibits/central-florida-tool-library/
 exhibit-id: 25-129
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE13"
 description: "We'll be providing a space to inform attendees of the Tool Library and how they can access it."
 description-long: "Many of us have repairs or projects we'd like to work on but don't have the funds or space to buy new tools. The Central Florida Tool Library was created to solve this issue and to provide access to these tools to our community. In our shared tool library you can find power tools, crafting tools, medical equipment and much more. We have a particular focus on disaster preparation and recovery."
 image: /assets/images/exhibit-images/25-129-e-central-florida-tool-library-cflma-logo-horizontal-fullcolor-4961-300x111.png
@@ -31,7 +31,7 @@ maker:
   name: "Central Florida Tool Library"
   description: "The mission of the Central Florida Tool Library is to empower ourselves and our Central Florida community through access to tools and equipment needed for disaster preparation and recovery, as well as maintenance, repair, recreational, medical, and other needs. It is currently operated by Central Florida Mutual Aid, a collective of regular folx in Orange, Osceola, and Seminole counties practicing mutual aid. CFLMA aims to be democratic, decentralized, and non-hierarchical, and we center the voices and needs of those most impacted by systems of oppression."
   image-primary:
-    url: /assets/images/exhibit-images/25-129-m-central-florida-tool-library-cflma-logo-horizontal-fullcolor-150x55.png
+    url: /assets/images/exhibit-images/25-129-m-central-florida-tool-library-cflma-logo-horizontal-fullcolor-300x111.png
     width: 150
     height: 55
   website: https://centralfloridamutualaid.myturn.com/
@@ -48,8 +48,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2025-07-30 20:18:45"
-last-modified-jotform: "2025-09-28 09:50:59"
-last-exported: "2025-10-07 18:06:23"
+last-modified-jotform: "2025-10-11 22:54:42"
+last-exported: "2025-10-12 10:40:48"
 sitemap: false
 
 ---

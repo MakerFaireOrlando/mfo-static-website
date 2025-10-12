@@ -6,7 +6,7 @@ slug: genkigoth-studios
 permalink: /exhibits/genkigoth-studios/
 exhibit-id: 25-123
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC24, OD24"
 description: "One of a kind UV, glow, and hidden image spray paint canvases, celebrating all things nerdy!"
 description-long: "Husband and wife artist duo who specialize one of a kind spray painted canvas and mural art, specializing in neon, UV and glow in the dark hidden imagery, centered around anime, video games, and pop culture fandoms."
 image: /assets/images/exhibit-images/25-123-e-genkigoth-studios-att-0roqbeezcfj3zrmy6w-fxrbd3sx-xtnspce-wp2hwvc-140x300.jpeg
@@ -134,7 +134,7 @@ maker:
   name: "Miriam and Dee Jay"
   description: "Husband/wife artists, specializing in UV/neon/Glow in the dark spray painted art centering around anime, video games, and pop culture fandoms"
   image-primary:
-    url: /assets/images/exhibit-images/25-123-m-genkigoth-studios-att-e9qbyusegiedihihn8bjjjnklmc1oa8c7qy2u6rt0nk-147x150.jpeg
+    url: /assets/images/exhibit-images/25-123-m-genkigoth-studios-att-e9qbyusegiedihihn8bjjjnklmc1oa8c7qy2u6rt0nk-293x300.jpeg
     width: 147
     height: 150
   website: https://www.genkigothstudios.com
@@ -150,8 +150,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-29 16:31:27"
-last-modified-jotform: "2025-10-06 07:31:30"
-last-exported: "2025-10-06 07:32:18"
+last-modified-jotform: "2025-10-11 22:29:29"
+last-exported: "2025-10-12 10:40:50"
 sitemap: false
 
 ---

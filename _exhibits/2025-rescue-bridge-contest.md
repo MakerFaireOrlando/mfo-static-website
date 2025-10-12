@@ -6,7 +6,7 @@ slug: rescue-bridge-contest
 permalink: /exhibits/rescue-bridge-contest/
 exhibit-id: 25-145
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD3"
 description: "Build a paper bridge to get the rescue bot to the top of the burning building."
 description-long: "This challenge for kids and adults is to build a bridge from the available supplies of paper and tape that will support the 3-pound rescue bot. Time is of the essence since the building is on fire. Builders will be rewarded with a wearable button they make themselves. There is a $2 charge for supplies."
 image: /assets/images/exhibit-images/25-145-e-rescue-bridge-contest-20250215-iccf-spark-bridge-29-300x169.png
@@ -134,7 +134,7 @@ maker:
   name: "Inventors Council of Central Florida"
   description: "Our Mission is to provide a secure environment for inventors to submit their ideas for critical peer review and to nurture our members by providing guidance in making ideas profitable. ICCF is a 501(c)(3) which makes your donations deductable."
   image-primary:
-    url: /assets/images/exhibit-images/25-145-m-rescue-bridge-contest-iccf-logo-w-bulb-blue-white-150x63.png
+    url: /assets/images/exhibit-images/25-145-m-rescue-bridge-contest-iccf-logo-w-bulb-blue-white-300x127.png
     width: 150
     height: 63
   website: https://www.inventcf.com/
@@ -151,8 +151,8 @@ categories:
   - slug: invention
     name: Invention
 created-jotform: "2025-08-04 09:20:31"
-last-modified-jotform: "2025-09-13 11:17:37"
-last-exported: "2025-09-13 11:26:18"
+last-modified-jotform: "2025-10-11 23:06:45"
+last-exported: "2025-10-12 10:40:36"
 sitemap: false
 
 ---

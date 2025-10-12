@@ -5,8 +5,8 @@ title: "Orlando Repair Cafe"
 slug: orlando-repair-cafe
 permalink: /exhibits/orlando-repair-cafe/
 exhibit-id: 25-156
-exhibit-zone: "Opportunity"
-space-number: "OE13"
+exhibit-zone: "Outside"
+space-number: "Tent"
 description: "Coming soon! Learn to repair your own stuff, or sign up to volunteer and help others learn!"
 description-long: "Repair Cafe is an international movement to help everyday people repair their own stuff. Come help us create a community space where everyone in Orlando can get free access to tools, knowledge and help to repair just about anything. We'll be showing off a few household repairs and projects that anyone can do"
 image: /assets/images/exhibit-images/25-156-e-orlando-repair-cafe-repair-togheter-300x200.jpg
@@ -45,7 +45,7 @@ https://www.ifixit.com/Teardown/Pokemon+Go+Plus+Teardown/67462 (Or similar small
 https://www.ifixit.com/Guide/Disassembling+Flashlight+Light+Bulb+Components/22820 
 Possibly: Show kids how to teardown, then give out flashlights"
   image-primary:
-    url: /assets/images/exhibit-images/25-156-m-orlando-repair-cafe-rc-blueorange-150x38.jpg
+    url: /assets/images/exhibit-images/25-156-m-orlando-repair-cafe-rc-blueorange-300x75.jpg
     width: 150
     height: 38
   twitter: https://www.twitter.com/profile/orlandorepaircafe.bsky.social
@@ -63,8 +63,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-24 13:21:07"
-last-modified-jotform: "2025-10-05 12:48:22"
-last-exported: "2025-10-05 12:48:56"
+last-modified-jotform: "2025-10-11 22:18:43"
+last-exported: "2025-10-12 10:40:23"
 sitemap: false
 
 ---

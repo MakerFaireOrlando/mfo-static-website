@@ -6,7 +6,7 @@ slug: shariff-dmc-desktop-cnc-machines
 permalink: /exhibits/shariff-dmc-desktop-cnc-machines/
 exhibit-id: 25-108
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG5"
 description: "Shariff DMC: Mini metal cutting desktop CNC machines for Makers!"
 description-long: "Shariff DMC makes small desktop sized CNC machines for cutting aluminum, steel, stainless, titanium - just about any material! All in a compact form factor with features like flood cooling and probing, and the precision you'd expect in machine shop parts. Our goal is to bring the cost to entry as low as possible into CNC machining while still retaining all of the capabilities of a traditional machine shop."
 image: /assets/images/exhibit-images/25-108-e-shariff-dmc-desktop-cnc-machines-dmc2-mini-2268-300x214.jpg
@@ -31,7 +31,7 @@ maker:
   name: "Omar Shariff"
   description: "Shariff DMC makes small desktop sized CNC machines for cutting aluminum, steel, stainless, titanium - just about any material! All in a compact form factor with features like flood cooling and probing, and the precision you'd expect in machine shop parts. Our goal is to bring the cost to entry as low as possible into CNC machining while still retaining all of the capabilities of a traditional machine shop."
   image-primary:
-    url: /assets/images/exhibit-images/25-108-m-shariff-dmc-desktop-cnc-machines-dmc2-mini-150x107.jpg
+    url: /assets/images/exhibit-images/25-108-m-shariff-dmc-desktop-cnc-machines-dmc2-mini-300x214.jpg
     width: 150
     height: 107
   website: https://www.shariffdmc.com/
@@ -50,8 +50,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-25 02:37:48"
-last-modified-jotform: "2025-09-13 12:03:46"
-last-exported: "2025-09-13 12:08:55"
+last-modified-jotform: "2025-10-11 22:45:24"
+last-exported: "2025-10-12 10:41:15"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: roll-with-adventure
 permalink: /exhibits/roll-with-adventure/
 exhibit-id: 25-8
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "Tent"
 description: "I create handmade dice for tabletop roleplaying games and other gaming accessories!"
 description-long: "I create handmade dice for tabletop roleplaying games and other gaming accessories! This includes: custom character sets, full sets of dice, micro sets, single dice, dice bags, dice jails, dice jewelry, stickers, pins, keychains, dice potions, stationary, indie rpgs, and cosplay horns!"
 image: /assets/images/exhibit-images/25-8-e-roll-with-adventure-32a924a0-e9c7-43f1-9751-ab3881332f93-medium-300x225.jpeg
@@ -135,7 +135,7 @@ maker:
   name: "Jocelyn Torres"
   description: "I make handmade dice for tabletop roleplaying games!"
   image-primary:
-    url: /assets/images/exhibit-images/25-8-m-roll-with-adventure-69507757454-4d919a8b-4419-44ff-b667-2bd76c6cc464-112x150.jpeg
+    url: /assets/images/exhibit-images/25-8-m-roll-with-adventure-69507757454-4d919a8b-4419-44ff-b667-2bd76c6cc464-225x300.jpeg
     width: 112
     height: 150
   website: http://rollwithadventuredice.com
@@ -155,8 +155,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-05-27 13:52:21"
-last-modified-jotform: "2025-10-05 15:00:55"
-last-exported: "2025-10-05 17:02:09"
+last-modified-jotform: "2025-10-11 21:34:14"
+last-exported: "2025-10-12 10:43:10"
 sitemap: false
 
 ---

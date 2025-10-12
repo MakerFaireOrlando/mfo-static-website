@@ -5,8 +5,8 @@ title: "Bluupiecrochets"
 slug: bluupiecrochets
 permalink: /exhibits/bluupiecrochets/
 exhibit-id: 25-74
-exhibit-zone: "Spirit - East"
-space-number: Unassigned
+exhibit-zone: "Outside"
+space-number: "Tent"
 description: "A shop to get all of your crocheted nerdy and geeky plushies!"
 description-long: "A crochet shop that sells many hand crocheted items that range from pokemon to Mario to stardew valley"
 image: /assets/images/exhibit-images/25-74-e-bluupiecrochets-2cb08507-5215-45f2-862e-5cd4d7196c4e-2118-300x225.jpeg
@@ -83,7 +83,7 @@ maker:
   name: "Hannah nevarez"
   description: "Hi! I’m Hannah i love making things that others enjoy! I like seeing how seeing their favorite character made plush makes them light up! I love expressing myself through yarn and spreading joy through this art medium!"
   image-primary:
-    url: /assets/images/exhibit-images/25-74-m-bluupiecrochets-img-7056-150x105.jpeg
+    url: /assets/images/exhibit-images/25-74-m-bluupiecrochets-img-7056-300x210.jpeg
     width: 150
     height: 105
   instagram: https://www.instagram.com/bluupiecrochet?igsh=MTl0ZW95d3g3dGttOQ%3D%3D&utm_source=qr
@@ -99,8 +99,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-07 23:47:28"
-last-modified-jotform: "2025-10-09 21:22:48"
-last-exported: "2025-10-11 10:49:01"
+last-modified-jotform: "2025-10-11 23:00:02"
+last-exported: "2025-10-12 10:41:36"
 sitemap: false
 
 ---

@@ -5,8 +5,8 @@ title: "Silly Rabbit Crafts"
 slug: silly-rabbit-crafts
 permalink: /exhibits/silly-rabbit-crafts/
 exhibit-id: 25-72
-exhibit-zone: "Opportunity"
-space-number: Unassigned
+exhibit-zone: "Curiosity"
+space-number: "CK6"
 description: "Get Pixelated with Silly Rabbit Crafts and explore some awesome Perler items & even make your OWN!"
 description-long: "Join Silly Rabbit Crafts and enjoy the retro style of 8bit! you can buy handmade premade items, or have a seat and make your own take home pixelation creation."
 image: /assets/images/exhibit-images/25-72-e-silly-rabbit-crafts-21-6-exhibit-addl1-silly-rabbit-crafts-free-play-florida-2017-large-300x169.png
@@ -49,7 +49,7 @@ maker:
   name: "Silly Rabbit Crafts / Lori Fannings"
   description: "Picking up her first peg board in 2011, Silly Rabbit Crafts travels to 18 different states a year, with over 320+ shows under her belt! Silly Rabbit Crafts has melted over 31 million beads turning them into anything from Earrings to art, home decor and more!"
   image-primary:
-    url: /assets/images/exhibit-images/25-72-m-silly-rabbit-crafts-insta-profile-150x150.jpg
+    url: /assets/images/exhibit-images/25-72-m-silly-rabbit-crafts-insta-profile-300x300.jpg
     width: 150
     height: 150
   website: https://sillyrabbitcrafts.com
@@ -69,8 +69,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-06 22:41:53"
-last-modified-jotform: "2025-09-30 20:46:23"
-last-exported: "2025-10-02 19:46:31"
+last-modified-jotform: "2025-10-11 23:14:59"
+last-exported: "2025-10-12 10:41:36"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: hands-around-the-world
 permalink: /exhibits/hands-around-the-world/
 exhibit-id: 25-21
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE7"
 description: "This exhibit will show various types of robtic hands and how to make them."
 description-long: "People who are missing fingers or arms below the elbow can benefit from 3D printed devices. They are especially helpful for children who do not normally have the option of traditional prosthetic device either due to cost, time, or due to the uniqueness of their limb difference. 
 The goal of this exhibit is to bring awareness to our local community and demonstrate various hands you can build and other hand projects including a AI hand"
@@ -32,7 +32,7 @@ maker:
   name: "Jim Pollock"
   description: "This year showing robotic hands and how they work and how to get involved in making them for the under servered population. Of course there will be a robotic gumball machine involved somewere :)"
   image-primary:
-    url: /assets/images/exhibit-images/25-21-m-hands-around-the-world-under-construction-150x91.png
+    url: /assets/images/exhibit-images/25-21-m-hands-around-the-world-under-construction-300x182.png
     width: 150
     height: 91
 categories: 
@@ -49,8 +49,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-10 08:06:58"
-last-modified-jotform: "2025-09-13 11:33:56"
-last-exported: "2025-09-13 11:38:31"
+last-modified-jotform: "2025-10-11 22:39:06"
+last-exported: "2025-10-12 10:42:51"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: wild-bills-soda-co
 permalink: /exhibits/wild-bills-soda-co/
 exhibit-id: 25-26
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "Food"
 description: "Wild Bill's Craft Soda is a veteran owned operated premium beverage brand"
 description-long: "Wild Bill's Craft Soda is a veteran owned operated premium beverage brand that brings a whole new level of delight to fountain sodas. Our craft sodas are made with real cane sugar and infused with unique, nostalgic flavors that will transport attendees on a taste bud adventure.
  
@@ -58,7 +58,7 @@ maker:
 
 Premium Stainless Steele Mugs"
   image-primary:
-    url: /assets/images/exhibit-images/25-26-m-wild-bills-soda-co-650-pic-150x109.png
+    url: /assets/images/exhibit-images/25-26-m-wild-bills-soda-co-650-pic-300x217.png
     width: 150
     height: 109
   website: https://www.wildbillssoda.com
@@ -69,8 +69,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-11 09:02:37"
-last-modified-jotform: "2025-09-06 09:45:27"
-last-exported: "2025-09-06 09:49:21"
+last-modified-jotform: "2025-10-11 21:34:45"
+last-exported: "2025-10-12 10:42:35"
 sitemap: false
 
 ---

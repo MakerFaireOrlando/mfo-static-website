@@ -5,8 +5,8 @@ title: "Zacks Honey Farm"
 slug: zacks-honey-farm
 permalink: /exhibits/zacks-honey-farm/
 exhibit-id: 25-171
-exhibit-zone: "Opportunity"
-space-number: Unassigned
+exhibit-zone: "Curiosity"
+space-number: "OH3"
 description: "We produce local raw honey  from out honeybees"
 description-long: "We are a small family apiary and we raise honeybees and produce pure raw honey as well as artisinal honey."
 image: /assets/images/exhibit-images/25-171-e-zacks-honey-farm-img-2483-225x300.jpeg
@@ -101,7 +101,7 @@ maker:
   name: "Zack Blizzard"
   description: "We raise honeybees and produce local honey"
   image-primary:
-    url: /assets/images/exhibit-images/25-171-m-zacks-honey-farm-img-5509-150x147.jpeg
+    url: /assets/images/exhibit-images/25-171-m-zacks-honey-farm-img-5509-300x293.jpeg
     width: 150
     height: 147
   website: http://Zackshoneyfarm.com
@@ -112,8 +112,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2025-09-05 09:28:52"
-last-modified-jotform: "2025-09-24 14:52:47"
-last-exported: "2025-09-28 10:05:41"
+last-modified-jotform: "2025-10-11 22:49:28"
+last-exported: "2025-10-12 10:40:14"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: ejs-re-creations-props-masks-and-more
 permalink: /exhibits/ejs-re-creations-props-masks-and-more/
 exhibit-id: 25-50
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE24"
 description: "A show and tell as well as sale of masks, prop swords, art, and trinkets."
 description-long: "This exhibit is a show and tell and sale of all the variations of art I have made over the years. This includes prop weapons, face masks, keychains, sculptures, and wall-hung pieces. All made form locally sourced recycled materials!"
 image: /assets/images/exhibit-images/25-50-e-ejs-re-creations-props-masks-and-more-img-7157-300x249.jpeg
@@ -169,7 +169,7 @@ maker:
   description: "EJ makes 3D art with recycled materials.
 He started with origami so he uses paper as his primary medium. Many of his works are inspired by Japanese culture and recent is beginning to expand his subject matter to other cultures as well as nature in order to expand and refine his art style."
   image-primary:
-    url: /assets/images/exhibit-images/25-50-m-ejs-re-creations-props-masks-and-more-img-0750-5114-137x150.jpeg
+    url: /assets/images/exhibit-images/25-50-m-ejs-re-creations-props-masks-and-more-img-0750-5114-274x300.jpeg
     width: 137
     height: 150
   instagram: https://www.instagram.com/ejs_re_creations?igsh=bTF2czNjOWFzcTg1&utm_source=qr
@@ -187,8 +187,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-29 12:40:21"
-last-modified-jotform: "2025-09-28 09:50:07"
-last-exported: "2025-09-28 10:06:02"
+last-modified-jotform: "2025-10-11 23:13:01"
+last-exported: "2025-10-12 10:42:06"
 sitemap: false
 
 ---

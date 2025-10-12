@@ -6,7 +6,7 @@ slug: void-modular
 permalink: /exhibits/void-modular/
 exhibit-id: 25-170
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG7"
 description: "Synthesizers to play with."
 description-long: "Step into the world of sound exploration! Twist knobs, patch wires, and uncover the strange and wonderful voices of modular synthesizers. Whether you’re curious about how synths work, love experimenting with noise, or just want to play, come make some unexpected music with us."
 image: /assets/images/exhibit-images/25-170-e-void-modular-screenshot-2025-09-02-084653-300x296.jpg
@@ -33,7 +33,7 @@ maker:
   name: "VOID Modular"
   description: "Step into the world of sound exploration! Twist knobs, patch wires, and uncover the strange and wonderful voices of modular synthesizers. Whether you’re curious about how synths work, love experimenting with noise, or just want to play, come make some unexpected music with us."
   image-primary:
-    url: /assets/images/exhibit-images/25-170-m-void-modular-void-logo-150x150.jpg
+    url: /assets/images/exhibit-images/25-170-m-void-modular-void-logo-300x300.jpg
     width: 150
     height: 150
   instagram: https://www.instagram.com/voidmodular/
@@ -51,8 +51,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-02 08:50:08"
-last-modified-jotform: "2025-09-21 18:05:17"
-last-exported: "2025-09-21 21:21:24"
+last-modified-jotform: "2025-10-11 23:05:24"
+last-exported: "2025-10-12 10:40:14"
 sitemap: false
 
 ---

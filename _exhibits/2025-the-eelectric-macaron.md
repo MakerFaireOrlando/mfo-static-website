@@ -5,8 +5,8 @@ title: "The EElectric Macaron"
 slug: the-eelectric-macaron
 permalink: /exhibits/the-eelectric-macaron/
 exhibit-id: 25-169
-exhibit-zone: "Curiosity"
-space-number: "CJ3"
+exhibit-zone: "Outside"
+space-number: "Tent"
 description: "Hands-on with modular 3D-printed light-up ears—swap designs, change colors, and spark creativity!"
 description-long: "Get hands-on with The EElectric Macaron! Explore the magic of modular 3D-printed design. Experiment with customizable light-up units, swapping ear designs and playing with color-changing lights to match moods, outfits, or favorite characters. These same units can also transform into glowing home décor, bringing a spark of creativity to bookshelves, desks, and cozy corners. Learn how creativity, technology, and design come together to create a unique unit for both wearable magic and personalized spaces."
 image: /assets/images/exhibit-images/25-169-e-the-eelectric-macaron-squaregrid-2-grid-maker-300x300.png
@@ -203,7 +203,7 @@ maker:
   name: "The EElectric Macaron"
   description: "The EElectric Macaron is where creativity, design, and technology come together to create magical light-up ears. Each pair features 3D printed components, and a unique modular system, allowing designs and colors to be mixed, matched, and customized in seconds. Inspired by fandoms, fashion, and personal expression, these ears are more than just accessories—they’re interactive art. Perfect for cosplay, park hopping, and parties, they also extend beyond wearable magic. The same light-up units can be used for home décor, adding a personalized glow to bookshelves, desks, and creative spaces. Each piece bringing enchantment to everyday life."
   image-primary:
-    url: /assets/images/exhibit-images/25-169-m-the-eelectric-macaron-logo-pastel-purplebackground-150x150.png
+    url: /assets/images/exhibit-images/25-169-m-the-eelectric-macaron-logo-pastel-purplebackground-300x300.png
     width: 150
     height: 150
   website: https://eelectricmacaron.com/
@@ -224,8 +224,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-01 17:55:50"
-last-modified-jotform: "2025-10-05 17:00:44"
-last-exported: "2025-10-05 17:01:27"
+last-modified-jotform: "2025-10-11 23:01:06"
+last-exported: "2025-10-12 10:40:21"
 sitemap: false
 
 ---

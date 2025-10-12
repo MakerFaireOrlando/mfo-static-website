@@ -6,7 +6,7 @@ slug: mischief-maille
 permalink: /exhibits/mischief-maille/
 exhibit-id: 25-17
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG8"
 description: "Gothic inspired chainmaille jewelry and accessories made from Anodized Aluminum and stainless steel."
 description-long: "Handmade chainmaille jewelry and accessories with a Gothic feel. Everything is made from Anodized aluminum and stainless steel rings."
 image: /assets/images/exhibit-images/25-17-e-mischief-maille-pxl-20250313-232946342-4007-226x300.jpg
@@ -84,7 +84,7 @@ maker:
   name: "Robyn cassibba"
   description: "I have been making chainmaille for over 10 years now. I am an old school goth and love incorporating that into my work."
   image-primary:
-    url: /assets/images/exhibit-images/25-17-m-mischief-maille-pxl-20250503-211047508-night-113x150.jpg
+    url: /assets/images/exhibit-images/25-17-m-mischief-maille-pxl-20250503-211047508-night-226x300.jpg
     width: 113
     height: 150
   website: https://mischiefmaille.etsy.com
@@ -98,8 +98,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2025-06-03 12:26:52"
-last-modified-jotform: "2025-10-02 21:17:29"
-last-exported: "2025-10-03 07:30:27"
+last-modified-jotform: "2025-10-11 22:37:19"
+last-exported: "2025-10-12 10:43:01"
 sitemap: false
 
 ---

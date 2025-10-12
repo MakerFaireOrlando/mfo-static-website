@@ -5,8 +5,8 @@ title: "Princesses with Powertools: Learn to Hand Drill"
 slug: princesses-with-powertools-learn-to-hand-drill
 permalink: /exhibits/princesses-with-powertools-learn-to-hand-drill/
 exhibit-id: 25-91
-exhibit-zone: "Curiosity"
-space-number: "CF4"
+exhibit-zone: "Outside"
+space-number: "Tent"
 description: "Learn to use your first powertool from our amazing women engineers dressed as princesses!"
 description-long: "Attendees will learn to use a power drill from women engineers dressed as princesses, and will leave with a take-away souvenir constellation projector they made themselves. We’ll be bringing our drill booths, power tools, princesses, and all the materials needed."
 image: /assets/images/exhibit-images/25-91-e-princesses-with-powertools-learn-to-hand-drill-20230401-093352-300x146.jpeg
@@ -34,7 +34,7 @@ maker:
   name: "Reinvented Inc."
   description: "Reinvented Inc. is a 501(c)(3) nonprofit that works to empower and inspire the next generation of girls in science, technology, engineering, technology (STEM), and making."
   image-primary:
-    url: /assets/images/exhibit-images/25-91-m-princesses-with-powertools-learn-to-hand-drill-pwp2-150x113.jpg
+    url: /assets/images/exhibit-images/25-91-m-princesses-with-powertools-learn-to-hand-drill-pwp2-300x225.jpg
     width: 150
     height: 113
   website: https://www.reinventedmagazine.com
@@ -55,8 +55,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-15 15:30:18"
-last-modified-jotform: "2025-09-30 19:42:49"
-last-exported: "2025-10-02 19:46:15"
+last-modified-jotform: "2025-10-11 21:42:26"
+last-exported: "2025-10-12 10:41:32"
 sitemap: false
 
 ---

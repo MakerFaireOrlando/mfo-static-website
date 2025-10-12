@@ -6,7 +6,7 @@ slug: kenziem-creates
 permalink: /exhibits/kenziem-creates/
 exhibit-id: 25-19
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "Tent"
 description: "I crochet stuffed animals, anime characters, and keychains."
 description-long: "I've crocheted characters like luffy and mitsuri kanroji. I also make stuffed animals and keychains like frogs, chickens, flowers, strawberries, dinosaurs, and dragons."
 image: /assets/images/exhibit-images/25-19-e-kenziem-creates-img-4778-2498-225x300.jpeg
@@ -49,7 +49,7 @@ maker:
   name: "Mackenzie McDaniel"
   description: "I make crochet stuffed animals, anime characters, and keychains. I’ve made characters like luffy, mitsuri kanroji, and a couple my little pony characters. I also crochet animals like cats, frogs, chickens, dinosaurs, and dragons."
   image-primary:
-    url: /assets/images/exhibit-images/25-19-m-kenziem-creates-img-4327-162-112x150.jpeg
+    url: /assets/images/exhibit-images/25-19-m-kenziem-creates-img-4327-162-225x300.jpeg
     width: 112
     height: 150
   instagram: https://www.instagram.com/kenziem.creates?igsh=ajhmcjFzdjVtems1&utm_source=qr
@@ -63,8 +63,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-07 15:07:39"
-last-modified-jotform: "2025-10-05 15:01:13"
-last-exported: "2025-10-05 17:02:02"
+last-modified-jotform: "2025-10-11 21:34:28"
+last-exported: "2025-10-12 10:42:55"
 sitemap: false
 
 ---

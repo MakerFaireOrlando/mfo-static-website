@@ -6,7 +6,7 @@ slug: paper-roller-coasters
 permalink: /exhibits/paper-roller-coasters/
 exhibit-id: 25-153
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE3"
 description: "Help us design and build a giant paper roller coaster while exploring physics and engineering."
 description-long: "Kids at the fair can build upon our paper roller coaster! Using strips of paper, cutting, folding, and taping. Kids can create sturdy tracks while exploring the physics of energy, motion, and the engineering design process."
 image: /assets/images/exhibit-images/25-153-e-paper-roller-coasters-paper-roller-coaster-285x300.png
@@ -117,7 +117,7 @@ maker:
   name: "Ad Astra Agile Learning Center"
   description: "Ad Astra Agile Learning Center is a hands-on enrichment space where kids ages 10–18 bring ideas to life. From tinkering with simple circuits and everyday materials to crafting, building, and experimenting, students get the chance to design, create, and problem-solve in a collaborative environment. It’s all about curiosity, creativity, and learning by doing."
   image-primary:
-    url: /assets/images/exhibit-images/25-153-m-paper-roller-coasters-1640x856-150x78.jpg
+    url: /assets/images/exhibit-images/25-153-m-paper-roller-coasters-1640x856-300x157.jpg
     width: 150
     height: 78
   website: https://www.adastraalc.com/
@@ -136,8 +136,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-22 11:55:00"
-last-modified-jotform: "2025-10-05 14:43:08"
-last-exported: "2025-10-05 14:45:37"
+last-modified-jotform: "2025-10-11 23:10:02"
+last-exported: "2025-10-12 10:40:30"
 sitemap: false
 
 ---

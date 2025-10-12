@@ -6,7 +6,7 @@ slug: megan-orussell-meet-the-author
 permalink: /exhibits/megan-orussell-meet-the-author/
 exhibit-id: 25-64
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC4"
 description: "From epic fantasy to dystopian, Megan O'Russell offers readers thirty-two books across nine series."
 description-long: "From the epic fantasy world of Ilbrea to the vampire-plagued dystopia of the domes, Megan O'Russell offers readers thirty-two books across nine series. Megan's newest novel, Sketchbook of a Wayward Seer, is presented in partnership with the Page by Page podcast where you can listen to a new full chapter of the book every week. Available titles include Ember and Stone, Girl of Glass, The Cursebound Thief, and How I Magically Messed Up My Life in Four Freakin' Days."
 image: /assets/images/exhibit-images/25-64-e-megan-orussell-meet-the-author-img-7900-300x225.jpg
@@ -67,7 +67,7 @@ maker:
   name: "Megan O'Russell"
   description: "From the epic fantasy world of Ilbrea to the vampire-plagued dystopia of the domes, Megan O'Russell offers readers thirty-two books across nine series. Megan's newest novel, Sketchbook of a Wayward Seer, is presented in partnership with the Page by Page podcast where you can listen to a new full chapter of the book every week. Available titles include Ember and Stone, Girl of Glass, The Cursebound Thief, and How I Magically Messed Up My Life in Four Freakin' Days."
   image-primary:
-    url: /assets/images/exhibit-images/25-64-m-megan-orussell-meet-the-author-thumbnail-ink-worlds-press-logo-c2-1-150x150.png
+    url: /assets/images/exhibit-images/25-64-m-megan-orussell-meet-the-author-thumbnail-ink-worlds-press-logo-c2-1-300x300.png
     width: 150
     height: 150
   website: https://meganorussell.com/
@@ -82,8 +82,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-03 09:38:39"
-last-modified-jotform: "2025-09-21 17:59:48"
-last-exported: "2025-09-21 21:22:07"
+last-modified-jotform: "2025-10-11 23:09:06"
+last-exported: "2025-10-12 10:41:51"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: stained-glass-by-vivacqua-glass-works
 permalink: /exhibits/stained-glass-by-vivacqua-glass-works/
 exhibit-id: 25-163
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "Tent"
 description: "Tiffany Style Stained Glass and Woodworking inspired by nature and science."
 description-long: "Stained glass inspired by nature and science. Tiffany style stained glass panels made in Longwood, Florida."
 image: /assets/images/exhibit-images/25-163-e-stained-glass-by-vivacqua-glass-works-magnoliacomplete-300x287.jpg
@@ -117,7 +117,7 @@ maker:
   name: "Vivacqua Glass Works"
   description: "Vivacqua Glass Works is a Stained Glass and Woodworking husband and wife team. Stephanie & Jason Pickren are Artist based in Longwood, Florida."
   image-primary:
-    url: /assets/images/exhibit-images/25-163-m-stained-glass-by-vivacqua-glass-works-vivacquaglass6-1295-150x113.jpg
+    url: /assets/images/exhibit-images/25-163-m-stained-glass-by-vivacqua-glass-works-vivacquaglass6-1295-300x225.jpg
     width: 150
     height: 113
   website: https://vivacquaglassworks.com/
@@ -137,8 +137,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-28 11:03:12"
-last-modified-jotform: "2025-09-24 14:52:48"
-last-exported: "2025-09-28 10:05:45"
+last-modified-jotform: "2025-10-11 21:49:13"
+last-exported: "2025-10-12 10:40:22"
 sitemap: false
 
 ---

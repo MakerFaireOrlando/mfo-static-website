@@ -6,7 +6,7 @@ slug: raeward
 permalink: /exhibits/raeward/
 exhibit-id: 25-146
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE18"
 description: "I am an artist that specializes in animals and creature arts."
 description-long: "I am an artist that specializes in animals and creature arts. I design and make my own cross-stitch patterns and sell kits of my designs. I also sell charms, including fidget charms, that I design and assemble myself, art prints, acrylic goods such as standees and enamel pins."
 image: /assets/images/exhibit-images/25-146-e-raeward-img-6657-225x300.jpeg
@@ -50,7 +50,7 @@ maker:
   name: "RaeWard"
   description: "I am an artist that specializes in animals and creature arts. I design and make my own cross-stitch patterns and sell kits of my designs. I also sell charms, including fidget charms, that I design and assemble myself, art prints, acrylic goods such as standees and enamel pins."
   image-primary:
-    url: /assets/images/exhibit-images/25-146-m-raeward-img-5214-150x141.jpeg
+    url: /assets/images/exhibit-images/25-146-m-raeward-img-5214-300x282.jpeg
     width: 150
     height: 141
   website: https://www.etsy.com/shop/raewardstudios
@@ -69,8 +69,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-05 22:37:36"
-last-modified-jotform: "2025-09-21 18:04:50"
-last-exported: "2025-09-21 21:21:34"
+last-modified-jotform: "2025-10-11 22:30:05"
+last-exported: "2025-10-12 10:40:32"
 sitemap: false
 
 ---

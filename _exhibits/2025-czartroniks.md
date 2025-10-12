@@ -6,7 +6,7 @@ slug: czartroniks
 permalink: /exhibits/czartroniks/
 exhibit-id: 25-120
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG6"
 description: "Interactive musical toys with audiovisual elements."
 description-long: "Interactive musical toys with audiovisual elements, MIDI and TouchDesigner explorations, video kaleidoscopes, visual feedback, etc."
 image: /assets/images/exhibit-images/25-120-e-czartroniks-488558474-3823507497959872-6160295097552382600-n-915-300x225.jpg
@@ -31,7 +31,7 @@ maker:
   name: "Czartroniks"
   description: "Interactive electronic controllers with audiovisual effects."
   image-primary:
-    url: /assets/images/exhibit-images/25-120-m-czartroniks-screenshot-2025-07-29-010350-150x85.png
+    url: /assets/images/exhibit-images/25-120-m-czartroniks-screenshot-2025-07-29-010350-300x170.png
     width: 150
     height: 85
 categories: 
@@ -46,8 +46,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2025-07-29 01:08:27"
-last-modified-jotform: "2025-09-21 18:01:33"
-last-exported: "2025-09-21 21:21:48"
+last-modified-jotform: "2025-10-11 23:05:08"
+last-exported: "2025-10-12 10:40:53"
 sitemap: false
 
 ---

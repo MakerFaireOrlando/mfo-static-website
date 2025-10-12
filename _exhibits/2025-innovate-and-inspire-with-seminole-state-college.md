@@ -6,7 +6,7 @@ slug: innovate-and-inspire-with-seminole-state-college
 permalink: /exhibits/innovate-and-inspire-with-seminole-state-college/
 exhibit-id: 25-182
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "Tent"
 description: "Future-ready tech and hands-on fun from Seminole State College"
 description-long: "Orlando Maker Faire Application
 
@@ -117,7 +117,7 @@ maker:
   name: "Seminole State College"
   description: "Seminole State College of Florida is a full-service education provider, offering bachelor's degrees; two-year college-credit degrees (A.A., A.S., A.A.S.); specialized career certificates; continuing professional education; adult education; and an array of culturally stimulating events and timely guest speakers."
   image-primary:
-    url: /assets/images/exhibit-images/25-182-m-innovate-and-inspire-with-seminole-state-college-logo-seminole-state-2line-rgb-150x83.png
+    url: /assets/images/exhibit-images/25-182-m-innovate-and-inspire-with-seminole-state-college-logo-seminole-state-2line-rgb-300x167.png
     width: 150
     height: 83
   website: https://www.seminolestate.edu/
@@ -135,8 +135,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-15 09:42:38"
-last-modified-jotform: "2025-09-28 11:43:14"
-last-exported: "2025-09-28 13:16:39"
+last-modified-jotform: "2025-10-11 21:50:59"
+last-exported: "2025-10-12 10:39:57"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: leopard-gecko-planters
 permalink: /exhibits/leopard-gecko-planters/
 exhibit-id: 25-71
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "Tent"
 description: "Selling 3D printed planters of our own design."
 description-long: "We sell fun and creative 3D printed planters of our design."
 image: /assets/images/exhibit-images/25-71-e-leopard-gecko-planters-img-4208-300x300.jpeg
@@ -83,7 +83,7 @@ maker:
   name: "Leopard Gecko Planters"
   description: "We make 3D printed planters of our own design."
   image-primary:
-    url: /assets/images/exhibit-images/25-71-m-leopard-gecko-planters-leopard-gecko-planters-etsy-icon-a-150x150.jpg
+    url: /assets/images/exhibit-images/25-71-m-leopard-gecko-planters-leopard-gecko-planters-etsy-icon-a-300x300.jpg
     width: 150
     height: 150
   website: https://leopardgeckoplanters.etsy.com
@@ -92,8 +92,8 @@ categories:
   - slug: 3d-printing
     name: 3D Printing
 created-jotform: "2025-07-06 16:00:55"
-last-modified-jotform: "2025-09-13 11:02:52"
-last-exported: "2025-09-13 11:26:43"
+last-modified-jotform: "2025-10-11 21:41:19"
+last-exported: "2025-10-12 10:41:44"
 sitemap: false
 
 ---

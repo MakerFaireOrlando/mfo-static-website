@@ -5,8 +5,8 @@ title: "ICEBREAKR"
 slug: icebreakr
 permalink: /exhibits/icebreakr/
 exhibit-id: 25-172
-exhibit-zone: "Opportunity"
-space-number: Unassigned
+exhibit-zone: "Outside"
+space-number: "Tent"
 description: "Card game that creates conversation using mini-games!"
 description-long: "ICEBREAKR is the card game that creates conversation by using 45 mini-games that break the ice!"
 image: /assets/images/exhibit-images/25-172-e-icebreakr-img-4480-275x300.jpeg
@@ -151,7 +151,7 @@ maker:
   name: "Marcus Herndon"
   description: "Scientist and creator of the card game ICEBREAKR"
   image-primary:
-    url: /assets/images/exhibit-images/25-172-m-icebreakr-img-0653-8437-150x150.jpeg
+    url: /assets/images/exhibit-images/25-172-m-icebreakr-img-0653-8437-300x300.jpeg
     width: 150
     height: 150
   website: https://www.marcmade.com/icebreakr
@@ -166,8 +166,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-07 22:34:21"
-last-modified-jotform: "2025-09-28 10:44:30"
-last-exported: "2025-09-28 10:51:32"
+last-modified-jotform: "2025-10-11 22:19:20"
+last-exported: "2025-10-12 10:40:09"
 sitemap: false
 
 ---

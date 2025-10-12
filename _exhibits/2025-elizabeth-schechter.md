@@ -6,7 +6,7 @@ slug: elizabeth-schechter
 permalink: /exhibits/elizabeth-schechter/
 exhibit-id: 25-14
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OE4"
 description: "Writer of quirky, satisfying speculative romance."
 description-long: "Elizabeth Schechter has been writing award-winning Romantasy since before romantasy was a word. Her writing credits include the award-winning steampunk romance House of Sable Locks, the Celtic fantasy Princes of Air, and 2021 VIVIAN finalist Written in Water."
 image: /assets/images/exhibit-images/25-14-e-elizabeth-schechter-2025-02-08-09-25-27-225x300.jpg
@@ -32,7 +32,7 @@ maker:
   name: "Elizabeth Schechter"
   description: "Elizabeth Schechter has been writing award-winning Romantasy since before romantasy was a word. Her writing credits include the award-winning steampunk romance House of Sable Locks, the Celtic fantasy Princes of Air, and 2021 VIVIAN finalist Written in Water."
   image-primary:
-    url: /assets/images/exhibit-images/25-14-m-elizabeth-schechter-easchechter-logo-rectangle-150x113.png
+    url: /assets/images/exhibit-images/25-14-m-elizabeth-schechter-easchechter-logo-rectangle-300x225.png
     width: 150
     height: 113
   website: https://www.elizabethschechterwrites.com/
@@ -45,8 +45,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-02 15:07:50"
-last-modified-jotform: "2025-09-21 17:57:37"
-last-exported: "2025-09-21 21:22:57"
+last-modified-jotform: "2025-10-11 23:08:43"
+last-exported: "2025-10-12 10:43:03"
 sitemap: false
 
 ---

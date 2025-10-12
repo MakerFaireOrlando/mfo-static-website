@@ -6,7 +6,7 @@ slug: p-d-steamworks
 permalink: /exhibits/p-d-steamworks/
 exhibit-id: 25-44
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OD7"
 description: "I mostly create TTRPG accessories with 3D printing, resin casting, and some hand book binding."
 description-long: "I create various table top role playing game accessories from 3D printed dice boxes, a fusion of dice box and dice tower I call a Tower Vault to hand casting resin dice, and have recently started making miniature modules and books for game masters and players to add to their own games or (eventually) run a full adventure with."
 image: /assets/images/exhibit-images/25-44-e-p-d-steamworks-splashpic-300x300.jpg
@@ -135,7 +135,7 @@ maker:
   name: "Paul Davis"
   description: "I am an animator, tinkerer and nerd at heart who dove deep into trpgs. Got into 3d printing a good few years ago now and have been fusing my love of various media, 3d printing, tinkering, and ttrpg accessories."
   image-primary:
-    url: /assets/images/exhibit-images/25-44-m-p-d-steamworks-pdslogo-150x150.png
+    url: /assets/images/exhibit-images/25-44-m-p-d-steamworks-pdslogo-300x300.png
     width: 150
     height: 150
   website: https://pdsteamworks.storenvy.com/
@@ -154,8 +154,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-22 20:54:41"
-last-modified-jotform: "2025-09-13 11:40:44"
-last-exported: "2025-09-13 11:59:42"
+last-modified-jotform: "2025-10-11 22:37:50"
+last-exported: "2025-10-12 10:42:21"
 sitemap: false
 
 ---

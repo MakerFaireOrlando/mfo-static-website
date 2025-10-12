@@ -6,7 +6,7 @@ slug: art-of-bianca-and-tim
 permalink: /exhibits/art-of-bianca-and-tim/
 exhibit-id: 25-99
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OG18"
 description: "Paintings and prints from local artists Bianca and Tim"
 description-long: "Original paintings and prints"
 image: /assets/images/exhibit-images/25-99-e-art-of-bianca-and-tim-screenshot-20250702-160147-01-2457-268x300.jpg
@@ -32,7 +32,7 @@ maker:
   description: "Art of Bianca and Timbo Inks
 Married artists, showing traditional work"
   image-primary:
-    url: /assets/images/exhibit-images/25-99-m-art-of-bianca-and-tim-screenshot-20250702-160147-01-134x150.jpg
+    url: /assets/images/exhibit-images/25-99-m-art-of-bianca-and-tim-screenshot-20250702-160147-01-268x300.jpg
     width: 134
     height: 150
   website: https://Biancaart.storenvy.com
@@ -43,8 +43,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-21 11:10:40"
-last-modified-jotform: "2025-09-13 12:01:13"
-last-exported: "2025-09-13 12:02:15"
+last-modified-jotform: "2025-10-11 22:26:15"
+last-exported: "2025-10-12 10:41:23"
 sitemap: false
 
 ---
