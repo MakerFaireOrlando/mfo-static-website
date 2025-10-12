@@ -6,7 +6,7 @@ slug: jeremy-cooks-projects
 permalink: /exhibits/jeremy-cooks-projects/
 exhibit-id: 25-86
 exhibit-zone: "Opportunity"
-space-number: "OC12"
+space-number: "OD6"
 description: "Projects by Jeremy Cook!"
 description-long: "Jeremy Cook makes lots of things. This year he will be displaying one or more of his musical contraptions!"
 image: /assets/images/exhibit-images/25-86-e-jeremy-cooks-projects-screenshot-2025-07-13-at-2-03-36-pm-6549-300x188.png
@@ -33,7 +33,7 @@ maker:
   name: "Jeremy Cook"
   description: "Jeremy Cook makes all kinds of things, from walking robots to musical instruments and more!"
   image-primary:
-    url: /assets/images/exhibit-images/25-86-m-jeremy-cooks-projects-screenshot-2025-07-13-at-2-03-36-pm-150x94.png
+    url: /assets/images/exhibit-images/25-86-m-jeremy-cooks-projects-screenshot-2025-07-13-at-2-03-36-pm-300x188.png
     width: 150
     height: 94
   website: https://www.techadjacent.io/
@@ -51,8 +51,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2025-07-13 14:14:46"
-last-modified-jotform: "2025-10-05 12:27:47"
-last-exported: "2025-10-05 12:48:59"
+last-modified-jotform: "2025-10-12 12:18:53"
+last-exported: "2025-10-12 12:30:27"
 sitemap: false
 
 ---

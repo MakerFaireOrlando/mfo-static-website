@@ -6,7 +6,7 @@ slug: tampa-deep-sea-xplorers
 permalink: /exhibits/tampa-deep-sea-xplorers/
 exhibit-id: 25-52
 exhibit-zone: "Opportunity"
-space-number: "OD13"
+space-number: "OE7"
 description: "Tampa Deep Sea Xplorers INC (TDSX) manufactures Autonomous Underwater
 Vehicles (AUV)."
 description-long: "Tampa Deep Sea Xplorers, Inc. is a manufacturer of small Autonomous
@@ -53,7 +53,7 @@ maker:
   name: "Tampa Deep Sea Xplorers"
   description: "Makers of underwater autonomous robots"
   image-primary:
-    url: /assets/images/exhibit-images/25-52-m-tampa-deep-sea-xplorers-auv-image-150x85.jpg
+    url: /assets/images/exhibit-images/25-52-m-tampa-deep-sea-xplorers-auv-image-300x169.jpg
     width: 150
     height: 85
   website: https://tampadeepseaxplorers.com/
@@ -69,8 +69,8 @@ categories:
   - slug: invention
     name: Invention
 created-jotform: "2025-06-29 13:21:13"
-last-modified-jotform: "2025-10-05 12:23:24"
-last-exported: "2025-10-05 12:49:03"
+last-modified-jotform: "2025-10-12 12:20:26"
+last-exported: "2025-10-12 12:30:32"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: paper-roller-coasters
 permalink: /exhibits/paper-roller-coasters/
 exhibit-id: 25-153
 exhibit-zone: "Opportunity"
-space-number: "OE3"
+space-number: "OG8"
 description: "Help us design and build a giant paper roller coaster while exploring physics and engineering."
 description-long: "Kids at the fair can build upon our paper roller coaster! Using strips of paper, cutting, folding, and taping. Kids can create sturdy tracks while exploring the physics of energy, motion, and the engineering design process."
 image: /assets/images/exhibit-images/25-153-e-paper-roller-coasters-paper-roller-coaster-285x300.png
@@ -136,8 +136,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-22 11:55:00"
-last-modified-jotform: "2025-10-11 23:10:02"
-last-exported: "2025-10-12 10:40:30"
+last-modified-jotform: "2025-10-12 12:23:56"
+last-exported: "2025-10-12 12:30:18"
 sitemap: false
 
 ---

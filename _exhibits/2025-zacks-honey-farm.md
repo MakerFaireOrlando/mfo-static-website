@@ -6,7 +6,7 @@ slug: zacks-honey-farm
 permalink: /exhibits/zacks-honey-farm/
 exhibit-id: 25-171
 exhibit-zone: "Curiosity"
-space-number: "OH3"
+space-number: "CH3"
 description: "We produce local raw honey  from out honeybees"
 description-long: "We are a small family apiary and we raise honeybees and produce pure raw honey as well as artisinal honey."
 image: /assets/images/exhibit-images/25-171-e-zacks-honey-farm-img-2483-225x300.jpeg
@@ -112,8 +112,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2025-09-05 09:28:52"
-last-modified-jotform: "2025-10-11 22:49:28"
-last-exported: "2025-10-12 10:40:14"
+last-modified-jotform: "2025-10-12 13:02:13"
+last-exported: "2025-10-12 13:02:30"
 sitemap: false
 
 ---

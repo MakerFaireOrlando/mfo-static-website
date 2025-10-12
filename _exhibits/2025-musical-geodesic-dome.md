@@ -6,7 +6,7 @@ slug: musical-geodesic-dome
 permalink: /exhibits/musical-geodesic-dome/
 exhibit-id: 25-124
 exhibit-zone: "Opportunity"
-space-number: "OC3"
+space-number: "OD3"
 description: "Touch the struts of this geodesic dome to trigger musical sound. Fun and interactive!"
 description-long: "This one of a kind 7 foot tall geodesic dome plays music when you touch the struts of the dome. You can play by yourself or collaborate with others. It's a combination of art, geometry, and architecture!"
 image: /assets/images/exhibit-images/25-124-e-musical-geodesic-dome-geodesic-dome-musical-300x200.jpg
@@ -49,8 +49,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-29 16:36:23"
-last-modified-jotform: "2025-10-11 22:45:46"
-last-exported: "2025-10-12 10:40:48"
+last-modified-jotform: "2025-10-12 12:24:50"
+last-exported: "2025-10-12 12:30:22"
 sitemap: false
 
 ---

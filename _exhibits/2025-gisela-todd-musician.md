@@ -5,7 +5,7 @@ title: "Gisela Todd Musician"
 slug: gisela-todd-musician
 permalink: /exhibits/gisela-todd-musician/
 exhibit-id: 25-125
-exhibit-zone: "Outside"
+exhibit-zone: "Outdoor Stage"
 space-number: Unassigned
 description: "Solo guitarist and singer"
 description-long: "Singer/songwriter/guitarist. Working musician serving central Florida but can also be available for other parts of Florida. Occasional busker 🎶🎤🥰"
@@ -32,7 +32,7 @@ maker:
   name: "Gisela todd"
   description: "Solo guitarist and musician"
   image-primary:
-    url: /assets/images/exhibit-images/25-125-m-gisela-todd-musician-img-4539-84x150.jpeg
+    url: /assets/images/exhibit-images/25-125-m-gisela-todd-musician-img-4539-169x300.jpeg
     width: 84
     height: 150
   website: https://giselatoddmusic.com/
@@ -43,8 +43,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-29 22:22:39"
-last-modified-jotform: "2025-09-13 11:06:19"
-last-exported: "2025-09-13 11:26:27"
+last-modified-jotform: "2025-10-12 10:39:41"
+last-exported: "2025-10-12 12:30:21"
 sitemap: false
 
 ---

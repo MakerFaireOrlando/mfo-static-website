@@ -6,7 +6,7 @@ slug: taming-of-the-screens-w-out-think-media
 permalink: /exhibits/taming-of-the-screens-w-out-think-media/
 exhibit-id: 25-105
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "Tent"
 description: "Kids learn to use curiosity, context clues, and critical thinking to stay safe online."
 description-long: "Digital Literacy is best learned together. Go beyond parental controls to an understanding a child's brain development and how online media changes it. Learn how to identify and de-escalate trolling in person and online through roleplaying as Shakespeare's favorite characters! 
 Through building, imagination, and carnival games, we teach families and classrooms how to stay safe online--together."
@@ -85,7 +85,7 @@ maker:
   name: "Cynthia M Jenkins"
   description: "I teach digital literacy for families to learn together. Through hands-on , interactive learning, and plentiful resources for families to share together. Besides the podcast and website education I provide for free, we piloted a workshop at last May's Orlando Kids' Fringe Festival called Taming of the Screens, where I taught how to spot a troll and de-escalate a fight through scenes from Romeo & Juliet. These workshops and carnival games work best when they're in a festival atmosphere, and I created a unique game for MakerFaire that lets kids build their ideal brain and understand the effects of the internet on their development. I can run specialized workshops for the field trip day and parents/educators will leave with a literal bag of tricks."
   image-primary:
-    url: /assets/images/exhibit-images/25-105-m-taming-of-the-screens-w-out-think-media-pxl-20250517-165551358-150x113.jpg
+    url: /assets/images/exhibit-images/25-105-m-taming-of-the-screens-w-out-think-media-pxl-20250517-165551358-300x225.jpg
     width: 150
     height: 113
   website: https://outthinkmedia.com/
@@ -107,8 +107,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-24 14:33:12"
-last-modified-jotform: "2025-10-05 14:35:56"
-last-exported: "2025-10-05 14:46:01"
+last-modified-jotform: "2025-10-12 10:39:26"
+last-exported: "2025-10-12 12:30:26"
 sitemap: false
 
 ---

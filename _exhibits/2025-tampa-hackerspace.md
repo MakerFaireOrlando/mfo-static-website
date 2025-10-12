@@ -6,7 +6,7 @@ slug: tampa-hackerspace
 permalink: /exhibits/tampa-hackerspace/
 exhibit-id: 25-83
 exhibit-zone: "Opportunity"
-space-number: "OC13"
+space-number: "OD7"
 description: "Come see the many things made by members of the Tampa Hackerspace!"
 description-long: "Tampa Hackerspace is a non-profit, volunteer-run makerspace. Our goal is to help people learn to make things."
 image: /assets/images/exhibit-images/25-83-e-tampa-hackerspace-img-3219-300x225.JPG
@@ -31,7 +31,7 @@ maker:
   name: "Tampa Hackerspace"
   description: "Tampa Hackerspace is a non-profit, volunteer-run makerspace. Our goal is to help people learn to make things."
   image-primary:
-    url: /assets/images/exhibit-images/25-83-m-tampa-hackerspace-tampa-hackerspace-2048-transparent-150x150.png
+    url: /assets/images/exhibit-images/25-83-m-tampa-hackerspace-tampa-hackerspace-2048-transparent-300x300.png
     width: 150
     height: 150
   website: https://tampahackerspace.com/
@@ -44,8 +44,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2025-07-12 21:30:57"
-last-modified-jotform: "2025-10-05 12:27:14"
-last-exported: "2025-10-05 12:49:00"
+last-modified-jotform: "2025-10-12 12:19:54"
+last-exported: "2025-10-12 12:30:28"
 sitemap: false
 
 ---

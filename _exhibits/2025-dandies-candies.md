@@ -6,7 +6,7 @@ slug: dandies-candies
 permalink: /exhibits/dandies-candies/
 exhibit-id: 25-35
 exhibit-zone: "Curiosity"
-space-number: Unassigned
+space-number: "CF4"
 description: "Handcrafted Vintage 3D Lollipops"
 description-long: "Handcrafted Vintage 3D Lollipops, hard Pillow Candies, Brittle Brattle, Crystal Candies and more. Lollipops are made with molds from the 1880's-1940's"
 image: /assets/images/exhibit-images/25-35-e-dandies-candies-20241018-132144-225x300.jpg
@@ -84,8 +84,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-13 20:34:45"
-last-modified-jotform: "2025-10-11 22:05:29"
-last-exported: "2025-10-12 10:42:30"
+last-modified-jotform: "2025-10-12 13:01:53"
+last-exported: "2025-10-12 13:02:33"
 sitemap: false
 
 ---

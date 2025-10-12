@@ -5,8 +5,8 @@ title: "Mischief maille"
 slug: mischief-maille
 permalink: /exhibits/mischief-maille/
 exhibit-id: 25-17
-exhibit-zone: "Opportunity"
-space-number: "OG8"
+exhibit-zone: "Curiosity"
+space-number: "CJ3"
 description: "Gothic inspired chainmaille jewelry and accessories made from Anodized Aluminum and stainless steel."
 description-long: "Handmade chainmaille jewelry and accessories with a Gothic feel. Everything is made from Anodized aluminum and stainless steel rings."
 image: /assets/images/exhibit-images/25-17-e-mischief-maille-pxl-20250313-232946342-4007-226x300.jpg
@@ -98,8 +98,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2025-06-03 12:26:52"
-last-modified-jotform: "2025-10-11 22:37:19"
-last-exported: "2025-10-12 10:43:01"
+last-modified-jotform: "2025-10-12 12:24:15"
+last-exported: "2025-10-12 12:30:45"
 sitemap: false
 
 ---
