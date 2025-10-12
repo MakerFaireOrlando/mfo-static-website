@@ -369,8 +369,10 @@ def export(outputAll):
           else:  
             #added july 2025 for Field Trip Day
             exhibitAvail = getAnswerByName(ans, "exhibitAvailability51")
+            ftdText = ""
             if ("Education Day" in exhibitAvail) or ("Field Trip Day" in exhibitAvail):  
               categories.append("Field Trip Day")
+              ftdText = "   F"
               if viz == True:
                 countFTD = countFTD + 1
               
@@ -430,9 +432,9 @@ def export(outputAll):
                   dup = True
 
               if (exhibitName != makerName):
-                sEID = sn + " : " + mfoID + "\\" + "\\" + exhibitName[0:20] + "\\" + "\\" + makerName[0:20]
+                sEID = sn + " : " + mfoID + ftdText +"\\" + "\\" + exhibitName[0:20] + "\\" + "\\" + makerName[0:20]
               else:
-                sEID = sn + " : " + mfoID + "\\" + "\\" + exhibitName[0:40]
+                sEID = sn + " : " + mfoID + ftdText + "\\" + "\\" + exhibitName[0:40]
               sEX = sn + "\\" + "\\" + exhibitName
               sEM = sn + "\\" + "\\" + exhibitName + "\\" + "\\" + makerName
               sE = exhibitName
