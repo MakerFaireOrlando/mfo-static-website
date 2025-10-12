@@ -29,13 +29,14 @@ There is no fee for individuals or community groups to exhibit at Maker Faire Or
 Startup businesses are encouraged to contact us at <makers@makerfaireorlando.com> so that we can work with you to determine potential sponsorship discounts based startup phase and size.
 
 ---
-{%comment%}
-Our application deadline has passed, and we are no longer accepting new exhibit applications for 2024 unless you've been in contact with our team and we have instructed you to fill out an application. 
 
+**Our application deadline has passed, and we are no longer accepting new exhibit applications unless you've been in contact with our team and we have instructed you to fill out an application.**
+
+{%comment%}
 **Selling makers: You are welcome to continue to submit applications and they will be added to our waitlist in the event we have selling exhibit cancellations.** Interior space will be most limited, indicating flexibility on location (indoor / outdoor) will increase your odds of being accepted.
 &nbsp;
 <br><br>
-{%endcomment%}
+
 
 #### We are seeking applications for individual and community group projects, art and more!  
 Our Call For Makers deadline was July 31st, however we are still looking to add compelling exhibits.
@@ -58,7 +59,7 @@ Please create a compelling exhibit application, and choose pictures / descriptio
 
 
 #### [Click Here to Apply](https://www.jotform.com/makereffect/cfm2025)
-
+{%endcomment%}
 &nbsp;  
 
 **COMBAT ROBOT COMPETITORS:** You will be emailed a special form just for Combat Robots after you register on buildersdb and are accepted into the competition - you do not need to complete this form.
