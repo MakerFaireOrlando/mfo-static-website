@@ -16,18 +16,27 @@ noindex: true
 Thanks for participating at Maker Faire Orlando!
 
 ### Event Hours
+See the [Maker Manual](/maker-manual) for more detail on times including load-in and load-out information. 
 
-Maker Faire Education Day (Only for invited makers and OCPS field trip students) is from 10am to 1pm on Friday, November 8.
+Thursday 4pm to 8pm - Maker Check-in and setup for those participating on Field Trip Day
 
-Maker Check-in and setup is from 3pm to 8pm (exit by 8pm) on Friday, November 8.
+Friday 8:30am - Field Trip Day maker entry and any last-minute load-in
 
-The Maker Mixer (during setup) is from 6pm to 7pm on Friday, November 8 at the Maker Faire Stage.
+Friday 10am to 3pm - Maker Faire Field Trip Day
 
-Maker Check-in resumes from 8am to 9am on Saturday, November 9. Gates will not be open to makers before 8am.<br>
+Friday 4pm to 8pm - Maker Check-in and setup (exit by 8pm)
 
-Maker Faire Orlando 2024 is open to attendees from 10am to 5pm on November 9 and 10.<br>
+Friday 6pm to 7pm - The Maker Mixer (during setup) at the Maker Faire Stage.
 
-Gates open for makers at 9am on Sunday, November 10.<br>
+Saturday 8am to 9am - Maker Check-in resumes. Gates will not be open to makers before 8am. Vehicles will not be able to enter after 9am (and may be restricted earlier if needed.)
+
+Saturday 10am to 5pm - Maker Faire Orlando show hours. 
+
+Sunday 9am - Gates open for makers.
+
+Sunday 10am to 5pm - Maker Faire Orlando show hours. 
+
+Sunday 6pm (at the earliest) vehicles may enter the show area for load-out. 
 
 
 ### Maker Manual
@@ -47,13 +56,20 @@ Use the [Online Schedule](/schedule) for the most up-to-date schedule of talks, 
 Check out the [Maker Faire Program](/program) for a map, schedule and more!
 
 ### Space Plans
-[Opportunity Building PDF Space Plan](/assets/pdf/2024/MFO24-OPPORTUNITY.pdf) - Space numbers starting with "O"
+[Opportunity Building PDF Space Plan](/assets/pdf/2025/MFO25-OPPORTUNITY.pdf) - Space numbers starting with "O"
 
-[Spirit Building PDF Space Plan](/assets/pdf/2024/MFO24-SPIRIT.pdf) - Space numbers starting with "S"
+[Spirit Building PDF Space Plan](/assets/pdf/2025/MFO25-SPIRIT.pdf) - Space numbers starting with "S"
 
-We do not publish a space plan for outdoor exhibits, we have to validate space conditions when we are on-site at the Fairgrounds. Once you are on-site, our team will help you locate your outdoor exhibit. If you have a question about an outdoor location, email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
+[Curiosity Building PDF Space Plan](/assets/pdf/2025/MFO25-CURIOSITY.pdf) - Space numbers starting with "C"
 
-Don't know your space number? Find your exhibit on the [exhibits page](/makers), your space number is on that page below the exhibit description.
+{%comment%}
+[Exhibit Tent PDF Space Plan](/assets/pdf/2025/MFO25-EXHIBIT-TENT.pdf) - Space numbers starting with "T"
+{%endcomment%}
+
+
+We do not publish a space plan for all outdoor exhibits, we have to validate space conditions when we are on-site at the Fairgrounds. Once you are on-site, our team will help you locate your outdoor exhibit. If you have a question about an outdoor location, email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
+
+Don't know your space number? Find your exhibit on the [exhibits page](/exhibits), your space number is on that page below the exhibit description.
 
 ### Need Help?
 Before the event, email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
