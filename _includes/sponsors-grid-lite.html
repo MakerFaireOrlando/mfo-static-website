@@ -1,30 +1,52 @@
 {% for level in site.data.sponsors.sponsorlevels %}
   {% assign sponsors = site.data.sponsors.sponsors | where: 'active', 'true' | where: 'level', forloop.index | sort: 'name' %}
   {% if sponsors.size > 0 %}
+    {% assign count = sponsors.size %}
+
+    {% comment %}Calculate number of rows needed (max 5 per row){% endcomment %}
+    {% assign num_rows = count | plus: 4 | divided_by: 5 %}
+
+    {% comment %}Base sponsors per row and extras{% endcomment %}
+    {% assign base_per_row = count | divided_by: num_rows %}
+    {% assign extras = count | modulo: num_rows %}
+
     {% comment %}The next line has an intentional misspelling to match the maker faire theme css{% endcomment %}
     <div class="row spnosors-row" style="padding-bottom:0px; border-top:none">
       <div class="col-xs-12">
-          <div class="faire-sponsors-box" style="width: 1800px">
-          {% for sponsor in sponsors %}
 
-          {% if sponsor.level < 4 %}
-              <div class="sponsors-box-lg sponsor-less-than-4" style="width: 350px; border-right: none; margin-top: none; height:100px;" id="{{sponsor.name}}">
-                <a href="{{sponsor.url}}" target="_blank" rel="noopener"><img src="/assets/images/sponsors/{{sponsor.logo}}" class="img-responsive" style="max-width:250px; max-height:150px; margin-left: auto; margin-right:auto;" alt="{{sponsor.name}}"></a>
+          {% assign offset = 0 %}
+          {% for i in (1..num_rows) %}
+            {% comment %}First 'extras' rows get one extra sponsor{% endcomment %}
+            {% if i <= extras %}
+              {% assign row_count = base_per_row | plus: 1 %}
+            {% else %}
+              {% assign row_count = base_per_row %}
+            {% endif %}
 
-              {% elsif sponsor.level == 4 %}
+            <div class="faire-sponsors-box" style="width: 1800px">
+              {% for sponsor in sponsors limit: row_count offset: offset %}
 
-              <div class="sponsors-box-lg sponsor-4" style="width: 200px; border-right: none; margin-top: none; height:100px;" id="{{sponsor.name}}">
-                <a href="{{sponsor.url}}" target="_blank" rel="noopener"><img src="/assets/images/sponsors/{{sponsor.logo}}" class="img-responsive" style="max-width:150px; max-height:120px; margin-left: auto; margin-right:auto;" alt="{{sponsor.name}}"></a>
+                {% if sponsor.level < 4 %}
+                  <div class="sponsors-box-lg sponsor-less-than-4" style="width: 350px; border-right: none; margin-top: none; height:100px;" id="{{sponsor.name}}">
+                    <a href="{{sponsor.url}}" target="_blank" rel="noopener"><img src="/assets/images/sponsors/{{sponsor.logo}}" class="img-responsive" style="max-width:250px; max-height:150px; margin-left: auto; margin-right:auto;" alt="{{sponsor.name}}"></a>
 
-              {% else %}
-              <div class="sponsors-box-lg sponsor-5" style="width: 175px; border-right: none; margin-top: none; height:100px;" id="{{sponsor.name}}">
-                <a href="{{sponsor.url}}" target="_blank" rel="noopener"><img src="/assets/images/sponsors/{{sponsor.logo}}" class="img-responsive" style="max-width:125px; max-height:100px; margin-left: auto; margin-right:auto;" alt="{{sponsor.name}}"></a>
+                {% elsif sponsor.level == 4 %}
+                  <div class="sponsors-box-lg sponsor-4" style="width: 200px; border-right: none; margin-top: none; height:100px;" id="{{sponsor.name}}">
+                    <a href="{{sponsor.url}}" target="_blank" rel="noopener"><img src="/assets/images/sponsors/{{sponsor.logo}}" class="img-responsive" style="max-width:150px; max-height:120px; margin-left: auto; margin-right:auto;" alt="{{sponsor.name}}"></a>
 
-          {% endif %} 
+                {% else %}
+                  <div class="sponsors-box-lg sponsor-5" style="width: 175px; border-right: none; margin-top: none; height:100px;" id="{{sponsor.name}}">
+                    <a href="{{sponsor.url}}" target="_blank" rel="noopener"><img src="/assets/images/sponsors/{{sponsor.logo}}" class="img-responsive" style="max-width:125px; max-height:100px; margin-left: auto; margin-right:auto;" alt="{{sponsor.name}}"></a>
 
+                {% endif %}
+
+                  </div>
+              {% endfor %}
             </div>
+
+            {% assign offset = offset | plus: row_count %}
           {% endfor %}
-          </div>
+
       </div>
     </div>
    {% endif %}
