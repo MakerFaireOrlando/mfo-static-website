@@ -5,8 +5,8 @@ title: "Taming of the Screens w/ Out Think Media"
 slug: taming-of-the-screens-w-out-think-media
 permalink: /exhibits/taming-of-the-screens-w-out-think-media/
 exhibit-id: 25-105
-exhibit-zone: "Outside"
-space-number: "Tent"
+exhibit-zone: "Exhibit Tent"
+space-number: "T14"
 description: "Kids learn to use curiosity, context clues, and critical thinking to stay safe online."
 description-long: "Digital Literacy is best learned together. Go beyond parental controls to an understanding a child's brain development and how online media changes it. Learn how to identify and de-escalate trolling in person and online through roleplaying as Shakespeare's favorite characters! 
 Through building, imagination, and carnival games, we teach families and classrooms how to stay safe online--together."
@@ -107,8 +107,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-24 14:33:12"
-last-modified-jotform: "2025-10-12 10:39:26"
-last-exported: "2025-10-12 12:30:26"
+last-modified-jotform: "2025-10-12 15:39:22"
+last-exported: "2025-10-13 15:02:48"
 sitemap: false
 
 ---

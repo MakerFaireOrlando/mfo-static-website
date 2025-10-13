@@ -5,8 +5,8 @@ title: "Mobile Escape Room"
 slug: mobile-escape-room
 permalink: /exhibits/mobile-escape-room/
 exhibit-id: 25-194
-exhibit-zone: "Outside"
-space-number: "Tent"
+exhibit-zone: "Exhibit Tent"
+space-number: "T24"
 description: "Mobile escape room and interactive adventure game."
 description-long: "At the intersection of storytelling and technology is this interactive mobile escape room. Follow the captivating stories and solve clues before time runs out."
 image: /assets/images/exhibit-images/25-194-e-mobile-escape-room-blossomers-aunties-treasure-6912-300x225.jpeg
@@ -51,8 +51,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-24 19:20:02"
-last-modified-jotform: "2025-10-11 21:51:49"
-last-exported: "2025-10-12 10:39:35"
+last-modified-jotform: "2025-10-12 15:40:10"
+last-exported: "2025-10-13 15:01:58"
 sitemap: false
 
 ---

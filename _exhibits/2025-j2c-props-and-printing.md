@@ -83,7 +83,7 @@ maker:
   name: "J2C Props and Printing"
   description: "A group of friends who challenge and encourage each other to learn and improve the quality of their 3D prop printing, cosplay, machine embroidery, model making, and painting"
   image-primary:
-    url: /assets/images/exhibit-images/25-42-m-j2c-props-and-printing-img-1625-7236-150x113.jpg
+    url: /assets/images/exhibit-images/25-42-m-j2c-props-and-printing-img-1625-7236-300x225.jpg
     width: 150
     height: 113
   instagram: https://www.instagram.com/j2cpropsprinting/
@@ -101,8 +101,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-20 14:38:05"
-last-modified-jotform: "2025-09-30 20:34:40"
-last-exported: "2025-10-02 19:46:55"
+last-modified-jotform: "2025-10-13 07:58:01"
+last-exported: "2025-10-13 15:03:10"
 sitemap: false
 
 ---

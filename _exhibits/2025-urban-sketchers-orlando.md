@@ -5,8 +5,8 @@ title: "Urban Sketchers Orlando"
 slug: urban-sketchers-orlando
 permalink: /exhibits/urban-sketchers-orlando/
 exhibit-id: 25-39
-exhibit-zone: "Outside"
-space-number: "Tent"
+exhibit-zone: "Exhibit Tent"
+space-number: "T5"
 description: "Urban Sketchers will be demonstrating urban sketching, and helping attendees make their own sketch."
 description-long: "Orlando Urban Sketchers will be sketching the Maker Faire, exhibiting the sketches members have made, and talking about urban sketching with attendees. In addition, there will be materials with which attendees can make their own sketches and participate in the citizen historian aspect of urban sketching."
 image: /assets/images/exhibit-images/25-39-e-urban-sketchers-orlando-67dcedeb-f57e-4294-bcc1-d0f0e6248162-1-105-c-300x225.jpeg
@@ -79,8 +79,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-16 19:54:28"
-last-modified-jotform: "2025-10-11 21:35:08"
-last-exported: "2025-10-12 10:42:23"
+last-modified-jotform: "2025-10-12 15:38:46"
+last-exported: "2025-10-13 15:03:11"
 sitemap: false
 
 ---

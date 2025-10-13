@@ -5,8 +5,8 @@ title: "Kenziem Creates"
 slug: kenziem-creates
 permalink: /exhibits/kenziem-creates/
 exhibit-id: 25-19
-exhibit-zone: "Outside"
-space-number: "Tent"
+exhibit-zone: "Exhibit Tent"
+space-number: "T3"
 description: "I crochet stuffed animals, anime characters, and keychains."
 description-long: "I've crocheted characters like luffy and mitsuri kanroji. I also make stuffed animals and keychains like frogs, chickens, flowers, strawberries, dinosaurs, and dragons."
 image: /assets/images/exhibit-images/25-19-e-kenziem-creates-img-4778-2498-225x300.jpeg
@@ -63,8 +63,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-07 15:07:39"
-last-modified-jotform: "2025-10-11 21:34:28"
-last-exported: "2025-10-12 10:42:55"
+last-modified-jotform: "2025-10-12 15:38:35"
+last-exported: "2025-10-13 15:03:19"
 sitemap: false
 
 ---

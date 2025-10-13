@@ -5,8 +5,8 @@ title: "Cheysartstudio"
 slug: cheysartstudio
 permalink: /exhibits/cheysartstudio/
 exhibit-id: 25-61
-exhibit-zone: "Outside"
-space-number: Unassigned
+exhibit-zone: "Exhibit Tent"
+space-number: "T7"
 description: "Hi! My name is Cheyanne. I am a self taught artist that specializes in digital art and crochet!"
 description-long: "I am a self taught artist that specializes in digital art and crochet! I have a wide variety of crochet items ranging from small keychains and toys to Blankets and wearables. I also have a large selection of art work in a variety of forms like sticker, painting, art prints and more!"
 image: /assets/images/exhibit-images/25-61-e-cheysartstudio-img-9266-300x199.jpeg
@@ -116,8 +116,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-02 16:20:16"
-last-modified-jotform: "2025-10-11 23:02:22"
-last-exported: "2025-10-12 10:41:55"
+last-modified-jotform: "2025-10-12 15:38:54"
+last-exported: "2025-10-13 15:03:05"
 sitemap: false
 
 ---

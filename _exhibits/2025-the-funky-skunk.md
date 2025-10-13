@@ -5,6 +5,7 @@ title: "The Funky Skunk"
 slug: the-funky-skunk
 permalink: /exhibits/the-funky-skunk/
 exhibit-id: 25-212
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "The Funky Skunk by Brandon Willis is a wildly imaginative art car—a work truck mutated into art."
 description-long: "The Funky Skunk is a rolling sculpture of whimsy and surprise. Built from scrap metal and recycled parts, its body mimics the classic black-and-white pattern of a skunk; but with a twist: the stripes are lined with lights so the vehicle glows at night.Its tail is mechanized to lift like a real skunk's, and it's rigged to blow bubbles out the rear.
@@ -132,8 +133,8 @@ categories:
   - slug: vehicles
     name: Vehicles
 created-jotform: "2025-10-10 16:42:53"
-last-modified-jotform: "2025-10-11 10:51:13"
-last-exported: "2025-10-11 11:10:55"
+last-modified-jotform: "2025-10-12 14:37:26"
+last-exported: "2025-10-13 15:01:57"
 sitemap: false
 
 ---

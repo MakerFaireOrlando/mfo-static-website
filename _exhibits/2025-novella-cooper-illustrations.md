@@ -151,7 +151,7 @@ maker:
   name: "Novella Cooper"
   description: "Novella Cooper is an illustrator that specializes in comics and children’s books."
   image-primary:
-    url: /assets/images/exhibit-images/25-184-m-novella-cooper-illustrations-img-2578-original-104x150.png
+    url: /assets/images/exhibit-images/25-184-m-novella-cooper-illustrations-img-2578-original-208x300.png
     width: 104
     height: 150
   website: http://www.Novellacooper.com
@@ -160,8 +160,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2025-09-15 21:45:59"
-last-modified-jotform: "2025-09-28 11:43:36"
-last-exported: "2025-09-28 13:16:39"
+last-modified-jotform: "2025-10-12 21:39:11"
+last-exported: "2025-10-13 15:02:03"
 sitemap: false
 
 ---

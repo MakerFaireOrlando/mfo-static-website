@@ -5,8 +5,8 @@ title: "Bluupiecrochets"
 slug: bluupiecrochets
 permalink: /exhibits/bluupiecrochets/
 exhibit-id: 25-74
-exhibit-zone: "Outside"
-space-number: "Tent"
+exhibit-zone: "Exhibit Tent"
+space-number: "T10"
 description: "A shop to get all of your crocheted nerdy and geeky plushies!"
 description-long: "A crochet shop that sells many hand crocheted items that range from pokemon to Mario to stardew valley"
 image: /assets/images/exhibit-images/25-74-e-bluupiecrochets-2cb08507-5215-45f2-862e-5cd4d7196c4e-2118-300x225.jpeg
@@ -99,8 +99,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-07 23:47:28"
-last-modified-jotform: "2025-10-11 23:00:02"
-last-exported: "2025-10-12 10:41:36"
+last-modified-jotform: "2025-10-12 15:39:08"
+last-exported: "2025-10-13 15:02:53"
 sitemap: false
 
 ---

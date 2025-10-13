@@ -5,8 +5,8 @@ title: "Las Semillas/ Seeds of Pine Hills"
 slug: las-semillas-seeds-of-pine-hills
 permalink: /exhibits/las-semillas-seeds-of-pine-hills/
 exhibit-id: 25-144
-exhibit-zone: "Outside"
-space-number: "Tent"
+exhibit-zone: "Exhibit Tent"
+space-number: "T17"
 description: "We are a youth-led mutual aid network in Pine Hills, FL"
 description-long: "We are a youth-led mutual aid network in Pine Hills, FL, working to mobilize and organize Pine Hills residents towards a liberatory future through arts, culture, education and grassroots organizing."
 image: /assets/images/exhibit-images/25-144-e-las-semillas-seeds-of-pine-hills-white-minimalist-simple-aesthetic-name-twitter-header-300x100.png
@@ -96,8 +96,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2025-08-04 06:54:57"
-last-modified-jotform: "2025-10-11 21:47:42"
-last-exported: "2025-10-12 10:40:37"
+last-modified-jotform: "2025-10-12 15:39:33"
+last-exported: "2025-10-13 15:02:27"
 sitemap: false
 
 ---

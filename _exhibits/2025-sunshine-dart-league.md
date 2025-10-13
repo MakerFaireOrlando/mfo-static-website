@@ -5,8 +5,8 @@ title: "Sunshine Dart League"
 slug: sunshine-dart-league
 permalink: /exhibits/sunshine-dart-league/
 exhibit-id: 25-142
-exhibit-zone: "Outside"
-space-number: "Tent"
+exhibit-zone: "Exhibit Tent"
+space-number: "T16"
 description: "Check out some high-performance 3D printed nerf blasters and learn how you can make them!"
 description-long: "Come check out some high-performance 3D printed nerf blasters! Sunshine Dart League is a group of makers who love flinging foam. See how we take regular nerf blasters and make them do crazy things or take a look at completely 3D printed blasters. You can also learn about free opportunities to do some blasting around Central Florida."
 image: /assets/images/exhibit-images/25-142-e-sunshine-dart-league-484631361-10228567267993484-6032849276992705997-n-2-300x200.jpg
@@ -186,8 +186,8 @@ categories:
   - slug: maker-community
     name: Maker Community
 created-jotform: "2025-08-01 07:47:54"
-last-modified-jotform: "2025-10-11 21:46:52"
-last-exported: "2025-10-12 10:40:46"
+last-modified-jotform: "2025-10-12 15:39:29"
+last-exported: "2025-10-13 15:02:35"
 sitemap: false
 
 ---

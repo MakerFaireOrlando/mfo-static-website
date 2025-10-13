@@ -172,7 +172,7 @@ maker:
 
 I began this endeavour on a purely volunteer basis three years ago. Since then I have hosted dozens of mini painting events in venues of all sizes. I am passionate about the way science and art interact, I express that passion by teaching others the basics of painting."
   image-primary:
-    url: /assets/images/exhibit-images/25-159-m-figures-of-fantasy-paint-and-take-logo-donnie-dynamo2-150x106.png
+    url: /assets/images/exhibit-images/25-159-m-figures-of-fantasy-paint-and-take-logo-donnie-dynamo2-300x212.png
     width: 150
     height: 106
   website: https://linktr.ee/donniedynamo
@@ -187,11 +187,9 @@ categories:
     name: Craft
   - slug: hands-on-workshop
     name: Hands-On Workshop
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2025-08-25 16:59:01"
-last-modified-jotform: "2025-09-30 20:21:16"
-last-exported: "2025-10-02 19:45:50"
+last-modified-jotform: "2025-10-13 06:47:29"
+last-exported: "2025-10-13 15:02:25"
 sitemap: false
 
 ---

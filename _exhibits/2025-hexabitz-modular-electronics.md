@@ -5,8 +5,8 @@ title: "Hexabitz Modular Electronics"
 slug: hexabitz-modular-electronics
 permalink: /exhibits/hexabitz-modular-electronics/
 exhibit-id: 25-3
-exhibit-zone: "Outside"
-space-number: "Tent"
+exhibit-zone: "Exhibit Tent"
+space-number: "T1"
 description: "Nature-inspired modular electronics!"
 description-long: "Hexabitz is a nature-inspired modular electronics platform for makers, students, and professionals. We're the world's first multi-processor prototyping system supporting makers with 100s of powerful modules and open-source hardware and software."
 image: /assets/images/exhibit-images/25-3-e-hexabitz-modular-electronics-20171123-174037-300x225.jpg
@@ -175,8 +175,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-05-21 12:10:48"
-last-modified-jotform: "2025-10-11 21:34:00"
-last-exported: "2025-10-12 10:43:16"
+last-modified-jotform: "2025-10-12 15:38:24"
+last-exported: "2025-10-13 15:03:26"
 sitemap: false
 
 ---

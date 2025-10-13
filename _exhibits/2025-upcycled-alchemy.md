@@ -5,8 +5,8 @@ title: "Upcycled Alchemy"
 slug: upcycled-alchemy
 permalink: /exhibits/upcycled-alchemy/
 exhibit-id: 25-40
-exhibit-zone: "Outside"
-space-number: "Tent"
+exhibit-zone: "Exhibit Tent"
+space-number: "T6"
 description: "Needful things hand sewn from upcycled clothing"
 description-long: "Upcycled Alchemy sews all kind of cool one of a kind gifts - totes, accessories, kitchenware, pet toys and more - all upcycled out of second hand T-shirts.
 Everything we make had a life before us and hopefully will have a long life after us. We love that we can keep otherwise discarded things in the community and out of landfills and hope others will follow our examples to keep using and reusing what they have in creative ways!"
@@ -60,8 +60,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2025-06-17 11:24:44"
-last-modified-jotform: "2025-10-11 21:36:33"
-last-exported: "2025-10-12 10:42:22"
+last-modified-jotform: "2025-10-12 15:38:50"
+last-exported: "2025-10-13 15:03:11"
 sitemap: false
 
 ---
