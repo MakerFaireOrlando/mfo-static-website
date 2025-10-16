@@ -15,7 +15,15 @@ sitemap: false
       "date": {{ event.date | smartify | jsonify }},
       "enddate": {{ event.enddate | smartify | jsonify }},
       "image": "{{ event.image | absolute_url | escape }}",
-      "url": "{{ event.url | absolute_url | escape }}"            
+      "url": "{{ event.url | absolute_url | escape }}", 
+      "guests":[
+        {% for guest in event.guests %}
+        {
+          "name": {{ guest.name | smartify | jsonify }},
+          "image": "{{ guest.url | absolute_url | escape }}",
+          "url": "{{ guest.url | absolute_url | escape }}"
+          }{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor %}]           
     }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 
