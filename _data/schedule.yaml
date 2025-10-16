@@ -131,14 +131,18 @@
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
-- title: Combat Robot Makers Panel
+- title: BattleBots Builder Panel - The Future of BattleBots
   slug: combat-robots
   location: Main Stage
-  description: Combat Robotics is a worldwide phenomenon, meet and hear from builders from the TV shows and local champions and learn how you can participate in this upcoming sport!
+  description: Did you know there's a new BattleBots tournament airing right now? While BattleBots hasn't been on your TV screen since 2022, there's still plenty of action at the BattleBots arena. Learn about all the new BattleBots content you may be missing, such as <a href="https://www.youtube.com/watch?v=RiMyb4D4bPY&list=PLrpqCP1_qdKiI55Lzf9GUIcNnKPu1s1MY">Faceoffs</a>, <a href="https://destructathon.battlebots.com/">Destruct-A-Thon</a>, and Proving Grounds. Hear from some of your favorite teams, and meet a new team that may be the future of the sport!
   date: 2025-11-08 15:00:00
   enddate: 2025-11-08 15:45:00
   #image: /assets/images/stage/2024/combat.jpg
   url: /stage
+  guests: 
+    - name: Andrea Gellatly of Team Witch Doctor
+      url: /exhibits/camp-witch-doctor-tournament/
+
 
 - title: Power Racing - Sprint Race 2
   location: Power Racing Track
