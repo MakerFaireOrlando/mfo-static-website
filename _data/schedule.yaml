@@ -2,7 +2,6 @@
 - title: Field Trip Day Begins!
   description: Welcome to Field Trip Day at Maker Faire Orlando 2025!<br>Make sure to check out the <a href="/makers">list of exhibits, hands-on workshops and more so you don't miss any of the action!</a>
   date: 2025-11-07 10:00:00
-  enddate: 2025-11-07 15:00:00
   image: /assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg
 
 - title: Minecraft Makers
@@ -65,7 +64,6 @@
 - title: Maker Faire Begins!
   description: Welcome to Day 1 of Maker Faire Orlando!<br>Make sure to check out the <a href="/makers">list of exhibits, hands-on workshops and more so you don't miss any of the action!</a>
   date: 2025-11-08 10:00:00
-  enddate: 2025-11-08 17:00:00
   image: /assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg
 
 - title: Theme Park Makers Panel
@@ -256,7 +254,6 @@
 - title: Maker Faire Concludes
   description: Maker Faire Orlando 2025 is over - we will see you next year!
   date: 2025-11-09 17:00:00
-  enddate: 2025-11-09 17:00:00
   image: /assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg
 
 #get start times from Ruckus - Sat at 11? Sunday at 10?
