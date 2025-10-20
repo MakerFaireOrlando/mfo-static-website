@@ -101,7 +101,7 @@ maker:
   name: "Rock Springs Critters"
   description: "Kid-Owned, 3D printed, Solar Powered, & Made from Plants! The Rock Springs Critters print the cutest and fun fidgety animals and new innovative and whimsical household builds!"
   image-primary:
-    url: /assets/images/exhibit-images/25-29-m-rock-springs-critters-rock-springs-critters-2025-150x113.jpg
+    url: /assets/images/exhibit-images/25-29-m-rock-springs-critters-rock-springs-critters-2025-300x226.jpg
     width: 150
     height: 113
   website: https://www.instagram.com/rockspringscritters/
@@ -120,8 +120,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-11 12:03:05"
-last-modified-jotform: "2025-09-30 19:46:57"
-last-exported: "2025-10-02 19:47:12"
+last-modified-jotform: "2025-10-15 08:51:51"
+last-exported: "2025-10-20 16:54:19"
 sitemap: false
 
 ---

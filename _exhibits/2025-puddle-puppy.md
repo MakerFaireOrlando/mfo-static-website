@@ -32,7 +32,7 @@ maker:
   name: "Team Puddle Puppy"
   description: "A combat robot team from South Florida."
   image-primary:
-    url: /assets/images/exhibit-images/25R-43-m-puddle-puppy-img-0391-150x150.png
+    url: /assets/images/exhibit-images/25R-43-m-puddle-puppy-img-0391-300x300.png
     width: 150
     height: 150
 categories: 
@@ -40,7 +40,7 @@ categories:
     name: Combat Robots
 created-jotform: "2025-09-25 20:22:45"
 last-modified-jotform: "2025-10-05 17:48:47"
-last-exported: "2025-10-05 17:50:46"
+last-exported: "2025-10-20 16:53:21"
 sitemap: false
 
 ---

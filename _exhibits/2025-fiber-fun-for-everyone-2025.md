@@ -71,7 +71,7 @@ maker:
 
 Members spin yarn on spindles and wheels and weave on a variety of looms.  They produce many items such as woven towels, shawls, bags, socks, etc.  They do other fiber arts such as knit, crochet, kumihimo, macrame, beading, basketry, etc."
   image-primary:
-    url: /assets/images/exhibit-images/25-133-m-fiber-fun-for-everyone-2025-dolls-weave-and-do-kumihimo-112x150.jpeg
+    url: /assets/images/exhibit-images/25-133-m-fiber-fun-for-everyone-2025-dolls-weave-and-do-kumihimo-225x300.jpeg
     width: 112
     height: 150
 categories: 
@@ -83,11 +83,9 @@ categories:
     name: Fiber Arts
   - slug: handmade
     name: Handmade
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2025-07-30 22:05:10"
-last-modified-jotform: "2025-10-05 12:56:01"
-last-exported: "2025-10-05 14:45:44"
+last-modified-jotform: "2025-10-16 12:56:52"
+last-exported: "2025-10-20 16:53:57"
 sitemap: false
 
 ---

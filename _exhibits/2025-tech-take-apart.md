@@ -6,7 +6,7 @@ slug: tech-take-apart
 permalink: /exhibits/tech-take-apart/
 exhibit-id: 25-128
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: "SA14, SB14, SA15, SB15"
+space-number: "SA16, SB16, SA15, SB15"
 description: "The best way to learn how things work is to take them apart! Learn the inner-workings of tech!"
 description-long: "The best way to learn how things work is to take them apart! Stop by and learn the inner-workings of various recycled pieces of tech! 
 Recommended age 8+"
@@ -50,7 +50,7 @@ maker:
   name: "Orlando Science Center"
   description: "Founded in 1955, Orlando Science Center is Central Florida’s award-winning, hands-on science museum, ranking as one of the most popular museum destinations in the region. Our exhibits and interactive programs bring science to life for over 660,000 annual visitors, including both residents of Central Florida and visitors from around the world."
   image-primary:
-    url: /assets/images/exhibit-images/25-128-m-tech-take-apart-osc-horizontallogo-webpurple-150x88.png
+    url: /assets/images/exhibit-images/25-128-m-tech-take-apart-osc-horizontallogo-webpurple-300x176.png
     width: 150
     height: 88
   website: https://www.osc.org/
@@ -64,8 +64,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2025-07-30 11:54:24"
-last-modified-jotform: "2025-10-05 14:53:46"
-last-exported: "2025-10-05 17:01:30"
+last-modified-jotform: "2025-10-18 11:05:12"
+last-exported: "2025-10-20 16:53:59"
 sitemap: false
 
 ---

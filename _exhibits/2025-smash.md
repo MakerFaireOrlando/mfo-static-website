@@ -32,15 +32,15 @@ maker:
   name: "Team SMASH"
   description: "Team SMASH is back for its third season at Maker Faire!"
   image-primary:
-    url: /assets/images/exhibit-images/25R-2-m-smash-smash-150x36.png
+    url: /assets/images/exhibit-images/25R-2-m-smash-smash-300x72.png
     width: 150
     height: 36
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-08-22 21:06:20"
-last-modified-jotform: "2025-10-05 17:50:21"
-last-exported: "2025-10-05 17:50:59"
+last-modified-jotform: "2025-10-17 17:48:32"
+last-exported: "2025-10-20 16:53:27"
 sitemap: false
 
 ---

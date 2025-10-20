@@ -6,7 +6,7 @@ slug: rescue-bridge-contest
 permalink: /exhibits/rescue-bridge-contest/
 exhibit-id: 25-145
 exhibit-zone: "Opportunity"
-space-number: "OA8"
+space-number: "OC4"
 description: "Build a paper bridge to get the rescue bot to the top of the burning building."
 description-long: "This challenge for kids and adults is to build a bridge from the available supplies of paper and tape that will support the 3-pound rescue bot. Time is of the essence since the building is on fire. Builders will be rewarded with a wearable button they make themselves. There is a $2 charge for supplies."
 image: /assets/images/exhibit-images/25-145-e-rescue-bridge-contest-20250215-iccf-spark-bridge-29-300x169.png
@@ -151,8 +151,8 @@ categories:
   - slug: invention
     name: Invention
 created-jotform: "2025-08-04 09:20:31"
-last-modified-jotform: "2025-10-12 12:21:13"
-last-exported: "2025-10-12 12:30:20"
+last-modified-jotform: "2025-10-18 12:42:15"
+last-exported: "2025-10-20 16:53:50"
 sitemap: false
 
 ---

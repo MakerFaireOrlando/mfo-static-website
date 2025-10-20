@@ -50,7 +50,7 @@ maker:
   name: "Animo Industries"
   description: "I am a member of the larger organization Gator Robotics from UF and I design, build, and fight 1lb and 3lb robots."
   image-primary:
-    url: /assets/images/exhibit-images/25R-15-m-temporal-terror-team-logo-square-min-150x150.png
+    url: /assets/images/exhibit-images/25R-15-m-temporal-terror-team-logo-square-min-300x300.png
     width: 150
     height: 150
   youtube: https://www.youtube.com/@AnimoIndustries-rd5sb
@@ -58,8 +58,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-08-28 23:08:04"
-last-modified-jotform: "2025-10-07 11:43:26"
-last-exported: "2025-10-07 18:06:03"
+last-modified-jotform: "2025-10-18 10:24:42"
+last-exported: "2025-10-20 16:53:26"
 sitemap: false
 
 ---

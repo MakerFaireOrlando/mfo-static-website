@@ -68,7 +68,7 @@ maker:
   name: "FamiLAB"
   description: "FamiLAB is a community that fosters learning and creativity through hands-on projects, collaboration, and the sharing of skills & tools to improve ourselves and enrich the world around us."
   image-primary:
-    url: /assets/images/exhibit-images/25-161-m-familab-familab-makerfaire-orlando-2024-150x113.jpg
+    url: /assets/images/exhibit-images/25-161-m-familab-familab-makerfaire-orlando-2024-300x225.jpg
     width: 150
     height: 113
   website: https://www.familab.org
@@ -88,8 +88,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-28 07:59:55"
-last-modified-jotform: "2025-10-05 12:54:35"
-last-exported: "2025-10-05 14:45:32"
+last-modified-jotform: "2025-10-15 08:56:15"
+last-exported: "2025-10-20 16:53:48"
 sitemap: false
 
 ---

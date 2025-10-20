@@ -37,7 +37,7 @@ Various students and community partners have worked with us to produce popular M
 
 Jerry Reed is a Professor of Software Development at Valencia College."
   image-primary:
-    url: /assets/images/exhibit-images/25-132-m-simple-synth-sounds-screenshot-2025-07-30-at-21-20-25-150x21.png
+    url: /assets/images/exhibit-images/25-132-m-simple-synth-sounds-screenshot-2025-07-30-at-21-20-25-300x42.png
     width: 150
     height: 21
 categories: 
@@ -51,11 +51,9 @@ categories:
     name: Music
   - slug: special-effects
     name: Special Effects
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2025-07-30 21:57:00"
-last-modified-jotform: "2025-10-05 12:56:07"
-last-exported: "2025-10-05 14:45:45"
+last-modified-jotform: "2025-10-16 12:56:49"
+last-exported: "2025-10-20 16:53:57"
 sitemap: false
 
 ---
