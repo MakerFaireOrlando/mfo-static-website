@@ -30,11 +30,19 @@ Field Trip Day provides a unique opportunity for students and educators to:
 * Participate in hands-on projects designed to inspire creativity and critical thinking
 * Discover potential career paths and hobbies rooted in the maker mindset
 
+This event takes place ahead of Maker Faire Orlando, giving students access to exhibits, reduced crowds, and dedicated programming tailored to young learners and educators.
+
+### Planning Your Field Trip Day 
+
+Read our [Educator's Guide](/assets/pdf/2025/MFO-Educators-Guide-Print.pdf) which includes an introduction to Maker Faire, details on Field Trip Day, and ways to prepare your students with prompts and projects. 
+
+<div style="margin-bottom:20px"><a href="/assets/pdf/2025/MFO-Educators-Guide-Print.pdf"><img src="/assets/pdf/2025/MFO-Educators-Guide.jpg" alt="Maker Faire Orlando Educator's Guide" width="400px"></a></div>
+
 Check out the [exhibits](/exhibits/), [hands-on workshops](/exhibits/categories/hands-on-workshop/), [schedule](/schedule/) and more! 
 
 **We've added a new [Field Trip Day Exhibit Category](/exhibits/categories/field-trip-day) to make it easy to see the exhibits that will be available!** 
 
-This event takes place ahead of Maker Faire Orlando, giving students access to exhibits, reduced crowds, and dedicated programming tailored to young learners and educators.
+
 
 
 ### School Field Trips 
