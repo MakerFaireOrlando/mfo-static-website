@@ -215,7 +215,7 @@ Our members volunteer their time to lead STEM-focused events, collaborate with e
 
 We believe building with LEGO® isn’t just about bricks; it’s about building a better future through learning, curiosity, and community."
   image-primary:
-    url: /assets/images/exhibit-images/25-4-m-renlug-royal-rally-racing-custom-moc-lego-displays-491919955-10232538750224432-7109660522182212861-n-88x150.jpg
+    url: /assets/images/exhibit-images/25-4-m-renlug-royal-rally-racing-custom-moc-lego-displays-491919955-10232538750224432-7109660522182212861-n-175x300.jpg
     width: 88
     height: 150
   website: https://www.renlug.org
@@ -236,8 +236,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-05-22 11:27:42"
-last-modified-jotform: "2025-10-07 10:18:14"
-last-exported: "2025-10-07 18:06:34"
+last-modified-jotform: "2025-10-20 20:39:47"
+last-exported: "2025-10-21 08:01:12"
 sitemap: false
 
 ---

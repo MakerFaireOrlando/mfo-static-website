@@ -33,7 +33,7 @@ maker:
   name: "Quarkmine"
   description: "Quarkmine is a provider of robotics and technology programs and home of the Student Robotics League (SRL)."
   image-primary:
-    url: /assets/images/exhibit-images/25R-57-m-quarkmine-quarkmine-logo-150x38.png
+    url: /assets/images/exhibit-images/25R-57-m-quarkmine-quarkmine-logo-300x75.png
     width: 150
     height: 38
   website: https://quarkmine.com
@@ -41,8 +41,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-10-06 18:07:45"
-last-modified-jotform: "2025-10-07 11:42:06"
-last-exported: "2025-10-07 18:05:49"
+last-modified-jotform: "2025-10-21 07:57:05"
+last-exported: "2025-10-21 08:00:47"
 sitemap: false
 
 ---

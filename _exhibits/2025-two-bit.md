@@ -32,7 +32,7 @@ maker:
   name: "Caden Troyer"
   description: "Combat robot builder"
   image-primary:
-    url: /assets/images/exhibit-images/25R-12-m-two-bit-momentummechanicslogo-150x40.png
+    url: /assets/images/exhibit-images/25R-12-m-two-bit-momentummechanicslogo-300x80.png
     width: 150
     height: 40
   instagram: https://www.instagram.com/cadens_bot_stuff?igsh=bnhkZGFsYWh5eDcx&utm_source=qr
@@ -40,8 +40,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-08-28 14:38:38"
-last-modified-jotform: "2025-10-07 11:43:29"
-last-exported: "2025-10-07 18:06:05"
+last-modified-jotform: "2025-10-21 07:57:27"
+last-exported: "2025-10-21 08:00:55"
 sitemap: false
 
 ---

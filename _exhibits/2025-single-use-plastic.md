@@ -32,15 +32,15 @@ maker:
   name: "Gator Battlebots"
   description: "Gator Battlebots, a design team at the University of Florida"
   image-primary:
-    url: /assets/images/exhibit-images/25R-31-m-single-use-plastic-capture-150x38.PNG
+    url: /assets/images/exhibit-images/25R-31-m-single-use-plastic-capture-300x76.PNG
     width: 150
     height: 38
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-25 13:40:08"
-last-modified-jotform: "2025-10-07 11:42:57"
-last-exported: "2025-10-07 18:06:00"
+last-modified-jotform: "2025-10-21 07:57:18"
+last-exported: "2025-10-21 08:00:53"
 sitemap: false
 
 ---

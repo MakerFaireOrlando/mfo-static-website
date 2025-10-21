@@ -32,15 +32,15 @@ maker:
   name: "Heavy Metal Robots"
   description: "Father/Son team learning as we go, having fun and making friends"
   image-primary:
-    url: /assets/images/exhibit-images/25R-3-m-frostbyte-heavy-metal-robots-logo-150x150.png
+    url: /assets/images/exhibit-images/25R-3-m-frostbyte-heavy-metal-robots-logo-300x300.png
     width: 150
     height: 150
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-08-23 10:44:56"
-last-modified-jotform: "2025-10-07 11:43:42"
-last-exported: "2025-10-07 18:06:17"
+last-modified-jotform: "2025-10-21 07:57:30"
+last-exported: "2025-10-21 08:00:57"
 sitemap: false
 
 ---
