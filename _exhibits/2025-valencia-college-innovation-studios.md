@@ -101,7 +101,7 @@ maker:
   name: "Valencia College Innovation Studios"
   description: "The Valencia College Innovation Studios formally the 3D Printing Studio will show Metal/Plastic/Wood student projects that were made in the new Innovation Studios located at the West Campus. Do not worry we will continue to bring old favorites like the 3D printed violins for attendees to play as well. Visit our table and talk to faculty or the students who made the projects in the Built Environment and Engineering programs. Learn about what the Built Environment and the School of Engineering, Technology, and Advanced Manufacturing (ETAM) has to offer."
   image-primary:
-    url: /assets/images/exhibit-images/25-90-m-valencia-college-innovation-studios-presentation-150x113.jpg
+    url: /assets/images/exhibit-images/25-90-m-valencia-college-innovation-studios-presentation-300x225.jpg
     width: 150
     height: 113
   website: https://valenciacollege.edu/academics/departments/engineering/index.php
@@ -119,8 +119,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-14 16:23:07"
-last-modified-jotform: "2025-10-06 08:40:25"
-last-exported: "2025-10-07 18:06:24"
+last-modified-jotform: "2025-10-22 20:12:35"
+last-exported: "2025-10-22 22:01:44"
 sitemap: false
 
 ---

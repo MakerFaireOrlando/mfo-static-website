@@ -86,7 +86,7 @@ maker:
   description: "The Second Breakfast Club Show is a comedy sketch group based out of Central Florida that offers a fresh take on 80s and 90s comedy vibes through a modern lens. Join us and our 250K+ followers for a mix of parody, satire, and nostalgia in a variety of comedic sketches.
 For several of our sketches, we make our own props and puppets!"
   image-primary:
-    url: /assets/images/exhibit-images/25-67-m-puppets-props-with-the-second-breakfast-club-show-sbcc-logo-84x150.jpg
+    url: /assets/images/exhibit-images/25-67-m-puppets-props-with-the-second-breakfast-club-show-sbcc-logo-169x300.jpg
     width: 84
     height: 150
   website: https://www.secondbreakfastclubshow.com/
@@ -109,8 +109,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-04 19:27:39"
-last-modified-jotform: "2025-10-05 11:41:32"
-last-exported: "2025-10-05 11:54:41"
+last-modified-jotform: "2025-10-22 20:14:06"
+last-exported: "2025-10-22 22:01:44"
 sitemap: false
 
 ---

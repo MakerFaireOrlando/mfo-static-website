@@ -8,41 +8,31 @@ exhibit-id: 25-182
 exhibit-zone: "Exhibit Tent"
 space-number: "T23"
 description: "Future-ready tech and hands-on fun from Seminole State College"
-description-long: "Orlando Maker Faire Application
+description-long: "Step into the future of innovation and hands-on creativity at the Seminole State College booth, where imagination meets engineering in electrifying ways! From high-tech robots to thrilling design challenges, there’s something here for every curious mind, maker, and future innovator.
 
-Seminole State College is proud to submit the following application for participation in MakerFaire Orlando.
+🚗 Rally Rocket – Electrifying the Future of Transportation
 
-Displays:
-Rally Rocket - showcase Electric Vehicles and the college’s Automotive Engineering Technology program.  To prepare for the future of transportation, a comprehensive training program for autonomous vehicle maintenance is needed. The College’s program will equip technicians with a strong foundation in electric vehicle technology, including battery systems and high-voltage safety protocols, as most autonomous vehicles are expected to be electric.
- 
-Figure 1:  Rally Rocket
-NAO AI Robot - The NAO Robot Power V6 AI Edition is a versatile and transformative educational tool that can be used in a wide range of applications across academic, research, and outreach settings.  Students will be able to interact with the robotic platform, engage critical thinking skills and problem solving skills.
- 
-Figure 2: NAO Robot Power V6 AI Edition
+Get up close with the Rally Rocket, Seminole State’s showcase of cutting-edge Electric Vehicle (EV) technology and the college’s Automotive Engineering Technology program. Explore how students are preparing for the next generation of transportation—where electric and autonomous vehicles reign supreme. Learn about high-voltage safety, advanced battery systems, and the science behind keeping the cars of tomorrow on the road today.
 
-Adventure Pi - The AdventurePi portable Raspberry Pi arcade machine is an ideal candidate for inclusion in Maker Faire Orlando due to its innovative design, educational value, and alignment with the event’s maker ethos.  AdventurePi introduces hobby electronics and emulation to a broader audience, making it a great educational exhibit for students, families, and tech enthusiasts
- 
-Figure 3: AdventurePi
+🤖 Meet NAO – The AI Robot That Thinks, Learns, and Dances!
 
+Say hello to NAO Power V6, a charming and intelligent robot that’s as fun as it is educational! Watch NAO move, talk, and interact with visitors as you explore how artificial intelligence can spark creativity and problem-solving. Students use NAO to dive into programming, robotics, and real-world AI applications, and now you can too!
 
-Activities:
-Reverse Egg Drop - Unlike traditional egg drop experiments, the reverse egg drop simulates a catching mechanism—tasking participants with designing a device that safely catches a falling egg. This twist introduces a new layer of complexity and realism, mimicking real-world engineering problems such as:
-•	Impact absorption systems (e.g., airbags, crumple zones)
-•	Material selection for safety and durability
-•	Iterative design and testing under constraints
-Participants must balance cost, effectiveness, and material properties, just as engineers do when designing systems for transportation, aerospace, or robotics.  Participants will be able to test their design at pre-determined “egg-drop” intervals.
- 
-Figure 4: Egg Drop Chute
- 
-Figure 5:  Egg-y Aftermath
+🕹️ AdventurePi – Gaming Meets Innovation
 
-Spaghetti Tower Challenge - The Spaghetti Tower Marshmallow Challenge is an outstanding activity for promoting STEM learning, teamwork, and creative problem-solving.  This challenge immerses participants in the full cycle of engineering thinking:
-•	Planning: Teams strategize how to build a tall, stable structure.
-•	Prototyping: They experiment with different shapes and supports.
-•	Testing and Iteration: They refine their designs based on what works and what fails.
+Discover AdventurePi, the ultimate portable Raspberry Pi arcade machine! Built from the spirit of tinkering and tech creativity, AdventurePi invites gamers, hobbyists, and curious minds to explore how coding, hardware design, and retro gaming all come together. Play, learn, and get inspired to build your own adventure!
 
- 
-Figure 6: Spaghetti Tower"
+🥚 Reverse Egg Drop Challenge – Catch It If You Can!
+
+Think you can design a device that catches a falling egg safely? This isn’t your typical egg drop—it’s engineering in reverse! Test your creativity and problem-solving as you build, tweak, and test your design to protect your fragile cargo. It’s messy, hilarious, and a perfect way to learn about impact absorption, material strength, and real-world design challenges.
+
+🍝 Spaghetti Tower Challenge – Rise to the Top!
+
+Grab some spaghetti, a marshmallow, and your imagination! The Spaghetti Tower Challenge puts your team’s engineering skills to the test as you race to build the tallest, most stable structure possible. Can your tower stand tall, or will it topple under pressure? Discover the fun side of physics and teamwork in this interactive STEM challenge!
+
+✨ Join Us!
+
+Whether you’re testing a design, chatting with a robot, or learning how to power the future, the Seminole State College booth promises hands-on fun, laughter, and inspiration for all ages. Come explore, build, and dream big, because innovation starts here!"
 image: /assets/images/exhibit-images/25-182-e-innovate-and-inspire-with-seminole-state-college-rallyrocket-2699-300x226.jpg
 image-primary: 
   full:
@@ -135,8 +125,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-15 09:42:38"
-last-modified-jotform: "2025-10-12 15:40:05"
-last-exported: "2025-10-13 15:02:04"
+last-modified-jotform: "2025-10-21 11:42:57"
+last-exported: "2025-10-22 22:01:41"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: orange-technical-college
 permalink: /exhibits/orange-technical-college/
 exhibit-id: 25-217
 exhibit-zone: "Opportunity"
-space-number: Unassigned
+space-number: "OC26"
 description: "Orange Technical College students in manufacturing and digital media programs recent student work."
 description-long: "Orange Technical College proudly prepares students in Central Florida for various manufacturing and creative careers and provides programs of study ranging in length from a couple of months to a year or more. Graduates can earn future college credits in most OCPS career certificate programs of study, as well as valuable work-related experience in their field of study. Students will be showing their recent projects."
 image: /assets/images/exhibit-images/25-217-e-orange-technical-college-screenshot-2025-10-20-at-11-10-10-am-300x120.png
@@ -54,8 +54,8 @@ categories:
   - slug: education
     name: Education
 created-jotform: "2025-10-20 12:05:25"
-last-modified-jotform: "2025-10-20 12:08:45"
-last-exported: "2025-10-20 16:53:34"
+last-modified-jotform: "2025-10-22 20:05:53"
+last-exported: "2025-10-22 22:01:35"
 sitemap: false
 
 ---
