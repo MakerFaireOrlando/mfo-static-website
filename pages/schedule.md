@@ -89,7 +89,7 @@ Check out the [event program](/program) for a printable map, schedule and more!<
                             {%-if guest.url -%}<a href="{{guest.url}}" target="_blank">{%- endif -%}
                               {{ guest.name }}
                             {%-if guest.url -%}</a>{%- endif -%}
-                            {%- unless forloop.last -%}, {% endunless -%}
+                            {%- unless forloop.last -%}<br>{% endunless -%}
                          {%- endfor -%}   
                     </div>
                     <div class="col-sm-3">

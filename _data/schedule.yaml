@@ -24,6 +24,15 @@
   date: 2025-11-07 11:00:00
   enddate: 2025-11-07 11:25:00
   url: /stage
+  guests: 
+    - name: 3D Printing Nerd
+      url: https://www.youtube.com/@3DPrintingNerd
+    - name: Evette's Niche
+      url: https://www.youtube.com/@EvettesNiche
+    - name: Frankly Built
+      url: https://www.youtube.com/@FranklyBuilt
+    - name: Willow Creative
+      url: https://www.youtube.com/@WillowCreative
 
 - title: Lunch Seating
   location: Main Stage
@@ -90,6 +99,10 @@
   date: 2025-11-08 11:30:00
   enddate: 2025-11-08 12:15:00
   url: /stage
+  guests: 
+    - name: Brandon Grimshaw, Mechanical Engineering, Universal Orlando Resort
+    - name: Andrew Lippens, Technical Designer, Adirondak Studios
+      url: https://www.linkedin.com/in/andrew-lippens-89b56615b/
 
 - title: Power Racing - Relay Race
   location: Power Racing Track
@@ -179,6 +192,9 @@
   enddate: 2025-11-09 11:15:00
   #image: /assets/images/stage/2024/theme-park.jpg
   url: /stage
+  guests:
+    - name: Tim Eck, Director, Engineering & Safety, Universal Creative
+
 
 - title: The Future of 3D Printing
   slug: 3d-printing-sun
