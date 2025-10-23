@@ -45,7 +45,7 @@ additional-images:
       url: /assets/images/exhibit-images/25-220-e1-evettes-niche-dsc01991-1322-764x1024.jpg
       width: 764
       height: 1024
-video: "https://youtube.com/shorts/vEh9R_WGXeg?si=mnrrgqWPLWzJLIRh"
+video: "https://youtube.com/shorts/vEh9R_WGXeg"
 video-embed: '<iframe width="576" height="1024" src="https://www.youtube.com/embed/vEh9R_WGXeg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="My #OpenSauce #3DPrinted art booth! @opensaucelive #engineering #diy"></iframe>'
 maker: 
   name: "Evette's Niche"
@@ -71,8 +71,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-10-22 17:35:09"
-last-modified-jotform: "2025-10-22 20:09:40"
-last-exported: "2025-10-22 22:01:35"
+last-modified-jotform: "2025-10-22 22:24:21"
+last-exported: "2025-10-22 22:24:46"
 sitemap: false
 
 ---

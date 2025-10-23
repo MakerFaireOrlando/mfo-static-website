@@ -27,6 +27,8 @@ image-primary:
     url: /assets/images/exhibit-images/25-213-e-massive-3d-printed-galactus-screenshot-2025-10-11-at-2-24-36-pm-1012x1024.jpg
     width: 1012
     height: 1024
+video: "https://www.youtube.com/shorts/WVZ4fADKSUw"
+video-embed: '<iframe width="576" height="1024" src="https://www.youtube.com/embed/WVZ4fADKSUw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="MASSIVE Print Project - Galactus for Orlando Maker Faire!  #3dprinting"></iframe>'
 maker: 
   name: "3D Printing Nerd"
   description: "3D Printing Nerd is your destination for additive fun and inspiration!"
@@ -44,8 +46,8 @@ categories:
   - slug: 3d-printing
     name: 3D Printing
 created-jotform: "2025-10-11 17:33:32"
-last-modified-jotform: "2025-10-11 22:01:26"
-last-exported: "2025-10-12 10:39:24"
+last-modified-jotform: "2025-10-22 22:20:48"
+last-exported: "2025-10-22 22:21:17"
 sitemap: false
 
 ---
