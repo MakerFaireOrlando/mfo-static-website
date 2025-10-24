@@ -131,6 +131,11 @@ sponsors:
     logo: audiojack.jpg
     level: 4
     active: true
+  - name: Polymaker
+    url: https://us.polymaker.com
+    logo: Polymaker.avif
+    level: 4
+    active: true
   - name: Siemon
     url: https://www.siemon.com/em/
     logo: siemon.png
