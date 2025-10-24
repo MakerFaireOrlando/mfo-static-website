@@ -16,8 +16,6 @@ Use the schedule below to plan your weekend to catch the panel talks and other s
 
 Check out the [event program](/program) for a printable map, schedule and more!<br><br>
 
-#### Panels have been announced, stay tuned for more info on our guest panelists!
-
 
 <div class="mtm">
   <div class="mtm-search">

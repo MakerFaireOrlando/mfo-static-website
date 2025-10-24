@@ -10,7 +10,6 @@
   description: From castles to coasters, see how MCParks recreates world famous theme parks in Minecraft. Learn about the technology and teamwork needed to bring the project to life - and how you can get involved in future experiences!
   date: 2025-11-07 10:30:00
   enddate: 2025-11-07 10:55:00
-  url: /stage
   image: /assets/images/stage/2025/mcparks.jpg
   guests:
     - name: MCParks
@@ -20,10 +19,10 @@
 - title: YouTube Makers
   slug: ftd-youtube
   location: Main Stage
-  description: Meet popular YouTube content creators as they share how creativity, cosplay, and 3D printing come together to inspire the next generation of makers.
+  description: Meet popular YouTube content creators as they share how creativity, cosplay, and 3D printing come together to inspire the next generation of makers. Hosted by <a href="https://www.makerfaireorlando.com/exhibits/the-d7-3d-printed-shoes/" target="_blank">David Tobin, producer of 3D Printing Nerd (and much more!)</a>
   date: 2025-11-07 11:00:00
   enddate: 2025-11-07 11:25:00
-  url: /stage
+  image: /assets/images/stage/2025/youtube_makers.gif
   guests: 
     - name: 3D Printing Nerd
       url: https://www.youtube.com/@3DPrintingNerd
@@ -46,7 +45,6 @@
   description: Meet inspiring young makers as they share how curiosity, creativity, and hands-on making are helping them build cool projects—and a bright future. Hosted by <a href="https://www.youtube.com/@3DPrintingNerd" target="_blank">Joel Telling of 3D Printing Nerd</a>
   date: 2025-11-07 13:30:00
   enddate: 2025-11-07 13:55:00
-  url: /stage
   image: /assets/images/stage/2025/youngmakers.gif
   guests: 
     - name: Colin King
@@ -62,8 +60,7 @@
   description: Meet passionate robot makers—from high school teams to seasoned builders—as they share how design, engineering, and competition fuel their creations in FIRST robotics and combat arenas.
   date: 2025-11-07 14:00:00
   enddate: 2025-11-07 14:25:00
-  url: /stage
-
+ 
 - title: Field Trip Day Ends!
   description: Field Trip Day at Maker Faire Orlando 2025 is over - we will see you next year!
   date: 2025-11-07 15:00:00
@@ -81,9 +78,11 @@
   description: Meet the creators behind the marvelous, immersive worlds that transport visitors in world-famous theme parks across the globe!
   date: 2025-11-08 10:30:00
   enddate: 2025-11-08 11:15:00
-  #image: /assets/images/stage/2024/theme-park.jpg
-  url: /stage
-
+  image: /assets/images/sponsors/universal-creative.png
+  guests:
+    - name: Jen Wilson Dir, Projects, Universal Creative
+      url: https://www.linkedin.com/in/jennifer-wilson-189b4630/
+ 
 - title: Power Racing - Qualifying
   location: Power Racing Track
   description: These tiny electric racers are ready to race for glory - you can stop by the track to see the qualifying action!
@@ -98,9 +97,10 @@
   description: Explore how 3D printing is transforming themed entertainment in this panel with industry experts from Universal, Adirondack Studios, and more. Hosted by <a href="https://www.youtube.com/@3DPrintingNerd" target="_blank">Joel Telling of 3D Printing Nerd</a>.
   date: 2025-11-08 11:30:00
   enddate: 2025-11-08 12:15:00
-  url: /stage
+  image: /assets/images/sponsors/universal-creative.png
   guests: 
     - name: Brandon Grimshaw, Mechanical Engineering, Universal Orlando Resort
+      url: https://www.linkedin.com/in/grimshawbrandon/
     - name: Andrew Lippens, Technical Designer, Adirondak Studios
       url: https://www.linkedin.com/in/andrew-lippens-89b56615b/
 
@@ -132,8 +132,17 @@
   description: Join top cosplay creators Allison Chase, Frankly Builds, Evettesniche, and Willow Creative as they unveil the secrets behind crafting show-stopping costumes for cosplay and beyond.
   date: 2025-11-08 14:00:00
   enddate: 2025-11-08 14:45:00
-  url: /stage
+  guests: 
+  - name: Allison Chase Cosplay
+    url: https://www.makerfaireorlando.com/exhibits/allison-chase-cosplay/
+  - name: Evette's Niche
+    url: https://www.youtube.com/@EvettesNiche
+  - name: Frankly Built
+    url: https://www.youtube.com/@FranklyBuilt
+  - name: Willow Creative
+    url: https://www.youtube.com/@WillowCreative
 
+ 
 - title: Power Racing - Meet & Greet
   location: Power Racing Track
   description: Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!
@@ -149,7 +158,6 @@
   date: 2025-11-08 15:00:00
   enddate: 2025-11-08 15:45:00
   #image: /assets/images/stage/2024/combat.jpg
-  url: /stage
   guests: 
     - name: Andrea Gellatly of Team Witch Doctor
       url: /exhibits/camp-witch-doctor-tournament/
@@ -170,8 +178,7 @@
   date: 2025-11-08 16:00:00
   enddate: 2025-11-08 17:00:00
   #image: /assets/images/stage/2024/ricardo.jpg
-  url: /stage
-
+ 
 - title: Maker Faire Day 1 is Over!
   description: We will see you Tomorrow!
   date: 2025-11-08 17:00:00
@@ -190,19 +197,27 @@
   description: Hear from local makers who use technology to create amazing Theme Park experiences! 
   date: 2025-11-09 10:30:00
   enddate: 2025-11-09 11:15:00
-  #image: /assets/images/stage/2024/theme-park.jpg
-  url: /stage
+  image: /assets/images/sponsors/universal-creative.png
   guests:
     - name: Tim Eck, Director, Engineering & Safety, Universal Creative
+      url: https://www.linkedin.com/in/tim-eck/
 
 
 - title: The Future of 3D Printing
   slug: 3d-printing-sun
   location: Main Stage
-  description: Dive into the future of 3D printing top makers as they explore cutting-edge trends, tech, and holiday printer picks. Hosted by <a href="https://www.youtube.com/@3DPrintingNerd" target="_blank">Joel Telling of 3D Printing Nerd</a>.
+  description: Dive into the future of 3D printing top makers as they explore cutting-edge trends, tech, and holiday printer picks. Hosted by <a href="https://www.makerfaireorlando.com/exhibits/the-d7-3d-printed-shoes/" target="_blank">David Tobin, producer of 3D Printing Nerd (and much more!)</a>
   date: 2025-11-09 11:30:00
   enddate: 2025-11-09 12:15:00
-  url: /stage
+  guests: 
+  - name: 3D Printing Nerd
+    url: https://www.youtube.com/@3DPrintingNerd
+  - name: Frankly Built
+    url: https://www.youtube.com/@FranklyBuilt
+  - name: Willow Creative
+    url: https://www.youtube.com/@WillowCreative
+  - name: Manuel Rendon, Timeplast
+    url: https://www.timeplast.com/
 
 - title: Power Racing - Sprint Race 3
   location: Power Racing Track
@@ -232,8 +247,7 @@
   description: Step into a world of creativity where cosplayers take beloved characters and give them fresh, unexpected looks.
   date: 2025-11-09 14:00:00
   enddate: 2025-11-09 14:50:00
-  url: /stage
-
+ 
 - title: Power Racing - Endurance Race
   location: Power Racing Track
   description:
@@ -248,8 +262,7 @@
   description: Meet and learn from prop makers who create objects for use in film, TV, theater, and other productions. They work with a range of materials and skills to make props that look realistic and match the production's design
   date: 2025-11-09 15:00:00
   enddate: 2025-11-09 15:50:00
-  url: /stage
-
+ 
 - title: Power Racing - Awards Ceremony
   location: Power Racing Track
   description: The best of the best are on the podium after a long weekend of racing. Cheer them on to glory!
@@ -265,8 +278,7 @@
   date: 2025-11-09 16:00:00
   enddate: 2025-11-09 17:00:00
   #image: /assets/images/stage/2024/danielleziss.jpg
-  url: /stage
-
+ 
 - title: Maker Faire Concludes
   description: Maker Faire Orlando 2025 is over - we will see you next year!
   date: 2025-11-09 17:00:00
