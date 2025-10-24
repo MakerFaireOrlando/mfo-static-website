@@ -1,6 +1,6 @@
 #YOU MUST SORT THESE ITEMS!!!
 - title: Field Trip Day Begins!
-  description: Welcome to Field Trip Day at Maker Faire Orlando 2025!<br>Make sure to check out the <a href="/makers">list of exhibits, hands-on workshops and more so you don't miss any of the action!</a>
+  description: Welcome to Field Trip Day at Maker Faire Orlando 2025!<br>Make sure to check out the <a href="/exhibits/categories/field-trip-day/">list of exhibits, hands-on workshops and more so you don't miss any of the action!</a>
   date: 2025-11-07 10:00:00
   image: /assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg
 
@@ -68,7 +68,7 @@
 
 
 - title: Maker Faire Begins!
-  description: Welcome to Day 1 of Maker Faire Orlando!<br>Make sure to check out the <a href="/makers">list of exhibits, hands-on workshops and more so you don't miss any of the action!</a>
+  description: Welcome to Day 1 of Maker Faire Orlando!<br>Make sure to check out the <a href="/exhibits">list of exhibits, hands-on workshops and more so you don't miss any of the action!</a>
   date: 2025-11-08 10:00:00
   image: /assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg
 
