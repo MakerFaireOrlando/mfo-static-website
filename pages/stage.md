@@ -6,7 +6,7 @@ image: /assets/images/stage/2024/stage-header-MFO24.jpg
 description: Check out the Featured Guests, Panels & Talks at Maker Faire Orlando!
 scrolltop: true
 
-carousel: true
+carousel: false
 carousel-delay: 5000
 carousel-controls: false
 carousel-slides:
@@ -14,11 +14,13 @@ carousel-slides:
     caption: Check out the Featured Guests, Panels & Talks at Maker Faire Orlando!
     url: /schedule/
 ---
-# Stay Tuned!
 
-#### Watch for exciting announcements with scheduled activities, special guests, panel discussions, musical performances and more!
+# Don’t Miss Amazing Makers on Stage at Maker Faire Orlando!
+
+Hear from special guest makers on our Main Stage featuring innovators in the theme park industry, combat robot competitors, cosplay champions, artists, storytellers and more!  Check out the [entire schedule of panels, talks & competitions](/schedule/) so that you can plan your entire weekend!
 
 
+{% comment %}
 # Don’t Miss Amazing Makers on Stage at Maker Faire Orlando!
 
 Hear from special guest makers on our Main Stage featuring innovators in the theme park industry, combat robot competitors, cosplay champions, artists, storytellers and more!  Check out the [entire schedule of panels, talks & competitions](/schedule/) so that you can plan your entire weekend!
@@ -106,8 +108,8 @@ Hear from special guest makers on our Main Stage featuring innovators in the the
         </div>
     </div>
 </div>
+{% endcomment %}
 
----
 
 Stage talks, panels and performances are subject to change based on availability of special guests.
 

@@ -47,13 +47,6 @@ carousel-slides:
 {% endif %}
 
 
-{% comment %}
-<div>
-<a href="/stage"><img src="/assets/images/stage/stage-header-MFO23-narrow.jpg" style="width: 100%; padding-bottom: 5px;"></a>
-</div>
-<div class="flag-banner"></div>
-{% endcomment %}
-
 {% if site.data.settings.event_shirt_promo %}
 {% include event-shirt.html %}
 {% endif %}
