@@ -23,7 +23,7 @@
               {% assign row_count = base_per_row %}
             {% endif %}
 
-            <div class="faire-sponsors-box" style="display: flex; justify-content: center; flex-wrap: wrap; max-width: 100%;">
+            <div class="faire-sponsors-box" style="display: flex; justify-content: center; flex-wrap: wrap; max-width: 100%; margin-bottom: 10px;">
               {% for sponsor in sponsors limit: row_count offset: offset %}
 
                 {% if sponsor.level < 4 %}
