@@ -34,7 +34,7 @@ Explore more than [250 Exhibits, Hands-on Activities and Competitions](/exhibits
 
 Check out the Maker Faire [Schedule](/schedule/) and [Program](/program/) to plan your weekend!
 
-Don't Miss the Talks, Panels & Performances on the [Main Stage](/stage/)!
+Don't Miss the Talks, Panels & Performances on the [Main Stage](/schedule/)!
 
 
 
