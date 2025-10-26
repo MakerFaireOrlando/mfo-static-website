@@ -6,7 +6,7 @@ slug: camp-witch-doctor-tournament
 permalink: /exhibits/camp-witch-doctor-tournament/
 exhibit-id: 25-114
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: "SE25"
+space-number: "SG24"
 description: "We're hosting battle robot tournaments all weekend! Come join us as a builder or a spectator!"
 description-long: "We will host a series of battle robot tournaments throughout the weekend! Our goal is to provide a supportive and beginner-friendly option for young builders to participate in their first event. Ages 5-15 welcome (children must have parental supervision).
 
@@ -36,7 +36,7 @@ maker:
   name: "Team Witch Doctor"
   description: "Known for its success and style, Witch Doctor has been a fan favorite on the TV show BattleBots since 2015. It features a powerful vertical spinner and a skeletal-themed design. Team Witch Doctor is an avid promotor of STEAM education to inspire the next generation of robot builders. Learn more at www.TeamWitchDoctor.com!"
   image-primary:
-    url: /assets/images/exhibit-images/25-114-m-camp-witch-doctor-tournament-bb2022-witch-doctor-team-sm-150x129.jpg
+    url: /assets/images/exhibit-images/25-114-m-camp-witch-doctor-tournament-bb2022-witch-doctor-team-sm-300x258.jpg
     width: 150
     height: 129
   website: https://www.teamwitchdoctor.com
@@ -52,8 +52,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-28 14:20:54"
-last-modified-jotform: "2025-10-02 20:54:38"
-last-exported: "2025-10-03 07:30:10"
+last-modified-jotform: "2025-10-25 13:52:57"
+last-exported: "2025-10-25 13:53:53"
 sitemap: false
 
 ---

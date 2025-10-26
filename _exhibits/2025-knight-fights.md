@@ -103,7 +103,7 @@ maker:
   name: "Knight Fights"
   description: "Castle Tournaments and Florida Armored Combat Presents Knight Fights!  Armored Combat, (aka buhurt) is a competitive sport rooted in medieval tournament history; the weapons, armor, and battles are real!  We are not re-enactors, nothing staged or choreographed, the knights are competitors willing to take this sport of Kings and Lords to the next level.  See the fights, talk to the Knights, and take photos and video of past warriors in the present day."
   image-primary:
-    url: /assets/images/exhibit-images/25-107-m-knight-fights-castle-armored-combat-150x84.png
+    url: /assets/images/exhibit-images/25-107-m-knight-fights-castle-armored-combat-300x169.png
     width: 150
     height: 84
   website: https://flarmored.org
@@ -117,8 +117,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2025-07-25 00:03:27"
-last-modified-jotform: "2025-09-06 09:42:26"
-last-exported: "2025-09-06 09:49:14"
+last-modified-jotform: "2025-10-24 17:40:58"
+last-exported: "2025-10-25 11:21:05"
 sitemap: false
 
 ---

@@ -118,7 +118,7 @@ maker:
   name: "Orlando Ghostbusters"
   description: "Orlando Ghostbusters is a Ghost Corps community group that builds our own movie props, dresses up in uniform, and raises money for charity. To an event we bring along custom built props such as proton packs with lights, sound, and smoke, remote-controlled ghost traps, possessed Roombas, dancing toasters, and more. We raise money for the Starlight Foundation, who brings themed hospital gowns and toys to kids in the hospital."
   image-primary:
-    url: /assets/images/exhibit-images/25-12-m-orlando-ghostbusters-circlelogo-150x150.jpg
+    url: /assets/images/exhibit-images/25-12-m-orlando-ghostbusters-circlelogo-300x300.jpg
     width: 150
     height: 150
   website: https://www.facebook.com/orlandoghostbusters https://www.instagram.com/orlandoghostbusters/ https://www.facebook.com/orlandoghostbusters
@@ -133,9 +133,11 @@ categories:
     name: Props
   - slug: robotics
     name: Robotics
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-06-01 00:44:50"
-last-modified-jotform: "2025-09-30 20:42:12"
-last-exported: "2025-10-02 19:47:24"
+last-modified-jotform: "2025-10-25 08:33:15"
+last-exported: "2025-10-25 11:21:16"
 sitemap: false
 
 ---

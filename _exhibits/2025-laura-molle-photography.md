@@ -51,7 +51,7 @@ maker:
   name: "Laura Mollé"
   description: "I make mixed media art including photography cards, wall art, jewelry, musical instruments, keychains and other unique items all using postage stamps, guitar picks and I create many other interesting objects into art."
   image-primary:
-    url: /assets/images/exhibit-images/25-15-m-laura-molle-photography-laura-usbuscard2-logo3-150x89.jpg
+    url: /assets/images/exhibit-images/25-15-m-laura-molle-photography-laura-usbuscard2-logo3-300x178.jpg
     width: 150
     height: 89
   website: https://www.photoandstamp.com
@@ -69,8 +69,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-03 10:26:35"
-last-modified-jotform: "2025-10-05 14:30:45"
-last-exported: "2025-10-05 14:46:35"
+last-modified-jotform: "2025-10-25 09:20:12"
+last-exported: "2025-10-25 11:21:15"
 sitemap: false
 
 ---

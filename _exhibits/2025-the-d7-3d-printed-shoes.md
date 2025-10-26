@@ -6,7 +6,7 @@ slug: the-d7-3d-printed-shoes
 permalink: /exhibits/the-d7-3d-printed-shoes/
 exhibit-id: 25-208
 exhibit-zone: "Creator Museum (adjacent to Main Stage)"
-space-number: Unassigned
+space-number: "SE10"
 description: "Custom-fitted to your feet, breathable, washable, odor resistant
 100% recyclable and sweatshop-free"
 description-long: "The D7 takes the power of 3D Printing and puts it on the inside, while giving you a look that is as classic as it is cool. Designed by David Tobin and printed by Zellerfeld, this shoe is as functional as it is fashionable. Mesh design allows airflow into the shoe, circulating air and giving you durable design to handle anything that comes your way. 
@@ -71,8 +71,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-10-09 01:44:41"
-last-modified-jotform: "2025-10-11 10:56:05"
-last-exported: "2025-10-11 11:11:02"
+last-modified-jotform: "2025-10-25 14:50:48"
+last-exported: "2025-10-25 14:52:27"
 sitemap: false
 
 ---

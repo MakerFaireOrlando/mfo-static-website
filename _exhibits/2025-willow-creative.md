@@ -6,7 +6,7 @@ slug: willow-creative
 permalink: /exhibits/willow-creative/
 exhibit-id: 25-207
 exhibit-zone: "Creator Museum (adjacent to Main Stage)"
-space-number: Unassigned
+space-number: "SH10"
 description: "Costume maker Willow Creative. Videogame props, mascots, animatronics, monsters and more."
 description-long: "I’m costume maker Willow Creative, originally from the Netherlands, now based in Florida. I create tons of complex costumes with all sorts of crafting techniques as early as 2011, sharing my crafting projects online to millions of people on my social media and my YouTube channel.
 
@@ -214,8 +214,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2025-10-07 15:00:58"
-last-modified-jotform: "2025-10-11 10:56:21"
-last-exported: "2025-10-11 11:11:15"
+last-modified-jotform: "2025-10-25 14:51:19"
+last-exported: "2025-10-25 14:52:31"
 sitemap: false
 
 ---

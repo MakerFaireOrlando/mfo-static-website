@@ -6,7 +6,7 @@ slug: massive-3d-printed-galactus
 permalink: /exhibits/massive-3d-printed-galactus/
 exhibit-id: 25-213
 exhibit-zone: "Creator Museum (adjacent to Main Stage)"
-space-number: Unassigned
+space-number: "SG10"
 description: "3D Printing Nerd is printing all the parts for a MASSIVE Galactus statue!"
 description-long: "This 3d printed Galactus will be using nearly 100kg of filament and will be printed on the 3D Printing Nerd print farm. The pieces will be shipped to Orlando, and the build will happen LIVE!"
 image: /assets/images/exhibit-images/25-213-e-massive-3d-printed-galactus-screenshot-2025-10-11-at-2-24-36-pm-296x300.jpg
@@ -46,8 +46,8 @@ categories:
   - slug: 3d-printing
     name: 3D Printing
 created-jotform: "2025-10-11 17:33:32"
-last-modified-jotform: "2025-10-22 22:20:48"
-last-exported: "2025-10-22 22:21:17"
+last-modified-jotform: "2025-10-25 14:50:59"
+last-exported: "2025-10-25 14:52:25"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: nerdy-derby
 permalink: /exhibits/nerdy-derby/
 exhibit-id: 25-216
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: "SL11, SK11, SJ11, SK11, SH11, SG11, SF11SL12, SL13"
+space-number: "SL11, SK11, SJ11, SI11, SH11, SG11, SF11, SL12, SL13"
 description: "Wooden Decorate Yourself Racers and race."
 description-long: "Nerdy Derby is a hands on racing experience where creativity and experimentation take the wheel! Racers of all ages decorate small wooden cars using a variety of materials, designing whatever their imagination dreams up. Once designed, cars are raced down a sloped track to see which design goes the fastest, farthest, or just looks the coolest."
 image: /assets/images/exhibit-images/25-216-e-nerdy-derby-25-2026-less-than-1mb-eb-team-photo-4932-300x180.jpeg
@@ -44,8 +44,8 @@ categories:
   - slug: first-robotics
     name: FIRST Robotics
 created-jotform: "2025-10-16 15:31:42"
-last-modified-jotform: "2025-10-18 11:01:26"
-last-exported: "2025-10-20 16:53:36"
+last-modified-jotform: "2025-10-25 13:52:03"
+last-exported: "2025-10-25 13:52:37"
 sitemap: false
 
 ---

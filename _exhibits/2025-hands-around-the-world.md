@@ -6,7 +6,7 @@ slug: hands-around-the-world
 permalink: /exhibits/hands-around-the-world/
 exhibit-id: 25-21
 exhibit-zone: "Opportunity"
-space-number: "OC7"
+space-number: "OC6"
 description: "This exhibit will show various types of robtic hands and how to make them."
 description-long: "People who are missing fingers or arms below the elbow can benefit from 3D printed devices. They are especially helpful for children who do not normally have the option of traditional prosthetic device either due to cost, time, or due to the uniqueness of their limb difference. 
 The goal of this exhibit is to bring awareness to our local community and demonstrate various hands you can build and other hand projects including a AI hand"
@@ -49,8 +49,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-10 08:06:58"
-last-modified-jotform: "2025-10-18 12:41:39"
-last-exported: "2025-10-20 16:54:19"
+last-modified-jotform: "2025-10-25 14:04:41"
+last-exported: "2025-10-25 14:08:42"
 sitemap: false
 
 ---

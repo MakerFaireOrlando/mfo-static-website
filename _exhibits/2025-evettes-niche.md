@@ -6,7 +6,7 @@ slug: evettes-niche
 permalink: /exhibits/evettes-niche/
 exhibit-id: 25-220
 exhibit-zone: "Creator Museum (adjacent to Main Stage)"
-space-number: Unassigned
+space-number: "SF10"
 description: "Artist. Fabricator. Engineer. Maker of whimsical machines and wearable art."
 description-long: "Evette is a fabricator and artist with a background in Software. She enjoys creating whimsical machines and wearable art inspired by engineering concepts."
 image: /assets/images/exhibit-images/25-220-e-evettes-niche-small-pic-6305-200x300.jpg
@@ -71,8 +71,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-10-22 17:35:09"
-last-modified-jotform: "2025-10-22 22:24:21"
-last-exported: "2025-10-23 21:20:37"
+last-modified-jotform: "2025-10-25 14:50:54"
+last-exported: "2025-10-26 10:20:12"
 sitemap: false
 
 ---

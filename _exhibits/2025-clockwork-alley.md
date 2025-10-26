@@ -5,8 +5,8 @@ title: "Clockwork Alley"
 slug: clockwork-alley
 permalink: /exhibits/clockwork-alley/
 exhibit-id: 25-34
-exhibit-zone: "Opportunity"
-space-number: "OA23"
+exhibit-zone: "Spirit - East"
+space-number: "SG32"
 description: "Steampunk inspired jewelry and accessories."
 description-long: "Handmade Steampunk inspired jewelry and accessories made from vintage watch parts and resin. Necklaces, earrings, bracelets, pill boxes and hair accessories."
 image: /assets/images/exhibit-images/25-34-e-clockwork-alley-dsc00158-300x225.JPG
@@ -186,7 +186,7 @@ maker:
   name: "Lorry Volkens"
   description: "Steampunk inspired jewelry and accessories"
   image-primary:
-    url: /assets/images/exhibit-images/25-34-m-clockwork-alley-clockworkalley-1-7-x-3-v2-3947-150x85.png
+    url: /assets/images/exhibit-images/25-34-m-clockwork-alley-clockworkalley-1-7-x-3-v2-3947-300x170.png
     width: 150
     height: 85
   website: https://clockworkalley.com
@@ -206,8 +206,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2025-06-12 20:43:41"
-last-modified-jotform: "2025-10-05 14:28:09"
-last-exported: "2025-10-05 14:46:30"
+last-modified-jotform: "2025-10-25 13:50:06"
+last-exported: "2025-10-25 13:52:47"
 sitemap: false
 
 ---

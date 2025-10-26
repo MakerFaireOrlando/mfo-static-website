@@ -6,7 +6,7 @@ slug: armageddon-the-next-gen-of-robot-combat
 permalink: /exhibits/armageddon-the-next-gen-of-robot-combat/
 exhibit-id: 25-162
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: "SE26"
+space-number: "SG26"
 description: "Armageddon: a BattleBot with dual robotic arms redefining robot combat to inspire a new generation!"
 description-long: "Armageddon is a 250-lb next-generation BattleBot, built to compete on the world stage with a unique twist: instead of traditional spinners or hammers, it wields dual articulated arms for combat. Designed and built by Robotic Legends, Armageddon showcases the fusion of advanced engineering, 3D printing, and wearable control systems. Our exhibit invites visitors to see how we’re pushing combat robotics into bold new territory—one that inspires future builders to think beyond convention."
 image: /assets/images/exhibit-images/25-162-e-armageddon-the-next-gen-of-robot-combat-armageddon-omf-image-01-300x248.JPG
@@ -169,7 +169,7 @@ maker:
   name: "Robotic Legends"
   description: "We are a team of passionate, innovative robot builders and robot combat competitors from NC.  We have spent the last year building our first ever BattleBot... Armageddon!  It has 2 articulated arms attached to a 4 wheeled drive base.  The idea with this design was to try a new approach to robot combat; exchanging weapon and armor weight for more movement options and control during a fight.  We are competing at BBots Proving Grounds on 9/12, 9/13, & 9/14 against Arachnophobia.  We would LOVE to come show off our creation alongside the other BattleBots exhibits at the Orlando MF!"
   image-primary:
-    url: /assets/images/exhibit-images/25-162-m-armageddon-the-next-gen-of-robot-combat-img-9254-150x105.JPEG
+    url: /assets/images/exhibit-images/25-162-m-armageddon-the-next-gen-of-robot-combat-img-9254-300x211.JPEG
     width: 150
     height: 105
   website: https://roboticlegends.com/
@@ -187,8 +187,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2025-08-28 09:34:27"
-last-modified-jotform: "2025-10-02 20:54:49"
-last-exported: "2025-10-03 07:30:05"
+last-modified-jotform: "2025-10-25 13:53:12"
+last-exported: "2025-10-25 13:53:51"
 sitemap: false
 
 ---
