@@ -48,10 +48,15 @@ Check out the [exhibits](/exhibits/), [hands-on workshops](/exhibits/categories/
 ### School Field Trips 
 If you are an educator affiliated with a school, this program includes free admission for students, teachers, administrators and chaperones. 
 
+{% comment %}
 <strong>WE ARE UNABLE TO ACCOMODATE ANY ADDITIONAL SCHOOL GROUPS DUE TO AN AMAZING RESPONSE FOR THIS PROGRAM.</strong> If this is a significant hardship, please email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
+{% endcomment %}
+**The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.** 
 
 ### Homeschool & Virtual School Groups 
 If your student is homeschooled, or is part of a full-time virtual school program, this program includes free admission for students and and a parent or guardian. This program is limited to one adult per student. Participants will be required to upload documentation showing homeschool or full-time virtual school status. 
+
+**The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.** 
 
 ### Important Notes
 
@@ -65,9 +70,12 @@ If your student is homeschooled, or is part of a full-time virtual school progra
 
 ### Questions? Email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
 
+{% comment %}
+
 <br>
 ## [Registration Form Link](https://form.jotform.com/makereffect/mfo2025-field-trip-day)
 <strong>WE ARE UNABLE TO ACCOMODATE ANY ADDITIONAL SCHOOL GROUPS DUE TO AN AMAZING RESPONSE FOR THIS PROGRAM.</strong> If this is a significant hardship, please email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
+{% endcomment %}
 
 <br>
 
