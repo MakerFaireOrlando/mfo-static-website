@@ -6,7 +6,7 @@ slug: robots-that-print-differently
 permalink: /exhibits/robots-that-print-differently/
 exhibit-id: 25-168
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: "SA22"
+space-number: "SA23"
 description: "Explore robotic arm 3D printing: silicone suspension layers, pellet extrusion, and balloon surfaces."
 description-long: "MarshRabbit Robotics is bringing a robotic arm that 3D prints in unusual ways. Instead of sticking to a flat build plate, the robot experiments with silicone printed into gel, pellets of PETG for larger parts, and even printing over balloons. The goal is to explore fun new methods of making while showing how industrial robots can be used for creative projects."
 image: /assets/images/exhibit-images/25-168-e-robots-that-print-differently-whatsapp-image-2025-09-01-at-02-58-04-0536635d-728-300x225.jpg
@@ -33,7 +33,7 @@ maker:
 
 https://www.youtube.com/shorts/GzkWOx35vbw"
   image-primary:
-    url: /assets/images/exhibit-images/25-168-m-robots-that-print-differently-whatsapp-image-2025-09-01-at-02-58-04-0536635d-150x113.jpg
+    url: /assets/images/exhibit-images/25-168-m-robots-that-print-differently-whatsapp-image-2025-09-01-at-02-58-04-0536635d-300x225.jpg
     width: 150
     height: 113
 categories: 
@@ -50,8 +50,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-01 03:31:41"
-last-modified-jotform: "2025-10-02 21:24:51"
-last-exported: "2025-10-03 07:30:03"
+last-modified-jotform: "2025-10-26 11:49:32"
+last-exported: "2025-10-26 11:50:39"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: robots-r-us
 permalink: /exhibits/robots-r-us/
 exhibit-id: 25-187
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: "SA21"
+space-number: "SA25"
 description: "A showcase of the robots designed and built by the Robotics Club of Central Florida."
 description-long: "A showcase of the robots designed and built by the Robotics Club of Central Florida. Categorically, the showcase will include some interactive robots used by the club in Outreach events, a couple of our competition robots, a few of our leisurely projects, and Tape-measure (Our Boston Dynamics Spot robot). Apart from the physical robots, we will have info-graphics that detail how we built the robots and what we use them for."
 image: /assets/images/exhibit-images/25-187-e-robots-r-us-club-poster-300x169.png
@@ -31,7 +31,7 @@ maker:
   name: "Robotics Club of Central Florida"
   description: "The Robotics Club of Central Florida (RCCF) is a club based at the University of Central Florida. As a university academic robotics club, our focus is on building robots for the purpose of education, competition, research, and leisure. RCCF is made up of members from a number of majors in the university; Each of whom contributes to the creation of our robots and the club's functionality."
   image-primary:
-    url: /assets/images/exhibit-images/25-187-m-robots-r-us-img-3305-141x150.png
+    url: /assets/images/exhibit-images/25-187-m-robots-r-us-img-3305-281x300.png
     width: 141
     height: 150
   website: https://rccf.club/
@@ -42,8 +42,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2025-09-16 16:21:06"
-last-modified-jotform: "2025-10-02 21:23:41"
-last-exported: "2025-10-03 07:29:57"
+last-modified-jotform: "2025-10-26 11:50:07"
+last-exported: "2025-10-26 11:50:38"
 sitemap: false
 
 ---

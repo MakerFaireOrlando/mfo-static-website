@@ -6,7 +6,7 @@ slug: a-checkers-playing-robot
 permalink: /exhibits/a-checkers-playing-robot/
 exhibit-id: 25-97
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: "SA20"
+space-number: "SA24"
 description: "Play checkers with a robot and learn about motion control!"
 description-long: "Come play checkers with a robot arm! Our goal is to get you excited about robotics and show off our brand new motion controller: the RTMC Card.
 
@@ -86,7 +86,7 @@ maker:
   name: "Theta Machines"
   description: "We're the makers of RTMC, an advanced motion control platform for robots, CNCs, and other automated devices."
   image-primary:
-    url: /assets/images/exhibit-images/25-97-m-a-checkers-playing-robot-theta-machines-920x283-whitebg-150x46.png
+    url: /assets/images/exhibit-images/25-97-m-a-checkers-playing-robot-theta-machines-920x283-whitebg-300x92.png
     width: 150
     height: 46
   website: https://www.thetamachines.com
@@ -106,8 +106,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-19 00:45:35"
-last-modified-jotform: "2025-10-02 21:20:37"
-last-exported: "2025-10-03 07:30:15"
+last-modified-jotform: "2025-10-26 11:49:50"
+last-exported: "2025-10-26 11:50:47"
 sitemap: false
 
 ---

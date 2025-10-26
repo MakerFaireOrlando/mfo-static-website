@@ -49,7 +49,7 @@ maker:
   name: "Daleks of Florida"
   description: "Fans of Dr Who that build Daleks and have fun with them."
   image-primary:
-    url: /assets/images/exhibit-images/25-30-m-daleks-of-florida-logo-blk-on-white-150x150.jpg
+    url: /assets/images/exhibit-images/25-30-m-daleks-of-florida-logo-blk-on-white-300x300.jpg
     width: 150
     height: 150
   instagram: https://www.instagram.com/Daleks.of.Florida/
@@ -66,8 +66,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2025-06-11 19:40:33"
-last-modified-jotform: "2025-09-30 20:39:34"
-last-exported: "2025-10-02 19:47:07"
+last-modified-jotform: "2025-10-26 11:09:56"
+last-exported: "2025-10-26 11:50:49"
 sitemap: false
 
 ---

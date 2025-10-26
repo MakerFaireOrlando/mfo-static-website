@@ -6,7 +6,7 @@ slug: sumobot-challenge
 permalink: /exhibits/sumobot-challenge/
 exhibit-id: 25-158
 exhibit-zone: "Robot Ruckus (Spirit Building)"
-space-number: "SA24,SA25"
+space-number: "SA19, SA20, SA21, SB20,SB21"
 description: "Self driving, autonomous robots duke it out on the dohyo to see which Sumo robot reigns supreme!"
 description-long: "This exhibit features completely autonomous robots squaring off to wrestle each other in the sumo dohyo.  Robots must react to their opponents, attack, feign, escape and attempt to push their opponents off the edge of the platform, while avoiding the opponent from doing the same!
 
@@ -36,7 +36,7 @@ maker:
   name: "David Ritland"
   description: "I am a maker that loves to work with all sorts of materials from artistic to electronics."
   image-primary:
-    url: /assets/images/exhibit-images/25-158-m-sumobot-challenge-robojoust-banner-150x75.jpg
+    url: /assets/images/exhibit-images/25-158-m-sumobot-challenge-robojoust-banner-300x150.jpg
     width: 150
     height: 75
   youtube: https://www.youtube.com/@davidritland7949
@@ -50,8 +50,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2025-08-25 12:25:47"
-last-modified-jotform: "2025-10-02 21:22:29"
-last-exported: "2025-10-03 07:30:05"
+last-modified-jotform: "2025-10-26 11:48:54"
+last-exported: "2025-10-26 11:50:39"
 sitemap: false
 
 ---
