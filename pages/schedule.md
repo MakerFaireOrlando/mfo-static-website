@@ -32,6 +32,7 @@ Check out the [event program](/program) for a printable map, schedule and more!<
             <option value="" selected="">show all</option>
             <option value=".power-racing-track">Power Racing</option>
             <option value=".main-stage">Main Stage</option>
+            <option value=".outdoor-stage">Outdoor Stage</option>
             <option value=".spirit-building">Spirit Building</option>
           </select>
     	  </div>

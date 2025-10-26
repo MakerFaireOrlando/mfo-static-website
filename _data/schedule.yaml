@@ -33,11 +33,14 @@
     - name: Willow Creative
       url: https://www.youtube.com/@WillowCreative
 
-- title: Lunch Seating
+- title: Lunch Seating & Musical Performance - Bianca Francheska Electric Violinist 
   location: Main Stage
-  description: Grab lunch and then join us for air conditioned seating!
-  date: 2025-11-07 11:30:00
-  enddate: 2025-11-07 13:15:00
+  description: Grab lunch outside and then join us for air conditioned seating and music from Bianca Francheska Electric Violinist!
+  date: 2025-11-07 12:30:00
+  enddate: 2025-11-07 13:45:00
+  guests: 
+    - name: Bianca Francheska Electric Violinist
+      url: /exhibits/bianca-francheska-electric-violinist/
 
 - title: Young Makers
   slug: ftd-youngmakers
@@ -71,6 +74,17 @@
   description: Welcome to Day 1 of Maker Faire Orlando!<br>Make sure to check out the <a href="/exhibits">list of exhibits, hands-on workshops and more so you don't miss any of the action!</a>
   date: 2025-11-08 10:00:00
   image: /assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg
+
+- title: Musical Performance - Amity Park
+  slug: amity-park-sat
+  location: Outdoor Stage
+  description: Amity Park - a group of goobers local to Orlando arranging Disney music with their own pop-punk flavoring.  
+  date: 2025-11-08 10:00:00
+  enddate: 2025-11-08 11:15:00
+  #image: in the queue for graven
+  guests:
+    - name: Amity Park Punk
+      url: https://www.instagram.com/amityparkpunk/
 
 - title: Theme Park Makers Panel
   slug: theme-park-sat
@@ -112,11 +126,25 @@
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
-- title: Lunch Seating & Local Musicians 
+- title: Lunch Seating & Musical Performance - The Comic Con Elvis Tribute 
   location: Main Stage
-  description: Grab lunch outside and then join us for air conditioned seating and music from local musicians!
+  description: Grab lunch outside and then join us for air conditioned seating and music from Jack Apollo, Elvis Tribute Artist with a cosplay twist!
   date: 2025-11-08 12:30:00
   enddate: 2025-11-08 13:45:00
+  guests: 
+    - name: Jack Apollo, Elvis Tribute Artist
+      url: /exhibits/the-comic-con-elvis-tribute/
+
+- title: Musical Performance - Avelyn Davee
+  slug: avelyn-davee-sat
+  location: Outdoor Stage
+  description: Avelyn Davee performs a mix of medieval music for voice and harp as well as modern fandom music, including songs about Sci-fi, Fantasy, books, and games! 
+  date: 2025-11-08 13:00:00
+  enddate: 2025-11-08 13:30:00
+  #image: in the queue for graven
+  guests:
+    - name: Avelyn Davee
+      url: /exhibits/avelyn-davee/
 
 - title: Power Racing - Sprint Race 1
   location: Power Racing Track
@@ -142,6 +170,16 @@
   - name: Willow Creative
     url: https://www.youtube.com/@WillowCreative
 
+- title: Musical Performance - Xander Ravenwolf
+  slug: xander-ravenwolf-sat
+  location: Outdoor Stage
+  description: Musical performance by Xander Ravenwolf (more info coming soon!) 
+  date: 2025-11-08 14:00:00
+  enddate: 2025-11-08 14:30:00
+  #image: in the queue for graven
+  guests:
+    - name: Xander Ravenwolf
+      url: https://www.instagram.com/xanderravenwolf/
  
 - title: Power Racing - Meet & Greet
   location: Power Racing Track
@@ -162,6 +200,16 @@
     - name: Andrea Gellatly of Team Witch Doctor
       url: /exhibits/camp-witch-doctor-tournament/
 
+- title: Musical Performance - Gisela Todd
+  slug: gisela-todd-sat
+  location: Outdoor Stage
+  description: Singer / songwriter / guitarist Gisela Todd performs on the Outdoor Stage.
+  date: 2025-11-08 15:00:00
+  enddate: 2025-11-08 17:00:00
+  #image: in the queue for graven
+  guests:
+    - name: Gisela Todd
+      url: /exhibits/gisela-todd-musician/
 
 - title: Power Racing - Sprint Race 2
   location: Power Racing Track
@@ -227,11 +275,36 @@
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
-- title: Lunch Seating & Local Musicians 
+- title: Musical Performance - Avelyn Davee
+  slug: avelyn-davee-sun
+  location: Outdoor Stage
+  description: Avelyn Davee performs a mix of medieval music for voice and harp as well as modern fandom music, including songs about Sci-fi, Fantasy, books, and games! 
+  date: 2025-11-09 11:00:00
+  enddate: 2025-11-09 11:30:00
+  #image: in the queue for graven
+  guests:
+    - name: Avelyn Davee
+      url: /exhibits/avelyn-davee/
+
+- title: Musical Performance - Gisela Todd
+  slug: gisela-todd-sun
+  location: Outdoor Stage
+  description: Singer / songwriter / guitarist Gisela Todd performs on the Outdoor Stage.
+  date: 2025-11-09 12:00:00
+  enddate: 2025-11-09 13:30:00
+  #image: in the queue for graven
+  guests:
+    - name: Gisela Todd
+      url: /exhibits/gisela-todd-musician/
+
+- title: Lunch Seating & Musical Performance - Bianca Francheska Electric Violinist 
   location: Main Stage
-  description: Grab lunch outside and then join us for air conditioned seating and music from local musicians!
+  description: Grab lunch outside and then join us for air conditioned seating and music from Bianca Francheska Electric Violinist!
   date: 2025-11-09 12:30:00
-  enddate: 2025-11-08 13:45:00
+  enddate: 2025-11-09 13:45:00
+  guests: 
+    - name: Bianca Francheska Electric Violinist
+      url: /exhibits/bianca-francheska-electric-violinist/
 
 - title: Power Racing - Meet & Greet
   location: Power Racing Track
@@ -247,6 +320,17 @@
   description: Step into a world of creativity where cosplayers take beloved characters and give them fresh, unexpected looks.
   date: 2025-11-09 14:00:00
   enddate: 2025-11-09 14:50:00
+
+- title: Musical Performance - New World Music School Student Band
+  slug: new-world-school-sun
+  location: Outdoor Stage
+  description: New World Music School students will perform songs that they have learned throughout the year.
+  date: 2025-11-09 14:00:00
+  enddate: 2025-11-09 14:30:00
+  #image: in the queue for graven
+  guests:
+    - name: New World Music School Student Band
+      url: /exhibits/new-world-music-school-student-band/
  
 - title: Power Racing - Endurance Race
   location: Power Racing Track
@@ -262,7 +346,18 @@
   description: Meet and learn from prop makers who create objects for use in film, TV, theater, and other productions. They work with a range of materials and skills to make props that look realistic and match the production's design
   date: 2025-11-09 15:00:00
   enddate: 2025-11-09 15:50:00
- 
+
+- title: Musical Performance - Tom Haney Band
+  slug: tom-haney-sun
+  location: Outdoor Stage
+  description: Four piece band Tom-vocals/guitar Jin-violin Xander-upright bass Apollo-drums - The sound is somewhere in between Seattle and Nashville!
+  date: 2025-11-09 15:00:00
+  enddate: 2025-11-09 17:00:00
+  #image: in the queue for graven
+  guests:
+    - name: Tom Haney Band
+      url: /exhibits/the-tom-haney-band/
+
 - title: Power Racing - Awards Ceremony
   location: Power Racing Track
   description: The best of the best are on the podium after a long weekend of racing. Cheer them on to glory!
