@@ -141,3 +141,10 @@ sponsors:
     logo: siemon.png
     level: 5
     active: true
+  - name: VP3D Printing
+    url: https://vp3dprinting.com/
+    logo: VP3DLOGO.png
+    level: 5
+    active: true
+
+
