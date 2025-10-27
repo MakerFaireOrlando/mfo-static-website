@@ -64,6 +64,13 @@
   description: Meet passionate robot makers—from high school teams to seasoned builders—as they share how design, engineering, and competition fuel their creations in FIRST robotics and combat arenas.
   date: 2025-11-07 14:00:00
   enddate: 2025-11-07 14:25:00
+  guests: 
+    - name: Andrea Gellatly - BattleBots Team Witch Doctor (Moderator)
+      url: /exhibits/camp-witch-doctor-tournament/
+    - name: Ayden Moheit
+    - name: Colton Wagner
+    - name: Ashworth-Harbas
+
  
 - title: Field Trip Day Ends!
   description: Field Trip Day at Maker Faire Orlando 2025 is over - we will see you next year!
@@ -199,8 +206,14 @@
   enddate: 2025-11-08 15:45:00
   #image: /assets/images/stage/2024/combat.jpg
   guests: 
-    - name: Andrea Gellatly of Team Witch Doctor
+    - name: Andrea Gellatly - Witch Doctor
       url: /exhibits/camp-witch-doctor-tournament/
+    - name: Matt Spurk - Kraken
+    - name: Kyle Awner - Hypershock
+    - name: Andrew Stonewell - Armageddon
+      url: https://www.makerfaireorlando.com/exhibits/armageddon-the-next-gen-of-robot-combat/
+    - name: Sam McAmis - Gruff
+
 
 - title: Musical Performance - Gisela Todd
   slug: gisela-todd-sat
