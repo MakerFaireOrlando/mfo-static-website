@@ -32,15 +32,15 @@ maker:
   name: "Team Taragon"
   description: "Family"
   image-primary:
-    url: /assets/images/exhibit-images/25R-45-m-queen-battle-winner-img-7515-4-112x150.jpeg
+    url: /assets/images/exhibit-images/25R-45-m-queen-battle-winner-img-7515-4-225x300.jpeg
     width: 112
     height: 150
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-26 01:41:10"
-last-modified-jotform: "2025-10-02 21:36:40"
-last-exported: "2025-10-03 07:29:36"
+last-modified-jotform: "2025-10-26 16:06:13"
+last-exported: "2025-10-26 21:59:21"
 sitemap: false
 
 ---

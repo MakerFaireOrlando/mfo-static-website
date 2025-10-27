@@ -50,7 +50,7 @@ maker:
   name: "Florida Odyssey of the Mind"
   description: "International creative, thinking and problem, solving competitive organization for children kindergarten through college level."
   image-primary:
-    url: /assets/images/exhibit-images/25-189-m-florida-odyssey-of-the-mind-img-1465-150x149.jpeg
+    url: /assets/images/exhibit-images/25-189-m-florida-odyssey-of-the-mind-img-1465-300x299.jpeg
     width: 150
     height: 149
   website: https://www.floridaodysseyofthemind.com/
@@ -67,8 +67,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-21 18:59:13"
-last-modified-jotform: "2025-10-05 12:46:25"
-last-exported: "2025-10-05 12:48:48"
+last-modified-jotform: "2025-10-26 20:42:09"
+last-exported: "2025-10-26 22:00:15"
 sitemap: false
 
 ---
