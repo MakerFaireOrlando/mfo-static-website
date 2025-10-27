@@ -55,7 +55,7 @@ Use the [Online Schedule](/schedule) for the most up-to-date schedule of talks, 
 
 Check out the [Maker Faire Program](/program) for a map, schedule and more!
 
-### Space Plans
+### Space Plans - UPDATED
 [Opportunity Building PDF Space Plan](/assets/pdf/2025/MFO25-OPPORTUNITY.pdf) - Space numbers starting with "O"
 
 [Spirit Building PDF Space Plan](/assets/pdf/2025/MFO25-SPIRIT.pdf) - Space numbers starting with "S"
