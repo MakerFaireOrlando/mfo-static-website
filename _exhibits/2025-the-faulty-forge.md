@@ -8,7 +8,7 @@ exhibit-id: 25-68
 exhibit-zone: "Spirit - East"
 space-number: "SH33"
 description: "Several prop builds on tables with a banner. Aiming to inform the audience about my process."
-description-long: "I aim to have several prop builds featured with descriptions of each and how the process went for each. I specialize in hard surface painting, so my setup will aim to highlight this. I will have a 3 foot pit droid that matches the one from the phantom menace, a blaster from alien romulus, various Indiana Jones props and some from Jaws. Others may come as well.
+description-long: "I aim to have several prop builds featured with descriptions of each and how the process went for each. I specialize in hard surface painting, so my setup will aim to highlight this. I will have a 3 foot pit droid that matches the one from the Phantom Menace, a blaster from Alien Romulus, various Indiana Jones props and a client’s Marvel Rivals Moonknight. Others may come as well.
 
 My aim is to highlight the craftsmanship and effort that goes into Hollywood level hard surface painting, as effects studios do it.
 
@@ -34,121 +34,121 @@ image-primary:
 additional-images: 
   - 1:
     full:
-      url: /assets/images/exhibit-images/25-68-e1-the-faulty-forge-img-8142-full.jpeg
-      width: 1582
-      height: 2108
+      url: /assets/images/exhibit-images/25-68-e1-the-faulty-forge-f0ee3ffe-685c-4666-914f-96c34ca99487-full.jpeg
+      width: 3024
+      height: 4032
     small:
-      url: /assets/images/exhibit-images/25-68-e1-the-faulty-forge-img-8142-113x150.jpeg
-      width: 113
+      url: /assets/images/exhibit-images/25-68-e1-the-faulty-forge-f0ee3ffe-685c-4666-914f-96c34ca99487-112x150.jpeg
+      width: 112
       height: 150
     medium:
-      url: /assets/images/exhibit-images/25-68-e1-the-faulty-forge-img-8142-225x300.jpeg
+      url: /assets/images/exhibit-images/25-68-e1-the-faulty-forge-f0ee3ffe-685c-4666-914f-96c34ca99487-225x300.jpeg
       width: 225
       height: 300
     large:
-      url: /assets/images/exhibit-images/25-68-e1-the-faulty-forge-img-8142-768x1024.jpeg
+      url: /assets/images/exhibit-images/25-68-e1-the-faulty-forge-f0ee3ffe-685c-4666-914f-96c34ca99487-768x1024.jpeg
       width: 768
       height: 1024
   - 2:
     full:
-      url: /assets/images/exhibit-images/25-68-e2-the-faulty-forge-img-8029-526-full.jpeg
-      width: 2160
-      height: 2700
+      url: /assets/images/exhibit-images/25-68-e2-the-faulty-forge-img-8142-full.jpeg
+      width: 1582
+      height: 2108
     small:
-      url: /assets/images/exhibit-images/25-68-e2-the-faulty-forge-img-8029-526-120x150.jpeg
-      width: 120
+      url: /assets/images/exhibit-images/25-68-e2-the-faulty-forge-img-8142-113x150.jpeg
+      width: 113
       height: 150
     medium:
-      url: /assets/images/exhibit-images/25-68-e2-the-faulty-forge-img-8029-526-240x300.jpeg
-      width: 240
+      url: /assets/images/exhibit-images/25-68-e2-the-faulty-forge-img-8142-225x300.jpeg
+      width: 225
       height: 300
     large:
-      url: /assets/images/exhibit-images/25-68-e2-the-faulty-forge-img-8029-526-819x1024.jpeg
-      width: 819
+      url: /assets/images/exhibit-images/25-68-e2-the-faulty-forge-img-8142-768x1024.jpeg
+      width: 768
       height: 1024
   - 3:
     full:
-      url: /assets/images/exhibit-images/25-68-e3-the-faulty-forge-img-7943-full.jpeg
-      width: 4032
-      height: 3024
+      url: /assets/images/exhibit-images/25-68-e3-the-faulty-forge-img-8029-526-full.jpeg
+      width: 2160
+      height: 2700
     small:
-      url: /assets/images/exhibit-images/25-68-e3-the-faulty-forge-img-7943-112x150.jpeg
-      width: 112
+      url: /assets/images/exhibit-images/25-68-e3-the-faulty-forge-img-8029-526-120x150.jpeg
+      width: 120
       height: 150
     medium:
-      url: /assets/images/exhibit-images/25-68-e3-the-faulty-forge-img-7943-225x300.jpeg
-      width: 225
+      url: /assets/images/exhibit-images/25-68-e3-the-faulty-forge-img-8029-526-240x300.jpeg
+      width: 240
       height: 300
     large:
-      url: /assets/images/exhibit-images/25-68-e3-the-faulty-forge-img-7943-768x1024.jpeg
-      width: 768
+      url: /assets/images/exhibit-images/25-68-e3-the-faulty-forge-img-8029-526-819x1024.jpeg
+      width: 819
       height: 1024
   - 4:
     full:
-      url: /assets/images/exhibit-images/25-68-e4-the-faulty-forge-img-8107-8093-full.jpeg
+      url: /assets/images/exhibit-images/25-68-e4-the-faulty-forge-img-7943-full.jpeg
       width: 4032
       height: 3024
     small:
-      url: /assets/images/exhibit-images/25-68-e4-the-faulty-forge-img-8107-8093-112x150.jpeg
+      url: /assets/images/exhibit-images/25-68-e4-the-faulty-forge-img-7943-112x150.jpeg
       width: 112
       height: 150
     medium:
-      url: /assets/images/exhibit-images/25-68-e4-the-faulty-forge-img-8107-8093-225x300.jpeg
+      url: /assets/images/exhibit-images/25-68-e4-the-faulty-forge-img-7943-225x300.jpeg
       width: 225
       height: 300
     large:
-      url: /assets/images/exhibit-images/25-68-e4-the-faulty-forge-img-8107-8093-768x1024.jpeg
+      url: /assets/images/exhibit-images/25-68-e4-the-faulty-forge-img-7943-768x1024.jpeg
       width: 768
       height: 1024
   - 5:
     full:
-      url: /assets/images/exhibit-images/25-68-e5-the-faulty-forge-img-7888-4044-full.jpeg
-      width: 3024
-      height: 4032
+      url: /assets/images/exhibit-images/25-68-e5-the-faulty-forge-img-8107-8093-full.jpeg
+      width: 4032
+      height: 3024
     small:
-      url: /assets/images/exhibit-images/25-68-e5-the-faulty-forge-img-7888-4044-112x150.jpeg
+      url: /assets/images/exhibit-images/25-68-e5-the-faulty-forge-img-8107-8093-112x150.jpeg
       width: 112
       height: 150
     medium:
-      url: /assets/images/exhibit-images/25-68-e5-the-faulty-forge-img-7888-4044-225x300.jpeg
+      url: /assets/images/exhibit-images/25-68-e5-the-faulty-forge-img-8107-8093-225x300.jpeg
       width: 225
       height: 300
     large:
-      url: /assets/images/exhibit-images/25-68-e5-the-faulty-forge-img-7888-4044-768x1024.jpeg
+      url: /assets/images/exhibit-images/25-68-e5-the-faulty-forge-img-8107-8093-768x1024.jpeg
       width: 768
       height: 1024
   - 6:
     full:
-      url: /assets/images/exhibit-images/25-68-e6-the-faulty-forge-img-7741-83-full.jpeg
-      width: 4032
-      height: 3024
+      url: /assets/images/exhibit-images/25-68-e6-the-faulty-forge-img-7888-4044-full.jpeg
+      width: 3024
+      height: 4032
     small:
-      url: /assets/images/exhibit-images/25-68-e6-the-faulty-forge-img-7741-83-112x150.jpeg
+      url: /assets/images/exhibit-images/25-68-e6-the-faulty-forge-img-7888-4044-112x150.jpeg
       width: 112
       height: 150
     medium:
-      url: /assets/images/exhibit-images/25-68-e6-the-faulty-forge-img-7741-83-225x300.jpeg
+      url: /assets/images/exhibit-images/25-68-e6-the-faulty-forge-img-7888-4044-225x300.jpeg
       width: 225
       height: 300
     large:
-      url: /assets/images/exhibit-images/25-68-e6-the-faulty-forge-img-7741-83-768x1024.jpeg
+      url: /assets/images/exhibit-images/25-68-e6-the-faulty-forge-img-7888-4044-768x1024.jpeg
       width: 768
       height: 1024
   - 7:
     full:
-      url: /assets/images/exhibit-images/25-68-e7-the-faulty-forge-img-7740-352-full.jpeg
+      url: /assets/images/exhibit-images/25-68-e7-the-faulty-forge-img-7741-83-full.jpeg
       width: 4032
       height: 3024
     small:
-      url: /assets/images/exhibit-images/25-68-e7-the-faulty-forge-img-7740-352-112x150.jpeg
+      url: /assets/images/exhibit-images/25-68-e7-the-faulty-forge-img-7741-83-112x150.jpeg
       width: 112
       height: 150
     medium:
-      url: /assets/images/exhibit-images/25-68-e7-the-faulty-forge-img-7740-352-225x300.jpeg
+      url: /assets/images/exhibit-images/25-68-e7-the-faulty-forge-img-7741-83-225x300.jpeg
       width: 225
       height: 300
     large:
-      url: /assets/images/exhibit-images/25-68-e7-the-faulty-forge-img-7740-352-768x1024.jpeg
+      url: /assets/images/exhibit-images/25-68-e7-the-faulty-forge-img-7741-83-768x1024.jpeg
       width: 768
       height: 1024
   - 8:
@@ -210,7 +210,7 @@ I specialize in aging and focus on 1 of 1 pieces aimed at a high level of attent
 
 As a hard surface painter, I recreate famous pieces from Hollywood history with my own take."
   image-primary:
-    url: /assets/images/exhibit-images/25-68-m-the-faulty-forge-untitled-150x150.png
+    url: /assets/images/exhibit-images/25-68-m-the-faulty-forge-untitled-300x300.png
     width: 150
     height: 150
   instagram: https://www.instagram.com/thefaultyforge?igsh=MXJzd3FpZXZhY256ZA%3D%3D&utm_source=qr
@@ -228,8 +228,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-05 07:46:50"
-last-modified-jotform: "2025-09-30 20:30:52"
-last-exported: "2025-10-02 19:46:42"
+last-modified-jotform: "2025-10-28 12:17:36"
+last-exported: "2025-10-28 21:05:11"
 sitemap: false
 
 ---
