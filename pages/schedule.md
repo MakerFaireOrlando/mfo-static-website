@@ -33,7 +33,7 @@ Check out the [event program](/program) for a printable map, schedule and more!<
             <option value=".power-racing-track">Power Racing</option>
             <option value=".main-stage">Main Stage</option>
             <option value=".outdoor-stage">Outdoor Stage</option>
-            <option value=".spirit-building">Spirit Building</option>
+            <option value=".robot-ruckus">Robot Ruckus</option>
           </select>
     	  </div>
 

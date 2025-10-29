@@ -36,8 +36,8 @@
 - title: Lunch Seating & Musical Performance - Bianca Francheska Electric Violinist 
   location: Main Stage
   description: Grab lunch outside and then join us for air conditioned seating and music from Bianca Francheska Electric Violinist!
-  date: 2025-11-07 12:30:00
-  enddate: 2025-11-07 13:45:00
+  date: 2025-11-07 11:30:00
+  enddate: 2025-11-07 13:15:00
   image: /assets/images/stage/2025/bianca_francheska.jpg
   guests: 
     - name: Bianca Francheska Electric Violinist
@@ -115,11 +115,19 @@
 
 - title: RoboClash Audience Tournament
   slug: roboclash-sat1
-  location: RoboClash (Near Robot Ruckus)
+  location: Robot Ruckus
   description: This robot battle tournament is open for YOU to compete in! We will be choosing 8 volunteers at the start of each show to each pilot a robot in this tournament. There will be 3 rounds of battles, then a champion will be crowned! Be part of the action!
   date: 2025-11-08 10:30:00
   enddate: 2025-11-08 11:00:00
   image: /assets/images/stage/2025/roboclash.jpg
+
+- title: Robot Ruckus Fights Begin!
+  slug: robotruckus-sat
+  location: Robot Ruckus
+  description: The arenas open for the first rounds of robotic combat! Watch as custom-built bots clash in a test of engineering, strategy, and sheer mechanical muscle. It’s the kickoff to a weekend of glorious gear-grinding action.
+  date: 2025-11-08 11:00:00
+  image: /assets/images/robot_ruckus_logo_300w.png
+
 
 - title: 3D Printing for Theme Parks
   slug: 3dprinting-sat
@@ -253,7 +261,7 @@
 
 - title: RoboClash Audience Tournament
   slug: roboclash-sat2
-  location: RoboClash (Near Robot Ruckus)
+  location: Robot Ruckus
   description: This robot battle tournament is open for YOU to compete in! We will be choosing 8 volunteers at the start of each show to each pilot a robot in this tournament. There will be 3 rounds of battles, then a champion will be crowned! Be part of the action!
   date: 2025-11-08 16:15:00
   enddate: 2025-11-08 16:45:00
@@ -271,6 +279,13 @@
   enddate: 2025-11-09 17:00:00
   image: /assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg
 
+- title: Robot Ruckus Fights Resume!
+  slug: robotruckus-sun
+  location: Robot Ruckus
+  description: Sunday brings the final rounds of Robot Ruckus—where the toughest machines face off and winners in each class are crowned. Expect high stakes, wild hits, and a crowd roaring for their favorites. Who will survive the scrap?
+  date: 2025-11-09 10:00:00
+  image: /assets/images/robot_ruckus_logo_300w.png
+
 - title: Theme Park Makers Panel
   slug: theme-park-sun
   location: Main Stage
@@ -284,7 +299,7 @@
 
 - title: RoboClash Audience Tournament
   slug: roboclash-sun1
-  location: RoboClash (Near Robot Ruckus)
+  location: Robot Ruckus
   description: This robot battle tournament is open for YOU to compete in! We will be choosing 8 volunteers at the start of each show to each pilot a robot in this tournament. There will be 3 rounds of battles, then a champion will be crowned! Be part of the action!
   date: 2025-11-09 10:30:00
   enddate: 2025-11-09 11:00:00
