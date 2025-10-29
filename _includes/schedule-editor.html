@@ -1,0 +1,798 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
+<style>
+    #schedule-editor-app * {
+        box-sizing: border-box;
+    }
+
+    #schedule-editor-app {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        background: #f5f5f5;
+        padding: 20px;
+        margin: -20px;
+    }
+
+    #schedule-editor-app .se-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        overflow: hidden;
+    }
+
+    #schedule-editor-app .se-header {
+        background: #2c3e50;
+        color: white;
+        padding: 20px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #schedule-editor-app .se-header h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    #schedule-editor-app .se-header-actions {
+        display: flex;
+        gap: 10px;
+    }
+
+    #schedule-editor-app .se-btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        transition: all 0.2s;
+    }
+
+    #schedule-editor-app .se-btn-primary {
+        background: #3498db;
+        color: white;
+    }
+
+    #schedule-editor-app .se-btn-primary:hover {
+        background: #2980b9;
+    }
+
+    #schedule-editor-app .se-btn-success {
+        background: #27ae60;
+        color: white;
+    }
+
+    #schedule-editor-app .se-btn-success:hover {
+        background: #229954;
+    }
+
+    #schedule-editor-app .se-btn-danger {
+        background: #e74c3c;
+        color: white;
+    }
+
+    #schedule-editor-app .se-btn-danger:hover {
+        background: #c0392b;
+    }
+
+    #schedule-editor-app .se-btn-secondary {
+        background: #95a5a6;
+        color: white;
+    }
+
+    #schedule-editor-app .se-btn-secondary:hover {
+        background: #7f8c8d;
+    }
+
+    #schedule-editor-app .se-content {
+        display: flex;
+        height: calc(100vh - 140px);
+    }
+
+    #schedule-editor-app .se-sidebar {
+        width: 350px;
+        border-right: 1px solid #e0e0e0;
+        overflow-y: auto;
+        background: #fafafa;
+    }
+
+    #schedule-editor-app .se-schedule-list {
+        padding: 10px;
+    }
+
+    #schedule-editor-app .se-schedule-item {
+        background: white;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        padding: 12px;
+        margin-bottom: 8px;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+
+    #schedule-editor-app .se-schedule-item:hover {
+        border-color: #3498db;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    #schedule-editor-app .se-schedule-item.active {
+        border-color: #3498db;
+        background: #e8f4f8;
+    }
+
+    #schedule-editor-app .se-schedule-item-title {
+        font-weight: 600;
+        font-size: 14px;
+        margin-bottom: 4px;
+        color: #2c3e50;
+    }
+
+    #schedule-editor-app .se-schedule-item-meta {
+        font-size: 12px;
+        color: #7f8c8d;
+    }
+
+    #schedule-editor-app .se-editor {
+        flex: 1;
+        padding: 30px;
+        overflow-y: auto;
+    }
+
+    #schedule-editor-app .se-editor-empty {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        color: #95a5a6;
+        font-size: 16px;
+    }
+
+    #schedule-editor-app .se-form-group {
+        margin-bottom: 20px;
+    }
+
+    #schedule-editor-app .se-form-group label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: 500;
+        color: #2c3e50;
+        font-size: 14px;
+    }
+
+    #schedule-editor-app .se-form-group input,
+    #schedule-editor-app .se-form-group textarea,
+    #schedule-editor-app .se-form-group select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+        font-family: inherit;
+    }
+
+    #schedule-editor-app .se-form-group textarea {
+        min-height: 100px;
+        resize: vertical;
+    }
+
+    #schedule-editor-app .se-form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    #schedule-editor-app .se-guests-section {
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        padding: 15px;
+        background: #fafafa;
+    }
+
+    #schedule-editor-app .se-guest-item {
+        background: white;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        padding: 12px;
+        margin-bottom: 10px;
+    }
+
+    #schedule-editor-app .se-guest-item-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    #schedule-editor-app .se-btn-small {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    #schedule-editor-app .se-editor-actions {
+        display: flex;
+        gap: 10px;
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #e0e0e0;
+    }
+
+    #schedule-editor-app .se-modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.5);
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+    }
+
+    #schedule-editor-app .se-modal.active {
+        display: flex;
+    }
+
+    #schedule-editor-app .se-modal-content {
+        background: white;
+        border-radius: 8px;
+        width: 90%;
+        max-width: 800px;
+        max-height: 90vh;
+        overflow-y: auto;
+        padding: 30px;
+    }
+
+    #schedule-editor-app .se-modal-header {
+        margin-bottom: 20px;
+    }
+
+    #schedule-editor-app .se-modal-header h2 {
+        color: #2c3e50;
+        margin: 0;
+    }
+
+    #schedule-editor-app .se-modal-actions {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        justify-content: flex-end;
+    }
+
+    #schedule-editor-app .se-yaml-preview {
+        background: #2c3e50;
+        color: #ecf0f1;
+        padding: 20px;
+        border-radius: 4px;
+        font-family: 'Courier New', monospace;
+        font-size: 12px;
+        max-height: 500px;
+        overflow: auto;
+        white-space: pre;
+    }
+
+    #schedule-editor-app .se-import-section {
+        margin-bottom: 20px;
+    }
+
+    #schedule-editor-app .se-file-input-wrapper {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    #schedule-editor-app .se-file-input-wrapper input[type=file] {
+        position: absolute;
+        left: -9999px;
+    }
+
+    #schedule-editor-app .se-help-text {
+        font-size: 12px;
+        color: #7f8c8d;
+        margin-top: 4px;
+    }
+
+    #schedule-editor-app .se-section-title {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        color: #2c3e50;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #3498db;
+    }
+</style>
+
+<div id="schedule-editor-app">
+    <div class="se-container">
+        <div class="se-header">
+            <h1>Schedule Editor</h1>
+            <div class="se-header-actions">
+                <button class="se-btn se-btn-primary" onclick="scheduleEditor.addNewEvent()">Add New Event</button>
+                <button class="se-btn se-btn-secondary" onclick="scheduleEditor.reloadFromGitHub()">Reload from GitHub</button>
+                <button class="se-btn se-btn-success" onclick="scheduleEditor.exportYAML()">Export YAML</button>
+                <button class="se-btn se-btn-secondary" onclick="scheduleEditor.importYAML()">Import YAML</button>
+            </div>
+        </div>
+
+        <div class="se-content">
+            <div class="se-sidebar">
+                <div class="se-schedule-list" id="scheduleList">
+                    <!-- Schedule items will be rendered here -->
+                </div>
+            </div>
+
+            <div class="se-editor" id="editor">
+                <div class="se-editor-empty">
+                    Select an event to edit or create a new one
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Export Modal -->
+    <div class="se-modal" id="exportModal">
+        <div class="se-modal-content">
+            <div class="se-modal-header">
+                <h2>Export YAML</h2>
+            </div>
+            <div class="se-yaml-preview" id="yamlPreview"></div>
+            <div class="se-modal-actions">
+                <button class="se-btn se-btn-success" onclick="scheduleEditor.downloadYAML()">Download File</button>
+                <button class="se-btn se-btn-secondary" onclick="scheduleEditor.copyYAML()">Copy to Clipboard</button>
+                <button class="se-btn se-btn-secondary" onclick="scheduleEditor.closeModal('exportModal')">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import Modal -->
+    <div class="se-modal" id="importModal">
+        <div class="se-modal-content">
+            <div class="se-modal-header">
+                <h2>Import YAML</h2>
+            </div>
+            <div class="se-import-section">
+                <div class="se-form-group">
+                    <label>Upload YAML File</label>
+                    <div class="se-file-input-wrapper">
+                        <button class="se-btn se-btn-primary">Choose File</button>
+                        <input type="file" id="yamlFileInput" accept=".yaml,.yml" onchange="scheduleEditor.handleFileUpload(event)">
+                    </div>
+                </div>
+                <div class="se-form-group">
+                    <label>Or Paste YAML Content</label>
+                    <textarea id="yamlTextInput" style="min-height: 300px; font-family: monospace;"></textarea>
+                </div>
+            </div>
+            <div class="se-modal-actions">
+                <button class="se-btn se-btn-success" onclick="scheduleEditor.processImport()">Import</button>
+                <button class="se-btn se-btn-secondary" onclick="scheduleEditor.closeModal('importModal')">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    class ScheduleEditor {
+        constructor() {
+            this.events = [];
+            this.currentEvent = null;
+            this.currentIndex = null;
+            this.init();
+        }
+
+        async init() {
+            // Try to load from localStorage
+            const saved = localStorage.getItem('scheduleData');
+            if (saved) {
+                this.events = JSON.parse(saved);
+                this.renderList();
+            } else {
+                // If no local data, fetch from GitHub
+                await this.fetchFromGitHub();
+            }
+        }
+
+        async fetchFromGitHub() {
+            const url = 'https://raw.githubusercontent.com/MakerFaireOrlando/mfo-static-website/refs/heads/master/_data/schedule.yaml';
+
+            try {
+                document.getElementById('scheduleList').innerHTML = '<div style="padding: 20px; text-align: center; color: #7f8c8d;">Loading schedule from GitHub...</div>';
+
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error('Failed to fetch schedule');
+                }
+
+                const yamlText = await response.text();
+                const parsed = jsyaml.load(yamlText);
+
+                if (Array.isArray(parsed)) {
+                    // Convert Date objects to ISO strings
+                    this.events = parsed.map(event => {
+                        const converted = {...event};
+                        if (converted.date instanceof Date) {
+                            converted.date = converted.date.toISOString();
+                        }
+                        if (converted.enddate instanceof Date) {
+                            converted.enddate = converted.enddate.toISOString();
+                        }
+                        return converted;
+                    });
+
+                    this.save();
+                    this.renderList();
+                }
+            } catch (error) {
+                console.error('Error fetching schedule:', error);
+                document.getElementById('scheduleList').innerHTML = '<div style="padding: 20px; text-align: center; color: #e74c3c;">Failed to load schedule from GitHub. Use "Import YAML" to load manually.</div>';
+            }
+        }
+
+        reloadFromGitHub() {
+            if (confirm('This will replace your current schedule with the latest version from GitHub. Any unsaved changes will be lost. Continue?')) {
+                this.currentEvent = null;
+                this.currentIndex = null;
+                this.fetchFromGitHub();
+                this.renderEditor();
+            }
+        }
+
+        formatDateForInput(date) {
+            if (!date) return '';
+            // Handle Date objects or ISO strings
+            if (date instanceof Date) {
+                return date.toISOString().slice(0, 16);
+            }
+            if (typeof date === 'string') {
+                return date.slice(0, 16);
+            }
+            return '';
+        }
+
+        save() {
+            localStorage.setItem('scheduleData', JSON.stringify(this.events));
+        }
+
+        renderList() {
+            const list = document.getElementById('scheduleList');
+            list.innerHTML = '';
+
+            // Sort events by date
+            const sortedEvents = [...this.events].sort((a, b) => {
+                return new Date(a.date) - new Date(b.date);
+            });
+
+            sortedEvents.forEach((event, originalIndex) => {
+                const actualIndex = this.events.indexOf(event);
+                const item = document.createElement('div');
+                item.className = 'se-schedule-item';
+                if (actualIndex === this.currentIndex) {
+                    item.classList.add('active');
+                }
+
+                const dateStr = new Date(event.date).toLocaleString('en-US', {
+                    month: 'short',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+
+                item.innerHTML = `
+                    <div class="se-schedule-item-title">${event.title || 'Untitled Event'}</div>
+                    <div class="se-schedule-item-meta">${dateStr}${event.location ? ' • ' + event.location : ''}</div>
+                `;
+
+                item.onclick = () => this.editEvent(actualIndex);
+                list.appendChild(item);
+            });
+        }
+
+        addNewEvent() {
+            const newEvent = {
+                title: '',
+                date: new Date().toISOString().slice(0, 16),
+                description: '',
+                location: '',
+                slug: '',
+                enddate: '',
+                image: '',
+                url: '',
+                guests: []
+            };
+
+            this.events.push(newEvent);
+            this.currentIndex = this.events.length - 1;
+            this.currentEvent = newEvent;
+            this.renderList();
+            this.renderEditor();
+        }
+
+        editEvent(index) {
+            this.currentIndex = index;
+            this.currentEvent = this.events[index];
+            this.renderList();
+            this.renderEditor();
+        }
+
+        renderEditor() {
+            const editor = document.getElementById('editor');
+
+            if (this.currentEvent === null) {
+                editor.innerHTML = '<div class="se-editor-empty">Select an event to edit or create a new one</div>';
+                return;
+            }
+
+            const event = this.currentEvent;
+
+            editor.innerHTML = `
+                <div class="se-section-title">Event Details</div>
+
+                <div class="se-form-group">
+                    <label>Title *</label>
+                    <input type="text" id="title" value="${event.title || ''}" onchange="scheduleEditor.updateField('title', this.value)">
+                </div>
+
+                <div class="se-form-row">
+                    <div class="se-form-group">
+                        <label>Slug (URL identifier)</label>
+                        <input type="text" id="slug" value="${event.slug || ''}" onchange="scheduleEditor.updateField('slug', this.value)">
+                        <div class="se-help-text">Optional unique identifier for the event</div>
+                    </div>
+                    <div class="se-form-group">
+                        <label>Location</label>
+                        <input type="text" id="location" value="${event.location || ''}" onchange="scheduleEditor.updateField('location', this.value)">
+                    </div>
+                </div>
+
+                <div class="se-form-group">
+                    <label>Description</label>
+                    <textarea id="description" onchange="scheduleEditor.updateField('description', this.value)">${event.description || ''}</textarea>
+                    <div class="se-help-text">HTML is allowed in descriptions</div>
+                </div>
+
+                <div class="se-form-row">
+                    <div class="se-form-group">
+                        <label>Start Date & Time *</label>
+                        <input type="datetime-local" id="date" value="${this.formatDateForInput(event.date)}" onchange="scheduleEditor.updateField('date', this.value)">
+                    </div>
+                    <div class="se-form-group">
+                        <label>End Date & Time</label>
+                        <input type="datetime-local" id="enddate" value="${this.formatDateForInput(event.enddate)}" onchange="scheduleEditor.updateField('enddate', this.value)">
+                    </div>
+                </div>
+
+                <div class="se-form-row">
+                    <div class="se-form-group">
+                        <label>Image URL</label>
+                        <input type="text" id="image" value="${event.image || ''}" onchange="scheduleEditor.updateField('image', this.value)">
+                    </div>
+                    <div class="se-form-group">
+                        <label>External URL</label>
+                        <input type="text" id="url" value="${event.url || ''}" onchange="scheduleEditor.updateField('url', this.value)">
+                    </div>
+                </div>
+
+                <div class="se-form-group">
+                    <label>Guests</label>
+                    <div class="se-guests-section" id="guestsSection">
+                        ${this.renderGuests()}
+                        <button class="se-btn se-btn-primary se-btn-small" onclick="scheduleEditor.addGuest()">Add Guest</button>
+                    </div>
+                </div>
+
+                <div class="se-editor-actions">
+                    <button class="se-btn se-btn-danger" onclick="scheduleEditor.deleteEvent()">Delete Event</button>
+                </div>
+            `;
+        }
+
+        renderGuests() {
+            if (!this.currentEvent.guests || this.currentEvent.guests.length === 0) {
+                return '<p style="color: #7f8c8d; font-size: 14px; margin-bottom: 10px;">No guests added yet</p>';
+            }
+
+            return this.currentEvent.guests.map((guest, index) => `
+                <div class="se-guest-item">
+                    <div class="se-guest-item-header">
+                        <strong>Guest ${index + 1}</strong>
+                        <button class="se-btn se-btn-danger se-btn-small" onclick="scheduleEditor.removeGuest(${index})">Remove</button>
+                    </div>
+                    <div class="se-form-group">
+                        <label>Name</label>
+                        <input type="text" value="${guest.name || ''}" onchange="scheduleEditor.updateGuest(${index}, 'name', this.value)">
+                    </div>
+                    <div class="se-form-group">
+                        <label>URL</label>
+                        <input type="text" value="${guest.url || ''}" onchange="scheduleEditor.updateGuest(${index}, 'url', this.value)">
+                    </div>
+                    <div class="se-form-group">
+                        <label>Image URL</label>
+                        <input type="text" value="${guest.image || ''}" onchange="scheduleEditor.updateGuest(${index}, 'image', this.value)">
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        updateField(field, value) {
+            if (this.currentEvent) {
+                this.currentEvent[field] = value || undefined;
+                this.save();
+                this.renderList();
+            }
+        }
+
+        addGuest() {
+            if (this.currentEvent) {
+                if (!this.currentEvent.guests) {
+                    this.currentEvent.guests = [];
+                }
+                this.currentEvent.guests.push({ name: '', url: '', image: '' });
+                this.save();
+                this.renderEditor();
+            }
+        }
+
+        removeGuest(index) {
+            if (this.currentEvent && this.currentEvent.guests) {
+                this.currentEvent.guests.splice(index, 1);
+                this.save();
+                this.renderEditor();
+            }
+        }
+
+        updateGuest(index, field, value) {
+            if (this.currentEvent && this.currentEvent.guests && this.currentEvent.guests[index]) {
+                this.currentEvent.guests[index][field] = value || undefined;
+                this.save();
+            }
+        }
+
+        deleteEvent() {
+            if (confirm('Are you sure you want to delete this event?')) {
+                this.events.splice(this.currentIndex, 1);
+                this.currentEvent = null;
+                this.currentIndex = null;
+                this.save();
+                this.renderList();
+                this.renderEditor();
+            }
+        }
+
+        exportYAML() {
+            // Clean up empty fields before export
+            const cleanEvents = this.events.map(event => {
+                const cleaned = {};
+                Object.keys(event).forEach(key => {
+                    if (event[key] !== undefined && event[key] !== '' && event[key] !== null) {
+                        if (key === 'guests' && Array.isArray(event[key])) {
+                            const cleanedGuests = event[key].map(guest => {
+                                const cleanedGuest = {};
+                                Object.keys(guest).forEach(guestKey => {
+                                    if (guest[guestKey] !== undefined && guest[guestKey] !== '' && guest[guestKey] !== null) {
+                                        cleanedGuest[guestKey] = guest[guestKey];
+                                    }
+                                });
+                                return Object.keys(cleanedGuest).length > 0 ? cleanedGuest : null;
+                            }).filter(g => g !== null);
+                            if (cleanedGuests.length > 0) {
+                                cleaned[key] = cleanedGuests;
+                            }
+                        } else {
+                            cleaned[key] = event[key];
+                        }
+                    }
+                });
+                return cleaned;
+            });
+
+            // Sort by date
+            cleanEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+            const yamlString = '#YOU MUST SORT THESE ITEMS!!!\n' + jsyaml.dump(cleanEvents, {
+                indent: 2,
+                lineWidth: -1,
+                noRefs: true,
+                sortKeys: false
+            });
+
+            document.getElementById('yamlPreview').textContent = yamlString;
+            this.openModal('exportModal');
+        }
+
+        downloadYAML() {
+            const yamlContent = document.getElementById('yamlPreview').textContent;
+            const blob = new Blob([yamlContent], { type: 'text/yaml' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'schedule.yaml';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        copyYAML() {
+            const yamlContent = document.getElementById('yamlPreview').textContent;
+            navigator.clipboard.writeText(yamlContent).then(() => {
+                alert('YAML copied to clipboard!');
+            });
+        }
+
+        importYAML() {
+            this.openModal('importModal');
+        }
+
+        handleFileUpload(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    document.getElementById('yamlTextInput').value = e.target.result;
+                };
+                reader.readAsText(file);
+            }
+        }
+
+        processImport() {
+            const yamlText = document.getElementById('yamlTextInput').value;
+            if (!yamlText.trim()) {
+                alert('Please provide YAML content to import');
+                return;
+            }
+
+            try {
+                const parsed = jsyaml.load(yamlText);
+                if (!Array.isArray(parsed)) {
+                    throw new Error('YAML must contain an array of events');
+                }
+
+                // Convert Date objects to ISO strings
+                this.events = parsed.map(event => {
+                    const converted = {...event};
+                    if (converted.date instanceof Date) {
+                        converted.date = converted.date.toISOString();
+                    }
+                    if (converted.enddate instanceof Date) {
+                        converted.enddate = converted.enddate.toISOString();
+                    }
+                    return converted;
+                });
+
+                this.currentEvent = null;
+                this.currentIndex = null;
+                this.save();
+                this.renderList();
+                this.renderEditor();
+                this.closeModal('importModal');
+                alert('Schedule imported successfully!');
+            } catch (error) {
+                alert('Error parsing YAML: ' + error.message);
+            }
+        }
+
+        openModal(id) {
+            document.getElementById(id).classList.add('active');
+        }
+
+        closeModal(id) {
+            document.getElementById(id).classList.remove('active');
+            if (id === 'importModal') {
+                document.getElementById('yamlTextInput').value = '';
+                document.getElementById('yamlFileInput').value = '';
+            }
+        }
+    }
+
+    // Initialize the editor
+    const scheduleEditor = new ScheduleEditor();
+
+    // Close modals when clicking outside
+    document.querySelectorAll('.se-modal').forEach(modal => {
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                scheduleEditor.closeModal(modal.id);
+            }
+        });
+    });
+</script>
