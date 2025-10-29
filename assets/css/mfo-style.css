@@ -340,3 +340,47 @@ body .navbar-nav>li>.dropdown-menu>li>a:focus {
   color: #ffffff !important;
   transition: none !important;
 }
+
+/* Mobile fixes for overlapping images */
+@media (max-width: 767px) {
+  /* Fix sponsor box overlapping on mobile */
+  .sponsors-landing .sponsors-box-lg {
+    width: 148px !important;
+    height: 100px !important;
+    min-width: 0;
+    flex-shrink: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: none !important;
+  }
+
+  .sponsors-landing .sponsors-box-lg img {
+    max-height: 150px !important;
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .sponsors-landing .faire-sponsors-box {
+    gap: 10px;
+  }
+
+  /* Fix footer overlapping images */
+  .gmf-footer .padtop .col-xs-6 {
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .gmf-footer .padtop .col-xs-6 img {
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+  }
+}
