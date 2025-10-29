@@ -110,8 +110,16 @@
   description: These tiny electric racers are ready to race for glory - you can stop by the track to see the qualifying action!
   date: 2025-11-08 10:30:00
   enddate: 2025-11-08 11:30:00
-  image: /assets/images/ppprs-logo.png
+  image: /assets/images/power-racing.gif
   url: /exhibits/categories/power-racing/
+
+- title: RoboClash Audience Tournament
+  slug: roboclash-sat1
+  location: RoboClash (Near Robot Ruckus)
+  description: This robot battle tournament is open for YOU to compete in! We will be choosing 8 volunteers at the start of each show to each pilot a robot in this tournament. There will be 3 rounds of battles, then a champion will be crowned! Be part of the action!
+  date: 2025-11-08 10:30:00
+  enddate: 2025-11-08 11:00:00
+  image: /assets/images/stage/2025/roboclash.jpg
 
 - title: 3D Printing for Theme Parks
   slug: 3dprinting-sat
@@ -126,12 +134,13 @@
     - name: Andrew Lippens, Technical Designer, Adirondak Studios
       url: https://www.linkedin.com/in/andrew-lippens-89b56615b/
 
+
 - title: Power Racing - Relay Race
   location: Power Racing Track
   description:
   date: 2025-11-08 11:30:00
-  date: 2025-11-08 12:00:00
-  image: /assets/images/ppprs-logo.png
+  enddate: 2025-11-08 12:00:00
+  image: /assets/images/power-racing2.gif
   url: /exhibits/categories/power-racing/
 
 - title: Lunch Seating & Musical Performance - The Comic Con Elvis Tribute 
@@ -194,7 +203,7 @@
   location: Power Racing Track
   description: Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!
   date: 2025-11-08 13:00:00
-  date: 2025-11-08 13:45:00
+  enddate: 2025-11-08 13:45:00
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
@@ -230,7 +239,7 @@
   location: Power Racing Track
   description:
   date: 2025-11-08 16:00:00
-  date: 2025-11-08 16:30:00
+  enddate: 2025-11-08 16:30:00
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
@@ -241,6 +250,14 @@
   date: 2025-11-08 16:00:00
   enddate: 2025-11-08 17:00:00
   #image: /assets/images/stage/2024/ricardo.jpg
+
+- title: RoboClash Audience Tournament
+  slug: roboclash-sat2
+  location: RoboClash (Near Robot Ruckus)
+  description: This robot battle tournament is open for YOU to compete in! We will be choosing 8 volunteers at the start of each show to each pilot a robot in this tournament. There will be 3 rounds of battles, then a champion will be crowned! Be part of the action!
+  date: 2025-11-08 16:15:00
+  enddate: 2025-11-08 16:45:00
+  image: /assets/images/stage/2025/roboclash.jpg
  
 - title: Maker Faire Day 1 is Over!
   description: We will see you Tomorrow!
@@ -265,6 +282,13 @@
     - name: Tim Eck, Director, Engineering & Safety, Universal Creative
       url: https://www.linkedin.com/in/tim-eck/
 
+- title: RoboClash Audience Tournament
+  slug: roboclash-sun1
+  location: RoboClash (Near Robot Ruckus)
+  description: This robot battle tournament is open for YOU to compete in! We will be choosing 8 volunteers at the start of each show to each pilot a robot in this tournament. There will be 3 rounds of battles, then a champion will be crowned! Be part of the action!
+  date: 2025-11-09 10:30:00
+  enddate: 2025-11-09 11:00:00
+  image: /assets/images/stage/2025/roboclash.jpg
 
 - title: The Future of 3D Printing
   slug: 3d-printing-sun
@@ -331,12 +355,20 @@
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
-- title: Cosplay Creators Panel
+- title: "Beyond the Needle: The Many Crafts of Cosplay"
   slug: cosplay-creators-sun
   location: Main Stage
-  description: Step into a world of creativity where cosplayers take beloved characters and give them fresh, unexpected looks.
+  description: Cosplay isn’t just sewing—it’s everything. From 3D printing to foam-smithing, LED wiring to laser etching, cosplay is where every skill, hobby, and maker mindset can come together. In this panel, we’ll explore how techniques from STEM, art, and crafts all blend to create wearable works of art. Whether you love painting, puppetry, woodworking, or coding, there’s a place for you in cosplay!
   date: 2025-11-09 14:00:00
   enddate: 2025-11-09 14:50:00
+  guests: 
+  - name: Allison Chase Cosplay
+    url: https://www.makerfaireorlando.com/exhibits/allison-chase-cosplay/
+  - name: HavH3roes Cosplay
+    url: https://www.makerfaireorlando.com/exhibits/havh3roes-cosplay/
+  - name: MH Cosplay
+    url: https://www.makerfaireorlando.com/exhibits/mh-cosplay-design/
+
 
 - title: Musical Performance - New World Music School Student Band
   slug: new-world-school-sun
@@ -353,7 +385,7 @@
   location: Power Racing Track
   description:
   date: 2025-11-09 14:30:00
-  date: 2025-11-09 16:00:00
+  enddate: 2025-11-09 16:00:00
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
@@ -363,6 +395,14 @@
   description: Meet and learn from prop makers who create objects for use in film, TV, theater, and other productions. They work with a range of materials and skills to make props that look realistic and match the production's design
   date: 2025-11-09 15:00:00
   enddate: 2025-11-09 15:50:00
+
+- title: RoboClash Audience Tournament
+  slug: roboclash-sun2
+  location: RoboClash (Near Robot Ruckus)
+  description: This robot battle tournament is open for YOU to compete in! We will be choosing 8 volunteers at the start of each show to each pilot a robot in this tournament. There will be 3 rounds of battles, then a champion will be crowned! Be part of the action!
+  date: 2025-11-09 15:00:00
+  enddate: 2025-11-09 15:30:00
+  image: /assets/images/stage/2025/roboclash.jpg
 
 - title: Musical Performance - Tom Haney Band
   slug: tom-haney-sun
@@ -379,7 +419,7 @@
   location: Power Racing Track
   description: The best of the best are on the podium after a long weekend of racing. Cheer them on to glory!
   date: 2025-11-09 16:00:00
-  date: 2025-11-09 16:15:00
+  enddate: 2025-11-09 16:15:00
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
