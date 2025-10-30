@@ -40,7 +40,7 @@ categories:
     name: Combat Robots
 created-jotform: "2025-09-25 20:22:45"
 last-modified-jotform: "2025-10-05 17:48:47"
-last-exported: "2025-10-28 21:04:35"
+last-exported: "2025-10-30 08:41:56"
 sitemap: false
 
 ---
