@@ -144,11 +144,11 @@
       url: https://www.linkedin.com/in/andrew-lippens-89b56615b/
 
 
-- title: Power Racing - Relay Race
+- title: Power Racing - Sprint 1
   location: Power Racing Track
   description:
-  date: 2025-11-08 11:30:00
-  enddate: 2025-11-08 12:00:00
+  date: 2025-11-08 12:30:00
+  enddate: 2025-11-08 1:00:00
   image: /assets/images/power-racing2.gif
   url: /exhibits/categories/power-racing/
 
@@ -173,13 +173,6 @@
     - name: Avelyn Davee
       url: /exhibits/avelyn-davee/
 
-- title: Power Racing - Sprint Race 1
-  location: Power Racing Track
-  description:
-  date: 2025-11-08 13:00:00
-  enddate: 2025-11-08 13:30:00
-  image: /assets/images/ppprs-logo.png
-  url: /exhibits/categories/power-racing/
 
 - title: Cosplay Costumes Panel
   slug: cosplay-creators-sat
@@ -211,8 +204,8 @@
 - title: Power Racing - Meet & Greet
   location: Power Racing Track
   description: Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!
-  date: 2025-11-08 13:00:00
-  enddate: 2025-11-08 13:45:00
+  date: 2025-11-08 14:30:00
+  enddate: 2025-11-08 15:00:00
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
@@ -247,9 +240,9 @@
 - title: Power Racing - Sprint Race 2
   location: Power Racing Track
   description:
-  date: 2025-11-08 16:00:00
-  enddate: 2025-11-08 16:30:00
-  image: /assets/images/ppprs-logo.png
+  date: 2025-11-08 15:30:00
+  enddate: 2025-11-08 16:00:00
+  image: /assets/images/power-racing.gif
   url: /exhibits/categories/power-racing/
 
 - title: Nerd Nite Orlando - Trivia!
@@ -306,13 +299,17 @@
   enddate: 2025-11-09 11:00:00
   image: /assets/images/stage/2025/roboclash.jpg
 
-- title: Power Racing - Sprint Race 3
-  location: Power Racing Track
-  description:
+- title: Musical Performance - Avelyn Davee
+  slug: avelyn-davee-sun
+  location: Outdoor Stage
+  description: Avelyn Davee performs a mix of medieval music for voice and harp as well as modern fandom music, including songs about Sci-fi, Fantasy, books, and games! 
   date: 2025-11-09 11:00:00
   enddate: 2025-11-09 11:30:00
-  image: /assets/images/ppprs-logo.png
-  url: /exhibits/categories/power-racing/
+  image: /assets/images/stage/2025/avelyn_davee.jpg
+  guests:
+    - name: Avelyn Davee
+      url: /exhibits/avelyn-davee/
+
 
 - title: The Future of 3D Printing
   slug: 3d-printing-sun
@@ -331,16 +328,14 @@
   - name: Manuel Rendon, Timeplast
     url: https://www.timeplast.com/
 
-- title: Musical Performance - Avelyn Davee
-  slug: avelyn-davee-sun
-  location: Outdoor Stage
-  description: Avelyn Davee performs a mix of medieval music for voice and harp as well as modern fandom music, including songs about Sci-fi, Fantasy, books, and games! 
-  date: 2025-11-09 11:00:00
-  enddate: 2025-11-09 11:30:00
-  image: /assets/images/stage/2025/avelyn_davee.jpg
-  guests:
-    - name: Avelyn Davee
-      url: /exhibits/avelyn-davee/
+- title: Power Racing - Sprint Race 3
+  location: Power Racing Track
+  description:
+  date: 2025-11-09 11:45:00
+  enddate: 2025-11-09 12:15:00
+  image: /assets/images/power-racing.gif
+  url: /exhibits/categories/power-racing/
+
 
 - title: Musical Performance - Gisela Todd
   slug: gisela-todd-sun
@@ -367,7 +362,7 @@
   location: Power Racing Track
   description: Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!
   date: 2025-11-09 13:00:00
-  enddate: 2025-11-09 13:45:00
+  enddate: 2025-11-09 13:30:00
   image: /assets/images/ppprs-logo.png
   url: /exhibits/categories/power-racing/
 
@@ -403,7 +398,7 @@
   description:
   date: 2025-11-09 14:30:00
   enddate: 2025-11-09 16:00:00
-  image: /assets/images/ppprs-logo.png
+  image: /assets/images/power-racing2.gif
   url: /exhibits/categories/power-racing/
 
 - title: Prop Makers Panel
