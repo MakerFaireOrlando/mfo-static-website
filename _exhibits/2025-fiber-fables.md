@@ -216,11 +216,9 @@ categories:
     name: Fiber Arts
   - slug: handmade
     name: Handmade
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2025-07-22 16:39:11"
-last-modified-jotform: "2025-10-11 22:25:36"
-last-exported: "2025-10-12 10:41:18"
+last-modified-jotform: "2025-10-29 21:26:16"
+last-exported: "2025-10-30 08:42:26"
 sitemap: false
 
 ---

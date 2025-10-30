@@ -202,7 +202,7 @@ maker:
   name: "Laura Melnik"
   description: "Self. I make pictures from my laser, 3D printed toys and games, wood pens and pencils, had draws art, and stuffed animals. Everything I sell I make."
   image-primary:
-    url: /assets/images/exhibit-images/25-55-m-lauras-shop-img-8243-147x150.jpeg
+    url: /assets/images/exhibit-images/25-55-m-lauras-shop-img-8243-294x300.jpeg
     width: 147
     height: 150
   facebook: https://www.facebook.com/laura.melnik
@@ -220,8 +220,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-29 17:54:15"
-last-modified-jotform: "2025-10-05 14:37:37"
-last-exported: "2025-10-05 14:46:21"
+last-modified-jotform: "2025-10-29 21:15:00"
+last-exported: "2025-10-30 08:42:38"
 sitemap: false
 
 ---

@@ -187,9 +187,11 @@ categories:
     name: Craft
   - slug: hands-on-workshop
     name: Hands-On Workshop
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-08-25 16:59:01"
-last-modified-jotform: "2025-10-13 06:47:29"
-last-exported: "2025-10-13 15:02:25"
+last-modified-jotform: "2025-10-29 21:17:24"
+last-exported: "2025-10-30 08:42:24"
 sitemap: false
 
 ---
