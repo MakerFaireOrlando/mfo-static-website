@@ -51,12 +51,14 @@
   enddate: 2025-11-07 13:55:00
   image: /assets/images/stage/2025/youngmakers.gif
   guests: 
-    - name: Colin King
+    - name: Colin King - Colin's Soap-a-Rama
       image: /assets/images/stage/2025/colin_king.jpg
       url: /exhibits/colins-soap-a-rama/
     - name: Rock Springs Critters
       image: /assets/images/stage/2025/rock_springs_critters.jpg
       url: /exhibits/rock-springs-critters/
+    - name: Hannah Black - TherianLoveDesign
+      url: /exhibits/therianlovedesign-cosplay-therian-gear/
 
 - title: Robot Makers
   slug: ftd-youtube
@@ -128,7 +130,6 @@
   date: 2025-11-08 11:00:00
   image: /assets/images/robot_ruckus_logo_300w.png
 
-
 - title: 3D Printing for Theme Parks
   slug: 3dprinting-sat
   location: Main Stage
@@ -196,13 +197,13 @@
   - name: Willow Creative
     url: https://www.youtube.com/@WillowCreative
 
-- title: Musical Performance - Xander Ravenwolf
+- title: Musical Performance - Xander Rayne
   slug: xander-ravenwolf-sat
   location: Outdoor Stage
-  description: Musical performance by Xander Ravenwolf (more info coming soon!) 
+  description: Musical performance by Xander Rayne
   date: 2025-11-08 14:00:00
   enddate: 2025-11-08 14:30:00
-  #image: in the queue for graven
+  image: /assets/images/stage/2025/xander_rayne.jpg
   guests:
     - name: Xander Ravenwolf
       url: https://www.instagram.com/xanderravenwolf/
@@ -227,7 +228,7 @@
       url: /exhibits/camp-witch-doctor-tournament/
     - name: Matt Spurk - Kraken
     - name: Kyle Awner - Hypershock
-    - name: Andrew Stonewell - Armageddon
+    - name: Todd Rogers & Andrew Stonewell - Armageddon
       url: https://www.makerfaireorlando.com/exhibits/armageddon-the-next-gen-of-robot-combat/
     - name: Sam McAmis - Gruff
 
@@ -305,6 +306,14 @@
   enddate: 2025-11-09 11:00:00
   image: /assets/images/stage/2025/roboclash.jpg
 
+- title: Power Racing - Sprint Race 3
+  location: Power Racing Track
+  description:
+  date: 2025-11-09 11:00:00
+  enddate: 2025-11-09 11:30:00
+  image: /assets/images/ppprs-logo.png
+  url: /exhibits/categories/power-racing/
+
 - title: The Future of 3D Printing
   slug: 3d-printing-sun
   location: Main Stage
@@ -321,14 +330,6 @@
     url: https://www.youtube.com/@WillowCreative
   - name: Manuel Rendon, Timeplast
     url: https://www.timeplast.com/
-
-- title: Power Racing - Sprint Race 3
-  location: Power Racing Track
-  description:
-  date: 2025-11-09 11:00:00
-  enddate: 2025-11-09 11:30:00
-  image: /assets/images/ppprs-logo.png
-  url: /exhibits/categories/power-racing/
 
 - title: Musical Performance - Avelyn Davee
   slug: avelyn-davee-sun
@@ -376,6 +377,7 @@
   description: Cosplay isn’t just sewing—it’s everything. From 3D printing to foam-smithing, LED wiring to laser etching, cosplay is where every skill, hobby, and maker mindset can come together. In this panel, we’ll explore how techniques from STEM, art, and crafts all blend to create wearable works of art. Whether you love painting, puppetry, woodworking, or coding, there’s a place for you in cosplay!
   date: 2025-11-09 14:00:00
   enddate: 2025-11-09 14:50:00
+  image: /assets/images/stage/2025/cosplay_creators_sun.gif
   guests: 
   - name: Allison Chase Cosplay
     url: https://www.makerfaireorlando.com/exhibits/allison-chase-cosplay/
@@ -410,6 +412,13 @@
   description: Meet and learn from prop makers who create objects for use in film, TV, theater, and other productions. They work with a range of materials and skills to make props that look realistic and match the production's design
   date: 2025-11-09 15:00:00
   enddate: 2025-11-09 15:50:00
+  guests: 
+    - name: The Faulty Forge
+      url: /exhibits/the-faulty-forge/
+    - name: J2C Props and Printing
+      url: /exhibits/j2c-props-and-printing/
+    - name: Dune Sea Ranch
+      url: /exhibits/dune-sea-ranch/
 
 - title: RoboClash Audience Tournament
   slug: roboclash-sun2
