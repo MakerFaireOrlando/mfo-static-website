@@ -33,16 +33,13 @@
     - name: Willow Creative
       url: https://www.youtube.com/@WillowCreative
 
-- title: Lunch Seating & Musical Performance - Bianca Francheska Electric Violinist 
+- title: Lunch Seating & Musical Performance 
   location: Main Stage
-  description: Grab lunch outside and then join us for air conditioned seating and music from Bianca Francheska Electric Violinist!
+  description: Grab lunch outside and then join us for air conditioned seating and music!
   date: 2025-11-07 11:30:00
   enddate: 2025-11-07 13:15:00
-  image: /assets/images/stage/2025/bianca_francheska.jpg
-  guests: 
-    - name: Bianca Francheska Electric Violinist
-      url: /exhibits/bianca-francheska-electric-violinist/
-
+  #image: /assets/images/stage/2025/bianca_francheska.jpg
+ 
 - title: Young Makers
   slug: ftd-youngmakers
   location: Main Stage
@@ -68,7 +65,7 @@
   enddate: 2025-11-07 14:25:00
   guests: 
     - name: Andrea Gellatly - BattleBots Team Witch Doctor (Moderator)
-      url: /exhibits/camp-witch-doctor-tournament/
+      url: /exhibits/witch-doctor-on-battlebots/
     - name: Ayden Moheit
     - name: Colton Wagner
     - name: Ashworth-Harbas
@@ -218,7 +215,7 @@
   #image: /assets/images/stage/2024/combat.jpg
   guests: 
     - name: Andrea Gellatly - Witch Doctor
-      url: /exhibits/camp-witch-doctor-tournament/
+      url: /exhibits/witch-doctor-on-battlebots/
     - name: Matt Spurk - Kraken
     - name: Kyle Awner - Hypershock
     - name: Todd Rogers & Andrew Stowell - Armageddon
@@ -348,15 +345,11 @@
     - name: Gisela Todd
       url: /exhibits/gisela-todd-musician/
 
-- title: Lunch Seating & Musical Performance - Bianca Francheska Electric Violinist 
+- title: Lunch Seating & Music 
   location: Main Stage
-  description: Grab lunch outside and then join us for air conditioned seating and music from Bianca Francheska Electric Violinist!
+  description: Grab lunch outside and then join us for air conditioned seating and music!
   date: 2025-11-09 12:30:00
   enddate: 2025-11-09 13:45:00
-  image: /assets/images/stage/2025/bianca_francheska.jpg
-  guests: 
-    - name: Bianca Francheska Electric Violinist
-      url: /exhibits/bianca-francheska-electric-violinist/
 
 - title: Power Racing - Meet & Greet
   location: Power Racing Track
