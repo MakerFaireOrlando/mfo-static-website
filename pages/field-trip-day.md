@@ -51,6 +51,7 @@ If you are an educator affiliated with a school, this program includes free admi
 {% comment %}
 <strong>WE ARE UNABLE TO ACCOMODATE ANY ADDITIONAL SCHOOL GROUPS DUE TO AN AMAZING RESPONSE FOR THIS PROGRAM.</strong> If this is a significant hardship, please email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
 {% endcomment %}
+
 **The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.** 
 
 ### Homeschool & Virtual School Groups 
@@ -59,6 +60,8 @@ If your student is homeschooled, or is part of a full-time virtual school progra
 **The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.** 
 
 ### Important Notes
+
+* Info emails are being sent from makers@makerfaireorlando.com. If you registered, you should have received multiple emails from us. If you have not, please check junk / spam filters. 
 
 * All students must be supervised at the event by an adult at all times. Please plan for proper adult / student ratios and supervision. 
 
