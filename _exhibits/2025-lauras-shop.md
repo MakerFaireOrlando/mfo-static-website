@@ -6,7 +6,7 @@ slug: lauras-shop
 permalink: /exhibits/lauras-shop/
 exhibit-id: 25-55
 exhibit-zone: "Opportunity"
-space-number: "OD19"
+space-number: "OA17"
 description: "Laser pictures, 3D printed toys and games, wood pens and pencils, had draws art, and stuffed animals"
 description-long: "Everything I sell is made 100% by me. I design, create and make toys, 3D layered pictures, drawings, dragon tiles, books and crocheted animals and toys."
 image: /assets/images/exhibit-images/25-55-e-lauras-shop-img-7640-7996-300x225.jpeg
@@ -220,8 +220,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-29 17:54:15"
-last-modified-jotform: "2025-10-29 21:15:00"
-last-exported: "2025-10-30 08:42:38"
+last-modified-jotform: "2025-10-30 20:59:30"
+last-exported: "2025-10-30 21:19:37"
 sitemap: false
 
 ---

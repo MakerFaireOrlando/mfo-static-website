@@ -5,8 +5,8 @@ title: "Coruscate Leather"
 slug: coruscate-leather
 permalink: /exhibits/coruscate-leather/
 exhibit-id: 25-9
-exhibit-zone: "Opportunity"
-space-number: "OA17"
+exhibit-zone: "Curiosity"
+space-number: "CK1"
 description: "Coruscate Leather creates handcrafted hand-carved leather handbags and accessories."
 description-long: "Welcome to Coruscate Leather & Co. - where craftsmanship and creativity collide in a world of nature, magic, and story. We handcraft unique leather goods for everyday wear and epic adventures alike. From carved butterfly barrettes and hand-painted earrings to custom handbags, hair-on-hide accessories, and detailed cosplay and LARP pieces, our work is made to bring your character, or your spirit, to life. Whether you’re stepping into a Renaissance fair, a fantasy realm, or just want something one-of-a-kind for your day-to-day, our designs carry the soul of slow fashion and the spirit of storytelling. Inspired by wild places, handmade with heart, and always a little magical."
 image: /assets/images/exhibit-images/25-9-e-coruscate-leather-photoroom-20250524-182830-300x300.png
@@ -153,7 +153,7 @@ maker:
   name: "Carmen Bishop"
   description: "Coruscate Leather and Co. creates handcrafted leather handbags and hand-carved leather accessories."
   image-primary:
-    url: /assets/images/exhibit-images/25-9-m-coruscate-leather-screenshot-20250527-142429-photos-150x40.jpg
+    url: /assets/images/exhibit-images/25-9-m-coruscate-leather-screenshot-20250527-142429-photos-300x80.jpg
     width: 150
     height: 40
   website: https://www.coruscateleather.com/?srsltid=AfmBOoqxDpAOtfegwHPTw7mq61AxMqAKvTC3cY53o_euyN5Vpo5tMW5T
@@ -168,8 +168,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-05-28 18:22:39"
-last-modified-jotform: "2025-10-05 12:16:53"
-last-exported: "2025-10-05 12:49:12"
+last-modified-jotform: "2025-10-30 20:56:50"
+last-exported: "2025-10-30 21:19:42"
 sitemap: false
 
 ---
