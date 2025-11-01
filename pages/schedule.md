@@ -16,6 +16,8 @@ Use the schedule below to plan your weekend to catch the panel talks and other s
 
 Check out the [event program](/program) for a printable map, schedule and more!<br><br>
 
+Please note that our [Field Trip Day](/field-trip-day) is only for pre-registered school groups and homeschool families.<br><br>
+
 
 <div class="mtm">
   <div class="mtm-search">
