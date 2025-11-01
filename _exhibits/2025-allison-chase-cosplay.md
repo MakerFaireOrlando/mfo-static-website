@@ -66,7 +66,7 @@ maker:
   name: "Allison Chase Cosplay"
   description: "Allison Chase Cosplay makes Large Scale Puppets that can move and interact!"
   image-primary:
-    url: /assets/images/exhibit-images/25-195-m-allison-chase-cosplay-screenshot-2025-09-26-124711-102x150.png
+    url: /assets/images/exhibit-images/25-195-m-allison-chase-cosplay-screenshot-2025-09-26-124711-204x300.png
     width: 102
     height: 150
   website: http://chaseworks-studios.com
@@ -79,8 +79,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-26 13:02:19"
-last-modified-jotform: "2025-10-01 12:07:32"
-last-exported: "2025-10-02 19:45:30"
+last-modified-jotform: "2025-11-01 14:32:59"
+last-exported: "2025-11-01 17:00:43"
 sitemap: false
 
 ---

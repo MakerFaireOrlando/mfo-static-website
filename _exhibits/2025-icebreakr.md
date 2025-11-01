@@ -6,7 +6,7 @@ slug: icebreakr
 permalink: /exhibits/icebreakr/
 exhibit-id: 25-172
 exhibit-zone: "Exhibit Tent"
-space-number: "T22"
+space-number: "MD2"
 description: "Card game that creates conversation using mini-games!"
 description-long: "ICEBREAKR is the card game that creates conversation by using 45 mini-games that break the ice!"
 image: /assets/images/exhibit-images/25-172-e-icebreakr-img-4480-275x300.jpeg
@@ -166,8 +166,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-07 22:34:21"
-last-modified-jotform: "2025-10-12 15:40:03"
-last-exported: "2025-10-13 15:02:10"
+last-modified-jotform: "2025-11-01 14:14:04"
+last-exported: "2025-11-01 17:00:47"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: rockstar-critters-firefly-edition
 permalink: /exhibits/rockstar-critters-firefly-edition/
 exhibit-id: 25-219
 exhibit-zone: "Exhibit Tent"
-space-number: "T1"
+space-number: "MB2"
 description: "This exhibit is designed for younger kids to make robotic fireflies."
 description-long: "Young visitors will have the opportunity to create robotic fireflies using clothespins, vibrating motors, coin batteries, paper, pipe cleaners, and LED bulbs. This hands-on experience is designed to introduce younger kids to motors, wiring, and the concept of polarity."
 image: /assets/images/exhibit-images/25-219-e-rockstar-critters-firefly-edition-robot-firefly-4143-262x300.jpg
@@ -64,8 +64,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2025-10-22 08:43:16"
-last-modified-jotform: "2025-10-25 09:39:34"
-last-exported: "2025-10-25 11:20:51"
+last-modified-jotform: "2025-11-01 13:22:24"
+last-exported: "2025-11-01 17:00:41"
 sitemap: false
 
 ---

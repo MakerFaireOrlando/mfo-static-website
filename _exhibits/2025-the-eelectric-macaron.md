@@ -6,7 +6,7 @@ slug: the-eelectric-macaron
 permalink: /exhibits/the-eelectric-macaron/
 exhibit-id: 25-169
 exhibit-zone: "Exhibit Tent"
-space-number: "T21"
+space-number: "MG1"
 description: "Hands-on with modular 3D-printed light-up ears—swap designs, change colors, and spark creativity!"
 description-long: "Get hands-on with The EElectric Macaron! Explore the magic of modular 3D-printed design. Experiment with customizable light-up units, swapping ear designs and playing with color-changing lights to match moods, outfits, or favorite characters. These same units can also transform into glowing home décor, bringing a spark of creativity to bookshelves, desks, and cozy corners. Learn how creativity, technology, and design come together to create a unique unit for both wearable magic and personalized spaces."
 image: /assets/images/exhibit-images/25-169-e-the-eelectric-macaron-squaregrid-2-grid-maker-300x300.png
@@ -224,8 +224,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-01 17:55:50"
-last-modified-jotform: "2025-10-12 15:39:58"
-last-exported: "2025-10-13 15:02:19"
+last-modified-jotform: "2025-11-01 14:11:56"
+last-exported: "2025-11-01 17:00:51"
 sitemap: false
 
 ---

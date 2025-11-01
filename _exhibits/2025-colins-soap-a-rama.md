@@ -31,7 +31,7 @@ maker:
   name: "Colin King"
   description: "Colin is an 8 year old soap maker. He's spent half of his life learning the art of scent and foam!"
   image-primary:
-    url: /assets/images/exhibit-images/25-103-m-colins-soap-a-rama-colin-soap-mfo-2024-150x114.jpg
+    url: /assets/images/exhibit-images/25-103-m-colins-soap-a-rama-colin-soap-mfo-2024-300x229.jpg
     width: 150
     height: 114
   website: https://soap-a-rama.com/
@@ -49,8 +49,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-23 13:11:37"
-last-modified-jotform: "2025-10-05 10:34:21"
-last-exported: "2025-10-05 10:40:30"
+last-modified-jotform: "2025-11-01 14:33:11"
+last-exported: "2025-11-01 17:01:02"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: wonder-arte
 permalink: /exhibits/wonder-arte/
 exhibit-id: 25-155
 exhibit-zone: "Exhibit Tent"
-space-number: "T18"
+space-number: "MB4"
 description: "With themes such as twinkling night skies, kids safely add LED lights to make their artwork glow."
 description-long: "Children pick fun themes—glowing flowers, twinkling night skies, or spooky Halloween ghosts—and paint their designs on canvas. Afterward, they safely add tiny LED lights that make their artwork glow.
 
@@ -86,8 +86,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2025-08-23 01:05:27"
-last-modified-jotform: "2025-10-12 15:39:36"
-last-exported: "2025-10-13 15:02:26"
+last-modified-jotform: "2025-11-01 13:24:15"
+last-exported: "2025-11-01 17:00:52"
 sitemap: false
 
 ---

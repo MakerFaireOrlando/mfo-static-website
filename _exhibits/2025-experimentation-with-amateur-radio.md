@@ -6,7 +6,7 @@ slug: experimentation-with-amateur-radio
 permalink: /exhibits/experimentation-with-amateur-radio/
 exhibit-id: 25-95
 exhibit-zone: "Exhibit Tent"
-space-number: "T13"
+space-number: "MD1"
 description: "The amateur radio service encourages experimentation, tinkering and making as a core purpose."
 description-long: "In the United States Amateur Radio Operators are the only radio service where licensed operators are not just allowed, but encouraged to construct, modify and experiment with their hardware, software, waveforms and processes to extend the art of the possible in radio communications.  Come learn about what opportunities exist for you to use your maker mindset to communicate with fellow hams worldwide."
 image: /assets/images/exhibit-images/25-95-e-experimentation-with-amateur-radio-community2-236x300.png
@@ -50,8 +50,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-17 17:13:21"
-last-modified-jotform: "2025-10-12 15:39:19"
-last-exported: "2025-10-13 15:02:49"
+last-modified-jotform: "2025-11-01 13:17:10"
+last-exported: "2025-11-01 17:01:03"
 sitemap: false
 
 ---
