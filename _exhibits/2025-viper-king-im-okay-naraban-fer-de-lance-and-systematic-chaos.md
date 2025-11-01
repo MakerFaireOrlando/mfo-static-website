@@ -28,6 +28,24 @@ image-primary:
     url: /assets/images/exhibit-images/25R-87-e-viper-king-im-okay-naraban-fer-de-lance-and-systematic-chaos-43-ssr-logo-7151-883x586.PNG
     width: 883
     height: 586
+additional-images: 
+  - 1:
+    full:
+      url: /assets/images/exhibit-images/25R-87-e1-viper-king-im-okay-naraban-fer-de-lance-and-systematic-chaos-20251020-190521-full.jpg
+      width: 693
+      height: 923
+    small:
+      url: /assets/images/exhibit-images/25R-87-e1-viper-king-im-okay-naraban-fer-de-lance-and-systematic-chaos-20251020-190521-113x150.jpg
+      width: 113
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/25R-87-e1-viper-king-im-okay-naraban-fer-de-lance-and-systematic-chaos-20251020-190521-225x300.jpg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/25R-87-e1-viper-king-im-okay-naraban-fer-de-lance-and-systematic-chaos-20251020-190521-693x923.jpg
+      width: 693
+      height: 923
 maker: 
   name: "Sharp Scales Robotics"
   description: "Team Sharp Scales Robotics is a team made up of about a dozen robots (half of which are only CAD designs) and is affiliated with Purple Fire Robotics."
@@ -40,8 +58,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-10-19 15:54:21"
-last-modified-jotform: "2025-10-21 11:57:31"
-last-exported: "2025-10-22 22:01:15"
+last-modified-jotform: "2025-11-01 09:33:43"
+last-exported: "2025-11-01 13:04:50"
 sitemap: false
 
 ---

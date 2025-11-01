@@ -29,7 +29,7 @@ image-primary:
     width: 1003
     height: 641
 maker: 
-  name: "Lucille Hardee"
+  name: "NonaBots"
   description: "NonaBots is a Nonprofit Club located in Lake Nona to promote robotics in the youth community."
   image-primary:
     url: /assets/images/exhibit-images/25R-103-m-pawlicious-nona-bots-logo-1-300x192.png
@@ -42,8 +42,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-10-27 16:10:30"
-last-modified-jotform: "2025-10-27 16:38:00"
-last-exported: "2025-10-28 21:04:22"
+last-modified-jotform: "2025-11-01 09:54:50"
+last-exported: "2025-11-01 13:04:47"
 sitemap: false
 
 ---

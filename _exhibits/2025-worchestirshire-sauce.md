@@ -32,15 +32,15 @@ maker:
   name: "Coconut"
   description: "Team coconut but running with the UF gator robotics team"
   image-primary:
-    url: /assets/images/exhibit-images/25R-50-m-worchestirshire-sauce-gatrrobo-150x110.png
+    url: /assets/images/exhibit-images/25R-50-m-worchestirshire-sauce-gatrrobo-300x219.png
     width: 150
     height: 110
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-29 09:54:14"
-last-modified-jotform: "2025-10-05 17:48:20"
-last-exported: "2025-10-05 17:50:41"
+last-modified-jotform: "2025-11-01 09:21:25"
+last-exported: "2025-11-01 13:05:01"
 sitemap: false
 
 ---
