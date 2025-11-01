@@ -99,7 +99,7 @@
   description: Meet the creators behind the marvelous, immersive worlds that transport visitors in world-famous theme parks across the globe!
   date: 2025-11-08 10:30:00
   enddate: 2025-11-08 11:15:00
-  image: /assets/images/sponsors/universal-creative.png
+  #image: /assets/images/sponsors/universal-creative.png
   guests:
     - name: Jen Wilson Dir, Projects, Universal Creative
       url: https://www.linkedin.com/in/jennifer-wilson-189b4630/
@@ -133,7 +133,7 @@
   description: Explore how 3D printing is transforming themed entertainment in this panel with industry experts from Universal, Adirondack Studios, and more. Hosted by <a href="https://www.youtube.com/@3DPrintingNerd" target="_blank">Joel Telling of 3D Printing Nerd</a>.
   date: 2025-11-08 11:30:00
   enddate: 2025-11-08 12:15:00
-  image: /assets/images/sponsors/universal-creative.png
+  #image: /assets/images/sponsors/universal-creative.png
   guests: 
     - name: Brandon Grimshaw, Mechanical Engineering, Universal Orlando Resort
       url: https://www.linkedin.com/in/grimshawbrandon/
@@ -283,10 +283,13 @@
   description: Hear from local makers who use technology to create amazing Theme Park experiences! 
   date: 2025-11-09 10:30:00
   enddate: 2025-11-09 11:15:00
-  image: /assets/images/sponsors/universal-creative.png
+  #image: /assets/images/sponsors/universal-creative.png
   guests:
     - name: Tim Eck, Director, Engineering & Safety, Universal Creative
       url: https://www.linkedin.com/in/tim-eck/
+    - name: Michael King, Senior Design Engineer, Clair Global 
+      url: https://www.linkedin.com/in/michael-king-6b60bb36/
+      
 
 - title: RoboClash Audience Tournament
   slug: roboclash-sun1
