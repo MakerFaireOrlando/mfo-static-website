@@ -99,8 +99,8 @@ sponsors:
   - name: Orange Technical College
     url: https://www.orangetechcollege.net/
     logo: OTC_Horiz.png
-    level: 4
-    active: false
+    level: 5
+    active: true
   - name: EPAX 3D
     url: https://epax3d.com/
     logo: EPAX-3D-Black-Logo.png
@@ -146,5 +146,12 @@ sponsors:
     logo: VP3DLOGO.png
     level: 5
     active: true
+  - name: Rokland 
+    url: https://store.rokland.com/
+    logo: rokland.png
+    level: 4
+    active: true
+
+
 
 
