@@ -186,7 +186,7 @@ maker:
   name: "Greater Florida Lego User Group. GFLUG"
   description: "GFLUG is an adult fan group of hobbyists meeting for collaborative builds , public displays, and fellowship around the Lego hobby. We are an official recognized LEGO user group or RLUG . We meet regularly to promote the hobby and demonstrate all things that can be done with little plastic bricks."
   image-primary:
-    url: /assets/images/exhibit-images/25-31-m-great-ball-contraptions-and-other-my-own-creations-made-from-plastic-bricks-img-3411-136x150.jpeg
+    url: /assets/images/exhibit-images/25-31-m-great-ball-contraptions-and-other-my-own-creations-made-from-plastic-bricks-img-3411-272x300.jpeg
     width: 136
     height: 150
   website: https://gflug.com
@@ -203,8 +203,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-11 20:32:16"
-last-modified-jotform: "2025-10-06 08:39:37"
-last-exported: "2025-10-07 18:06:29"
+last-modified-jotform: "2025-10-31 10:38:09"
+last-exported: "2025-11-01 13:06:14"
 sitemap: false
 
 ---

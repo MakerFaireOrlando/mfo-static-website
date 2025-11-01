@@ -32,15 +32,15 @@ maker:
   name: "Fightin' Triton Robbotics"
   description: "Family team from PSL Florida"
   image-primary:
-    url: /assets/images/exhibit-images/25R-27-m-red-bull-fightin-tritonrobboticsgrafftext-jpeg-150x150.jpg
+    url: /assets/images/exhibit-images/25R-27-m-red-bull-fightin-tritonrobboticsgrafftext-jpeg-300x300.jpg
     width: 150
     height: 150
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-24 15:09:50"
-last-modified-jotform: "2025-10-03 07:28:27"
-last-exported: "2025-10-03 07:29:40"
+last-modified-jotform: "2025-11-01 09:16:10"
+last-exported: "2025-11-01 13:05:07"
 sitemap: false
 
 ---

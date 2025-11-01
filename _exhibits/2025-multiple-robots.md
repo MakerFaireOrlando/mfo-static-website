@@ -40,15 +40,15 @@ maker:
   name: "Ransom Everglades Robotics"
   description: "High School team also involved in VEX V5RC.  Some new robots (mostly kits) some old favorites.  Also, one robot is designed, built, and maintained by our 'coach.'"
   image-primary:
-    url: /assets/images/exhibit-images/25R-30-m-multiple-robots-re-mascot-rgb-150x99.png
+    url: /assets/images/exhibit-images/25R-30-m-multiple-robots-re-mascot-rgb-300x198.png
     width: 150
     height: 99
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-25 13:23:12"
-last-modified-jotform: "2025-10-03 07:28:22"
-last-exported: "2025-10-03 07:29:39"
+last-modified-jotform: "2025-11-01 09:03:16"
+last-exported: "2025-11-01 13:05:07"
 sitemap: false
 
 ---

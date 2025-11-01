@@ -67,7 +67,7 @@ maker:
   name: "Ravenwood Robotics"
   description: "We are a family that started competing in combat robotics in 2024. We have used our last name of Poe to create our whole team design, like naming our bots and our pit design."
   image-primary:
-    url: /assets/images/exhibit-images/25R-20-m-raven-and-eldorado-img-20250910-063719-97x150.jpg
+    url: /assets/images/exhibit-images/25R-20-m-raven-and-eldorado-img-20250910-063719-194x300.jpg
     width: 97
     height: 150
   youtube: https://www.youtube.com/@roamingravens?feature=shared
@@ -75,8 +75,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-10 06:59:08"
-last-modified-jotform: "2025-10-03 07:28:42"
-last-exported: "2025-10-03 07:29:41"
+last-modified-jotform: "2025-11-01 09:34:21"
+last-exported: "2025-11-01 13:05:08"
 sitemap: false
 
 ---

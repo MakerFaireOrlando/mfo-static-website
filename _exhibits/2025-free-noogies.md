@@ -32,15 +32,15 @@ maker:
   name: "Weekday Warriors"
   description: "Weekday Warriors is a group of combat robot builders who enjoy building and fighting combat robots."
   image-primary:
-    url: /assets/images/exhibit-images/25R-18-m-free-noogies-banner-150x56.png
+    url: /assets/images/exhibit-images/25R-18-m-free-noogies-banner-300x113.png
     width: 150
     height: 56
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-03 14:13:10"
-last-modified-jotform: "2025-09-28 10:49:16"
-last-exported: "2025-09-28 10:51:24"
+last-modified-jotform: "2025-11-01 11:39:11"
+last-exported: "2025-11-01 13:05:09"
 sitemap: false
 
 ---

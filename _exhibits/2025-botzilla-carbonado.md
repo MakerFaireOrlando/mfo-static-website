@@ -54,15 +54,15 @@ maker:
 -Gavin, Carbonado driver
 -Carl, team support"
   image-primary:
-    url: /assets/images/exhibit-images/25R-19-m-botzilla-carbonado-screenshot-20250904-192907-canva-150x111.jpg
+    url: /assets/images/exhibit-images/25R-19-m-botzilla-carbonado-screenshot-20250904-192907-canva-300x222.jpg
     width: 150
     height: 111
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-04 19:32:25"
-last-modified-jotform: "2025-10-03 07:28:48"
-last-exported: "2025-10-03 07:29:41"
+last-modified-jotform: "2025-11-01 10:08:18"
+last-exported: "2025-11-01 13:05:08"
 sitemap: false
 
 ---

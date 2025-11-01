@@ -6,7 +6,7 @@ slug: rokland
 permalink: /exhibits/rokland/
 exhibit-id: 25-218
 exhibit-zone: "Opportunity"
-space-number: "OD26"
+space-number: "OD25"
 description: "See Meshtastic compatible hardware including complete handheld nodes, solar nodes, and DIY kits!"
 description-long: "See Meshtastic compatible hardware including complete handheld nodes, solar nodes, and DIY kits! We carry the latest Meshtastic hardware from brands like LILYGO, RAKwireless, Heltec, and more. Learn about new 1 watt LoRa solutions, and how to wire your own solar or battery connections for a custom build."
 image: /assets/images/exhibit-images/25-218-e-rokland-gxxjh12bqaa8f7w-300x225.jpg
@@ -88,8 +88,8 @@ categories:
   - slug: maker-community
     name: Maker Community
 created-jotform: "2025-10-21 17:49:52"
-last-modified-jotform: "2025-10-25 09:23:33"
-last-exported: "2025-10-25 11:20:56"
+last-modified-jotform: "2025-11-01 12:51:57"
+last-exported: "2025-11-01 13:05:33"
 sitemap: false
 
 ---

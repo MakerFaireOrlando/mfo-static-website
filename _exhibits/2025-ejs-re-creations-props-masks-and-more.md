@@ -6,7 +6,7 @@ slug: ejs-re-creations-props-masks-and-more
 permalink: /exhibits/ejs-re-creations-props-masks-and-more/
 exhibit-id: 25-50
 exhibit-zone: "Opportunity"
-space-number: "OE24"
+space-number: "OC16"
 description: "A show and tell as well as sale of masks, prop swords, art, and trinkets."
 description-long: "This exhibit is a show and tell and sale of all the variations of art I have made over the years. This includes prop weapons, face masks, keychains, sculptures, and wall-hung pieces. All made form locally sourced recycled materials!"
 image: /assets/images/exhibit-images/25-50-e-ejs-re-creations-props-masks-and-more-img-7157-300x249.jpeg
@@ -187,8 +187,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-29 12:40:21"
-last-modified-jotform: "2025-10-11 23:13:01"
-last-exported: "2025-10-12 10:42:06"
+last-modified-jotform: "2025-11-01 12:50:21"
+last-exported: "2025-11-01 13:06:06"
 sitemap: false
 
 ---

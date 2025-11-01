@@ -138,7 +138,7 @@ maker:
   name: "Team Halogen Robotics"
   description: "Making robots that entertain others with chaos and destruction... assuming they work correctly of course."
   image-primary:
-    url: /assets/images/exhibit-images/25R-9-m-fluorine-and-chlorine-better-logo-idk-150x125.png
+    url: /assets/images/exhibit-images/25R-9-m-fluorine-and-chlorine-better-logo-idk-300x250.png
     width: 150
     height: 125
   instagram: https://www.instagram.com/halogenrobotics?igsh=eXUyMTBmcDB6bHpt
@@ -148,8 +148,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-08-25 20:15:42"
-last-modified-jotform: "2025-10-05 17:50:05"
-last-exported: "2025-10-05 17:50:58"
+last-modified-jotform: "2025-11-01 09:16:49"
+last-exported: "2025-11-01 13:05:16"
 sitemap: false
 
 ---

@@ -134,10 +134,10 @@ additional-images:
 video: "https://www.youtube.com/watch?v=QI_6kNaCB4Q"
 video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/QI_6kNaCB4Q?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="Deadline Reveal"></iframe>'
 maker: 
-  name: "Landon Ferguson (Lando)"
+  name: "Landon Ferguson (Lando)  Weekday Warriors"
   description: "Software developer by trade, combat robotic enthusiast by hobby. I love building robots & fighting them! I've only been making & building robots for ~1.5 years but got into the hobby by doing the FIRST Robotics Compeition (FRC) in High School. I now do it with my best friend Zack who is also competing with his robot, Sunday Scaries."
   image-primary:
-    url: /assets/images/exhibit-images/25R-17-m-deadline-logo-150x150.png
+    url: /assets/images/exhibit-images/25R-17-m-deadline-logo-300x300.png
     width: 150
     height: 150
   website: https://www.landoferg.com
@@ -146,8 +146,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-03 14:09:05"
-last-modified-jotform: "2025-10-05 17:49:57"
-last-exported: "2025-10-05 17:50:53"
+last-modified-jotform: "2025-11-01 11:39:33"
+last-exported: "2025-11-01 13:05:11"
 sitemap: false
 
 ---

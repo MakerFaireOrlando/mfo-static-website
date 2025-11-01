@@ -32,15 +32,15 @@ maker:
   name: "BoudreauxBotics"
   description: "Three generations of robot makers"
   image-primary:
-    url: /assets/images/exhibit-images/25R-33-m-environ-and-ronboto-boudreaux-1-150x150.png
+    url: /assets/images/exhibit-images/25R-33-m-environ-and-ronboto-boudreaux-1-300x300.png
     width: 150
     height: 150
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-25 14:02:06"
-last-modified-jotform: "2025-10-03 07:28:13"
-last-exported: "2025-10-03 07:29:39"
+last-modified-jotform: "2025-11-01 09:40:13"
+last-exported: "2025-11-01 13:05:06"
 sitemap: false
 
 ---

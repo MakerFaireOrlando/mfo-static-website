@@ -47,10 +47,10 @@ additional-images:
       width: 225
       height: 225
 maker: 
-  name: "Jack Young"
+  name: "Taters"
   description: "I am a sophomore at the University of Florida, here from the Gator Robotics team. I also am their media manager (follow @gator_battlebots) on instagram!"
   image-primary:
-    url: /assets/images/exhibit-images/25R-36-m-baked-potato-spongebob-150x117.jpeg
+    url: /assets/images/exhibit-images/25R-36-m-baked-potato-spongebob-300x234.jpeg
     width: 150
     height: 117
   instagram: https://www.instagram.com/gator_battlebots/?hl=en
@@ -58,8 +58,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-25 16:12:33"
-last-modified-jotform: "2025-10-05 17:48:56"
-last-exported: "2025-10-05 17:50:46"
+last-modified-jotform: "2025-11-01 09:26:00"
+last-exported: "2025-11-01 13:05:05"
 sitemap: false
 
 ---

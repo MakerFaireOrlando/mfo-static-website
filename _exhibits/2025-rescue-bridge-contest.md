@@ -6,9 +6,9 @@ slug: rescue-bridge-contest
 permalink: /exhibits/rescue-bridge-contest/
 exhibit-id: 25-145
 exhibit-zone: "Opportunity"
-space-number: "OC4"
-description: "Build a paper bridge to get the rescue bot to the top of the burning building."
-description-long: "This challenge for kids and adults is to build a bridge from the available supplies of paper and tape that will support the 3-pound rescue bot. Time is of the essence since the building is on fire. Builders will be rewarded with a wearable button they make themselves. There is a $2 charge for supplies."
+space-number: "OC4, OD4"
+description: "Free challenge to build a paper bridge to get the rescue bot to the top of the burning building."
+description-long: "This challenge for kids and adults is to build a bridge from the available supplies of paper and tape that will support the 3-pound rescue bot. Time is of the essence since the building is on fire. Successful builders will be rewarded with a mini LED flashlight. The event is free."
 image: /assets/images/exhibit-images/25-145-e-rescue-bridge-contest-20250215-iccf-spark-bridge-29-300x169.png
 image-primary: 
   full:
@@ -130,6 +130,9 @@ additional-images:
       url: /assets/images/exhibit-images/25-145-e6-rescue-bridge-contest-20250215-iccf-spark-bridge-28-1024x616.png
       width: 1024
       height: 616
+website: "https://www.inventcf.com/"
+video: "https://youtu.be/RyuONcZP_Eo"
+video-embed: '<iframe width="1024" height="576" src="https://www.youtube.com/embed/RyuONcZP_Eo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="Paper Bridge Truss Failure"></iframe>'
 maker: 
   name: "Inventors Council of Central Florida"
   description: "Our Mission is to provide a secure environment for inventors to submit their ideas for critical peer review and to nurture our members by providing guidance in making ideas profitable. ICCF is a 501(c)(3) which makes your donations deductable."
@@ -138,7 +141,9 @@ maker:
     width: 150
     height: 63
   website: https://www.inventcf.com/
+  instagram: https://www.instagram.com/inventorscouncil
   facebook: https://www.facebook.com/InventCF1/
+  tiktok: https://www.tiktok.com/@inventorscouncil
 categories: 
   - slug: craft
     name: Craft
@@ -151,8 +156,8 @@ categories:
   - slug: invention
     name: Invention
 created-jotform: "2025-08-04 09:20:31"
-last-modified-jotform: "2025-10-18 12:42:15"
-last-exported: "2025-10-20 16:53:50"
+last-modified-jotform: "2025-11-01 12:17:04"
+last-exported: "2025-11-01 13:05:50"
 sitemap: false
 
 ---

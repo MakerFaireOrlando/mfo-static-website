@@ -29,7 +29,7 @@ image-primary:
     width: 1024
     height: 683
 maker: 
-  name: "Team Kraken"
+  name: "Team Kraken / CE Robots"
   description: "Kraken BattleBot will be present to show-off Kraken and also to bring our insect weight robots to crush the competition."
   image-primary:
     url: /assets/images/exhibit-images/25R-39-m-kraken-bb2021-ep602-kraken-photographer-jon-c-r-bennett-reduced-300x200.jpg
@@ -42,8 +42,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-25 17:28:44"
-last-modified-jotform: "2025-10-03 07:27:48"
-last-exported: "2025-10-30 21:18:56"
+last-modified-jotform: "2025-11-01 09:42:05"
+last-exported: "2025-11-01 13:05:05"
 sitemap: false
 
 ---

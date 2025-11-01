@@ -32,7 +32,7 @@ maker:
   name: "Team GoGo Bots"
   description: "Combat Robotics Builders"
   image-primary:
-    url: /assets/images/exhibit-images/25R-6-m-team-gogo-bots-gogobots-logo-149x150.jpg
+    url: /assets/images/exhibit-images/25R-6-m-team-gogo-bots-gogobots-logo-299x300.jpg
     width: 149
     height: 150
   instagram: https://www.instagram.com/team_gogo_bots/
@@ -40,8 +40,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-08-25 12:00:09"
-last-modified-jotform: "2025-10-03 07:29:14"
-last-exported: "2025-10-03 07:29:48"
+last-modified-jotform: "2025-11-01 09:18:44"
+last-exported: "2025-11-01 13:05:16"
 sitemap: false
 
 ---

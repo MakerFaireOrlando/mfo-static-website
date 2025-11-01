@@ -5,8 +5,8 @@ title: "Retro Robot build"
 slug: retro-robot-build
 permalink: /exhibits/retro-robot-build/
 exhibit-id: 25-43
-exhibit-zone: "Opportunity"
-space-number: "OC16"
+exhibit-zone: "Robot Ruckus (Spirit Building)"
+space-number: "SA23"
 description: "I am working on building V.I.N.Cent the robot from the movie The Black Hole."
 description-long: "I am working on building V.I.N.Cent the robot from the movie The Black Hole. This is a work in progress, so you will get to see all the inner workings, the mechanisms that make him tick!   From articulate eyes to telescoping feet you will get to see the mechanisms making the movements, instead of movie props that rely on human manipulation and CGI."
 image: /assets/images/exhibit-images/25-43-e-retro-robot-build-screenshot-20250621-141405-638-5852-300x162.png
@@ -31,7 +31,7 @@ maker:
   name: "Rick Sollie"
   description: "My name is Rick, I like to design and build things. From vacuum formers to 3D printers and now onto robots. I sometimes stop working on a project to make a new tool just for that project. Or sometimes learn something new just to add a new feature. I enjoy building and learning about different ways to build things."
   image-primary:
-    url: /assets/images/exhibit-images/25-43-m-retro-robot-build-screenshot-20250621-141405-638-150x81.png
+    url: /assets/images/exhibit-images/25-43-m-retro-robot-build-screenshot-20250621-141405-638-300x162.png
     width: 150
     height: 81
 categories: 
@@ -48,8 +48,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-21 14:37:17"
-last-modified-jotform: "2025-10-05 12:22:57"
-last-exported: "2025-10-05 12:49:04"
+last-modified-jotform: "2025-11-01 12:50:59"
+last-exported: "2025-11-01 13:06:10"
 sitemap: false
 
 ---

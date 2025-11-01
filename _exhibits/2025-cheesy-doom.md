@@ -32,7 +32,7 @@ maker:
   name: "Team Cheesy Doom"
   description: "Team Cheesy Doom is a Combat Robotics Team fighting in 1 Pound Antweight with Cheesy Doom (Plastic) and Cheesy Disaster (Full Combat)!"
   image-primary:
-    url: /assets/images/exhibit-images/25R-32-m-cheesy-doom-cheesyshirtbright-1-150x138.png
+    url: /assets/images/exhibit-images/25R-32-m-cheesy-doom-cheesyshirtbright-1-300x277.png
     width: 150
     height: 138
   youtube: https://www.youtube.com/@TeamCheesyDoom
@@ -40,8 +40,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-25 13:54:07"
-last-modified-jotform: "2025-10-05 17:49:13"
-last-exported: "2025-10-05 17:50:47"
+last-modified-jotform: "2025-11-01 09:05:54"
+last-exported: "2025-11-01 13:05:06"
 sitemap: false
 
 ---

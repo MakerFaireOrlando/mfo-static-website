@@ -29,7 +29,7 @@ image-primary:
     width: 257
     height: 180
 maker: 
-  name: "Abhiram Pinnity"
+  name: "Cypress Lightning"
   description: "I am a member of Gator robotics competing with them under a separate team."
   image-primary:
     url: /assets/images/exhibit-images/25R-14-m-shockwave-img-3873-300x182.jpeg
@@ -39,8 +39,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-08-28 14:51:19"
-last-modified-jotform: "2025-10-03 07:28:54"
-last-exported: "2025-10-30 21:18:56"
+last-modified-jotform: "2025-11-01 09:25:31"
+last-exported: "2025-11-01 13:05:11"
 sitemap: false
 
 ---

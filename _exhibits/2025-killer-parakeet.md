@@ -32,15 +32,15 @@ maker:
   name: "Team FireWolf"
   description: "Robert and Helen have been a Team since 2007, but started fighting Robots in 2023."
   image-primary:
-    url: /assets/images/exhibit-images/25R-42-m-killer-parakeet-image000000-7-147x150.jpg
+    url: /assets/images/exhibit-images/25R-42-m-killer-parakeet-image000000-7-294x300.jpg
     width: 147
     height: 150
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-25 20:14:16"
-last-modified-jotform: "2025-10-02 21:36:46"
-last-exported: "2025-10-03 07:29:36"
+last-modified-jotform: "2025-11-01 10:06:44"
+last-exported: "2025-11-01 13:05:04"
 sitemap: false
 
 ---

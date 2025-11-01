@@ -6,7 +6,7 @@ slug: dorado-graphix-llc
 permalink: /exhibits/dorado-graphix-llc/
 exhibit-id: 25-205
 exhibit-zone: "Opportunity"
-space-number: "OE26, OE25"
+space-number: "OE24, OE25"
 description: "Showing how to make products with printing & laser equipment."
 description-long: "We will be demonstrating how to produce products using components made from different machines - printers, lasers and UV stacked ink."
 image: /assets/images/exhibit-images/25-205-e-dorado-graphix-llc-20241110-161335-300x139.jpg
@@ -72,8 +72,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-10-06 15:47:54"
-last-modified-jotform: "2025-10-11 23:07:49"
-last-exported: "2025-10-12 10:39:33"
+last-modified-jotform: "2025-11-01 12:53:54"
+last-exported: "2025-11-01 13:05:36"
 sitemap: false
 
 ---

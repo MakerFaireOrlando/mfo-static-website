@@ -32,15 +32,15 @@ maker:
   name: "The Ornithophobes"
   description: "3lb Combat robot competitors."
   image-primary:
-    url: /assets/images/exhibit-images/25R-25-m-senor-cangrejo-senorcangrejo-150x114.png
+    url: /assets/images/exhibit-images/25R-25-m-senor-cangrejo-senorcangrejo-300x229.png
     width: 150
     height: 114
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-09-20 14:56:21"
-last-modified-jotform: "2025-10-05 17:49:39"
-last-exported: "2025-10-05 17:50:49"
+last-modified-jotform: "2025-11-01 09:39:52"
+last-exported: "2025-11-01 13:05:07"
 sitemap: false
 
 ---

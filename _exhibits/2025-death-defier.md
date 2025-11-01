@@ -183,18 +183,18 @@ additional-images:
       width: 1024
       height: 807
 maker: 
-  name: "Minibot Robotics"
+  name: "Jupiter/Minibot Robotics"
   description: "Hi, I'm Jonathan! I'm just a weirdo obsessed with combat robotics! I started Minibot Robotics in 2025 mainly for my amusement! I have a few years of experience fighting with my main team Jupiter Robotics, but I will be debuting my new one man band team at Robot Ruckus 2025!"
   image-primary:
-    url: /assets/images/exhibit-images/25R-5-m-death-defier-original-size-original-size-original-size-minibot-20250616-161231-0000-150x150.png
+    url: /assets/images/exhibit-images/25R-5-m-death-defier-original-size-original-size-original-size-minibot-20250616-161231-0000-300x300.png
     width: 150
     height: 150
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-08-23 14:09:11"
-last-modified-jotform: "2025-10-03 07:29:19"
-last-exported: "2025-10-03 07:29:52"
+last-modified-jotform: "2025-11-01 09:22:15"
+last-exported: "2025-11-01 13:05:19"
 sitemap: false
 
 ---
