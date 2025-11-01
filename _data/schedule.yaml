@@ -370,6 +370,8 @@
   enddate: 2025-11-09 14:50:00
   image: /assets/images/stage/2025/cosplay_creators_sun.gif
   guests: 
+  - name: Jeremy Searls of Ironworks Orlando (Moderator)
+    url: https://www.instagram.com/ironworks_orlando
   - name: Allison Chase Cosplay
     url: https://www.makerfaireorlando.com/exhibits/allison-chase-cosplay/
   - name: HavH3roes Cosplay
@@ -404,6 +406,8 @@
   date: 2025-11-09 15:00:00
   enddate: 2025-11-09 15:50:00
   guests: 
+    - name: Stefan Price of Roundtable Productions (Moderator)
+      url: https://www.makerfaireorlando.com/exhibits/the-art-of-stefan-price/
     - name: The Faulty Forge
       url: /exhibits/the-faulty-forge/
     - name: J2C Props and Printing
