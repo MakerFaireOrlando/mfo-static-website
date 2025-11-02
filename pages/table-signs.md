@@ -20,14 +20,22 @@ noindex: true
 {% if exhibit.exhibit-zone == "Power Racing Track" %} {% continue %} {%endif%}
 
 
+{% assign field_trip_category = exhibit.categories | where: "slug", "field-trip-day" %}
+{% if field_trip_category.size > 0 %}
+  {% assign field_trip_flag = "F" %}
+{% else %}
+  {% assign field_trip_flag = "" %}
+{% endif %}
+
+
 <div style="page-break-after: always">
-<img style="margin-bottom:20px;" src="/assets/images/site-branding/2024/mfo_table_sign_header_2024_v1_1000.jpg" alt="Maker Faire Orlando">
+<img style="margin-bottom:20px;" src="/assets/images/site-branding/2025/mfo_table_sign_header_2025_v1_1000.jpg" alt="Maker Faire Orlando">
   <div style="margin-bottom:20px; font-family:lato; font-weight:bold; font-size:50px">{{exhibit.title}}</div>
   <table>
     <tr>
       <td>
         <div style="height: 280px">
-          <img style="float: left; max-width: 400px; max-height: 280px; margin-bottom:20px;" src='{{exhibit.image-primary.large}}'/></div>
+          <img style="float: left; max-width: 400px; max-height: 280px; margin-bottom:20px;" src='{{exhibit.image-primary.large.url}}'/></div>
       </td>
       <td valign="top" style="padding-left:30px; padding-right:20px; font-family:lato; font-size:25px">
         <div style="height:280px; overflow:hidden;">{{exhibit.description}}</div>
@@ -41,7 +49,7 @@ noindex: true
     <tr>
       <td>
         <div style="height: 280px">
-<img style="float: left; max-width: 280px; max-height: 300px; margin-bottom:20px;" src='{{exhibit.maker.image-primary}}'/></div>
+<img style="float: left; max-width: 280px; max-height: 300px; margin-bottom:20px;" src='{{exhibit.maker.image-primary.url}}'/></div>
       </td>
       <td valign="top" style="padding-left:30px; padding-right:20px; font-family:lato; font-size:20px">
         <div style="height:280px; overflow:hidden;">{{exhibit.maker.description}}</div>
@@ -79,7 +87,7 @@ noindex: true
    
     </tr>
   </table>
-  <div style="padding:20px; text-align:right; margin-bottom:20px; font-family:lato; font-weight:bold; font-size:12px">{{exhibit.exhibit-zone}} {{exhibit.space-number}} - ID:{{exhibit.exhibit-id}}</div>
+  <div style="padding:20px; text-align:right; margin-bottom:20px; font-family:lato; font-weight:bold; font-size:12px">{{exhibit.exhibit-zone}} {{exhibit.space-number}} - ID:{{exhibit.exhibit-id}} {{ field_trip_flag }}</div>
 
 </div>
 
