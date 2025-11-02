@@ -35,7 +35,7 @@ maker:
   name: "Titan Tech Fabrication Society"
   description: "Tech Titan Fabrication Society (TTFs) is a student-led club at Olympia High School dedicated to turning ideas into reality. We take on passion projects and custom requests from across campus, working with 3D modeling, printing, robotics, and more. Our mission is to bring creativity and innovation to life at Olympia!"
   image-primary:
-    url: /assets/images/exhibit-images/25-94-m-titan-tech-fabrication-society-olympia-high-school-screenshot-20250717-063327-instagram-145x150.jpg
+    url: /assets/images/exhibit-images/25-94-m-titan-tech-fabrication-society-olympia-high-school-screenshot-20250717-063327-instagram-290x300.jpg
     width: 145
     height: 150
   instagram: https://www.instagram.com/ttfs_ohs
@@ -49,8 +49,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-17 06:49:23"
-last-modified-jotform: "2025-10-05 12:22:43"
-last-exported: "2025-10-05 12:48:58"
+last-modified-jotform: "2025-11-02 06:16:45"
+last-exported: "2025-11-02 07:03:16"
 sitemap: false
 
 ---
