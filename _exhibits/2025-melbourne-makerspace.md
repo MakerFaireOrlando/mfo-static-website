@@ -186,7 +186,7 @@ maker:
   description: "A Makerspace is literally a place where people make things. It is a laboratory of sorts for people who are interested in designing things, learning new stuff, and generally being creative!
 Makerspaces have a set of community-owned tools to share. Our space offers machine shop tools, woodworking tools, electronics equipment, and other fabrication devices."
   image-primary:
-    url: /assets/images/exhibit-images/25-80-m-melbourne-makerspace-melbmakerspacelogo-150x50.jpg
+    url: /assets/images/exhibit-images/25-80-m-melbourne-makerspace-melbmakerspacelogo-300x99.jpg
     width: 150
     height: 50
   website: https://melbournemakerspace.org/
@@ -198,8 +198,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2025-07-11 16:11:41"
-last-modified-jotform: "2025-10-05 16:20:35"
-last-exported: "2025-10-05 17:01:45"
+last-modified-jotform: "2025-11-02 14:01:19"
+last-exported: "2025-11-02 14:52:31"
 sitemap: false
 
 ---

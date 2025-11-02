@@ -50,15 +50,15 @@ maker:
   name: "Skylift"
   description: "Team Skylift.   Lifting bots to the sky!!!!"
   image-primary:
-    url: /assets/images/exhibit-images/25R-55-m-skylift-skylift-picture-150x85.jpg
+    url: /assets/images/exhibit-images/25R-55-m-skylift-skylift-picture-300x171.jpg
     width: 150
     height: 85
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-10-05 13:05:22"
-last-modified-jotform: "2025-10-05 17:48:00"
-last-exported: "2025-10-05 17:50:40"
+last-modified-jotform: "2025-11-02 11:04:02"
+last-exported: "2025-11-02 14:51:49"
 sitemap: false
 
 ---

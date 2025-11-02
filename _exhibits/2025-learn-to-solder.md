@@ -49,7 +49,7 @@ maker:
   name: "The Pink Team"
   description: "The Pink Team is a FIRST Robotics Competition team based out of Rockledge, Fl"
   image-primary:
-    url: /assets/images/exhibit-images/25-201-m-learn-to-solder-pinkball-logo-150x127.png
+    url: /assets/images/exhibit-images/25-201-m-learn-to-solder-pinkball-logo-300x255.png
     width: 150
     height: 127
   website: https://www.thepinkteam.net
@@ -59,8 +59,8 @@ categories:
   - slug: hands-on-workshop
     name: Hands-On Workshop
 created-jotform: "2025-10-04 13:21:35"
-last-modified-jotform: "2025-10-05 11:22:42"
-last-exported: "2025-10-05 11:36:36"
+last-modified-jotform: "2025-11-02 14:48:13"
+last-exported: "2025-11-02 14:52:10"
 sitemap: false
 
 ---

@@ -49,7 +49,7 @@ maker:
   name: "MakerFX Makerspace"
   description: "MakerFX Makerspace is a community makerspace in South Orlando. We welcome makers of all types, from crafters to artists to robotics builders. Whatever you like to make, you'll find a welcoming community that can help you learn, and wants to learn from you. MakerFX is funded by our members who receive 24x7 access to the space & tools as part of their membership. MakerFX has a wide variety of tools that you can use to take your project from idea to reality! MakerFX Makerspace is a program of The Maker Effect Foundation a 501(c)(3) public charity."
   image-primary:
-    url: /assets/images/exhibit-images/25-199-m-makerfx-makerspace-makerfx-logo-hex-2-print-138x150.png
+    url: /assets/images/exhibit-images/25-199-m-makerfx-makerspace-makerfx-logo-hex-2-print-276x300.png
     width: 138
     height: 150
   website: https://www.makerfx.org/
@@ -65,8 +65,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-10-04 00:15:14"
-last-modified-jotform: "2025-10-05 11:32:13"
-last-exported: "2025-10-05 11:36:41"
+last-modified-jotform: "2025-11-02 11:22:11"
+last-exported: "2025-11-02 14:52:13"
 sitemap: false
 
 ---

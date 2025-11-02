@@ -152,11 +152,9 @@ categories:
     name: Indie Gaming
   - slug: manufacturing
     name: Manufacturing
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2025-05-27 13:52:21"
-last-modified-jotform: "2025-11-01 14:10:57"
-last-exported: "2025-11-01 17:01:28"
+last-modified-jotform: "2025-11-02 14:49:56"
+last-exported: "2025-11-02 14:52:35"
 sitemap: false
 
 ---

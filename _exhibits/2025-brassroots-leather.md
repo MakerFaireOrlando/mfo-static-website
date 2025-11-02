@@ -63,7 +63,7 @@ maker:
   name: "Jusnel Gonzalez"
   description: "Steampunk and Pop Culture Inspired Leather Crafts and more."
   image-primary:
-    url: /assets/images/exhibit-images/25-82-m-brassroots-leather-img-7824-150x113.jpeg
+    url: /assets/images/exhibit-images/25-82-m-brassroots-leather-img-7824-300x225.jpeg
     width: 150
     height: 113
   website: https://www.brassrootsleather.com/
@@ -86,8 +86,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-12 15:22:16"
-last-modified-jotform: "2025-09-30 20:28:31"
-last-exported: "2025-10-02 19:46:29"
+last-modified-jotform: "2025-11-02 14:50:24"
+last-exported: "2025-11-02 14:52:25"
 sitemap: false
 
 ---

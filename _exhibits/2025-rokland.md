@@ -8,7 +8,7 @@ exhibit-id: 25-218
 exhibit-zone: "Opportunity"
 space-number: "OD25"
 description: "See Meshtastic compatible hardware including complete handheld nodes, solar nodes, and DIY kits!"
-description-long: "See Meshtastic compatible hardware including complete handheld nodes, solar nodes, and DIY kits! We carry the latest Meshtastic hardware from brands like LILYGO, RAKwireless, Heltec, and more. Learn about new 1 watt LoRa solutions, and how to wire your own solar or battery connections for a custom build."
+description-long: "See Meshtastic compatible hardware including complete handheld nodes, solar nodes, and DIY kits! We carry the latest Meshtastic hardware from brands like RAKwireless, LowMesh, LILYGO, and more. Learn about new 1 watt LoRa solutions, and how to wire your own solar or battery connections for a custom build. Come meet our battery expert to understand the best solar battery solutions for hot and cold climates."
 image: /assets/images/exhibit-images/25-218-e-rokland-gxxjh12bqaa8f7w-300x225.jpg
 image-primary: 
   full:
@@ -64,7 +64,7 @@ additional-images:
       height: 1024
 maker: 
   name: "Rokland LLC"
-  description: "Based in Gainesville, Florida, Rokland Tech is a leading retailer and developer of Wi-Fi, 4G, LoRa, and IoT network solutions. 
+  description: "Based in Gainesville, Florida, Rokland Tech is a leading retailer and developer of Wi-Fi, 4G, LoRa, and IoT network solutions, and partner level distributor for RAKwireless, LILYGO, and Florida-based LowMesh, a new brand focusing on solar and portable mesh solutions, as well as battery technology.
 
 In recent years, we have expanded into the LoRa and IoT ecosystem, offering high-gain indoor and outdoor antennas, low-loss coaxial cables, and a full range of accessories including antenna mounts, lightning arrestors, and pigtails. We also distribute popular development platforms such as Raspberry Pi and other hardware that support IoT, sensor networks, and Meshtastic-based mesh communication projects.
 
@@ -88,8 +88,8 @@ categories:
   - slug: maker-community
     name: Maker Community
 created-jotform: "2025-10-21 17:49:52"
-last-modified-jotform: "2025-11-01 12:51:57"
-last-exported: "2025-11-01 13:05:33"
+last-modified-jotform: "2025-11-02 14:50:14"
+last-exported: "2025-11-02 14:52:07"
 sitemap: false
 
 ---
