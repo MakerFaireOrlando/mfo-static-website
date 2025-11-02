@@ -8,7 +8,10 @@ exhibit-id: 25-159
 exhibit-zone: "Spirit - East"
 space-number: "SH27, SG27"
 description: "Practice painting a fantasy figure of your own!"
-description-long: "Participants will have the chance to paint a tabletop gaming figure of their own to take home. The figures will be a mix of DLP prints, injection molded plastics, and cast resin. 
+description-long: "For Field Trip Day: Donnie will demonstrate how he paints figures throughout the day, discuss the history of miniatures, and how they are made. 
+
+On Saturday and Sunday:
+Participants will have the chance to paint a tabletop gaming figure of their own to take home. The figures will be a mix of DLP prints, injection molded plastics, and cast resin. 
 
 Multiple paint mediums will be available to try so that each painter can find what works best for them and get inspired to do some painting of their own back home!"
 image: /assets/images/exhibit-images/25-159-e-figures-of-fantasy-paint-and-take-screenshot-2025-08-25-at-16-31-28-instagram-300x300.png
@@ -190,8 +193,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-08-25 16:59:01"
-last-modified-jotform: "2025-10-29 21:17:24"
-last-exported: "2025-10-30 08:42:24"
+last-modified-jotform: "2025-11-01 21:27:20"
+last-exported: "2025-11-02 06:07:02"
 sitemap: false
 
 ---

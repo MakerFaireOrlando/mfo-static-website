@@ -32,7 +32,7 @@ maker:
   name: "Tampa Hackerspace"
   description: "We are Tampa's Makerspace"
   image-primary:
-    url: /assets/images/exhibit-images/25R-7-m-hackbot-tampa-hackerspace-2048-transparent-150x150.png
+    url: /assets/images/exhibit-images/25R-7-m-hackbot-tampa-hackerspace-2048-transparent-300x300.png
     width: 150
     height: 150
   website: http://tampahackerspace.com
@@ -40,8 +40,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-08-25 14:37:47"
-last-modified-jotform: "2025-10-03 07:29:10"
-last-exported: "2025-10-03 07:29:48"
+last-modified-jotform: "2025-11-01 21:00:55"
+last-exported: "2025-11-01 21:21:15"
 sitemap: false
 
 ---

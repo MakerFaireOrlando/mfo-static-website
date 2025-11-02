@@ -33,7 +33,7 @@ maker:
 
 We call it the Greatest Show (& Tell) on Earth – a family-friendly showcase of invention, creativity, and resourcefulness."
   image-primary:
-    url: /assets/images/exhibit-images/25-179-m-drone-zone-mfo-two-line-border-150x72.png
+    url: /assets/images/exhibit-images/25-179-m-drone-zone-mfo-two-line-border-300x143.png
     width: 150
     height: 72
   website: https://makerfaireorlando.com
@@ -52,8 +52,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-14 04:04:32"
-last-modified-jotform: "2025-09-30 19:36:39"
-last-exported: "2025-10-02 19:45:35"
+last-modified-jotform: "2025-11-02 05:56:02"
+last-exported: "2025-11-02 06:06:57"
 sitemap: false
 
 ---

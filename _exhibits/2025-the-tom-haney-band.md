@@ -36,7 +36,7 @@ Jin-violin
 Xander-upright bass 
 Apollo-drums"
   image-primary:
-    url: /assets/images/exhibit-images/25-121-m-the-tom-haney-band-img-5691-300x300.jpeg
+    url: /assets/images/exhibit-images/25-121-m-the-tom-haney-band-img-8382-300x300.jpeg
     width: 150
     height: 150
   twitter: https://www.twitter.com/tomhaneyband?s=21
@@ -47,8 +47,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2025-07-29 08:42:25"
-last-modified-jotform: "2025-10-18 16:00:16"
-last-exported: "2025-10-20 16:54:01"
+last-modified-jotform: "2025-11-01 19:00:13"
+last-exported: "2025-11-01 21:22:04"
 sitemap: false
 
 ---

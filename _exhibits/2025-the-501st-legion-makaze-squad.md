@@ -32,7 +32,7 @@ maker:
   name: "501st Legion Makaze Squad"
   description: "The 501st Legion is the world's premier Star Wars costuming organization. Joined by it's sister clubs, the Rebel Legion,  Mandalorian Mercs, The Dark Empire,  Saber Guild and Southern R2 builders."
   image-primary:
-    url: /assets/images/exhibit-images/25-198-m-the-501st-legion-makaze-squad-img-20250922-132731-150x113.jpg
+    url: /assets/images/exhibit-images/25-198-m-the-501st-legion-makaze-squad-img-20250922-132731-300x225.jpg
     width: 150
     height: 113
   website: http://www.fl501st.com
@@ -50,8 +50,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-10-02 21:59:28"
-last-modified-jotform: "2025-10-05 10:53:54"
-last-exported: "2025-10-05 10:55:28"
+last-modified-jotform: "2025-11-01 21:19:14"
+last-exported: "2025-11-01 21:21:54"
 sitemap: false
 
 ---

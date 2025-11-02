@@ -53,7 +53,7 @@ maker:
   name: "Weirdly Wired"
   description: "Family-owned shop that focuses on hands on learning in robotics, 3d printing, and STEAM. Offering classes and sessions for all ages from kids to adults."
   image-primary:
-    url: /assets/images/exhibit-images/25-180-m-dancing-flexi-weirdly-wired-ff-01-2068-150x132.png
+    url: /assets/images/exhibit-images/25-180-m-dancing-flexi-weirdly-wired-ff-01-2068-300x264.png
     width: 150
     height: 132
   website: https://www.weirdlywired.com/
@@ -72,8 +72,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-09-14 10:32:52"
-last-modified-jotform: "2025-09-28 11:42:32"
-last-exported: "2025-09-28 13:16:45"
+last-modified-jotform: "2025-11-01 21:19:35"
+last-exported: "2025-11-01 21:21:58"
 sitemap: false
 
 ---

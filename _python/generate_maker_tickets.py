@@ -31,10 +31,11 @@ import os.path
 from os import path
 
 #settings
-eventYear = 2023
-formCFM = "Call For Makers MFO2024"
-formRuckus = "CFM - Ruckus - MFO2024"
+formCFM = "Call For Makers MFO2025"
+formRuckus = "CFM - Ruckus - MFO2025"
 
+print("FIX RUCKUS!!!")
+exit()
 
 outputAll = False #this is now set with a command line param, don't change it here
 

@@ -29,7 +29,7 @@ image-primary:
     width: 485
     height: 393
 maker: 
-  name: "Stray Team"
+  name: "FOXI.NY"
   description: "The cutest bot that will destroy you!"
   image-primary:
     url: /assets/images/exhibit-images/25R-62-m-foxi-ny-foxi-ny-300x243.jpg
@@ -39,8 +39,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-10-15 17:58:44"
-last-modified-jotform: "2025-10-21 07:57:58"
-last-exported: "2025-10-21 08:00:42"
+last-modified-jotform: "2025-11-01 21:02:01"
+last-exported: "2025-11-01 21:21:05"
 sitemap: false
 
 ---

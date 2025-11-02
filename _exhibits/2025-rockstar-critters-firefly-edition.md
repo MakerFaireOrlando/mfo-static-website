@@ -49,9 +49,9 @@ maker:
   name: "Rockstar Robotics Team #6473"
   description: "FIRST Robotics Competition Team"
   image-primary:
-    url: /assets/images/exhibit-images/25-219-m-rockstar-critters-firefly-edition-rockstar-logo-232x300.png
-    width: 116
-    height: 150
+    url: /assets/images/exhibit-images/25-219-m-rockstar-critters-firefly-edition-img-8583-300x275.jpeg
+    width: 150
+    height: 138
 categories: 
   - slug: art
     name: Art
@@ -64,8 +64,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2025-10-22 08:43:16"
-last-modified-jotform: "2025-11-01 13:22:24"
-last-exported: "2025-11-01 17:00:41"
+last-modified-jotform: "2025-11-01 21:18:58"
+last-exported: "2025-11-01 21:21:42"
 sitemap: false
 
 ---

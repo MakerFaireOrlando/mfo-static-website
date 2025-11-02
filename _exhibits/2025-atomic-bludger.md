@@ -29,7 +29,7 @@ image-primary:
     width: 768
     height: 1024
 maker: 
-  name: "Skylor Willis"
+  name: "Team Bludger"
   description: "Builder of bots, legos and so much more!"
   image-primary:
     url: /assets/images/exhibit-images/25R-60-m-atomic-bludger-img-9372-225x300.jpg
@@ -39,8 +39,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-10-15 17:44:42"
-last-modified-jotform: "2025-10-21 07:57:51"
-last-exported: "2025-10-21 08:00:44"
+last-modified-jotform: "2025-11-01 21:04:52"
+last-exported: "2025-11-01 21:21:07"
 sitemap: false
 
 ---

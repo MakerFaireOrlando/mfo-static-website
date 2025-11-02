@@ -8,7 +8,7 @@ exhibit-id: 25-186
 exhibit-zone: "Power Racing Track"
 space-number: Unassigned
 description: "Bumble Beemer is built to buzz to the podium."
-description-long: "Bumble Beemer is an electric vehicle featuring a custom welded chassis, a brushless motor, and interchangeable gearing to optimize acceleration for each track."
+description-long: "Bumble Beemer is an electric vehicle featuring a custom welded chassis, a brushless motor, and interchangeable gearing to optimize acceleration. This will be its 6th year competing at the Orlando Maker Faire."
 image: /assets/images/exhibit-images/25-186-e-bumble-beemer-alex-orlando-300x169.jpg
 image-primary: 
   full:
@@ -31,15 +31,17 @@ maker:
   name: "Lazy Gecko Racing"
   description: "We are a group of makers who have been building entries for the Power Racing Series."
   image-primary:
-    url: /assets/images/exhibit-images/25-186-m-bumble-beemer-13235260-862353837242804-4324434888201807519-o-117x150.jpg
+    url: /assets/images/exhibit-images/25-186-m-bumble-beemer-13235260-862353837242804-4324434888201807519-o-234x300.jpg
     width: 117
     height: 150
 categories: 
   - slug: power-racing
     name: Power Racing
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-09-16 10:50:58"
-last-modified-jotform: "2025-09-28 11:44:07"
-last-exported: "2025-09-28 13:16:34"
+last-modified-jotform: "2025-11-01 20:43:20"
+last-exported: "2025-11-01 21:21:55"
 sitemap: false
 
 ---

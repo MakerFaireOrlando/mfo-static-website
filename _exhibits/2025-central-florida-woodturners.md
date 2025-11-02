@@ -134,7 +134,7 @@ maker:
   name: "Central Florida Woodturners"
   description: "Central Florida Woodturners is a local chapter of the American Association of Woodturners. We are interested in outreach to the community to introduce them to woodturning. Our club meets on the third Thursday of each month at the Woodcraft store in on Highway 17-92 in Fern Park Florida. Some of the outreach programs that we support are the Parade of Trees that the Orlando Museum of Art puts on each year before Christmas, we supply hand crafted Wig Stands to several Central Florida hospitals and the Beads of Courage program for childhood cancer."
   image-primary:
-    url: /assets/images/exhibit-images/25-113-m-central-florida-woodturners-img-9981-150x94.jpeg
+    url: /assets/images/exhibit-images/25-113-m-central-florida-woodturners-img-9981-300x187.jpeg
     width: 150
     height: 94
   website: https://www.cfw.clubexpress.com
@@ -147,8 +147,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2025-07-28 11:06:50"
-last-modified-jotform: "2025-10-05 16:21:45"
-last-exported: "2025-10-05 17:01:34"
+last-modified-jotform: "2025-11-01 21:20:03"
+last-exported: "2025-11-01 21:22:13"
 sitemap: false
 
 ---
