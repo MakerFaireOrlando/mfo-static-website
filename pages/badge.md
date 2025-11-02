@@ -5,6 +5,10 @@ permalink: /badge/
 page_footer_ad: false
 sitemap: false
 noindex: true
+redirect_from: /maker-info
+redirect_from: /makerinfo
+redirect_from: /info
+
 ---
 
 
@@ -62,9 +66,7 @@ Check out the [Maker Faire Program](/program) for a map, schedule and more!
 
 [Curiosity Building PDF Space Plan](/assets/pdf/2025/MFO25-CURIOSITY.pdf) - Space numbers starting with "C"
 
-{%comment%}
-[Exhibit Tent PDF Space Plan](/assets/pdf/2025/MFO25-EXHIBIT-TENT.pdf) - Space numbers starting with "T"
-{%endcomment%}
+[Exhibit Tent PDF Space Plan](/assets/pdf/2025/MFO25-MAKER-TENT.pdf) - Space numbers starting with "T"
 
 
 We do not publish a space plan for all outdoor exhibits, we have to validate space conditions when we are on-site at the Fairgrounds. Once you are on-site, our team will help you locate your outdoor exhibit. If you have a question about an outdoor location, email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
