@@ -438,7 +438,8 @@ def export(outputAll):
               sEX = sn + "\\" + "\\" + exhibitName
               sEM = sn + "\\" + "\\" + exhibitName + "\\" + "\\" + makerName
               sE = exhibitName
-              sList = [sn, sEID, sEX, sEM, sE]
+              #sList = [sn, sEID, sEX, sEM, sE]
+              sList = [sn, sEID]
               if (not dup):
                   spaceplanList.append(sList)
               else:
@@ -667,17 +668,25 @@ def export(outputAll):
         #print (spaceplanList)
 
         #init the rows
-        csvrowC = [["View"],["SpaceExhibitID"],["SpaceExhbit"],["SpaceExhibitMaker"],["Exhibit"]]
-        csvrowS = [["View"],["SpaceExhibitID"],["SpaceExhbit"],["SpaceExhibitMaker"],["Exhibit"]]
-        csvrowO = [["View"],["SpaceExhibitID"],["SpaceExhbit"],["SpaceExhibitMaker"],["Exhibit"]]
+        csvrowC = [["View"],["SpaceExhibitID"]]
+        csvrowS = [["View"],["SpaceExhibitID"]]
+        csvrowO = [["View"],["SpaceExhibitID"]]
+        csvrowM = [["View"],["SpaceExhibitID"]]
+
+        #csvrowC = [["View"],["SpaceExhibitID"],["SpaceExhbit"],["SpaceExhibitMaker"],["Exhibit"]]
+        #csvrowS = [["View"],["SpaceExhibitID"],["SpaceExhbit"],["SpaceExhibitMaker"],["Exhibit"]]
+        #csvrowO = [["View"],["SpaceExhibitID"],["SpaceExhbit"],["SpaceExhibitMaker"],["Exhibit"]]
+        #csvrowM = [["View"],["SpaceExhibitID"],["SpaceExhbit"],["SpaceExhibitMaker"],["Exhibit"]]
 
         #add blank spaces
         cRows = ['A','B','C','D','E','F','G','H','I','J']
         sRows = ['A','B','C','D','E','F','G','H','I','J','K','L']
         oRows = ['A','B','C','D','E','F','G']
+        mRows = ['A','B','C','D','E','F','G','H']
         cNumCols = 6
         sNumCols = 36
         oNumCols = 29
+        mNumCols = 4
 
         for curRow in cRows:
           for curCol in range(1,cNumCols + 1):
@@ -686,9 +695,9 @@ def export(outputAll):
             if any(e[0] == curSpace for e in spaceplanList) is False:
               csvrowC[0].append(curSpace)
               csvrowC[1].append("")
-              csvrowC[2].append("")
-              csvrowC[3].append("")
-              csvrowC[4].append("")
+              #csvrowC[2].append("")
+              #csvrowC[3].append("")
+              #csvrowC[4].append("")
 
         for curRow in sRows:
           for curCol in range(1,sNumCols + 1):
@@ -697,9 +706,9 @@ def export(outputAll):
             if any(e[0] == curSpace for e in spaceplanList) is False:
               csvrowS[0].append(curSpace)
               csvrowS[1].append("")
-              csvrowS[2].append("")
-              csvrowS[3].append("")
-              csvrowS[4].append("")
+              #csvrowS[2].append("")
+              #csvrowS[3].append("")
+              #csvrowS[4].append("")
 
         for curRow in oRows:
           for curCol in range(1,oNumCols + 1):
@@ -708,9 +717,20 @@ def export(outputAll):
             if any(e[0] == curSpace for e in spaceplanList) is False:
               csvrowO[0].append(curSpace)
               csvrowO[1].append("")
-              csvrowO[2].append("")
-              csvrowO[3].append("")
-              csvrowO[4].append("")
+              #csvrowO[2].append("")
+              #csvrowO[3].append("")
+              #csvrowO[4].append("")
+
+        for curRow in mRows:
+          for curCol in range(1,mNumCols + 1):
+            curSpace = "M" + curRow + str(curCol)
+            #print(curSpace)
+            if any(e[0] == curSpace for e in spaceplanList) is False:
+              csvrowM[0].append(curSpace)
+              csvrowM[1].append("")
+              #csvrowM[2].append("")
+              #csvrowM[3].append("")
+              #csvrowM[4].append("")
 
         unow = datetime.datetime.now()
         updated = unow.strftime("%Y-%m-%d-%-H:%M:%S")
@@ -719,7 +739,8 @@ def export(outputAll):
 
         #output by iterating the spaces
         for spc in spaceplanList:
-          for row in range (0,5):
+          #for row in range (0,5):
+          for row in range (0,2):
             #split by building
             if spc[0][0] == "C":
               csvrowC[row].append(spc[row])
@@ -727,16 +748,22 @@ def export(outputAll):
               csvrowS[row].append(spc[row])
             elif spc[0][0] == "O":
               csvrowO[row].append(spc[row])
+            elif spc[0][0] == "M":
+              csvrowM[row].append(spc[row])
 
         #add update time to end
-        for urow in range (0,5):
+        #for urow in range (0,5):
+        for urow in range (0,2):
           csvrowC[urow].append(updatedList[urow])
           csvrowS[urow].append(updatedList[urow])
           csvrowO[urow].append(updatedList[urow])
+          csvrowM[urow].append(updatedList[urow])
+          
 
         writeCSVFile("curiosity.csv", csvrowC);
         writeCSVFile("spirit.csv", csvrowS);
         writeCSVFile("opportunity.csv", csvrowO);
+        writeCSVFile("maker-tent.csv", csvrowM);
     #end if changes then write export files
 
     #create include snippet with categories for the makers page
