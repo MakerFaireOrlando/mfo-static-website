@@ -1,6 +1,6 @@
 ---
 title: About Maker Faire Orlando
-layout: default
+layout: full-width
 permalink: /about/
 image: /assets/images/slider/kid-with-stormtroopers.jpg  
 
@@ -20,6 +20,8 @@ carousel-slides:
     caption: See racing action!
     url: /power-racing/
 ---
+
+{% capture cta_event_text %}{{ site.event_date_descr }} – 10am to 5pm – {{ site.event_location_descr }}{% endcapture %} {% include cta-panel-widget.html cta_text=cta_event_text cta_url=site.cta_event_url %}
 <div style="margin-top: 20px"></div>
 
 
