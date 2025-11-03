@@ -59,7 +59,7 @@ Letterboxing combines art, exploration, and puzzle-solving—perfect for the cur
 
 Letterboxing is a wonderful blend of creativity and discovery, and I believe it fits right in with the Maker Faire community."
   image-primary:
-    url: /assets/images/exhibit-images/25-85-m-adventure-stamps-inbound4559790138162629101-112x150.jpg
+    url: /assets/images/exhibit-images/25-85-m-adventure-stamps-inbound4559790138162629101-225x300.jpg
     width: 112
     height: 150
 categories: 
@@ -72,8 +72,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-07-13 13:29:50"
-last-modified-jotform: "2025-09-30 19:45:22"
-last-exported: "2025-10-02 19:46:26"
+last-modified-jotform: "2025-11-03 07:54:23"
+last-exported: "2025-11-03 10:22:02"
 sitemap: false
 
 ---

@@ -31,7 +31,7 @@ maker:
   name: "Jack Apollo, Elvis Tribute Artist"
   description: "Nicholas Madamba, known professionally as Jack Apollo, is an Orlando-based cosplaying Elvis Tribute Artist, singer and rising actor merging together his passions for the King of Rock and all things anime and comic-related. Inspired by Baz Luhrmann’s 2022 “Elvis” biopic, Elvis’ adoration of superheroes and film career, and his own love for music and the cosplay scene, Apollo saw fit to shine in both. Since first debuting as a roaming Elvis Tribute Artist at Cons in 2022, then moving from Virginia to Florida in 2024, Apollo has carved a unique niche for himself in the convention and entertainment scene, gracing panels and open mics with his passion for the King of Rock at several noteworthy events! Apollo’s panelist and performer credentials include Megacon Orlando (2023), Dragon Con (2023 and 2024), New York Comic Con (2024), Holiday Cosplay St. Pete (2024), Holiday Matsuri (2023 and 2024), and Tampa Bay Comic Con (2025)."
   image-primary:
-    url: /assets/images/exhibit-images/25-118-m-the-comic-con-elvis-tribute-img-2091-112x150.jpeg
+    url: /assets/images/exhibit-images/25-118-m-the-comic-con-elvis-tribute-img-2091-225x300.jpeg
     width: 112
     height: 150
   instagram: https://www.instagram.com/jackapollocosplays?igsh=a3d4NmNtaWZ0eGo0&utm_source=qr
@@ -43,8 +43,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2025-07-28 22:57:40"
-last-modified-jotform: "2025-09-13 10:48:23"
-last-exported: "2025-09-13 11:26:27"
+last-modified-jotform: "2025-11-03 07:49:12"
+last-exported: "2025-11-03 10:21:58"
 sitemap: false
 
 ---

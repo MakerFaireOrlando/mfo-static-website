@@ -29,7 +29,7 @@ image-primary:
     width: 1024
     height: 768
 maker: 
-  name: "David & Sophia Rodriguez"
+  name: "The Supers"
   description: "Brother sister bot builders!"
   image-primary:
     url: /assets/images/exhibit-images/25R-64-m-13akers-dozen-flint-and-steel-flint-and-steel-300x225.jpg
@@ -39,8 +39,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-10-15 18:07:54"
-last-modified-jotform: "2025-10-21 07:58:06"
-last-exported: "2025-10-21 08:00:41"
+last-modified-jotform: "2025-11-03 09:34:44"
+last-exported: "2025-11-03 10:21:17"
 sitemap: false
 
 ---

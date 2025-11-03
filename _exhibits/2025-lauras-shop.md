@@ -7,61 +7,63 @@ permalink: /exhibits/lauras-shop/
 exhibit-id: 25-55
 exhibit-zone: "Opportunity"
 space-number: "OA17"
-description: "Laser pictures, 3D printed toys and games, wood pens and pencils, had draws art, and stuffed animals"
-description-long: "Everything I sell is made 100% by me. I design, create and make toys, 3D layered pictures, drawings, dragon tiles, books and crocheted animals and toys."
-image: /assets/images/exhibit-images/25-55-e-lauras-shop-img-7640-7996-300x225.jpeg
+description: "Laser pictures, Make and take Pokemon Cards, 3D printed toys, draws art, and stuffed animals"
+description-long: "Everything I sell is made 100% by me. I design, create and make toys, 3D layered pictures, drawings, dragon tiles, books and crocheted animals and toys.
+
+Make and take Pokemon Cards and Christmas ornaments."
+image: /assets/images/exhibit-images/25-55-e-lauras-shop-img-9074-253x300.jpeg
 image-primary: 
   full:
-    url: /assets/images/exhibit-images/25-55-e-lauras-shop-img-7640-7996-full.jpeg
-    width: 4032
-    height: 3024
+    url: /assets/images/exhibit-images/25-55-e-lauras-shop-img-9074-full.jpeg
+    width: 3016
+    height: 3579
   small:
-    url: /assets/images/exhibit-images/25-55-e-lauras-shop-img-7640-7996-150x113.jpeg
-    width: 150
-    height: 113
+    url: /assets/images/exhibit-images/25-55-e-lauras-shop-img-9074-126x150.jpeg
+    width: 126
+    height: 150
   medium:
-    url: /assets/images/exhibit-images/25-55-e-lauras-shop-img-7640-7996-300x225.jpeg
-    width: 300
-    height: 225
+    url: /assets/images/exhibit-images/25-55-e-lauras-shop-img-9074-253x300.jpeg
+    width: 253
+    height: 300
   large:
-    url: /assets/images/exhibit-images/25-55-e-lauras-shop-img-7640-7996-1024x768.jpeg
-    width: 1024
-    height: 768
+    url: /assets/images/exhibit-images/25-55-e-lauras-shop-img-9074-863x1024.jpeg
+    width: 863
+    height: 1024
 additional-images: 
   - 1:
     full:
-      url: /assets/images/exhibit-images/25-55-e1-lauras-shop-img-8068-full.jpeg
-      width: 4032
-      height: 3024
+      url: /assets/images/exhibit-images/25-55-e1-lauras-shop-img-9074-316-full.jpeg
+      width: 3016
+      height: 3579
     small:
-      url: /assets/images/exhibit-images/25-55-e1-lauras-shop-img-8068-112x150.jpeg
-      width: 112
+      url: /assets/images/exhibit-images/25-55-e1-lauras-shop-img-9074-316-126x150.jpeg
+      width: 126
       height: 150
     medium:
-      url: /assets/images/exhibit-images/25-55-e1-lauras-shop-img-8068-225x300.jpeg
-      width: 225
+      url: /assets/images/exhibit-images/25-55-e1-lauras-shop-img-9074-316-253x300.jpeg
+      width: 253
       height: 300
     large:
-      url: /assets/images/exhibit-images/25-55-e1-lauras-shop-img-8068-768x1024.jpeg
-      width: 768
+      url: /assets/images/exhibit-images/25-55-e1-lauras-shop-img-9074-316-863x1024.jpeg
+      width: 863
       height: 1024
   - 2:
     full:
-      url: /assets/images/exhibit-images/25-55-e2-lauras-shop-img-8107-full.jpeg
+      url: /assets/images/exhibit-images/25-55-e2-lauras-shop-img-9075-4017-full.jpeg
       width: 4032
       height: 3024
     small:
-      url: /assets/images/exhibit-images/25-55-e2-lauras-shop-img-8107-150x113.jpeg
-      width: 150
-      height: 113
+      url: /assets/images/exhibit-images/25-55-e2-lauras-shop-img-9075-4017-112x150.jpeg
+      width: 112
+      height: 150
     medium:
-      url: /assets/images/exhibit-images/25-55-e2-lauras-shop-img-8107-300x225.jpeg
-      width: 300
-      height: 225
+      url: /assets/images/exhibit-images/25-55-e2-lauras-shop-img-9075-4017-225x300.jpeg
+      width: 225
+      height: 300
     large:
-      url: /assets/images/exhibit-images/25-55-e2-lauras-shop-img-8107-1024x768.jpeg
-      width: 1024
-      height: 768
+      url: /assets/images/exhibit-images/25-55-e2-lauras-shop-img-9075-4017-768x1024.jpeg
+      width: 768
+      height: 1024
   - 3:
     full:
       url: /assets/images/exhibit-images/25-55-e3-lauras-shop-img-7886-full.jpeg
@@ -181,29 +183,12 @@ additional-images:
       url: /assets/images/exhibit-images/25-55-e9-lauras-shop-img-7377-768x1024.jpeg
       width: 768
       height: 1024
-  - 10:
-    full:
-      url: /assets/images/exhibit-images/25-55-e10-lauras-shop-img-7228-full.jpeg
-      width: 4032
-      height: 3024
-    small:
-      url: /assets/images/exhibit-images/25-55-e10-lauras-shop-img-7228-112x150.jpeg
-      width: 112
-      height: 150
-    medium:
-      url: /assets/images/exhibit-images/25-55-e10-lauras-shop-img-7228-225x300.jpeg
-      width: 225
-      height: 300
-    large:
-      url: /assets/images/exhibit-images/25-55-e10-lauras-shop-img-7228-768x1024.jpeg
-      width: 768
-      height: 1024
 maker: 
   name: "Laura Melnik"
   description: "Self. I make pictures from my laser, 3D printed toys and games, wood pens and pencils, had draws art, and stuffed animals. Everything I sell I make."
   image-primary:
-    url: /assets/images/exhibit-images/25-55-m-lauras-shop-img-8243-294x300.jpeg
-    width: 147
+    url: /assets/images/exhibit-images/25-55-m-lauras-shop-img-9075-8607-225x300.jpeg
+    width: 112
     height: 150
   facebook: https://www.facebook.com/laura.melnik
 categories: 
@@ -220,8 +205,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2025-06-29 17:54:15"
-last-modified-jotform: "2025-11-01 14:32:41"
-last-exported: "2025-11-01 17:01:20"
+last-modified-jotform: "2025-11-02 16:14:24"
+last-exported: "2025-11-03 10:22:16"
 sitemap: false
 
 ---

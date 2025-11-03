@@ -13,23 +13,23 @@ description-long: "On a whim I ordered some clay and paints online and just gave
 I never sought out to do replicas, I love exaggerating their facial features and putting my own spin on them. When people throw me a new or challenging character to caricature-ize I try to make it fun.
 
 ﻿My goal is to make everyone smile or even laugh a little when they see one of my sculpts in person, even the scary or bloody ones!"
-image: /assets/images/exhibit-images/25-177-e-got-caricature-img-8259-251x300.jpeg
+image: /assets/images/exhibit-images/25-177-e-got-caricature-makersfair-7815-240x300.jpg
 image-primary: 
   full:
-    url: /assets/images/exhibit-images/25-177-e-got-caricature-img-8259-full.jpeg
-    width: 937
-    height: 1119
+    url: /assets/images/exhibit-images/25-177-e-got-caricature-makersfair-7815-full.jpg
+    width: 864
+    height: 1082
   small:
-    url: /assets/images/exhibit-images/25-177-e-got-caricature-img-8259-126x150.jpeg
-    width: 126
+    url: /assets/images/exhibit-images/25-177-e-got-caricature-makersfair-7815-120x150.jpg
+    width: 120
     height: 150
   medium:
-    url: /assets/images/exhibit-images/25-177-e-got-caricature-img-8259-251x300.jpeg
-    width: 251
+    url: /assets/images/exhibit-images/25-177-e-got-caricature-makersfair-7815-240x300.jpg
+    width: 240
     height: 300
   large:
-    url: /assets/images/exhibit-images/25-177-e-got-caricature-img-8259-857x1024.jpeg
-    width: 857
+    url: /assets/images/exhibit-images/25-177-e-got-caricature-makersfair-7815-818x1024.jpg
+    width: 818
     height: 1024
 additional-images: 
   - 1:
@@ -49,13 +49,13 @@ additional-images:
       url: /assets/images/exhibit-images/25-177-e1-got-caricature-img-2635-1024x970.jpeg
       width: 1024
       height: 970
-website: "https://www.gotcaricature.com"
+website: "https://got-caricature.square.site/"
 maker: 
   name: "Jeff Jones/Got Caricature"
   description: "Hand sculpted life size caricature  bust of pop culture figures and characters. Items are originally sculpted in clay, cast in resin and hand painted."
   image-primary:
-    url: /assets/images/exhibit-images/25-177-m-got-caricature-img-2353-143x150.jpeg
-    width: 143
+    url: /assets/images/exhibit-images/25-177-m-got-caricature-makersfair-5189-240x300.jpg
+    width: 120
     height: 150
   website: https://www.gotcaricature.com/
   instagram: https://www.instagram.com/gotcaricature
@@ -64,8 +64,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2025-09-13 15:52:16"
-last-modified-jotform: "2025-09-30 20:28:04"
-last-exported: "2025-10-02 19:45:38"
+last-modified-jotform: "2025-11-03 07:25:37"
+last-exported: "2025-11-03 10:21:52"
 sitemap: false
 
 ---

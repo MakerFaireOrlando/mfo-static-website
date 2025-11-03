@@ -32,10 +32,8 @@ from os import path
 
 #settings
 formCFM = "Call For Makers MFO2025"
-formRuckus = "CFM - Ruckus - MFO2025"
+formRuckus = "MFO2025 - Ruckus - CFM"
 
-print("FIX RUCKUS!!!")
-exit()
 
 outputAll = False #this is now set with a command line param, don't change it here
 

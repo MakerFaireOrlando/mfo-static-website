@@ -81,70 +81,53 @@ additional-images:
       height: 1024
   - 4:
     full:
-      url: /assets/images/exhibit-images/25-184-e4-novella-cooper-illustrations-img-1439-full.jpeg
+      url: /assets/images/exhibit-images/25-184-e4-novella-cooper-illustrations-img-2615-full.jpeg
       width: 4032
       height: 3024
     small:
-      url: /assets/images/exhibit-images/25-184-e4-novella-cooper-illustrations-img-1439-112x150.jpeg
+      url: /assets/images/exhibit-images/25-184-e4-novella-cooper-illustrations-img-2615-112x150.jpeg
       width: 112
       height: 150
     medium:
-      url: /assets/images/exhibit-images/25-184-e4-novella-cooper-illustrations-img-1439-225x300.jpeg
+      url: /assets/images/exhibit-images/25-184-e4-novella-cooper-illustrations-img-2615-225x300.jpeg
       width: 225
       height: 300
     large:
-      url: /assets/images/exhibit-images/25-184-e4-novella-cooper-illustrations-img-1439-768x1024.jpeg
+      url: /assets/images/exhibit-images/25-184-e4-novella-cooper-illustrations-img-2615-768x1024.jpeg
       width: 768
       height: 1024
   - 5:
     full:
-      url: /assets/images/exhibit-images/25-184-e5-novella-cooper-illustrations-img-2615-full.jpeg
+      url: /assets/images/exhibit-images/25-184-e5-novella-cooper-illustrations-img-1107-full.jpeg
       width: 4032
       height: 3024
     small:
-      url: /assets/images/exhibit-images/25-184-e5-novella-cooper-illustrations-img-2615-112x150.jpeg
+      url: /assets/images/exhibit-images/25-184-e5-novella-cooper-illustrations-img-1107-112x150.jpeg
       width: 112
       height: 150
     medium:
-      url: /assets/images/exhibit-images/25-184-e5-novella-cooper-illustrations-img-2615-225x300.jpeg
+      url: /assets/images/exhibit-images/25-184-e5-novella-cooper-illustrations-img-1107-225x300.jpeg
       width: 225
       height: 300
     large:
-      url: /assets/images/exhibit-images/25-184-e5-novella-cooper-illustrations-img-2615-768x1024.jpeg
+      url: /assets/images/exhibit-images/25-184-e5-novella-cooper-illustrations-img-1107-768x1024.jpeg
       width: 768
       height: 1024
   - 6:
     full:
-      url: /assets/images/exhibit-images/25-184-e6-novella-cooper-illustrations-img-1107-full.jpeg
+      url: /assets/images/exhibit-images/25-184-e6-novella-cooper-illustrations-img-1555-full.jpeg
       width: 4032
       height: 3024
     small:
-      url: /assets/images/exhibit-images/25-184-e6-novella-cooper-illustrations-img-1107-112x150.jpeg
+      url: /assets/images/exhibit-images/25-184-e6-novella-cooper-illustrations-img-1555-112x150.jpeg
       width: 112
       height: 150
     medium:
-      url: /assets/images/exhibit-images/25-184-e6-novella-cooper-illustrations-img-1107-225x300.jpeg
+      url: /assets/images/exhibit-images/25-184-e6-novella-cooper-illustrations-img-1555-225x300.jpeg
       width: 225
       height: 300
     large:
-      url: /assets/images/exhibit-images/25-184-e6-novella-cooper-illustrations-img-1107-768x1024.jpeg
-      width: 768
-      height: 1024
-  - 7:
-    full:
-      url: /assets/images/exhibit-images/25-184-e7-novella-cooper-illustrations-img-1555-full.jpeg
-      width: 4032
-      height: 3024
-    small:
-      url: /assets/images/exhibit-images/25-184-e7-novella-cooper-illustrations-img-1555-112x150.jpeg
-      width: 112
-      height: 150
-    medium:
-      url: /assets/images/exhibit-images/25-184-e7-novella-cooper-illustrations-img-1555-225x300.jpeg
-      width: 225
-      height: 300
-    large:
-      url: /assets/images/exhibit-images/25-184-e7-novella-cooper-illustrations-img-1555-768x1024.jpeg
+      url: /assets/images/exhibit-images/25-184-e6-novella-cooper-illustrations-img-1555-768x1024.jpeg
       width: 768
       height: 1024
 maker: 
@@ -160,8 +143,8 @@ categories:
   - slug: art
     name: Art
 created-jotform: "2025-09-15 21:45:59"
-last-modified-jotform: "2025-10-22 20:06:48"
-last-exported: "2025-10-22 22:01:40"
+last-modified-jotform: "2025-11-03 08:00:03"
+last-exported: "2025-11-03 10:21:49"
 sitemap: false
 
 ---
