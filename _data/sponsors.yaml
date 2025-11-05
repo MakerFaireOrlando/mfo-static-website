@@ -151,7 +151,21 @@ sponsors:
     logo: rokland.png
     level: 4
     active: true
-
+  - name: Forward Thinking Designs 
+    url: https://www.forwardthinkingdesigns.com/
+    logo: ftd-LogoBlack.png
+    level: 5
+    active: true
+  - name: Meyer Sound  
+    url: https://meyersound.com/
+    logo: meyer.png
+    level: 5
+    active: true
+  - name: Mainline   
+    url: https://mainlinemarketing.com/
+    logo: Mainline-Logo2025_Horiz.png
+    level: 5
+    active: true
 
 
 
