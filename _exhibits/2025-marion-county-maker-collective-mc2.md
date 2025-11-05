@@ -8,7 +8,7 @@ exhibit-id: 25-204
 exhibit-zone: "Opportunity"
 space-number: "OC13"
 description: "Sharing about the group and the new space soon to open in our community."
-description-long: "We will have a display of photos from group builds and some physical examples of things we have created together.  We will also bring a small make-n-take project for attendees to enjoy. We will have literature about the new space available for anyone interested in learning more about this program."
+description-long: "We will have a display of photos from group builds and some physical examples of things we have created together.  We will also bring 2  small make-n-take projects for attendees to enjoy, highlighting our fiberworking zone and our 3d printing and visual arts zone. We will have literature about the new space available for anyone interested in learning more about this program."
 image: /assets/images/exhibit-images/25-204-e-marion-county-maker-collective-mc2-maker-300x298.JPG
 image-primary: 
   full:
@@ -39,21 +39,19 @@ Our mission is to provide a space for people to learn and create through hands-o
   instagram: https://www.instagram.com/marionco_makercollective/
   facebook: https://www.facebook.com/MarionCoMakers/
 categories: 
-  - slug: art
-    name: Art
+  - slug: 3d-printing
+    name: 3D Printing
   - slug: craft
     name: Craft
-  - slug: fabric-arts
-    name: Fabric Arts
   - slug: fiber-arts
     name: Fiber Arts
   - slug: handmade
     name: Handmade
-  - slug: field-trip-day
-    name: Field Trip Day
+  - slug: makerspace
+    name: Makerspace
 created-jotform: "2025-10-06 12:33:34"
-last-modified-jotform: "2025-10-25 14:07:42"
-last-exported: "2025-10-25 14:08:37"
+last-modified-jotform: "2025-11-05 06:47:40"
+last-exported: "2025-11-05 06:48:16"
 sitemap: false
 
 ---

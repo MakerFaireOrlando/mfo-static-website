@@ -63,12 +63,13 @@
   description: Meet passionate robot makers—from high school teams to seasoned builders—as they share how design, engineering, and competition fuel their creations in FIRST robotics and combat arenas.
   date: 2025-11-07 14:00:00
   enddate: 2025-11-07 14:25:00
+  image: /assets/images/stage/2025/robot-makers-fri.gif
   guests: 
     - name: Andrea Gellatly - BattleBots Team Witch Doctor (Moderator)
       url: /exhibits/witch-doctor-on-battlebots/
+    - name: Ari Ashworth-Harbas
     - name: Ayden Moheit
     - name: Colton Wagner
-    - name: Ashworth-Harbas
 
  
 - title: Field Trip Day Ends!
@@ -101,8 +102,11 @@
   enddate: 2025-11-08 11:15:00
   #image: /assets/images/sponsors/universal-creative.png
   guests:
+    - name: Bryan Zebleckes, Clair Global Integration - International Project Manager
+      url: https://www.linkedin.com/in/bryanzebleckes/
     - name: Jen Wilson Dir, Projects, Universal Creative
       url: https://www.linkedin.com/in/jennifer-wilson-189b4630/
+    
  
 - title: Power Racing - Qualifying
   location: Power Racing Track
@@ -405,15 +409,18 @@
   description: Meet and learn from prop makers who create objects for use in film, TV, theater, and other productions. They work with a range of materials and skills to make props that look realistic and match the production's design
   date: 2025-11-09 15:00:00
   enddate: 2025-11-09 15:50:00
+  image: /assets/images/stage/2025/props-sun.gif
   guests: 
     - name: Stefan Price of Roundtable Productions (Moderator)
-      url: https://www.makerfaireorlando.com/exhibits/the-art-of-stefan-price/
+      url: /exhibits/the-art-of-stefan-price/
     - name: The Faulty Forge
       url: /exhibits/the-faulty-forge/
     - name: J2C Props and Printing
       url: /exhibits/j2c-props-and-printing/
     - name: Dune Sea Ranch
       url: /exhibits/dune-sea-ranch/
+    - name: Lisa Smith, Halfmoon Creative Works
+      url: exhibits/lisa-makes-neat-stuff/
 
 - title: RoboClash Audience Tournament
   slug: roboclash-sun2

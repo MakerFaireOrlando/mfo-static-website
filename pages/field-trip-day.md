@@ -61,7 +61,7 @@ If your student is homeschooled, or is part of a full-time virtual school progra
 
 ### Important Notes
 
-* Info emails are being sent from makers@makerfaireorlando.com. If you registered, you should have received multiple emails from us. If you have not, please check junk / spam filters. 
+* Info emails are being sent from makers@makerfaireorlando.com. If you registered, you should have received multiple emails from us. If you have not, please check junk / spam filters. **OCPS Teachers - some of our emails are not getting through the OCPS email filters. If we are not responding to your emails, please use an alternate email address.**
 
 * All students must be supervised at the event by an adult at all times. Please plan for proper adult / student ratios and supervision. 
 

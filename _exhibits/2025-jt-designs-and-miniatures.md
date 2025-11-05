@@ -151,7 +151,7 @@ maker:
   name: "Jerry Testa"
   description: "Recreations of some of the most iconic vehicles and characters in cinema history. Using silicone molding techniques, fiberglass, wood working, 3D printing and kit bashing. In addition to science fiction topics, real world pieces are also created such as ships and other types of vehicles and creatures."
   image-primary:
-    url: /assets/images/exhibit-images/25-25-m-jt-designs-and-miniatures-jt-designs-150x92.jpg
+    url: /assets/images/exhibit-images/25-25-m-jt-designs-and-miniatures-jt-designs-300x185.jpg
     width: 150
     height: 92
   website: http://www.jtdesignsandminiatures.com
@@ -166,9 +166,11 @@ categories:
     name: Props
   - slug: special-effects
     name: Special Effects
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2025-06-10 23:03:13"
-last-modified-jotform: "2025-09-30 20:40:02"
-last-exported: "2025-10-02 19:47:17"
+last-modified-jotform: "2025-11-04 17:52:47"
+last-exported: "2025-11-05 06:47:48"
 sitemap: false
 
 ---

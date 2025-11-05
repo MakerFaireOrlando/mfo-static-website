@@ -202,7 +202,7 @@ maker:
   name: "Patricia Smith"
   description: "Little World Creations are made from upcycled vintage teacups into miniature designs reflecting nature, animals, fairies & holiday decorations. All original one of a kind creations."
   image-primary:
-    url: /assets/images/exhibit-images/25-137-m-little-world-creations-screenshot-20250731-144625-files-by-google-7679-68x150.png
+    url: /assets/images/exhibit-images/25-137-m-little-world-creations-screenshot-20250731-144625-files-by-google-7679-135x300.png
     width: 68
     height: 150
 categories: 
@@ -214,11 +214,9 @@ categories:
     name: SteamPunk
   - slug: upcycling
     name: Upcycling
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2025-07-31 15:10:21"
-last-modified-jotform: "2025-09-30 20:22:05"
-last-exported: "2025-10-02 19:46:02"
+last-modified-jotform: "2025-11-04 15:07:26"
+last-exported: "2025-11-05 06:47:41"
 sitemap: false
 
 ---
