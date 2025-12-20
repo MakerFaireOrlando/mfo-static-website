@@ -46,7 +46,7 @@ additional-images:
       width: 764
       height: 1024
 video: "https://youtube.com/shorts/vEh9R_WGXeg"
-video-embed: '<iframe width="576" height="1024" src="https://www.youtube.com/embed/vEh9R_WGXeg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="My #OpenSauce #3DPrinted art booth! @opensaucelive #engineering #diy"></iframe>'
+video-embed: '<iframe width="576" height="1024" src="https://www.youtube.com/embed/vEh9R_WGXeg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="My #OpenSauce #3DPrinted art booth! @sauceplusofficial #engineering #diy"></iframe>'
 maker: 
   name: "Evette's Niche"
   description: "Artist. Fabricator. Engineer. Maker of whimsical machines and wearable art."
@@ -72,7 +72,7 @@ categories:
     name: Field Trip Day
 created-jotform: "2025-10-22 17:35:09"
 last-modified-jotform: "2025-10-25 14:50:54"
-last-exported: "2025-11-06 12:47:41"
+last-exported: "2025-12-08 19:23:59"
 sitemap: false
 
 ---

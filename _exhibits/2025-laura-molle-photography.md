@@ -66,11 +66,9 @@ categories:
     name: Music
   - slug: photography
     name: Photography
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2025-06-03 10:26:35"
-last-modified-jotform: "2025-10-25 09:20:12"
-last-exported: "2025-10-25 11:21:15"
+last-modified-jotform: "2025-11-06 15:32:56"
+last-exported: "2025-12-08 19:24:02"
 sitemap: false
 
 ---

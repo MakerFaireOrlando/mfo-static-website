@@ -32,15 +32,15 @@ maker:
   name: "I'm all Eyes / Caleb Allen"
   description: "This is an individual using a kit with mild modifications."
   image-primary:
-    url: /assets/images/exhibit-images/25R-111-m-im-all-eyes-img-8657-300x225.jpeg
+    url: /assets/images/exhibit-images/25R-111-m-im-all-eyes-img-8825-999-300x225.jpeg
     width: 150
     height: 113
 categories: 
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2025-10-29 08:58:20"
-last-modified-jotform: "2025-11-06 11:38:44"
-last-exported: "2025-11-06 12:47:18"
+last-modified-jotform: "2025-11-07 15:24:10"
+last-exported: "2025-12-08 19:23:33"
 sitemap: false
 
 ---
