@@ -19,7 +19,7 @@ scrolltop: true
 page_footer_ad: false
 ---
 
-# Maker Faire Orlando {{site.event_year}} - {{site.event_date_descr_month_day}}
+# Maker Faire Orlando {{site.data.settings.event_year}} - {{site.data.settings.event_date_descr_month_day}}
 #### Maker Faire Orlando is a non-profit, community-organized, family-friendly celebration featuring local do-it-yourself science, art, rockets, robots, crafts, technology, music, hands-on-activities, and more.
 
 
@@ -68,15 +68,15 @@ Tickets available on [Humanitix](https://events.humanitix.com/makerfaireorlando)
 
 ## Discounted Ticket Programs
 
-**Employees of schools, colleges, universities, and libraries** receive free admission to Maker Faire Orlando {{site.event_year}} with identification.
+**Employees of schools, colleges, universities, and libraries** receive free admission to Maker Faire Orlando {{site.data.settings.event_year}} with identification.
 Please see our [Educators page](/educators/) for more information including requirements and restrictions.
 
 **Field Trip Day** - On Friday, November 7, 2025, Maker Faire Orlando invites students, teachers, and homeschool families to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Field Trip Day! [Learn more](/field-trip-day/)
 
-**Registered groups from Title I schools receive free admission** to Maker Faire Orlando {{site.event_year}}.
+**Registered groups from Title I schools receive free admission** to Maker Faire Orlando {{site.data.settings.event_year}}.
 Please see our [Educators page](/educators/) for more information.
 
-**First Responders, Active Military and Veterans receive free admission** to Maker Faire Orlando {{site.event_year}} with identification. Simply bring your identification to the ticket booth at the event to receive a free ticket per eligible person with identification.
+**First Responders, Active Military and Veterans receive free admission** to Maker Faire Orlando {{site.data.settings.event_year}} with identification. Simply bring your identification to the ticket booth at the event to receive a free ticket per eligible person with identification.
 
 **Making For All** - individuals with an EBT card receive admission for only $5 per person per day. Simply bring your EBT card to the ticket booth at the event to receive a $5 ticket per eligible person with identification.
 
@@ -101,7 +101,7 @@ Please see our [Educators page](/educators/) for more information.
 
 ---
 
-* Follow us on social media or [subscribe to our email newsletter]( {{ site.newsletter_url }} ) for announcements.
+* Follow us on social media or [subscribe to our email newsletter]( {{ site.data.settings.newsletter_url }} ) for announcements.
 
 ---
 

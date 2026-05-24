@@ -14,12 +14,12 @@ carousel-slides:
 ---
 
 # Maker Faire Orlando Can’t Happen Without Makers!
-We need people willing to share the things they create and their passion for making. Join us **{{site.event_date_descr_month_day}}** for our public days and on **{{site.edu_date_descr_month_day}}** for [Field Trip Day](/field-trip-day/) to help inspire thousands in our community.
+We need people willing to share the things they create and their passion for making. Join us **{{site.data.settings.event_date_descr_month_day}}** for our public days and on **{{site.data.settings.edu_date_descr_month_day}}** for [Field Trip Day](/field-trip-day/) to help inspire thousands in our community.
 
 ## Exhibit Applications
 
 {%comment%}
-#### We have not yet opened the Call For Makers exhibit application process for {{site.event_year}}. Check back later this summer and follow us on social media for announcements!
+#### We have not yet opened the Call For Makers exhibit application process for {{site.data.settings.event_year}}. Check back later this summer and follow us on social media for announcements!
 {%endcomment%}
 
 

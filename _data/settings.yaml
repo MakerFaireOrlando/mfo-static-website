@@ -13,4 +13,20 @@ explore_meet_makers: true
 footer_ad: true
 footer_ad_url: /attend/
 
+newsletter_url: https://eepurl.com/bpCB8T
 
+event_year: 2026
+sponsor_year: 2026 #use this when showing prior year sponsors
+
+event_name: Maker Faire Orlando
+
+event_date_descr: November 7 & 8, 2026
+event_date_descr_month_day: November 7 & 8
+edu_date_descr: November 6, 2026
+edu_date_descr_month_day: November 6
+event_date_descr_month_day_w_edu: November 6, 7 & 8
+
+event_location_descr: Central Florida Fairgrounds & Expo Halls
+cta_event_url: /attend/
+
+contact_email: makers@makerfaireorlando.com
