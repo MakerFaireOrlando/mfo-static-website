@@ -16,10 +16,11 @@ footer_ad_url: /attend/
 newsletter_url: https://eepurl.com/bpCB8T
 
 event_year: 2026
-sponsor_year: 2026 #use this when showing prior year sponsors
+sponsor_year: 2025 #use this when showing prior year sponsors
 
 event_name: Maker Faire Orlando
 
+# These are used in the includes date-*-*.html
 event_dates:
   edu_day: 2026-11-06
   day1: 2026-11-07
