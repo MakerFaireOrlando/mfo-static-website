@@ -1,16 +1,15 @@
 
-maker_exhibits_holdover: false
-maker_exhibits_show_location: true
-test_text: "my settings text"
+maker_exhibits_holdover: true
+maker_exhibits_show_location: false
 
 call_for_makers_open: false
 
 #homepage settings
-featured_makers: true
+featured_makers: false
 event_shirt_promo: false
-explore_meet_makers: true
+explore_meet_makers: false
 
-footer_ad: true
+footer_ad: false
 footer_ad_url: /attend/
 
 newsletter_url: https://eepurl.com/bpCB8T
