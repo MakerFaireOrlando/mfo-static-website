@@ -21,7 +21,7 @@ carousel-slides:
     url: /power-racing/
 ---
 
-{% capture cta_event_text %}{{ site.data.settings.event_date_descr }} – 10am to 5pm – {{ site.data.settings.event_location_descr }}{% endcapture %} {% include cta-panel-widget.html cta_text=cta_event_text cta_url=site.data.settings.cta_event_url %}
+{% capture cta_event_text %}{% include date-event.html %} – {{ site.data.settings.event_hours }} – {{ site.data.settings.event_location_descr }}{% endcapture %} {% include cta-panel-widget.html cta_text=cta_event_text cta_url=site.data.settings.cta_event_url %}
 <div style="margin-top: 20px"></div>
 
 

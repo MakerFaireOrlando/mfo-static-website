@@ -2,7 +2,9 @@
 title: Field Trip Day
 layout: default
 permalink: /field-trip-day/
-redirect_from: /education-day/
+redirect_from: 
+  - /education-day/
+  - /homeschool/
 image: /assets/images/educator-page-header-bok-academy.jpg
 description: A day of hands-on discovery for students, educators, and homeschoolers!
 carousel: true
@@ -16,9 +18,9 @@ footer-cta: false
 page_footer_ad: false
 ---
 
-# Field Trip Day at Maker Faire Orlando – {{ site.data.settings.edu_date_descr }}
+# Field Trip Day at Maker Faire Orlando – {% include date-edu.html %}
 
-The Maker Effect Foundation and our sponsors invite students to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Field Trip Day on Friday, {{ site.data.settings.edu_date_descr }} from 10am to 3pm.
+The Maker Effect Foundation and our sponsors invite students to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Field Trip Day on Friday, {% include date-edu.html %} from {{ site.data.settings.edu_hours }}.
 
 This special preview day is designed exclusively for public, private, and charter school field trips, homeschool students, co-ops and full-time virtual school students. Students and educators will have the chance to immerse themselves in interactive exhibits and engage directly with makers, artists, engineers, and inventors from across Florida.
 

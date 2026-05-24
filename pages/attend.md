@@ -19,11 +19,11 @@ scrolltop: true
 page_footer_ad: false
 ---
 
-# Maker Faire Orlando {{site.data.settings.event_year}} - {{site.data.settings.event_date_descr_month_day}}
+# Maker Faire Orlando {{site.data.settings.event_year}} - {% include date-event-short.html %}
 #### Maker Faire Orlando is a non-profit, community-organized, family-friendly celebration featuring local do-it-yourself science, art, rockets, robots, crafts, technology, music, hands-on-activities, and more.
 
 
-Saturday, November 8 & Sunday, November 9 - 10AM to 5PM (Both Days)
+{{ site.data.settings.event_dates.day1 | date: "%A, %B %-d" }} & {{ site.data.settings.event_dates.day2 | date: "%A, %B %-d" }} - {{ site.data.settings.event_hours }} (Both Days)
 
 Central Florida Expo Center & Fairgrounds
 4603 W Colonial Dr, Orlando, FL 32808
@@ -71,7 +71,7 @@ Tickets available on [Humanitix](https://events.humanitix.com/makerfaireorlando)
 **Employees of schools, colleges, universities, and libraries** receive free admission to Maker Faire Orlando {{site.data.settings.event_year}} with identification.
 Please see our [Educators page](/educators/) for more information including requirements and restrictions.
 
-**Field Trip Day** - On Friday, November 7, 2025, Maker Faire Orlando invites students, teachers, and homeschool families to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Field Trip Day! [Learn more](/field-trip-day/)
+**Field Trip Day** - On {{ site.data.settings.event_dates.edu_day | date: "%A, %B %-d, %Y" }}, Maker Faire Orlando invites students, teachers, and homeschool families to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Field Trip Day! [Learn more](/field-trip-day/)
 
 **Registered groups from Title I schools receive free admission** to Maker Faire Orlando {{site.data.settings.event_year}}.
 Please see our [Educators page](/educators/) for more information.
