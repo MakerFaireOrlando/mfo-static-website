@@ -11,13 +11,12 @@ redirect_from: /info
 
 ---
 
-
-{% comment %}
-# This page will contain info for exhibiting makers as a quick link from badge QR codes. Check back closer to the event :)
-{% endcomment %}
-
 # Quick Info
 Thanks for participating at Maker Faire Orlando!
+
+{% if site.data.settings.badge_show_update_warning %}{% include update-warning.html %}{% endif %}
+
+
 
 ### Event Hours
 See the [Maker Manual](/maker-manual) for more detail on times including load-in and load-out information. 
@@ -59,6 +58,7 @@ Use the [Online Schedule](/schedule) for the most up-to-date schedule of talks, 
 
 Check out the [Maker Faire Program](/program) for a map, schedule and more!
 
+{% if site.data.settings.badge_show_space_plans %}
 ### Space Plans - UPDATED
 [Opportunity Building PDF Space Plan](/assets/pdf/2025/MFO25-OPPORTUNITY.pdf) - Space numbers starting with "O"
 
@@ -72,6 +72,7 @@ Check out the [Maker Faire Program](/program) for a map, schedule and more!
 We do not publish a space plan for all outdoor exhibits, we have to validate space conditions when we are on-site at the Fairgrounds. Once you are on-site, our team will help you locate your outdoor exhibit. If you have a question about an outdoor location, email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
 
 Don't know your space number? Find your exhibit on the [exhibits page](/exhibits), your space number is on that page below the exhibit description.
+{% endif %}
 
 ### Need Help?
 Before the event, email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)

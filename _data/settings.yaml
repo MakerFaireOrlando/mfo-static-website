@@ -32,3 +32,19 @@ event_location_descr: Central Florida Fairgrounds & Expo Halls
 cta_event_url: /attend/
 
 contact_email: makers@makerfaireorlando.com
+
+# badge page settings
+badge_show_update_warning: true
+badge_show_space_plans: false
+
+# maker manual page settings
+maker_manual_show_update_warning: true
+
+# schedule page settings
+schedule_show_update_warning: true
+
+# promote page settings
+promote_show_update_warning: true
+
+# program page settings
+program_show_update_warning: true

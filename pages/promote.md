@@ -6,6 +6,8 @@ permalink: /promote/
 ---
 # Help Promote Maker Faire Orlando
 
+{% if site.data.settings.promote_show_update_warning %}{% include update-warning.html %}{% endif %}
+
 We will be updating this page with new materials as they are created. If you need something immediately, please email us at <makers@makerfaireorlando.com>
 
 Tell your fans, friends and family they can see you at Maker Faire Orlando! Just click the images to save or copy and paste the code below to add the official badge, banners and logos to your own site. Download and print the pdf(s) of the official Maker Faire printed materials for your office, schools, libraries, local coffee shops, etc. Help us spread the word about this year's Maker Faire Orlando and the maker movement with people you know who would love it as much as you do.

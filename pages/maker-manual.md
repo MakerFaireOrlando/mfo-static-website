@@ -11,6 +11,8 @@ noindex: true
 
 # Maker Manual
 
+{% if site.data.settings.maker_manual_show_update_warning %}{% include update-warning.html %}{% endif %}
+
 THANK YOU for exhibiting at Maker Faire Orlando! This "Maker Manual" covers many of the common questions about exhibiting at the event, and helps us all stay organized as we move hundreds of exhibits in and out of the event space!
 
 

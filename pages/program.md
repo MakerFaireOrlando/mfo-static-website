@@ -9,6 +9,8 @@ description: Plan your Maker Faire Orlando weekend with our event program!
 
 # Maker Faire Orlando Event Program
 
+{% if site.data.settings.program_show_update_warning %}{% include update-warning.html %}{% endif %}
+
 {%comment%}
 ### The event program is typically available in October once all exhibits, activities and events have been scheduled - Check back for more info!
 {%endcomment%}
