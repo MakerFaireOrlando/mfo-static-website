@@ -11,7 +11,7 @@ gem "jekyll-remote-theme"
 gem "nokogiri", ">= 1.10.4"
 gem "rubyzip", ">= 1.3.0"
 gem "faraday", "< 1.0"
-gem "jekyll", ">= 3.6.3"
+gem "jekyll", ">= 3.9.5"
 gem "activesupport", ">= 6.0.3.1"
 
 gem "jekyll-seo-tag"

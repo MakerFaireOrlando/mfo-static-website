@@ -2,7 +2,7 @@
 
 services:
   jekyll:
-    image: bretfisher/jekyll-serve
+    image: bretfisher/jekyll-serve:stable-20240715-2119a31
     volumes:
       - .:/site
     ports:

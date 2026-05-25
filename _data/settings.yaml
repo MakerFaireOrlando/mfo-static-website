@@ -1,16 +1,34 @@
 
-maker_exhibits_holdover: false
-maker_exhibits_show_location: true
-test_text: "my settings text"
+maker_exhibits_holdover: true
+maker_exhibits_show_location: false
 
 call_for_makers_open: false
 
 #homepage settings
-featured_makers: true
+featured_makers: false
 event_shirt_promo: false
-explore_meet_makers: true
+explore_meet_makers: false
 
-footer_ad: true
+footer_ad: false
 footer_ad_url: /attend/
 
+newsletter_url: https://eepurl.com/bpCB8T
 
+event_year: 2026
+sponsor_year: 2025 #use this when showing prior year sponsors
+
+event_name: Maker Faire Orlando
+
+# These are used in the includes date-*-*.html
+event_dates:
+  edu_day: 2026-11-06
+  day1: 2026-11-07
+  day2: 2026-11-08
+
+event_hours: 10am to 5pm
+edu_hours: 10am to 3pm
+
+event_location_descr: Central Florida Fairgrounds & Expo Halls
+cta_event_url: /attend/
+
+contact_email: makers@makerfaireorlando.com

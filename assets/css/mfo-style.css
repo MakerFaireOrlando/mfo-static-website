@@ -247,6 +247,7 @@ max-width: 270px;
   background-color: #1C92C4; /* Optional: Set a background color */
   padding: 10px;    /* Optional: Add some padding for visual spacing */
   text-align: center; /* Optional: Center the text */
+  z-index: 1000;
 }
 
  /* for footer ad spacing */

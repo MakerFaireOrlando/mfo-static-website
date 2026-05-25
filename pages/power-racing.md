@@ -41,7 +41,7 @@ carousel-slides:
 
 
 
-# Power Racing is back at {{site.event_name}} {{site.event_year}}!
+# Power Racing is back at {{site.data.settings.event_name}} {{site.data.settings.event_year}}!
 
 ![Power Racing Teams group shot 2018](/assets/images/power-racing-group-shot-2018.jpg){:width="100%"}
 
