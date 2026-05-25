@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
+#incremental: true --tried this to make it faster to build locally, but it caused problems
 
 plugins:
   - jekyll-seo-tag
