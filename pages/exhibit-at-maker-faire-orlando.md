@@ -18,9 +18,9 @@ We need people willing to share the things they create and their passion for mak
 
 ## Exhibit Applications
 
-{%comment%}
+
 #### We have not yet opened the Call For Makers exhibit application process for {{site.data.settings.event_year}}. Check back later this summer and follow us on social media for announcements!
-{%endcomment%}
+
 
 
 
@@ -29,10 +29,10 @@ There is no fee for individuals or community groups to exhibit at Maker Faire Or
 Startup businesses are encouraged to contact us at <makers@makerfaireorlando.com> so that we can work with you to determine potential sponsorship discounts based startup phase and size.
 
 ---
-
+{%comment%}
 **Our application deadline has passed, and we are no longer accepting new exhibit applications unless you've been in contact with our team and we have instructed you to fill out an application.**
 
-{%comment%}
+
 **Selling makers: You are welcome to continue to submit applications and they will be added to our waitlist in the event we have selling exhibit cancellations.** Interior space will be most limited, indicating flexibility on location (indoor / outdoor) will increase your odds of being accepted.
 &nbsp;
 <br><br>
