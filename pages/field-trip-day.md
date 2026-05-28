@@ -9,13 +9,34 @@ image: /assets/images/educator-page-header-bok-academy.jpg
 description: A day of hands-on discovery for students, educators, and homeschoolers!
 carousel: true
 carousel-delay: 5000
-carousel-controls: false
+carousel-controls: true
 carousel-slides:
   - image: /assets/images/educator-page-header-bok-academy.jpg
     caption: School group at Maker Faire Orlando
     url:
+  
+  - image: /assets/images/field-trip-day/ftd-stage.jpg
+    caption: Stage
+    url:
+  
+  - image: /assets/images/field-trip-day/ftd-cosplay.jpg
+    caption: Cosplay
+    url:
+  
+  - image: /assets/images/field-trip-day/ftd-robots.jpg
+    caption: Robots
+    url:
+
+  - image: /assets/images/field-trip-day/ftd-star-wars.jpg
+    caption: Star Wars
+    url:
+  
+  - image: /assets/images/field-trip-day/ftd-synths.jpg
+    caption: Synths
+    url:
+
 footer-cta: false
-page_footer_ad: false
+page_footer_ad: false 
 ---
 
 # Field Trip Day at Maker Faire Orlando – {% include date-edu.html %}
@@ -36,7 +57,7 @@ This event takes place ahead of Maker Faire Orlando, giving students access to e
 
 ### Planning Your Field Trip Day 
 
-Read our [Educator's Guide](/assets/pdf/2025/MFO-Educators-Guide-Print.pdf) which includes an introduction to Maker Faire, details on Field Trip Day, and ways to prepare your students with prompts and projects. 
+Read our [Educator's Guide](/assets/pdf/2025/MFO-Educators-Guide-Print.pdf) which includes an introduction to Maker Faire, details on Field Trip Day, and ways to prepare your students with prompts and projects. NOTE: We have not yet updated the guide for 2026. It will be updated with the new schedule and details closer to the event. 
 
 <div style="margin-bottom:20px"><a href="/assets/pdf/2025/MFO-Educators-Guide-Print.pdf"><img src="/assets/pdf/2025/MFO-Educators-Guide.jpg" alt="Maker Faire Orlando Educator's Guide" width="400px"></a></div>
 
@@ -52,22 +73,27 @@ If you are an educator affiliated with a school, this program includes free admi
 
 {% comment %}
 <strong>WE ARE UNABLE TO ACCOMODATE ANY ADDITIONAL SCHOOL GROUPS DUE TO AN AMAZING RESPONSE FOR THIS PROGRAM.</strong> If this is a significant hardship, please email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
-{% endcomment %}
 
 **The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.** 
+
+{% endcomment %}
+
+
 
 ### Homeschool & Virtual School Groups 
 If your student is homeschooled, or is part of a full-time virtual school program, this program includes free admission for students and and a parent or guardian. This program is limited to one adult per student. Participants will be required to upload documentation showing homeschool or full-time virtual school status. 
 
+{% comment %}
 **The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.** 
+{% endcomment %}
 
 ### Important Notes
 
-* Info emails are being sent from makers@makerfaireorlando.com. If you registered, you should have received multiple emails from us. If you have not, please check junk / spam filters. **OCPS Teachers - some of our emails are not getting through the OCPS email filters. If we are not responding to your emails, please use an alternate email address.**
+* Info emails are being sent from makers@makerfaireorlando.com. If you registered, you should have received multiple emails from us. If you have not, please check junk / spam filters. **OCPS Teachers - some of our emails are filtered by the OCPS email system. If we are not responding to your emails, please use an alternate email address.**
 
 * All students must be supervised at the event by an adult at all times. Please plan for proper adult / student ratios and supervision. 
 
-* **WE ARE UNABLE TO ACCEPT ANYONE THAT ARRIVES ON THE DAY OF THE EVENT WITHOUT COMPLETING THIS PROCESS. THE DEADLINE TO SUBMIT THIS REQUEST FORM IS OCTOBER 24TH. PLEASE SUBMIT AS SOON AS POSSIBLE.**
+* **WE ARE UNABLE TO ACCEPT ANYONE THAT ARRIVES ON THE DAY OF THE EVENT WITHOUT COMPLETING THIS PROCESS. THE DEADLINE TO SUBMIT THIS REQUEST FORM IS OCTOBER 23RD. PLEASE SUBMIT AS SOON AS POSSIBLE AS WE EXPECT TO REACH CAPACITY 6 TO 8 WEEKS IN ADVANCE OF THE EVENT**
 
 * All group members must check-in at the same time. Parking and Check-in instructions will be sent before the event. 
 
@@ -75,10 +101,13 @@ If your student is homeschooled, or is part of a full-time virtual school progra
 
 ### Questions? Email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
 
-{% comment %}
+
 
 <br>
-## [Registration Form Link](https://form.jotform.com/makereffect/mfo2025-field-trip-day)
+## [Registration Form Link](https://form.jotform.com/makereffect/mfo2026-field-trip-day)
+
+
+{% comment %}
 <strong>WE ARE UNABLE TO ACCOMODATE ANY ADDITIONAL SCHOOL GROUPS DUE TO AN AMAZING RESPONSE FOR THIS PROGRAM.</strong> If this is a significant hardship, please email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
 {% endcomment %}
 
