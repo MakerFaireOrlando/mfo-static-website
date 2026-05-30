@@ -64,7 +64,8 @@ collections:
 # set timezone
 timezone: America/New_York
 
-
-
+# cause the .well-known directory to be included in the build output, 
+# so that we can put things like BIMI logo and security.txt there
+include: [".well-known"]
 
 
