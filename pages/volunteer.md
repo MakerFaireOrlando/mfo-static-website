@@ -7,8 +7,8 @@ redirect_from: /volunteers/
 carousel: true
 carousel-delay: 5000
 carousel-controls: false
-hero-title: Volunteer With Us
-hero-meta: Join the team that makes the magic happen
+#hero-title: Volunteer With Us
+#hero-meta: Join the team that makes the magic happen
 carousel-slides:
   - image: /assets/images/volunteer-solder.jpg
     caption: Learn-To-Solder
@@ -44,7 +44,7 @@ carousel-slides:
         <p>Every volunteer takes home an official {{ site.data.settings.event_year }} Maker Faire Orlando volunteer t-shirt.</p>
       </div>
       <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-hands-holding-heart" aria-hidden="true"></i>
+        <i class="mf-info-icon fa-solid fa-hand-holding-heart" aria-hidden="true"></i>
         <h3>Give Back</h3>
         <p>Help inspire thousands in our community and be part of the team that brings the Greatest Show (&amp; Tell) on Earth to life.</p>
       </div>

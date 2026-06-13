@@ -427,7 +427,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   justify-content: center;
 }
 .mf-card {
-  flex: 1 1 240px;
+  flex: 1 1 calc(25% - 17px);   /* 4-up; see grid breakpoints below */
   max-width: 280px;
   background: var(--mf-white);
   border-radius: var(--mf-radius);
@@ -491,8 +491,30 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
 }
 .mf-card .mf-card-body p { color: var(--mf-gray-600); font-size: 0.95rem; margin: 0; flex: 1; }
 
+/* 5-card row (Explore the Faire): force a balanced 3 + 2 (centered) instead
+ * of a stranded 4 + 1. Capping the grid width keeps the 3-up cards about the
+ * same size as the 4-up cards in the other row; the percentage basis holds 3
+ * columns (so it never drops to a lopsided 2 + 2 + 1) until the mobile stack. */
+.mf-card-grid--3up {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Double class so the 3-up rule always beats the default 4-up rule regardless
+ * of source order (both would otherwise be specificity 0,2,0). */
+.mf-card-grid.mf-card-grid--3up .mf-card {
+  flex: 0 1 calc(33.333% - 15px);
+  max-width: none;
+}
+
+/* Default 4-up grid (Get Involved, etc.): 4 → 2 + 2 → 1, never an orphaned
+ * 3 + 1. (max-width:991 = 2 columns; max-width:767 = single column.) */
+@media (max-width: 991px) {
+  .mf-card { flex-basis: calc(50% - 11px); }
+}
 @media (max-width: 767px) {
   .mf-card { flex: 1 1 100%; max-width: 420px; }
+  .mf-card-grid.mf-card-grid--3up .mf-card { flex-basis: 100%; max-width: 420px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -673,7 +695,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
 /* "Ways to take part" info cards (icon + heading + copy, no photo). */
 .mf-info-grid { display: flex; flex-wrap: wrap; gap: 22px; justify-content: center; }
 .mf-info-card {
-  flex: 1 1 240px;
+  flex: 1 1 calc(25% - 17px);   /* 4-up; drops to 2-up / 1-up below */
   max-width: 300px;
   background: var(--mf-white);
   border: 1px solid var(--mf-gray-200);
@@ -702,6 +724,8 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
 }
 .mf-info-card .mf-info-fee.is-free { background: var(--mf-red); color: var(--mf-white); }
 .mf-info-card .mf-link-arrow { margin-top: auto; }
+/* 4 → 2 + 2 → 1, never an orphaned 3 + 1. */
+@media (max-width: 991px) { .mf-info-card { flex-basis: calc(50% - 11px); } }
 @media (max-width: 767px) { .mf-info-card { flex: 1 1 100%; max-width: 420px; } }
 
 /* Checklist (What you'll need to apply). */

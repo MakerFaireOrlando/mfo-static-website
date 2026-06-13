@@ -353,6 +353,19 @@ intact). Same data source (`site.data.sponsors`); reworked presentation:
 - Browser-verified at 1280px. (Note: logos with dark/transparent backgrounds
   show their own box on the white tile — a per-logo asset issue, not styling.)
 
+## 6.12 Balanced card grids (no orphaned card)
+
+All card rows now wrap to balanced layouts instead of stranding a single card:
+- **4-card grids** (`.mf-card-grid` Get Involved; `.mf-info-grid` volunteer &
+  exhibit "Why/Ways" cards): **4 → 2 + 2 → 1** via percentage flex-basis with
+  breakpoints (≤991px = 2 columns, ≤767px = 1). Previously `flex: 1 1 240px`
+  dropped to a **3 + 1 orphan** at medium widths (~970px container).
+- **5-card grid** (`.mf-card-grid--3up` Explore the Faire): **3 + 2** (unchanged
+  from §6.11). Selector bumped to `.mf-card-grid.mf-card-grid--3up .mf-card` so
+  it always beats the default 4-up rule regardless of source order.
+- CSS: `mfo-redesign.css` §6b (`.mf-card`) and §11 (`.mf-info-card`).
+- Verified at 1100px (4-up / 3+2) and 900px (2+2) for volunteer + homepage.
+
 ## 7. Decisions / Open Questions Log
 
 - **2026-06-12** — Scope = full modernization; fidelity = match closely. (User)
