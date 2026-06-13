@@ -1,0 +1,16 @@
+# Local-dev-only overrides. Layered on top of _config.yml:
+#   jekyll serve --config _config.yml,_config_dev.yml
+#
+# Skips copying the bulk of the image assets so local builds are fast.
+# exhibit-images alone is ~4,000 files / 273 MB that Jekyll otherwise
+# re-copies into _site on every build. These images will 404 in the
+# local preview — that's expected. Production / GitHub Pages still uses
+# _config.yml only and builds everything.
+#
+# Jekyll appends these to its built-in excludes, so you don't lose the
+# defaults (Gemfile, vendor/, .jekyll-cache, etc.).
+#
+# Working on images? Just drop the --config flag (or use the plain
+# `jekyll` docker service) to get a full build with all assets.
+exclude:
+  - assets/images/exhibit-images

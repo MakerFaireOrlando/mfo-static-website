@@ -1,12 +1,6 @@
 #helpful guide: https://jekyllrb.com/tutorials/navigation/
 #WATCH YOUR SPACING!
 topnav:
-  - title: ABOUT
-    subfolderitems:
-      - page: What is Maker Faire?
-        url: /about/
-#      - page: Media
-#        url: /media/
   - title: Things to See & DO
     subfolderitems:
       - page: Makers & Exhibits
@@ -80,8 +74,6 @@ footernav:
         url: mailto:makers@makerfaireorlando.com
       - page: Join Our Mailing List
         url: http://eepurl.com/bpCB8T
-      - page: About
-        url: /about/
       - page: Privacy Policy
         url: https://www.themakereffect.org/privacy/
 
@@ -97,32 +89,55 @@ footernav:
         icon: fa-brands fa-youtube
 
   - title: Maker Faire
-    image: https://global.makerfaire.com/wp-content/themes/MiniMakerFaire/img/Maker-Faire-Logo.png
+    image: assets/images/site-branding/makerfaire-welding.webp
     imagealt: Maker Faire logo
-    subfolderitems:
-      - page: About Maker Faire
-        url: https://makerfaire.com/makerfairehistory/?utm_source=mforlando&utm_medium=footer
-      - page: Find a Faire Near You
-        url: https://makerfaire.com/map/?utm_source=mforlando&utm_medium=footer
-      - page: Upcoming Maker Faires
-        url: https://makerfaire.com/upcoming-faires?utm_source=mforlando&utm_medium=footer
-      - page: "Subscribe to Make: Magazine"
-        url: https://make.co/join/?utm_source=mforlando&utm_medium=footer
-      - page: "Make: News & Projects"
-        url: https://makezine.com/?utm_source=mforlando&utm_medium=footer
-      - page: Shop
-        url: https://www.makershed.com/?utm_source=mforlando&utm_medium=footer
-      - page: Maker Camp
-        url: https://makercamp.com/?utm_source=mforlando&utm_medium=footer
-      - page: Makerspaces
-        url: https://makerspace.com/?utm_source=mforlando&utm_medium=footer
+    # Grouped columns aligned with the global Make: / Maker Faire footer
+    # (ref: happyvalley.makerfaire.com). Rendered by _includes/footer.html.
+    columns:
+      - heading: About
+        items:
+          - page: About Maker Faire
+            url: https://makerfaire.com/what-is-maker-faire/?utm_source=mforlando&utm_medium=footer
+          - page: Maker Movement
+            url: https://make.co/maker-movement/?utm_source=mforlando&utm_medium=footer
+          - page: Advertise
+            url: https://make.co/partner/?utm_source=mforlando&utm_medium=footer
+          - page: Contact Us
+            url: https://make.co/contact/?utm_source=mforlando&utm_medium=footer
+      - heading: Explore
+        items:
+          - page: "Make: magazine"
+            url: https://makezine.com/?utm_source=mforlando&utm_medium=footer
+          - page: Maker Faire
+            url: https://makerfaire.com/?utm_source=mforlando&utm_medium=footer
+          - page: Maker Shed
+            url: https://makershed.com/?utm_source=mforlando&utm_medium=footer
+          - page: Makerspaces
+            url: https://makerspace.com/?utm_source=mforlando&utm_medium=footer
+      - heading: Subscribe
+        items:
+          - page: Purchase
+            url: https://subscribe.makezine.com/Make_subscribe?utm_source=mforlando&utm_medium=footer
+          - page: Give A Gift
+            url: https://subscribe.makezine.com/loading.do?omedasite=Make_gift_subscription&utm_source=mforlando&utm_medium=footer
+          - page: Manage Subscription
+            url: https://subscribe.makezine.com/Make_account_status?utm_source=mforlando&utm_medium=footer
+          - page: Newsletters
+            url: https://make.co/newsletters/?utm_source=mforlando&utm_medium=footer
+    # 5 icons matched to the global Maker Faire footer (ref: happyvalley.makerfaire.com)
     socialitems:
+      - title: X
+        url: https://x.com/makerfaire
+        icon: fa-brands fa-x-twitter
       - title: Facebook
-        url: https://www.facebook.com/makerfaire/
+        url: https://facebook.com/makerfaire
         icon: fa-brands fa-facebook
+      - title: YouTube
+        url: https://youtube.com/makerfaire
+        icon: fa-brands fa-youtube
       - title: Instagram
-        url: https://www.instagram.com/makerfaire/
+        url: https://instagram.com/makerfaire
         icon: fa-brands fa-instagram
-      - title: Pinterest
-        url: https://www.pinterest.com/makemagazine/maker-faire/
-        icon: fa-brands fa-pinterest
+      - title: Discord
+        url: https://discord.gg/mpBkj2hhJ4
+        icon: fa-brands fa-discord

@@ -1,0 +1,56 @@
+{% comment %}
+  2026 redesign — "Explore the Faire" category cards (Bay Area event-page pattern).
+  Edit the array below to change which exhibit categories are featured.
+  Styles: .mf-card-section / .mf-card-grid / .mf-card in assets/css/mfo-redesign.css
+{% endcomment %}
+<section class="mf-card-section is-light">
+  <div class="container">
+    <div class="mf-section-head">
+      <h2>Explore the Faire</h2>
+      <p>Hundreds of makers across dozens of categories — here's a taste of what you'll discover.</p>
+    </div>
+    <div class="mf-card-grid">
+
+      <a class="mf-card" href="{{ '/exhibits/categories/combat-robots/' | relative_url }}">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/robot-ruckus-small-arena.jpg' | relative_url }}')">
+          <span class="mf-card-label">Robots &amp; Combat</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Watch fighting robots battle it out in the arena and meet the builders behind them.</p>
+          <span class="mf-link-arrow">See robots</span>
+        </div>
+      </a>
+
+      <a class="mf-card" href="{{ '/exhibits/categories/3d-printing/' | relative_url }}">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/3dprinter.jpg' | relative_url }}')">
+          <span class="mf-card-label">3D Printing &amp; Tech</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Cutting-edge printers, electronics, and the latest in digital fabrication.</p>
+          <span class="mf-link-arrow">See tech</span>
+        </div>
+      </a>
+
+      <a class="mf-card" href="{{ '/exhibits/categories/cosplay/' | relative_url }}">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/fred-and-elle-cosplay-painting.jpg' | relative_url }}')">
+          <span class="mf-card-label">Art &amp; Cosplay</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Award-winning costumes, props, and makers turning imagination into art.</p>
+          <span class="mf-link-arrow">See art</span>
+        </div>
+      </a>
+
+      <a class="mf-card" href="{{ '/exhibits/categories/hands-on-workshop/' | relative_url }}">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/learn-to-solder-3.jpg' | relative_url }}')">
+          <span class="mf-card-label">Hands-On Workshops</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Learn to solder, build, and make something to take home with you.</p>
+          <span class="mf-link-arrow">Get hands-on</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>

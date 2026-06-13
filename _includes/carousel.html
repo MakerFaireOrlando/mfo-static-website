@@ -48,5 +48,23 @@
       {% endif %}
 
     </div>
+
+    {% comment %} 2026 redesign: optional full-bleed hero overlay, driven by page front matter {% endcomment %}
+    {% if page.hero-title %}
+    <div class="mf-hero-overlay">
+      <div class="mf-hero-inner">
+        <h1>{{ page.hero-title }}</h1>
+        {% if page.hero-meta-event %}
+          <p class="mf-hero-meta">{% include date-event.html %} &middot; {{ site.data.settings.event_location_descr }}</p>
+        {% elsif page.hero-meta %}
+          <p class="mf-hero-meta">{{ page.hero-meta }}</p>
+        {% endif %}
+        {% if page.hero-cta-text %}
+          <a class="btn btn-primary" href="{{ page.hero-cta-url | default: site.data.cta.topnav.url }}">{{ page.hero-cta-text }}</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+
   </div>
 </div>

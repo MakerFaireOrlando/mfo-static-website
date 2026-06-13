@@ -7,5 +7,11 @@
 <link rel="stylesheet" id="mfo-wordpress-theme-style-css" href="{{ 'assets/css/mfo-style.css' | relative_url }}" type="text/css" media="all">
 <link rel="stylesheet" id="minimakerfaire-theme-style-css" href="{{ 'assets/css/minimakerfaire-style.css' | relative_url }}" type="text/css" media="all">
 
-<link rel="stylesheet" id="google-fonts-body-css" href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C700%2C500&amp;ver=5.2.7" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-heading-css" href="https://fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C300%2C700&amp;ver=5.2.7" type="text/css" media="all">
+<!-- Brand fonts (2026 redesign): Archivo for bold uppercase headings, Inter for body -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" id="google-fonts-redesign-css" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600;700&display=swap" type="text/css" media="all">
+
+<!-- 2026 brand redesign overrides — MUST load last to override the legacy theme.
+     See _documentation/redesign-2026.md -->
+<link rel="stylesheet" id="mfo-redesign-css" href="{{ 'assets/css/mfo-redesign.css' | relative_url }}" type="text/css" media="all">

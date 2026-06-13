@@ -3,6 +3,10 @@ maker_exhibits_holdover: true
 maker_exhibits_show_location: false
 
 call_for_makers_open: false
+# Exhibit application URL — shown as the "Apply to Exhibit" button on
+# /exhibit-at-maker-faire-orlando/ when call_for_makers_open is true.
+# UPDATE this to the current year's form before flipping the flag.
+cfm_url: https://www.jotform.com/makereffect/cfm2026
 
 #homepage settings
 featured_makers: false

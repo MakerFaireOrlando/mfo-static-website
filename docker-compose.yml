@@ -1,8 +1,20 @@
 # no version needed since 2020
 
 services:
+  # Full build with all assets: docker compose up jekyll
   jekyll:
     image: bretfisher/jekyll-serve:stable-20240715-2119a31
+    volumes:
+      - .:/site
+    ports:
+      - '4000:4000'
+
+  # Fast local dev: docker compose up jekyll-dev
+  # Excludes assets/images/exhibit-images (~4,000 files / 273 MB) so the
+  # build doesn't re-copy them every time. Those images 404 in preview.
+  jekyll-dev:
+    image: bretfisher/jekyll-serve:stable-20240715-2119a31
+    command: --config _config.yml,_config_dev.yml
     volumes:
       - .:/site
     ports:
