@@ -8,6 +8,12 @@ call_for_makers_open: false
 # UPDATE this to the current year's form before flipping the flag.
 cfm_url: https://www.jotform.com/makereffect/cfm2026
 
+# Volunteer registration. When open, /volunteer/ shows the Humanitix shift
+# widget; when closed it shows an "opening soon" message.
+# UPDATE volunteer_checkout to the current year's Humanitix slug each year.
+volunteer_open: true
+volunteer_checkout: maker-faire-orlando-2025-volunteer-registration
+
 #homepage settings
 featured_makers: false
 event_shirt_promo: false

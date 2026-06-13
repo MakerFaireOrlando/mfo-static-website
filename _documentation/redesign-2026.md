@@ -105,8 +105,8 @@ retuned in one place.
 | `--mf-navy` | `#16213E` | Primary dark sections, footer, hero overlay |
 | `--mf-navy-deep` | `#0E1628` | Deepest background |
 | `--mf-charcoal` | `#1E2230` | Alt dark surface |
-| `--mf-coral` | `#FF5A3C` | Primary CTA fill (confirm exact value) |
-| `--mf-coral-dark` | `#E64327` | CTA hover / pressed |
+| `--mf-red` | `#DB2B2F` | Primary accent / CTA fill (makerfaire.com red) |
+| `--mf-red-dark` | `#B82328` | Accent hover / pressed (darker red) |
 | `--mf-ink` | `#1A1A1A` | Body text on white |
 | `--mf-white` | `#FFFFFF` | Light sections, text on dark |
 | `--mf-gray-50…800` | neutrals | Backgrounds, borders, muted text |
@@ -258,6 +258,24 @@ New CSS (`mfo-redesign.css` §11): `.mf-apply-callout` (`.is-open`),
 New setting `cfm_url` in `settings.yaml` (update per year before opening the
 call). Both open and closed states browser-verified; flag left at `false`.
 
+## 6.9b Volunteer page restyle
+
+Same treatment as the exhibit page (`pages/volunteer.md`, now `full-width`):
+1. **Hero** overlay ("Volunteer With Us").
+2. **Lead** ("We Need You!").
+3. **Why Volunteer?** — four `.mf-info-card`s: Free Admission (fa-ticket),
+   Volunteer T-Shirt (fa-shirt), Give Back (fa-hands-holding-heart), Service
+   Hours (fa-graduation-cap).
+4. **Good to Know** — `.mf-checklist` (age, no-cost registration, special
+   skills/questions).
+5. **Sign Up to Volunteer** — data-driven on `settings.volunteer_open`:
+   open → instructions + embedded **Humanitix** shift widget (`.mf-widget-wrap`,
+   slug from `settings.volunteer_checkout`); closed → "Opening Soon" callout.
+
+New settings: `volunteer_open` (default `true`) + `volunteer_checkout` (Humanitix
+slug — **update per year**, currently the 2025 slug). New CSS: `.mf-widget-wrap`.
+Reused `.mf-apply-callout` / `.mf-info-card` / `.mf-checklist` from §11.
+
 ## 6.8 About page removed
 
 The About page was dropped entirely (per request): deleted `pages/about.md`,
@@ -302,8 +320,10 @@ header, expanding further only if an item is wider. Browser-verified.
   **Bay Area event page** (`/bay-area/?2026`); it's an event page like MFO. This
   flipped the palette from yellow/black to **navy/charcoal + white + coral CTA**.
   (User)
-- **OPEN** — Confirm exact navy + coral hex and official font names from brand
-  guide / by sampling the live Bay Area page.
+- **2026-06-13** — Accent set to **`#DB2B2F`** (makerfaire.com red), per user,
+  and the token renamed `--mf-coral` → **`--mf-red`** (`--mf-red-dark` =
+  `#B82328`) across `mfo-redesign.css`. (User)
+- **OPEN** — Confirm exact navy hex and official font names from brand guide.
 - **OPEN** — Retain a hint of legacy MFO blue as a tertiary accent, or go pure
   navy/coral? (Currently leaning pure.)
 - **OPEN** — Retire flag-banner entirely vs. replace with thin brand rule?

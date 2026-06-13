@@ -20,8 +20,8 @@
   --mf-navy:        #16213E;  /* primary dark sections, footer, hero overlay */
   --mf-navy-deep:   #0E1628;  /* deepest background */
   --mf-charcoal:    #1E2230;  /* alt dark surface */
-  --mf-coral:       #FF5A3C;  /* primary CTA fill */
-  --mf-coral-dark:  #E64327;  /* CTA hover / pressed */
+  --mf-red:       #DB2B2F;  /* primary accent / CTA fill (makerfaire.com red) */
+  --mf-red-dark:  #B82328;  /* accent hover / pressed (darker red) */
   --mf-ink:         #1A1A1A;  /* body text on white */
   --mf-white:       #FFFFFF;
 
@@ -77,12 +77,12 @@ h3, .h3 { font-size: clamp(1.3rem, 2.2vw, 1.7rem); }
 }
 
 a {
-  color: var(--mf-coral);
+  color: var(--mf-red);
   text-decoration: none;
   transition: color 0.18s ease;
 }
 a:hover, a:focus {
-  color: var(--mf-coral-dark);
+  color: var(--mf-red-dark);
   text-decoration: none;
 }
 
@@ -113,7 +113,7 @@ a.btn,
 a.btn.btn-primary,
 #header-cta-button a.btn,
 a.btn-b-ghost {
-  background-color: var(--mf-coral) !important;
+  background-color: var(--mf-red) !important;
   background-image: none !important;
   color: var(--mf-white) !important;
 }
@@ -124,7 +124,7 @@ a.btn:hover,
 a.btn:focus,
 #header-cta-button a.btn:hover,
 #header-cta-button a.btn:focus {
-  background-color: var(--mf-coral-dark) !important;
+  background-color: var(--mf-red-dark) !important;
   color: var(--mf-white) !important;
   transform: translateY(-2px);
   box-shadow: var(--mf-shadow);
@@ -151,10 +151,10 @@ a.btn-w-ghost:hover {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: var(--mf-coral);
+  color: var(--mf-red);
 }
 .mf-link-arrow::after { content: " \2192"; }
-.mf-link-arrow:hover { color: var(--mf-coral-dark); }
+.mf-link-arrow:hover { color: var(--mf-red-dark); }
 
 /* ==============================================================
  * 3. Navigation
@@ -185,7 +185,7 @@ a.btn-w-ghost:hover {
 .navbar-nav > li > a:hover,
 .navbar-nav > li.active > a {
   color: var(--mf-ink) !important;
-  border-bottom: 3px solid var(--mf-coral);
+  border-bottom: 3px solid var(--mf-red);
   box-shadow: none !important;
   background: transparent !important;
 }
@@ -206,8 +206,8 @@ body .navbar-nav > li > .dropdown-menu {
 }
 body .navbar-nav > li > .dropdown-menu > li > a:hover,
 body .navbar-nav > li > .dropdown-menu > li > a:focus {
-  background-color: var(--mf-coral) !important;
-  background: var(--mf-coral) !important;
+  background-color: var(--mf-red) !important;
+  background: var(--mf-red) !important;
   color: var(--mf-white) !important;
 }
 
@@ -236,7 +236,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   text-shadow: 0 2px 18px rgba(0,0,0,0.5);
   margin: 0 0 10px;
 }
-.mf-hero-overlay h1 .mf-hl { color: var(--mf-coral); }
+.mf-hero-overlay h1 .mf-hl { color: var(--mf-red); }
 
 .mf-hero-overlay .mf-hero-meta {
   color: var(--mf-white);
@@ -270,7 +270,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   text-transform: uppercase;
   letter-spacing: 0.02em;
 }
-.cta-panel h3 a:hover { color: var(--mf-coral) !important; }
+.cta-panel h3 a:hover { color: var(--mf-red) !important; }
 /* Two-line variant: date + time on top, location below. */
 .cta-panel .cta-panel-main { display: block; }
 .cta-panel .cta-panel-sub {
@@ -316,7 +316,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   width: 72px;
   height: 5px;
   border-radius: 3px;
-  background: var(--mf-coral);
+  background: var(--mf-red);
 }
 
 /* --------------------------------------------------------------
@@ -341,17 +341,17 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   color: var(--mf-gray-800);
 }
 .mf-prose.mf-lead { font-size: 1.35rem; line-height: 1.6; }
-.mf-prose a { color: var(--mf-coral); font-weight: 600; }
-.mf-prose a:hover { color: var(--mf-coral-dark); }
+.mf-prose a { color: var(--mf-red); font-weight: 600; }
+.mf-prose a:hover { color: var(--mf-red-dark); }
 
 .mf-prose-section.is-dark .mf-prose { color: rgba(255, 255, 255, 0.92); }
 .mf-prose-section.is-dark .mf-prose a {
   color: var(--mf-white);
   text-decoration: underline;
-  text-decoration-color: var(--mf-coral);
+  text-decoration-color: var(--mf-red);
   text-underline-offset: 3px;
 }
-.mf-prose-section.is-dark .mf-prose a:hover { color: var(--mf-coral); }
+.mf-prose-section.is-dark .mf-prose a:hover { color: var(--mf-red); }
 
 /* ==============================================================
  * 6. Cards / grids — soften heavy legacy shadows
@@ -451,13 +451,13 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
  * 7. FAQ — swap legacy blue for brand
  * ============================================================== */
 
-.faq-item:hover { border-color: var(--mf-coral); }
-.faq-question::after { color: var(--mf-coral); }
+.faq-item:hover { border-color: var(--mf-red); }
+.faq-question::after { color: var(--mf-red); }
 .faq-item[open] .faq-question {
   background-color: var(--mf-navy);
   color: var(--mf-white);
 }
-.faq-item[open] .faq-question::after { color: var(--mf-coral); }
+.faq-item[open] .faq-question::after { color: var(--mf-red); }
 
 /* ==============================================================
  * 8. Footer (white, two-column — aligned with happyvalley.makerfaire.com)
@@ -471,7 +471,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   border-top: 1px solid var(--mf-gray-200);
 }
 .gmf-footer a { color: var(--mf-gray-800) !important; }
-.gmf-footer a:hover { color: var(--mf-coral) !important; }
+.gmf-footer a:hover { color: var(--mf-red) !important; }
 
 /* Two-column on wide screens, stacked only at narrow widths (< 768px).
    Divider is horizontal when stacked, vertical when side-by-side. */
@@ -540,14 +540,14 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   transition: background-color 0.15s ease, color 0.15s ease;
 }
 .gmf-footer .social-network.social-circle li a:hover {
-  background-color: var(--mf-coral) !important;
+  background-color: var(--mf-red) !important;
   color: var(--mf-white) !important;
 }
 .gmf-footer .social-network.social-circle li a i {
   color: var(--mf-white) !important;
 }
 
-.banner { background-color: var(--mf-coral) !important; }
+.banner { background-color: var(--mf-red) !important; }
 .banner a { color: var(--mf-white) !important; }
 
 /* ==============================================================
@@ -559,7 +559,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   border-radius: 3px;
 }
 #carousel-area .carousel-indicators li.active {
-  background: var(--mf-coral);
+  background: var(--mf-red);
 }
 
 /* ==============================================================
@@ -573,7 +573,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   background-image: none !important;
   transform: none !important;
   height: 5px !important;
-  background-color: var(--mf-coral) !important;
+  background-color: var(--mf-red) !important;
 }
 
 /* ==============================================================
@@ -591,7 +591,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   padding: 44px 28px;
   box-shadow: var(--mf-shadow-lg);
 }
-.mf-apply-callout.is-open { background: var(--mf-coral); }
+.mf-apply-callout.is-open { background: var(--mf-red); }
 .mf-apply-callout h2 { color: var(--mf-white) !important; margin: 0 0 12px; text-transform: uppercase; }
 .mf-apply-callout p {
   font-size: 1.1rem;
@@ -606,7 +606,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 0.8rem;
-  color: var(--mf-coral);
+  color: var(--mf-red);
   margin-bottom: 12px;
 }
 .mf-apply-callout.is-open .mf-status-tag { color: var(--mf-white); }
@@ -614,7 +614,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
 .mf-apply-callout.is-open .btn,
 .mf-apply-callout.is-open a.btn {
   background-color: var(--mf-white) !important;
-  color: var(--mf-coral) !important;
+  color: var(--mf-red) !important;
   border-color: var(--mf-white) !important;
 }
 .mf-apply-callout.is-open .btn:hover { background-color: var(--mf-navy) !important; color: var(--mf-white) !important; }
@@ -635,7 +635,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 .mf-info-card:hover { transform: translateY(-4px); box-shadow: var(--mf-shadow-hover); }
-.mf-info-card .mf-info-icon { font-size: 1.9rem; color: var(--mf-coral); line-height: 1; }
+.mf-info-card .mf-info-icon { font-size: 1.9rem; color: var(--mf-red); line-height: 1; }
 .mf-info-card h3 { text-transform: uppercase; font-size: 1.1rem; margin: 6px 0 0; }
 .mf-info-card p { color: var(--mf-gray-600); font-size: 0.97rem; margin: 0; flex: 1; }
 .mf-info-card .mf-info-fee {
@@ -649,7 +649,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   padding: 4px 12px;
   border-radius: 999px;
 }
-.mf-info-card .mf-info-fee.is-free { background: var(--mf-coral); color: var(--mf-white); }
+.mf-info-card .mf-info-fee.is-free { background: var(--mf-red); color: var(--mf-white); }
 .mf-info-card .mf-link-arrow { margin-top: auto; }
 @media (max-width: 767px) { .mf-info-card { flex: 1 1 100%; max-width: 420px; } }
 
@@ -674,8 +674,19 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   content: "\f00c";               /* fa-check */
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  color: var(--mf-coral);
+  color: var(--mf-red);
   position: absolute;
   left: 6px;
   top: 15px;
+}
+
+/* Embedded third-party widget (e.g. Humanitix volunteer shifts). */
+.mf-widget-wrap {
+  max-width: 900px;
+  margin: 8px auto 0;
+}
+.mf-widget-wrap iframe {
+  width: 100%;
+  min-height: 640px;
+  border: 0;
 }
