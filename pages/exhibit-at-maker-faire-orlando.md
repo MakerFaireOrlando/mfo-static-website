@@ -7,8 +7,6 @@ redirect_from: /exhibit
 carousel: true
 carousel-delay: 5000
 carousel-controls: false
-hero-title: Become an Exhibitor
-hero-meta: Maker Faire Orlando is powered by makers like you
 carousel-slides:
   - image: /assets/images/cfm_brassroots_exhibit.jpg
     caption: Brassroots Leather exhibiting at Maker Faire Orlando

@@ -7,8 +7,6 @@ redirect_from: /volunteers/
 carousel: true
 carousel-delay: 5000
 carousel-controls: false
-#hero-title: Volunteer With Us
-#hero-meta: Join the team that makes the magic happen
 carousel-slides:
   - image: /assets/images/volunteer-solder.jpg
     caption: Learn-To-Solder
@@ -40,7 +38,7 @@ carousel-slides:
       </div>
       <div class="mf-info-card">
         <i class="mf-info-icon fa-solid fa-shirt" aria-hidden="true"></i>
-        <h3>Volunteer T-Shirt</h3>
+        <h3>Volunteer T&#8209;Shirt</h3>
         <p>Every volunteer takes home an official {{ site.data.settings.event_year }} Maker Faire Orlando volunteer t-shirt.</p>
       </div>
       <div class="mf-info-card">

@@ -212,46 +212,14 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
 }
 
 /* ==============================================================
- * 4. Hero overlay (homepage carousel) — full-bleed, dark gradient
+ * 4. Carousel area
+ *     DESIGN RULE: no text is overlaid on the main carousels — they
+ *     show imagery only. Page titles/taglines live in the content
+ *     sections below (the old .mf-hero-overlay was removed). See
+ *     _documentation/redesign-2026.md.
  * ============================================================== */
 
 #carousel-area { position: relative; }
-
-.mf-hero-overlay {
-  position: absolute;
-  left: 0; right: 0; bottom: 0;
-  z-index: 20;
-  padding: 72px 24px 56px;
-  background: linear-gradient(to top, rgba(14,22,40,0.85) 0%, rgba(14,22,40,0.35) 55%, rgba(14,22,40,0) 100%);
-  text-align: center;
-  pointer-events: none;
-}
-.mf-hero-overlay .mf-hero-inner { pointer-events: auto; max-width: 900px; margin: 0 auto; }
-
-.mf-hero-overlay h1 {
-  color: var(--mf-white);
-  text-transform: uppercase;
-  font-size: clamp(2rem, 5vw, 4rem);
-  font-weight: 800;
-  text-shadow: 0 2px 18px rgba(0,0,0,0.5);
-  margin: 0 0 10px;
-}
-.mf-hero-overlay h1 .mf-hl { color: var(--mf-red); }
-
-.mf-hero-overlay .mf-hero-meta {
-  color: var(--mf-white);
-  font-family: var(--mf-font-head);
-  font-size: clamp(1rem, 1.8vw, 1.4rem);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  text-shadow: 0 1px 10px rgba(0,0,0,0.55);
-  margin: 0 0 22px;
-}
-
-@media (max-width: 767px) {
-  .mf-hero-overlay { padding: 32px 16px 28px; position: static; background: var(--mf-navy); }
-}
 
 /* ==============================================================
  * 5. Content sections + "What is Maker Faire"
@@ -996,3 +964,87 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   .mf-sponsor-tile:hover,
   .mf-sponsor-tile:focus-visible { transform: none; }
 }
+
+/* ==============================================================
+ * 14. Promote / press-kit page — hashtag chips + download cards
+ *     Markup: pages/promote.md.
+ * ============================================================== */
+
+/* Hashtag chips */
+.mf-hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  max-width: 840px;
+  margin: 24px auto 0;
+}
+.mf-hashtag {
+  font-family: var(--mf-font-head);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--mf-navy);
+  background: var(--mf-gray-100);
+  border: 1px solid var(--mf-gray-200);
+  padding: 7px 16px;
+  border-radius: 999px;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+.mf-hashtag:hover {
+  background: var(--mf-red);
+  border-color: var(--mf-red);
+  color: var(--mf-white);
+}
+
+/* Downloadable asset cards (badges, logos, print, social) */
+.mf-asset-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+.mf-asset-card {
+  flex: 1 1 240px;
+  max-width: 300px;
+  margin: 0;
+  background: var(--mf-white);
+  border: 1px solid var(--mf-gray-200);
+  border-radius: var(--mf-radius);
+  box-shadow: var(--mf-shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.mf-asset-card:hover,
+.mf-asset-card:focus-within { transform: translateY(-4px); box-shadow: var(--mf-shadow-hover); }
+.mf-asset-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  padding: 20px;
+  background: var(--mf-gray-50);
+}
+.mf-asset-thumb img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+.mf-asset-body {
+  padding: 18px 20px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+.mf-asset-body h3 { text-transform: uppercase; font-size: 1.05rem; margin: 0; }
+.mf-asset-body p { color: var(--mf-gray-600); font-size: 0.92rem; margin: 0; flex: 1; }
+.mf-asset-body .mf-link-arrow { margin-top: auto; }
+
+/* Asset grids hold 2–3 items: 3-up → 2-up → 1-up, never a stranded card. */
+@media (max-width: 991px) { .mf-asset-card { flex-basis: calc(50% - 12px); } }
+@media (max-width: 767px) { .mf-asset-card { flex: 1 1 100%; max-width: 420px; } }

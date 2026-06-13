@@ -4,11 +4,19 @@
 > list for bringing the MFO site in line with the current Maker Faire event-page
 > brand. Update this file as work progresses.
 
-**Last updated:** 2026-06-12
-**Status:** First pass complete — navy/charcoal + coral re-skin, hero overlay,
-and both event-page card rows built and verified (Jekyll build clean, elements
-confirmed in `_site/index.html`). Pending: design review in browser + exact
-brand-value confirmation.
+**Last updated:** 2026-06-13
+**Status:** **PAUSED 2026-06-13** (work resumes later). On branch `redesign`,
+not yet merged to `master`. Core re-skin + multiple pages/components done and
+browser-verified. See the dated sub-sections (§6.x) and the Decisions log (§7)
+for everything completed; see **§9 Resume Here** for what's open.
+
+Done so far: navy/charcoal + coral re-skin; Archivo/Inter type; nav/CTA; footer
+(white, Happy-Valley-style, 5 social icons); flag-banner removed; homepage
+"What is Maker Faire" styled intro, Explore + Get-Involved card rows (image-zoom
+hover, balanced grids, Stage Talks card, `explore_card_links` toggle); sponsor
+**marquee** (drag-scrub) on homepage + **modern sponsors grid** on `/sponsors/`;
+exhibit, volunteer, and promote pages restyled. **Carousels are imagery only —
+no text overlay** (hero overlay reversed, see §7).
 
 **Primary reference:** https://makerfaire.com/bay-area/?2026 — the Maker Faire
 **Bay Area event page**, chosen because it is an event page like MFO (the
@@ -152,10 +160,12 @@ includes.
   `_includes/stylesheets.html`, loaded last; replaced Roboto links.
 - [x] **3. Navigation + CTA** — navbar + header CTA restyled via redesign CSS
   (white nav, coral underline on hover, coral pill→rect CTA button).
-- [x] **4. Hero + voice** — full-bleed hero overlay on homepage carousel: dark
-  gradient, bold uppercase tagline, auto date/location line, coral Get Tickets
-  CTA. Driven by `hero-*` front matter in `index.md`; markup in
-  `_includes/carousel.html`.
+- [x] ~~**4. Hero + voice** — full-bleed hero overlay on the carousel~~
+  **REVERSED 2026-06-13:** per user, **no text is overlaid on the main
+  carousels** — they are imagery only. The `.mf-hero-overlay` markup
+  (`_includes/carousel.html`), its CSS (§4), and all `hero-*` front matter were
+  removed. Page titles/taglines now live solely in the content sections below
+  the carousel (each page already has its own `<h1>`).
 - [x] **5. Components** — cards, buttons (coral), shadows, `.cta-panel` (navy),
   `.what-is-maker-faire`, footer (navy), FAQ all rebranded.
 - [x] **6. Retire flag-banner** — rotated strip removed entirely via
@@ -329,12 +339,23 @@ instead.
   (min 24s), so the pace stays constant regardless of sponsor count.
 - **UX:** edge-fade mask on the viewport; pauses on hover/focus-within;
   `prefers-reduced-motion` collapses it to a static centered wrapped grid (dupe
-  set hidden).
+  set hidden). Title + subtitle above ("… Sponsors" / "Thank You to the Sponsors
+  Who Help Make Maker Faire Happen!").
+- **Drag-to-scrub (progressive enhancement):** a small inline `<script>` in the
+  include takes over from the CSS animation (adds `.is-grabbable`, drives the
+  transform via rAF) so the band can be **clicked/dragged back and forth** like
+  the Bay Area Swiper strip; auto-scroll resumes on release; a real drag (>6px)
+  suppresses the sponsor-link click. No-JS → CSS auto-scroll still runs;
+  reduced-motion → script is skipped.
+- **Logos:** `loading="eager"` + `decoding="async"` (lazy-loading made tiles
+  pop in blank mid-scroll); `draggable="false"`.
 - **Data:** loops `site.data.sponsors` by level then name (same source as the
   old carousel); footer keeps the "Become a Sponsor • All Sponsors" links.
-- **CSS:** `mfo-redesign.css` §12 (`.mf-sponsor-marquee` / `.mf-marquee-*`).
-- **Verified:** Jekyll build clean; 23 active sponsors → 46 tiles + 69s duration
-  in `_site/index.html`; browser-checked (single faded band renders).
+- **CSS:** `mfo-redesign.css` §12 (`.mf-sponsor-marquee` / `.mf-marquee-*`,
+  incl. `.is-grabbable` / `.is-dragging`).
+- **Verified:** Jekyll build clean; 23 active sponsors → 46 tiles + 69s duration;
+  drag enhancement confirmed via post-JS DOM dump (`.is-grabbable` applied,
+  transform advancing).
 
 ## 6.11 Modern sponsors grid (/sponsors/ page)
 
@@ -366,6 +387,53 @@ All card rows now wrap to balanced layouts instead of stranding a single card:
 - CSS: `mfo-redesign.css` §6b (`.mf-card`) and §11 (`.mf-info-card`).
 - Verified at 1100px (4-up / 3+2) and 900px (2+2) for volunteer + homepage.
 
+## 6.13 Promote / press-kit page restyle
+
+Reworked `pages/promote.md` (now `layout: full-width`) from a long markdown
+list into a sectioned press-kit, matching the volunteer/exhibit pattern:
+1. **Hero** overlay ("Help Spread the Word") + retained `update-warning`
+   (gated on `promote_show_update_warning`).
+2. **Lead** intro (`.mf-prose.mf-lead`).
+3. **Badges & Logos** — 3 download cards (web badge, one-line, two-line logo) +
+   usage note.
+4. **Maker Faire Hashtags** — styled chips (`.mf-hashtags` / `.mf-hashtag`).
+5. **Print Materials** — 3 cards (postcard front/back, poster) linking high-res
+   PDFs.
+6. **Social Media Images** — 2 cards (FB cover, profile).
+7. **Photos** — navy/gray prose band with the Flickr group link.
+8. Contact **CTA panel**.
+
+New CSS (`mfo-redesign.css` §14): `.mf-hashtags`/`.mf-hashtag` chips and a
+reusable `.mf-asset-grid`/`.mf-asset-card` download-card component (thumb on a
+light tile, `object-fit: contain` for mixed aspect ratios, 3→2→1 responsive,
+hover lift). Asset paths/hashtags still reference **2025** — update to 2026 once
+new materials are produced.
+
+## 6.14 Homepage "What is Maker Faire?" — styled intro
+
+`_includes/what-is-maker-faire.html` gained typographic hierarchy (CSS §5):
+`.wimf-lead` (larger lead paragraph) → `.wimf-tagline` (bold navy statement,
+Archivo, with the signature phrase wrapped in `<span class="mf-hl">` = coral)
+→ `.wimf-closer` (coral uppercase kicker). Section stays light.
+
+## 6.15 Homepage content cards — hover, Stage card, link toggle
+
+- **Image-zoom hover:** `.mf-card` no longer lifts the whole card; instead the
+  media image scales (`.mf-card-media::before { transform: scale(1.2) }` on
+  hover, clipped by `overflow:hidden`), à la the Bay Area cards. `background-image:
+  inherit` on the `::before` reuses the inline `url()` (no markup change).
+  Reduced-motion disables it. (CSS §6b.)
+- **Balanced grids:** see §6.12 (Explore = 3+2 via `.mf-card-grid--3up`;
+  4-card rows = 4→2+2→1).
+- **Stage Talks card:** a 5th Explore card → `/stage/`, image
+  `assets/images/stage/stage-talks-2025.jpg` (downloaded from the MFO Flickr
+  pool, photo by Roberto Gonzalez). Currently positioned **second**.
+- **`explore_card_links` setting** (`_data/settings.yaml`, default `true`): when
+  `false`, the Explore cards render but with **no `href` and no "See …→" arrow**
+  — for early in the year before category/stage pages have fresh content. Gated
+  in `_includes/category-cards.html` via an `card_links` variable. (Get-Involved
+  cards are not gated — those pages always exist.)
+
 ## 7. Decisions / Open Questions Log
 
 - **2026-06-12** — Scope = full modernization; fidelity = match closely. (User)
@@ -381,6 +449,10 @@ All card rows now wrap to balanced layouts instead of stranding a single card:
   navy/coral? (Currently leaning pure.)
 - **2026-06-13** — Retire flag-banner **entirely** (`display:none`), not the
   thin coral rule. (User)
+- **2026-06-13** — **DESIGN RULE: no text overlaid on the main carousels** —
+  they are imagery only. Reverses the original "hero overlay" (task #4); the
+  `.mf-hero-overlay` markup + CSS (§4) and all `hero-*` front matter were
+  removed. Page titles/taglines live in the content sections below. (User)
 - **OPEN** — Adopt the structural event-page patterns (category cards, Get
   Involved role cards)? Tracked as stretch items S1/S2.
 
@@ -391,3 +463,32 @@ All card rows now wrap to balanced layouts instead of stranding a single card:
 The redesign is additive. To revert: remove the `mfo-redesign.css` `<link>`
 (and restore Roboto font links) in `_includes/stylesheets.html`. No legacy CSS
 is deleted.
+
+---
+
+## 9. Resume Here (paused 2026-06-13)
+
+**Where things stand:** branch `redesign`, not merged. All work above is
+browser-verified. `mfo-redesign.css` is the single override stylesheet (loaded
+last); reusable components now exist for cards (`.mf-card` / `.mf-info-grid` /
+`.mf-card-grid--3up`), download cards (`.mf-asset-*`), hashtag chips, sponsor
+marquee/grid, prose bands (`.mf-prose-section`), and a centered page header
+(`.mf-page-header`).
+
+**Preview:** `.\serve-fast.ps1` → http://localhost:4000 (see
+[build-deploy.md](build-deploy.md)). For headless visual checks during dev I've
+used Edge `--headless=new --screenshot` against a local static server of `_site`.
+
+**Open / next steps:**
+- **Open questions (§7):** confirm exact navy hex + official fonts from the brand
+  guide; decide on a legacy-blue tertiary accent (leaning pure navy/red).
+- **2025 → 2026 content:** the promote page assets/paths and `#MFO2025` hashtag
+  still say 2025 (see §6.13); `sponsor_year` is 2025 while `event_year` is 2026.
+  Bump when 2026 materials exist. The Stage card image is `stage-talks-2025.jpg`.
+- **Pages not yet restyled to the new pattern:** audit remaining `pages/*.md`
+  (e.g. `attend.md`, `become-a-sponsor.md`, `field-trip-day.md`, schedule pages)
+  for the full-width hero + prose/section treatment.
+- **Merge plan:** eventually merge `redesign` → `master` (GitHub Pages serves
+  `master`). Do a **full** build (`_config.yml` only) before merging to catch
+  anything the fast/dev config hides (exhibit images, JSON feeds).
+- **Reminder:** carousels stay imagery-only (no text overlay — §7 rule).
