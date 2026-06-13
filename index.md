@@ -4,10 +4,10 @@ permalink: /
 layout: full-width
 image: /assets/images/slider/welcome-to-maker-faire.jpg  
 scrolltop: true
-hero-title: The Greatest Show (& Tell) on Earth
-hero-meta-event: true
-hero-cta-text: Get Tickets
-hero-cta-url: /attend/
+#hero-title: The Greatest Show (& Tell) on Earth
+#hero-meta-event: true
+#hero-cta-text: Get Tickets
+#hero-cta-url: /attend/
 carousel: true
 carousel-delay: 5000
 carousel-controls: true
@@ -48,7 +48,6 @@ carousel-slides:
 
 {% include get-involved-cards.html %}
 
-{% include makey-border.html %}
 
 {% if site.data.settings.featured_makers %}
 {% include featured-makers-grid.html %}
@@ -117,4 +116,4 @@ carousel-slides:
 </section>
 {% endcomment %}
 
-{% include sponsors-carousel.html %}
+{% include sponsors-marquee.html %}

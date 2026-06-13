@@ -6,20 +6,14 @@ permalink: /sponsors/
 ---
 <div class="container sponsors-landing">
 
-  <div class="row padbottom">
-    <div class="col-xs-12">
-      <h1 class="pull-left">{{site.data.settings.sponsor_year}} Sponsors</h1>
-      <a class="sponsors-btn-top" href="/become-a-sponsor/">BECOME A SPONSOR</a>
-    </div>
-  </div>
+  <header class="mf-page-header">
+    <h1>{{ site.data.settings.sponsor_year }} Sponsors</h1>
+    <p class="mf-page-header-sub">Maker Faire Orlando is made possible by the generous support of these companies and organizations.</p>
+    <a class="btn btn-primary" href="{{ '/become-a-sponsor/' | relative_url }}">Become a Sponsor</a>
+  </header>
+
+  {% include sponsors-grid-modern.html %}
 
 
-  {% include sponsors-grid.html %}
-
-  <div class="row spnosors-row">
-    <p style="margin-top: 20px;text-align: center">This project is funded in part by Orange County Government through the Arts &amp; Cultural Affairs Program.<br>
-    <img class="alignnone size-full wp-image-25608" src="{{ 'assets/images/site-branding/leaper_150x150.jpg' | relative_url }}" alt="Orange County Arts & Cultural Affairs logo" width="150" height="150">
-    </p>
-  </div>
 
 </div>

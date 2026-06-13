@@ -8,7 +8,7 @@ carousel: true
 carousel-delay: 5000
 carousel-controls: false
 hero-title: Volunteer With Us
-hero-meta: Join the crew that makes the magic happen
+hero-meta: Join the team that makes the magic happen
 carousel-slides:
   - image: /assets/images/volunteer-solder.jpg
     caption: Learn-To-Solder
@@ -21,7 +21,7 @@ carousel-slides:
     <div class="row text-center">
       <div class="title-w-border-y"><h1>We Need You!</h1></div>
     </div>
-    <p class="mf-prose mf-lead text-center">Volunteering at {{ site.data.settings.event_name }} {{ site.data.settings.event_year }} is a great way to give back to your local community — and to experience the event without buying a ticket.</p>
+    <p class="mf-prose mf-lead text-center">Volunteering at {{ site.data.settings.event_name }} is a great way to give back to your local community — and to experience the event without buying a ticket.</p>
   </div>
 </section>
 

@@ -1,0 +1,26 @@
+{% comment %}
+  Modern sponsors grid (2026 redesign). Same data source as the original
+  _includes/sponsors-grid.html (site.data.sponsors), which is kept intact.
+
+  Each active tier renders as a section with a coral-underlined heading and a
+  centered grid of logos on clean white tiles. Tiles are sized by tier
+  (tier 1 = largest) via per-tier CSS variables, so sponsor hierarchy reads at
+  a glance. Styling: assets/css/mfo-redesign.css §13 (.mf-sponsors).
+{% endcomment %}
+<div class="mf-sponsors">
+  {% for level in site.data.sponsors.sponsorlevels %}
+    {% assign sponsors = site.data.sponsors.sponsors | where: 'active', 'true' | where: 'level', forloop.index | sort: 'name' %}
+    {% if sponsors.size > 0 %}
+      <section class="mf-sponsor-tier mf-tier-{{ forloop.index }}">
+        <h2 class="mf-tier-title">{{ level[forloop.index] }}</h2>
+        <div class="mf-sponsor-tier-grid">
+          {% for sponsor in sponsors %}
+            <a class="mf-sponsor-tile" href="{{ sponsor.url }}" target="_blank" rel="noopener" id="{{ sponsor.name }}" title="{{ sponsor.name }}">
+              <img src="/assets/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" loading="lazy" decoding="async">
+            </a>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+  {% endfor %}
+</div>

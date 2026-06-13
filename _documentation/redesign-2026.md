@@ -158,8 +158,9 @@ includes.
   `_includes/carousel.html`.
 - [x] **5. Components** — cards, buttons (coral), shadows, `.cta-panel` (navy),
   `.what-is-maker-faire`, footer (navy), FAQ all rebranded.
-- [x] **6. Retire flag-banner** — rotated strip replaced with a 5px coral rule
-  (CSS override; `display:none` is a one-line switch if total removal preferred).
+- [x] **6. Retire flag-banner** — rotated strip removed entirely via
+  `display:none` (CSS override). (Swap back to a 5px coral rule by restoring
+  `height`/`background-color` if a thin brand rule is wanted instead.)
 - [x] **7. Verify** — `bundle exec jekyll build` clean (42s); redesign CSS link,
   fonts, hero, and both card rows confirmed in `_site/index.html`.
 
@@ -313,6 +314,45 @@ header, expanding further only if an item is wider. Browser-verified.
 
 ---
 
+## 6.10 Sponsor logo marquee (ref: makerfaire.com/bay-area sponsor strip)
+
+Added a **new** include `_includes/sponsors-marquee.html` emulating the Bay Area
+event page's single, slowly/continuously-scrolling band of sponsor logos. The
+original `_includes/sponsors-carousel.html` (Bootstrap level-by-level carousel)
+is **retained, unchanged** — the homepage (`index.md`) now includes the marquee
+instead.
+
+- **Technique:** pure CSS, no Swiper/JS. The active-sponsor logo set is rendered
+  twice (second copy `aria-hidden` + `inert`); `.mf-marquee-track` animates
+  `translate3d(-50%)` linearly + infinitely for a seamless loop. Speed is
+  per-logo: `animation-duration` is set inline = `active_sponsors × 3s`
+  (min 24s), so the pace stays constant regardless of sponsor count.
+- **UX:** edge-fade mask on the viewport; pauses on hover/focus-within;
+  `prefers-reduced-motion` collapses it to a static centered wrapped grid (dupe
+  set hidden).
+- **Data:** loops `site.data.sponsors` by level then name (same source as the
+  old carousel); footer keeps the "Become a Sponsor • All Sponsors" links.
+- **CSS:** `mfo-redesign.css` §12 (`.mf-sponsor-marquee` / `.mf-marquee-*`).
+- **Verified:** Jekyll build clean; 23 active sponsors → 46 tiles + 69s duration
+  in `_site/index.html`; browser-checked (single faded band renders).
+
+## 6.11 Modern sponsors grid (/sponsors/ page)
+
+New include `_includes/sponsors-grid-modern.html` replaces the legacy
+`_includes/sponsors-grid.html` on `pages/sponsors.md` (original include kept
+intact). Same data source (`site.data.sponsors`); reworked presentation:
+- Each active tier is a section with an **uppercase heading + short coral
+  underline rule** (replaces the legacy thin blue `title-w-border`).
+- Logos sit on **clean white rounded tiles** (soft shadow + border), centered
+  in a flex grid; hover = subtle lift + coral border.
+- **Tier size hierarchy:** tiles are sized per tier via CSS variables
+  (`--tile-h` / `--tile-basis`) — tier 1 (Goldsmith) largest → tier 5
+  (Contributing) smallest — so sponsor level reads at a glance.
+- CSS: `mfo-redesign.css` §13 (`.mf-sponsors` / `.mf-sponsor-tier` /
+  `.mf-sponsor-tile`); reduced-motion drops the lift.
+- Browser-verified at 1280px. (Note: logos with dark/transparent backgrounds
+  show their own box on the white tile — a per-logo asset issue, not styling.)
+
 ## 7. Decisions / Open Questions Log
 
 - **2026-06-12** — Scope = full modernization; fidelity = match closely. (User)
@@ -326,8 +366,8 @@ header, expanding further only if an item is wider. Browser-verified.
 - **OPEN** — Confirm exact navy hex and official font names from brand guide.
 - **OPEN** — Retain a hint of legacy MFO blue as a tertiary accent, or go pure
   navy/coral? (Currently leaning pure.)
-- **OPEN** — Retire flag-banner entirely vs. replace with thin brand rule?
-  (Currently: replace with a thin rule; `display:none` is an easy switch.)
+- **2026-06-13** — Retire flag-banner **entirely** (`display:none`), not the
+  thin coral rule. (User)
 - **OPEN** — Adopt the structural event-page patterns (category cards, Get
   Involved role cards)? Tracked as stretch items S1/S2.
 

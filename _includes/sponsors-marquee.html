@@ -1,0 +1,118 @@
+{% comment %}
+  Sponsor logo marquee — a single, continuously-scrolling band of sponsor
+  logos, emulating the sponsor strip on makerfaire.com/bay-area.
+
+  Base (no-JS): pure CSS — the logo set is rendered twice (the second copy is
+  aria-hidden + inert) and the track is animated -50% for a seamless infinite
+  loop. Speed is set per-logo via an inline animation-duration so the band
+  scrolls at a consistent pace regardless of how many sponsors are active.
+  Pauses on hover; collapses to a static wrapped grid under reduced-motion.
+
+  Progressive enhancement (JS at the bottom): if JS is on and the user hasn't
+  asked for reduced motion, the script disables the CSS animation and drives the
+  scroll itself, adding click/touch drag-to-scrub (grab and pull it back and
+  forth, like the Swiper strip on the Bay Area page). Auto-scroll resumes on
+  release; hovering pauses; a real drag suppresses the sponsor-link click.
+
+  Styling lives in assets/css/mfo-redesign.css §12 (.mf-sponsor-marquee).
+  The original carousel (_includes/sponsors-carousel.html) is left intact.
+{% endcomment %}
+{% assign active_sponsors = site.data.sponsors.sponsors | where: 'active', 'true' %}
+{% assign marquee_seconds = active_sponsors | size | times: 3 %}
+{% if marquee_seconds < 24 %}{% assign marquee_seconds = 24 %}{% endif %}
+
+{% capture marquee_items %}{% for level in site.data.sponsors.sponsorlevels %}{% assign sponsors = site.data.sponsors.sponsors | where: 'active', 'true' | where: 'level', forloop.index | sort: 'name' %}{% for sponsor in sponsors %}<div class="mf-marquee-item"><a href="{{ sponsor.url }}" target="_blank" rel="noopener"><img src="/assets/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" loading="eager" decoding="async" draggable="false"></a></div>{% endfor %}{% endfor %}{% endcapture %}
+
+<section class="mf-sponsor-marquee">
+  <h2 class="mf-marquee-title">{{ site.data.settings.sponsor_year }} Sponsors</h2>
+  <p class="mf-marquee-subtitle">Thank You to the Sponsors Who Help Make Maker Faire Happen!</p>
+
+
+  <div class="mf-marquee-viewport">
+    <div class="mf-marquee-track" style="animation-duration: {{ marquee_seconds }}s">
+      <div class="mf-marquee-set">{{ marquee_items }}</div>
+      <div class="mf-marquee-set mf-marquee-set--dupe" aria-hidden="true" inert>{{ marquee_items }}</div>
+    </div>
+  </div>
+
+  <p class="mf-marquee-footer">
+    <a href="{{ '/become-a-sponsor/' | relative_url }}">Become a Sponsor</a>
+    <span>•</span>
+    <a href="{{ '/sponsors/' | relative_url }}">All {{ site.data.settings.sponsor_year }} Sponsors</a>
+  </p>
+</section>
+
+<script>
+/* Sponsor marquee: drag-to-scrub enhancement over the CSS auto-scroll.
+   Falls back to the pure-CSS animation if this script doesn't run, and is
+   skipped entirely when the user prefers reduced motion. */
+(function () {
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  document.querySelectorAll('.mf-sponsor-marquee').forEach(function (root) {
+    var viewport = root.querySelector('.mf-marquee-viewport');
+    var track = root.querySelector('.mf-marquee-track');
+    if (!viewport || !track) return;
+
+    // Take over from the CSS animation.
+    viewport.classList.add('is-grabbable');
+
+    var setWidth = 0;                 // width of one logo set (half the track)
+    var pxPerSec = 40;                // fallback speed
+    function measure() {
+      setWidth = track.scrollWidth / 2;
+      // Match the CSS pace: one set traversed over the inline animation-duration.
+      var dur = parseFloat(getComputedStyle(track).animationDuration) || 0;
+      if (setWidth > 0 && dur > 0) pxPerSec = setWidth / dur;
+    }
+
+    var offset = 0;
+    function wrap(x) { return setWidth > 0 ? ((x % setWidth) + setWidth) % setWidth : 0; }
+    function apply() { track.style.transform = 'translate3d(' + (-offset) + 'px,0,0)'; }
+
+    var paused = false, dragging = false, startX = 0, startOffset = 0, maxMoved = 0, last = 0;
+
+    function frame(now) {
+      if (!last) last = now;
+      var dt = (now - last) / 1000; last = now;
+      if (!dragging && !paused) { offset = wrap(offset + pxPerSec * dt); apply(); }
+      requestAnimationFrame(frame);
+    }
+
+    viewport.addEventListener('pointerenter', function () { paused = true; });
+    viewport.addEventListener('pointerleave', function () { paused = false; });
+
+    viewport.addEventListener('pointerdown', function (e) {
+      if (e.pointerType === 'mouse' && e.button !== 0) return;
+      dragging = true; maxMoved = 0; startX = e.clientX; startOffset = offset;
+      viewport.classList.add('is-dragging');
+      try { viewport.setPointerCapture(e.pointerId); } catch (err) {}
+    });
+    viewport.addEventListener('pointermove', function (e) {
+      if (!dragging) return;
+      var delta = e.clientX - startX;
+      maxMoved = Math.max(maxMoved, Math.abs(delta));
+      offset = wrap(startOffset - delta);
+      apply();
+    });
+    function endDrag(e) {
+      if (!dragging) return;
+      dragging = false;
+      viewport.classList.remove('is-dragging');
+      try { viewport.releasePointerCapture(e.pointerId); } catch (err) {}
+    }
+    viewport.addEventListener('pointerup', endDrag);
+    viewport.addEventListener('pointercancel', endDrag);
+
+    // Don't follow a sponsor link if the pointer-up was the end of a drag.
+    viewport.addEventListener('click', function (e) {
+      if (maxMoved > 6) { e.preventDefault(); e.stopPropagation(); maxMoved = 0; }
+    }, true);
+
+    measure();
+    window.addEventListener('load', measure);
+    window.addEventListener('resize', measure);
+    requestAnimationFrame(frame);
+  });
+})();
+</script>
