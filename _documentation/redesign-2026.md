@@ -4,8 +4,8 @@
 > list for bringing the MFO site in line with the current Maker Faire event-page
 > brand. Update this file as work progresses.
 
-**Last updated:** 2026-06-13
-**Status:** **PAUSED 2026-06-13** (work resumes later). On branch `redesign`,
+**Last updated:** 2026-06-13 (resumed; +3 page restyles, §6.16)
+**Status:** **IN PROGRESS.** On branch `redesign`,
 not yet merged to `master`. Core re-skin + multiple pages/components done and
 browser-verified. See the dated sub-sections (§6.x) and the Decisions log (§7)
 for everything completed; see **§9 Resume Here** for what's open.
@@ -434,6 +434,42 @@ Archivo, with the signature phrase wrapped in `<span class="mf-hl">` = coral)
   in `_includes/category-cards.html` via an `card_links` variable. (Get-Involved
   cards are not gated — those pages always exist.)
 
+## 6.16 Attend / Sponsor / Field Trip Day page restyles
+
+Three more `layout: default` wall-of-text pages reworked to the full-width
+hero + sectioned pattern (same components as exhibit/volunteer/promote):
+
+- **`pages/attend.md`** (`/attend/`, the primary "Get Tickets" CTA target):
+  lead intro → **"Plan Your Visit"** 4 info-cards (When / Where / Free Parking /
+  250+ Exhibits) with a plan-your-weekend links line → **Tickets** band (intro +
+  Humanitix `data-checkout="makerfaireorlando"` widget in `.mf-widget-wrap` +
+  student-ID note) → **Discounted & Free Admission** `.mf-checklist` (5 programs:
+  Educators / Field Trip Day / Title I / First Responders & Military / Making For
+  All) → **Good to Know** `.mf-checklist` → contact CTA panel. Dropped the stale
+  commented 2022/2023 3D-printer giveaway blocks.
+- **`pages/become-a-sponsor.md`** (`/become-a-sponsor/`): lead (refreshed copy —
+  removed the dated "recovering from the pandemic" line) + coral **Download the
+  Sponsor Packet** button → "why sponsor" video → **Sponsorship Packet** as an
+  `.mf-asset-card` → sponsor-stories video → **{sponsor_year} Sponsors** via the
+  **modern** grid include (`sponsors-grid-modern.html`, swapped off the legacy
+  `sponsors-grid.html`) + Orange County funding note → 501(c)(3) closing →
+  contact CTA. Videos use Bootstrap `.embed-responsive.embed-responsive-16by9`
+  in a `col-md-8 col-md-offset-2`.
+- **`pages/field-trip-day.md`** (`/field-trip-day/`): lead → **"A Day of
+  Discovery"** 4 info-cards (Meet / Explore / Build / Imagine) → **Planning**
+  section with the Educator's Guide `.mf-asset-card` (+ "guide not yet updated
+  for 2026" caveat retained) and exhibit-category links → **"Who Can Take Part"**
+  2 info-cards (School Field Trips / Homeschool & Virtual) → **Register** via a
+  `.mf-apply-callout.is-open` with the JotForm button
+  (`mfo2026-field-trip-day`) → **Important Notes** `.mf-checklist` → contact CTA.
+  The seasonal `{% comment %}` "at capacity / deadline passed" toggle blocks were
+  **preserved** (inside the two Who-Can-Take-Part cards) for the maintainer.
+
+No new CSS — all three reuse existing components. Build clean; all three
+browser-verified at 1280px (Humanitix iframe is blank in headless, loads via JS
+at runtime, same as the volunteer widget). 2025 asset paths (sponsor packet,
+educator's guide) left as-is pending 2026 materials.
+
 ## 7. Decisions / Open Questions Log
 
 - **2026-06-12** — Scope = full modernization; fidelity = match closely. (User)
@@ -485,9 +521,12 @@ used Edge `--headless=new --screenshot` against a local static server of `_site`
 - **2025 → 2026 content:** the promote page assets/paths and `#MFO2025` hashtag
   still say 2025 (see §6.13); `sponsor_year` is 2025 while `event_year` is 2026.
   Bump when 2026 materials exist. The Stage card image is `stage-talks-2025.jpg`.
-- **Pages not yet restyled to the new pattern:** audit remaining `pages/*.md`
-  (e.g. `attend.md`, `become-a-sponsor.md`, `field-trip-day.md`, schedule pages)
-  for the full-width hero + prose/section treatment.
+- **Pages not yet restyled to the new pattern:** `attend.md`,
+  `become-a-sponsor.md`, and `field-trip-day.md` are now done (§6.16). Remaining
+  candidates to audit for the full-width hero + prose/section treatment:
+  `educators.md`, `power-racing.md`, `stage.md`, `program.md`, `maker-manual.md`,
+  `badge.md`, and the schedule pages. (`about.md` was deleted 2026-06-13,
+  finally matching §6.8.)
 - **Merge plan:** eventually merge `redesign` → `master` (GitHub Pages serves
   `master`). Do a **full** build (`_config.yml` only) before merging to catch
   anything the fast/dev config hides (exhibit images, JSON feeds).

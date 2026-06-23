@@ -105,4 +105,4 @@ carousel-slides:
   </div>
 </section>
 
-{% include cta-panel-widget.html cta_text="Have questions? Email makers@makerfaireorlando.com" cta_url="mailto:makers@makerfaireorlando.com" %}
+{% include cta-panel-widget.html cta_text="Have questions? Email Us" cta_url="mailto:makers@makerfaireorlando.com" %}

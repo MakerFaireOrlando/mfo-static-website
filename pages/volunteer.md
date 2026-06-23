@@ -64,7 +64,7 @@ carousel-slides:
     <ul class="mf-checklist">
       <li><strong>Age:</strong> volunteers must be 13 or older — some roles require 16+ or 18+.</li>
       <li><strong>No-cost registration:</strong> we use the Humanitix platform, which issues a “ticket,” but there’s no charge to you.</li>
-      <li><strong>Special skills or questions?</strong> If you have a skill-set (especially photography/videography) or any questions, email <a href="mailto:makers@makerfaireorlando.com">makers@makerfaireorlando.com</a>.</li>
+      <li><strong>Special skills or questions?</strong> If you have a skill-set (especially photography/videography) or any questions, <a href="mailto:makers@makerfaireorlando.com">email us</a>.</li>
     </ul>
   </div>
 </section>
@@ -76,7 +76,7 @@ carousel-slides:
       <div class="title-w-border-y"><h2>Sign Up to Volunteer</h2></div>
     </div>
     {% if site.data.settings.volunteer_open %}
-    <p class="mf-prose text-center">Register for open shifts below — General Volunteer, Greeter, and more. Having trouble registering, or did your availability change? Email <a href="mailto:makers@makerfaireorlando.com">makers@makerfaireorlando.com</a>.</p>
+    <p class="mf-prose text-center">Register for open shifts below — General Volunteer, Greeter, and more. Having trouble registering, or did your availability change? <a href="mailto:makers@makerfaireorlando.com">Email us</a>.</p>
     <div class="mf-widget-wrap">
       <script src="https://events.humanitix.com/scripts/widgets/inline.js" type="module"></script>
       <iframe data-checkout="{{ site.data.settings.volunteer_checkout }}"></iframe>
@@ -85,7 +85,7 @@ carousel-slides:
     <div class="mf-apply-callout">
       <span class="mf-status-tag">Opening Soon</span>
       <h2>Volunteer Registration Opens This Fall</h2>
-      <p>Volunteer registration typically opens in September. Check back here or follow us on social media for the announcement. Already registered and have questions? Email <a href="mailto:makers@makerfaireorlando.com">makers@makerfaireorlando.com</a>.</p>
+      <p>Volunteer registration typically opens in September. Check back here or follow us on social media for the announcement. Already registered and have questions? <a href="mailto:makers@makerfaireorlando.com">Email us</a>.</p>
     </div>
     {% endif %}
   </div>

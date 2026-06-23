@@ -69,13 +69,13 @@ Check out the [Maker Faire Program](/program) for a map, schedule and more!
 [Exhibit Tent PDF Space Plan](/assets/pdf/2025/MFO25-MAKER-TENT.pdf) - Space numbers starting with "T"
 
 
-We do not publish a space plan for all outdoor exhibits, we have to validate space conditions when we are on-site at the Fairgrounds. Once you are on-site, our team will help you locate your outdoor exhibit. If you have a question about an outdoor location, email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
+We do not publish a space plan for all outdoor exhibits, we have to validate space conditions when we are on-site at the Fairgrounds. Once you are on-site, our team will help you locate your outdoor exhibit. If you have a question about an outdoor location, [email us](mailto:makers@makerfaireorlando.com)
 
 Don't know your space number? Find your exhibit on the [exhibits page](/exhibits), your space number is on that page below the exhibit description.
 {% endif %}
 
 ### Need Help?
-Before the event, email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
+Before the event, [email us](mailto:makers@makerfaireorlando.com)
 
 During the event, if you need help please locate the crew member assigned to your exhibit zone. They will be roaming in your zone throughout the event.
 

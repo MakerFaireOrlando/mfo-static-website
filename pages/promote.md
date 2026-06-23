@@ -20,7 +20,7 @@ carousel-slides:
       <div class="title-w-border-y"><h1>Help Promote Maker Faire Orlando</h1></div>
     </div>
     <p class="mf-prose mf-lead text-center">Help us spread the word about this year's {{ site.data.settings.event_name }} and the maker movement with people you know who'd love it as much as you do. Grab the badges, logos, and printable materials below — click any image to open the full-size or high-res file.</p>
-    <p class="mf-prose text-center">Need something you don't see here? We add new materials as they're created — email <a href="mailto:makers@makerfaireorlando.com">makers@makerfaireorlando.com</a> and we'll help.</p>
+    <p class="mf-prose text-center">Need something you don't see here? We add new materials as they're created — <a href="mailto:makers@makerfaireorlando.com">email us</a> and we'll help.</p>
   </div>
 </section>
 
@@ -67,7 +67,7 @@ carousel-slides:
       </figure>
 
     </div>
-    <p class="mf-prose text-center" style="margin-top: 28px;">Need a larger or vector version of any logo? Email <a href="mailto:makers@makerfaireorlando.com">makers@makerfaireorlando.com</a> — we'd love to help. Please don't use the logos in a way that implies we've endorsed a product or service.</p>
+    <p class="mf-prose text-center" style="margin-top: 28px;">Need a larger or vector version of any logo? <a href="mailto:makers@makerfaireorlando.com">Email us</a> — we'd love to help. Please don't use the logos in a way that implies we've endorsed a product or service.</p>
   </div>
 </section>
 
@@ -139,7 +139,7 @@ carousel-slides:
       </figure>
 
     </div>
-    <p class="mf-prose text-center" style="margin-top: 28px;">Postcards are also available at MakerFX Makerspace, FamiLAB, Skycraft, Tampa Hackerspace, Rockler Woodworking, and more. Need a large quantity for your school, office, or group? Email <a href="mailto:makers@makerfaireorlando.com">makers@makerfaireorlando.com</a>.</p>
+    <p class="mf-prose text-center" style="margin-top: 28px;">Postcards are also available at MakerFX Makerspace, FamiLAB, Skycraft, Tampa Hackerspace, Rockler Woodworking, and more. Need a large quantity for your school, office, or group? <a href="mailto:makers@makerfaireorlando.com">Email us</a>.</p>
   </div>
 </section>
 
@@ -184,8 +184,8 @@ carousel-slides:
     <div class="row text-center">
       <div class="title-w-border-y"><h2>Photos</h2></div>
     </div>
-    <p class="mf-prose text-center">Looking for photos of Maker Faire Orlando? Browse the <a href="https://www.flickr.com/groups/makerfaireorlando/" target="_blank" rel="noopener">Maker Faire Orlando Flickr group</a>. Have great shots of your own? Join the group to share them, or email <a href="mailto:makers@makerfaireorlando.com">makers@makerfaireorlando.com</a> to send them another way.</p>
+    <p class="mf-prose text-center">Looking for photos of Maker Faire Orlando? Browse the <a href="https://www.flickr.com/groups/makerfaireorlando/" target="_blank" rel="noopener">Maker Faire Orlando Flickr group</a>. Have great shots of your own? Join the group to share them, or <a href="mailto:makers@makerfaireorlando.com">email us</a> to send them another way.</p>
   </div>
 </section>
 
-{% include cta-panel-widget.html cta_text="Questions or need other materials? Email makers@makerfaireorlando.com" cta_url="mailto:makers@makerfaireorlando.com" %}
+{% include cta-panel-widget.html cta_text="Questions or need other materials? Email Us" cta_url="mailto:makers@makerfaireorlando.com" %}
