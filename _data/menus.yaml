@@ -70,6 +70,8 @@ footernav:
     image: assets/images/site-branding/mfo_one_line_border.png
     imagealt: Maker Faire Orlando logo
     subfolderitems:
+      - page: About
+        url: /about/
       - page: Email Us
         url: mailto:makers@makerfaireorlando.com
       - page: Join Our Mailing List
