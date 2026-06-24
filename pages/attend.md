@@ -68,12 +68,20 @@ page_footer_ad: false
     <div class="row text-center">
       <div class="title-w-border-y"><h2>Tickets</h2></div>
     </div>
+    {% if site.data.settings.tickets_on_sale %}
     <p class="mf-prose text-center">Tickets are available on <a href="https://events.humanitix.com/makerfaireorlando">Humanitix</a> or through the form below — Humanitix donates 100% of profits to children’s charities!</p>
     <div class="mf-widget-wrap">
       <script src="https://events.humanitix.com/scripts/widgets/inline.js" type="module"></script>
       <iframe data-checkout="makerfaireorlando"></iframe>
     </div>
     <p class="mf-prose text-center"><small>Student tickets include college students with a current college student ID.</small></p>
+    {% else %}
+    <div class="mf-apply-callout">
+      <span class="mf-status-tag">Coming Soon</span>
+      <h2>Tickets Aren’t On Sale Yet</h2>
+      <p>Tickets for {{ site.data.settings.event_year }} Maker Faire Orlando will go on sale soon. <a href="{{ site.data.settings.newsletter_url }}">Subscribe to our newsletter</a> and follow us on social media to be the first to know.</p>
+    </div>
+    {% endif %}
   </div>
 </section>
 

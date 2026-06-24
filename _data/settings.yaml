@@ -14,6 +14,10 @@ cfm_url: https://www.jotform.com/makereffect/cfm2026
 volunteer_open: false
 volunteer_checkout: maker-faire-orlando-2025-volunteer-registration
 
+# Ticket sales. When true, /attend/ shows the Humanitix ticket widget;
+# when false it shows a "tickets not on sale yet" message instead.
+tickets_on_sale: false
+
 #homepage settings
 featured_makers: false
 event_shirt_promo: false

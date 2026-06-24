@@ -47,6 +47,7 @@ These gate the application/registration widgets on their respective pages. When
 | `cfm_url` | The exhibit application URL the button points to. | — |
 | `volunteer_open` | Shows the Humanitix volunteer shift widget. | `/volunteer/` |
 | `volunteer_checkout` | Humanitix slug for the volunteer widget. | — |
+| `tickets_on_sale` | Shows the Humanitix ticket widget; when false, a "tickets not on sale yet" message. | `/attend/` |
 
 > **Update the URLs/slugs to the current year before flipping the flag open.**
 > `cfm_url` is the JotForm call-for-makers form; `volunteer_checkout` is the

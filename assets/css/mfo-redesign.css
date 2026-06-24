@@ -632,7 +632,15 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   padding: 44px 28px;
   box-shadow: var(--mf-shadow-lg);
 }
-.mf-apply-callout.is-open { background: var(--mf-red); }
+/* Open state: a light card with a coral top accent — no large red fill. */
+.mf-apply-callout.is-open {
+  background: var(--mf-white);
+  color: var(--mf-ink);
+  border: 1px solid var(--mf-gray-200);
+  border-top: 4px solid var(--mf-red);
+}
+.mf-apply-callout.is-open h2 { color: var(--mf-navy) !important; }
+.mf-apply-callout.is-open p { color: var(--mf-gray-800); }
 .mf-apply-callout h2 { color: var(--mf-white) !important; margin: 0 0 12px; text-transform: uppercase; }
 .mf-apply-callout p {
   font-size: 1.1rem;
@@ -650,15 +658,15 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   color: var(--mf-red);
   margin-bottom: 12px;
 }
-.mf-apply-callout.is-open .mf-status-tag { color: var(--mf-white); }
-/* On the coral (open) callout, invert the button to white-on-coral. */
-.mf-apply-callout.is-open .btn,
-.mf-apply-callout.is-open a.btn {
-  background-color: var(--mf-white) !important;
-  color: var(--mf-red) !important;
-  border-color: var(--mf-white) !important;
+/* Open callout uses the standard coral primary button (the only red element). */
+/* Links inside the navy (closed/coming-soon) callout: white + coral underline. */
+.mf-apply-callout:not(.is-open) a {
+  color: var(--mf-white);
+  text-decoration: underline;
+  text-decoration-color: var(--mf-red);
+  text-underline-offset: 3px;
 }
-.mf-apply-callout.is-open .btn:hover { background-color: var(--mf-navy) !important; color: var(--mf-white) !important; }
+.mf-apply-callout:not(.is-open) a:hover { color: var(--mf-red); }
 
 /* "Ways to take part" info cards (icon + heading + copy, no photo). */
 .mf-info-grid { display: flex; flex-wrap: wrap; gap: 22px; justify-content: center; }

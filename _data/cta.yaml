@@ -1,8 +1,13 @@
+# Header / footer call-to-action buttons.
+# The nav CTA switches automatically: when settings.tickets_on_sale is true
+# the "tickets" CTA shows; when false, the "newsletter" CTA shows instead.
 topnav:
-  #text: Subscribe for Info
-  #url: http://eepurl.com/bpCB8T
   text: Get Tickets!
   url: /attend/
+
+topnav_newsletter:
+  text: Subscribe for Info
+  url: http://eepurl.com/bpCB8T
 
 
 footer:
