@@ -1,0 +1,16 @@
+# Netlify build config for the Jekyll site.
+# Used for sharing branch previews (e.g. `redesign`) off the live GitHub Pages
+# deploy, which still serves `master` at www.makerfaireorlando.com.
+#
+# Builds with the full _config.yml (NOT _config_dev.yml) so exhibit images and
+# the JSON feeds are included. Ruby version is pinned in .ruby-version.
+
+[build]
+  command = "bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+  # The github-pages gem's metadata plugin needs the repo name. GitHub Pages
+  # sets this automatically; Netlify does not, so provide it here.
+  PAGES_REPO_NWO = "MakerFaireOrlando/mfo-static-website"
