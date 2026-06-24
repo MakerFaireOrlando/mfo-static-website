@@ -77,8 +77,9 @@ fast-build trade-offs as `serve-fast.ps1`.
 
 ## Deploy (GitHub Pages)
 
-**There is no CI workflow in this repo** — no `.github/workflows`. Publishing is
-GitHub Pages' built-in Jekyll build:
+Production publishing is GitHub Pages' built-in Jekyll build (there is **no**
+Actions workflow involved in production — the Netlify workflow below is only for
+branch previews):
 
 1. Push to the branch GitHub Pages is configured to serve (the default branch,
    **`master`**).
@@ -99,6 +100,46 @@ GitHub Pages' built-in Jekyll build:
 
 - `master` — production (what GitHub Pages serves).
 - `redesign` — the in-progress 2026 rebrand. See [Redesign 2026](redesign-2026.md).
+
+---
+
+## Preview deploys (Netlify via GitHub Actions)
+
+To share a branch (e.g. `redesign`) without touching the live GitHub Pages site,
+[`.github/workflows/netlify-preview.yml`](../.github/workflows/netlify-preview.yml)
+builds the site on GitHub's runners and pushes the output to a Netlify site.
+
+**Why build in Actions instead of letting Netlify do it:** Netlify clones the
+*full* git repo, and this repo's history is several GB (years of binary image
+churn). The Actions `checkout` is **shallow** (`fetch-depth: 1`), so it pulls
+only the current tree (~284 MB) — far cheaper. GitHub also doesn't support Ruby
+in its own Static Web Apps-style builder; doing it here keeps full control.
+
+The workflow: shallow checkout → `ruby/setup-ruby` (version from `.ruby-version`;
+`Gemfile.lock` is gitignored so gems resolve fresh for Linux) → `bundle exec
+jekyll build` (full `_config.yml`, `JEKYLL_ENV=production`, `PAGES_REPO_NWO` set
+so the github-pages metadata plugin works) → `nwtgck/actions-netlify` deploys
+`_site/`. Triggers on push to `redesign` and manual `workflow_dispatch`.
+
+### One-time setup
+
+1. Create a Netlify site **not connected to git** (so Netlify doesn't also try to
+   build): Netlify dashboard *Add new site → Deploy manually* (drop any folder
+   once to create it), or `netlify sites:create --name mfo-redesign`.
+2. Grab two values:
+   - **Auth token** — Netlify *User settings → Applications → Personal access
+     tokens → New access token*.
+   - **Site API ID** — the site's *Site configuration → General → Site
+     information → API ID*.
+3. Add them as GitHub repo secrets (*Settings → Secrets and variables →
+   Actions*): `NETLIFY_AUTH_TOKEN` and `NETLIFY_SITE_ID`.
+4. Push to `redesign` (or run the workflow manually). The shared URL is the
+   Netlify site's primary URL (rename it under *Site configuration* to e.g.
+   `mfo-redesign.netlify.app`).
+
+> Public repo → GitHub Actions minutes are free. The build/deploy runs a few
+> minutes (mostly the ~300 MB asset upload); no Netlify build minutes are used
+> since Netlify only receives the finished `_site/`.
 
 ---
 
