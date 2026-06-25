@@ -591,6 +591,37 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   color: var(--mf-white) !important;
 }
 
+/* Funding-notice logos (TMEF + Orange County). Both logos share identical
+   constraints so they stay size-balanced at every width (their aspect ratios
+   are nearly equal). Side by side on desktop; stacked + centered on phones. */
+.mf-funding-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px 56px;
+  margin-top: 18px;
+}
+.mf-funding-logos img {
+  width: auto;
+  height: auto;
+  max-height: 84px;
+  max-width: 42%;
+  object-fit: contain;
+}
+/* The OC logo art has no internal padding (fills its box edge-to-edge), so at an
+   equal box height it reads larger than the padded TMEF logo. Scale it down so
+   the *artwork* matches TMEF's visual weight. */
+.mf-funding-logos .mf-oc-logo {
+  max-height: 62px;
+  max-width: 34%;
+}
+@media (max-width: 480px) {
+  /* >50% width each forces one-per-row (stacked), still balanced. */
+  .mf-funding-logos img { max-width: 70%; max-height: 66px; }
+  .mf-funding-logos .mf-oc-logo { max-width: 56%; max-height: 49px; }
+}
+
 .banner { background-color: var(--mf-red) !important; }
 .banner a { color: var(--mf-white) !important; }
 

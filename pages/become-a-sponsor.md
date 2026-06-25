@@ -80,8 +80,8 @@ carousel-slides:
       <div class="title-w-border-y"><h2>{{ site.data.settings.sponsor_year }} Sponsors</h2></div>
     </div>
     {% include sponsors-grid-modern.html %}
-    <p class="mf-prose text-center" style="margin-top: 24px;">This project is funded in part by Orange County Government through the Arts &amp; Cultural Affairs Program.</p>
-    <p class="text-center"><img src="{{ 'assets/images/site-branding/leaper_150x150.jpg' | relative_url }}" alt="Orange County Arts &amp; Cultural Affairs logo" width="150" height="150"></p>
+    {% include oc-funding-notice.html class="mf-prose text-center" style="margin-top: 24px;" %}
+    <p class="text-center"><img src="{{ 'assets/images/site-branding/26.01_OC_Logo_H-Black_RGB.png' | relative_url }}" alt="Orange County Arts &amp; Cultural Affairs logo" width="260" style="max-width:100%;height:auto;"></p>
   </div>
 </section>
 

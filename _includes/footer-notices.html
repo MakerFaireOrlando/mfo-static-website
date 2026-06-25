@@ -1,12 +1,10 @@
 <div class="row padtop">
   <div class="col-xs-12">
     <p class="copyright-footer text-center">Maker Faire Orlando is independently organized and operated under license from Make: Community, LLC.</p>
-    <p class="copyright-footer text-center">This project is funded in part by Orange County Government through the Arts &amp; Cultural Affairs Program.</p>
-    <div class="col-xs-6">
-      <img src="{{ 'assets/images/site-branding/tmef_logo_rectangle_black.png' | relative_url }}" alt="Orange County Arts & Culture logo" style="padding-top:10px;width:300px;"class="aligncenter">
-    </div>
-    <div class="col-xs-6">
-      <img src="{{ 'assets/images/site-branding/leaper_150x150.jpg' | relative_url }}" alt="TMEF logo" class="aligncenter">
+    {% include oc-funding-notice.html %}
+    <div class="mf-funding-logos">
+      <img src="{{ 'assets/images/site-branding/tmef_logo_rectangle_black.png' | relative_url }}" alt="The Maker Effect Foundation logo">
+      <img class="mf-oc-logo" src="{{ 'assets/images/site-branding/26.01_OC_Logo_H-Black_RGB.png' | relative_url }}" alt="Orange County Arts &amp; Cultural Affairs logo">
     </div>
   </div>
 </div>
