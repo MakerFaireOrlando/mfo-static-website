@@ -48,9 +48,11 @@ jobs:
       - name: Build site (full config — includes images + JSON feeds)
         run: bundle exec jekyll build
         env:
-          JEKYLL_ENV: production
-          # github-pages metadata plugin needs the repo name; GitHub Pages sets
-          # this automatically, Actions does not.
+          # development (NOT production): off GitHub Pages, the github-pages gem
+          # mis-derives baseurl in production (breaks every asset URL), and a
+          # preview shouldn't fire the production analytics/Facebook pixel.
+          JEKYLL_ENV: development
+          # Quiets the github-pages metadata plugin (needs the repo name).
           PAGES_REPO_NWO: ${{ github.repository }}
 
       - name: Deploy to Netlify
