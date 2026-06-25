@@ -65,9 +65,9 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.1;
 }
 
-h1, .h1 { font-size: clamp(2.1rem, 4.5vw, 3.4rem); }
-h2, .h2 { font-size: clamp(1.7rem, 3.2vw, 2.5rem); }
-h3, .h3 { font-size: clamp(1.3rem, 2.2vw, 1.7rem); }
+h1, .h1 { font-size: clamp(1.9rem, 3.9vw, 3rem); }
+h2, .h2 { font-size: clamp(1.55rem, 2.8vw, 2.2rem); }
+h3, .h3 { font-size: clamp(1.25rem, 2vw, 1.6rem); }
 
 /* Bold uppercase display headlines, Bay-Area style */
 .mf-display {
@@ -267,7 +267,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
 
 /* Styled intro hierarchy: large lead → bold brand tagline → coral kicker. */
 .what-is-maker-faire .wimf-lead {
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   line-height: 1.6;
   font-weight: 500;
   color: var(--mf-ink) !important;
@@ -276,7 +276,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
 .what-is-maker-faire .wimf-tagline {
   font-family: var(--mf-font-head);
   font-weight: 800;
-  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-size: clamp(1.45rem, 2.7vw, 1.95rem);
   line-height: 1.25;
   color: var(--mf-navy) !important;
   max-width: 880px;
@@ -336,7 +336,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   line-height: 1.75;
   color: var(--mf-gray-800);
 }
-.mf-prose.mf-lead { font-size: 1.35rem; line-height: 1.6; }
+.mf-prose.mf-lead { font-size: 1.2rem; line-height: 1.6; }
 .mf-prose a { color: var(--mf-red); font-weight: 600; }
 .mf-prose a:hover { color: var(--mf-red-dark); }
 
@@ -386,7 +386,7 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
 
 .mf-section-head { text-align: center; margin-bottom: 36px; }
 .mf-section-head h2 { text-transform: uppercase; margin: 0 0 10px; }
-.mf-section-head p { color: var(--mf-gray-600); font-size: 1.1rem; margin: 0 auto; max-width: 640px; }
+.mf-section-head p { color: var(--mf-gray-600); font-size: 1rem; margin: 0 auto; max-width: 640px; }
 
 .mf-card-grid {
   display: flex;
