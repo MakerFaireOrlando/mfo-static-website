@@ -434,9 +434,15 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
 .exhibit-social-row .list-inline { margin: 0; }
 .exhibit-social-row .list-inline > li { padding: 0 9px; }
 
-/* Breathing room below the maker profile so the section below doesn't sit
-   flush against the "Learn More" + social-icons row. */
-.maker-profile-row { padding-bottom: 36px; }
+/* Maker profile presented as a card with light contrast against the page. */
+.maker-card {
+  background: var(--mf-gray-50);
+  border: 1px solid var(--mf-gray-200);
+  border-radius: var(--mf-radius);
+  box-shadow: var(--mf-shadow);
+  padding: 28px 32px;
+  margin-bottom: 8px;
+}
 
 /* Exhibit description — was Bootstrap .lead at full container width (overly
    long, hard-to-read lines). Give it a readable measure + body typography,

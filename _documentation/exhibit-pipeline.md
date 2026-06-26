@@ -33,6 +33,15 @@ For each call-for-makers submission it:
 It also tallies counts (submissions, visible, removed, Field Trip Day) and can
 build space-plan data.
 
+> **Known quirk — `full` is unreliable, especially for additional images.**
+> Each image's front matter lists a `full:` URL, but the importer frequently
+> doesn't actually emit the `-full.png` file for *additional* images (only
+> `small`/`medium`/`large` land on disk). Linking to `image.full.url` therefore
+> 404s, so templates use **`large`** for additional images (e.g. the exhibit
+> photo gallery / lightbox in `_layouts/exhibit.html`). A true full-resolution
+> lightbox would require fixing the importer to always export the `full`
+> variant.
+
 ---
 
 ## Credentials — `private.yaml`
