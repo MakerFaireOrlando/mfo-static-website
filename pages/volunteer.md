@@ -112,7 +112,7 @@ carousel-slides:
         <i class="mf-role-icon fa-solid fa-headset" aria-hidden="true"></i>
         <div class="mf-role-body">
           <h3>Production Support <span class="mf-role-age">Ages 18+</span></h3>
-          <p>Work one-on-one with a Producer behind the scenes — delivering supplies, managing schedules, and solving issues on the go. Fast-paced and on your feet; meals provided.</p>
+          <p>Work one-on-one with a Producer behind the scenes — delivering supplies, managing schedules, and solving issues on the go.</p>
         </div>
       </div>
       <div class="mf-role">
