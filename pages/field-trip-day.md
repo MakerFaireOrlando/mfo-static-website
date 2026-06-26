@@ -45,9 +45,10 @@ page_footer_ad: false
     <div class="row text-center">
       <div class="title-w-border-y"><h1>Field Trip Day</h1></div>
     </div>
-    <p class="mf-prose mf-lead text-center">A one-of-a-kind day of hands-on learning, creativity, and innovation for students — {% include date-edu.html %}, from {{ site.data.settings.edu_hours }}.</p>
-    <p class="mf-prose text-center">The Maker Effect Foundation and our sponsors invite students to experience our annual Field Trip Day. This special preview day is designed exclusively for public, private, and charter school field trips, homeschool students, co-ops, and full-time virtual school students. Students and educators immerse themselves in interactive exhibits and engage directly with makers, artists, engineers, and inventors from across Florida.</p>
-    <p class="mf-prose text-center">Whether it’s screen printing a custom t-shirt, driving a robot or drone, or collaborating on an art project, there’s something to spark every student’s curiosity and imagination. With a focus on STEAM (Science, Technology, Engineering, Art, and Math), the day is full of enriching experiences that bring learning to life — with access to exhibits, reduced crowds, and dedicated programming tailored to young learners and educators.</p>
+    <p class="ftd-kicker">{{ site.data.settings.event_dates.edu_day | date: "%A, %B %-d, %Y" }} &middot; {{ site.data.settings.edu_hours }}</p>
+    <p class="mf-prose mf-lead text-center">A one-of-a-kind day of hands-on learning, creativity, and innovation for students.</p>
+    <p class="mf-prose">The Maker Effect Foundation and our sponsors invite students to experience our annual Field Trip Day. This special preview day is designed exclusively for public, private, and charter school field trips, homeschool students, co-ops, and full-time virtual school students. Students and educators immerse themselves in interactive exhibits and engage directly with makers, artists, engineers, and inventors from across Florida.</p>
+    <p class="mf-prose">Whether it’s screen printing a custom t-shirt, driving a robot or drone, or collaborating on an art project, there’s something to spark every student’s curiosity and imagination. With a focus on <strong class="mf-hl">STEAM</strong> (Science, Technology, Engineering, Art, and Math), the day is full of enriching experiences that bring learning to life — with access to exhibits, reduced crowds, and dedicated programming tailored to young learners and educators.</p>
   </div>
 </section>
 

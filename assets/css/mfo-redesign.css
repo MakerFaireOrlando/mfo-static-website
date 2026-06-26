@@ -337,6 +337,20 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   color: var(--mf-gray-800);
 }
 .mf-prose.mf-lead { font-size: 1.2rem; line-height: 1.6; }
+
+/* Field Trip Day intro — coral date/time kicker under the title. */
+.ftd-kicker {
+  text-align: center;
+  font-family: var(--mf-font-head);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1.35rem;
+  color: var(--mf-red);
+  margin: 0 0 16px;
+}
+/* Inline coral keyword highlight (reusable). */
+.mf-hl { color: var(--mf-red); }
 .mf-prose a { color: var(--mf-red); font-weight: 600; }
 .mf-prose a:hover { color: var(--mf-red-dark); }
 
@@ -1345,6 +1359,10 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   height: auto;
   object-fit: contain;
 }
+/* No outline on mouse click; clean coral ring for keyboard focus only. */
+.mf-asset-thumb { -webkit-tap-highlight-color: transparent; }
+.mf-asset-thumb:focus { outline: none; }
+.mf-asset-thumb:focus-visible { outline: 2px solid var(--mf-red); outline-offset: -3px; }
 .mf-asset-body {
   padding: 18px 20px 20px;
   text-align: center;
