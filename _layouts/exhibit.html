@@ -19,11 +19,6 @@
           width="{{page.image-primary.large.width}}" height="{{page.image-primary.large.height}}" alt="{{page.title}}">
       <p class="exhibit-description">{{page.description-long | newline_to_br}}</p>
 
-      {% if page.website %}
-      <p><a href="{{page.website}}" class="btn btn-info" target="_blank" rel="noopener">Learn More</a></p>
-      {% endif %}
-
-
       <div class="entry-categories mf-tags">
         {%- for category in page.categories -%}
         {%- if category.name -%}
@@ -31,17 +26,26 @@
         {%- endif -%}{%- endfor -%}
       </div>
 
-      {% if site.data.settings.maker_exhibits_show_location %}
-      <p><b>Exhibit Zone:</b> {{page.exhibit-zone}}</p>
+      <div class="exhibit-meta">
+        {% if site.data.settings.maker_exhibits_show_location %}
+        <div class="exhibit-meta-item">
+          <span class="exhibit-meta-label">Zone</span>
+          <span class="exhibit-meta-value">{{ page.exhibit-zone }}</span>
+        </div>
+        <div class="exhibit-meta-item">
+          <span class="exhibit-meta-label">Space</span>
+          <span class="exhibit-meta-value">{% if page.combat-robot == true %}Combat Robot Pits{% else %}{{ page.space-number }}{% if page.space-number != "Unassigned" %} <em>(subject to change)</em>{% endif %}{% endif %}</span>
+        </div>
+        {% endif %}
+        <div class="exhibit-meta-item">
+          <span class="exhibit-meta-label">Exhibit #</span>
+          <span class="exhibit-meta-value">{{ page.exhibit-id }}</span>
+        </div>
+      </div>
 
-      {% if page.combat-robot == true %}
-        <p><b>Exhibit Space:</b> Combat Robot Pits</p>
-      {% else %}
-        <p><b>Exhibit Space:</b> {{page.space-number}} {% if page.space-number != "Unassigned" %}(Subject to Change){%endif%}</p>
+      {% if page.website %}
+      <p><a href="{{page.website}}" class="btn btn-info" target="_blank" rel="noopener">Learn More</a></p>
       {% endif %}
-      
-      {%endif%}
-      <p><b>Exhibit Number:</b> {{page.exhibit-id}}</p>
     
 
 

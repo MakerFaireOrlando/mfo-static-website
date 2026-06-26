@@ -468,6 +468,38 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   text-decoration: none;
 }
 
+/* Exhibit logistics meta (zone / space / number) — compact labeled stats in a
+   bordered strip, replacing the old bold-label paragraph list. Day-of info. */
+.exhibit-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 36px;
+  margin: 4px 0 24px;
+  padding: 16px 0;
+  border-top: 1px solid var(--mf-gray-200);
+  border-bottom: 1px solid var(--mf-gray-200);
+}
+.exhibit-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.exhibit-meta-label {
+  font-family: var(--mf-font-head);
+  font-weight: 700;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--mf-gray-600);
+}
+.exhibit-meta-value { font-weight: 600; color: var(--mf-ink); }
+.exhibit-meta-value em {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85em;
+  color: var(--mf-gray-600);
+}
+
 /* Maker profile presented as a card with light contrast against the page. */
 .maker-card {
   background: var(--mf-gray-50);
