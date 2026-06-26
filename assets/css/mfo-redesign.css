@@ -424,6 +424,8 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   flex-wrap: wrap;
   align-items: center;
   gap: 12px 28px;
+  margin-left: 0;   /* cancel Bootstrap .row negative margins (was shifting */
+  margin-right: 0;  /* the button/icons left of the description above) */
 }
 .exhibit-social-row > div {
   float: none !important;
@@ -433,6 +435,9 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
 }
 .exhibit-social-row .list-inline { margin: 0; }
 .exhibit-social-row .list-inline > li { padding: 0 9px; }
+.exhibit-social-row .list-inline > li:first-child { padding-left: 0; }
+/* Icons are Font Awesome glyphs — never underline the wrapping link. */
+.exhibit-social-row .list-inline a { text-decoration: none; }
 
 /* Maker profile presented as a card with light contrast against the page. */
 .maker-card {
