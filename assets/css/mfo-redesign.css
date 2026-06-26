@@ -372,6 +372,62 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   border-radius: var(--mf-radius-sm);
 }
 
+/* Exhibits / categories / schedule filter bar (.mtm-search) — was legacy teal
+   (#00597E). Reskinned to brand navy with white labels, clean inputs, and a
+   coral "Shuffle" button. Drives _includes/exhibits-header.html + schedule pages. */
+.mtm-search {
+  background-color: var(--mf-navy) !important;
+  height: auto;
+  padding: 20px 0;
+}
+.mtm-search label,
+.mtm-search .search-filter-label,
+.mtm-search form label {
+  color: var(--mf-white) !important;
+  font-family: var(--mf-font-head);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.mtm-search .form-control {
+  border: 1px solid transparent;
+  border-radius: var(--mf-radius-sm);
+  box-shadow: none;
+}
+.mtm-search .form-control:focus {
+  border-color: var(--mf-red);
+  box-shadow: 0 0 0 2px rgba(219, 43, 47, 0.25);
+}
+#shuffle {
+  background-color: var(--mf-red);
+  color: var(--mf-white);
+  border: 0;
+  border-radius: var(--mf-radius-sm);
+  padding: 8px 16px;
+  font-weight: 600;
+  width: 100%;
+  transition: background-color 0.15s ease;
+}
+#shuffle:hover,
+#shuffle:focus { background-color: var(--mf-red-dark); color: var(--mf-white); }
+
+/* Maker profile (exhibit page): the "Learn More" button and social icons were
+   cramped together. Lay the row out with flex + a real gap so the icons sit
+   clear of the button, vertically centered, with room between each icon. */
+.exhibit-social-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 28px;
+}
+.exhibit-social-row > div {
+  float: none !important;
+  width: auto !important;
+  padding-left: 0;
+  padding-right: 0;
+}
+.exhibit-social-row .list-inline { margin: 0; }
+.exhibit-social-row .list-inline > li { padding: 0 9px; }
+
 /* ==============================================================
  * 6b. Event-page card rows (category + Get Involved)
  *     Markup added in homepage includes. Uses flexbox so it works
