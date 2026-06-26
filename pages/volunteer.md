@@ -72,17 +72,57 @@ carousel-slides:
   </div>
 </section>
 
-<!-- Good to know -->
-<section class="mf-prose-section">
+<!-- Volunteer roles -->
+<section class="mf-card-section">
   <div class="container">
-    <div class="row text-center">
-      <div class="title-w-border-y"><h2>Good to Know</h2></div>
+    <div class="mf-section-head">
+      <h2>Volunteer Roles</h2>
+      <p>Here’s a taste of what you might be doing on your shift.</p>
     </div>
-    <ul class="mf-checklist">
-      <li><strong>Age:</strong> volunteers must be 13 or older — some roles require 16+ or 18+.</li>
-      <li><strong>No-cost registration:</strong> we use the Humanitix platform, which issues a “ticket,” but there’s no charge to you.</li>
-      <li><strong>Special skills or questions?</strong> If you have a skill-set (especially photography/videography) or any questions, <a href="mailto:makers@makerfaireorlando.com">email us</a>.</li>
-    </ul>
+    <div class="mf-roles">
+      <div class="mf-role">
+        <i class="mf-role-icon fa-solid fa-people-group" aria-hidden="true"></i>
+        <div class="mf-role-body">
+          <h3>General Volunteer <span class="mf-role-age">Ages 13+</span></h3>
+          <p>Pitch in wherever you’re needed — wayfinding, info booths, and general event tasks.</p>
+        </div>
+      </div>
+      <div class="mf-role">
+        <i class="mf-role-icon fa-solid fa-face-smile" aria-hidden="true"></i>
+        <div class="mf-role-body">
+          <h3>Greeter <span class="mf-role-age">Ages 13+</span></h3>
+          <p>The first friendly face guests see — welcome attendees, scan tickets, and hand out programs and maps.</p>
+        </div>
+      </div>
+      <div class="mf-role">
+        <i class="mf-role-icon fa-solid fa-eye" aria-hidden="true"></i>
+        <div class="mf-role-body">
+          <h3>Exhibit Supervision <span class="mf-role-age">Ages 13+</span></h3>
+          <p>Keep an eye on assigned exhibits alongside our Area Captains — monitoring activity, managing lines, and keeping things safe and fun.</p>
+        </div>
+      </div>
+      <div class="mf-role">
+        <i class="mf-role-icon fa-solid fa-dolly" aria-hidden="true"></i>
+        <div class="mf-role-body">
+          <h3>Maker Roadie <span class="mf-role-age">Ages 18+</span></h3>
+          <p>Help with load-in and load-out — moving materials, setting up equipment, and supporting the production team.</p>
+        </div>
+      </div>
+      <div class="mf-role">
+        <i class="mf-role-icon fa-solid fa-headset" aria-hidden="true"></i>
+        <div class="mf-role-body">
+          <h3>Production Support <span class="mf-role-age">Ages 18+</span></h3>
+          <p>Work one-on-one with a Producer behind the scenes — delivering supplies, managing schedules, and solving issues on the go. Fast-paced and on your feet; meals provided.</p>
+        </div>
+      </div>
+      <div class="mf-role">
+        <i class="mf-role-icon fa-solid fa-star" aria-hidden="true"></i>
+        <div class="mf-role-body">
+          <h3>Special Skills</h3>
+          <p>Have a skill to share — especially photography or videography — or questions about volunteering? <a href="mailto:makers@makerfaireorlando.com">Email us</a> and we’ll find the right fit.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
