@@ -21,7 +21,6 @@ tickets_on_sale: false
 #homepage settings
 featured_makers: false
 event_shirt_promo: false
-explore_meet_makers: false
 # Show links/arrows on the "Explore the Faire" cards. Set false early in the
 # year before the category/stage pages have fresh content to link to.
 explore_card_links: true

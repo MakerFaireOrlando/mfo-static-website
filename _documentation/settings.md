@@ -64,7 +64,6 @@ their flag is true, so you can stage content and reveal it when ready:
 |---|---|
 | `featured_makers` | Featured-makers grid (`featured-makers-grid.html`). |
 | `event_shirt_promo` | Event T-shirt promo (`event-shirt.html`). |
-| `explore_meet_makers` | "Explore / meet the makers" section. |
 | `explore_card_links` | Whether the "Explore the Faire" category cards link out. Set `false` early in the year before the category/stage pages have fresh content. |
 | `footer_ad` / `footer_ad_url` | An optional footer ad and its target. |
 
