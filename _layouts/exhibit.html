@@ -24,12 +24,10 @@
       {% endif %}
 
 
-      <div class="entry-categories" style="margin-bottom: 10px">
-        <b>Categories: </b>
+      <div class="entry-categories mf-tags">
         {%- for category in page.categories -%}
         {%- if category.name -%}
-        {%- if forloop.first == false %},&nbsp{%- endif -%}
-        <a href="/exhibits/categories/{{category.slug}}/">{{- category.name -}}</a>
+        <a class="mf-tag" href="/exhibits/categories/{{ category.slug }}/">{{ category.name }}</a>
         {%- endif -%}{%- endfor -%}
       </div>
 
