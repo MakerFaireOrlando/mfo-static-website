@@ -375,9 +375,15 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
 /* Exhibits / categories / schedule filter bar (.mtm-search) — was legacy teal
    (#00597E). Reskinned to brand navy with white labels, clean inputs, and a
    coral "Shuffle" button. Drives _includes/exhibits-header.html + schedule pages. */
-.mtm-search {
+/* NOTE: the legacy theme styles `.mtm .mtm-search` (height:100px) and only
+   relaxes it to auto at <=767px. But Bootstrap col-md-* stack at <=991px, so in
+   the 768-991px range the bar kept its 100px height and clipped the stacked
+   filters (and the Shuffle button overflowed into the cards). Match the legacy
+   specificity + force auto height so the bar always grows to fit. */
+.mtm .mtm-search {
   background-color: var(--mf-navy) !important;
-  height: auto;
+  height: auto !important;
+  min-height: 0;
   padding: 20px 0;
 }
 .mtm-search label,
