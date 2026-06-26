@@ -480,6 +480,48 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
   .exhibit-gallery-item:hover img { transform: none; }
 }
 
+/* Lightbox overlay for the exhibit gallery (built by the inline script). */
+.mf-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1050;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(14, 22, 40, 0.92);
+}
+.mf-lightbox.is-open { display: flex; }
+.mf-lightbox .mf-lightbox-img {
+  max-width: 92vw;
+  max-height: 88vh;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+.mf-lightbox button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.14);
+  color: var(--mf-white);
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+.mf-lightbox button:hover,
+.mf-lightbox button:focus-visible { background: var(--mf-red); }
+.mf-lightbox-close { top: 18px; right: 18px; }
+.mf-lightbox-prev { left: 18px; top: 50%; transform: translateY(-50%); }
+.mf-lightbox-next { right: 18px; top: 50%; transform: translateY(-50%); }
+
 /* ==============================================================
  * 6b. Event-page card rows (category + Get Involved)
  *     Markup added in homepage includes. Uses flexbox so it works

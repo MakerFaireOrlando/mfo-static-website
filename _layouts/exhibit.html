@@ -65,7 +65,7 @@
       <section class="exhibitPhotos" style="margin-top:30px; margin-bottom:30px">
         <div class="exhibit-gallery">
           {%- for image in page.additional-images -%}
-          <a class="exhibit-gallery-item" href="{{ image.full.url | default: image.large.url }}" target="_blank" rel="noopener">
+          <a class="exhibit-gallery-item" href="{{ image.large.url }}" target="_blank" rel="noopener">
             <img src="{{ image.large.url }}" width="{{ image.large.width }}" height="{{ image.large.height }}" loading="lazy" decoding="async" alt="{{ page.title }} — photo {{ forloop.index }}">
           </a>
           {%- endfor -%}
@@ -161,6 +161,49 @@
 {% include scripts.html %}
 {% include optional-js.html %}
 
+{%- if page.additional-images.size > 0 -%}
+<script>
+/* Exhibit gallery lightbox — click a tile to view it large, with prev/next.
+   No-JS fallback: the tile link opens the image directly. */
+(function () {
+  var links = Array.prototype.slice.call(document.querySelectorAll('.exhibit-gallery-item'));
+  if (!links.length) return;
+  var idx = 0;
+  var box = document.createElement('div');
+  box.className = 'mf-lightbox';
+  box.setAttribute('role', 'dialog');
+  box.setAttribute('aria-label', 'Exhibit photo viewer');
+  box.innerHTML =
+    '<button class="mf-lightbox-close" type="button" aria-label="Close">&times;</button>' +
+    '<button class="mf-lightbox-prev" type="button" aria-label="Previous photo">&#8249;</button>' +
+    '<img class="mf-lightbox-img" alt="">' +
+    '<button class="mf-lightbox-next" type="button" aria-label="Next photo">&#8250;</button>';
+  document.body.appendChild(box);
+  var img = box.querySelector('.mf-lightbox-img');
+  var nav = box.querySelectorAll('.mf-lightbox-prev, .mf-lightbox-next');
+  if (links.length < 2) { nav.forEach(function (b) { b.style.display = 'none'; }); }
+  function show(i) {
+    idx = (i + links.length) % links.length;
+    img.src = links[idx].getAttribute('href');
+    var inner = links[idx].querySelector('img');
+    img.alt = inner ? inner.alt : '';
+  }
+  function openAt(i) { show(i); box.classList.add('is-open'); document.body.style.overflow = 'hidden'; }
+  function close() { box.classList.remove('is-open'); document.body.style.overflow = ''; }
+  links.forEach(function (a, i) { a.addEventListener('click', function (e) { e.preventDefault(); openAt(i); }); });
+  box.querySelector('.mf-lightbox-close').addEventListener('click', close);
+  box.querySelector('.mf-lightbox-prev').addEventListener('click', function (e) { e.stopPropagation(); show(idx - 1); });
+  box.querySelector('.mf-lightbox-next').addEventListener('click', function (e) { e.stopPropagation(); show(idx + 1); });
+  box.addEventListener('click', function (e) { if (e.target === box) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (!box.classList.contains('is-open')) return;
+    if (e.key === 'Escape') close();
+    else if (e.key === 'ArrowLeft') show(idx - 1);
+    else if (e.key === 'ArrowRight') show(idx + 1);
+  });
+})();
+</script>
+{%- endif -%}
 
 </body>
 
