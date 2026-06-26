@@ -30,27 +30,44 @@ carousel-slides:
       <h2>Why Volunteer?</h2>
       <p>Give a little time, get a lot back.</p>
     </div>
-    <div class="mf-info-grid">
-      <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-ticket" aria-hidden="true"></i>
-        <h3>Free Admission</h3>
-        <p>Work at least a 4-hour shift and get free admission for that day. Volunteer for setup day? Come back for a full day Saturday or Sunday.</p>
-      </div>
-      <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-shirt" aria-hidden="true"></i>
-        <h3>Volunteer T&#8209;Shirt</h3>
-        <p>Every volunteer takes home an official {{ site.data.settings.event_year }} Maker Faire Orlando volunteer t-shirt.</p>
-      </div>
-      <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-hand-holding-heart" aria-hidden="true"></i>
-        <h3>Give Back</h3>
-        <p>Help inspire thousands in our community and be part of the team that brings the Greatest Show (&amp; Tell) on Earth to life.</p>
-      </div>
-      <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-graduation-cap" aria-hidden="true"></i>
-        <h3>Service Hours</h3>
-        <p>Community service hours are available through The Maker Effect Foundation, a 501(c)(3) public charity.</p>
-      </div>
+    <div class="mf-card-grid">
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/family-makey-gate.jpg' | relative_url }}')">
+          <span class="mf-card-label">Free Admission</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Work at least a 4-hour shift and get free admission for that day. Volunteer for setup day? Come back for a full day Saturday or Sunday.</p>
+        </div>
+      </a>
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/happy-crew.jpg' | relative_url }}')">
+          <span class="mf-card-label">Volunteer T&#8209;Shirt</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Every volunteer takes home an official {{ site.data.settings.event_year }} Maker Faire Orlando volunteer t-shirt.</p>
+        </div>
+      </a>
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/learn-to-solder.jpg' | relative_url }}')">
+          <span class="mf-card-label">Give Back</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Help inspire thousands in our community and be part of the team that brings the Greatest Show (&amp; Tell) on Earth to life.</p>
+        </div>
+      </a>
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/educator-page-header-bok-academy.jpg' | relative_url }}')">
+          <span class="mf-card-label">Service Hours</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Community service hours are available through The Maker Effect Foundation, a 501(c)(3) public charity.</p>
+        </div>
+      </a>
+
     </div>
   </div>
 </section>

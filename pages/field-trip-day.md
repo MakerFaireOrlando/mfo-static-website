@@ -58,27 +58,44 @@ page_footer_ad: false
       <h2>A Day of Discovery</h2>
       <p>Field Trip Day gives students and educators a unique opportunity to:</p>
     </div>
-    <div class="mf-info-grid">
-      <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-people-group" aria-hidden="true"></i>
-        <h3>Meet Makers</h3>
-        <p>Interact with real-world makers and creators from across Florida.</p>
-      </div>
-      <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-microscope" aria-hidden="true"></i>
-        <h3>Explore</h3>
-        <p>Discover innovative technologies and artistic processes up close.</p>
-      </div>
-      <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>
-        <h3>Build</h3>
-        <p>Take part in hands-on projects designed to inspire creativity and critical thinking.</p>
-      </div>
-      <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-compass" aria-hidden="true"></i>
-        <h3>Imagine</h3>
-        <p>Discover potential career paths and hobbies rooted in the maker mindset.</p>
-      </div>
+    <div class="mf-card-grid">
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/lathe-demo.jpg' | relative_url }}')">
+          <span class="mf-card-label">Meet Makers</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Interact with real-world makers and creators from across Florida.</p>
+        </div>
+      </a>
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/retro-computers-kid-cropped.jpg' | relative_url }}')">
+          <span class="mf-card-label">Explore</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Discover innovative technologies and artistic processes up close.</p>
+        </div>
+      </a>
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/button-making-girl.jpg' | relative_url }}')">
+          <span class="mf-card-label">Build</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Take part in hands-on projects designed to inspire creativity and critical thinking.</p>
+        </div>
+      </a>
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/field-trip-day/ftd-cosplay.jpg' | relative_url }}')">
+          <span class="mf-card-label">Imagine</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Discover potential career paths and hobbies rooted in the maker mindset.</p>
+        </div>
+      </a>
+
     </div>
   </div>
 </section>
@@ -113,25 +130,34 @@ page_footer_ad: false
       <h2>Who Can Take Part</h2>
       <p>Free admission is available through two programs.</p>
     </div>
-    <div class="mf-info-grid">
-      <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-school" aria-hidden="true"></i>
-        <h3>School Field Trips</h3>
-        <p>If you’re an educator affiliated with a school, this program includes free admission for students, teachers, administrators, and chaperones.</p>
-        {% comment %}
-        <strong>WE ARE UNABLE TO ACCOMMODATE ANY ADDITIONAL SCHOOL GROUPS DUE TO AN AMAZING RESPONSE FOR THIS PROGRAM.</strong> If this is a significant hardship, please email us at makers@makerfaireorlando.com.
+    <div class="mf-card-grid">
 
-        <strong>The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.</strong>
-        {% endcomment %}
-      </div>
-      <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-house-laptop" aria-hidden="true"></i>
-        <h3>Homeschool &amp; Virtual School</h3>
-        <p>Homeschooled and full-time virtual students receive free admission for the student plus one parent or guardian (one adult per student). Documentation of homeschool or full-time virtual status is required.</p>
-        {% comment %}
-        <strong>The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.</strong>
-        {% endcomment %}
-      </div>
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/educator-page-header-bok-academy.jpg' | relative_url }}')">
+          <span class="mf-card-label">School Field Trips</span>
+        </div>
+        <div class="mf-card-body">
+          <p>If you’re an educator affiliated with a school, this program includes free admission for students, teachers, administrators, and chaperones.</p>
+          {% comment %}
+          <strong>WE ARE UNABLE TO ACCOMMODATE ANY ADDITIONAL SCHOOL GROUPS DUE TO AN AMAZING RESPONSE FOR THIS PROGRAM.</strong> If this is a significant hardship, please email us at makers@makerfaireorlando.com.
+
+          <strong>The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.</strong>
+          {% endcomment %}
+        </div>
+      </a>
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/homeschool-page-header.jpg' | relative_url }}')">
+          <span class="mf-card-label">Homeschool &amp; Virtual School</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Homeschooled and full-time virtual students receive free admission for the student plus one parent or guardian (one adult per student). Documentation of homeschool or full-time virtual status is required.</p>
+          {% comment %}
+          <strong>The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.</strong>
+          {% endcomment %}
+        </div>
+      </a>
+
     </div>
   </div>
 </section>

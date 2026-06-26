@@ -50,31 +50,46 @@ carousel-slides:
       <h2>Ways to Take Part</h2>
       <p>There’s a place for every kind of maker at Maker Faire Orlando.</p>
     </div>
-    <div class="mf-info-grid">
-      <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-lightbulb" aria-hidden="true"></i>
-        <h3>Makers &amp; Community Groups</h3>
-        <span class="mf-info-fee is-free">Free</span>
-        <p>Individuals and community groups exhibit free of charge — bring a project, demo, or craft and share what you’ve made and learned.</p>
-      </div>
-      <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-tag" aria-hidden="true"></i>
-        <h3>Selling Makers</h3>
-        <span class="mf-info-fee">$150 fee</span>
-        <p>Planning to sell products you make at the event? A $150 seller fee applies for individuals selling their handmade goods.</p>
-      </div>
-      <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-rocket" aria-hidden="true"></i>
-        <h3>Businesses &amp; Startups</h3>
-        <p>Companies, service/retail businesses, and advertisers should sponsor — startups, reach out about phase-based discounts.</p>
-        <a class="mf-link-arrow" href="/become-a-sponsor/">Become a sponsor</a>
-      </div>
-      <div class="mf-info-card">
-        <i class="mf-info-icon fa-solid fa-robot" aria-hidden="true"></i>
-        <h3>Combat Robots</h3>
-        <p>Combat robot competitors register on buildersdb — you’ll be emailed a special form once accepted, so you don’t need this application.</p>
-        <a class="mf-link-arrow" href="https://www.robotruckus.org">Robot Ruckus</a>
-      </div>
+    <div class="mf-card-grid">
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/makerfx-makerspace.jpg' | relative_url }}')">
+          <span class="mf-card-label">Makers &amp; Community Groups</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Individuals and community groups exhibit <strong>free of charge</strong> — bring a project, demo, or craft and share what you’ve made and learned.</p>
+        </div>
+      </a>
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/neon-cowboy-hats.jpg' | relative_url }}')">
+          <span class="mf-card-label">Selling Makers</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Selling the handmade goods you make? A <strong>$150 seller fee</strong> applies for individuals selling their own work.</p>
+        </div>
+      </a>
+
+      <a class="mf-card" href="{{ '/become-a-sponsor/' | relative_url }}">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/prusa_sponsor.jpg' | relative_url }}')">
+          <span class="mf-card-label">Businesses &amp; Startups</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Companies, retail/service businesses, and advertisers should sponsor — startups, ask about phase-based discounts.</p>
+          <span class="mf-link-arrow">Become a sponsor</span>
+        </div>
+      </a>
+
+      <a class="mf-card" href="https://www.robotruckus.org" target="_blank" rel="noopener">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/combat-robot-maker.jpg' | relative_url }}')">
+          <span class="mf-card-label">Combat Robots</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Combat robot competitors register on buildersdb — you’ll be emailed a special form once accepted, so you don’t need this application.</p>
+          <span class="mf-link-arrow">Robot Ruckus</span>
+        </div>
+      </a>
+
     </div>
   </div>
 </section>
