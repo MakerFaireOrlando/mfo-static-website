@@ -527,7 +527,64 @@ used Edge `--headless=new --screenshot` against a local static server of `_site`
   `educators.md`, `power-racing.md`, `stage.md`, `program.md`, `maker-manual.md`,
   `badge.md`, and the schedule pages. (`about.md` was deleted 2026-06-13,
   finally matching §6.8.)
+- **Exhibits grid / Isotope (deferred — own branch):** assessment + options in
+  **§10**. Not part of the `redesign` branch; tackle on a dedicated branch.
 - **Merge plan:** eventually merge `redesign` → `master` (GitHub Pages serves
   `master`). Do a **full** build (`_config.yml` only) before merging to catch
   anything the fast/dev config hides (exhibit images, JSON feeds).
 - **Reminder:** carousels stay imagery-only (no text overlay — §7 rule).
+
+---
+
+## 10. Exhibits grid / Isotope — assessment (DEFERRED to its own branch)
+
+> **Status: NOT started.** Per user (2026-06-25), this is intentionally **out of
+> scope for the `redesign` branch** and should be done on a **new dedicated
+> branch** later. Captured here so the analysis isn't lost.
+
+**Current setup:** `/exhibits/` (layout `category`, `pages/exhibits.md`) renders
+all exhibits (~194 of 293 cards; `R`-prefixed combat robots excluded) via
+`_includes/exhibit-card.html` into `#exhibits`, then **Isotope v3** (masonry,
+`gutter:20`, `isFitWidth`) + **imagesLoaded v4** + **jQuery 1.12.4** lay it out
+(`assets/js/exhibits-isotope.js`, loaded by `scripts.html` when
+`page.isotope-exhibits`). Category filtering **navigates** to server-rendered
+`/exhibits/categories/<slug>/` pages (the `.filters-select` dropdown redirects);
+Isotope itself only does layout + quicksearch (regex over card text, debounced) +
+shuffle.
+
+**Doing well:**
+- Category filtering via real server-rendered pages → shareable URLs, SEO,
+  works without JS. (Isotope isn't doing the category filtering.)
+- Single `isotope('layout')` on `window.load` (replaced an imagesLoaded
+  `.progress()` that fired hundreds of times — see the code comment).
+- `width`/`height` on card images (good for CLS).
+- Debounced quicksearch.
+
+**Issues / quick wins (keep Isotope):**
+1. **No image lazy-loading** — ~200 full images load eagerly on one page. Add
+   `loading="lazy"` + `decoding="async"` to the `exhibit-card.html` img. Biggest
+   perceived-speed win. *(Caveat: lazy + masonry → relayout jank on scroll; see
+   grid note below.)*
+2. **Bug:** stray `}s` at `exhibits-isotope.js:149`, and the entire **schedule**
+   filter block (lines ~160–203) is dead code living in the *exhibits* file
+   (schedule pages load `schedule-isotope.js`). Plus many commented experiments.
+3. **Quicksearch regex not escaped** (line ~92): typing `(`, `[`, `*` builds an
+   invalid `RegExp` and breaks search. Escape input or use `.includes()`.
+4. **No "no results" message** on empty search.
+5. **Aging stack:** jQuery 1.12.4 (2016) + Isotope-as-jQuery-plugin. Can't drop
+   jQuery yet — **Bootstrap 3 depends on it** (couple this with a Bootstrap
+   migration). Isotope is also **GPLv3-or-commercial** (low risk on a public
+   nonprofit repo; note if ever closed-source).
+
+**Strategic options (effort order):**
+- **A — Keep Isotope, just fix the above.** Lowest risk, good ROI now.
+- **B — CSS Grid + ~30 lines vanilla JS** (search/shuffle). Best long-term
+  endgame for a static site: no layout lib, no license question, smooth with
+  lazy-loading; category filtering already server-side. Pairs with the
+  jQuery/Bootstrap-3 migration. **Recommended direction.**
+- **C — Maintained modern lib** if the animated reflow/shuffle feel matters:
+  **Muuri** (MIT, no jQuery, closest to Isotope) or **Shuffle.js** (vanilla).
+
+**Plan:** do **A** (lazy-load + bug/cleanup + regex escape) on the new branch as
+a fast win; keep **B** for the Bootstrap-3/jQuery modernization. Don't rip out
+Isotope just to rip it out — it works.
