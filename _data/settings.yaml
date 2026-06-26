@@ -1,6 +1,6 @@
 
 maker_exhibits_holdover: true
-maker_exhibits_show_location: false
+maker_exhibits_show_location: true
 
 call_for_makers_open: false
 # Exhibit application URL — shown as the "Apply to Exhibit" button on
