@@ -22,7 +22,7 @@ carousel-slides:
     </div>
     <p class="mf-prose mf-lead text-center">Financial and in-kind support from our sponsors is what brings the Greatest Show (&amp; Tell) on Earth to Central Florida each year.</p>
     <p class="mf-prose text-center">If you’d like to help support STEAM (Science, Technology, Engineering, Arts &amp; Math) education in Central Florida, please consider sponsoring the programs of The Maker Effect Foundation. We’re happy to match an existing program with your organization’s goals, or to create a new program tailored to your community objectives.</p>
-    <p class="text-center"><a class="btn btn-primary" href="/assets/pdf/2025/MFO2025-Sponsor-Packet.pdf">Download the Sponsor Packet</a></p>
+    <p class="text-center"><a class="btn btn-primary" href="/assets/pdf/2026/MFO2026-Sponsor-Packet.pdf">Download the Sponsor Packet</a></p>
   </div>
 </section>
 
@@ -47,13 +47,13 @@ carousel-slides:
     </div>
     <div class="mf-asset-grid">
       <figure class="mf-asset-card">
-        <a class="mf-asset-thumb" href="/assets/pdf/2025/MFO2025-Sponsor-Packet.pdf" target="_blank" rel="noopener">
-          <img src="/assets/pdf/2025/MFO2025-Sponsor-Packet.jpg" alt="Maker Faire Orlando sponsor packet" loading="lazy">
+        <a class="mf-asset-thumb" href="/assets/pdf/2026/MFO2026-Sponsor-Packet.pdf" target="_blank" rel="noopener">
+          <img src="/assets/pdf/2026/MFO2026-Sponsor-Packet.jpg" alt="Maker Faire Orlando 2026 sponsor packet" loading="lazy">
         </a>
         <figcaption class="mf-asset-body">
           <h3>Sponsor Packet</h3>
           <p>Details on sponsorship opportunities, activations, and benefits tailored to your goals.</p>
-          <a class="mf-link-arrow" href="/assets/pdf/2025/MFO2025-Sponsor-Packet.pdf" target="_blank" rel="noopener">Download PDF</a>
+          <a class="mf-link-arrow" href="/assets/pdf/2026/MFO2026-Sponsor-Packet.pdf" target="_blank" rel="noopener">Download PDF</a>
         </figcaption>
       </figure>
     </div>
