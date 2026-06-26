@@ -434,6 +434,21 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
 .exhibit-social-row .list-inline { margin: 0; }
 .exhibit-social-row .list-inline > li { padding: 0 9px; }
 
+/* Breathing room below the maker profile so the section below doesn't sit
+   flush against the "Learn More" + social-icons row. */
+.maker-profile-row { padding-bottom: 36px; }
+
+/* Exhibit description — was Bootstrap .lead at full container width (overly
+   long, hard-to-read lines). Give it a readable measure + body typography,
+   left-aligned with the image above. */
+.exhibit-description {
+  max-width: 68ch;
+  margin: 22px 0 28px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--mf-gray-800);
+}
+
 /* ==============================================================
  * 6b. Event-page card rows (category + Get Involved)
  *     Markup added in homepage includes. Uses flexbox so it works

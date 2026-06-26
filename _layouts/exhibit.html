@@ -17,7 +17,7 @@
     <div>
       <img class="img-responsive entry-image" src="{{page.image-primary.large.url}}" 
           width="{{page.image-primary.large.width}}" height="{{page.image-primary.large.height}}" alt="{{page.title}}">
-      <p class="lead">{{page.description-long | newline_to_br}}</p>
+      <p class="exhibit-description">{{page.description-long | newline_to_br}}</p>
 
       {% if page.website %}
       <p><a href="{{page.website}}" class="btn btn-info" target="_blank" rel="noopener">Learn More</a></p>
@@ -107,7 +107,7 @@
             width="{{page.maker.image-primary.width}}" height="{{page.maker.image-primary.height}}" alt="{{page.maker.name}}">
         <div class="col-md-7">
           <h3>{{page.maker.name}}</h3>
-              {{page.maker.description}}
+              <div class="exhibit-description">{{page.maker.description}}</div>
               <div class="row exhibit-social-row">
                 {% if page.maker.website %}
                  <div class="col-md-4 pull-left"><a href="{{page.maker.website}}" class="btn btn-info" target="_blank" rel="noopener">Learn More</a></div>
@@ -140,9 +140,44 @@
 
     </div>
 
-    <div class="container" style="text-align:center; margin:36px auto;">
-      <a class="btn btn-primary" href="/exhibits/">Explore All Exhibits</a>
-    </div>
+    {% comment %} More to Explore — link to this exhibit's first 4 categories,
+       each card using a representative photo from an exhibit in that category. {% endcomment %}
+    <section class="mf-card-section is-light">
+      <div class="container">
+        <div class="mf-section-head">
+          <h2>More to Explore</h2>
+          <p>Browse other exhibits in these categories.</p>
+        </div>
+        <div class="mf-card-grid">
+          {% assign shownCats = 0 %}
+          {% for c in page.categories %}
+            {% if shownCats >= 4 %}{% break %}{% endif %}
+            {% if c.slug and c.name %}
+              {% comment %} representative image: a RANDOM non-self, non-combat exhibit
+                 in this category (collect all candidates, then sample). {% endcomment %}
+              {% assign catImgs = "" %}
+              {% for e in site.exhibits %}
+                {% if e.url == page.url %}{% continue %}{% endif %}
+                {% unless e.exhibit-id contains "R" %}
+                  {% for ec in e.categories %}
+                    {% if ec.slug == c.slug and e.image-primary.large.url %}{% assign catImgs = catImgs | append: e.image-primary.large.url | append: "," %}{% break %}{% endif %}
+                  {% endfor %}
+                {% endunless %}
+              {% endfor %}
+              {% assign imgList = catImgs | split: "," %}
+              {% if imgList.size > 0 %}{% assign thumb = imgList | sample %}{% else %}{% assign thumb = page.image-primary.large.url %}{% endif %}
+              <a class="mf-card" href="/exhibits/categories/{{ c.slug }}/">
+                <div class="mf-card-media" style="background-image:url('{{ thumb }}')">
+                  <span class="mf-card-label">{{ c.name }}</span>
+                </div>
+              </a>
+              {% assign shownCats = shownCats | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p class="text-center" style="margin-top:28px;"><a class="mf-link-arrow" href="/exhibits/">See all exhibits</a></p>
+      </div>
+    </section>
 
   </div>
 </div>
