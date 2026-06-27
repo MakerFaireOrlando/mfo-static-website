@@ -45,6 +45,7 @@ Common front matter keys used across this site:
 | `sitemap` | Set `false` to keep a page out of `sitemap.xml`. |
 | `noindex` | Set `true` for utility pages that shouldn't be indexed. |
 | `carousel` + `carousel-*` | Enable/configure a hero carousel (see `index.md`). |
+| `hero-title` + `hero-*` | Optional text overlay on the carousel — see [Hero overlay](#hero-overlay-optional-carousel-text). |
 | `scrolltop` | Show a scroll-to-top control. |
 
 ### Layouts you'll pick from
@@ -57,6 +58,47 @@ Common front matter keys used across this site:
 | `schedule` / `schedule-app` | Schedule views. |
 
 See [Architecture](architecture.md) for what each layout assembles.
+
+---
+
+## Hero overlay (optional carousel text)
+
+By default the main carousels are **imagery only**. A page can opt in to text
+overlaid on its carousel (a headline, an event/meta line, and a button) by
+adding `hero-*` keys to its front matter. The overlay is rendered by
+[`_includes/carousel.html`](../_includes/carousel.html) and only appears when
+`hero-title` is set — so leaving these out keeps the carousel imagery-only.
+
+**Requires** the page to have a carousel (`carousel: true` + `carousel-slides`).
+
+| Front-matter key | Required? | What it does |
+|---|---|---|
+| `hero-title` | **yes** (enables the overlay) | The headline. Wrap part of it in `<span class="mf-hl">…</span>` to color that text coral. |
+| `hero-meta-event` | optional | `true` → shows the event date + location line (from `date-event.html` + `event_location_descr`). |
+| `hero-meta` | optional | Custom sub-line text. Used only when `hero-meta-event` is not set. |
+| `hero-cta-text` | optional | Button label. The button only shows if this is set. |
+| `hero-cta-url` | optional | Button link (defaults to the nav CTA, `cta.topnav.url`). |
+
+```yaml
+---
+title: Field Trip Day
+permalink: /field-trip-day/
+layout: full-width
+carousel: true
+carousel-slides:
+  - image: /assets/images/slider/learn-to-solder.jpg
+    caption: Hands-on learning
+# --- optional hero overlay ---
+hero-title: Field Trip Day for <span class="mf-hl">Students</span>
+hero-meta-event: true          # event date + location line
+hero-cta-text: Plan a Visit
+hero-cta-url: /field-trip-day/
+---
+```
+
+> Design note: per the 2026 redesign the carousels are imagery-only **by
+> default** — only add `hero-title` to a page when you specifically want text on
+> its hero. See [Redesign 2026](redesign-2026.md) §7.
 
 ---
 

@@ -492,6 +492,8 @@ educator's guide) left as-is pending 2026 materials.
   gated on a page setting `hero-title`. With no page setting it, carousels stay
   imagery-only (the default rule above still holds); pages can opt in to hero
   text (`hero-title`, `hero-meta`/`hero-meta-event`, `hero-cta-text`+`hero-cta-url`).
+  Full front-matter syntax + example: [content-authoring.md](content-authoring.md)
+  → "Hero overlay".
 - **2026-06-27** — **FAQ accordion** styling retained (User): re-homed from
   `mfo-style.css` into `mfo-redesign.css` (§4b) and re-branded from legacy blue
   to the navy/coral palette. Markup: `<details class="faq-item">` with
