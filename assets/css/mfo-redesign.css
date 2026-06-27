@@ -212,14 +212,90 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
 }
 
 /* ==============================================================
- * 4. Carousel area
- *     DESIGN RULE: no text is overlaid on the main carousels — they
- *     show imagery only. Page titles/taglines live in the content
- *     sections below (the old .mf-hero-overlay was removed). See
- *     _documentation/redesign-2026.md.
+ * 4. Carousel area + optional hero overlay
+ *     DEFAULT: imagery only (no overlay) on the main carousels. Pages may
+ *     opt IN to hero text via front matter (hero-title / hero-meta[-event] /
+ *     hero-cta-text+url), rendered by _includes/carousel.html.
+ *     See _documentation/redesign-2026.md.
  * ============================================================== */
 
 #carousel-area { position: relative; }
+
+/* Optional hero overlay — only renders when a page sets `hero-title`. */
+.mf-hero-overlay {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  z-index: 20;
+  padding: 72px 24px 56px;
+  background: linear-gradient(to top, rgba(14,22,40,0.85) 0%, rgba(14,22,40,0.35) 55%, rgba(14,22,40,0) 100%);
+  text-align: center;
+  pointer-events: none;
+}
+.mf-hero-overlay .mf-hero-inner { pointer-events: auto; max-width: 900px; margin: 0 auto; }
+.mf-hero-overlay h1 {
+  color: var(--mf-white);
+  text-transform: uppercase;
+  font-size: clamp(2rem, 4.5vw, 3.4rem);
+  font-weight: 800;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.5);
+  margin: 0 0 10px;
+}
+.mf-hero-overlay h1 .mf-hl { color: var(--mf-red); }
+.mf-hero-overlay .mf-hero-meta {
+  color: var(--mf-white);
+  font-family: var(--mf-font-head);
+  font-size: clamp(1rem, 1.8vw, 1.4rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.55);
+  margin: 0 0 22px;
+}
+@media (max-width: 767px) {
+  /* Stack below the image on phones so text stays legible. */
+  .mf-hero-overlay { position: static; padding: 32px 16px 28px; background: var(--mf-navy); }
+}
+
+/* ==============================================================
+ * 4b. FAQ accordion (<details class="faq-item"> / .faq-question / .faq-answer)
+ *     Usable on any page. Brand-styled (was legacy blue).
+ * ============================================================== */
+.faq-container { margin: 0 auto; }
+.faq-item {
+  border: 1px solid var(--mf-gray-200);
+  border-radius: var(--mf-radius-sm);
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.faq-item:hover { border-color: var(--mf-red); box-shadow: var(--mf-shadow); }
+.faq-question {
+  background-color: var(--mf-gray-50);
+  padding: 18px 20px;
+  cursor: pointer;
+  font-family: var(--mf-font-head);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--mf-ink);
+  list-style: none;
+  position: relative;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.faq-question:hover { background-color: var(--mf-gray-100); }
+.faq-question::after {
+  content: '▼';
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--mf-red);
+}
+.faq-item[open] .faq-question { background-color: var(--mf-navy); color: var(--mf-white); }
+.faq-item[open] .faq-question::after { content: '▲'; color: var(--mf-white); }
+.faq-question::-webkit-details-marker { display: none; }
+.faq-answer { padding: 20px; background-color: var(--mf-white); border-top: 1px solid var(--mf-gray-200); }
+.faq-answer p { margin: 0; line-height: 1.7; color: var(--mf-gray-800); }
 
 /* ==============================================================
  * 5. Content sections + "What is Maker Faire"

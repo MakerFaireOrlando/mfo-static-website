@@ -486,9 +486,16 @@ educator's guide) left as-is pending 2026 materials.
 - **2026-06-13** — Retire flag-banner **entirely** (`display:none`), not the
   thin coral rule. (User)
 - **2026-06-13** — **DESIGN RULE: no text overlaid on the main carousels** —
-  they are imagery only. Reverses the original "hero overlay" (task #4); the
-  `.mf-hero-overlay` markup + CSS (§4) and all `hero-*` front matter were
-  removed. Page titles/taglines live in the content sections below. (User)
+  they are imagery only by **default**. (User)
+- **2026-06-27** — Hero overlay **capability restored as opt-in** (User): the
+  `.mf-hero-overlay` markup (`_includes/carousel.html`) + CSS (§4) are back, but
+  gated on a page setting `hero-title`. With no page setting it, carousels stay
+  imagery-only (the default rule above still holds); pages can opt in to hero
+  text (`hero-title`, `hero-meta`/`hero-meta-event`, `hero-cta-text`+`hero-cta-url`).
+- **2026-06-27** — **FAQ accordion** styling retained (User): re-homed from
+  `mfo-style.css` into `mfo-redesign.css` (§4b) and re-branded from legacy blue
+  to the navy/coral palette. Markup: `<details class="faq-item">` with
+  `.faq-question` / `.faq-answer` inside a `.faq-container`.
 - **OPEN** — Adopt the structural event-page patterns (category cards, Get
   Involved role cards)? Tracked as stretch items S1/S2.
 

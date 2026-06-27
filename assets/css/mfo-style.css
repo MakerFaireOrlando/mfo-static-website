@@ -1,30 +1,22 @@
 /*
 Theme Name: MFO Wordpress Theme
-Theme URI: http://www.github.com/makerfaireorlando/mfo-wordpress-theme
-GitHub Theme URI: http://www.github.com/makerfaireorlando/mfo-wordpress-theme
-GitHub Branch: master
 Author: Ian Cole (Maker Faire Orlando)
-Author URI: http://www.github.com/digitalman2112
-Description: Take 5 years of modified Coraline, reskin to look like the new Maker Faire Global theme, and keep on hacking
-Version: 0.1.0
+Description: Legacy custom overrides (originally a reskin of the WordPress theme).
+  Slimmed 2026-06 during the redesign: removed WordPress-era artifacts, the old
+  exhibit-photo carousel rules, the unused FAQ block, and rules now superseded by
+  assets/css/mfo-redesign.css. What remains is still load-bearing — chiefly the
+  Isotope exhibit/event grid + cards (see redesign-2026.md §10), the search input,
+  carousel indicators, and the (optional) footer-ad banner.
 License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: mfo-wordpress-theme
-Tags: one-column, custom-menu, editor-style, featured-images, full-width-template, theme-options
 */
 
-/* fix for sponsor carousel formatting
- *
- */
-
+/* fix for sponsor carousel formatting */
 .carousel-inner>.item {
 background:none;
 border:none;
 }
 
-/*
- * Format the carousel indicators like ruckus site
- */
+/* Format the carousel indicators like the ruckus site */
 #carousel-area .carousel-indicators{ bottom:5px }
 
 #carousel-area .carousel-indicators li {
@@ -38,95 +30,22 @@ border:none;
       -moz-transition:all 0.4s ease-in-out;
       -webkit-transition:all 0.4s ease-in-out;
       -o-transition:all 0.4s ease-in-out}
-}
 
-/* fix for CRED form additional images
- *
- */
-.wpt-credfile-preview > img {
-    max-height:500px;
-    width: auto;
-}
-
-
-/* center images in the carousel on an exhibit page
- *
- */
-.exhibitPhotos .carousel-inner > .item > img {
-    margin: 0 auto;
-    max-height:600px;
-    width: auto;
-}
-
-.exhibitPhotos .carousel-control.left, .carousel-control.right {
-   background-image:none !important;
-   filter:none !important;
-}
-
-.exhibitPhotos .single-image > img {
-    margin: 0 auto;
-    max-height:600px;
-    width: auto;
-}
-
-.exhibit-oembed {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-/* ensure that content isnt touching footer */
-.gmf-footer {
- //   margin-top: 40px;
-}
-
-/* this section was in the header of milwaukee, not in the main css
- * !important was added to overcome load order issue
- */
+/* Buttons: base sizing for legacy <a class="btn"> links.
+   (Brand colors come from mfo-redesign.css.) */
 a.btn,
 a.btn-b-ghost {
 	font-size: 120%;
 	color: #FFF;
-	background-color: #005980 !important;
 	border-width: 2px;
 }
-/*end section*/
 
-
-/* overrides */
-/* This hides menu items - I'd rather see them and realize the menu needs to be edited */
-.navbar-nav>li:nth-of-type(1n+7) {
-    /*display: none;*/
-    display: block?
-}
-
-
-/* This causes unneeded breaks in the news page */
-.recent-post-panel .recent-post-post:nth-child(5) {
-    /*clear: both*/
-    clear: none;
-}
-
-/* need a different image source */
-.flag-banner {
-    width: 100%;
-    height: 15px;
-    background-image: url("images/bg-border.png");
-    background-repeat: repeat-x;
-    transform: rotate(180deg);
-}
-
-
-/* STUFF FOR ISOTOPE - NEEDS TO BE CLEANED UP */
+/* STUFF FOR ISOTOPE — exhibit grid + cards (load-bearing; see redesign §10) */
 .exhibits-container {
   margin: auto;
 }
 
 .exhibits-container .item {
-  /*width: 25%;*/
-  /*border: 1px solid darkgray;*/
   background: white;
   padding-top: 0px;
   text-align: center;
@@ -155,25 +74,7 @@ a.btn-b-ghost {
   color: darkslategray;
 }
 
-.excerpt-container {
-max-width: 270px;
-  margin-left: auto;
-  	margin-right:auto;
-  margin-bottom: 10px;
-}
-.wp-post-image {
-	display: block;
-  	margin-left:auto;
-  	margin-right:auto;
-  	border-radius: 4px 0px 0px 4px;
-  	/* keep woocommerce img class away */
-  	max-width:none !important;
-}
-
 .img-container {
- //min-height:300px;
- // height:auto;
- //padding:10px;
  display:inline-block;
 }
 
@@ -186,45 +87,17 @@ max-width: 270px;
   border-top-right-radius: 4px;
 }
 
-.button-group {
-  background: rgb(242, 242, 242);
-  padding: 10px;
-  text-align: center;
-  border-radius: 4px;
-  margin-bottom: 20px;
-}
-
-
-/* //makers search and filter */
-
-.exhibits-search row {
-  height: 100px;
-}
-
-.mtm .mtm-search {
- // min-height: 120px;
-  height: auto;
-  padding-bottom: 10px;
-}
-
-.search-filter-label {
-  color:#fff;
-}
-
+/* makers search input */
 #maker-search-input {
   min-width: 300px;
 }
 
-
-
-
+/* Schedule grid (Isotope) */
 .events-container {
   margin: auto;
 }
 
 .events-container .item {
-  /*width: 25%;*/
-  /*border: 1px solid darkgray;*/
   background: white;
   padding-top: 0px;
   text-align: center;
@@ -239,112 +112,27 @@ max-width: 270px;
   box-shadow: 4px 4px 10px #888888;
 }
 
+/* Optional footer-ad banner (rendered only when settings.footer_ad is on).
+   Color is overridden in mfo-redesign.css. */
 .banner {
-  position: fixed;  /* Makes the footer stay in place */
-  bottom: 0;       /* Positions the footer at the bottom */
-  left: 0;        /* Positions the footer on the left side */
-  width: 100%;    /* Makes the footer span the entire width of the screen */
-  background-color: #1C92C4; /* Optional: Set a background color */
-  padding: 10px;    /* Optional: Add some padding for visual spacing */
-  text-align: center; /* Optional: Center the text */
+  position: fixed;  /* Makes the bar stay in place */
+  bottom: 0;       /* Positions it at the bottom */
+  left: 0;        /* Left side */
+  width: 100%;    /* Full width */
+  background-color: #1C92C4;
+  padding: 10px;
+  text-align: center;
   z-index: 1000;
 }
 
- /* for footer ad spacing */
-body {
+/* Reserve space for the fixed banner ONLY when it's present (avoids dead
+   space at the bottom of every page when the footer ad is off). */
+body:has(.banner) {
   padding-bottom: 100px;
 }
 
-.faq-container {
-  /* max-width: 800px; */
-  margin: 0 auto;
-}
-
-.faq-item {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  margin-bottom: 10px;
-  overflow: hidden;
-  transition: all 0.3s ease;
-}
-
-.faq-item:hover {
-  border-color: #1C92C4;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.faq-question {
-  background-color: #f8f9fa;
-  padding: 20px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 18px;
-  color: #333;
-  list-style: none;
-  position: relative;
-  transition: background-color 0.3s ease;
-}
-
-.faq-question:hover {
-  background-color: #e9ecef;
-}
-
-/* Custom arrow */
-.faq-question::after {
-  content: '▼';
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 24px;
-  color: #1C92C4;
-  transition: transform 0.3s ease;
-}
-
-/* Rotate arrow when open */
-.faq-item[open] .faq-question::after {
-  content: '▲'; /* Up arrow when open */
-  /* transform: translateY(-50%) rotate(45deg); */
-}
-
-/* Hide default arrow */
-.faq-question::-webkit-details-marker {
-  display: none;
-}
-
-.faq-answer {
-  padding: 20px;
-  background-color: white;
-  border-top: 1px solid #eee;
-}
-
-.faq-answer p {
-  margin: 0;
-  line-height: 1.6;
-  color: #666;
-}
-
-/* Open state styling */
-.faq-item[open] .faq-question {
-  background-color: #1C92C4;
-  color: white;
-}
-
-.faq-item[open] .faq-question::after {
-  color: white;
-}
-
-body .navbar-nav>li>.dropdown-menu>li>a:hover,
-body .navbar-nav>li>.dropdown-menu>li>a:focus {
-  background-color: #00A3DA !important;
-  background: #00A3DA !important;
-  color: #ffffff !important;
-  transition: none !important;
-}
-
-/* Mobile fixes for overlapping images */
+/* Mobile fix: keep legacy sponsor boxes (sponsors-lite page) from overlapping */
 @media (max-width: 767px) {
-  /* Fix sponsor box overlapping on mobile */
   .sponsors-landing .sponsors-box-lg {
     width: 148px !important;
     height: 100px !important;
@@ -366,22 +154,5 @@ body .navbar-nav>li>.dropdown-menu>li>a:focus {
 
   .sponsors-landing .faire-sponsors-box {
     gap: 10px;
-  }
-
-  /* Fix footer overlapping images */
-  .gmf-footer .padtop .col-xs-6 {
-    width: 100% !important;
-    float: none !important;
-    margin-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .gmf-footer .padtop .col-xs-6 img {
-    max-width: 100% !important;
-    width: auto !important;
-    height: auto !important;
-    display: block;
-    margin: 0 auto;
   }
 }
