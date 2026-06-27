@@ -36,11 +36,14 @@ carousel-slides:
     url: /power-racing/
 ---
 
-{% capture cta_event_text %}{% include date-event.html %} – {{ site.data.settings.event_hours }} – {{ site.data.settings.event_location_descr }}{% endcapture %} {% include cta-panel-widget.html cta_text=cta_event_text cta_url=site.data.settings.cta_event_url %}
+{% capture cta_event_text %}{% include date-event.html %} – {{ site.data.settings.event_hours }}{% endcapture %}{% include cta-panel-widget.html cta_text=cta_event_text cta_subtext=site.data.settings.event_location_descr cta_url=site.data.settings.cta_event_url %}
 
 {% include what-is-maker-faire.html %}
 
-{% include makey-border.html %}
+{% include category-cards.html %}
+
+{% include get-involved-cards.html %}
+
 
 {% if site.data.settings.featured_makers %}
 {% include featured-makers-grid.html %}
@@ -49,10 +52,6 @@ carousel-slides:
 
 {% if site.data.settings.event_shirt_promo %}
 {% include event-shirt.html %}
-{% endif %}
-
-{% if site.data.settings.explore_meet_makers %}
-{% include explore-meet-makers.html %}
 {% endif %}
 
 {% if site.data.settings.call_for_makers_open %}
@@ -109,4 +108,4 @@ carousel-slides:
 </section>
 {% endcomment %}
 
-{% include sponsors-carousel.html %}
+{% include sponsors-marquee.html %}

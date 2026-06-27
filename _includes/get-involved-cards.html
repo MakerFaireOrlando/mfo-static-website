@@ -1,0 +1,66 @@
+{% comment %}
+  2026 redesign — "Get Involved" role cards (Bay Area event-page pattern).
+  Links map to existing MFO pages. Dark section for contrast against the
+  light category-cards section above it.
+{% endcomment %}
+<section class="mf-card-section is-dark">
+  <div class="container">
+    <div class="mf-section-head">
+      <h2>Be Part of the Making</h2>
+      <p>However you like to make, there's a place for you at Maker Faire Orlando.</p>
+    </div>
+    <div class="mf-card-grid mf-card-grid--3up">
+
+      <a class="mf-card" href="{{ '/exhibit-at-maker-faire-orlando/' | relative_url }}">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/makerfx-makerspace.jpg' | relative_url }}')">
+          <span class="mf-card-label">Makers</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Show off your project, demo, or craft. Exhibiting is free and open to all.</p>
+          <span class="mf-link-arrow">Apply to exhibit</span>
+        </div>
+      </a>
+
+      <a class="mf-card" href="{{ '/become-a-sponsor/' | relative_url }}">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/prusa_sponsor.jpg' | relative_url }}')">
+          <span class="mf-card-label">Sponsors</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Put your brand in front of thousands of makers, families, and innovators.</p>
+          <span class="mf-link-arrow">Get in touch</span>
+        </div>
+      </a>
+
+      <a class="mf-card" href="{{ '/volunteer/' | relative_url }}">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/happy-crew.jpg' | relative_url }}')">
+          <span class="mf-card-label">Volunteers</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Join the crew that makes the magic happen. No experience required.</p>
+          <span class="mf-link-arrow">Lend a hand</span>
+        </div>
+      </a>
+
+      <a class="mf-card" href="{{ '/attend/' | relative_url }}">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/family-makey-gate.jpg' | relative_url }}')">
+          <span class="mf-card-label">Attendees</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Bring the whole family for a weekend packed with wonder and whimsy.</p>
+          <span class="mf-link-arrow">Get tickets</span>
+        </div>
+      </a>
+
+      <a class="mf-card" href="{{ '/field-trip-day/' | relative_url }}">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/educator-page-header-bok-academy.jpg' | relative_url }}')">
+          <span class="mf-card-label">Educators</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Bring your students to Field Trip Day for hands-on STEAM learning.</p>
+          <span class="mf-link-arrow">Plan a field trip</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>

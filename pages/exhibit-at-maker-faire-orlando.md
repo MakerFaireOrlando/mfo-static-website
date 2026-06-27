@@ -1,7 +1,7 @@
 ---
 title: Apply to Exhibit!
 permalink: /exhibit-at-maker-faire-orlando/
-layout: default
+layout: full-width
 image: /assets/images/cfm_brassroots_exhibit.jpg
 redirect_from: /exhibit
 carousel: true
@@ -13,67 +13,111 @@ carousel-slides:
     url:
 ---
 
-# Maker Faire Orlando Can’t Happen Without Makers!
-We need people willing to share the things they create and their passion for making. Join us **{% include date-event-short.html %}** for our public days and on **{% include date-edu-short.html %}** for [Field Trip Day](/field-trip-day/) to help inspire thousands in our community.
+<!-- Lead intro -->
+<section class="mf-prose-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="title-w-border-y"><h1>Maker Faire Orlando Can’t Happen Without Makers!</h1></div>
+    </div>
+    <p class="mf-prose mf-lead text-center">We need people willing to share the things they create and their passion for making. Join us <strong>{% include date-event-short.html %}</strong> for our public days, and on <strong>{% include date-edu-short.html %}</strong> for <a href="/field-trip-day/">Field Trip Day</a>, to help inspire thousands in our community.</p>
+  </div>
+</section>
 
-## Exhibit Applications
+<!-- Application status (data-driven: open shows the Apply button) -->
+<section class="mf-prose-section is-light">
+  <div class="container">
+    {% if site.data.settings.call_for_makers_open %}
+    <div class="mf-apply-callout is-open">
+      <span class="mf-status-tag">Now Open</span>
+      <h2>Applications Are Open!</h2>
+      <p>Ready to share what you make? Submit your exhibit application for {{ site.data.settings.event_year }} Maker Faire Orlando.</p>
+      <a class="btn btn-primary" href="{{ site.data.settings.cfm_url }}">Apply to Exhibit</a>
+    </div>
+    {% else %}
+    <div class="mf-apply-callout">
+      <span class="mf-status-tag">Opening Soon</span>
+      <h2>Call for Makers Opens Later This Summer</h2>
+      <p>We haven’t opened the {{ site.data.settings.event_year }} exhibit application process yet. Check back later this summer and follow us on social media for the announcement!</p>
+    </div>
+    {% endif %}
+  </div>
+</section>
 
+<!-- Ways to take part -->
+<section class="mf-card-section">
+  <div class="container">
+    <div class="mf-section-head">
+      <h2>Ways to Take Part</h2>
+      <p>There’s a place for every kind of maker at Maker Faire Orlando.</p>
+    </div>
+    <div class="mf-card-grid">
 
-#### We have not yet opened the Call For Makers exhibit application process for {{site.data.settings.event_year}}. Check back later this summer and follow us on social media for announcements!
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/makerfx-makerspace.jpg' | relative_url }}')">
+          <span class="mf-card-label">Makers &amp; Community Groups</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Individuals and community groups exhibit <strong>free of charge</strong> — bring a project, demo, or craft and share what you’ve made and learned.</p>
+        </div>
+      </a>
 
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/neon-cowboy-hats.jpg' | relative_url }}')">
+          <span class="mf-card-label">Selling Makers</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Selling the handmade goods you make? A <strong>$150 seller fee</strong> applies for individuals selling their own work.</p>
+        </div>
+      </a>
 
+      <a class="mf-card" href="{{ '/become-a-sponsor/' | relative_url }}">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/prusa_sponsor.jpg' | relative_url }}')">
+          <span class="mf-card-label">Businesses &amp; Startups</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Companies, retail/service businesses, and advertisers should sponsor — startups, ask about phase-based discounts.</p>
+          <span class="mf-link-arrow">Become a sponsor</span>
+        </div>
+      </a>
 
+      <a class="mf-card" href="https://www.robotruckus.org" target="_blank" rel="noopener">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/combat-robot-maker.jpg' | relative_url }}')">
+          <span class="mf-card-label">Combat Robots</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Combat robot competitors register on buildersdb — you’ll be emailed a special form once accepted, so you don’t need this application.</p>
+          <span class="mf-link-arrow">Robot Ruckus</span>
+        </div>
+      </a>
 
-There is no fee for individuals or community groups to exhibit at Maker Faire Orlando. There is a $150 seller fee for individuals to sell products you make at the event. Companies, service businesses, retail businesses, and those looking to advertise should [sponsor Maker Faire Orlando](/become-a-sponsor/) which includes significant sponsor benefits. Contact us at <makers@makerfaireorlando.com> for more information.
+    </div>
+  </div>
+</section>
 
-Startup businesses are encouraged to contact us at <makers@makerfaireorlando.com> so that we can work with you to determine potential sponsorship discounts based startup phase and size.
+<!-- What you'll need to apply -->
+<section class="mf-prose-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="title-w-border-y"><h2>What You’ll Need to Apply</h2></div>
+    </div>
+    <ul class="mf-checklist">
+      <li><strong>Maker / group info</strong> — name, image (logo or photo), website, and social media pages.</li>
+      <li><strong>Exhibit info</strong> — name, description, images, website, and social media pages.</li>
+      <li><strong>Availability</strong> — ideally available all weekend, plus Field Trip Day on Friday.</li>
+      <li><strong>Requirements</strong> — power, water, light/sound levels, safety needs, and setup time.</li>
+    </ul>
+    <p class="mf-prose text-center" style="margin-top: 28px;">Choose photos and descriptions that will be compelling to attendees — for inspiration, browse our <a href="/exhibits/">maker exhibits</a>. You can edit your application after submitting, and our team will reach out if more detail is needed. Please add <a href="mailto:makers@makerfaireorlando.com">makers@makerfaireorlando.com</a> to your contacts so our emails reach your inbox.</p>
+  </div>
+</section>
 
----
-{%comment%}
-**Our application deadline has passed, and we are no longer accepting new exhibit applications unless you've been in contact with our team and we have instructed you to fill out an application.**
+<!-- How exhibits are selected -->
+<section class="mf-prose-section is-dark">
+  <div class="container">
+    <div class="row text-center">
+      <div class="title-w-border-y"><h2>How Exhibits Are Selected</h2></div>
+    </div>
+    <p class="mf-prose text-center">Maker Faire Orlando is a curated event. We select exhibits based on proposal completeness, content, diversity, items sold, and other factors. Applications are reviewed and approved <strong>in batches</strong> — not in the order received — and we’ll contact you at the email you provide if we need more information or once a decision is made. We’re an all-volunteer team and appreciate your patience as we process hundreds of applications. We can’t fit every application, so highlight your exhibit with great photos, video, and description.</p>
+  </div>
+</section>
 
-
-**Selling makers: You are welcome to continue to submit applications and they will be added to our waitlist in the event we have selling exhibit cancellations.** Interior space will be most limited, indicating flexibility on location (indoor / outdoor) will increase your odds of being accepted.
-&nbsp;
-<br><br>
-
-
-#### We are seeking applications for individual and community group projects, art and more!  
-Our Call For Makers deadline was July 31st, however we are still looking to add compelling exhibits.
-
-**Selling makers: You are welcome to continue to submit applications and they will be added to our waitlist in the event we have selling exhibit cancellations.** Interior space will be most limited, indicating flexibility on location (indoor / outdoor) will increase your odds of being accepted.
-
-
-<br><br>
-
-#### What You Will Need to Apply
-
-* Maker / Maker Group Information - Name, Image (logo or pic), website, social media pages, etc.
-* Exhibit Information - Name, description, images, website, social media pages, etc.
-* Exhibit Availability (Ideally Maker Faire exhibits are available all weekend, and are invited to participate in Field Trip Day on Friday)
-* Exhibit Requirements - Power, water, light levels, sound levels, safety, time needed to setup, etc.
-
-Please create a compelling exhibit application, and choose pictures / descriptions that will be compelling to Maker Faire attendees. For examples of exhibits, you can view our [maker exhibits page](/exhibits/). You will have the opportunity to edit your exhibit application once submitted, and the Maker Faire Orlando team will contact you if you exhibit application does not contain enough information. Please ensure that you will receive emails from makers@makerfaireorlando.com by adding the email to your contacts or prioritizing for your inbox.
-
-&nbsp;
-
-
-#### [Click Here to Apply](https://www.jotform.com/makereffect/cfm2025)
-{%endcomment%}
-&nbsp;  
-
-**COMBAT ROBOT COMPETITORS:** You will be emailed a special form just for Combat Robots after you register on buildersdb and are accepted into the competition - you do not need to complete this form.
-
-&nbsp;
-
-Maker Faire Orlando is a curated event. We reserve the right to select exhibits based on proposal completeness, exhibit content, content diversity, items sold, and other factors.
-
-Exhibits are not approved in the order received, and are reviewed and approved in batches. We will contact you via the email provided in the exhibit application if we need more information or when your application has been approved or rejected. We are an all-volunteer team and we appreciate your patience as we process hundreds of applications.
-
-Unfortunately, we do not have space at the event for all exhibit applications. Please ensure that you highlight your exhibit with good photos / video / description when you submit. We also maintain a balance between selling / non-selling exhibits and a good mix of the type of exhibits.
-
-
-
-
----
-***Have any questions? Email us at <makers@makerfaireorlando.com>***
+{% include cta-panel-widget.html cta_text="Have questions? Email Us" cta_url="mailto:makers@makerfaireorlando.com" %}

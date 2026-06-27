@@ -1,0 +1,1456 @@
+/*
+ * Maker Faire Orlando — Brand Redesign (2026)
+ * --------------------------------------------------------------
+ * Loaded LAST, after bootstrap + minimakerfaire-style.css + mfo-style.css,
+ * so it intentionally overrides the legacy blue "minimakerfaire" theme.
+ *
+ * Reference: Maker Faire Bay Area event page (makerfaire.com/bay-area/?2026).
+ * Direction: deep navy/charcoal + white sections, with a coral/orange-red CTA
+ * accent. Modern sans-serif, full-bleed hero photography, generous whitespace,
+ * soft shadows, bold uppercase headlines.
+ *
+ * All brand values live in the :root block below. To retune the look, change
+ * the variables here rather than hunting through selectors.
+ * See _documentation/redesign-2026.md for the full spec.
+ * --------------------------------------------------------------
+ */
+
+:root {
+  /* --- Core brand palette (approximate; confirm from brand assets) --- */
+  --mf-navy:        #16213E;  /* primary dark sections, footer, hero overlay */
+  --mf-navy-deep:   #0E1628;  /* deepest background */
+  --mf-charcoal:    #1E2230;  /* alt dark surface */
+  --mf-red:       #DB2B2F;  /* primary accent / CTA fill (makerfaire.com red) */
+  --mf-red-dark:  #B82328;  /* accent hover / pressed (darker red) */
+  --mf-ink:         #1A1A1A;  /* body text on white */
+  --mf-white:       #FFFFFF;
+
+  /* --- Neutrals --- */
+  --mf-gray-50:  #FAFAFA;
+  --mf-gray-100: #F4F5F7;
+  --mf-gray-200: #E6E8EC;
+  --mf-gray-400: #B4B8C2;
+  --mf-gray-600: #6A6F7B;
+  --mf-gray-800: #2F333E;
+
+  /* --- Typography --- */
+  --mf-font-head: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --mf-font-body: "Inter", "Helvetica Neue", Arial, sans-serif;
+
+  /* --- Surface treatment --- */
+  --mf-radius:    12px;
+  --mf-radius-sm: 6px;
+  --mf-shadow:    0 6px 24px rgba(16, 22, 40, 0.12);
+  --mf-shadow-lg: 0 14px 40px rgba(16, 22, 40, 0.18);
+  --mf-shadow-hover: 0 18px 48px rgba(16, 22, 40, 0.26);
+}
+
+/* ==============================================================
+ * 1. Typography
+ * ============================================================== */
+
+body {
+  font-family: var(--mf-font-body);
+  color: var(--mf-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: var(--mf-font-head);
+  color: var(--mf-ink);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+h1, .h1 { font-size: clamp(1.9rem, 3.9vw, 3rem); }
+h2, .h2 { font-size: clamp(1.55rem, 2.8vw, 2.2rem); }
+h3, .h3 { font-size: clamp(1.25rem, 2vw, 1.6rem); }
+
+/* Bold uppercase display headlines, Bay-Area style */
+.mf-display {
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
+  font-weight: 800;
+}
+
+a {
+  color: var(--mf-red);
+  text-decoration: none;
+  transition: color 0.18s ease;
+}
+a:hover, a:focus {
+  color: var(--mf-red-dark);
+  text-decoration: none;
+}
+
+/* ==============================================================
+ * 2. Buttons
+ *    Legacy theme + mfo-style.css force blue (#005980/#00A3DA) with
+ *    !important, so overrides here must also use !important.
+ * ============================================================== */
+
+.btn,
+a.btn,
+.btn-primary,
+a.btn.btn-primary,
+#header-cta-button a.btn,
+a.btn-b-ghost {
+  font-family: var(--mf-font-head);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-radius: var(--mf-radius-sm);
+  border: 2px solid transparent !important;
+  padding: 11px 26px;
+  transition: transform 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-primary,
+a.btn,
+a.btn.btn-primary,
+#header-cta-button a.btn,
+a.btn-b-ghost {
+  background-color: var(--mf-red) !important;
+  background-image: none !important;
+  color: var(--mf-white) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+a.btn:hover,
+a.btn:focus,
+#header-cta-button a.btn:hover,
+#header-cta-button a.btn:focus {
+  background-color: var(--mf-red-dark) !important;
+  color: var(--mf-white) !important;
+  transform: translateY(-2px);
+  box-shadow: var(--mf-shadow);
+}
+
+/* Ghost button on dark backgrounds */
+a.btn-w-ghost {
+  background-color: transparent !important;
+  border: 2px solid var(--mf-white) !important;
+  color: var(--mf-white) !important;
+  border-radius: var(--mf-radius-sm);
+  font-family: var(--mf-font-head);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+a.btn-w-ghost:hover {
+  background-color: var(--mf-white) !important;
+  color: var(--mf-navy) !important;
+}
+
+/* Secondary text-link-with-arrow (Bay Area "Apply Now ->") */
+.mf-link-arrow {
+  font-family: var(--mf-font-head);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--mf-red);
+}
+.mf-link-arrow::after { content: " \2192"; }
+.mf-link-arrow:hover { color: var(--mf-red-dark); }
+
+/* ==============================================================
+ * 3. Navigation
+ * ============================================================== */
+
+.navbar-default,
+.navbar.navbar-default.nav-not-home {
+  background-color: var(--mf-white) !important;
+  border: none !important;
+  box-shadow: 0 2px 12px rgba(16, 22, 40, 0.06);
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-nav > li > a {
+  font-family: var(--mf-font-head);
+  color: var(--mf-ink) !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  background: transparent !important;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover,
+.navbar-nav > li.active > a {
+  color: var(--mf-ink) !important;
+  border-bottom: 3px solid var(--mf-red);
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+/* Dropdown menu — replace legacy blue hover with coral */
+body .navbar-nav > li > .dropdown-menu {
+  /* Square the top corners so the menu sits flush against its header;
+     keep the bottom corners rounded. */
+  border-radius: 0 0 var(--mf-radius-sm) var(--mf-radius-sm);
+  border: 1px solid var(--mf-gray-200);
+  box-shadow: var(--mf-shadow);
+  overflow: hidden;
+  /* At least as wide as the parent menu header it drops from (the .dropdown
+     <li> is the positioned ancestor, so 100% = the header's width). Content
+     wider than the header still expands it. */
+  min-width: 100%;
+  width: max-content;
+}
+body .navbar-nav > li > .dropdown-menu > li > a:hover,
+body .navbar-nav > li > .dropdown-menu > li > a:focus {
+  background-color: var(--mf-red) !important;
+  background: var(--mf-red) !important;
+  color: var(--mf-white) !important;
+}
+
+/* ==============================================================
+ * 4. Carousel area + optional hero overlay
+ *     DEFAULT: imagery only (no overlay) on the main carousels. Pages may
+ *     opt IN to hero text via front matter (hero-title / hero-meta[-event] /
+ *     hero-cta-text+url), rendered by _includes/carousel.html.
+ *     See _documentation/redesign-2026.md.
+ * ============================================================== */
+
+#carousel-area { position: relative; }
+
+/* Optional hero overlay — only renders when a page sets `hero-title`. */
+.mf-hero-overlay {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  z-index: 20;
+  padding: 72px 24px 56px;
+  background: linear-gradient(to top, rgba(14,22,40,0.85) 0%, rgba(14,22,40,0.35) 55%, rgba(14,22,40,0) 100%);
+  text-align: center;
+  pointer-events: none;
+}
+.mf-hero-overlay .mf-hero-inner { pointer-events: auto; max-width: 900px; margin: 0 auto; }
+.mf-hero-overlay h1 {
+  color: var(--mf-white);
+  text-transform: uppercase;
+  font-size: clamp(2rem, 4.5vw, 3.4rem);
+  font-weight: 800;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.5);
+  margin: 0 0 10px;
+}
+.mf-hero-overlay h1 .mf-hl { color: var(--mf-red); }
+.mf-hero-overlay .mf-hero-meta {
+  color: var(--mf-white);
+  font-family: var(--mf-font-head);
+  font-size: clamp(1rem, 1.8vw, 1.4rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.55);
+  margin: 0 0 22px;
+}
+@media (max-width: 767px) {
+  /* Stack below the image on phones so text stays legible. */
+  .mf-hero-overlay { position: static; padding: 32px 16px 28px; background: var(--mf-navy); }
+}
+
+/* ==============================================================
+ * 4b. FAQ accordion (<details class="faq-item"> / .faq-question / .faq-answer)
+ *     Usable on any page. Brand-styled (was legacy blue).
+ * ============================================================== */
+.faq-container { margin: 0 auto; }
+.faq-item {
+  border: 1px solid var(--mf-gray-200);
+  border-radius: var(--mf-radius-sm);
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.faq-item:hover { border-color: var(--mf-red); box-shadow: var(--mf-shadow); }
+.faq-question {
+  background-color: var(--mf-gray-50);
+  padding: 18px 20px;
+  cursor: pointer;
+  font-family: var(--mf-font-head);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--mf-ink);
+  list-style: none;
+  position: relative;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.faq-question:hover { background-color: var(--mf-gray-100); }
+.faq-question::after {
+  content: '▼';
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--mf-red);
+}
+.faq-item[open] .faq-question { background-color: var(--mf-navy); color: var(--mf-white); }
+.faq-item[open] .faq-question::after { content: '▲'; color: var(--mf-white); }
+.faq-question::-webkit-details-marker { display: none; }
+.faq-answer { padding: 20px; background-color: var(--mf-white); border-top: 1px solid var(--mf-gray-200); }
+.faq-answer p { margin: 0; line-height: 1.7; color: var(--mf-gray-800); }
+
+/* ==============================================================
+ * 5. Content sections + "What is Maker Faire"
+ * ============================================================== */
+
+.cta-panel {
+  background-color: var(--mf-navy) !important;
+  background-image: none !important;
+  padding: 24px 0;
+}
+.cta-panel h3 a,
+.cta-panel a {
+  color: var(--mf-white) !important;
+  font-family: var(--mf-font-head);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.cta-panel h3 a:hover { color: var(--mf-red) !important; }
+/* Two-line variant: date + time on top, location below. */
+.cta-panel .cta-panel-main { display: block; }
+.cta-panel .cta-panel-sub {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.8em;
+  letter-spacing: 0.03em;
+}
+
+.what-is-maker-faire {
+  background-color: var(--mf-white) !important;
+  background-image: none !important;
+  color: var(--mf-ink) !important;
+  padding: 60px 0;
+}
+.what-is-maker-faire h1,
+.what-is-maker-faire h2 { color: var(--mf-ink) !important; }
+.what-is-maker-faire p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--mf-gray-800) !important;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styled intro hierarchy: large lead → bold brand tagline → coral kicker. */
+.what-is-maker-faire .wimf-lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  font-weight: 500;
+  color: var(--mf-ink) !important;
+  max-width: 820px;
+}
+.what-is-maker-faire .wimf-tagline {
+  font-family: var(--mf-font-head);
+  font-weight: 800;
+  font-size: clamp(1.45rem, 2.7vw, 1.95rem);
+  line-height: 1.25;
+  color: var(--mf-navy) !important;
+  max-width: 880px;
+  margin: 32px auto;
+}
+.what-is-maker-faire .wimf-tagline .mf-hl { color: var(--mf-red); }
+.what-is-maker-faire .wimf-closer {
+  font-family: var(--mf-font-head);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 1.05rem;
+  color: var(--mf-red) !important;
+  margin-top: 28px;
+}
+
+/* Section heading with brand underline (replaces colored triangle borders) */
+.title-w-border-y,
+.title-w-border {
+  border: none !important;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 14px;
+  margin-bottom: 24px;
+}
+.title-w-border-y::after,
+.title-w-border::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 72px;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--mf-red);
+}
+
+/* --------------------------------------------------------------
+ * Prose content sections (About page, and reusable elsewhere).
+ * Alternating white / light / navy bands with a readable measure,
+ * a larger lead paragraph, and coral-accented links.
+ * -------------------------------------------------------------- */
+.mf-prose-section { padding: 56px 0; }
+.mf-prose-section.is-light { background: var(--mf-gray-50); }
+.mf-prose-section.is-dark  { background: var(--mf-navy); }
+
+.mf-prose-section h1,
+.mf-prose-section h2 { text-transform: uppercase; }
+.mf-prose-section.is-dark h1,
+.mf-prose-section.is-dark h2 { color: var(--mf-white) !important; }
+
+.mf-prose {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  line-height: 1.75;
+  color: var(--mf-gray-800);
+}
+.mf-prose.mf-lead { font-size: 1.2rem; line-height: 1.6; }
+
+/* Field Trip Day intro — coral date/time kicker under the title. */
+.ftd-kicker {
+  text-align: center;
+  font-family: var(--mf-font-head);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1.35rem;
+  color: var(--mf-red);
+  margin: 0 0 16px;
+}
+/* Inline coral keyword highlight (reusable). */
+.mf-hl { color: var(--mf-red); }
+.mf-prose a { color: var(--mf-red); font-weight: 600; }
+.mf-prose a:hover { color: var(--mf-red-dark); }
+
+.mf-prose-section.is-dark .mf-prose { color: rgba(255, 255, 255, 0.92); }
+.mf-prose-section.is-dark .mf-prose a {
+  color: var(--mf-white);
+  text-decoration: underline;
+  text-decoration-color: var(--mf-red);
+  text-underline-offset: 3px;
+}
+.mf-prose-section.is-dark .mf-prose a:hover { color: var(--mf-red); }
+
+/* ==============================================================
+ * 6. Cards / grids — soften heavy legacy shadows
+ * ============================================================== */
+
+.exhibits-container .item,
+.events-container .item {
+  border: 1px solid var(--mf-gray-200) !important;
+  border-radius: var(--mf-radius) !important;
+  box-shadow: var(--mf-shadow) !important;
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.exhibits-container .item:hover,
+.events-container .item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--mf-shadow-hover) !important;
+}
+
+.button-group {
+  background: var(--mf-gray-100);
+  border-radius: var(--mf-radius-sm);
+}
+
+/* Exhibits / categories / schedule filter bar (.mtm-search) — was legacy teal
+   (#00597E). Reskinned to brand navy with white labels, clean inputs, and a
+   coral "Shuffle" button. Drives _includes/exhibits-header.html + schedule pages. */
+/* NOTE: the legacy theme styles `.mtm .mtm-search` (height:100px) and only
+   relaxes it to auto at <=767px. But Bootstrap col-md-* stack at <=991px, so in
+   the 768-991px range the bar kept its 100px height and clipped the stacked
+   filters (and the Shuffle button overflowed into the cards). Match the legacy
+   specificity + force auto height so the bar always grows to fit. */
+.mtm .mtm-search {
+  background-color: var(--mf-navy) !important;
+  height: auto !important;
+  min-height: 0;
+  padding: 20px 0;
+}
+.mtm-search label,
+.mtm-search .search-filter-label,
+.mtm-search form label {
+  color: var(--mf-white) !important;
+  font-family: var(--mf-font-head);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.mtm-search .form-control {
+  border: 1px solid transparent;
+  border-radius: var(--mf-radius-sm);
+  box-shadow: none;
+}
+.mtm-search .form-control:focus {
+  border-color: var(--mf-red);
+  box-shadow: 0 0 0 2px rgba(219, 43, 47, 0.25);
+}
+#shuffle {
+  background-color: var(--mf-red);
+  color: var(--mf-white);
+  border: 0;
+  border-radius: var(--mf-radius-sm);
+  padding: 8px 16px;
+  font-weight: 600;
+  width: 100%;
+  transition: background-color 0.15s ease;
+}
+#shuffle:hover,
+#shuffle:focus { background-color: var(--mf-red-dark); color: var(--mf-white); }
+
+/* Maker profile (exhibit page): the "Learn More" button and social icons were
+   cramped together. Lay the row out with flex + a real gap so the icons sit
+   clear of the button, vertically centered, with room between each icon. */
+.exhibit-social-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 28px;
+  margin-left: 0;   /* cancel Bootstrap .row negative margins (was shifting */
+  margin-right: 0;  /* the button/icons left of the description above) */
+}
+.exhibit-social-row > div {
+  float: none !important;
+  width: auto !important;
+  padding-left: 0;
+  padding-right: 0;
+}
+.exhibit-social-row .list-inline { margin: 0; }
+.exhibit-social-row .list-inline > li { padding: 0 9px; }
+.exhibit-social-row .list-inline > li:first-child { padding-left: 0; }
+/* Icons are Font Awesome glyphs — never underline the wrapping link. */
+.exhibit-social-row .list-inline a { text-decoration: none; }
+
+/* Category tag pills (exhibit detail page) — linked bubbles, not a text list. */
+.mf-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.mf-tag {
+  display: inline-block;
+  font-family: var(--mf-font-head);
+  font-weight: 600;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  color: var(--mf-navy);
+  background: var(--mf-gray-100);
+  border: 1px solid var(--mf-gray-200);
+  padding: 5px 13px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+.mf-tag:hover,
+.mf-tag:focus-visible {
+  background: var(--mf-red);
+  border-color: var(--mf-red);
+  color: var(--mf-white);
+  text-decoration: none;
+}
+
+/* Exhibit logistics meta (zone / space / number) — compact labeled stats in a
+   bordered strip, replacing the old bold-label paragraph list. Day-of info. */
+.exhibit-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 36px;
+  margin: 4px 0 24px;
+  padding: 16px 0;
+  border-top: 1px solid var(--mf-gray-200);
+  border-bottom: 1px solid var(--mf-gray-200);
+}
+.exhibit-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.exhibit-meta-label {
+  font-family: var(--mf-font-head);
+  font-weight: 700;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--mf-gray-600);
+}
+.exhibit-meta-value { font-weight: 600; color: var(--mf-ink); }
+.exhibit-meta-value em {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85em;
+  color: var(--mf-gray-600);
+}
+
+/* Volunteer roles — a readable column of role cards (icon + title + copy). */
+.mf-roles {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.mf-role {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  background: var(--mf-white);
+  border: 1px solid var(--mf-gray-200);
+  border-radius: var(--mf-radius);
+  box-shadow: var(--mf-shadow);
+  padding: 20px 24px;
+}
+.mf-role-icon {
+  flex-shrink: 0;
+  margin-top: 3px;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--mf-red);
+}
+.mf-role-body h3 {
+  margin: 0 0 6px;
+  text-transform: uppercase;
+  font-size: 1.05rem;
+}
+.mf-role-age {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middle;
+  font-family: var(--mf-font-body);
+  font-weight: 600;
+  font-size: 0.7rem;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--mf-navy);
+  background: var(--mf-gray-100);
+  border: 1px solid var(--mf-gray-200);
+  border-radius: 999px;
+  padding: 2px 10px;
+}
+.mf-role-body p {
+  margin: 0;
+  color: var(--mf-gray-800);
+  line-height: 1.65;
+}
+
+/* Maker profile presented as a card with light contrast against the page. */
+.maker-card {
+  background: var(--mf-gray-50);
+  border: 1px solid var(--mf-gray-200);
+  border-radius: var(--mf-radius);
+  box-shadow: var(--mf-shadow);
+  padding: 28px 32px;
+  margin-bottom: 8px;
+}
+
+/* Exhibit description — was Bootstrap .lead at full container width (overly
+   long, hard-to-read lines). Give it a readable measure + body typography,
+   left-aligned with the image above. */
+.exhibit-description {
+  max-width: 68ch;
+  margin: 22px 0 28px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--mf-gray-800);
+}
+
+/* Exhibit photo gallery — replaces the legacy carousel. Uniform square tiles
+   that wrap; each links to the full-size image. */
+.exhibit-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+}
+.exhibit-gallery-item {
+  flex: 1 1 180px;
+  max-width: 220px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: var(--mf-radius);
+  box-shadow: var(--mf-shadow);
+  background: var(--mf-gray-100);
+}
+.exhibit-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.exhibit-gallery-item:hover img,
+.exhibit-gallery-item:focus-visible img { transform: scale(1.06); }
+@media (prefers-reduced-motion: reduce) {
+  .exhibit-gallery-item img { transition: none; }
+  .exhibit-gallery-item:hover img { transform: none; }
+}
+
+/* Lightbox overlay for the exhibit gallery (built by the inline script). */
+.mf-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1050;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(14, 22, 40, 0.92);
+}
+.mf-lightbox.is-open { display: flex; }
+.mf-lightbox .mf-lightbox-img {
+  max-width: 92vw;
+  max-height: 88vh;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+.mf-lightbox button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.14);
+  color: var(--mf-white);
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+.mf-lightbox button:hover,
+.mf-lightbox button:focus-visible { background: var(--mf-red); }
+.mf-lightbox-close { top: 18px; right: 18px; }
+.mf-lightbox-prev { left: 18px; top: 50%; transform: translateY(-50%); }
+.mf-lightbox-next { right: 18px; top: 50%; transform: translateY(-50%); }
+
+/* ==============================================================
+ * 6b. Event-page card rows (category + Get Involved)
+ *     Markup added in homepage includes. Uses flexbox so it works
+ *     alongside Bootstrap 3 without the grid's gutters fighting us.
+ * ============================================================== */
+
+.mf-card-section { padding: 56px 0; }
+.mf-card-section.is-light { background: var(--mf-gray-50); }
+.mf-card-section.is-dark { background: var(--mf-navy); }
+.mf-card-section.is-dark .mf-section-head h2,
+.mf-card-section.is-dark .mf-section-head p { color: var(--mf-white); }
+
+.mf-section-head { text-align: center; margin-bottom: 36px; }
+.mf-section-head h2 { text-transform: uppercase; margin: 0 0 10px; }
+.mf-section-head p { color: var(--mf-gray-600); font-size: 1rem; margin: 0 auto; max-width: 640px; }
+
+.mf-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  justify-content: center;
+}
+.mf-card {
+  flex: 1 1 calc(25% - 17px);   /* 4-up; see grid breakpoints below */
+  max-width: 280px;
+  background: var(--mf-white);
+  border-radius: var(--mf-radius);
+  overflow: hidden;
+  box-shadow: var(--mf-shadow);
+  text-align: left;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  display: flex;
+  flex-direction: column;
+}
+/* Hover feedback: a subtle shadow lift, but the card itself stays put —
+ * the zoom happens on the image inside (see .mf-card-media::before). */
+.mf-card:hover,
+.mf-card:focus-visible { box-shadow: var(--mf-shadow-hover); }
+
+.mf-card .mf-card-media {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;                 /* clip the zooming image to the frame */
+  background: var(--mf-navy) center/cover no-repeat;
+}
+/* The image lives on this layer so it can scale on hover while the label,
+ * gradient, and card frame stay fixed. background-image: inherit picks up
+ * the inline url() set on .mf-card-media in the includes. */
+.mf-card .mf-card-media::before {
+  content: "";
+  position: absolute; inset: 0;
+  z-index: 0;
+  background-image: inherit;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.7s ease;
+}
+.mf-card:hover .mf-card-media::before,
+.mf-card:focus-visible .mf-card-media::before { transform: scale(1.2); }
+.mf-card .mf-card-media::after {
+  content: "";
+  position: absolute; inset: 0;
+  z-index: 1;
+  background: linear-gradient(to top, rgba(14,22,40,0.72) 0%, rgba(14,22,40,0) 60%);
+}
+.mf-card .mf-card-label {
+  position: absolute;
+  left: 18px; right: 18px; bottom: 16px;
+  z-index: 2;
+  color: var(--mf-white);
+  font-family: var(--mf-font-head);
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.15rem;
+  line-height: 1.15;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.5);
+}
+.mf-card .mf-card-body {
+  padding: 16px 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.mf-card .mf-card-body p { color: var(--mf-gray-600); font-size: 0.95rem; margin: 0; flex: 1; }
+
+/* 5-card row (Explore the Faire): force a balanced 3 + 2 (centered) instead
+ * of a stranded 4 + 1. Capping the grid width keeps the 3-up cards about the
+ * same size as the 4-up cards in the other row; the percentage basis holds 3
+ * columns (so it never drops to a lopsided 2 + 2 + 1) until the mobile stack. */
+.mf-card-grid--3up {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Double class so the 3-up rule always beats the default 4-up rule regardless
+ * of source order (both would otherwise be specificity 0,2,0). */
+.mf-card-grid.mf-card-grid--3up .mf-card {
+  flex: 0 1 calc(33.333% - 15px);
+  max-width: none;
+}
+
+/* Default 4-up grid (Get Involved, etc.): 4 → 2 + 2 → 1, never an orphaned
+ * 3 + 1. (max-width:991 = 2 columns; max-width:767 = single column.) */
+@media (max-width: 991px) {
+  .mf-card { flex-basis: calc(50% - 11px); }
+}
+@media (max-width: 767px) {
+  .mf-card { flex: 1 1 100%; max-width: 420px; }
+  .mf-card-grid.mf-card-grid--3up .mf-card { flex-basis: 100%; max-width: 420px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mf-card .mf-card-media::before { transition: none; }
+  .mf-card:hover .mf-card-media::before,
+  .mf-card:focus-visible .mf-card-media::before { transform: none; }
+}
+
+/* ==============================================================
+ * 7. FAQ — swap legacy blue for brand
+ * ============================================================== */
+
+.faq-item:hover { border-color: var(--mf-red); }
+.faq-question::after { color: var(--mf-red); }
+.faq-item[open] .faq-question {
+  background-color: var(--mf-navy);
+  color: var(--mf-white);
+}
+.faq-item[open] .faq-question::after { color: var(--mf-red); }
+
+/* ==============================================================
+ * 8. Footer (white, two-column — aligned with happyvalley.makerfaire.com)
+ * ============================================================== */
+
+.gmf-footer {
+  background-color: var(--mf-white) !important;
+  background-image: none !important;
+  color: var(--mf-gray-800) !important;
+  padding-top: 48px;
+  border-top: 1px solid var(--mf-gray-200);
+}
+.gmf-footer a { color: var(--mf-gray-800) !important; }
+.gmf-footer a:hover { color: var(--mf-red) !important; }
+
+/* Two-column on wide screens, stacked only at narrow widths (< 768px).
+   Divider is horizontal when stacked, vertical when side-by-side. */
+.gmf-footer .footer-mfo-block { padding-bottom: 28px; }
+.gmf-footer .footer-mf-block {
+  padding-top: 28px;
+  border-top: 1px solid var(--mf-gray-200);
+}
+@media (min-width: 768px) {
+  .gmf-footer .footer-mfo-block { padding-bottom: 0; }
+  .gmf-footer .footer-mf-block {
+    padding-top: 0;
+    padding-left: 40px;
+    border-top: none;
+    border-left: 1px solid var(--mf-gray-200);
+  }
+}
+
+/* Maker Faire side: grouped columns (About / Explore / Subscribe).
+   Flexbox so the three groups sit side-by-side and wrap gracefully
+   3 -> 2 -> 1 as the viewport narrows (instead of a hard stack). */
+.gmf-footer .mf-footer-cols {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 30px;
+}
+.gmf-footer .mf-footer-col {
+  flex: 1 1 150px;
+  min-width: 150px;
+}
+.gmf-footer .mf-footer-heading {
+  font-family: var(--mf-font-head);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.8rem;
+  color: var(--mf-ink) !important;
+  margin: 0 0 12px;
+}
+.gmf-footer .mf-footer-cols ul li { margin-bottom: 6px; }
+.gmf-footer .mf-footer-cols a { font-size: 0.9rem; }
+
+/* Keep logos inside their column (the wide one-line MFO logo was overflowing
+   past the divider and colliding with the Maker Faire robot logo). */
+.gmf-footer .footer-logos {
+  max-height: 72px;
+  max-width: 100%;
+  width: auto;
+  margin-bottom: 16px;
+}
+/* The one-line MFO logo is very wide. The legacy theme allows it up to 310px
+   (.footer-logo-div .footer-logos.footer-local-logo), which overflowed the
+   narrow footer column and collided with the robot logo across the divider.
+   Higher-specificity override keeps it inside its column. */
+.gmf-footer .footer-logo-div .footer-logos.footer-local-logo {
+  max-width: 100%;
+}
+
+/* Social circles. Legacy theme renders them faint — a light-gray (#D3D3D3)
+   circle with a white glyph. Override to dark ink circles with white glyphs
+   (high contrast on the white footer); coral on hover. Selectors out-specify
+   the legacy `.social-network.social-circle li a` / `... i` rules. */
+.gmf-footer .social-network.social-circle li a {
+  background-color: var(--mf-ink) !important;
+  color: var(--mf-white) !important;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.gmf-footer .social-network.social-circle li a:hover {
+  background-color: var(--mf-red) !important;
+  color: var(--mf-white) !important;
+}
+.gmf-footer .social-network.social-circle li a i {
+  color: var(--mf-white) !important;
+}
+
+/* Funding-notice logos (TMEF + Orange County). Both logos share identical
+   constraints so they stay size-balanced at every width (their aspect ratios
+   are nearly equal). Side by side on desktop; stacked + centered on phones. */
+.mf-funding-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px 56px;
+  margin-top: 18px;
+}
+.mf-funding-logos img {
+  width: auto;
+  height: auto;
+  max-height: 84px;
+  max-width: 42%;
+  object-fit: contain;
+}
+/* The OC logo art has no internal padding (fills its box edge-to-edge), so at an
+   equal box height it reads larger than the padded TMEF logo. Scale it down so
+   the *artwork* matches TMEF's visual weight. */
+.mf-funding-logos .mf-oc-logo {
+  max-height: 62px;
+  max-width: 34%;
+}
+@media (max-width: 480px) {
+  /* >50% width each forces one-per-row (stacked), still balanced. */
+  .mf-funding-logos img { max-width: 70%; max-height: 66px; }
+  .mf-funding-logos .mf-oc-logo { max-width: 56%; max-height: 49px; }
+}
+
+.banner { background-color: var(--mf-red) !important; }
+.banner a { color: var(--mf-white) !important; }
+
+/* ==============================================================
+ * 9. Carousel indicators (brand the active dot)
+ * ============================================================== */
+
+#carousel-area .carousel-indicators li {
+  background: rgba(255,255,255,0.55);
+  border-radius: 3px;
+}
+#carousel-area .carousel-indicators li.active {
+  background: var(--mf-red);
+}
+
+/* ==============================================================
+ * 10. Retire the dated rotated "flag-banner" strip — removed
+ *     entirely. (To bring back a thin brand rule instead, swap
+ *     display:none for height:5px + background-color:var(--mf-red).)
+ * ============================================================== */
+
+.flag-banner,
+.flag-banner.header-flag {
+  display: none !important;
+}
+
+/* ==============================================================
+ * 11. Apply / Call-for-Makers page components
+ * ============================================================== */
+
+/* Application status callout — open (coral, with Apply CTA) or closed (navy). */
+.mf-apply-callout {
+  max-width: 820px;
+  margin: 0 auto;
+  text-align: center;
+  background: var(--mf-navy);
+  color: var(--mf-white);
+  border-radius: var(--mf-radius);
+  padding: 44px 28px;
+  box-shadow: var(--mf-shadow-lg);
+}
+/* Open state: a light card with a coral top accent — no large red fill. */
+.mf-apply-callout.is-open {
+  background: var(--mf-white);
+  color: var(--mf-ink);
+  border: 1px solid var(--mf-gray-200);
+  border-top: 4px solid var(--mf-red);
+}
+.mf-apply-callout.is-open h2 { color: var(--mf-navy) !important; }
+.mf-apply-callout.is-open p { color: var(--mf-gray-800); }
+.mf-apply-callout h2 { color: var(--mf-white) !important; margin: 0 0 12px; text-transform: uppercase; }
+.mf-apply-callout p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0 auto 24px;
+  max-width: 620px;
+}
+.mf-apply-callout .mf-status-tag {
+  display: inline-block;
+  font-family: var(--mf-font-head);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  color: var(--mf-red);
+  margin-bottom: 12px;
+}
+/* Open callout uses the standard coral primary button (the only red element). */
+/* Links inside the navy (closed/coming-soon) callout: white + coral underline. */
+.mf-apply-callout:not(.is-open) a {
+  color: var(--mf-white);
+  text-decoration: underline;
+  text-decoration-color: var(--mf-red);
+  text-underline-offset: 3px;
+}
+.mf-apply-callout:not(.is-open) a:hover { color: var(--mf-red); }
+
+/* "Ways to take part" info cards (icon + heading + copy, no photo). */
+.mf-info-grid { display: flex; flex-wrap: wrap; gap: 22px; justify-content: center; }
+.mf-info-card {
+  flex: 1 1 calc(25% - 17px);   /* 4-up; drops to 2-up / 1-up below */
+  max-width: 300px;
+  background: var(--mf-white);
+  border: 1px solid var(--mf-gray-200);
+  border-radius: var(--mf-radius);
+  padding: 28px 24px;
+  box-shadow: var(--mf-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.mf-info-card:hover { transform: translateY(-4px); box-shadow: var(--mf-shadow-hover); }
+.mf-info-card .mf-info-icon { font-size: 1.9rem; color: var(--mf-red); line-height: 1; }
+.mf-info-card h3 { text-transform: uppercase; font-size: 1.1rem; margin: 6px 0 0; }
+.mf-info-card p { color: var(--mf-gray-600); font-size: 0.97rem; margin: 0; flex: 1; }
+.mf-info-card .mf-info-fee {
+  align-self: flex-start;
+  background: var(--mf-gray-100);
+  color: var(--mf-ink);
+  font-family: var(--mf-font-head);
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+.mf-info-card .mf-info-fee.is-free { background: var(--mf-red); color: var(--mf-white); }
+.mf-info-card .mf-link-arrow { margin-top: auto; }
+/* 4 → 2 + 2 → 1, never an orphaned 3 + 1. */
+@media (max-width: 991px) { .mf-info-card { flex-basis: calc(50% - 11px); } }
+@media (max-width: 767px) { .mf-info-card { flex: 1 1 100%; max-width: 420px; } }
+
+/* Checklist (What you'll need to apply). */
+.mf-checklist {
+  max-width: 720px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+.mf-checklist li {
+  position: relative;
+  padding: 14px 0 14px 40px;
+  border-bottom: 1px solid var(--mf-gray-200);
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--mf-gray-800);
+}
+.mf-checklist li:last-child { border-bottom: none; }
+.mf-checklist li::before {
+  content: "\f00c";               /* fa-check */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: var(--mf-red);
+  position: absolute;
+  left: 6px;
+  top: 15px;
+}
+
+/* Embedded third-party widget (e.g. Humanitix volunteer shifts). */
+.mf-widget-wrap {
+  max-width: 900px;
+  margin: 8px auto 0;
+}
+.mf-widget-wrap iframe {
+  width: 100%;
+  min-height: 640px;
+  border: 0;
+}
+
+/* ==============================================================
+ * 12. Sponsor logo marquee — single continuously-scrolling band
+ *     (emulates the makerfaire.com/bay-area sponsor strip).
+ *     Markup: _includes/sponsors-marquee.html. The logo set is
+ *     rendered twice; the track animates -50% for a seamless loop.
+ *     Pauses on hover; static wrapped grid for reduced-motion.
+ * ============================================================== */
+
+.mf-sponsor-marquee {
+  background: var(--mf-white);
+  padding: 64px 0;
+  overflow: hidden;
+}
+
+.mf-marquee-title {
+  text-align: center;
+  font-family: var(--mf-font-head);
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--mf-ink);
+  margin: 0 0 8px;
+}
+
+.mf-marquee-subtitle {
+  text-align: center;
+  font-family: var(--mf-font-body);
+  font-size: 1.15rem;
+  color: var(--mf-gray-600);
+  max-width: 720px;
+  margin: 0 auto 40px;
+  padding: 0 16px;
+}
+
+/* Viewport clips the band and fades both edges. */
+.mf-marquee-viewport {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 8%, #000 92%, transparent 100%);
+          mask-image: linear-gradient(90deg, transparent 0, #000 8%, #000 92%, transparent 100%);
+}
+
+.mf-marquee-track {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  animation-name: mf-marquee-scroll;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  /* animation-duration is set inline (per sponsor count) on the element. */
+}
+
+/* Each copy is a layout-transparent wrapper so its items become direct
+ * flex children of the track (keeps the seamless -50% math correct). */
+.mf-marquee-set { display: contents; }
+
+.mf-marquee-viewport:hover .mf-marquee-track,
+.mf-marquee-viewport:focus-within .mf-marquee-track {
+  animation-play-state: paused;
+}
+
+/* Drag-to-scrub enhancement (added by JS). The script disables the CSS
+ * animation and drives the transform itself, so the band can be grabbed
+ * and pulled back and forth; auto-scroll resumes on release. */
+.mf-marquee-viewport.is-grabbable {
+  cursor: grab;
+  touch-action: pan-y;        /* let vertical page scroll through; we own horizontal */
+  user-select: none;
+}
+.mf-marquee-viewport.is-grabbable.is-dragging { cursor: grabbing; }
+.mf-marquee-viewport.is-grabbable .mf-marquee-track { animation: none !important; }
+.mf-marquee-viewport.is-grabbable img { -webkit-user-drag: none; }
+
+.mf-marquee-item {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  margin-right: 48px;
+}
+.mf-marquee-item img {
+  max-width: 100%;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+@keyframes mf-marquee-scroll {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(-50%, 0, 0); }
+}
+
+.mf-marquee-footer {
+  text-align: center;
+  margin: 40px 0 0;
+}
+.mf-marquee-footer a {
+  font-family: var(--mf-font-head);
+  color: var(--mf-red);
+}
+.mf-marquee-footer a:hover { color: var(--mf-red-dark); }
+.mf-marquee-footer span { margin: 0 12px; color: var(--mf-gray-400); }
+
+/* Respect reduced-motion: stop scrolling, show one static wrapped row. */
+@media (prefers-reduced-motion: reduce) {
+  .mf-marquee-track {
+    animation: none;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mf-marquee-set--dupe { display: none; }
+  .mf-marquee-item { margin: 12px 24px; }
+  .mf-marquee-viewport {
+    -webkit-mask-image: none;
+            mask-image: none;
+  }
+}
+
+/* ==============================================================
+ * 13. Modern sponsors grid (/sponsors/ page)
+ *     Markup: _includes/sponsors-grid-modern.html. Tier sections
+ *     with coral-underlined headings; logos on clean white tiles
+ *     sized by tier (tier 1 = largest) via per-tier CSS variables.
+ * ============================================================== */
+
+/* Reusable centered page header (title + tagline + CTA). */
+.mf-page-header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 16px 16px 40px;
+}
+.mf-page-header h1 {
+  text-transform: uppercase;
+  margin: 0 0 14px;
+}
+.mf-page-header-sub {
+  color: var(--mf-gray-600);
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin: 0 auto 24px;
+}
+
+.mf-sponsors {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 8px 0 24px;
+}
+
+.mf-sponsor-tier { margin-bottom: 56px; }
+.mf-sponsor-tier:last-child { margin-bottom: 8px; }
+
+.mf-tier-title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--mf-ink);
+  margin: 0 0 32px;
+  padding-bottom: 14px;
+  position: relative;
+}
+.mf-tier-title::after {     /* short coral rule under each tier heading */
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 56px;
+  height: 4px;
+  transform: translateX(-50%);
+  background: var(--mf-red);
+  border-radius: 2px;
+}
+
+.mf-sponsor-tier-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+}
+
+/* One tile. --tile-h / --tile-basis are overridden per tier below. */
+.mf-sponsor-tile {
+  --tile-h: 110px;
+  --tile-basis: 200px;
+  flex: 0 1 var(--tile-basis);
+  min-width: 150px;
+  height: var(--tile-h);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 24px;
+  background: var(--mf-white);
+  border: 1px solid var(--mf-gray-200);
+  border-radius: var(--mf-radius);
+  box-shadow: var(--mf-shadow);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+.mf-sponsor-tile img {
+  max-width: 100%;
+  max-height: calc(var(--tile-h) - 36px);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+.mf-sponsor-tile:hover,
+.mf-sponsor-tile:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: var(--mf-shadow-hover);
+  border-color: var(--mf-red);
+}
+
+/* Tier hierarchy: larger tiles for higher tiers. */
+.mf-tier-1 .mf-sponsor-tile { --tile-h: 168px; --tile-basis: 300px; }
+.mf-tier-2 .mf-sponsor-tile { --tile-h: 148px; --tile-basis: 260px; }
+.mf-tier-3 .mf-sponsor-tile { --tile-h: 128px; --tile-basis: 230px; }
+.mf-tier-4 .mf-sponsor-tile { --tile-h: 112px; --tile-basis: 200px; }
+.mf-tier-5 .mf-sponsor-tile { --tile-h:  96px; --tile-basis: 175px; }
+
+@media (max-width: 600px) {
+  .mf-sponsor-tile { flex-basis: 45%; --tile-h: 104px !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mf-sponsor-tile { transition: box-shadow 0.18s ease, border-color 0.18s ease; }
+  .mf-sponsor-tile:hover,
+  .mf-sponsor-tile:focus-visible { transform: none; }
+}
+
+/* ==============================================================
+ * 14. Promote / press-kit page — hashtag chips + download cards
+ *     Markup: pages/promote.md.
+ * ============================================================== */
+
+/* Hashtag chips */
+.mf-hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  max-width: 840px;
+  margin: 24px auto 0;
+}
+.mf-hashtag {
+  font-family: var(--mf-font-head);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--mf-navy);
+  background: var(--mf-gray-100);
+  border: 1px solid var(--mf-gray-200);
+  padding: 7px 16px;
+  border-radius: 999px;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+.mf-hashtag:hover {
+  background: var(--mf-red);
+  border-color: var(--mf-red);
+  color: var(--mf-white);
+}
+
+/* Downloadable asset cards (badges, logos, print, social) */
+.mf-asset-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+.mf-asset-card {
+  flex: 1 1 240px;
+  max-width: 300px;
+  margin: 0;
+  background: var(--mf-white);
+  border: 1px solid var(--mf-gray-200);
+  border-radius: var(--mf-radius);
+  box-shadow: var(--mf-shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.mf-asset-card:hover,
+.mf-asset-card:focus-within { transform: translateY(-4px); box-shadow: var(--mf-shadow-hover); }
+.mf-asset-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  padding: 20px;
+  background: var(--mf-gray-50);
+}
+.mf-asset-thumb img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+/* No outline on mouse click; clean coral ring for keyboard focus only. */
+.mf-asset-thumb { -webkit-tap-highlight-color: transparent; }
+.mf-asset-thumb:focus { outline: none; }
+.mf-asset-thumb:focus-visible { outline: 2px solid var(--mf-red); outline-offset: -3px; }
+.mf-asset-body {
+  padding: 18px 20px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+.mf-asset-body h3 { text-transform: uppercase; font-size: 1.05rem; margin: 0; }
+.mf-asset-body p { color: var(--mf-gray-600); font-size: 0.92rem; margin: 0; flex: 1; }
+.mf-asset-body .mf-link-arrow { margin-top: auto; }
+
+/* Asset grids hold 2–3 items: 3-up → 2-up → 1-up, never a stranded card. */
+@media (max-width: 991px) { .mf-asset-card { flex-basis: calc(50% - 12px); } }
+@media (max-width: 767px) { .mf-asset-card { flex: 1 1 100%; max-width: 420px; } }

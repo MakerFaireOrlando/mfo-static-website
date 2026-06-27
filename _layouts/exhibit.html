@@ -7,7 +7,6 @@
 <div class="flag-banner header-flag"></div>
 {% include topnav.html %}
 <div id="page_content">
-  <div><a href="/attend/"><img class="img-responsive" src="/assets/images/site-branding/2021/exhibit-page-banner-2021.jpg" alt="Exhibit header banner"></a></div>
   <div id="page-body">
     <div class="container" id="exhibit-{{page.exhibit-id}}">
     <!- created-jotform: {{page.created-jotform}}->
@@ -18,33 +17,35 @@
     <div>
       <img class="img-responsive entry-image" src="{{page.image-primary.large.url}}" 
           width="{{page.image-primary.large.width}}" height="{{page.image-primary.large.height}}" alt="{{page.title}}">
-      <p class="lead">{{page.description-long | newline_to_br}}</p>
+      <p class="exhibit-description">{{page.description-long | newline_to_br}}</p>
+
+      <div class="entry-categories mf-tags">
+        {%- for category in page.categories -%}
+        {%- if category.name -%}
+        <a class="mf-tag" href="/exhibits/categories/{{ category.slug }}/">{{ category.name }}</a>
+        {%- endif -%}{%- endfor -%}
+      </div>
+
+      <div class="exhibit-meta">
+        {% if site.data.settings.maker_exhibits_show_location %}
+        <div class="exhibit-meta-item">
+          <span class="exhibit-meta-label">Zone</span>
+          <span class="exhibit-meta-value">{{ page.exhibit-zone }}</span>
+        </div>
+        <div class="exhibit-meta-item">
+          <span class="exhibit-meta-label">Space</span>
+          <span class="exhibit-meta-value">{% if page.combat-robot == true %}Combat Robot Pits{% else %}{{ page.space-number }}{% if page.space-number != "Unassigned" %} <em>(subject to change)</em>{% endif %}{% endif %}</span>
+        </div>
+        {% endif %}
+        <div class="exhibit-meta-item">
+          <span class="exhibit-meta-label">Exhibit #</span>
+          <span class="exhibit-meta-value">{{ page.exhibit-id }}</span>
+        </div>
+      </div>
 
       {% if page.website %}
       <p><a href="{{page.website}}" class="btn btn-info" target="_blank" rel="noopener">Learn More</a></p>
       {% endif %}
-
-
-      <div class="entry-categories" style="margin-bottom: 10px">
-        <b>Categories: </b>
-        {%- for category in page.categories -%}
-        {%- if category.name -%}
-        {%- if forloop.first == false %},&nbsp{%- endif -%}
-        <a href="/exhibits/categories/{{category.slug}}/">{{- category.name -}}</a>
-        {%- endif -%}{%- endfor -%}
-      </div>
-
-      {% if site.data.settings.maker_exhibits_show_location %}
-      <p><b>Exhibit Zone:</b> {{page.exhibit-zone}}</p>
-
-      {% if page.combat-robot == true %}
-        <p><b>Exhibit Space:</b> Combat Robot Pits</p>
-      {% else %}
-        <p><b>Exhibit Space:</b> {{page.space-number}} {% if page.space-number != "Unassigned" %}(Subject to Change){%endif%}</p>
-      {% endif %}
-      
-      {%endif%}
-      <p><b>Exhibit Number:</b> {{page.exhibit-id}}</p>
     
 
 
@@ -58,57 +59,31 @@
     {% endif %}
 
 
+      {%- comment -%} Exhibit photo gallery — uniform tiles, click to open the
+        full image. Replaces the legacy Bootstrap carousel; renders only when
+        there are additional photos. {%- endcomment -%}
+      {%- assign numImages = page.additional-images | size -%}
+      {%- if numImages > 0 -%}
       <section class="exhibitPhotos" style="margin-top:30px; margin-bottom:30px">
-					<div id="exhibitPhotoCarousel" class="carousel slide" data-ride="carousel">
-            {%- assign numImages = page.additional-images | size -%}
-            {%-if numImages > 1 -%}
-    					<!-- Indicators -->
-    					<ol class="carousel-indicators">
-                {%- for image in page.additional-images -%}
-                    {%- if forloop.first -%}
-    					       <li data-target="exhibitPhotoCarousel" data-slide-to="0" class="active"></li>
-                     {%- else -%}
-                     <li data-target="exhibitPhotoCarousel" data-slide-to="{{forloop.index | minus: 1}}"></li>
-                     {%- endif -%}
-                   {%- endfor -%}
-            	</ol>
-            {%- endif -%}
-					<!-- Wrapper for slides -->
-  					<div class="carousel-inner">
-              {%- for image in page.additional-images -%}
-                  {%- if forloop.first -%}
-					          <div class="item active">
-                  {%- else -%}
-                    <div class="item">
-                  {%- endif -%}
-                     <img src="{{image.large.url}}" width="{{image.large.width}}" height="{{image.large.height}}" 
-                        alt="{{page.title}} - exhibit image {{forloop.index}}">
-                   </div>
-              {%- endfor -%}
-
-          {%-if numImages > 1 -%}
-  					<!-- Left and right controls -->
-   					<a class="left carousel-control" href="#exhibitPhotoCarousel" data-slide="prev">
-      					<span class="glyphicon glyphicon-chevron-left" style="color:gray"></span>
-      					<span class="sr-only">Previous</span>
-    					</a>
-    					<a class="right carousel-control" href="#exhibitPhotoCarousel" data-slide="next">
-      					<span class="glyphicon glyphicon-chevron-right" style="color:gray"></span>
-      					<span class="sr-only">Next</span>
-    					</a>
-           {%- endif -%}
-					</div>
+        <div class="exhibit-gallery">
+          {%- for image in page.additional-images -%}
+          <a class="exhibit-gallery-item" href="{{ image.large.url }}" target="_blank" rel="noopener">
+            <img src="{{ image.large.url }}" width="{{ image.large.width }}" height="{{ image.large.height }}" loading="lazy" decoding="async" alt="{{ page.title }} — photo {{ forloop.index }}">
+          </a>
+          {%- endfor -%}
         </div>
       </section>
+      {%- endif -%}
 
 
-    <h2>Maker</h2><hr>
+    <h2>Maker</h2>
+    <div class="maker-card">
       <div class="row center-block maker-profile-row">
         <img class="col-md-3 pull-left img-responsive" src="{{page.maker.image-primary.url}}" 
             width="{{page.maker.image-primary.width}}" height="{{page.maker.image-primary.height}}" alt="{{page.maker.name}}">
         <div class="col-md-7">
           <h3>{{page.maker.name}}</h3>
-              {{page.maker.description}}
+              <div class="exhibit-description">{{page.maker.description}}</div>
               <div class="row exhibit-social-row">
                 {% if page.maker.website %}
                  <div class="col-md-4 pull-left"><a href="{{page.maker.website}}" class="btn btn-info" target="_blank" rel="noopener">Learn More</a></div>
@@ -116,19 +91,19 @@
                    <div class="col-md-5">
                      <ul class="list-inline">
                        {% if page.maker.twitter %}
-                        <li><a href="{{page.maker.twitter}}" target="_blank" rel="noopener" <i="" class="fa-brands fa-twitter fa-2xl" aria-hidden="true"></a></li>
+                        <li><a href="{{page.maker.twitter}}" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-twitter fa-2xl" aria-hidden="true"></i></a></li>
                        {% endif %}
                        {% if page.maker.instagram %}
-                       <li><a href="{{page.maker.instagram}}" target="_blank" rel="noopener" <i="" class="fa-brands fa-instagram fa-2xl" aria-hidden="true"></a></li>
+                       <li><a href="{{page.maker.instagram}}" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram fa-2xl" aria-hidden="true"></i></a></li>
                        {% endif %}
                        {% if page.maker.facebook %}
-                        <li><a href="{{page.maker.facebook}}" target="_blank" rel="noopener" <i="" class="fa-brands fa-facebook fa-2xl" aria-hidden="true"></a></li>
+                        <li><a href="{{page.maker.facebook}}" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook fa-2xl" aria-hidden="true"></i></a></li>
                        {% endif %}
                        {% if page.maker.youtube %}
-                        <li><a href="{{page.maker.youtube}}" target="_blank" rel="noopener" <i="" class="fa-brands fa-youtube fa-2xl" aria-hidden="true"></a></li>
+                        <li><a href="{{page.maker.youtube}}" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube fa-2xl" aria-hidden="true"></i></a></li>
                        {% endif %}
                        {% if page.maker.tiktok %}
-                        <li><a href="{{page.maker.tiktok}}" target="_blank" rel="noopener" <i="" class="fa-brands fa-tiktok fa-2xl" aria-hidden="true"></a></li>
+                        <li><a href="{{page.maker.tiktok}}" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok fa-2xl" aria-hidden="true"></i></a></li>
                        {% endif %}
                     </ul>
                   </div>
@@ -138,20 +113,48 @@
 
         </div>
       </div>
+    </div>
 
     </div>
 
-    <div style="margin-top:20px;margin-bottom:20px;height:15px;background-color:#00597E"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <a href="/exhibits/"><img class="aligncenter size-full" src="/assets/images/site-branding/explore-the-exhibits.png" alt="Explore the Exhibits"></a>
+    {% comment %} More to Explore — link to this exhibit's first 4 categories,
+       each card using a representative photo from an exhibit in that category. {% endcomment %}
+    <section class="mf-card-section is-light">
+      <div class="container">
+        <div class="mf-section-head">
+          <h2>More to Explore</h2>
+          <p>Browse other exhibits in these categories.</p>
         </div>
-        <div class="col-sm-6">
-          <a href="/exhibits/"><img class="aligncenter size-full" src="/assets/images/site-branding/meet-the-makers.png" alt="Meet the Makers"></a>
+        <div class="mf-card-grid">
+          {% assign shownCats = 0 %}
+          {% for c in page.categories %}
+            {% if shownCats >= 4 %}{% break %}{% endif %}
+            {% if c.slug and c.name %}
+              {% comment %} representative image: a RANDOM non-self, non-combat exhibit
+                 in this category (collect all candidates, then sample). {% endcomment %}
+              {% assign catImgs = "" %}
+              {% for e in site.exhibits %}
+                {% if e.url == page.url %}{% continue %}{% endif %}
+                {% unless e.exhibit-id contains "R" %}
+                  {% for ec in e.categories %}
+                    {% if ec.slug == c.slug and e.image-primary.large.url %}{% assign catImgs = catImgs | append: e.image-primary.large.url | append: "," %}{% break %}{% endif %}
+                  {% endfor %}
+                {% endunless %}
+              {% endfor %}
+              {% assign imgList = catImgs | split: "," %}
+              {% if imgList.size > 0 %}{% assign thumb = imgList | sample %}{% else %}{% assign thumb = page.image-primary.large.url %}{% endif %}
+              <a class="mf-card" href="/exhibits/categories/{{ c.slug }}/">
+                <div class="mf-card-media" style="background-image:url('{{ thumb }}')">
+                  <span class="mf-card-label">{{ c.name }}</span>
+                </div>
+              </a>
+              {% assign shownCats = shownCats | plus: 1 %}
+            {% endif %}
+          {% endfor %}
         </div>
+        <p class="text-center" style="margin-top:28px;"><a class="mf-link-arrow" href="/exhibits/">See all exhibits</a></p>
       </div>
-    </div>
+    </section>
 
   </div>
 </div>
@@ -162,6 +165,49 @@
 {% include scripts.html %}
 {% include optional-js.html %}
 
+{%- if page.additional-images.size > 0 -%}
+<script>
+/* Exhibit gallery lightbox — click a tile to view it large, with prev/next.
+   No-JS fallback: the tile link opens the image directly. */
+(function () {
+  var links = Array.prototype.slice.call(document.querySelectorAll('.exhibit-gallery-item'));
+  if (!links.length) return;
+  var idx = 0;
+  var box = document.createElement('div');
+  box.className = 'mf-lightbox';
+  box.setAttribute('role', 'dialog');
+  box.setAttribute('aria-label', 'Exhibit photo viewer');
+  box.innerHTML =
+    '<button class="mf-lightbox-close" type="button" aria-label="Close">&times;</button>' +
+    '<button class="mf-lightbox-prev" type="button" aria-label="Previous photo">&#8249;</button>' +
+    '<img class="mf-lightbox-img" alt="">' +
+    '<button class="mf-lightbox-next" type="button" aria-label="Next photo">&#8250;</button>';
+  document.body.appendChild(box);
+  var img = box.querySelector('.mf-lightbox-img');
+  var nav = box.querySelectorAll('.mf-lightbox-prev, .mf-lightbox-next');
+  if (links.length < 2) { nav.forEach(function (b) { b.style.display = 'none'; }); }
+  function show(i) {
+    idx = (i + links.length) % links.length;
+    img.src = links[idx].getAttribute('href');
+    var inner = links[idx].querySelector('img');
+    img.alt = inner ? inner.alt : '';
+  }
+  function openAt(i) { show(i); box.classList.add('is-open'); document.body.style.overflow = 'hidden'; }
+  function close() { box.classList.remove('is-open'); document.body.style.overflow = ''; }
+  links.forEach(function (a, i) { a.addEventListener('click', function (e) { e.preventDefault(); openAt(i); }); });
+  box.querySelector('.mf-lightbox-close').addEventListener('click', close);
+  box.querySelector('.mf-lightbox-prev').addEventListener('click', function (e) { e.stopPropagation(); show(idx - 1); });
+  box.querySelector('.mf-lightbox-next').addEventListener('click', function (e) { e.stopPropagation(); show(idx + 1); });
+  box.addEventListener('click', function (e) { if (e.target === box) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (!box.classList.contains('is-open')) return;
+    if (e.key === 'Escape') close();
+    else if (e.key === 'ArrowLeft') show(idx - 1);
+    else if (e.key === 'ArrowRight') show(idx + 1);
+  });
+})();
+</script>
+{%- endif -%}
 
 </body>
 

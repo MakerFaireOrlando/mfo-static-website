@@ -43,6 +43,7 @@
     </div>
 
       <div id="header-cta-button">
-      	<a class="btn btn-primary" href="{{site.data.cta.topnav.url}}">{{site.data.cta.topnav.text}}</a></div>
+      	{% if site.data.settings.tickets_on_sale %}{% assign nav_cta = site.data.cta.topnav %}{% else %}{% assign nav_cta = site.data.cta.topnav_newsletter %}{% endif %}
+      	<a class="btn btn-primary" href="{{ nav_cta.url }}">{{ nav_cta.text }}</a></div>
       </div>
   </nav>

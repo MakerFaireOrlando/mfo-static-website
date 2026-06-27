@@ -1,13 +1,29 @@
 
 maker_exhibits_holdover: true
-maker_exhibits_show_location: false
+maker_exhibits_show_location: true
 
 call_for_makers_open: false
+# Exhibit application URL — shown as the "Apply to Exhibit" button on
+# /exhibit-at-maker-faire-orlando/ when call_for_makers_open is true.
+# UPDATE this to the current year's form before flipping the flag.
+cfm_url: https://www.jotform.com/makereffect/cfm2026
+
+# Volunteer registration. When open, /volunteer/ shows the Humanitix shift
+# widget; when closed it shows an "opening soon" message.
+# UPDATE volunteer_checkout to the current year's Humanitix slug each year.
+volunteer_open: false
+volunteer_checkout: maker-faire-orlando-2025-volunteer-registration
+
+# Ticket sales. When true, /attend/ shows the Humanitix ticket widget;
+# when false it shows a "tickets not on sale yet" message instead.
+tickets_on_sale: false
 
 #homepage settings
 featured_makers: false
 event_shirt_promo: false
-explore_meet_makers: false
+# Show links/arrows on the "Explore the Faire" cards. Set false early in the
+# year before the category/stage pages have fresh content to link to.
+explore_card_links: true
 
 footer_ad: false
 footer_ad_url: /attend/

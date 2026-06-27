@@ -1,0 +1,70 @@
+# Builds the Jekyll site on GitHub's runners and deploys it to a Netlify site,
+# so the heavy lifting stays on GitHub. A shallow checkout (the default
+# fetch-depth: 1) pulls only the current tree (~284 MB of images), NOT the
+# multi-GB git history — which is why we build here instead of letting Netlify
+# clone the repo itself.
+#
+# Setup (one-time): create a Netlify site (NOT connected to this git repo), then
+# add two repo secrets — NETLIFY_AUTH_TOKEN (Netlify > User settings > Apps >
+# personal access token) and NETLIFY_SITE_ID (the site's API ID). See
+# _documentation/build-deploy.md.
+
+name: Build & deploy to Netlify
+
+on:
+  push:
+    branches: [redesign]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# A newer push supersedes an in-flight deploy of the same branch.
+concurrency:
+  group: netlify-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout (shallow)
+        uses: actions/checkout@v4
+        with:
+          # Always publish the redesign branch, regardless of how this runs
+          # (push or manual dispatch) — never master.
+          ref: redesign
+        # fetch-depth: 1 (default) pulls the FULL current tree (all tracked
+        # files, incl. every exhibit image) — just not the ~4 GB history.
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          # Ruby version comes from .ruby-version. Gemfile.lock is gitignored,
+          # so bundler resolves fresh for Linux here (no Windows lock in CI).
+          bundler-cache: true
+
+      - name: Build site (full config — includes images + JSON feeds)
+        run: bundle exec jekyll build
+        env:
+          # development (NOT production): off GitHub Pages, the github-pages gem
+          # mis-derives baseurl in production (breaks every asset URL), and a
+          # preview shouldn't fire the production analytics/Facebook pixel.
+          JEKYLL_ENV: development
+          # Quiets the github-pages metadata plugin (needs the repo name).
+          PAGES_REPO_NWO: ${{ github.repository }}
+
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v3
+        with:
+          publish-dir: ./_site
+          production-deploy: true
+          deploy-message: ${{ github.event.head_commit.message }}
+          enable-pull-request-comment: false
+          enable-commit-comment: false
+          enable-github-deployment: false
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 10

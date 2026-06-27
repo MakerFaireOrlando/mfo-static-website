@@ -47,7 +47,7 @@ We maintain a list of local makers that are willing to do demonstrations or talk
 
 **Stay up to date with the latest on the Maker Movement in Central Florida with our [Maker Faire Orlando Educator email newsletter](https://eepurl.com/buLkzr).**
 
-If you would like to learn more about [Maker Faire Orlando](https://www.makerfaireorlando.com/) or for assistance bringing the maker movement into your classroom, email us at <makers@makerfaireorlando.com>
+If you would like to learn more about [Maker Faire Orlando](https://www.makerfaireorlando.com/) or for assistance bringing the maker movement into your classroom, [email us](mailto:makers@makerfaireorlando.com)
 
 ### Other Resources
 
@@ -61,4 +61,4 @@ If you would like to learn more about [Maker Faire Orlando](https://www.makerfa
 
 * [Melrose Center](http://tic.ocls.info/) is part of the Orange County Library System that uses their experience as providers of informal learning and technology education to provide services for community members to gain the understanding required to be both contributor to, developer for, and consumer of today's emerging technologies.
 
-**If you would like to learn more about [Maker Faire Orlando](https://www.makerfaireorlando.com/) or for assistance bringing the maker movement into your classroom, email us at <makers@makerfaireorlando.com>**
+**If you would like to learn more about [Maker Faire Orlando](https://www.makerfaireorlando.com/) or for assistance bringing the maker movement into your classroom, [email us](mailto:makers@makerfaireorlando.com)**

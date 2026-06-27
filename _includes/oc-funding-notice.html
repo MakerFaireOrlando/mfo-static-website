@@ -1,0 +1,8 @@
+{% comment %}
+  Orange County funding acknowledgment — single source for the wording.
+  Used in _includes/footer-notices.html (site footer) and pages/become-a-sponsor.md.
+  Optional params:
+    class — wrapper <p> classes (default suits the footer)
+    style — inline style on the <p> (e.g. margin spacing)
+{% endcomment %}
+<p class="{{ include.class | default: 'copyright-footer text-center' }}"{% if include.style %} style="{{ include.style }}"{% endif %}>This project is funded in part by Orange County, Florida through the Arts &amp; Cultural Affairs Program.</p>

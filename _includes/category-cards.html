@@ -1,0 +1,74 @@
+{% comment %}
+  2026 redesign — "Explore the Faire" category cards (Bay Area event-page pattern).
+  Edit the array below to change which exhibit categories are featured.
+  Styles: .mf-card-section / .mf-card-grid / .mf-card in assets/css/mfo-redesign.css
+
+  settings.explore_card_links (true/false): when false, the cards are shown but
+  not linked (no href, no "See ... ->" arrow). Use early in the year before the
+  new category / stage pages have fresh content to link to.
+{% endcomment %}
+{% assign card_links = site.data.settings.explore_card_links %}
+<section class="mf-card-section is-light">
+  <div class="container">
+    <div class="mf-section-head">
+      <h2>Explore the Faire</h2>
+      <p>Hundreds of makers across dozens of categories — here's a taste of what you'll discover.</p>
+    </div>
+    <div class="mf-card-grid mf-card-grid--3up">
+
+        <a class="mf-card"{% if card_links %} href="{{ '/exhibits/categories/cosplay/' | relative_url }}"{% endif %}>
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/fred-and-elle-cosplay-painting.jpg' | relative_url }}')">
+          <span class="mf-card-label">Art &amp; Cosplay</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Award-winning costumes, props, and makers turning imagination into art.</p>
+          {% if card_links %}<span class="mf-link-arrow">See art</span>{% endif %}
+        </div>
+      </a>
+
+      <a class="mf-card"{% if card_links %} href="{{ '/stage/' | relative_url }}"{% endif %}>
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/stage/stage-talks-2025.jpg' | relative_url }}')">
+          <span class="mf-card-label">Stage Talks &amp; Special&nbsp;Guests</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Featured guests, panels, and live performances on the Maker Faire stage.</p>
+          {% if card_links %}<span class="mf-link-arrow">See the lineup</span>{% endif %}
+        </div>
+      </a>
+
+      <a class="mf-card"{% if card_links %} href="{{ '/exhibits/categories/hands-on-workshop/' | relative_url }}"{% endif %}>
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/learn-to-solder-3.jpg' | relative_url }}')">
+          <span class="mf-card-label">Hands-On Workshops</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Learn to solder, build, and make something to take home with you.</p>
+          {% if card_links %}<span class="mf-link-arrow">Get hands-on</span>{% endif %}
+        </div>
+      </a>
+
+      <a class="mf-card"{% if card_links %} href="{{ '/exhibits/categories/combat-robots/' | relative_url }}"{% endif %}>
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/robot-ruckus-small-arena.jpg' | relative_url }}')">
+          <span class="mf-card-label">Robots &amp; Combat</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Watch fighting robots battle it out in the arena and meet the builders behind them.</p>
+          {% if card_links %}<span class="mf-link-arrow">See robots</span>{% endif %}
+        </div>
+      </a>
+
+      <a class="mf-card"{% if card_links %} href="{{ '/exhibits/categories/3d-printing/' | relative_url }}"{% endif %}>
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/3dprinter.jpg' | relative_url }}')">
+          <span class="mf-card-label">3D Printing &amp; Tech</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Cutting-edge printers, electronics, and the latest in digital fabrication.</p>
+          {% if card_links %}<span class="mf-link-arrow">See tech</span>{% endif %}
+        </div>
+      </a>
+
+    </div>
+    <p class="text-center" style="margin-top: 36px; margin-bottom: 0;">
+      <a class="btn btn-primary" href="{{ '/exhibits/' | relative_url }}">See All Exhibits</a>
+    </p>
+  </div>
+</section>

@@ -1,6 +1,6 @@
 ---
 title: Field Trip Day
-layout: default
+layout: full-width
 permalink: /field-trip-day/
 redirect_from: 
   - /education-day/
@@ -39,93 +39,156 @@ footer-cta: false
 page_footer_ad: false 
 ---
 
-# Field Trip Day at Maker Faire Orlando – {% include date-edu.html %}
-
-The Maker Effect Foundation and our sponsors invite students to experience a one-of-a-kind day of hands-on learning, creativity, and innovation during our second annual Field Trip Day on Friday, {% include date-edu.html %} from {{ site.data.settings.edu_hours }}.
-
-This special preview day is designed exclusively for public, private, and charter school field trips, homeschool students, co-ops and full-time virtual school students. Students and educators will have the chance to immerse themselves in interactive exhibits and engage directly with makers, artists, engineers, and inventors from across Florida.
-
-Whether it’s screen printing a custom t-shirt, driving a robot or drone, or collaborating on an art project, there’s something to spark every student’s curiosity and imagination. With a focus on STEAM (Science, Technology, Engineering, Art, and Math), the day is full of enriching experiences that bring learning to life.
-
-Field Trip Day provides a unique opportunity for students and educators to:
-* Meet and interact with real-world makers and creators
-* Explore innovative technologies and artistic processes
-* Participate in hands-on projects designed to inspire creativity and critical thinking
-* Discover potential career paths and hobbies rooted in the maker mindset
-
-This event takes place ahead of Maker Faire Orlando, giving students access to exhibits, reduced crowds, and dedicated programming tailored to young learners and educators.
-
-### Planning Your Field Trip Day 
-
-Read our [Educator's Guide](/assets/pdf/2025/MFO-Educators-Guide-Print.pdf) which includes an introduction to Maker Faire, details on Field Trip Day, and ways to prepare your students with prompts and projects. NOTE: We have not yet updated the guide for 2026. It will be updated with the new schedule and details closer to the event. 
-
-<div style="margin-bottom:20px"><a href="/assets/pdf/2025/MFO-Educators-Guide-Print.pdf"><img src="/assets/pdf/2025/MFO-Educators-Guide.jpg" alt="Maker Faire Orlando Educator's Guide" width="400px"></a></div>
-
-Check out the [exhibits](/exhibits/), [hands-on workshops](/exhibits/categories/hands-on-workshop/), [schedule](/schedule/) and more! 
-
-**We've added a new [Field Trip Day Exhibit Category](/exhibits/categories/field-trip-day) to make it easy to see the exhibits that will be available!** 
-
-
-
-
-### School Field Trips 
-If you are an educator affiliated with a school, this program includes free admission for students, teachers, administrators and chaperones. 
-
-{% comment %}
-<strong>WE ARE UNABLE TO ACCOMODATE ANY ADDITIONAL SCHOOL GROUPS DUE TO AN AMAZING RESPONSE FOR THIS PROGRAM.</strong> If this is a significant hardship, please email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
-
-**The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.** 
-
-{% endcomment %}
-
-
-
-### Homeschool & Virtual School Groups 
-If your student is homeschooled, or is part of a full-time virtual school program, this program includes free admission for students and and a parent or guardian. This program is limited to one adult per student. Participants will be required to upload documentation showing homeschool or full-time virtual school status. 
-
-{% comment %}
-**The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.** 
-{% endcomment %}
-
-### Important Notes
-
-* Info emails are being sent from makers@makerfaireorlando.com. If you registered, you should have received multiple emails from us. If you have not, please check junk / spam filters. **OCPS Teachers - some of our emails are filtered by the OCPS email system. If we are not responding to your emails, please use an alternate email address.**
-
-* All students must be supervised at the event by an adult at all times. Please plan for proper adult / student ratios and supervision. 
-
-* **WE ARE UNABLE TO ACCEPT ANYONE THAT ARRIVES ON THE DAY OF THE EVENT WITHOUT COMPLETING THIS PROCESS. THE DEADLINE TO SUBMIT THIS REQUEST FORM IS OCTOBER 23RD. PLEASE SUBMIT AS SOON AS POSSIBLE AS WE EXPECT TO REACH CAPACITY 6 TO 8 WEEKS IN ADVANCE OF THE EVENT**
-
-* All group members must check-in at the same time. Parking and Check-in instructions will be sent before the event. 
-
-* This program is limited to Field Trip Day, and **Field Trip Day admission will NOT be valid for Maker Faire Orlando main event days.** 
-
-### Questions? Email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
-
-
-
-<br>
-## [Registration Form Link](https://form.jotform.com/makereffect/mfo2026-field-trip-day)
-
-
-{% comment %}
-<strong>WE ARE UNABLE TO ACCOMODATE ANY ADDITIONAL SCHOOL GROUPS DUE TO AN AMAZING RESPONSE FOR THIS PROGRAM.</strong> If this is a significant hardship, please email us at [makers@makerfaireorlando.com](mailto:makers@makerfaireorlando.com)
-{% endcomment %}
-
-<br>
-
-
-**Field Trip Day details including activities, event hours, etc. are subject to change.** 
-
-{%comment%}
-
-<div class="faq-container">
-  <details class="faq-item">
-    <summary class="faq-question">What is Maker Faire Orlando?</summary>
-    <div class="faq-answer">
-      <p>
-        Maker Faire is a gathering of fascinating, curious people who enjoy learning and who love sharing what they can do. From engineers to artists to scientists to crafters, Maker Faire is a venue for these “makers” to show hobbies, experiments, projects.
-      </p>  
+<!-- Lead intro -->
+<section class="mf-prose-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="title-w-border-y"><h1>Field Trip Day</h1></div>
     </div>
-  </details>
-</div>
-{%endcomment%}
+    <p class="ftd-kicker">{{ site.data.settings.event_dates.edu_day | date: "%A, %B %-d, %Y" }} &middot; {{ site.data.settings.edu_hours }}</p>
+    <p class="mf-prose mf-lead text-center">A one-of-a-kind day of hands-on learning, creativity, and innovation for students.</p>
+    <p class="mf-prose">The Maker Effect Foundation and our sponsors invite students to experience our annual Field Trip Day. This special preview day is designed exclusively for public, private, and charter school field trips, homeschool students, co-ops, and full-time virtual school students. Students and educators immerse themselves in interactive exhibits and engage directly with makers, artists, engineers, and inventors from across Florida.</p>
+    <p class="mf-prose">Whether it’s screen printing a custom t-shirt, driving a robot or drone, or collaborating on an art project, there’s something to spark every student’s curiosity and imagination. With a focus on <strong class="mf-hl">STEAM</strong> (Science, Technology, Engineering, Art, and Math), the day is full of enriching experiences that bring learning to life — with access to exhibits, reduced crowds, and dedicated programming tailored to young learners and educators.</p>
+  </div>
+</section>
+
+<!-- What students will do -->
+<section class="mf-card-section is-light">
+  <div class="container">
+    <div class="mf-section-head">
+      <h2>A Day of Discovery</h2>
+      <p>Field Trip Day gives students and educators a unique opportunity to:</p>
+    </div>
+    <div class="mf-card-grid">
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/lathe-demo.jpg' | relative_url }}')">
+          <span class="mf-card-label">Meet Makers</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Interact with real-world makers and creators from across Florida.</p>
+        </div>
+      </a>
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/retro-computers-kid-cropped.jpg' | relative_url }}')">
+          <span class="mf-card-label">Explore</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Discover innovative technologies and artistic processes up close.</p>
+        </div>
+      </a>
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/button-making-girl.jpg' | relative_url }}')">
+          <span class="mf-card-label">Build</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Take part in hands-on projects designed to inspire creativity and critical thinking.</p>
+        </div>
+      </a>
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/field-trip-day/ftd-cosplay.jpg' | relative_url }}')">
+          <span class="mf-card-label">Imagine</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Discover potential career paths and hobbies rooted in the maker mindset.</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Planning your visit -->
+<section class="mf-prose-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="title-w-border-y"><h2>Planning Your Field Trip Day</h2></div>
+    </div>
+    <p class="mf-prose text-center">Read our Educator’s Guide for an introduction to Maker Faire, details on Field Trip Day, and ways to prepare your students with prompts and projects. <em>Note: we have not yet updated the guide for 2026 — it will be refreshed with the new schedule and details closer to the event.</em></p>
+    <div class="mf-asset-grid">
+      <figure class="mf-asset-card">
+        <a class="mf-asset-thumb" href="/assets/pdf/2025/MFO-Educators-Guide-Print.pdf" target="_blank" rel="noopener">
+          <img src="/assets/pdf/2025/MFO-Educators-Guide.jpg" alt="Maker Faire Orlando Educator's Guide" loading="lazy">
+        </a>
+        <figcaption class="mf-asset-body">
+          <h3>Educator’s Guide</h3>
+          <p>Prep your students with prompts, projects, and a primer on Maker Faire.</p>
+          <a class="mf-link-arrow" href="/assets/pdf/2025/MFO-Educators-Guide-Print.pdf" target="_blank" rel="noopener">Download PDF</a>
+        </figcaption>
+      </figure>
+    </div>
+    <p class="mf-prose text-center">Check out the <a href="/exhibits/">exhibits</a>, <a href="/exhibits/categories/hands-on-workshop/">hands-on workshops</a>, <a href="/schedule/">schedule</a>, and more! We’ve added a <strong><a href="/exhibits/categories/field-trip-day">Field Trip Day Exhibit Category</a></strong> to make it easy to see the exhibits that will be available.</p>
+  </div>
+</section>
+
+<!-- Who it's for -->
+<section class="mf-card-section is-light">
+  <div class="container">
+    <div class="mf-section-head">
+      <h2>Who Can Take Part</h2>
+      <p>Free admission is available through two programs.</p>
+    </div>
+    <div class="mf-card-grid">
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/educator-page-header-bok-academy.jpg' | relative_url }}')">
+          <span class="mf-card-label">School Field Trips</span>
+        </div>
+        <div class="mf-card-body">
+          <p>If you’re an educator affiliated with a school, this program includes free admission for students, teachers, administrators, and chaperones.</p>
+          {% comment %}
+          <strong>WE ARE UNABLE TO ACCOMMODATE ANY ADDITIONAL SCHOOL GROUPS DUE TO AN AMAZING RESPONSE FOR THIS PROGRAM.</strong> If this is a significant hardship, please email us at makers@makerfaireorlando.com.
+
+          <strong>The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.</strong>
+          {% endcomment %}
+        </div>
+      </a>
+
+      <a class="mf-card">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/homeschool-page-header.jpg' | relative_url }}')">
+          <span class="mf-card-label">Homeschool &amp; Virtual School</span>
+        </div>
+        <div class="mf-card-body">
+          <p>Homeschooled and full-time virtual students receive free admission for the student plus one parent or guardian (one adult per student). Documentation of homeschool or full-time virtual status is required.</p>
+          {% comment %}
+          <strong>The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.</strong>
+          {% endcomment %}
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Registration -->
+<section class="mf-prose-section" id="register">
+  <div class="container">
+    <div class="mf-apply-callout is-open">
+      <span class="mf-status-tag">Now Open</span>
+      <h2>Register for Field Trip Day</h2>
+      <p>Complete the registration form to reserve your spot. <strong>We cannot accept anyone who arrives on the day of the event without completing this process.</strong> Spots fill quickly — we expect to reach capacity 6 to 8 weeks before the event.</p>
+      <a class="btn btn-primary" href="https://form.jotform.com/makereffect/mfo2026-field-trip-day">Registration Form</a>
+    </div>
+  </div>
+</section>
+
+<!-- Important notes -->
+<section class="mf-prose-section is-light">
+  <div class="container">
+    <div class="row text-center">
+      <div class="title-w-border-y"><h2>Important Notes</h2></div>
+    </div>
+    <ul class="mf-checklist">
+      <li>Info emails are sent from <a href="mailto:makers@makerfaireorlando.com">makers@makerfaireorlando.com</a>. If you registered and haven’t heard from us, check your junk/spam filters. <strong>OCPS teachers:</strong> some of our emails are filtered by the OCPS system — if we aren’t responding, please use an alternate email address.</li>
+      <li>All students must be supervised by an adult at all times. Please plan for proper adult-to-student ratios and supervision.</li>
+      <li>All group members must check in at the same time. Parking and check-in instructions are sent before the event.</li>
+      <li>This program is limited to Field Trip Day — <strong>Field Trip Day admission is NOT valid for Maker Faire Orlando main event days.</strong></li>
+      <li>Field Trip Day details, including activities and event hours, are subject to change.</li>
+    </ul>
+  </div>
+</section>
+
+{% include cta-panel-widget.html cta_text="Questions? Email Us" cta_url="mailto:makers@makerfaireorlando.com" %}

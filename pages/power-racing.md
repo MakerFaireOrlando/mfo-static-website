@@ -74,4 +74,4 @@ Use your pointer to drag your point of view for the 360 degree video!
 <iframe src="https://giphy.com/embed/cmm7Bixq0BxJ3cPg7L" width="960" height="540" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/maker-faire-power-racing-series-miami-cmm7Bixq0BxJ3cPg7L"></a></p>
 
 ---
-To enter the competition, email us at [makers@makerfaireorlando.com ](mailto:makers@makerfaireorlando.com)and we will send you the full information packet and help you get started on the road to victory! 
+To enter the competition, [email us](mailto:makers@makerfaireorlando.com) and we will send you the full information packet and help you get started on the road to victory! 
