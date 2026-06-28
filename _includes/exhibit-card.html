@@ -1,12 +1,11 @@
-<div class="item{%- for category in exhibit.categories -%}
-                          {%- if category.name -%}
-                            {{- category.slug | prepend: " " -}}
-                          {% endif %}
-                          {%- endfor -%}">
-          <div class="img-container"><a href="{{exhibit.url}}">
-            <img src="{{exhibit.image-primary.medium.url}}" alt="{{exhibit.title}}" 
-                width="{{exhibit.image-primary.medium.width}}" height="{{exhibit.image-primary.medium.height}}"></a>
-          </div>
-          <div class="title-container"><a href="{{exhibit.url}}">{{exhibit.title}}</a></div>
-          <div class="description-container" style="display:none">{{exhibit.description}}</div>
-        </div>
+<div class="item{%- for category in exhibit.categories -%}{%- if category.name -%}{{- category.slug | prepend: " " -}}{%- endif -%}{%- endfor -%}">
+  <div class="item-content">
+    <div class="img-container"><a href="{{exhibit.url}}">
+      <img src="{{exhibit.image-primary.medium.url}}" alt="{{exhibit.title}}"
+          loading="lazy" decoding="async"
+          {%- if exhibit.image-primary.medium.width and exhibit.image-primary.medium.height %} width="{{exhibit.image-primary.medium.width}}" height="{{exhibit.image-primary.medium.height}}" style="aspect-ratio: {{exhibit.image-primary.medium.width}} / {{exhibit.image-primary.medium.height}};"{%- endif %}></a>
+    </div>
+    <div class="title-container"><a href="{{exhibit.url}}">{{exhibit.title}}</a></div>
+    <div class="description-container" style="display:none">{{exhibit.description}}</div>
+  </div>
+</div>

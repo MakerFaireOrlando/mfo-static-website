@@ -547,9 +547,18 @@ used Edge `--headless=new --screenshot` against a local static server of `_site`
 
 ## 10. Exhibits grid / Isotope — assessment (DEFERRED to its own branch)
 
-> **Status: NOT started.** Per user (2026-06-25), this is intentionally **out of
-> scope for the `redesign` branch** and should be done on a **new dedicated
-> branch** later. Captured here so the analysis isn't lost.
+> **Status: IN PROGRESS on branch `isotope-rework` (2026-06-27).** Option **C
+> (Muuri)** chosen — to keep the masonry/collage feel + shuffle while dropping
+> the jQuery-Isotope dependency (a head start on the eventual Bootstrap-3/jQuery
+> migration). **Exhibits grid: migrated to Muuri** (`assets/js/exhibits-muuri.js`,
+> vanilla; masonry via `fillGaps`, shuffle via Fisher-Yates `grid.sort`, quick
+> search via `grid.filter` with a plain substring — no more regex pitfall,
+> lazy-loaded images with `aspect-ratio` so layout doesn't jump; the visual card
+> moved to `.item-content` so it doesn't fight Muuri's transform; old
+> `exhibits-isotope.js` deleted; `#exhibits-no-results` message added).
+> **Still on Isotope: the schedule** (`schedule-isotope.js`) — migrate next, then
+> Isotope/imagesLoaded can be dropped entirely. The analysis below is the
+> original pre-work assessment.
 
 **Current setup:** `/exhibits/` (layout `category`, `pages/exhibits.md`) renders
 all exhibits (~194 of 293 cards; `R`-prefixed combat robots excluded) via
