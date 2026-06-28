@@ -50,24 +50,18 @@ a.btn-b-ghost {
   min-width: 300px;
 }
 
-/* Schedule grid (Isotope) */
+/* Schedule = a plain vertical list of full-width event rows (filtered by
+   schedule-filter.js; no layout library). Card border/shadow come from
+   mfo-redesign.css; this just stacks the rows. */
 .events-container {
-  margin: auto;
+  margin: 0 auto;
 }
 
 .events-container .item {
-  background: white;
-  padding-top: 0px;
-  text-align: center;
-  border-radius: 4px;
-  margin-bottom: 20px;
-  border: 1px solid #e5e5e5;
-  min-width: 300px;
-  display:inline-block;
-}
-
-.events-container .item {
-  box-shadow: 4px 4px 10px #888888;
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 16px;
 }
 
 /* Optional footer-ad banner (rendered only when settings.footer_ad is on).
