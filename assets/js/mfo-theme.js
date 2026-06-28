@@ -44,10 +44,12 @@
   var fxBuilt = false;
   function buildInvasionFx() {
     if (fxBuilt || document.querySelector(".mf-invasion-fx")) { fxBuilt = true; return; }
-    // Only build the scene on pages that expose the UFO toggle — otherwise a
-    // layout without the navbar (e.g. the schedule app) would show an immersive
-    // scene the visitor has no way to turn off. The theme colors still apply.
-    if (!document.getElementById("theme-toggle")) { return; }
+    // Only build the scene on pages that have the header nav — a bare layout
+    // without it (e.g. the schedule app) would show an immersive scene the
+    // visitor has no way to turn off. Gating on the nav (not the UFO button)
+    // means /invasion/ still renders the full scene even when the UFO icon is
+    // hidden via settings.theme_invasion_icon. The theme colors always apply.
+    if (!document.getElementById("slide-nav")) { return; }
     var fx = document.createElement("div");
     fx.className = "mf-invasion-fx";
     fx.setAttribute("aria-hidden", "true");

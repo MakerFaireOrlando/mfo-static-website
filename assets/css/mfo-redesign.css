@@ -522,6 +522,11 @@ html[data-theme="invasion"] #theme-mode-toggle .mf-icon-sun { display: block; }
 
 .exhibits-container .item,
 .events-container .item {
+  /* Background was an opaque white from the legacy theme; tie it to the surface
+     token so the card flips with the theme (otherwise themed light text — e.g.
+     the schedule cards — sits on a white card and is unreadable). Identical to
+     the old white in light mode. */
+  background-color: var(--mf-surface) !important;
   border: 1px solid var(--mf-gray-200) !important;
   border-radius: var(--mf-radius) !important;
   box-shadow: var(--mf-shadow) !important;

@@ -23,17 +23,25 @@
 
   {% comment %}
     Theme restore — runs before paint so there is no flash of the wrong theme.
-    Applies the saved choice, or seeds the default from the OS dark-mode
-    preference on first visit. Full controller: assets/js/mfo-theme.js.
+    Applies the saved choice; on first visit uses the configured default
+    (settings.theme_default: light | dark | system). Full controller:
+    assets/js/mfo-theme.js.
   {% endcomment %}
   <script>
     (function () {
+      var def = {{ site.data.settings.theme_default | default: 'system' | jsonify }};
       try {
-        var saved = localStorage.getItem('mfo-theme');
-        var sysDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        document.documentElement.setAttribute('data-theme', saved || (sysDark ? 'dark' : 'light'));
+        var theme = localStorage.getItem('mfo-theme');
+        if (!theme) {
+          if (def === 'system') {
+            theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+          } else {
+            theme = def;
+          }
+        }
+        document.documentElement.setAttribute('data-theme', theme || 'light');
       } catch (e) {
-        document.documentElement.setAttribute('data-theme', 'light');
+        document.documentElement.setAttribute('data-theme', def === 'dark' ? 'dark' : 'light');
       }
     })();
   </script>

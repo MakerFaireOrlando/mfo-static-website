@@ -65,6 +65,23 @@
   background-color: var(--mf-bg);
 }
 
+/* Generic content text: the legacy theme hardcodes `body`/`p` to #4a4a4a, which
+   doesn't flip and goes low-contrast on the dark skin. Re-anchor plain content
+   text to the cream ink. :where() keeps specificity low so component rules with
+   an explicit token color (or !important) still win. */
+[data-theme="invasion"] :where(p, li, dd, dt, td, th, blockquote, figcaption, small, .text-muted) {
+  color: var(--mf-ink);
+}
+
+/* Bootstrap alerts: dark translucent surface, cream text, neon accent edge. */
+[data-theme="invasion"] .alert {
+  background-color: rgba(18, 17, 23, 0.85);
+  border-color: var(--mf-gray-200);
+  color: var(--mf-ink);
+}
+[data-theme="invasion"] .alert-warning { border-left: 4px solid var(--mf-lime); }
+[data-theme="invasion"] .alert a { color: var(--mf-magenta); }
+
 /* Headings glow lime; the big display headlines get a magenta edge. */
 [data-theme="invasion"] h1,
 [data-theme="invasion"] h2,

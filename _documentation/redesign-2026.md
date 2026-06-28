@@ -511,18 +511,44 @@ In light mode these alias the original values, so **the site renders
 identically** (verified). All other tokens (`--mf-ink`, `--mf-navy` as text,
 grays, `--mf-red`) are single-role and simply get new values per theme.
 
+**Legacy hardcoded text:** the old `minimakerfaire` theme hardcodes content text
+to `#4a4a4a` on bare `body`/`p` (not a token), so paragraphs stayed dark-on-dark
+in the themes. Both theme sheets re-anchor generic content text to the ink token
+with a low-specificity rule — `[data-theme="…"] :where(p, li, td, small,
+.text-muted, …) { color: var(--mf-ink); }` — chosen via `:where()` so any
+component that sets an explicit token color (or `!important`) still wins, and
+light mode is untouched. A full rendered-HTML sweep (all `_site/**`) confirmed no
+other hardcoded-dark-text-on-transparent text on the public pages; the only other
+touch-ups needed were **Bootstrap `.alert`** banners (light box → dark surface +
+light text + amber/lime warning accent, both themes) and a couple of inline gray
+status strings in the internal `schedule-editor` (switched to `opacity` so they
+inherit the themed color).
+
 ### No-flash + persistence + system preference
 
 - **No flash:** an inline `<script>` in `_includes/head.html` (right after the
   stylesheets) sets `<html data-theme="…">` **before paint** — from
-  `localStorage('mfo-theme')`, or seeded from the OS `prefers-color-scheme` on
-  first visit. Once the visitor clicks the toggle, their choice wins.
+  `localStorage('mfo-theme')`, or on first visit from the configured default
+  (`settings.theme_default`, see below). Once the visitor clicks a toggle, their
+  choice wins.
 - **Controller:** `assets/js/mfo-theme.js` (loaded unconditionally in
   `_includes/scripts.html`) wires both buttons, writes localStorage
   (`mfo-theme` + `mfo-base` for the light/dark base to restore after invasion),
   and **lazily builds the immersive FX scene** the first time invasion is
   activated (zero cost for everyone else). The sun/moon icon swaps via pure CSS
   on `data-theme`. If the UFO button is removed, the mode toggle still works.
+
+### Settings (`_data/settings.yaml`)
+
+| Setting | Default | Effect |
+|---|---|---|
+| `theme_toggle_enabled` | `true` | Show/hide the sun/moon **light↔dark** toggle in the header. |
+| `theme_default` | `system` | First-visit default when no saved choice: `light` \| `dark` \| `system` (follows OS `prefers-color-scheme`). A saved visitor choice always wins. |
+| `theme_invasion_icon` | `true` | Show/hide the **UFO** button. Hiding it does **not** disable invasion — `/invasion/` still triggers the skin (share-link / kiosk), and the scene still renders on pages with the nav. |
+
+The two header buttons are gated by `theme_toggle_enabled` / `theme_invasion_icon`
+in `_includes/topnav.html`; absent buttons are simply not wired (the controller is
+null-safe). The default feeds the no-flash head script.
 
 ### Immersive scene (invasion only)
 
@@ -533,9 +559,11 @@ grays, `--mf-red`) are single-role and simply get new values per theme.
 the invasion theme are slightly translucent so the scene shows through behind
 content; the navbar/content/footer are lifted above it via `z-index`.
 
-The scene is built **only on pages that expose the UFO toggle** — a topnav-less
-layout (e.g. the schedule app, `_layouts/schedule-app.html`) inherits the theme
-*colors* but never gets an immersive scene the visitor couldn't dismiss.
+The scene is built **only on pages that have the header nav** (`#slide-nav`) — a
+topnav-less layout (e.g. the schedule app, `_layouts/schedule-app.html`) inherits
+the theme *colors* but never gets an immersive scene the visitor couldn't
+dismiss. Gating on the nav (not the UFO button) means `/invasion/` still renders
+the full scene even when the UFO icon is hidden via settings.
 
 **Performance & a11y safeguards:** animations are strictly `transform`/`opacity`
 (the UFOs use a nested element so the horizontal sweep `translateX` and the

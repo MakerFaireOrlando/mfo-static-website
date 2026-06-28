@@ -18,6 +18,17 @@ volunteer_checkout: maker-faire-orlando-2025-volunteer-registration
 # when false it shows a "tickets not on sale yet" message instead.
 tickets_on_sale: false
 
+# Theme / dark mode settings (see _documentation/redesign-2026.md §6.17)
+# Show the sun/moon light<->dark toggle in the header.
+theme_toggle_enabled: false
+# First-visit default when the visitor has no saved choice: light | dark | system
+# ("system" follows the OS prefers-color-scheme). Once a visitor toggles, their
+# choice is remembered and wins over this.
+theme_default: system
+# Show the UFO button that enables the 2026 "Maker Invasion" skin. Hiding it does
+# NOT disable invasion — /invasion/ still triggers it (e.g. for a share link).
+theme_invasion_icon: false
+
 #homepage settings
 featured_makers: false
 event_shirt_promo: false

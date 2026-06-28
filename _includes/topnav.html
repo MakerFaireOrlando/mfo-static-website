@@ -43,7 +43,8 @@
     </div>
 
       <div id="header-theme-toggle">
-        <!-- Light / dark mode (permanent control) -->
+        {% if site.data.settings.theme_toggle_enabled != false %}
+        <!-- Light / dark mode (permanent control; toggle via theme_toggle_enabled) -->
         <button type="button" id="theme-mode-toggle" class="mf-theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">
           <svg class="mf-icon mf-icon-moon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
             <path d="M20 14.5 A8 8 0 1 1 9.5 4 A6.2 6.2 0 0 0 20 14.5 Z" fill="currentColor"/>
@@ -55,7 +56,9 @@
             </g>
           </svg>
         </button>
-        <!-- Maker Invasion mode (TEMPORARY 2026 skin) -->
+        {% endif %}
+        {% if site.data.settings.theme_invasion_icon != false %}
+        <!-- Maker Invasion mode (TEMPORARY 2026 skin; toggle via theme_invasion_icon) -->
         <button type="button" id="theme-toggle" class="mf-theme-toggle mf-theme-toggle--ufo" aria-pressed="false" aria-label="Activate Maker Invasion mode" title="Activate Maker Invasion mode">
           <svg class="mf-ufo-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
             <ellipse cx="12" cy="14" rx="9" ry="3.2" fill="currentColor"/>
@@ -66,6 +69,7 @@
             <path d="M9.5 17 L7 22 M14.5 17 L17 22" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" opacity="0.7"/>
           </svg>
         </button>
+        {% endif %}
       </div>
 
       <div id="header-cta-button">

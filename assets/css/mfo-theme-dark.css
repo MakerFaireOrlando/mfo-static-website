@@ -95,6 +95,26 @@
 /* Bootstrap horizontal rules / table borders on dark. */
 [data-theme="dark"] hr { border-top-color: var(--mf-gray-200); }
 
+/* Generic content text: the legacy theme hardcodes `body`/`p` (and a few
+   components) to #4a4a4a, which doesn't flip and goes low-contrast on dark
+   (e.g. the exhibits-header intro). Re-anchor plain content text to the themed
+   ink. :where() keeps this at low specificity so any component that sets an
+   explicit token color (or uses !important) still wins. */
+[data-theme="dark"] :where(p, li, dd, dt, td, th, blockquote, figcaption, small, .text-muted) {
+  color: var(--mf-ink);
+}
+
+/* Bootstrap alerts (e.g. the "Heads up!" / update-warning banners) default to a
+   light box with brown text — re-theme to a dark surface with light text and an
+   amber warning accent so they fit the dark UI (and don't end up dark-on-dark). */
+[data-theme="dark"] .alert {
+  background-color: var(--mf-surface);
+  border-color: var(--mf-gray-200);
+  color: var(--mf-ink);
+}
+[data-theme="dark"] .alert-warning { border-left: 4px solid #f0ad4e; }
+[data-theme="dark"] .alert a { color: var(--mf-red); }
+
 /* --- Logo chips ---------------------------------------------------------
  * Sponsor / partner / funding logos are designed for a white backdrop and many
  * are dark-ink-on-transparent (TMEF, Orange County, and ~half the sponsor set),
