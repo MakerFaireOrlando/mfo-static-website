@@ -43,7 +43,7 @@ Please note that our [Field Trip Day](/field-trip-day) is only for pre-registere
 
         <div class="col-md-4">
           <label class="search-filter-label">Filter by day:</label>
-          <select class="schedule-filters-select-day form-control" id="makers-category-select">
+          <select class="schedule-filters-select-day form-control" id="makers-day-select">
             <option value="" selected="">show all</option>
             <option value=".friday">Friday</option>
             <option value=".saturday">Saturday</option>
@@ -111,6 +111,8 @@ Please note that our [Field Trip Day](/field-trip-day) is only for pre-registere
         </div>
 {% endfor %}
 </div>
+
+<p id="schedule-no-results" style="display:none">No events match your search.</p>
 
 
 Event schedule subject to change at any time based on the availability of exhibiting makers, special guests, and venue conditions.

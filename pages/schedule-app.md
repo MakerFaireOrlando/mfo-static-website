@@ -2,7 +2,7 @@
 title: Event Schedule
 layout: schedule-app
 permalink: /schedule-app/
-isotope: true
+isotope-schedule: true
 ---
 
 # Event Schedule
@@ -33,7 +33,7 @@ Check out the [event program](/program) for a printable map, schedule and more!<
 
         <div class="col-md-4">
           <label class="search-filter-label">Filter by day:</label>
-          <select class="schedule-filters-select-day form-control" id="makers-category-select">
+          <select class="schedule-filters-select-day form-control" id="makers-day-select">
             <option value="" selected="">show all</option>
             <option value=".saturday">Saturday</option>
             <option value=".sunday">Sunday</option>
@@ -98,6 +98,8 @@ Check out the [event program](/program) for a printable map, schedule and more!<
         </div>
 {% endfor %}
 </div>
+
+<p id="schedule-no-results" style="display:none">No events match your search.</p>
 
 
 Event schedule subject to change at any time based on the availability of exhibiting makers, special guests, and venue conditions.
