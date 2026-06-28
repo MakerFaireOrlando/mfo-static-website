@@ -4,7 +4,7 @@
 > list for bringing the MFO site in line with the current Maker Faire event-page
 > brand. Update this file as work progresses.
 
-**Last updated:** 2026-06-13 (resumed; +3 page restyles, §6.16)
+**Last updated:** 2026-06-27 (theme system §6.17; dark-mode image/logo audit checklist §6.18)
 **Status:** **IN PROGRESS.** On branch `redesign`,
 not yet merged to `master`. Core re-skin + multiple pages/components done and
 browser-verified. See the dated sub-sections (§6.x) and the Decisions log (§7)
@@ -470,6 +470,179 @@ browser-verified at 1280px (Humanitix iframe is blank in headless, loads via JS
 at runtime, same as the volunteer widget). 2025 asset paths (sponsor packet,
 educator's guide) left as-is pending 2026 materials.
 
+## 6.17 Theme system — dark mode + 2026 "Maker Invasion" skin (UFO toggle)
+
+Two buttons in the header (`_includes/topnav.html`) drive a single
+`<html data-theme="…">` value (`light` | `dark` | `invasion`):
+
+> - **`#theme-mode-toggle`** (sun/moon) — permanent **light ↔ dark** switch.
+> - **`#theme-toggle`** (UFO) — TEMPORARY: toggles the 2026 **Invasion** neon
+>   skin on/off, remembering the light/dark base to return to.
+
+Two layers, deliberately separated so the fun 2026 look is **trivially
+removable** while a clean dark mode stays behind:
+
+1. **Neutral dark mode** (`assets/css/mfo-theme-dark.css`) — permanent,
+   brand-agnostic. `[data-theme="dark"]`.
+2. **2026 "Maker Invasion" skin** (`assets/css/mfo-theme-invasion.css`) —
+   temporary neon alien-invasion skin + immersive scene. `[data-theme="invasion"]`.
+   Based on `assets/images/site-branding/2026/mfo2026-humanitix-header.jpg`
+   (black sky, neon lime + hot magenta, cream).
+
+### How it works (no per-selector rework)
+
+The 2026 redesign already routes nearly all color through the `--mf-*` custom
+properties in `mfo-redesign.css`. **Most tokens are single-role, so each theme
+just *redefines the tokens*** in a `[data-theme="…"]` block — the cascade
+re-skins every component automatically.
+
+Two tokens were **overloaded** (used as both a background *and* as text/accent),
+which a naive swap would break (e.g. `--mf-white` is a light surface *and* the
+text color on dark bands). Their **background role** was split out into two new
+**semantic tokens** in `mfo-redesign.css`:
+
+| Semantic token | Light value (alias) | Role |
+|---|---|---|
+| `--mf-bg` | `var(--mf-white)` | page background (applied to `body`) |
+| `--mf-surface` | `var(--mf-white)` | raised light surfaces: navbar, cards, footer, panels |
+| `--mf-dark-bg` | `var(--mf-navy)` | intentionally-dark bands: `.cta-panel`, `.mtm-search`, `.is-dark` |
+
+In light mode these alias the original values, so **the site renders
+identically** (verified). All other tokens (`--mf-ink`, `--mf-navy` as text,
+grays, `--mf-red`) are single-role and simply get new values per theme.
+
+### No-flash + persistence + system preference
+
+- **No flash:** an inline `<script>` in `_includes/head.html` (right after the
+  stylesheets) sets `<html data-theme="…">` **before paint** — from
+  `localStorage('mfo-theme')`, or seeded from the OS `prefers-color-scheme` on
+  first visit. Once the visitor clicks the toggle, their choice wins.
+- **Controller:** `assets/js/mfo-theme.js` (loaded unconditionally in
+  `_includes/scripts.html`) wires both buttons, writes localStorage
+  (`mfo-theme` + `mfo-base` for the light/dark base to restore after invasion),
+  and **lazily builds the immersive FX scene** the first time invasion is
+  activated (zero cost for everyone else). The sun/moon icon swaps via pure CSS
+  on `data-theme`. If the UFO button is removed, the mode toggle still works.
+
+### Immersive scene (invasion only)
+
+`mfo-theme.js` injects `.mf-invasion-fx` (a fixed, `pointer-events:none`,
+`contain:strict` layer) as the first child of `<body>`: a two-layer parallax
+**starfield** (pure CSS radial-gradients), three drifting **UFOs** with lime
+**tractor beams**, and a **Makey** caught in a beam (abduction loop). Surfaces in
+the invasion theme are slightly translucent so the scene shows through behind
+content; the navbar/content/footer are lifted above it via `z-index`.
+
+The scene is built **only on pages that expose the UFO toggle** — a topnav-less
+layout (e.g. the schedule app, `_layouts/schedule-app.html`) inherits the theme
+*colors* but never gets an immersive scene the visitor couldn't dismiss.
+
+**Performance & a11y safeguards:** animations are strictly `transform`/`opacity`
+(the UFOs use a nested element so the horizontal sweep `translateX` and the
+vertical bob `translateY` compose without animating any layout property);
+`prefers-reduced-motion` freezes the scene (static UFOs, palette intact); the FX
+trims to one UFO ≤768px; assets are two tiny SVGs
+(`assets/images/site-branding/2026/invasion/ufo.svg`, `makey.svg`) — no raster,
+no JS animation libs. Light-mode visitors never load or build any of it.
+
+### >>> Retiring the 2026 skin after the event <<<
+
+1. Remove the **invasion** `<link>` from `_includes/stylesheets.html`.
+2. Remove the **`#theme-toggle`** (UFO) button block from `_includes/topnav.html`.
+3. Delete `assets/css/mfo-theme-invasion.css`,
+   `assets/images/site-branding/2026/invasion/`, and `invasion.html` (the
+   `/invasion/` shortcut page).
+
+`assets/js/mfo-theme.js` needs no edits — with no UFO button it just wires the
+sun/moon control. The **light ↔ dark** toggle, semantic tokens, neutral dark
+mode, and persistence all remain. Nothing in content pages changes.
+
+### Files
+
+| File | Change |
+|---|---|
+| `assets/css/mfo-redesign.css` | **Edit** — semantic tokens in `:root`; `body` bg; split white/navy *background* uses to `--mf-surface`/`--mf-dark-bg`; `.mf-theme-toggle` button styles |
+| `assets/css/mfo-theme-dark.css` | **New** — neutral dark mode (token redefinitions + small touch-ups) |
+| `assets/css/mfo-theme-invasion.css` | **New (temporary)** — 2026 neon skin + immersive FX |
+| `assets/js/mfo-theme.js` | **New** — toggle controller + lazy FX injection |
+| `assets/images/site-branding/2026/invasion/{ufo,makey}.svg` | **New (temporary)** — scene art |
+| `invasion.html` (`/invasion/`) | **New (temporary)** — shareable shortcut: sets the theme + redirects home |
+| `_includes/head.html` | No-flash theme restore script |
+| `_includes/topnav.html` | UFO toggle button (`#theme-toggle`) |
+| `_includes/stylesheets.html` | Link the two theme sheets (after redesign) |
+| `_includes/scripts.html` | Load `mfo-theme.js` |
+
+## 6.18 Dark-mode image / logo audit (checklist)
+
+Dark mode + the Invasion skin flip several formerly-white surfaces to dark
+(`--mf-surface`, `--mf-gray-50`, the footer, sponsor tiles, the sponsor marquee,
+promote `.mf-asset-thumb`). Any logo that is **dark ink on transparent** — or
+that assumed a white backdrop — washes out or vanishes on those surfaces. Photos
+and multi-color/self-contained badges are unaffected. This section is the audit
+of every contrast-sensitive image and what to do about each. *(Audited
+2026-06-27; raster assets visually spot-checked, not inferred from filenames.)*
+
+### Two remediation strategies
+
+- **A — Light "logo chip" (CSS, no new assets). PREFERRED for third-party logos.**
+  Keep the logo's *immediate container* on a light/cream rounded background in
+  dark/invasion (e.g. `[data-theme="dark"] .mf-sponsor-tile { background:#f4f6fb }`).
+  One rule covers an entire data-driven set and survives yearly sponsor churn.
+  Sponsor/partner/funding logos are designed for white, so this matches intent.
+- **B — Separate reverse/dark asset variant (new file).** Only where a white chip
+  would look wrong — usually first-party brand marks. Add a `-reverse`/`-white`
+  PNG/SVG and swap via CSS or `<picture>` on `[data-theme]`. Higher upkeep.
+
+> **Recommended order:** do the **A** chip fixes first (clears the large majority
+> of the risk in a few CSS rules), then decide case-by-case if any first-party
+> mark in **B** is worth a bespoke variant. Most items below need **A**, not new art.
+
+### Checklist — contrast-sensitive images
+
+**Funding logos** — `_includes/footer-notices.html` (on the now-dark footer):
+- [x] `site-branding/tmef_logo_rectangle_black.png` — **VANISHES** (pure black/transparent). → **A applied** (cream chip via `img[src*="tmef_logo"]`). Optional **B**: white/reverse TMEF from the foundation.
+- [x] `site-branding/26.01_OC_Logo_H-Black_RGB.png` — **VANISHES** (black/transparent). Also used on `become-a-sponsor.md`. → **A applied** (`img[src*="OC_Logo"]`, covers both pages). Optional **B**: OC's official `*_H-White_*` mark.
+
+**Sponsor logos** — data-driven `_data/sponsors.yaml` → `assets/images/sponsors/*`, rendered on `.mf-sponsor-tile` (`sponsors-grid-modern.html`, the `/sponsors/` page) and `.mf-marquee-item` (`sponsors-marquee.html`, homepage):
+- [x] **Whole set (49 logos)** — mixed: many are black-on-transparent (e.g. `EPAX-3D-Black-Logo.png`, `ftd-LogoBlack.png`, `flux.png`, `fulament.png`, `WTI_Logo.png`) or have black *sub-text* on otherwise-colored art (e.g. `skycraft_saucer_logo_wht-line-Maker.png`). → **A applied** — light chip on `.mf-sponsor-tile` (grid) and a solid light band on `.mf-marquee-viewport` (homepage strip). (Legacy `sponsors-grid*.html`/`sponsors-carousel.html` use different classes — add a chip/band there too if ever re-enabled.) Did **not** hand-make 49 variants.
+
+**Promote / press-kit asset cards** — `pages/promote.md`, thumbs on `.mf-asset-thumb`:
+- [x] `site-branding/mfo_one_line_border.png` and `mfo_two_line_border.png` — white-fill boxes; survive as white cards but look like stickers on dark. → **A applied** (`.mf-asset-thumb` kept light in dark/invasion).
+- [ ] `site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg` — self-contained (teal disc); fine. Verify only.
+- [ ] Flyer/poster/social JPGs (`MFO2025_flyer_*`, `_poster`, `_facebook`, `_profile`) — self-contained art. **No action.**
+
+**Footer + header brand marks:**
+- [ ] `site-branding/mfo_one_line_border.png` (footer local logo, `footer.html`) — white-box mark; **legible** on dark (white card). Optional **B** reverse for elegance.
+- [ ] `site-branding/mfo_two_line_border.png` (header, `topnav.html`; category OG meta) — white-box mark; **legible** (verified). Optional **B**.
+- [ ] `site-branding/makerfaire-welding.webp` (footer MF mark, `menus.yaml`) — red art on transparent; **reads on dark** (verified). Low priority.
+
+**Mascot / badge graphics:**
+- [ ] `site-branding/makey.png` (`makey-border.html`, schedule fallbacks) — solid **red**, reads on dark. No action (note: Invasion has its own `invasion/makey.svg`).
+- [ ] `site-branding/call-for-makers.png` (`call-for-makers-widget.html`) — self-contained navy badge; fine. No action.
+- [ ] `site-branding/makey-vortex-sm2.gif` (`404.md`) — verify it reads on dark (404 was recently restyled). Likely fine.
+
+**Print-only pages (always light — flag, low priority):**
+- [ ] `pages/table-signs.md` QR codes (`*_qr_code*.png`, black/transparent) and the table-sign header — print/table context, effectively always light. Only matters if viewed on screen in dark mode.
+
+**No action (confirmed safe):** carousel/hero/slider photos, `.mf-card-media` category & get-involved photos, stage portraits, exhibit images, favicons (browser chrome), the `2026/bottom-footer.png` banner (self-contained), and the Invasion `ufo.svg`/`makey.svg` (theme-specific, designed for dark).
+
+### Implementation status — Strategy A DONE (2026-06-27)
+
+The logo-chip rules are live in both theme sheets (look for the "Logo chips"
+block in `mfo-theme-dark.css` and `mfo-theme-invasion.css`):
+- **Grid/card logos** → light chip on `.mf-sponsor-tile` + `.mf-asset-thumb`
+  (`#f4f6fb` dark / `#ffffff` invasion), plus the funding logos via
+  `img[src*="tmef_logo"]` / `img[src*="OC_Logo"]`.
+- **Sponsor marquee** → a single solid light **band** on `.mf-marquee-viewport`
+  (not per-logo chips), so the scrolling strip reads as one clean row; its
+  title/subtitle stay on the dark section above. Invasion adds a faint lime glow.
+
+This clears every sponsor logo + both funding logos + promote thumbs in one pass.
+**Still open (optional, Strategy B):** bespoke reverse/white variants for the
+first-party MFO header/footer marks — only if the white-card look is unwanted.
+The legacy sponsor includes (`sponsors-grid*.html`, `sponsors-carousel.html`)
+use different classes and would need their own chip rule if re-enabled.
+
 ## 7. Decisions / Open Questions Log
 
 - **2026-06-12** — Scope = full modernization; fidelity = match closely. (User)
@@ -500,6 +673,15 @@ educator's guide) left as-is pending 2026 materials.
   `.faq-question` / `.faq-answer` inside a `.faq-container`.
 - **OPEN** — Adopt the structural event-page patterns (category cards, Get
   Involved role cards)? Tracked as stretch items S1/S2.
+- **2026-06-27** — **Theme system added** (User, branch `dark-mode`): UFO toggle
+  in the header cycling **light → 2026 "Maker Invasion" neon skin → neutral dark
+  → light**. Architected in two layers — a *permanent, brand-agnostic dark mode*
+  plus a *removable 2026 neon skin* with an immersive UFO/Makey scene — so the
+  fun look reverts to a clean dark mode after the event by deleting one file +
+  one link + one JS entry. Implemented via a thin semantic-token layer
+  (`--mf-bg`/`--mf-surface`/`--mf-dark-bg`) over the existing `--mf-*` tokens;
+  light mode is unchanged. First-visit default follows OS `prefers-color-scheme`.
+  Full spec: **§6.17**.
 
 ---
 

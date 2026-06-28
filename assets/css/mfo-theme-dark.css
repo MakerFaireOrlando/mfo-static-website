@@ -1,0 +1,123 @@
+/*
+ * Maker Faire Orlando — Neutral Dark Mode
+ * --------------------------------------------------------------
+ * A permanent, brand-agnostic dark theme. Loaded AFTER mfo-redesign.css.
+ * Activated by `data-theme="dark"` on <html> (set by assets/js/mfo-theme.js;
+ * also seeded from the OS prefers-color-scheme on first visit).
+ *
+ * HOW IT WORKS
+ *   The 2026 redesign routes virtually all color through the `--mf-*` custom
+ *   properties in mfo-redesign.css. Most tokens are single-role, so we simply
+ *   REDEFINE them here. Two tokens were overloaded (used as both a background
+ *   and as text/accent): their *background* role was split out in redesign.css
+ *   into --mf-surface / --mf-dark-bg, which we redefine below. The handful of
+ *   selectors that can't be expressed purely through tokens get small touch-ups
+ *   at the bottom.
+ *
+ *   This file intentionally contains NO 2026 "Maker Invasion" branding — that
+ *   neon skin lives in mfo-theme-invasion.css and stacks on top of this. To
+ *   retire the 2026 look, drop the invasion sheet and this dark mode remains.
+ * --------------------------------------------------------------
+ */
+
+[data-theme="dark"] {
+  /* --- Semantic surfaces (the theme-flip tokens) --- */
+  --mf-bg:       #14161c;   /* page background */
+  --mf-surface:  #1c1f27;   /* raised surfaces: navbar, cards, footer, panels */
+  --mf-dark-bg:  #0d0f14;   /* intentionally-dark bands sit a touch deeper than surface */
+
+  /* --- Text (single-role color tokens, flipped to light) --- */
+  --mf-ink:      #e8eaf0;   /* primary text */
+  --mf-navy:     #cfd5e2;   /* was dark-text-on-light emphasis → light emphasis */
+  --mf-white:    #f4f6fb;   /* text/borders on dark bands & on accent — stays light */
+
+  /* --- Neutrals (each gray shade is single-role; flip per role) --- */
+  --mf-gray-50:  #20242e;   /* "is-light" alt band → just above bg */
+  --mf-gray-100: #272b36;   /* chips / button-group surface */
+  --mf-gray-200: #353b49;   /* borders & hairlines */
+  --mf-gray-400: #6c7280;   /* faint dividers (marquee) */
+  --mf-gray-600: #9aa1af;   /* secondary muted text */
+  --mf-gray-800: #c4cad6;   /* muted body text */
+
+  /* --- Accent (no usage conflicts; just brighten for dark) --- */
+  --mf-red:      #ff5a4d;
+  --mf-red-dark: #ff7b70;
+
+  /* --- Shadows: deepen so cards still read against the dark bg --- */
+  --mf-shadow:       0 6px 24px rgba(0, 0, 0, 0.45);
+  --mf-shadow-lg:    0 14px 40px rgba(0, 0, 0, 0.55);
+  --mf-shadow-hover: 0 18px 48px rgba(0, 0, 0, 0.6);
+
+  color-scheme: dark;       /* native form controls, scrollbars, etc. */
+}
+
+/* ==============================================================
+ * Targeted touch-ups — cases that tokens alone can't express
+ * ============================================================== */
+
+/* Navbar: add a hairline so the surface separates from the page bg, and soften
+   the legacy drop-shadow. (The Bootstrap white gradient is killed once on the
+   base .navbar-default rule in mfo-redesign.css.) */
+[data-theme="dark"] .navbar-default,
+[data-theme="dark"] .navbar.navbar-default.nav-not-home {
+  border-bottom: 1px solid var(--mf-gray-200) !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Footer social circles use --mf-ink as a *background* (dark chip + white glyph).
+   --mf-ink flips to light, so re-anchor the chip to a dark neutral. */
+[data-theme="dark"] .gmf-footer .social-network.social-circle li a {
+  background-color: var(--mf-gray-200) !important;
+}
+[data-theme="dark"] .gmf-footer .social-network.social-circle li a:hover {
+  background-color: var(--mf-red) !important;
+}
+
+/* Ghost button hover fills with --mf-white and sets dark text via --mf-navy.
+   In dark mode --mf-navy is light, so pin the hover text to the dark bg color. */
+[data-theme="dark"] a.btn-w-ghost:hover {
+  color: var(--mf-dark-bg) !important;
+}
+
+/* Bootstrap form controls (search filters, etc.) default to white fills. */
+[data-theme="dark"] .form-control,
+[data-theme="dark"] input[type="text"],
+[data-theme="dark"] input[type="search"],
+[data-theme="dark"] input[type="email"],
+[data-theme="dark"] select,
+[data-theme="dark"] textarea {
+  background-color: var(--mf-surface);
+  color: var(--mf-ink);
+  border-color: var(--mf-gray-200);
+}
+[data-theme="dark"] .form-control::placeholder { color: var(--mf-gray-600); }
+
+/* Bootstrap horizontal rules / table borders on dark. */
+[data-theme="dark"] hr { border-top-color: var(--mf-gray-200); }
+
+/* --- Logo chips ---------------------------------------------------------
+ * Sponsor / partner / funding logos are designed for a white backdrop and many
+ * are dark-ink-on-transparent (TMEF, Orange County, and ~half the sponsor set),
+ * so they wash out on the now-dark surfaces. Keep their immediate container on a
+ * light chip rather than hand-making dozens of reverse-art variants. See the
+ * dark-mode image/logo audit in _documentation/redesign-2026.md §6.18.
+ * ----------------------------------------------------------------------- */
+[data-theme="dark"] .mf-sponsor-tile,
+[data-theme="dark"] .mf-asset-thumb {
+  background: #f4f6fb;
+}
+/* Sponsor marquee: a single light band behind the scrolling logos reads cleaner
+   than per-logo chips. Band only the viewport — the title/subtitle above it are
+   light-on-dark and must stay on the dark section background. */
+[data-theme="dark"] .mf-marquee-viewport {
+  background: #f4f6fb;
+  padding: 18px 0;
+}
+/* Funding logos are bare <img>s (TMEF + Orange County), in the footer and also
+   inline on become-a-sponsor — target by filename so every instance gets a chip. */
+[data-theme="dark"] img[src*="tmef_logo"],
+[data-theme="dark"] img[src*="OC_Logo"] {
+  background: #f4f6fb;
+  padding: 8px 14px;
+  border-radius: var(--mf-radius-sm);
+}

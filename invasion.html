@@ -1,0 +1,45 @@
+---
+permalink: /invasion/
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Activating Maker Invasion&hellip;</title>
+  {%- comment -%}
+    Shareable shortcut: makerfaireorlando.com/invasion turns on the 2026 "Maker
+    Invasion" theme and bounces to the homepage. The theme is stored in
+    localStorage('mfo-theme'); the homepage's head script reads it before paint
+    (see _includes/head.html + assets/js/mfo-theme.js, documented in
+    _documentation/redesign-2026.md §6.17). TEMPORARY — delete this file when the
+    2026 skin is retired.
+  {%- endcomment -%}
+  <script>
+    try {
+      // Remember the visitor's current light/dark base so turning Invasion off
+      // later returns them to it (not always light). Mirrors mfo-theme.js.
+      var prev = localStorage.getItem('mfo-theme');
+      if (prev === 'light' || prev === 'dark') { localStorage.setItem('mfo-base', prev); }
+      localStorage.setItem('mfo-theme', 'invasion');
+    } catch (e) {}
+    window.location.replace({{ '/' | relative_url | jsonify }});
+  </script>
+  <meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}">
+  <style>
+    html, body { margin: 0; height: 100%; background: #07070a; color: #F5EAD0;
+      font-family: "Helvetica Neue", Arial, sans-serif; }
+    .mi { display: flex; align-items: center; justify-content: center; height: 100%;
+      text-align: center; padding: 24px; }
+    .mi a { color: #A6E22E; }
+  </style>
+</head>
+<body>
+  <div class="mi">
+    <p>Activating <strong>Maker Invasion</strong> mode&hellip;
+      <br><a href="{{ '/' | relative_url }}">Continue to Maker Faire Orlando</a> if you are not redirected.</p>
+  </div>
+</body>
+</html>
