@@ -15,6 +15,7 @@
 
       {%- include exhibits-header.html -%}
 
+      <noscript><style>.exhibits-container { opacity: 1 !important; }</style></noscript>
       <div class="exhibits-container" id="exhibits">
         {%- if page.url contains "categories" -%}
           {% for exhibit in site.exhibits %}
@@ -32,6 +33,7 @@
           {% endfor %}
         {%- endif -%}
       </div>
+      <p id="exhibits-no-results" style="display:none">No exhibits match your search.</p>
 
   </div>
 
