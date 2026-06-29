@@ -9,11 +9,13 @@
  *
  * Themes: "light" | "dark" | "invasion" (invasion is dark-based).
  *
- * - The chosen theme is written to localStorage('mfo-theme'); the inline script
- *   in _includes/head.html applies it BEFORE paint (no flash) and seeds the
- *   first-visit default from the OS prefers-color-scheme. localStorage('mfo-base')
- *   remembers the light/dark choice so turning Invasion OFF returns to it.
- * - The immersive FX scene is built lazily, only the first time Invasion runs.
+ * - SESSION-only persistence: the active theme is kept in sessionStorage, so it
+ *   survives reloads + navigation within the tab but resets to the default
+ *   (settings.theme_default, currently "light") on a NEW session (window
+ *   closed/reopened, fresh tab). Invasion is turned on by visiting /invasion/,
+ *   which sets the session value and bounces home; _includes/head.html applies it
+ *   before paint. Nothing is stored long-term (no localStorage/cookies).
+ * - The immersive FX scene is built lazily, only when Invasion runs.
  *
  * To retire the 2026 skin: delete the #theme-toggle button (in topnav.html) and
  * the invasion CSS/assets. This controller degrades gracefully — the sun/moon
@@ -23,21 +25,31 @@
 (function () {
   "use strict";
 
-  var THEME_KEY = "mfo-theme";
-  var BASE_KEY  = "mfo-base";   // last light/dark choice (to restore after invasion)
   var VALID = ["light", "dark", "invasion"];
-
   var root = document.documentElement;
 
   function currentTheme() {
     var t = root.getAttribute("data-theme");
     return VALID.indexOf(t) === -1 ? "light" : t;
   }
-  function store(key, val) {
-    try { localStorage.setItem(key, val); } catch (e) { /* private mode */ }
+  // Session-only persistence (cleared when the tab/window closes).
+  function store(key, val) { try { sessionStorage.setItem(key, val); } catch (e) { /* blocked */ } }
+  function read(key) { try { return sessionStorage.getItem(key); } catch (e) { return null; } }
+
+  // The light/dark base to return to when exiting invasion: the remembered
+  // session choice if any, else the configured default (settings.theme_default,
+  // resolving "system"; "invasion"/unknown collapse to "light").
+  function baseDefault() {
+    var def = (window.MFO_THEME || {}).defaultTheme;
+    if (def === "dark") { return "dark"; }
+    if (def === "system") {
+      return (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+    }
+    return "light";
   }
-  function read(key) {
-    try { return localStorage.getItem(key); } catch (e) { return null; }
+  function baseTheme() {
+    var b = read("mfo-base");
+    return (b === "dark" || b === "light") ? b : baseDefault();
   }
 
   // ---- Immersive FX scene -------------------------------------------------
@@ -90,13 +102,48 @@
     var fx = document.createElement("div");
     fx.className = "mf-invasion-fx";
     fx.setAttribute("aria-hidden", "true");
+    // Each saucer runs a beam pulling up a weighted-random abductee: Makey twice
+    // as likely as the others. `prev` (when given) is excluded so a repeat
+    // abduction pulls in a DIFFERENT object — weighting carries to what's left.
+    var art = "/assets/images/site-branding/2026/invasion/";
+    var ABDUCTEES = ["Makey", "Mothman", "Bigfoot"];
+    // Warm the cache so the per-loop image swap never fetches/decodes mid-flight.
+    for (var p = 0; p < ABDUCTEES.length; p++) {
+      var pre = new Image();
+      pre.src = art + "invasion_" + ABDUCTEES[p] + ".svg";
+    }
+    function pickAbductee(prev) {
+      var pool = ["Makey", "Makey", "Mothman", "Bigfoot"].filter(function (x) { return x !== prev; });
+      return pool[Math.floor(Math.random() * pool.length)];
+    }
+    function craft() {
+      var who = pickAbductee();
+      return '<div class="mf-ufo-craft">' +
+        '<div class="mf-craft-beam">' +
+          '<div class="mf-abductee" data-who="' + who + '" style="background-image:url(' + art + 'invasion_' + who + '.svg)"></div>' +
+        '</div>' +
+        '<div class="mf-craft-body"></div>' +
+      '</div>';
+    }
     fx.innerHTML =
       '<div class="mf-stars mf-stars--far"></div>' +
       '<div class="mf-stars mf-stars--near"></div>' +
-      '<div class="mf-ufo mf-ufo--a"><div class="mf-ufo-craft"></div></div>' +
-      '<div class="mf-ufo mf-ufo--b"><div class="mf-ufo-craft"><div class="mf-makey"></div></div></div>' +
-      '<div class="mf-ufo mf-ufo--c"><div class="mf-ufo-craft"></div></div>';
+      '<div class="mf-ufo mf-ufo--a">' + craft() + '</div>' +
+      '<div class="mf-ufo mf-ufo--b">' + craft() + '</div>' +
+      '<div class="mf-ufo mf-ufo--c">' + craft() + '</div>';
     document.body.insertBefore(fx, document.body.firstChild);
+
+    // On each abduction loop the object is invisible at the boundary (opacity 0),
+    // so swap in a new, different abductee there — the next pull-in differs from
+    // the last. (Listeners die with the scene when teardownInvasionFx removes it.)
+    var abductees = fx.querySelectorAll(".mf-abductee");
+    for (var i = 0; i < abductees.length; i++) {
+      abductees[i].addEventListener("animationiteration", function () {
+        var next = pickAbductee(this.getAttribute("data-who"));
+        this.setAttribute("data-who", next);
+        this.style.backgroundImage = "url(" + art + "invasion_" + next + ".svg)";
+      });
+    }
 
     // Two-phase wind-down so the scene is a fun burst, then the page reads
     // cleanly (a fresh page load — or toggle-off/on — rebuilds it):
@@ -140,31 +187,31 @@
   function init() {
     applyTheme(currentTheme());
 
-    // Light/dark mode toggle. From invasion, the sun/moon returns to plain light.
+    // Light/dark mode toggle (persisted for the session). From invasion, the
+    // sun/moon returns to the light/dark base.
     var mode = document.getElementById("theme-mode-toggle");
     if (mode) {
       mode.addEventListener("click", function () {
         var next = currentTheme() === "light" ? "dark" : "light";
-        store(BASE_KEY, next);
+        store("mfo-base", next);
         applyTheme(next);
-        store(THEME_KEY, next);
+        store("mfo-theme", next);
       });
     }
 
-    // Invasion on/off. Remembers the light/dark base to come back to.
+    // Invasion on/off. The light/dark base lives in sessionStorage('mfo-base').
     var ufo = document.getElementById("theme-toggle");
     if (ufo) {
       ufo.addEventListener("click", function () {
         var next;
         if (currentTheme() === "invasion") {
-          var base = read(BASE_KEY);
-          next = (base === "dark" || base === "light") ? base : "light";
+          next = baseTheme();
         } else {
-          store(BASE_KEY, currentTheme());   // remember light/dark to restore later
+          store("mfo-base", currentTheme());   // remember light/dark to restore later
           next = "invasion";
         }
         applyTheme(next);
-        store(THEME_KEY, next);
+        store("mfo-theme", next);
       });
     }
   }

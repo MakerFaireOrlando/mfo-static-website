@@ -1,12 +1,22 @@
 {% if page.carousel %}
   <script language="JavaScript" type="text/javascript">
     $(document).ready(function(){
-      var randomSlide = Math.floor(Math.random() * $('#mfoCarousel .carousel-inner div').size());
-      console.log(randomSlide);
-      $('#mfoCarousel').carousel(randomSlide);
-      $('#mfoCarousel').carousel({
+      var $carousel = $('#mfoCarousel');
+      var $inner = $carousel.find('.carousel-inner');
+      // In the 2026 "Maker Invasion" theme (incl. arriving via /invasion/), lead
+      // the carousel with the invasion header image instead of a random slide.
+      if (document.documentElement.getAttribute('data-theme') === 'invasion') {
+        var headerUrl = {{ '/assets/images/site-branding/2026/invasion/invasion-header.jpg' | relative_url | jsonify }};
+        $inner.find('.item').removeClass('active');
+        $inner.prepend('<div class="item active mf-invasion-slide"><img src="' + headerUrl + '" alt="Maker Invasion" style="width:100%;"></div>');
+        $carousel.carousel(0);
+      } else {
+        var randomSlide = Math.floor(Math.random() * $inner.find('.item').length);
+        $carousel.carousel(randomSlide);
+      }
+      $carousel.carousel({
         interval: {{page.carousel-delay}}
-      })
+      });
     });
   </script>
 {% endif %}

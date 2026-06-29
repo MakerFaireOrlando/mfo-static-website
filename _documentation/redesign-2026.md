@@ -524,26 +524,35 @@ light text + amber/lime warning accent, both themes) and a couple of inline gray
 status strings in the internal `schedule-editor` (switched to `opacity` so they
 inherit the themed color).
 
-### No-flash + persistence + system preference
+### No-flash, session-only persistence
 
+- **Session-only persistence (by design):** the active theme is kept in
+  **`sessionStorage`** — it survives reloads and navigation *within the tab*, but
+  a **new session** (window closed/reopened, fresh tab) starts at
+  `settings.theme_default` (currently `light`). No `localStorage`/cookies, so
+  nothing is remembered long-term.
 - **No flash:** an inline `<script>` in `_includes/head.html` (right after the
   stylesheets) sets `<html data-theme="…">` **before paint** — from
-  `localStorage('mfo-theme')`, or on first visit from the configured default
-  (`settings.theme_default`, see below). Once the visitor clicks a toggle, their
-  choice wins.
+  `sessionStorage('mfo-theme')` if present (and valid), else `theme_default`.
+- **Turning on invasion:** the `/invasion/` page sets `sessionStorage('mfo-theme')
+  = 'invasion'` and redirects home; from then on the skin sticks for the session.
+- **Invasion homepage carousel:** when the homepage loads in invasion, the
+  carousel init (`_includes/optional-js.html`) prepends `invasion-header.jpg` as
+  the active first slide (instead of the usual random start). Detected via the
+  `data-theme` attribute, so it works on the `/invasion/` redirect and any
+  in-session homepage load.
 - **Controller:** `assets/js/mfo-theme.js` (loaded unconditionally in
-  `_includes/scripts.html`) wires both buttons, writes localStorage
-  (`mfo-theme` + `mfo-base` for the light/dark base to restore after invasion),
-  and **lazily builds the immersive FX scene** the first time invasion is
-  activated (zero cost for everyone else). The sun/moon icon swaps via pure CSS
-  on `data-theme`. If the UFO button is removed, the mode toggle still works.
+  `_includes/scripts.html`) wires the toggle buttons (if shown) — writing the
+  choice (and the light/dark base) to `sessionStorage` — and **lazily builds the
+  immersive FX scene** when invasion runs. The sun/moon icon swaps via pure CSS
+  on `data-theme`.
 
 ### Settings (`_data/settings.yaml`)
 
 | Setting | Default | Effect |
 |---|---|---|
 | `theme_toggle_enabled` | `true` | Show/hide the sun/moon **light↔dark** toggle in the header. |
-| `theme_default` | `system` | First-visit default when no saved choice: `light` \| `dark` \| `system` (follows OS `prefers-color-scheme`). A saved visitor choice always wins. |
+| `theme_default` | `light` | Theme at the start of each session: `light` \| `dark` \| `system` (follows OS `prefers-color-scheme`) \| `invasion`. Session-persisted, not long-term. |
 | `theme_invasion_icon` | `true` | Show/hide the **UFO** button. Hiding it does **not** disable invasion — `/invasion/` still triggers the skin (share-link / kiosk), and the scene still renders on pages with the nav. |
 | `theme_invasion_fx_duration` | `10` | Seconds of full UFO activity; after this the on-screen saucers finish their pass but **no new ones cross** (phase A). Resets per page load. `0` = run indefinitely (no wind-down). |
 | `theme_invasion_fx_fadeout` | `10` | Seconds **after** `_duration` before the remaining saucers fade out and are removed, dropping the FX layer back behind the content for readability (phase B). |
@@ -558,15 +567,31 @@ null-safe). The default feeds the no-flash head script.
 
 `mfo-theme.js` injects `.mf-invasion-fx` (a fixed, `pointer-events:none`,
 `contain:strict` layer) as the first child of `<body>`: a two-layer parallax
-**starfield** (pure CSS radial-gradients), three drifting **UFOs** with lime
-**tractor beams**, and a **Makey** caught in a beam (abduction loop). Each UFO is
-a nested pair (outer = horizontal `translateX` sweep, inner craft = vertical
-`translateY` bob) with the saucer as the craft's top layer (`::after`) so an
-abducted Makey rises **behind** it. While active the layer sits above the content
-but below the nav (`z-index: 2`) so the saucers fly over the hero/cards without
-covering the navbar/menu; after the wind-down (see the settings above) it drops
-behind the content, where the now-saucer-less starfield shows through the
-slightly-translucent surfaces.
+**starfield** (pure CSS radial-gradients) and three drifting **saucers**. Each
+saucer is a nested pair (outer `.mf-ufo` = horizontal `translateX` sweep, inner
+`.mf-ufo-craft` = vertical `translateY` bob) and runs a **tractor beam** pulling
+an **abductee** up into its underside (the three are desynced via negative
+`animation-delay`s so they don't pulse in lockstep). The craft stacks three
+separate SVG layers so the abductee is sandwiched and never drawn over the saucer:
+
+| Layer | Asset | z | Role |
+|---|---|---|---|
+| `.mf-craft-beam` | `invasion_Beam.svg` (2700×2303) | 0 | beam, behind the abductee |
+| `.mf-abductee` | `invasion_{Makey,Mothman,Bigfoot}.svg` (600×600) | 1 | rises up the beam |
+| `.mf-craft-body` | `invasion_Saucer.svg` (2700×1323) | 2 | body, **occludes** the abductee as it's drawn in |
+
+The abductee is **weighted-random** — pool `["Makey","Makey","Mothman",
+"Bigfoot"]`, so Makey is twice as likely (50% / 25% / 25%). On each abduction
+loop the image is swapped (at the invisible boundary, via `animationiteration`)
+to a fresh pick that **excludes the previous one**, so a saucer that pulls in a
+second object shows something different (the weighting carries to the remaining
+choices). All three abductee SVGs share the 2700-wide centerline, so the layers
+align with no offset math.
+
+While active the layer sits above the content but below the nav (`z-index: 2`) so
+the saucers fly over the hero/cards without covering the navbar/menu; after the
+wind-down (see the settings above) it drops behind the content, where the
+now-saucer-less starfield shows through the slightly-translucent surfaces.
 
 The scene is built **only on pages that have the header nav** (`#slide-nav`) — a
 topnav-less layout (e.g. the schedule app, `_layouts/schedule-app.html`) inherits
@@ -577,10 +602,11 @@ the full scene even when the UFO icon is hidden via settings.
 **Performance & a11y safeguards:** animations are strictly `transform`/`opacity`
 (the UFOs use a nested element so the horizontal sweep `translateX` and the
 vertical bob `translateY` compose without animating any layout property);
-`prefers-reduced-motion` freezes the scene (static UFOs, palette intact); the FX
-trims to one UFO ≤768px; assets are two tiny SVGs
-(`assets/images/site-branding/2026/invasion/ufo.svg`, `makey.svg`) — no raster,
-no JS animation libs. Light-mode visitors never load or build any of it.
+`prefers-reduced-motion` freezes the scene (static saucers, palette intact) and
+keeps the layer behind the content; the FX trims to just the abducting saucer
+≤768px; assets are five small SVGs in
+`assets/images/site-branding/2026/invasion/` — no raster, no JS animation libs.
+Light-mode visitors never load or build any of it.
 
 ### >>> Retiring the 2026 skin after the event <<<
 
@@ -602,8 +628,8 @@ mode, and persistence all remain. Nothing in content pages changes.
 | `assets/css/mfo-theme-dark.css` | **New** — neutral dark mode (token redefinitions + small touch-ups) |
 | `assets/css/mfo-theme-invasion.css` | **New (temporary)** — 2026 neon skin + immersive FX |
 | `assets/js/mfo-theme.js` | **New** — toggle controller + lazy FX injection |
-| `assets/images/site-branding/2026/invasion/{ufo,makey}.svg` | **New (temporary)** — scene art |
-| `invasion.html` (`/invasion/`) | **New (temporary)** — shareable shortcut: sets the theme + redirects home |
+| `assets/images/site-branding/2026/invasion/invasion_{Saucer,Beam,Makey,Mothman,Bigfoot}.svg` + `invasion-header.jpg` | **New (temporary)** — scene art (saucer body, beam, 3 abductees) + carousel header slide |
+| `invasion.html` (`/invasion/`) | **New (temporary)** — shareable shortcut: redirects home with `?theme=invasion` (no storage) |
 | `_includes/head.html` | No-flash theme restore script |
 | `_includes/topnav.html` | UFO toggle button (`#theme-toggle`) |
 | `_includes/stylesheets.html` | Link the two theme sheets (after redesign) |
@@ -654,14 +680,14 @@ of every contrast-sensitive image and what to do about each. *(Audited
 - [ ] `site-branding/makerfaire-welding.webp` (footer MF mark, `menus.yaml`) — red art on transparent; **reads on dark** (verified). Low priority.
 
 **Mascot / badge graphics:**
-- [ ] `site-branding/makey.png` (`makey-border.html`, schedule fallbacks) — solid **red**, reads on dark. No action (note: Invasion has its own `invasion/makey.svg`).
+- [ ] `site-branding/makey.png` (`makey-border.html`, schedule fallbacks) — solid **red**, reads on dark. No action (note: Invasion has its own `invasion/invasion_Makey.svg`).
 - [ ] `site-branding/call-for-makers.png` (`call-for-makers-widget.html`) — self-contained navy badge; fine. No action.
 - [ ] `site-branding/makey-vortex-sm2.gif` (`404.md`) — verify it reads on dark (404 was recently restyled). Likely fine.
 
 **Print-only pages (always light — flag, low priority):**
 - [ ] `pages/table-signs.md` QR codes (`*_qr_code*.png`, black/transparent) and the table-sign header — print/table context, effectively always light. Only matters if viewed on screen in dark mode.
 
-**No action (confirmed safe):** carousel/hero/slider photos, `.mf-card-media` category & get-involved photos, stage portraits, exhibit images, favicons (browser chrome), the `2026/bottom-footer.png` banner (self-contained), and the Invasion `ufo.svg`/`makey.svg` (theme-specific, designed for dark).
+**No action (confirmed safe):** carousel/hero/slider photos, `.mf-card-media` category & get-involved photos, stage portraits, exhibit images, favicons (browser chrome), the `2026/bottom-footer.png` banner (self-contained), and the Invasion `invasion_*.svg` scene art (theme-specific, designed for dark).
 
 ### Implementation status — Strategy A DONE (2026-06-27)
 
@@ -717,7 +743,13 @@ use different classes and would need their own chip rule if re-enabled.
   fun look reverts to a clean dark mode after the event by deleting one file +
   one link + one JS entry. Implemented via a thin semantic-token layer
   (`--mf-bg`/`--mf-surface`/`--mf-dark-bg`) over the existing `--mf-*` tokens;
-  light mode is unchanged. First-visit default follows OS `prefers-color-scheme`.
+  light mode is unchanged. Full spec: **§6.17**.
+- **2026-06-28** — **Session-only persistence; default light** (User): no
+  long-term persistence (all `localStorage` removed). The active theme is kept in
+  `sessionStorage`, so it sticks across reloads/navigation within the tab but a
+  new session starts at `theme_default` (set to `light`). The 2026 skin is turned
+  on by visiting `/invasion/` (sets the session value + bounces home). Net: visit
+  `/invasion/` → stays in invasion for that session; close/reopen → back to light.
   Full spec: **§6.17**.
 
 ---

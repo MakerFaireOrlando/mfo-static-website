@@ -22,27 +22,26 @@
   {% include stylesheets.html %}
 
   {% comment %}
-    Theme restore — runs before paint so there is no flash of the wrong theme.
-    Applies the saved choice; on first visit uses the configured default
-    (settings.theme_default: light | dark | system). Full controller:
-    assets/js/mfo-theme.js.
+    Theme — runs before paint so there is no flash of the wrong theme. Persistence
+    is SESSION-ONLY (sessionStorage): the chosen theme survives reloads and
+    navigation within the tab, but a new session (window closed/reopened, fresh
+    tab) starts at the configured default (theme_default: light | dark | system).
+    The 2026 "Maker Invasion" skin is turned on by the /invasion/ page, which sets
+    the session value and bounces home. Full controller: assets/js/mfo-theme.js.
   {% endcomment %}
   <script>
     (function () {
-      var def = {{ site.data.settings.theme_default | default: 'system' | jsonify }};
+      var def = {{ site.data.settings.theme_default | default: 'light' | jsonify }};
+      // Resolve the configured default: "system" follows the OS; "dark"/"invasion"
+      // are honored as-is; anything else falls back to light.
+      var theme = (def === 'system')
+        ? ((window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light')
+        : (def === 'dark' || def === 'invasion') ? def : 'light';
       try {
-        var theme = localStorage.getItem('mfo-theme');
-        if (!theme) {
-          if (def === 'system') {
-            theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
-          } else {
-            theme = def;
-          }
-        }
-        document.documentElement.setAttribute('data-theme', theme || 'light');
-      } catch (e) {
-        document.documentElement.setAttribute('data-theme', def === 'dark' ? 'dark' : 'light');
-      }
+        var saved = sessionStorage.getItem('mfo-theme');
+        if (saved === 'light' || saved === 'dark' || saved === 'invasion') { theme = saved; }
+      } catch (e) {}
+      document.documentElement.setAttribute('data-theme', theme);
     })();
   </script>
 

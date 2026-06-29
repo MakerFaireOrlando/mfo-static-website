@@ -30,5 +30,5 @@
 
 <!-- Theme controller (UFO toggle: light / Maker Invasion / dark). Always loaded.
      The inline config passes the build-time invasion-FX duration to the script. -->
-<script>window.MFO_THEME = { invasionFxSeconds: {{ site.data.settings.theme_invasion_fx_duration | default: 10 | jsonify }}, invasionFxFadeoutSeconds: {{ site.data.settings.theme_invasion_fx_fadeout | default: 10 | jsonify }} };</script>
+<script>window.MFO_THEME = { defaultTheme: {{ site.data.settings.theme_default | default: 'light' | jsonify }}, invasionFxSeconds: {{ site.data.settings.theme_invasion_fx_duration | default: 10 | jsonify }}, invasionFxFadeoutSeconds: {{ site.data.settings.theme_invasion_fx_fadeout | default: 10 | jsonify }} };</script>
 <script type="text/javascript" src="/assets/js/mfo-theme.js"></script>

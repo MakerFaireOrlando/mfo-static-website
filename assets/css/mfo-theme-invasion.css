@@ -214,8 +214,8 @@ html:not([data-theme="invasion"]) .mf-invasion-fx { display: none; }
    removes them and drops the layer behind the content (--ambient). */
 .mf-invasion-fx--calm .mf-ufo { opacity: 0; transition: opacity 1.5s ease; }
 .mf-invasion-fx--calm .mf-ufo-craft,
-.mf-invasion-fx--calm .mf-ufo-craft::before,
-.mf-invasion-fx--calm .mf-makey { animation-play-state: paused; }
+.mf-invasion-fx--calm .mf-craft-beam,
+.mf-invasion-fx--calm .mf-abductee { animation-play-state: paused; }
 .mf-invasion-fx--ambient { z-index: 0; }
 
 /* --- Starfield: two parallax layers of cream/lime pin-pricks --- */
@@ -255,16 +255,20 @@ html:not([data-theme="invasion"]) .mf-invasion-fx { display: none; }
 @keyframes mf-drift-far  { from { transform: translateY(0); }   to { transform: translateY(40px); } }
 @keyframes mf-drift-near { from { transform: translateY(0); }   to { transform: translateY(80px); } }
 
-/* --- UFOs: drift across the sky, bobbing, with a lime tractor beam ---
- * Two nested elements so BOTH motions are compositor-only `transform`s (a single
- * element can't run two independent transform animations): the outer .mf-ufo does
- * the horizontal sweep (translateX), the inner .mf-ufo-craft does the vertical bob
- * (translateY). No layout-triggering properties are animated. */
+/* --- Saucers: cruise the sky, bobbing. One runs a tractor beam that pulls an
+ *     abductee up into its underside. Artwork is three SEPARATE layers so the
+ *     abductee is sandwiched correctly (and never drawn over the saucer):
+ *       .mf-craft-beam  invasion_Beam.svg   (2700x2303) — behind the abductee
+ *       .mf-abductee    invasion_<who>.svg  (600x600)   — Makey/Mothman/Bigfoot
+ *       .mf-craft-body  invasion_Saucer.svg (2700x1323) — on top, occludes it
+ *     Two nested wrappers keep all motion compositor-only `transform`s: outer
+ *     .mf-ufo sweeps horizontally (translateX); inner .mf-ufo-craft bobs
+ *     (translateY). --- */
 .mf-ufo {
   position: absolute;
   left: 0;
-  width: 130px;
-  aspect-ratio: 220 / 120;
+  width: 150px;
+  aspect-ratio: 2700 / 1323;   /* matches the saucer body */
   will-change: transform;
 }
 .mf-ufo-craft {
@@ -273,77 +277,92 @@ html:not([data-theme="invasion"]) .mf-invasion-fx { display: none; }
   height: 100%;
   will-change: transform;
 }
-/* Three stacked layers inside the craft so an abducted Makey rises up the beam
-   and disappears INTO the underside of the saucer, never over it:
-     ::before = tractor beam  (z 0, bottom)
-     .mf-makey                (z 1, middle)
-     ::after  = saucer image  (z 2, top — occludes the Makey as it rises in) */
-.mf-ufo-craft::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 64%;
-  width: 86px;
-  height: 200px;
-  z-index: 0;
-  transform: translateX(-50%);
-  background: linear-gradient(to bottom, rgba(166, 226, 46, 0.5), rgba(166, 226, 46, 0));
-  clip-path: polygon(34% 0, 66% 0, 100% 100%, 0 100%);
-  opacity: 0.8;
-  animation: mf-beam 3s ease-in-out infinite;
-}
-.mf-ufo-craft::after {
-  content: "";
-  position: absolute;
-  inset: 0;
+/* Saucer body — top layer; occludes the abductee as it rises into the underside. */
+.mf-craft-body {
+  position: relative;
   z-index: 2;
-  background: url("/assets/images/site-branding/2026/invasion/ufo.svg") no-repeat center / contain;
-  filter: drop-shadow(0 0 14px rgba(166, 226, 46, 0.55));
+  width: 100%;
+  aspect-ratio: 2700 / 1323;
+  background: url("/assets/images/site-branding/2026/invasion/invasion_Saucer.svg") no-repeat center / contain;
+  filter: drop-shadow(0 0 14px rgba(166, 226, 46, 0.5));
 }
-@keyframes mf-beam { 0%, 100% { opacity: 0.45; } 50% { opacity: 0.9; } }
+/* Tractor beam — emanates from the underside, behind the abductee. Every saucer
+   gets a beam + abductee (built by mfo-theme.js); the three are desynced below. */
+.mf-craft-beam {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 46%;
+  width: 100%;
+  aspect-ratio: 2700 / 2303;
+  background: url("/assets/images/site-branding/2026/invasion/invasion_Beam.svg") no-repeat top center / contain;
+  opacity: 0.5;
+  /* Fade the beam out toward the bottom (the light dissipates with distance).
+     The box matches the beam image 1:1, so the gradient maps straight onto it. */
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 28%, rgba(0,0,0,0.06) 96%);
+          mask-image: linear-gradient(to bottom, #000 0%, #000 28%, rgba(0,0,0,0.06) 96%);
+  animation: mf-beam 2.6s ease-in-out infinite;
+}
+/* Intensity flicker — a livelier, slightly irregular pulse (a humming beam).
+   Kept translucent so the beam reads as light, not a solid shape. */
+@keyframes mf-beam {
+  0%, 100% { opacity: 0.22; }
+  35%      { opacity: 0.45; }
+  55%      { opacity: 0.6; }
+  78%      { opacity: 0.38; }
+}
 
-.mf-ufo--a { top: 12%; animation: mf-fly-a 46s linear infinite; }
+/* The abductee (image set inline by mfo-theme.js). Inside the beam so it renders
+   over the beam fill, but below the saucer body (z 2) so it's occluded as it's
+   drawn up into the underside. */
+.mf-abductee {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 24%;
+  width: 42%;
+  aspect-ratio: 1 / 1;
+  background: center / contain no-repeat;
+  filter: drop-shadow(0 0 7px rgba(166, 226, 46, 0.65));
+  animation: mf-abduct 4.6s ease-in-out infinite;
+}
+@keyframes mf-abduct {
+  0%        { opacity: 0; transform: translateX(-50%) translateY(135%) scale(1); }
+  18%, 70%  { opacity: 1; }
+  100%      { opacity: 0; transform: translateX(-50%) translateY(-60%) scale(0.72); }
+}
+
+.mf-ufo--a { top: 10%; width: 210px; animation: mf-fly-a 46s linear infinite; }
 .mf-ufo--a .mf-ufo-craft { animation: mf-bob 5s ease-in-out infinite; }
-.mf-ufo--b { top: 30%; width: 96px; animation: mf-fly-b 62s linear infinite; }
+.mf-ufo--b { top: 24%; width: 186px; animation: mf-fly-b 62s linear infinite; }
 .mf-ufo--b .mf-ufo-craft { animation: mf-bob 6.5s ease-in-out infinite; }
-.mf-ufo--c { top: 56%; width: 72px; opacity: 0.85; animation: mf-fly-a 78s linear infinite; }
+.mf-ufo--c { top: 54%; width: 144px; opacity: 0.9; animation: mf-fly-a 78s linear infinite; }
 .mf-ufo--c .mf-ufo-craft { animation: mf-bob 7.5s ease-in-out infinite; }
+
+/* Desync the three abductions/beams so they don't pulse in lockstep
+   (negative delays start each mid-cycle). */
+.mf-ufo--a .mf-abductee { animation-delay: -0.6s; }
+.mf-ufo--a .mf-craft-beam { animation-delay: -0.3s; }
+.mf-ufo--b .mf-abductee { animation-delay: -2.4s; }
+.mf-ufo--b .mf-craft-beam { animation-delay: -1.5s; }
+.mf-ufo--c .mf-abductee { animation-delay: -3.8s; }
+.mf-ufo--c .mf-craft-beam { animation-delay: -2.1s; }
 
 /* Horizontal sweep across the viewport (+margin), transform-only.
    a/c travel left→right; b travels right→left. */
-@keyframes mf-fly-a { from { transform: translateX(-220px); } to { transform: translateX(110vw); } }
-@keyframes mf-fly-b { from { transform: translateX(110vw); } to { transform: translateX(-220px); } }
+@keyframes mf-fly-a { from { transform: translateX(-340px); } to { transform: translateX(110vw); } }
+@keyframes mf-fly-b { from { transform: translateX(110vw); } to { transform: translateX(-340px); } }
 /* Vertical bob on the inner craft, so it composes with the outer translateX. */
-@keyframes mf-bob   { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(22px); } }
-
-/* A Makey caught in UFO-b's beam, floating upward (abduction loop). */
-.mf-ufo .mf-makey {
-  position: absolute;
-  left: 50%;
-  top: 150%;
-  z-index: 1;                 /* between the beam (0) and the saucer (2) */
-  width: 36px;
-  aspect-ratio: 80 / 110;
-  transform: translateX(-50%);
-  background: url("/assets/images/site-branding/2026/invasion/makey.svg") no-repeat center / contain;
-  filter: drop-shadow(0 0 6px rgba(166, 226, 46, 0.6));
-  animation: mf-abduct 4.5s ease-in-out infinite;
-}
-/* Rises up the beam and fades as it reaches the saucer's underside — the saucer
-   (::after, z 2) occludes the top of its travel so it reads as "going in". */
-@keyframes mf-abduct {
-  0%        { transform: translateX(-50%) translateY(55px) rotate(-6deg); opacity: 0; }
-  25%, 70%  { opacity: 1; }
-  100%      { transform: translateX(-50%) translateY(-45px) rotate(-4deg); opacity: 0; }
-}
+@keyframes mf-bob   { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(20px); } }
 
 /* ==============================================================
  * Responsiveness & accessibility
  * ============================================================== */
 
-/* Trim the scene on small screens: keep one UFO, drop the rest + dim stars. */
+/* Trim the scene on small screens: keep the abducting saucer (--b), drop the
+   other two + dim the far stars. */
 @media (max-width: 768px) {
-  .mf-ufo--b,
+  .mf-ufo--a,
   .mf-ufo--c { display: none; }
   .mf-stars--far { opacity: 0.6; }
 }
@@ -360,5 +379,5 @@ html:not([data-theme="invasion"]) .mf-invasion-fx { display: none; }
   .mf-ufo--a { left: 6%; }
   .mf-ufo--b { left: 42%; }
   .mf-ufo--c { left: 72%; }
-  .mf-ufo .mf-makey { opacity: 1; transform: translateX(-50%) translateY(0); }
+  .mf-abductee { opacity: 1; transform: translateX(-50%) translateY(0); }
 }
