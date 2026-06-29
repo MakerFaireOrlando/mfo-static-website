@@ -1,0 +1,383 @@
+/*
+ * Maker Faire Orlando — 2026 "Maker Invasion" Skin  (TEMPORARY / 2026 ONLY)
+ * ==============================================================
+ * A fun, opt-in neon alien-invasion theme based on the 2026 event art
+ * (assets/images/site-branding/2026/mfo2026-humanitix-header.jpg):
+ * black night sky, neon lime + hot magenta, cream text, UFOs & Makeys.
+ *
+ * Activated by `data-theme="invasion"` on <html> (the UFO toggle in the header).
+ * Loaded AFTER mfo-theme-dark.css. It is a SELF-CONTAINED sibling theme: it
+ * redefines the same `--mf-*` tokens as the neutral dark theme but with the
+ * poster palette, and adds the immersive FX layer + neon polish.
+ *
+ * >>> TO RETIRE AFTER 2026 <<<
+ *   1. Remove the invasion <link> from _includes/stylesheets.html
+ *   2. Remove the #theme-toggle (UFO) button from _includes/topnav.html
+ *   3. Delete this file + assets/images/site-branding/2026/invasion/ + invasion.html
+ *   assets/js/mfo-theme.js needs NO edits — with no UFO button it just wires the
+ *   sun/moon light<->dark control and never builds the FX scene. (See §6.17.)
+ * ==============================================================
+ */
+
+[data-theme="invasion"] {
+  /* --- Semantic surfaces ---
+   * Surfaces are translucent so the fixed starfield/UFO scene shows through
+   * behind cards and bands. The body stays opaque (the void). */
+  --mf-bg:       #07070a;
+  --mf-surface:  rgba(18, 17, 23, 0.80);
+  --mf-dark-bg:  rgba(0, 0, 0, 0.55);
+
+  /* --- Text --- */
+  --mf-ink:      #F5EAD0;   /* cream primary text */
+  --mf-navy:     #A6E22E;   /* emphasis (taglines, chips) → neon lime */
+  --mf-white:    #F5EAD0;   /* text on dark / on accent → cream */
+
+  /* --- Neutrals --- */
+  --mf-gray-50:  rgba(255, 255, 255, 0.035);
+  --mf-gray-100: rgba(255, 255, 255, 0.06);
+  --mf-gray-200: rgba(255, 45, 142, 0.40);   /* magenta-tinted hairlines */
+  --mf-gray-400: #6c6a60;
+  --mf-gray-600: #b9b1a1;
+  --mf-gray-800: #ddd4be;
+
+  /* --- Accent: hot magenta primary, deep-pink hover --- */
+  --mf-red:      #FF2D8E;
+  --mf-red-dark: #FF5BA8;
+
+  /* --- Shadows: dark base, magenta glow on hover --- */
+  --mf-shadow:       0 6px 24px rgba(0, 0, 0, 0.6);
+  --mf-shadow-lg:    0 14px 40px rgba(0, 0, 0, 0.7);
+  --mf-shadow-hover: 0 0 28px rgba(255, 45, 142, 0.5);
+
+  /* Local skin tokens */
+  --mf-lime:     #A6E22E;
+  --mf-magenta:  #FF2D8E;
+  --mf-cream:    #F5EAD0;
+
+  color-scheme: dark;
+}
+
+/* ==============================================================
+ * Neon polish
+ * ============================================================== */
+
+[data-theme="invasion"] body {
+  background-color: var(--mf-bg);
+}
+
+/* The structural dark-mode fixes shared by both themes (content-text re-anchor,
+   Bootstrap alert un-theming, card-title brightening) live ONCE in
+   mfo-theme-dark.css under a combined `[data-theme="dark"], [data-theme="invasion"]`
+   selector — they resolve per-theme through the tokens. Only the neon ACCENTS
+   differ, so just those are overridden here. */
+[data-theme="invasion"] .alert-warning { border-left: 4px solid var(--mf-lime); }
+[data-theme="invasion"] .alert a { color: var(--mf-magenta); }
+[data-theme="invasion"] .title-container a:hover,
+[data-theme="invasion"] .title-container a:focus { color: var(--mf-lime); }
+
+/* Headings glow lime; the big display headlines get a magenta edge. */
+[data-theme="invasion"] h1,
+[data-theme="invasion"] h2,
+[data-theme="invasion"] h3 {
+  text-shadow: 0 0 16px rgba(166, 226, 46, 0.40);
+}
+[data-theme="invasion"] .mf-hero-overlay h1,
+[data-theme="invasion"] .mf-display {
+  text-shadow: 0 0 18px rgba(255, 45, 142, 0.45), 0 0 6px rgba(166, 226, 46, 0.35);
+}
+
+/* Brand-underline accents → lime; coral kickers/links keep the magenta accent. */
+[data-theme="invasion"] .title-w-border::after,
+[data-theme="invasion"] .title-w-border-y::after,
+[data-theme="invasion"] .mf-tier-title::after {
+  background: var(--mf-lime);
+  box-shadow: 0 0 12px rgba(166, 226, 46, 0.7);
+}
+
+/* Primary buttons: magenta fill with a soft glow. */
+[data-theme="invasion"] .btn-primary,
+[data-theme="invasion"] a.btn,
+[data-theme="invasion"] a.btn.btn-primary,
+[data-theme="invasion"] #header-cta-button a.btn {
+  box-shadow: 0 0 18px rgba(255, 45, 142, 0.45);
+}
+
+/* Navbar: near-opaque so the cream menu text stays crisp over the moving
+   starfield. (The Bootstrap white gradient is killed once on the base
+   .navbar-default rule in mfo-redesign.css.) */
+[data-theme="invasion"] .navbar-default,
+[data-theme="invasion"] .navbar.navbar-default.nav-not-home {
+  background-color: rgba(10, 9, 14, 0.92) !important;
+  border-bottom: 1px solid var(--mf-gray-200) !important;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
+}
+
+/* Stacking: lift the real page above the fixed FX scene so translucent
+   surfaces reveal it. The nav sits above content; the FX sits behind both. */
+[data-theme="invasion"] .navbar.navbar-default.nav-not-home { position: relative; z-index: 3; }
+[data-theme="invasion"] #page_content,
+[data-theme="invasion"] .gmf-footer { position: relative; z-index: 1; }
+
+/* Footer social circles: the legacy rule paints the circle with --mf-ink and the
+   glyph with --mf-white — both are cream in this skin, so the glyphs vanished.
+   Give them a dark chip with a lime glyph; magenta fill on hover. */
+[data-theme="invasion"] .gmf-footer .social-network.social-circle li a {
+  background-color: rgba(255, 255, 255, 0.07) !important;
+  border: 1px solid rgba(166, 226, 46, 0.35);
+}
+[data-theme="invasion"] .gmf-footer .social-network.social-circle li a i {
+  color: var(--mf-lime) !important;
+}
+[data-theme="invasion"] .gmf-footer .social-network.social-circle li a:hover {
+  background-color: var(--mf-magenta) !important;
+  border-color: var(--mf-magenta);
+  box-shadow: 0 0 16px rgba(255, 45, 142, 0.6);
+}
+[data-theme="invasion"] .gmf-footer .social-network.social-circle li a:hover i {
+  color: var(--mf-cream) !important;
+}
+
+/* Back-to-top button picks up a magenta glow to match the skin. */
+[data-theme="invasion"] #back-to-top {
+  box-shadow: 0 0 22px rgba(255, 45, 142, 0.6) !important;
+}
+
+/* --- Logo chips ---------------------------------------------------------
+ * Same problem as neutral dark (see mfo-theme-dark.css / §6.18): sponsor,
+ * partner, and funding logos assume a white backdrop. Give their containers a
+ * cream chip with a faint neon edge so they stay on-brand against the void. */
+[data-theme="invasion"] .mf-sponsor-tile,
+[data-theme="invasion"] .mf-asset-thumb {
+  background: #ffffff !important;
+  border-color: rgba(166, 226, 46, 0.45);
+}
+/* Sponsor marquee: solid white band behind the scrolling logos (not per-logo
+   cards). Title/subtitle above stay on the dark section. */
+[data-theme="invasion"] .mf-marquee-viewport {
+  background: #ffffff;
+  padding: 18px 0;
+  box-shadow: 0 0 22px rgba(166, 226, 46, 0.25);
+}
+[data-theme="invasion"] img[src*="tmef_logo"],
+[data-theme="invasion"] img[src*="OC_Logo"] {
+  background: #ffffff;
+  padding: 8px 14px;
+  border-radius: var(--mf-radius-sm);
+}
+
+/* UFO toggle: gentle neon pulse so it reads as "live". */
+[data-theme="invasion"] #theme-toggle {
+  color: var(--mf-lime);
+  animation: mf-ufo-pulse 2.4s ease-in-out infinite;
+}
+[data-theme="invasion"] #theme-toggle:hover,
+[data-theme="invasion"] #theme-toggle:focus-visible {
+  color: var(--mf-magenta);
+  border-color: var(--mf-magenta);
+}
+@keyframes mf-ufo-pulse {
+  0%, 100% { filter: drop-shadow(0 0 2px rgba(166, 226, 46, 0.5)); }
+  50%      { filter: drop-shadow(0 0 10px rgba(166, 226, 46, 0.95)); }
+}
+
+/* ==============================================================
+ * Immersive FX layer
+ *   Markup is injected by assets/js/mfo-theme.js on first activation:
+ *     .mf-invasion-fx > .mf-stars(--far|--near) + .mf-ufo(--a|--b|--c)
+ *   Fixed, behind content, never interactive.
+ * ============================================================== */
+
+.mf-invasion-fx {
+  position: fixed;
+  inset: 0;
+  /* Above the page CONTENT (#page_content is z-index 1) so the saucers fly over
+     the hero/cards, but BELOW the nav (z-index 3) so the navbar + mobile slide
+     menu + focus outlines are never covered (and below Bootstrap modals/lightbox
+     at 1040+). pointer-events:none keeps everything clickable. After the
+     wind-down it drops behind the content (--ambient). */
+  z-index: 2;
+  overflow: hidden;
+  pointer-events: none;
+  contain: strict;            /* isolate layout/paint for performance */
+}
+/* Safety: only ever visible under the invasion theme. */
+html:not([data-theme="invasion"]) .mf-invasion-fx { display: none; }
+
+/* Wind-down (assets/js/mfo-theme.js; settings.theme_invasion_fx_duration/_fadeout):
+   phase A — stop looping so on-screen UFOs finish their pass and none re-enter. */
+.mf-invasion-fx--noloop .mf-ufo {
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;   /* park off-screen at the end, don't snap back */
+}
+/* phase B — fade the saucers out, pause their (about-to-be-removed) child
+   animations so they don't keep compositing during the fade, then the JS
+   removes them and drops the layer behind the content (--ambient). */
+.mf-invasion-fx--calm .mf-ufo { opacity: 0; transition: opacity 1.5s ease; }
+.mf-invasion-fx--calm .mf-ufo-craft,
+.mf-invasion-fx--calm .mf-craft-beam,
+.mf-invasion-fx--calm .mf-abductee { animation-play-state: paused; }
+.mf-invasion-fx--ambient { z-index: 0; }
+
+/* --- Starfield: two parallax layers of cream/lime pin-pricks --- */
+.mf-stars {
+  position: absolute;
+  inset: -20% -10%;
+  background-repeat: no-repeat;
+  will-change: transform, opacity;
+}
+.mf-stars--far {
+  background-image:
+    radial-gradient(1.5px 1.5px at 8% 22%,  rgba(245,234,208,0.9) 99%, transparent),
+    radial-gradient(1.5px 1.5px at 19% 64%, rgba(245,234,208,0.7) 99%, transparent),
+    radial-gradient(1.5px 1.5px at 33% 12%, rgba(166,226,46,0.8) 99%, transparent),
+    radial-gradient(1.5px 1.5px at 47% 80%, rgba(245,234,208,0.8) 99%, transparent),
+    radial-gradient(1.5px 1.5px at 61% 33%, rgba(245,234,208,0.6) 99%, transparent),
+    radial-gradient(1.5px 1.5px at 73% 71%, rgba(255,45,142,0.7) 99%, transparent),
+    radial-gradient(1.5px 1.5px at 85% 18%, rgba(245,234,208,0.85) 99%, transparent),
+    radial-gradient(1.5px 1.5px at 92% 52%, rgba(245,234,208,0.6) 99%, transparent);
+  animation: mf-twinkle 5.5s ease-in-out infinite, mf-drift-far 90s linear infinite;
+}
+.mf-stars--near {
+  background-image:
+    radial-gradient(2px 2px at 14% 40%, rgba(245,234,208,1) 99%, transparent),
+    radial-gradient(2px 2px at 29% 88%, rgba(166,226,46,0.95) 99%, transparent),
+    radial-gradient(2px 2px at 44% 24%, rgba(245,234,208,1) 99%, transparent),
+    radial-gradient(2px 2px at 57% 58%, rgba(245,234,208,0.9) 99%, transparent),
+    radial-gradient(2px 2px at 69% 14%, rgba(255,45,142,0.9) 99%, transparent),
+    radial-gradient(2px 2px at 81% 84%, rgba(245,234,208,1) 99%, transparent),
+    radial-gradient(2px 2px at 96% 36%, rgba(166,226,46,0.9) 99%, transparent);
+  animation: mf-twinkle 3.8s ease-in-out infinite, mf-drift-near 60s linear infinite;
+}
+@keyframes mf-twinkle {
+  0%, 100% { opacity: 0.45; }
+  50%      { opacity: 1; }
+}
+@keyframes mf-drift-far  { from { transform: translateY(0); }   to { transform: translateY(40px); } }
+@keyframes mf-drift-near { from { transform: translateY(0); }   to { transform: translateY(80px); } }
+
+/* --- Saucers: cruise the sky, bobbing. One runs a tractor beam that pulls an
+ *     abductee up into its underside. Artwork is three SEPARATE layers so the
+ *     abductee is sandwiched correctly (and never drawn over the saucer):
+ *       .mf-craft-beam  invasion_Beam.svg   (2700x2303) — behind the abductee
+ *       .mf-abductee    invasion_<who>.svg  (600x600)   — Makey/Mothman/Bigfoot
+ *       .mf-craft-body  invasion_Saucer.svg (2700x1323) — on top, occludes it
+ *     Two nested wrappers keep all motion compositor-only `transform`s: outer
+ *     .mf-ufo sweeps horizontally (translateX); inner .mf-ufo-craft bobs
+ *     (translateY). --- */
+.mf-ufo {
+  position: absolute;
+  left: 0;
+  width: 150px;
+  aspect-ratio: 2700 / 1323;   /* matches the saucer body */
+  will-change: transform;
+}
+.mf-ufo-craft {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+/* Saucer body — top layer; occludes the abductee as it rises into the underside. */
+.mf-craft-body {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  aspect-ratio: 2700 / 1323;
+  background: url("/assets/images/site-branding/2026/invasion/invasion_Saucer.svg") no-repeat center / contain;
+  filter: drop-shadow(0 0 14px rgba(166, 226, 46, 0.5));
+}
+/* Tractor beam — emanates from the underside, behind the abductee. Every saucer
+   gets a beam + abductee (built by mfo-theme.js); the three are desynced below. */
+.mf-craft-beam {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 46%;
+  width: 100%;
+  aspect-ratio: 2700 / 2303;
+  background: url("/assets/images/site-branding/2026/invasion/invasion_Beam.svg") no-repeat top center / contain;
+  opacity: 0.5;
+  /* Fade the beam out toward the bottom (the light dissipates with distance).
+     The box matches the beam image 1:1, so the gradient maps straight onto it. */
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 28%, rgba(0,0,0,0.06) 96%);
+          mask-image: linear-gradient(to bottom, #000 0%, #000 28%, rgba(0,0,0,0.06) 96%);
+  animation: mf-beam 2.6s ease-in-out infinite;
+}
+/* Intensity flicker — a livelier, slightly irregular pulse (a humming beam).
+   Kept translucent so the beam reads as light, not a solid shape. */
+@keyframes mf-beam {
+  0%, 100% { opacity: 0.22; }
+  35%      { opacity: 0.45; }
+  55%      { opacity: 0.6; }
+  78%      { opacity: 0.38; }
+}
+
+/* The abductee (image set inline by mfo-theme.js). Inside the beam so it renders
+   over the beam fill, but below the saucer body (z 2) so it's occluded as it's
+   drawn up into the underside. */
+.mf-abductee {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 24%;
+  width: 42%;
+  aspect-ratio: 1 / 1;
+  background: center / contain no-repeat;
+  filter: drop-shadow(0 0 7px rgba(166, 226, 46, 0.65));
+  animation: mf-abduct 4.6s ease-in-out infinite;
+}
+@keyframes mf-abduct {
+  0%        { opacity: 0; transform: translateX(-50%) translateY(135%) scale(1); }
+  18%, 70%  { opacity: 1; }
+  100%      { opacity: 0; transform: translateX(-50%) translateY(-60%) scale(0.72); }
+}
+
+.mf-ufo--a { top: 10%; width: 210px; animation: mf-fly-a 46s linear infinite; }
+.mf-ufo--a .mf-ufo-craft { animation: mf-bob 5s ease-in-out infinite; }
+.mf-ufo--b { top: 24%; width: 186px; animation: mf-fly-b 62s linear infinite; }
+.mf-ufo--b .mf-ufo-craft { animation: mf-bob 6.5s ease-in-out infinite; }
+.mf-ufo--c { top: 54%; width: 144px; opacity: 0.9; animation: mf-fly-a 78s linear infinite; }
+.mf-ufo--c .mf-ufo-craft { animation: mf-bob 7.5s ease-in-out infinite; }
+
+/* Desync the three abductions/beams so they don't pulse in lockstep
+   (negative delays start each mid-cycle). */
+.mf-ufo--a .mf-abductee { animation-delay: -0.6s; }
+.mf-ufo--a .mf-craft-beam { animation-delay: -0.3s; }
+.mf-ufo--b .mf-abductee { animation-delay: -2.4s; }
+.mf-ufo--b .mf-craft-beam { animation-delay: -1.5s; }
+.mf-ufo--c .mf-abductee { animation-delay: -3.8s; }
+.mf-ufo--c .mf-craft-beam { animation-delay: -2.1s; }
+
+/* Horizontal sweep across the viewport (+margin), transform-only.
+   a/c travel left→right; b travels right→left. */
+@keyframes mf-fly-a { from { transform: translateX(-340px); } to { transform: translateX(110vw); } }
+@keyframes mf-fly-b { from { transform: translateX(110vw); } to { transform: translateX(-340px); } }
+/* Vertical bob on the inner craft, so it composes with the outer translateX. */
+@keyframes mf-bob   { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(20px); } }
+
+/* ==============================================================
+ * Responsiveness & accessibility
+ * ============================================================== */
+
+/* Trim the scene on small screens: keep the abducting saucer (--b), drop the
+   other two + dim the far stars. */
+@media (max-width: 768px) {
+  .mf-ufo--a,
+  .mf-ufo--c { display: none; }
+  .mf-stars--far { opacity: 0.6; }
+}
+
+/* Respect reduced-motion: freeze all the fun, keep the palette + a static scene.
+   With the fly animation off, transform is none, so position the static UFOs via
+   `left` (the base uses left:0 + translateX). Keep the layer BEHIND the content
+   (z-index 0) too — motionless saucers shouldn't sit on top of the page for these
+   users; they read as a subtle backdrop through the translucent surfaces. */
+@media (prefers-reduced-motion: reduce) {
+  .mf-invasion-fx { z-index: 0; }
+  .mf-invasion-fx * { animation: none !important; }
+  [data-theme="invasion"] #theme-toggle { animation: none !important; }
+  .mf-ufo--a { left: 6%; }
+  .mf-ufo--b { left: 42%; }
+  .mf-ufo--c { left: 72%; }
+  .mf-abductee { opacity: 1; transform: translateX(-50%) translateY(0); }
+}

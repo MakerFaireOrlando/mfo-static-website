@@ -18,6 +18,27 @@ volunteer_checkout: maker-faire-orlando-2025-volunteer-registration
 # when false it shows a "tickets not on sale yet" message instead.
 tickets_on_sale: false
 
+# Theme / dark mode settings (see _documentation/redesign-2026.md §6.17)
+# Show the sun/moon light<->dark toggle in the header.
+theme_toggle_enabled: false
+# Default theme at the start of each session: light | dark | system | invasion
+# ("system" follows the OS prefers-color-scheme; "invasion" makes every fresh
+# session open in the 2026 skin). Persistence is SESSION-only — the active theme
+# is kept in sessionStorage (survives reloads/navigation within the tab) but a
+# new session (window closed/reopened, fresh tab) starts at this default. The
+# Maker Invasion skin can also be turned on for a session by visiting /invasion/.
+theme_default: light
+# Show the UFO button that enables the 2026 "Maker Invasion" skin. Hiding it does
+# NOT disable invasion — /invasion/ still triggers it (e.g. for a share link).
+theme_invasion_icon: false
+# Invasion UFO scene wind-down (resets on every page load):
+#  - duration: seconds of full activity; after this the on-screen UFOs finish
+#    their pass but no NEW ones cross. Set 0 to run indefinitely (no wind-down).
+#  - fadeout: seconds AFTER that before the remaining UFOs fade out and are
+#    removed (and the layer drops back behind the content for readability).
+theme_invasion_fx_duration: 10
+theme_invasion_fx_fadeout: 10
+
 #homepage settings
 featured_makers: false
 event_shirt_promo: false
