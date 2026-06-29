@@ -545,6 +545,10 @@ inherit the themed color).
 | `theme_toggle_enabled` | `true` | Show/hide the sun/moon **light↔dark** toggle in the header. |
 | `theme_default` | `system` | First-visit default when no saved choice: `light` \| `dark` \| `system` (follows OS `prefers-color-scheme`). A saved visitor choice always wins. |
 | `theme_invasion_icon` | `true` | Show/hide the **UFO** button. Hiding it does **not** disable invasion — `/invasion/` still triggers the skin (share-link / kiosk), and the scene still renders on pages with the nav. |
+| `theme_invasion_fx_duration` | `10` | Seconds of full UFO activity; after this the on-screen saucers finish their pass but **no new ones cross** (phase A). Resets per page load. `0` = run indefinitely (no wind-down). |
+| `theme_invasion_fx_fadeout` | `10` | Seconds **after** `_duration` before the remaining saucers fade out and are removed, dropping the FX layer back behind the content for readability (phase B). |
+
+Both are passed to `mfo-theme.js` via an inline `window.MFO_THEME` global in `scripts.html`. While active the FX layer sits **above the content but below the nav** (`z-index: 2` — over `#page_content` at z1, under the navbar at z3, `pointer-events: none`) so the saucers fly over the hero/cards without covering the navbar, mobile menu, or focus outlines; after the wind-down it drops to `z-index: 0` (`--ambient`) behind the content. (`prefers-reduced-motion` keeps it behind the content the whole time.) The scene is rebuilt fresh on each activation — toggling invasion off cancels the pending wind-down and removes the layer, so toggling it back on restarts the burst.
 
 The two header buttons are gated by `theme_toggle_enabled` / `theme_invasion_icon`
 in `_includes/topnav.html`; absent buttons are simply not wired (the controller is
@@ -555,9 +559,14 @@ null-safe). The default feeds the no-flash head script.
 `mfo-theme.js` injects `.mf-invasion-fx` (a fixed, `pointer-events:none`,
 `contain:strict` layer) as the first child of `<body>`: a two-layer parallax
 **starfield** (pure CSS radial-gradients), three drifting **UFOs** with lime
-**tractor beams**, and a **Makey** caught in a beam (abduction loop). Surfaces in
-the invasion theme are slightly translucent so the scene shows through behind
-content; the navbar/content/footer are lifted above it via `z-index`.
+**tractor beams**, and a **Makey** caught in a beam (abduction loop). Each UFO is
+a nested pair (outer = horizontal `translateX` sweep, inner craft = vertical
+`translateY` bob) with the saucer as the craft's top layer (`::after`) so an
+abducted Makey rises **behind** it. While active the layer sits above the content
+but below the nav (`z-index: 2`) so the saucers fly over the hero/cards without
+covering the navbar/menu; after the wind-down (see the settings above) it drops
+behind the content, where the now-saucer-less starfield shows through the
+slightly-translucent surfaces.
 
 The scene is built **only on pages that have the header nav** (`#slide-nav`) — a
 topnav-less layout (e.g. the schedule app, `_layouts/schedule-app.html`) inherits

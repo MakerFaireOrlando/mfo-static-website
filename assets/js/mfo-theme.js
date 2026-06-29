@@ -40,16 +40,53 @@
     try { return localStorage.getItem(key); } catch (e) { return null; }
   }
 
-  // ---- Immersive FX scene (built once, on first invasion activation) ----
-  var fxBuilt = false;
+  // ---- Immersive FX scene -------------------------------------------------
+  // Read a numeric setting from the build-time global, falling back to `dflt`.
+  function fxSetting(key, dflt) {
+    var v = (window.MFO_THEME || {})[key];
+    return (typeof v === "number" && isFinite(v)) ? v : dflt;
+  }
+
+  var fxTimers = [];
+  function clearFxTimers() {
+    for (var i = 0; i < fxTimers.length; i++) { clearTimeout(fxTimers[i]); }
+    fxTimers = [];
+  }
+  // Remove the scene + cancel any pending wind-down. Called when leaving invasion
+  // so re-entering rebuilds a fresh scene (and stale timers can't mutate it).
+  function teardownInvasionFx() {
+    clearFxTimers();
+    var existing = document.querySelector(".mf-invasion-fx");
+    if (existing && existing.parentNode) { existing.parentNode.removeChild(existing); }
+  }
+
+  function fadeOutSaucers(fx) {
+    fx.classList.add("mf-invasion-fx--calm");            // CSS fades the saucers out
+    var remove = function () {
+      var ufos = fx.querySelectorAll(".mf-ufo");          // remove them (stops their animations)
+      for (var i = 0; i < ufos.length; i++) {
+        if (ufos[i].parentNode) { ufos[i].parentNode.removeChild(ufos[i]); }
+      }
+      fx.classList.add("mf-invasion-fx--ambient");        // drop the layer behind the content
+    };
+    var first = fx.querySelector(".mf-ufo");
+    if (!first) { remove(); return; }
+    // Drive removal off the fade's transitionend (decoupled from the CSS duration),
+    // with a timed fallback in case transitionend never fires.
+    var done = false;
+    var finish = function () { if (done) { return; } done = true; remove(); };
+    first.addEventListener("transitionend", finish);
+    fxTimers.push(setTimeout(finish, 2500));
+  }
+
+  // Build the scene fresh on each invasion activation (page load or toggle-on).
   function buildInvasionFx() {
-    if (fxBuilt || document.querySelector(".mf-invasion-fx")) { fxBuilt = true; return; }
-    // Only build the scene on pages that have the header nav — a bare layout
-    // without it (e.g. the schedule app) would show an immersive scene the
-    // visitor has no way to turn off. Gating on the nav (not the UFO button)
-    // means /invasion/ still renders the full scene even when the UFO icon is
-    // hidden via settings.theme_invasion_icon. The theme colors always apply.
+    // Only build on pages that have the header nav — a bare layout without it
+    // (e.g. the schedule app) would show a scene the visitor can't turn off.
+    // Gating on the nav (not the UFO button) means /invasion/ still renders the
+    // full scene even when the UFO icon is hidden via settings.
     if (!document.getElementById("slide-nav")) { return; }
+    teardownInvasionFx();   // clear any prior scene/timers so a re-toggle restarts cleanly
     var fx = document.createElement("div");
     fx.className = "mf-invasion-fx";
     fx.setAttribute("aria-hidden", "true");
@@ -60,7 +97,21 @@
       '<div class="mf-ufo mf-ufo--b"><div class="mf-ufo-craft"><div class="mf-makey"></div></div></div>' +
       '<div class="mf-ufo mf-ufo--c"><div class="mf-ufo-craft"></div></div>';
     document.body.insertBefore(fx, document.body.firstChild);
-    fxBuilt = true;
+
+    // Two-phase wind-down so the scene is a fun burst, then the page reads
+    // cleanly (a fresh page load — or toggle-off/on — rebuilds it):
+    //   phase A @ d1s        — stop looping: on-screen UFOs finish, none re-enter.
+    //   phase B @ (d1+d2)s   — fade the saucers out + remove them, then drop the
+    //                          FX layer behind the content.
+    // d1 = invasionFxSeconds (0 = run indefinitely); d2 = invasionFxFadeoutSeconds.
+    var d1 = fxSetting("invasionFxSeconds", 10);
+    var d2 = Math.max(fxSetting("invasionFxFadeoutSeconds", 10), 0);
+    if (d1 > 0) {
+      if (d2 > 0) {   // a 0 fadeout means "fade immediately at d1" — skip the no-op phase A
+        fxTimers.push(setTimeout(function () { fx.classList.add("mf-invasion-fx--noloop"); }, d1 * 1000));
+      }
+      fxTimers.push(setTimeout(function () { fadeOutSaucers(fx); }, (d1 + d2) * 1000));
+    }
   }
 
   function syncButtons(theme) {
@@ -82,7 +133,7 @@
 
   function applyTheme(theme) {
     root.setAttribute("data-theme", theme);
-    if (theme === "invasion") { buildInvasionFx(); }
+    if (theme === "invasion") { buildInvasionFx(); } else { teardownInvasionFx(); }
     syncButtons(theme);
   }
 

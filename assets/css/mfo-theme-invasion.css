@@ -65,22 +65,15 @@
   background-color: var(--mf-bg);
 }
 
-/* Generic content text: the legacy theme hardcodes `body`/`p` to #4a4a4a, which
-   doesn't flip and goes low-contrast on the dark skin. Re-anchor plain content
-   text to the cream ink. :where() keeps specificity low so component rules with
-   an explicit token color (or !important) still win. */
-[data-theme="invasion"] :where(p, li, dd, dt, td, th, blockquote, figcaption, small, .text-muted) {
-  color: var(--mf-ink);
-}
-
-/* Bootstrap alerts: dark translucent surface, cream text, neon accent edge. */
-[data-theme="invasion"] .alert {
-  background-color: rgba(18, 17, 23, 0.85);
-  border-color: var(--mf-gray-200);
-  color: var(--mf-ink);
-}
+/* The structural dark-mode fixes shared by both themes (content-text re-anchor,
+   Bootstrap alert un-theming, card-title brightening) live ONCE in
+   mfo-theme-dark.css under a combined `[data-theme="dark"], [data-theme="invasion"]`
+   selector — they resolve per-theme through the tokens. Only the neon ACCENTS
+   differ, so just those are overridden here. */
 [data-theme="invasion"] .alert-warning { border-left: 4px solid var(--mf-lime); }
 [data-theme="invasion"] .alert a { color: var(--mf-magenta); }
+[data-theme="invasion"] .title-container a:hover,
+[data-theme="invasion"] .title-container a:focus { color: var(--mf-lime); }
 
 /* Headings glow lime; the big display headlines get a magenta edge. */
 [data-theme="invasion"] h1,
@@ -197,13 +190,33 @@
 .mf-invasion-fx {
   position: fixed;
   inset: 0;
-  z-index: 0;
+  /* Above the page CONTENT (#page_content is z-index 1) so the saucers fly over
+     the hero/cards, but BELOW the nav (z-index 3) so the navbar + mobile slide
+     menu + focus outlines are never covered (and below Bootstrap modals/lightbox
+     at 1040+). pointer-events:none keeps everything clickable. After the
+     wind-down it drops behind the content (--ambient). */
+  z-index: 2;
   overflow: hidden;
   pointer-events: none;
   contain: strict;            /* isolate layout/paint for performance */
 }
 /* Safety: only ever visible under the invasion theme. */
 html:not([data-theme="invasion"]) .mf-invasion-fx { display: none; }
+
+/* Wind-down (assets/js/mfo-theme.js; settings.theme_invasion_fx_duration/_fadeout):
+   phase A — stop looping so on-screen UFOs finish their pass and none re-enter. */
+.mf-invasion-fx--noloop .mf-ufo {
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;   /* park off-screen at the end, don't snap back */
+}
+/* phase B — fade the saucers out, pause their (about-to-be-removed) child
+   animations so they don't keep compositing during the fade, then the JS
+   removes them and drops the layer behind the content (--ambient). */
+.mf-invasion-fx--calm .mf-ufo { opacity: 0; transition: opacity 1.5s ease; }
+.mf-invasion-fx--calm .mf-ufo-craft,
+.mf-invasion-fx--calm .mf-ufo-craft::before,
+.mf-invasion-fx--calm .mf-makey { animation-play-state: paused; }
+.mf-invasion-fx--ambient { z-index: 0; }
 
 /* --- Starfield: two parallax layers of cream/lime pin-pricks --- */
 .mf-stars {
@@ -258,23 +271,34 @@ html:not([data-theme="invasion"]) .mf-invasion-fx { display: none; }
   position: relative;
   width: 100%;
   height: 100%;
-  background: url("/assets/images/site-branding/2026/invasion/ufo.svg") no-repeat center / contain;
-  filter: drop-shadow(0 0 14px rgba(166, 226, 46, 0.55));
   will-change: transform;
 }
-/* tractor beam */
-.mf-ufo-craft::after {
+/* Three stacked layers inside the craft so an abducted Makey rises up the beam
+   and disappears INTO the underside of the saucer, never over it:
+     ::before = tractor beam  (z 0, bottom)
+     .mf-makey                (z 1, middle)
+     ::after  = saucer image  (z 2, top — occludes the Makey as it rises in) */
+.mf-ufo-craft::before {
   content: "";
   position: absolute;
   left: 50%;
   top: 64%;
   width: 86px;
   height: 200px;
+  z-index: 0;
   transform: translateX(-50%);
   background: linear-gradient(to bottom, rgba(166, 226, 46, 0.5), rgba(166, 226, 46, 0));
   clip-path: polygon(34% 0, 66% 0, 100% 100%, 0 100%);
   opacity: 0.8;
   animation: mf-beam 3s ease-in-out infinite;
+}
+.mf-ufo-craft::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: url("/assets/images/site-branding/2026/invasion/ufo.svg") no-repeat center / contain;
+  filter: drop-shadow(0 0 14px rgba(166, 226, 46, 0.55));
 }
 @keyframes mf-beam { 0%, 100% { opacity: 0.45; } 50% { opacity: 0.9; } }
 
@@ -297,6 +321,7 @@ html:not([data-theme="invasion"]) .mf-invasion-fx { display: none; }
   position: absolute;
   left: 50%;
   top: 150%;
+  z-index: 1;                 /* between the beam (0) and the saucer (2) */
   width: 36px;
   aspect-ratio: 80 / 110;
   transform: translateX(-50%);
@@ -304,11 +329,12 @@ html:not([data-theme="invasion"]) .mf-invasion-fx { display: none; }
   filter: drop-shadow(0 0 6px rgba(166, 226, 46, 0.6));
   animation: mf-abduct 4.5s ease-in-out infinite;
 }
+/* Rises up the beam and fades as it reaches the saucer's underside — the saucer
+   (::after, z 2) occludes the top of its travel so it reads as "going in". */
 @keyframes mf-abduct {
-  0%        { transform: translateX(-50%) translateY(60px) rotate(-6deg); opacity: 0; }
-  20%, 80%  { opacity: 1; }
-  50%       { transform: translateX(-50%) translateY(-10px) rotate(6deg); }
-  100%      { transform: translateX(-50%) translateY(-90px) rotate(-4deg); opacity: 0; }
+  0%        { transform: translateX(-50%) translateY(55px) rotate(-6deg); opacity: 0; }
+  25%, 70%  { opacity: 1; }
+  100%      { transform: translateX(-50%) translateY(-45px) rotate(-4deg); opacity: 0; }
 }
 
 /* ==============================================================
@@ -324,8 +350,11 @@ html:not([data-theme="invasion"]) .mf-invasion-fx { display: none; }
 
 /* Respect reduced-motion: freeze all the fun, keep the palette + a static scene.
    With the fly animation off, transform is none, so position the static UFOs via
-   `left` (the base uses left:0 + translateX). */
+   `left` (the base uses left:0 + translateX). Keep the layer BEHIND the content
+   (z-index 0) too — motionless saucers shouldn't sit on top of the page for these
+   users; they read as a subtle backdrop through the translucent surfaces. */
 @media (prefers-reduced-motion: reduce) {
+  .mf-invasion-fx { z-index: 0; }
   .mf-invasion-fx * { animation: none !important; }
   [data-theme="invasion"] #theme-toggle { animation: none !important; }
   .mf-ufo--a { left: 6%; }

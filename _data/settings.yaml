@@ -28,6 +28,13 @@ theme_default: system
 # Show the UFO button that enables the 2026 "Maker Invasion" skin. Hiding it does
 # NOT disable invasion — /invasion/ still triggers it (e.g. for a share link).
 theme_invasion_icon: false
+# Invasion UFO scene wind-down (resets on every page load):
+#  - duration: seconds of full activity; after this the on-screen UFOs finish
+#    their pass but no NEW ones cross. Set 0 to run indefinitely (no wind-down).
+#  - fadeout: seconds AFTER that before the remaining UFOs fade out and are
+#    removed (and the layer drops back behind the content for readability).
+theme_invasion_fx_duration: 10
+theme_invasion_fx_fadeout: 10
 
 #homepage settings
 featured_makers: false
