@@ -216,6 +216,22 @@
   // from stacking a second timer chain + duplicate navigation during the window.
   var switching = false;
 
+  // The tabs stay DOCKED until the UFO handle is clicked. Each handle toggles
+  // .is-revealed on its own tab (both tabs render on every page; CSS shows the
+  // one for the active theme). Blur on close so :focus-within doesn't pin it open.
+  function wireTabHandles() {
+    var handles = document.querySelectorAll(".mf-invasion-tab-handle");
+    for (var i = 0; i < handles.length; i++) {
+      handles[i].addEventListener("click", function () {
+        var tab = this.closest(".mf-invasion-switch");
+        if (!tab) { return; }
+        var open = tab.classList.toggle("is-revealed");
+        this.setAttribute("aria-expanded", open ? "true" : "false");
+        if (!open) { this.blur(); }
+      });
+    }
+  }
+
   // 2026 Maker Invasion ACTIVATE tab — the light/dark-mode switch that turns
   // invasion ON (markup: _includes/invasion-activate.html). Clicking throws the
   // lever UP; when it reaches the top jaws (after the ~1.5s throw) the theme flips
@@ -295,6 +311,7 @@
 
     wireKillSwitch();
     wireActivateSwitch();
+    wireTabHandles();
   }
 
   if (document.readyState === "loading") {

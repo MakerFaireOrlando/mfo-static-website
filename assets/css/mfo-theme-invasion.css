@@ -415,7 +415,9 @@ html[data-theme="invasion"] .mf-invasion-switch--activate { display: none; }
   box-shadow: 0 10px 34px rgba(0, 0, 0, 0.6), 0 0 22px rgba(166, 226, 46, 0.16);
   transition: transform 0.28s cubic-bezier(.22,.61,.36,1), box-shadow 0.28s ease;
 }
-.mf-invasion-switch:hover,
+/* The tab stays DOCKED until the UFO handle is clicked (JS toggles .is-revealed).
+   :focus-within keeps it open for keyboard users tabbing through the controls. */
+.mf-invasion-switch.is-revealed,
 .mf-invasion-switch:focus-within {
   transform: translateY(-50%) translateX(0);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.65), 0 0 30px rgba(166, 226, 46, 0.32);
@@ -442,13 +444,15 @@ html[data-theme="invasion"] .mf-invasion-switch--activate { display: none; }
    if the pointer leaves. */
 .mf-invasion-switch--activate.is-on { transform: translateY(-50%) translateX(0); }
 
-/* Grab handle that stays onscreen at the left edge while the body is tucked. */
+/* Clickable grab handle that stays onscreen at the left edge while the body is
+   docked — clicking it toggles .is-revealed (wired in mfo-theme.js). */
 .mf-invasion-tab-handle {
   position: absolute;
   left: 100%; top: 50%;
   transform: translateY(-50%);
   width: 33px; height: 99px;   /* 50% larger than the tab's body width — the handle is the only oversized part */
   display: flex; align-items: center; justify-content: center;
+  padding: 0; cursor: pointer; -webkit-appearance: none; appearance: none;
   background: linear-gradient(180deg, #14131b, #0c0b11);
   border: 1px solid var(--mf-gray-200); border-left: none;
   border-radius: 0 12px 12px 0;
@@ -461,7 +465,8 @@ html[data-theme="invasion"] .mf-invasion-switch--activate { display: none; }
   0%, 100% { filter: drop-shadow(0 0 4px rgba(166,226,46,0.45)); }
   50%      { filter: drop-shadow(0 0 11px rgba(166,226,46,0.95)); }
 }
-.mf-invasion-switch:hover .mf-invasion-tab-handle,
+/* Stop the attract-pulse once the tab is open. */
+.mf-invasion-switch.is-revealed .mf-invasion-tab-handle,
 .mf-invasion-switch:focus-within .mf-invasion-tab-handle { animation: none; }
 
 /* Rest = OFF. .is-on raises the lever; the sign and sparks stay dark during the
@@ -745,15 +750,10 @@ html[data-theme="invasion"] .mf-invasion-switch--activate { display: none; }
 }
 .mf-invasion-powerdown.is-on { opacity: 0.92; }
 
-/* Smaller + always fully out on narrow screens (no hover); keep it usable. */
+/* Smaller switch on narrow screens (reveal is still click-to-open via the handle,
+   which works fine on touch — no special hover handling needed). */
 @media (max-width: 768px) {
-  .mf-invasion-switch {
-    transform: translateY(-50%) translateX(0);
-    padding: 10px 10px 12px;
-    gap: 7px;
-  }
-  .mf-invasion-switch:hover,
-  .mf-invasion-switch:focus-within { transform: translateY(-50%) translateX(0); }
+  .mf-invasion-switch { padding: 10px 10px 12px; gap: 7px; }
   .mf-invasion-sign__text { font-size: 0.93rem; letter-spacing: 0.04em; }
   .mf-knife { width: 70px; }
   .mf-knife__frame { width: 64px; height: 124px; }
@@ -762,14 +762,6 @@ html[data-theme="invasion"] .mf-invasion-switch--activate { display: none; }
   .mf-knife__post--hinge { top: 57px; }
   .mf-knife__lever { left: 11px; width: 42px; height: 50px; bottom: 62px; }
   .mf-knife__caption { font-size: 0.5rem; }
-}
-
-/* Touch devices (no hover) can't reveal a tucked tab — there's no :hover to slide
-   it out, and at >768px the rule above doesn't apply, which would strand the real
-   switch button offscreen (the visible handle is a decorative span). Keep the tab
-   fully out on any non-hover device, at any width, so it stays operable. */
-@media (hover: none) {
-  .mf-invasion-switch { transform: translateY(-50%) translateX(0); }
 }
 
 /* Reduced motion: no flicker, no swing, no flash — the JS reverts instantly. */
