@@ -8,12 +8,14 @@ carousel: true
 carousel-delay: 5000
 carousel-controls: true
 carousel-slides:
-  - image: /assets/images/slider/mandalorians.jpg
+  - image: /assets/images/slider/2025-rebels.jpg
+    caption: The Greatest Show (& Tell) on Earth!
+  - image: /assets/images/slider/2025-star-wars.jpg
     caption: Meet your favorite Star Wars Characters!
   - image: /assets/images/slider/3dprinter.jpg
     caption: The Latest in 3D Printing!
     url: /exhibits/categories/3d-printing/
-  - image: /assets/images/slider/fred-and-elle-cosplay-painting.jpg
+  - image: /assets/images/slider/2025-cosplay-exhibit.jpg
     caption: Meet Award-Winning Cosplay Makers!
     url: /exhibits/categories/cosplay/
   - image: /assets/images/slider/gateway-to-japan.jpg
@@ -25,13 +27,13 @@ carousel-slides:
   - image: /assets/images/slider/robot-ruckus-small-arena.jpg
     caption: See Fighting Robots!
     url: /exhibits/categories/combat-robots/
-  - image: /assets/images/slider/synths.jpg
+  - image: /assets/images/slider/2025-synths.jpg
     caption: Make Music!
   - image: /assets/images/slider/take-it-apart.jpg
     caption: Have Fun Taking Apart Electronics!
   - image: /assets/images/slider/steamroller-screenprinting-unicorn.jpg
     caption: Make Art with a Steamroller!
-  - image: /assets/images/slider/raphael.jpg
+  - image: /assets/images/slider/2025-dumpster-fire.jpg
     caption: Pow-Pow-Power Racing!
     url: /power-racing/
 ---

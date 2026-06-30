@@ -1,15 +1,21 @@
 ---
 title: Volunteer at Maker Faire Orlando!
 layout: full-width
-image: /assets/images/volunteer-solder.jpg
+image: /assets/images/slider/2025-volunteer-greeters.jpg
 permalink: /volunteer/
 redirect_from: /volunteers/
 carousel: true
 carousel-delay: 5000
-carousel-controls: false
+carousel-controls: true
 carousel-slides:
-  - image: /assets/images/volunteer-solder.jpg
-    caption: Learn-To-Solder
+  - image: /assets/images/slider/2025-volunteer-greeters.jpg
+    caption: Volunteer at Maker Faire Orlando
+    url:
+  - image: /assets/images/slider/2025-volunteer-curiousity.jpg
+    caption: Lend a hand and meet amazing makers
+    url:
+  - image: /assets/images/slider/2025-volunteer-galactus-centered.jpg
+    caption: Be part of the crew behind the magic
     url:
 ---
 

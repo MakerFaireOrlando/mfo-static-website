@@ -5,33 +5,25 @@ permalink: /field-trip-day/
 redirect_from: 
   - /education-day/
   - /homeschool/
-image: /assets/images/educator-page-header-bok-academy.jpg
+image: /assets/images/slider/2025-princess-powertools.jpg
 description: A day of hands-on discovery for students, educators, and homeschoolers!
 carousel: true
 carousel-delay: 5000
 carousel-controls: true
 carousel-slides:
-  - image: /assets/images/educator-page-header-bok-academy.jpg
-    caption: School group at Maker Faire Orlando
+  - image: /assets/images/slider/2025-princess-powertools.jpg
+    caption: Hands-on discovery for students
     url:
   
   - image: /assets/images/field-trip-day/ftd-stage.jpg
     caption: Stage
     url:
   
-  - image: /assets/images/field-trip-day/ftd-cosplay.jpg
-    caption: Cosplay
-    url:
-  
-  - image: /assets/images/field-trip-day/ftd-robots.jpg
+  - image: /assets/images/slider/2025-combat-robot-ftd.jpg
     caption: Robots
     url:
-
-  - image: /assets/images/field-trip-day/ftd-star-wars.jpg
-    caption: Star Wars
-    url:
   
-  - image: /assets/images/field-trip-day/ftd-synths.jpg
+  - image: /assets/images/slider/2025-synths.jpg
     caption: Synths
     url:
 

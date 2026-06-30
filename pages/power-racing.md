@@ -2,7 +2,7 @@
 title: Power Racing
 layout: default
 permalink: /power-racing/
-image: /assets/images/power-racing-group-shot-2018.jpg
+image: /assets/images/slider/PRS21.jpg
 description: Watch Power Racing LIVE at Maker Faire Orlando!
 scrolltop: true
 
@@ -10,40 +10,40 @@ carousel: true
 carousel-delay: 5000
 carousel-controls: true
 carousel-slides:
-  - image: /assets/images/slider/driftie1.jpg  
-    caption: COOKIES!
-    url: /power-racing/
+  - image: /assets/images/slider/2025-dumpster-fire.jpg
+    caption: Pow-Pow-Power Racing!
+    url:
 
-  - image: /assets/images/slider/power_racing_glitter.jpg  
-    caption: Glitter Bomb!
-    url: /power-racing/
+  - image: /assets/images/slider/PRS-track.jpg
+    caption: Race around the Power Racing track!
+    url:
 
-  - image: /assets/images/slider/power_racing_scooby1.jpg  
-    caption: Go Scooby Do!
-    url: /power-racing/
+  - image: /assets/images/slider/PRS-lazygt.jpg
+    caption: Wheel-to-wheel action!
+    url:
 
-  - image: /assets/images/slider/power-racing-two-wheels.jpg
-    caption: Power racer on two wheels!
-    url: /power-racing/
+  - image: /assets/images/slider/PRS-taco.jpg
+    caption: Wild custom karts!
+    url:
 
-  - image: /assets/images/slider/starting_line.jpg
-    caption: Power racing starting line
-    url: /power-racing/
+  - image: /assets/images/slider/prs-crash.jpg
+    caption: Make a splash!
+    url:
 
-  - image: /assets/images/slider/raphael.jpg
-    caption: Ninja turtle power racer!
-    url: /power-racing/
+  - image: /assets/images/slider/prs-flagger.jpg
+    caption: Volunteers keep the race running
+    url:
 
-  - image: /assets/images/slider/shes_fast.jpg
-    caption: Weinermobile Power Racer!
-    url: /power-racing/
+  - image: /assets/images/slider/PRS21.jpg
+    caption: Join the Power Racing crew!
+    url:
 ---
 
 
 
 # Power Racing is back at {{site.data.settings.event_name}} {{site.data.settings.event_year}}!
 
-![Power Racing Teams group shot 2018](/assets/images/power-racing-group-shot-2018.jpg){:width="100%"}
+![Power Racing track at Maker Faire Orlando](/assets/images/slider/PRS-track.jpg){:width="100%"}
 
 ## Do you have what it takes to build a racer?
 

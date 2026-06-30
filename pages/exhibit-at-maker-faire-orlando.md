@@ -2,14 +2,20 @@
 title: Apply to Exhibit!
 permalink: /exhibit-at-maker-faire-orlando/
 layout: full-width
-image: /assets/images/cfm_brassroots_exhibit.jpg
+image: /assets/images/slider/2025-cosplay-exhibit.jpg
 redirect_from: /exhibit
 carousel: true
 carousel-delay: 5000
-carousel-controls: false
+carousel-controls: true
 carousel-slides:
-  - image: /assets/images/cfm_brassroots_exhibit.jpg
-    caption: Brassroots Leather exhibiting at Maker Faire Orlando
+  - image: /assets/images/slider/2025-cosplay-exhibit.jpg
+    caption: Cosplay makers showing their craft at Maker Faire Orlando
+    url:
+  - image: /assets/images/slider/2025-models.jpg
+    caption: Detailed scale models on display at Maker Faire Orlando
+    url:
+  - image: /assets/images/slider/2025-ghostbusters.jpg
+    caption: Group exhibits bring fan-favorite characters to life
     url:
 ---
 

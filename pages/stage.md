@@ -2,7 +2,7 @@
 title: Stage Talks, Panels & Performances at Maker Faire Orlando
 layout: default
 permalink: /stage/
-image: /assets/images/stage/2024/stage-header-MFO24.jpg
+image: /assets/images/slider/2025-cosplay-stage.jpg
 description: Check out the Featured Guests, Panels & Talks at Maker Faire Orlando!
 scrolltop: true
 
@@ -10,7 +10,7 @@ carousel: false
 carousel-delay: 5000
 carousel-controls: false
 carousel-slides:
-  - image: /assets/images/stage/2024/stage-header-MFO24.jpg
+  - image: /assets/images/slider/2025-cosplay-stage.jpg
     caption: Check out the Featured Guests, Panels & Talks at Maker Faire Orlando!
     url: /schedule/
 ---

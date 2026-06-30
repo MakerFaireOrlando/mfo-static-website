@@ -5,14 +5,14 @@ permalink: /educators/
 redirect_from:
   - /educator
   - /educator-programs
-image: /assets/images/educator-page-header-bok-academy.jpg
+image: /assets/images/slider/2025-princess-powertools.jpg
 description: Learn how you can harness the Maker Movement in your classroom!
 carousel: true
 carousel-delay: 5000
 carousel-controls: false
 carousel-slides:
-  - image: /assets/images/educator-page-header-bok-academy.jpg
-    caption: School group at Maker Faire Orlando
+  - image: /assets/images/slider/2025-princess-powertools.jpg
+    caption: Hands-on learning at Maker Faire Orlando
     url:
 
 ---

@@ -3,20 +3,20 @@ title: About Maker Faire Orlando
 layout: full-width
 permalink: /about/
 description: Maker Faire Orlando is a community-organized, family-friendly celebration of science, art, technology, and hands-on making, produced by The Maker Effect Foundation.
-image: /assets/images/slider/kid-with-stormtroopers.jpg
+image: /assets/images/slider/2025-ghostbusters.jpg
 carousel: true
 carousel-delay: 5000
 carousel-controls: true
 carousel-slides:
-  - image: /assets/images/slider/kid-with-stormtroopers.jpg
+  - image: /assets/images/slider/2025-ghostbusters.jpg
     caption: Meet your heroes!
     url: /exhibits/
 
-  - image: /assets/images/slider/learn-to-solder-2019.jpg
+  - image: /assets/images/slider/2025-exploding-heads.jpg
     caption: Learn how to make something!
     url: /exhibits/categories/hands-on-workshop/
 
-  - image: /assets/images/slider/taco-bus-prs.jpg
+  - image: /assets/images/slider/2025-dumpster-fire.jpg
     caption: See racing action!
     url: /power-racing/
 ---
