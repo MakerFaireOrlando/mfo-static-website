@@ -1,0 +1,256 @@
+---
+permalink: /invasion-lab/
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en-US" data-theme="invasion">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Invasion Switch Lab</title>
+  {%- comment -%}
+    TEMPORARY design tool (2026 invasion skin). A playground to compare neon-sign
+    styles, knife-switch throw motions, sparks, and speed for the kill switch.
+    Self-contained: loads the theme CSS + candidate fonts and renders independent
+    demo switches (its own JS — it does NOT load mfo-theme.js, so flipping a switch
+    just plays the animation and resets; it never changes the real theme).
+    Delete this file once the switch design is finalized.
+  {%- endcomment -%}
+  <link rel="stylesheet" href="/assets/css/mfo-redesign.css">
+  <link rel="stylesheet" href="/assets/css/mfo-theme-dark.css">
+  <link rel="stylesheet" href="/assets/css/mfo-theme-invasion.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&family=Pacifico&family=Great+Vibes&family=Audiowide&display=swap">
+  <style>
+    body { background:#07070a; margin:0; color:#F5EAD0; font-family:Inter,Arial,sans-serif; padding-bottom:80px; }
+    .lab-head { padding:26px 28px 8px; }
+    .lab-head h1 { font-family:var(--mf-font-head),sans-serif; color:#A6E22E; margin:0 0 4px; text-shadow:0 0 14px rgba(166,226,46,.5); }
+    .lab-head p { color:#b9b1a1; margin:0; max-width:760px; }
+
+    /* control panel */
+    .lab-controls { display:flex; flex-wrap:wrap; gap:22px; padding:18px 28px; }
+    .grp { background:rgba(255,255,255,.04); border:1px solid var(--mf-gray-200); border-radius:12px; padding:12px 14px; }
+    .grp h3 { font:700 .68rem/1 var(--mf-font-head),sans-serif; letter-spacing:.14em; text-transform:uppercase; color:#A6E22E; margin:0 0 9px; }
+    .grp .btns { display:flex; gap:7px; flex-wrap:wrap; }
+    .opt { font:600 .8rem Inter; color:#F5EAD0; background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.12);
+           border-radius:8px; padding:7px 11px; cursor:pointer; transition:all .15s; }
+    .opt:hover { border-color:#A6E22E; }
+    .opt[aria-pressed="true"] { background:var(--mf-magenta); border-color:var(--mf-magenta); color:#fff; box-shadow:0 0 14px rgba(255,45,142,.5); }
+    .grp input[type=range] { width:160px; accent-color:#A6E22E; }
+    .grp .val { font:600 .8rem Inter; color:#A6E22E; margin-left:8px; }
+
+    /* hero stage */
+    .lab-stage { display:flex; align-items:center; gap:36px; padding:14px 28px 30px; }
+    .lab-stage .pedestal { padding:30px 50px; background:radial-gradient(120% 120% at 50% 0%, rgba(166,226,46,.08), transparent 70%); }
+    .throw-btn { font:700 .8rem var(--mf-font-head),sans-serif; letter-spacing:.12em; text-transform:uppercase; color:#fff;
+                 background:var(--mf-magenta); border:0; border-radius:10px; padding:12px 20px; cursor:pointer; box-shadow:0 0 16px rgba(255,45,142,.45); }
+    .hint { color:#b9b1a1; font-size:.85rem; margin-top:10px; }
+
+    .lab-grid { display:flex; flex-wrap:wrap; gap:18px; padding:8px 28px 40px; }
+    .card { background:rgba(255,255,255,.03); border:1px solid var(--mf-gray-200); border-radius:14px; padding:18px 14px 6px; text-align:center; }
+    .card .cap { display:block; color:#A6E22E; font:600 .8rem Inter; margin-top:6px; }
+    .card .sub { color:#8a8676; font-size:.72rem; }
+
+    /* demo switches sit inline (the real one is position:fixed) */
+    .lab-stage .mf-invasion-switch,
+    .lab-grid .mf-invasion-switch { position:static; transform:none; display:inline-flex; }
+    .lab-stage .mf-invasion-switch:hover,
+    .lab-grid .mf-invasion-switch:hover { transform:none; box-shadow:0 10px 34px rgba(0,0,0,.6),0 0 22px rgba(166,226,46,.16); }
+    .mf-invasion-switch { --throw:1.5s; }
+    .mf-knife__lever { transition: transform var(--throw) cubic-bezier(.45,.05,.35,1) !important; }
+
+    /* ============ NEON SIGN VARIANTS ============ */
+    .mf-invasion-sign { overflow:visible; }
+    .sign-archivo .mf-invasion-sign__text { font-family:var(--mf-font-head),sans-serif; text-transform:uppercase; font-weight:800; font-size:.74rem; letter-spacing:.16em; }
+    .sign-tube    .mf-invasion-sign__text { font-family:'Monoton',cursive;     text-transform:none; font-weight:400; font-size:.92rem; letter-spacing:.04em; }
+    .sign-script  .mf-invasion-sign__text { font-family:'Pacifico',cursive;    text-transform:none; font-weight:400; font-size:1.04rem; letter-spacing:.005em; }
+    .sign-vibes   .mf-invasion-sign__text { font-family:'Great Vibes',cursive; text-transform:none; font-weight:400; font-size:1.4rem;  letter-spacing:.01em; }
+    .sign-retro   .mf-invasion-sign__text { font-family:'Audiowide',cursive;   text-transform:uppercase; font-weight:400; font-size:.78rem; letter-spacing:.06em; }
+    /* richer neon glow + characterful buzz flicker, applied to all lab signs */
+    .lab-sign .mf-invasion-sign__text {
+      color:#f4ffd6;
+      text-shadow:
+        0 0 3px #ffffff,
+        0 0 7px #c9ff7a,
+        0 0 15px #A6E22E,
+        0 0 26px #6fae12,
+        0 0 40px rgba(255,45,142,.55);
+      animation: mf-neon-buzz 4.6s infinite;
+    }
+    @keyframes mf-neon-buzz {
+      0%, 18%, 22%, 54%, 57%, 83%, 100% { opacity:1; }
+      19% { opacity:.28; }  20% { opacity:.9; }  21% { opacity:.4; }
+      55% { opacity:.55; }  56% { opacity:1; }
+      70% { opacity:.78; }  84% { opacity:.5; }  85% { opacity:1; }
+    }
+    /* a faint flickering "tube hum" reflection behind the text */
+    .lab-sign .mf-invasion-sign { box-shadow:0 0 18px rgba(166,226,46,.25); }
+
+    /* ============ THROW VARIANTS (override base .is-off transform) ============ */
+    /* base ships v-flip (rotateX -180). these win via the extra class. */
+    .mf-invasion-switch.v-flip.is-off  .mf-knife__lever { transform: rotateX(-180deg); }
+    .mf-invasion-switch.v-peel.is-off  .mf-knife__lever { transform: rotateX(-122deg); }   /* handle yanks out toward you, hangs down-forward */
+    .mf-invasion-switch.v-tilt.is-off  .mf-knife__lever { transform: rotateX(-180deg) rotateZ(8deg); } /* slight skew, livelier, no dead edge-on */
+    .mf-invasion-switch.v-flat.is-off  .mf-knife__lever { transform: rotateZ(118deg); }     /* original flat in-plane spin (for comparison) */
+
+    /* ============ SPARKS / ARC ============
+       The arc between the letters and the switch is the production .mf-invasion-zap
+       (defined in mfo-theme-invasion.css): it crackles while ON and dies the instant
+       the handle is pulled. Here the "off" toggle just adds .no-arc to hide it. */
+    .sign-retro .mf-invasion-sign__text { font-size: 1.0rem; }   /* match the larger homepage size */
+
+    @media (prefers-reduced-motion: reduce) {
+      .lab-sign .mf-invasion-sign__text { animation:none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="lab-head">
+    <h1>Invasion Switch Lab</h1>
+    <p>Try the options below, then click a switch (or <em>Throw it</em>) to play the motion — it resets so you can replay. Tell me which sign + throw + sparks combo you want and I’ll make it the real one.</p>
+  </div>
+
+  <div class="lab-controls">
+    <div class="grp" data-group="sign">
+      <h3>Neon sign</h3>
+      <div class="btns">
+        <button class="opt" data-val="sign-retro" aria-pressed="true">Retro (Audiowide)</button>
+        <button class="opt" data-val="sign-script">Script (Pacifico)</button>
+        <button class="opt" data-val="sign-vibes">Cursive (Great Vibes)</button>
+        <button class="opt" data-val="sign-tube">Tube (Monoton)</button>
+        <button class="opt" data-val="sign-archivo">Block (old)</button>
+      </div>
+    </div>
+    <div class="grp" data-group="throw">
+      <h3>Throw motion</h3>
+      <div class="btns">
+        <button class="opt" data-val="v-flip" aria-pressed="true">Flip down (3D)</button>
+        <button class="opt" data-val="v-peel">Peel out</button>
+        <button class="opt" data-val="v-tilt">Flip + skew</button>
+        <button class="opt" data-val="v-flat">Flat spin (old)</button>
+      </div>
+    </div>
+    <div class="grp" data-group="sparks">
+      <h3>Sparks / arc</h3>
+      <div class="btns">
+        <button class="opt" data-val="on" aria-pressed="true">On</button>
+        <button class="opt" data-val="off">Off</button>
+      </div>
+    </div>
+    <div class="grp">
+      <h3>Throw speed</h3>
+      <input id="speed" type="range" min="0.8" max="2.6" step="0.1" value="1.5">
+      <span class="val" id="speedVal">1.5s</span>
+    </div>
+  </div>
+
+  <div class="lab-stage">
+    <div class="pedestal"><div id="hero"></div></div>
+    <div>
+      <button class="throw-btn" id="throwBtn">⏻ Throw it</button>
+      <div class="hint">…or click the switch itself.</div>
+    </div>
+  </div>
+
+  <h3 style="padding:0 28px;color:#A6E22E;font-family:var(--mf-font-head),sans-serif;letter-spacing:.1em">ALL THROW MOTIONS (retro sign + arc)</h3>
+  <div class="lab-grid" id="grid"></div>
+
+  <template id="tpl">
+    <div class="mf-invasion-switch lab-sign" role="region" aria-label="Maker Invasion controls">
+      <span class="mf-invasion-sign" aria-hidden="true"><span class="mf-invasion-sign__text">Invasion</span></span>
+      <span class="mf-invasion-zap" aria-hidden="true">
+        <span class="mf-zap mf-zap--l1"></span>
+        <span class="mf-zap mf-zap--l2"></span>
+        <span class="mf-zap mf-zap--l3"></span>
+        <span class="mf-zap mf-zap--r1"></span>
+        <span class="mf-zap mf-zap--r2"></span>
+        <span class="mf-zap mf-zap--r3"></span>
+      </span>
+      <button type="button" class="mf-knife" aria-label="Throw the switch">
+        <span class="mf-knife__frame" aria-hidden="true">
+          <span class="mf-knife__post mf-knife__post--jaw mf-knife__post--l"></span>
+          <span class="mf-knife__post mf-knife__post--jaw mf-knife__post--r"></span>
+          <span class="mf-knife__post mf-knife__post--jawb mf-knife__post--l"></span>
+          <span class="mf-knife__post mf-knife__post--jawb mf-knife__post--r"></span>
+          <span class="mf-knife__post mf-knife__post--hinge mf-knife__post--l"></span>
+          <span class="mf-knife__post mf-knife__post--hinge mf-knife__post--r"></span>
+          <span class="mf-knife__lever">
+            <span class="mf-knife__blade mf-knife__blade--l"></span>
+            <span class="mf-knife__blade mf-knife__blade--r"></span>
+            <span class="mf-knife__yoke"></span>
+            <span class="mf-knife__handle"></span>
+          </span>
+        </span>
+        <span class="mf-knife__caption">Power</span>
+      </button>
+    </div>
+  </template>
+
+  <script>
+    var tpl = document.getElementById('tpl');
+    function makeSwitch() { return tpl.content.cloneNode(true).querySelector('.mf-invasion-switch'); }
+
+    function throwIt(sw) {
+      if (sw.classList.contains('is-off')) return;
+      sw.classList.add('is-off');
+      var d = (parseFloat(getComputedStyle(sw).getPropertyValue('--throw')) || 1.5) * 1000;
+      setTimeout(function () { sw.classList.remove('is-off'); }, d + 1300);
+    }
+
+    // ---- hero (driven by the controls) ----
+    var hero = makeSwitch();
+    hero.classList.add('sign-retro', 'v-flip');   // arc shows by default; .no-arc hides it
+    document.getElementById('hero').appendChild(hero);
+    hero.querySelector('.mf-knife').addEventListener('click', function () { throwIt(hero); });
+    document.getElementById('throwBtn').addEventListener('click', function () { throwIt(hero); });
+
+    function setGroup(group, val) {
+      if (group === 'sign') {
+        ['sign-script','sign-vibes','sign-tube','sign-retro','sign-archivo'].forEach(function (c) { hero.classList.remove(c); });
+        hero.classList.add(val);
+      } else if (group === 'throw') {
+        ['v-flip','v-peel','v-tilt','v-flat'].forEach(function (c) { hero.classList.remove(c); });
+        hero.classList.add(val);
+      } else if (group === 'sparks') {
+        hero.classList.toggle('no-arc', val === 'off');
+      }
+    }
+    document.querySelectorAll('.grp[data-group]').forEach(function (grp) {
+      var group = grp.getAttribute('data-group');
+      grp.querySelectorAll('.opt').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          grp.querySelectorAll('.opt').forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
+          btn.setAttribute('aria-pressed', 'true');
+          setGroup(group, btn.getAttribute('data-val'));
+        });
+      });
+    });
+    var speed = document.getElementById('speed'), speedVal = document.getElementById('speedVal');
+    speed.addEventListener('input', function () {
+      hero.style.setProperty('--throw', speed.value + 's');
+      speedVal.textContent = speed.value + 's';
+    });
+
+    // ---- grid: every throw motion at once (script sign + sparks) ----
+    var motions = [
+      ['v-flip', 'Flip down (3D)', 'handle lifts off the base, blades drop into the bottom jaws'],
+      ['v-peel', 'Peel out', 'handle yanks out toward you and hangs down-forward'],
+      ['v-tilt', 'Flip + skew', '3D flip with a slight twist — no dead edge-on frame'],
+      ['v-flat', 'Flat spin (old)', 'the original in-plane rotation, for comparison']
+    ];
+    var grid = document.getElementById('grid');
+    motions.forEach(function (m) {
+      var card = document.createElement('div'); card.className = 'card';
+      var sw = makeSwitch(); sw.classList.add('sign-retro', m[0]);
+      sw.querySelector('.mf-knife').addEventListener('click', function () { throwIt(sw); });
+      card.appendChild(sw);
+      var cap = document.createElement('span'); cap.className = 'cap'; cap.textContent = m[1];
+      var sub = document.createElement('span'); sub.className = 'sub'; sub.textContent = m[2];
+      card.appendChild(cap); card.appendChild(document.createElement('br')); card.appendChild(sub);
+      grid.appendChild(card);
+    });
+  </script>
+</body>
+</html>

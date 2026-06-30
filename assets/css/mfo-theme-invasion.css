@@ -381,3 +381,403 @@ html:not([data-theme="invasion"]) .mf-invasion-fx { display: none; }
   .mf-ufo--c { left: 72%; }
   .mf-abductee { opacity: 1; transform: translateX(-50%) translateY(0); }
 }
+
+/* ==============================================================
+ * Invasion KILL SWITCH  (markup: _includes/invasion-switch.html)
+ *   A Frankenstein-style knife switch on a popout tab at the LEFT edge, with a
+ *   neon "INVASION" sign above it. Visible ONLY in this theme; throwing it (see
+ *   assets/js/mfo-theme.js) swings the lever, arcs at the contacts, kills the
+ *   neon sign, powers the screen down, then reverts to the light/dark base.
+ * ============================================================== */
+
+/* Two mutually-exclusive switches share this position: the KILL switch (shows in
+   invasion, throw it DOWN to exit) and the ACTIVATE tab (--activate, shows in
+   light/dark, throw it UP to enter invasion). The power-down overlay is NOT gated
+   here — it must keep working through the invasion→light swap mid-animation. */
+html:not([data-theme="invasion"]) .mf-invasion-switch:not(.mf-invasion-switch--activate) { display: none; }
+html[data-theme="invasion"] .mf-invasion-switch--activate { display: none; }
+
+.mf-invasion-switch {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) translateX(-100%);   /* tucked offscreen — only the handle shows until hover */
+  z-index: 4;                  /* above the FX scene (2) + nav (3); below modals (1040+) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 14px 18px;
+  background: linear-gradient(180deg, #14131b 0%, #0c0b11 100%);
+  border: 1px solid var(--mf-gray-200);          /* magenta-tinted hairline */
+  border-left: none;
+  border-radius: 0 14px 14px 0;
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.6), 0 0 22px rgba(166, 226, 46, 0.16);
+  transition: transform 0.28s cubic-bezier(.22,.61,.36,1), box-shadow 0.28s ease;
+}
+.mf-invasion-switch:hover,
+.mf-invasion-switch:focus-within {
+  transform: translateY(-50%) translateX(0);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.65), 0 0 30px rgba(166, 226, 46, 0.32);
+}
+/* While the switch is being thrown (.is-off), pin the tab out regardless of hover
+   so the throw + dead-pause cinematic stays on-screen even after the pointer
+   leaves — the mirror of the activate tab's .is-on pin below. */
+.mf-invasion-switch.is-off { transform: translateY(-50%) translateX(0); }
+/* Turning invasion off: the kill switch then slides itself back in (the !important
+   beats both :hover and the .is-off pin above). */
+.mf-invasion-switch.is-retracting {
+  transform: translateY(-50%) translateX(-100%) !important;
+  transition: transform 0.5s ease-in;
+}
+
+/* --- Activate tab (shown OUTSIDE invasion) ---------------------------------
+   Turns invasion ON from light/dark mode. Rests OFF (lever down, sign unlit, no
+   sparks) with the body tucked fully offscreen — only a small handle pokes out at
+   the left edge until you hover, when it slides out. Clicking throws the lever UP
+   (.is-on); the JS flips the theme to invasion when it reaches the top, where the
+   kill switch (also lever-up, sign lit) takes its place — a seamless handoff. */
+/* Tuck + hover-slide are inherited from the base rules (same size as the kill
+   switch). The activate tab just stays out while it's powering up (.is-on), even
+   if the pointer leaves. */
+.mf-invasion-switch--activate.is-on { transform: translateY(-50%) translateX(0); }
+
+/* Grab handle that stays onscreen at the left edge while the body is tucked. */
+.mf-invasion-tab-handle {
+  position: absolute;
+  left: 100%; top: 50%;
+  transform: translateY(-50%);
+  width: 33px; height: 99px;   /* 50% larger than the tab's body width — the handle is the only oversized part */
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(180deg, #14131b, #0c0b11);
+  border: 1px solid var(--mf-gray-200); border-left: none;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 6px 0 18px rgba(0,0,0,0.4);
+  color: #A6E22E;
+  filter: drop-shadow(0 0 5px rgba(166,226,46,0.8));
+  animation: mf-handle-pulse 2.6s ease-in-out infinite;
+}
+@keyframes mf-handle-pulse {
+  0%, 100% { filter: drop-shadow(0 0 4px rgba(166,226,46,0.45)); }
+  50%      { filter: drop-shadow(0 0 11px rgba(166,226,46,0.95)); }
+}
+.mf-invasion-switch:hover .mf-invasion-tab-handle,
+.mf-invasion-switch:focus-within .mf-invasion-tab-handle { animation: none; }
+
+/* Rest = OFF. .is-on raises the lever; the sign and sparks stay dark during the
+   rise and only light up on .is-lit (added by the JS once the lever reaches the
+   top jaws — i.e. the contacts meet), an instant before the theme flips. */
+.mf-invasion-switch--activate:not(.is-on)  .mf-knife__lever { transform: rotateX(-180deg); }
+.mf-invasion-switch--activate:not(.is-lit) .mf-invasion-sign__text { animation: none; color: #2b2b24; text-shadow: none; }
+.mf-invasion-switch--activate:not(.is-lit) .mf-invasion-sign { border-color: rgba(255,255,255,0.06); }
+.mf-invasion-switch--activate:not(.is-lit) .mf-zap { animation: none !important; opacity: 0; }
+
+/* --- Neon "INVASION" sign --------------------------------------------------
+   Lime tube-text with a layered glow + a slow, slightly irregular flicker so it
+   reads as a live neon sign. */
+.mf-invasion-sign {
+  display: block;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(166, 226, 46, 0.30);
+}
+.mf-invasion-sign__text {
+  font-family: "Audiowide", var(--mf-font-head, "Archivo", sans-serif);   /* retro neon */
+  font-weight: 400;
+  font-size: 1.11rem;            /* 50% larger than the old 0.74rem */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #f4ffd6;
+  text-shadow:
+    0 0 4px #ffffff,
+    0 0 8px rgba(166, 226, 46, 0.95),
+    0 0 16px rgba(166, 226, 46, 0.75),
+    0 0 28px rgba(166, 226, 46, 0.5),
+    0 0 44px rgba(255, 45, 142, 0.4);
+  animation: mf-neon-flicker 5.5s infinite;
+}
+@keyframes mf-neon-flicker {
+  0%, 100%        { opacity: 1; }
+  3%, 5%          { opacity: 0.4; }
+  4%              { opacity: 1; }
+  62%, 64%        { opacity: 0.6; }
+  63%             { opacity: 1; }
+}
+
+/* --- Live arc between the letters and the switch ---------------------------
+   While the switch is ON (live) electricity crackles in the gap between the neon
+   sign and the knife switch. The animations run only via the :not(.is-off)
+   selector, so the instant the handle is pulled (.is-off added) every spark drops
+   back to opacity:0 — the arc dies on the pull, together with the sign light. */
+.mf-invasion-zap { position: relative; width: 100%; height: 22px; margin: -2px 0 -2px; pointer-events: none; }
+.mf-invasion-zap .mf-zap {
+  position: absolute; bottom: 0; width: 3px; height: 3px; border-radius: 50%;
+  background: #fffdf0;
+  box-shadow: 0 0 5px #d8ffa6, 0 0 10px #A6E22E, 0 0 16px rgba(255, 45, 142, 0.5);
+  opacity: 0;
+}
+/* Two emitters anchored to the switch's two connection points (the top jaws sit
+   ~15px either side of centre). Each fires sparks that rise and FAN OUT toward
+   the letters — wide ones from each side, narrow ones up the middle. */
+.mf-invasion-zap .mf-zap--l1,
+.mf-invasion-zap .mf-zap--l2,
+.mf-invasion-zap .mf-zap--l3 { left: calc(50% - 15px); }
+.mf-invasion-zap .mf-zap--r1,
+.mf-invasion-zap .mf-zap--r2,
+.mf-invasion-zap .mf-zap--r3 { left: calc(50% + 15px); }
+.mf-invasion-zap .mf-zap--l1 { --tx: -34px; --ty: -18px; }
+.mf-invasion-zap .mf-zap--l2 { --tx: -14px; --ty: -20px; }
+.mf-invasion-zap .mf-zap--l3 { --tx:  -1px; --ty: -16px; }
+.mf-invasion-zap .mf-zap--r1 { --tx:  34px; --ty: -18px; }
+.mf-invasion-zap .mf-zap--r2 { --tx:  14px; --ty: -20px; }
+.mf-invasion-zap .mf-zap--r3 { --tx:   1px; --ty: -16px; }
+.mf-invasion-switch:not(.is-off) .mf-zap { animation: mf-zap-fan 0.7s infinite ease-out; }
+.mf-invasion-switch:not(.is-off) .mf-zap--l2 { animation-duration: 0.56s; animation-delay: 0.10s; }
+.mf-invasion-switch:not(.is-off) .mf-zap--l3 { animation-duration: 0.64s; animation-delay: 0.22s; }
+.mf-invasion-switch:not(.is-off) .mf-zap--r1 { animation-duration: 0.60s; animation-delay: 0.14s; }
+.mf-invasion-switch:not(.is-off) .mf-zap--r2 { animation-duration: 0.52s; animation-delay: 0.26s; }
+.mf-invasion-switch:not(.is-off) .mf-zap--r3 { animation-duration: 0.68s; animation-delay: 0.05s; }
+/* Travel from the emitter (0,0) up and out to (--tx,--ty), flaring then fading. */
+@keyframes mf-zap-fan {
+  0%   { opacity: 0;    transform: translate(0, 0) scale(0.5); }
+  22%  { opacity: 1;    transform: translate(calc(var(--tx) * 0.3), calc(var(--ty) * 0.3)) scale(1); }
+  100% { opacity: 0;    transform: translate(var(--tx), var(--ty)) scale(0.35); }
+}
+/* Lab "sparks off" toggle (no effect in production, which always shows the arc). */
+.mf-invasion-switch.no-arc .mf-invasion-zap { display: none; }
+
+/* --- Double-pole knife switch ----------------------------------------------
+   Modeled on a classic open-frame DPST lab switch: a dark mounting plate, TWO
+   parallel brass blades joined near the top by a crossbar with a black insulated
+   knob handle, and brass jaw clips at each end. .mf-knife is the real <button>
+   (keyboard/AT); the graphic inside is decorative. ON = blades upright, tips
+   seated in the top jaws; the JS adds .is-off to throw the whole gate down about
+   the bottom hinges, pulling both blades out of the jaws. */
+.mf-knife {
+  display: block;
+  width: 88px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.mf-knife__frame {
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 152px;
+  margin: 0 auto;
+  perspective: 460px;           /* so the lever's 3D throw lifts off the base toward the viewer */
+  perspective-origin: 50% 45%;
+  border-radius: 7px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0) 38%),
+    linear-gradient(180deg, #201f27 0%, #131219 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), inset 0 -10px 18px rgba(0,0,0,0.5);
+}
+/* Mounting screws in the plate corners (flavor). */
+.mf-knife__frame::before,
+.mf-knife__frame::after {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #5a5963, #1c1b22);
+}
+.mf-knife__frame::before { left: 6px; }
+.mf-knife__frame::after  { right: 6px; }
+
+/* Brass terminals of a DOUBLE-THROW switch: the central --hinge bolts are the
+   pivots; --jaw clips at the TOP are the ON seat (blade thrown up) and --jawb
+   clips at the BOTTOM are the OFF seat (blade thrown down). Two poles, in the
+   left / right columns (--l / --r). */
+.mf-knife__post {
+  position: absolute;
+  width: 15px;
+  height: 13px;
+  border-radius: 3px;
+  background: linear-gradient(180deg, #ffd9a0 0%, #d6883c 50%, #8a4f1c 100%);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.4), inset 0 1px 1px rgba(255,255,255,0.5);
+}
+/* The open "clip" notch each jaw grips the blade tip with. */
+.mf-knife__post::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 5px;
+  height: 8px;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  background: #120d07;
+}
+.mf-knife__post--jaw   { top: 12px; }              /* ON seat */
+.mf-knife__post--jaw::after   { bottom: -3px; }    /* opening faces down to the rising blade */
+.mf-knife__post--jawb  { bottom: 12px; }           /* OFF seat */
+.mf-knife__post--jawb::after  { top: -3px; }       /* opening faces up to the falling blade */
+.mf-knife__post--hinge { top: 70px; border-radius: 50%; }   /* central pivot bolt */
+.mf-knife__post--hinge::after { display: none; }
+.mf-knife__post--l { left: 17px; }
+.mf-knife__post--r { right: 17px; }
+
+/* The moving gate: two blades + a crossbar yoke + the handle knob, pivoting
+   together about the CENTRAL hinge axis. ON = thrown UP (tips in the top jaws);
+   the JS adds .is-off to throw it to the bottom jaws. The pivot is a 3D rotateX
+   about the horizontal hinge line, so the handle lifts AWAY from the mounting
+   base (toward the viewer) and arcs down — like a real knife switch — rather than
+   sweeping flat across the board. Centred via `left` (not translateX) so the
+   transform stays a clean rotation about the hinge. */
+.mf-knife__lever {
+  position: absolute;
+  left: 15px;                   /* (80 frame − 50 lever) / 2 → centred */
+  bottom: 76px;                 /* anchored on the central hinge line */
+  width: 50px;                  /* span between the two poles */
+  height: 60px;                 /* hinge → jaw reach (half the board) */
+  transform-origin: 50% 100%;
+  transform: rotateX(0deg);     /* ON = blade laid up into the top jaws */
+  transition: transform 1.5s cubic-bezier(.45,0.05,.35,1);
+  z-index: 2;
+}
+.mf-knife__blade {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 9px;
+  border-radius: 4px 4px 2px 2px;
+  background: linear-gradient(90deg, #7c4a16 0%, #f0b25e 40%, #ffe6b0 52%, #c6822f 64%, #7c4a16 100%);
+  box-shadow: 0 0 7px rgba(166, 226, 46, 0.45), inset 0 0 2px rgba(255,255,255,0.5);
+}
+.mf-knife__blade--l { left: 5px; }
+.mf-knife__blade--r { right: 5px; }
+/* Crossbar tie-bar joining the two blades near the top (insulated). */
+.mf-knife__yoke {
+  position: absolute;
+  top: 9px;
+  left: 1px;
+  right: 1px;
+  height: 9px;
+  border-radius: 3px;
+  background: linear-gradient(180deg, #3a3942, #1b1a20);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.12);
+}
+/* Black insulated knob handle, centered on the crossbar, pointing up. */
+.mf-knife__handle {
+  position: absolute;
+  top: -26px;
+  left: 50%;
+  width: 14px;
+  height: 34px;
+  transform: translateX(-50%);
+  border-radius: 7px 7px 5px 5px;
+  background: linear-gradient(180deg, #4a4954 0%, #232228 24%, #15141a 100%);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.55), 0 0 12px rgba(166,226,46,0.3), inset 0 2px 3px rgba(255,255,255,0.22);
+}
+/* Subtle neon glint on the knob cap so it reads as "live" in this skin. */
+.mf-knife__handle::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  background: radial-gradient(circle, rgba(214,255,166,0.95), rgba(166,226,46,0.2) 70%, transparent);
+}
+
+.mf-knife__caption {
+  display: block;
+  margin-top: 6px;
+  text-align: center;
+  font-family: var(--mf-font-head, "Archivo", sans-serif);
+  font-weight: 700;
+  font-size: 0.58rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--mf-gray-600);
+}
+
+/* Live idle: the seated blade tip glows faintly (the circuit is closed). */
+.mf-knife:hover .mf-knife__blade,
+.mf-knife:focus-visible .mf-knife__blade {
+  box-shadow: 0 0 14px rgba(166, 226, 46, 0.85), inset 0 0 2px rgba(255,255,255,0.7);
+}
+.mf-knife:focus-visible {
+  outline: 2px solid var(--mf-lime);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+/* --- The throw: JS adds .is-off to .mf-invasion-switch --------------------- */
+.mf-invasion-switch.is-off .mf-knife { pointer-events: none; }   /* no double-throw */
+.mf-invasion-switch.is-off .mf-knife__lever {
+  transform: rotateX(-180deg);                                   /* handle pulls away from the base, then down into the bottom jaws */
+}
+.mf-invasion-switch.is-off .mf-knife__blade {
+  box-shadow: none;                                              /* circuit broken */
+}
+/* Lights out the instant the handle is pulled — the neon cuts to an unlit tube
+   (no transition / no animation, so it's immediate, not a slow flicker-out). */
+.mf-invasion-switch.is-off .mf-invasion-sign__text {
+  animation: none;
+  color: #2b2b24;
+  text-shadow: none;
+}
+.mf-invasion-switch.is-off .mf-invasion-sign {
+  border-color: rgba(255, 255, 255, 0.06);   /* the whole sign goes dead, not just the glyphs */
+}
+
+/* --- Full-screen power-down flicker (toggled by JS during the swap) ---------
+   Masks the hard dark→light theme change: a quick black-out, then "the lights
+   come back on" as the light page is revealed. */
+.mf-invasion-powerdown {
+  position: fixed;
+  inset: 0;
+  z-index: 1050;                /* above the side tab + nav, below nothing visible */
+  background: #050507;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.22s ease;
+}
+.mf-invasion-powerdown.is-on { opacity: 0.92; }
+
+/* Smaller + always fully out on narrow screens (no hover); keep it usable. */
+@media (max-width: 768px) {
+  .mf-invasion-switch {
+    transform: translateY(-50%) translateX(0);
+    padding: 10px 10px 12px;
+    gap: 7px;
+  }
+  .mf-invasion-switch:hover,
+  .mf-invasion-switch:focus-within { transform: translateY(-50%) translateX(0); }
+  .mf-invasion-sign__text { font-size: 0.93rem; letter-spacing: 0.04em; }
+  .mf-knife { width: 70px; }
+  .mf-knife__frame { width: 64px; height: 124px; }
+  .mf-knife__post--l { left: 12px; }
+  .mf-knife__post--r { right: 12px; }
+  .mf-knife__post--hinge { top: 57px; }
+  .mf-knife__lever { left: 11px; width: 42px; height: 50px; bottom: 62px; }
+  .mf-knife__caption { font-size: 0.5rem; }
+}
+
+/* Touch devices (no hover) can't reveal a tucked tab — there's no :hover to slide
+   it out, and at >768px the rule above doesn't apply, which would strand the real
+   switch button offscreen (the visible handle is a decorative span). Keep the tab
+   fully out on any non-hover device, at any width, so it stays operable. */
+@media (hover: none) {
+  .mf-invasion-switch { transform: translateY(-50%) translateX(0); }
+}
+
+/* Reduced motion: no flicker, no swing, no flash — the JS reverts instantly. */
+@media (prefers-reduced-motion: reduce) {
+  .mf-invasion-sign__text { animation: none !important; }
+  .mf-invasion-zap .mf-zap { animation: none !important; }   /* no arcing/flashing */
+  .mf-knife__lever { transition: none !important; }
+  .mf-invasion-switch.is-off .mf-knife__lever,
+  .mf-invasion-switch.is-off .mf-invasion-sign__text { animation: none !important; }
+  .mf-invasion-powerdown { transition: none !important; }
+}

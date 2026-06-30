@@ -180,8 +180,86 @@
 
   function applyTheme(theme) {
     root.setAttribute("data-theme", theme);
-    if (theme === "invasion") { buildInvasionFx(); } else { teardownInvasionFx(); }
+    if (theme === "invasion") {
+      buildInvasionFx();
+    } else {
+      teardownInvasionFx();
+      // Reset the activate tab to OFF so it's ready (lever down) next time it shows.
+      var act = document.querySelector(".mf-invasion-switch--activate");
+      if (act) { act.classList.remove("is-on", "is-lit"); }
+    }
     syncButtons(theme);
+  }
+
+  function reducedMotion() {
+    return !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  }
+
+  // Leave invasion for the remembered light/dark base. Reload so the page comes
+  // back fully in the base theme (drops the invasion carousel slide too); the
+  // base is read from sessionStorage by head.html before paint.
+  function exitInvasion() {
+    store("mfo-theme", baseTheme());
+    window.location.reload();
+  }
+
+  // Enter invasion and LAND ON THE HOMEPAGE, so it loads fresh with the invasion
+  // carousel slide showing (head.html applies the theme before paint).
+  function enterInvasion() {
+    store("mfo-base", currentTheme());
+    store("mfo-theme", "invasion");
+    window.location.assign((window.MFO_THEME || {}).homeUrl || "/");
+  }
+
+  // One guard for both switch cinematics. Each ends in a navigation/reload, so it
+  // never needs resetting — it just blocks a second click (or another control)
+  // from stacking a second timer chain + duplicate navigation during the window.
+  var switching = false;
+
+  // 2026 Maker Invasion ACTIVATE tab — the light/dark-mode switch that turns
+  // invasion ON (markup: _includes/invasion-activate.html). Clicking throws the
+  // lever UP; when it reaches the top jaws (after the ~1.5s throw) the theme flips
+  // to invasion, where the kill switch (also lever-up) seamlessly takes over.
+  function wireActivateSwitch() {
+    var sw = document.querySelector(".mf-invasion-switch--activate");
+    var btn = document.getElementById("invasion-activate-switch");
+    if (!sw || !btn) { return; }
+    btn.addEventListener("click", function () {
+      if (switching || currentTheme() === "invasion") { return; }   // already on / mid-throw
+      if (reducedMotion()) { enterInvasion(); return; } // skip the cinematic
+      switching = true;
+      var overlay = document.querySelector(".mf-invasion-powerdown");
+      sw.classList.add("is-on");                                          // lever rises (still dark, no sparks)
+      setTimeout(function () { sw.classList.add("is-lit"); }, 1500);      // contacts meet at the top → sign + sparks
+      setTimeout(function () { if (overlay) { overlay.classList.add("is-on"); } }, 2100);  // black-out under cover of the spark burst
+      setTimeout(function () { enterInvasion(); }, 2350);                 // power on → land on the homepage
+    });
+  }
+
+  // 2026 Maker Invasion KILL SWITCH — the Frankenstein knife switch in the side
+  // tab (markup: _includes/invasion-switch.html). Throwing it powers the neon
+  // scene down, slides the tab back in, then reloads into the light/dark base. The
+  // tab is CSS-hidden outside invasion, so the handler just guards on the active
+  // theme and runs the power-down sequence.
+  function wireKillSwitch() {
+    // Scope past .mf-invasion-switch--activate (which also carries the base class)
+    // so this stays correct regardless of include order in topnav.html.
+    var sw = document.querySelector(".mf-invasion-switch:not(.mf-invasion-switch--activate)");
+    var btn = document.getElementById("invasion-kill-switch");
+    if (!sw || !btn) { return; }
+    var overlay = document.querySelector(".mf-invasion-powerdown");
+    btn.addEventListener("click", function () {
+      if (switching || currentTheme() !== "invasion") { return; }   // nothing to power down / mid-throw
+      if (reducedMotion()) { exitInvasion(); return; }      // skip the cinematic
+      switching = true;
+      // Throw (1.5s) → the gate seats in the bottom jaws, sparks + sign cut out →
+      // hold the dead switch for 3s → the tab slides itself back in → black out and
+      // reload into the light/dark base.
+      sw.classList.add("is-off");                           // throw lever + kill arc/sign
+      setTimeout(function () { sw.classList.add("is-retracting"); }, 4500);  // 1.5s throw + 3s pause → slide tab in
+      setTimeout(function () { if (overlay) { overlay.classList.add("is-on"); } }, 5000);  // black out once it's gone
+      setTimeout(function () { exitInvasion(); }, 5250);    // reload into the base theme under cover
+    });
   }
 
   function init() {
@@ -214,6 +292,9 @@
         store("mfo-theme", next);
       });
     }
+
+    wireKillSwitch();
+    wireActivateSwitch();
   }
 
   if (document.readyState === "loading") {

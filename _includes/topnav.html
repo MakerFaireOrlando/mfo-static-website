@@ -77,3 +77,6 @@
       	<a class="btn btn-primary" href="{{ nav_cta.url }}">{{ nav_cta.text }}</a></div>
       </div>
   </nav>
+  {%- comment -%} 2026 invasion switches (CSS-gated by theme): kill switch in invasion, activate tab outside it. TEMPORARY — remove with the invasion skin. {%- endcomment -%}
+  {% include invasion-switch.html %}
+  {% include invasion-activate.html %}

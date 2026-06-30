@@ -1,0 +1,52 @@
+{%- comment -%}
+  2026 "Maker Invasion" ACTIVATE tab — the light/dark-mode counterpart of the kill
+  switch (_includes/invasion-switch.html). Shown only OUTSIDE invasion (CSS-gated
+  in mfo-theme-invasion.css). It rests OFF — lever down in the bottom jaws, sign
+  unlit, no sparks — and tucked fully offscreen at the left edge, with just a small
+  handle poking out until you hover, when it slides into view.
+
+  Throwing it (assets/js/mfo-theme.js) raises the lever UP into the top jaws; when
+  it reaches the top the theme flips to invasion and the kill switch (also lever-up)
+  takes its place — a seamless handoff.
+
+  Included once from _includes/topnav.html. TEMPORARY / 2026 ONLY — delete with the
+  rest of the invasion skin (see the retire steps atop mfo-theme-invasion.css).
+{%- endcomment -%}
+<div class="mf-invasion-switch mf-invasion-switch--activate" role="region" aria-label="Activate Maker Invasion mode">
+  <span class="mf-invasion-tab-handle" aria-hidden="true">
+    <svg viewBox="0 0 24 24" width="25" height="25" fill="none" aria-hidden="true">
+      <ellipse cx="12" cy="14" rx="9" ry="3.2" fill="currentColor"/>
+      <path d="M6.5 12.5 C6.5 9 9 7 12 7 C15 7 17.5 9 17.5 12.5 Z" fill="currentColor"/>
+      <circle cx="5" cy="14.3" r="1" fill="currentColor"/>
+      <circle cx="12" cy="15.2" r="1" fill="currentColor"/>
+      <circle cx="19" cy="14.3" r="1" fill="currentColor"/>
+      <path d="M9.5 17 L7 22 M14.5 17 L17 22" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" opacity="0.7"/>
+    </svg>
+  </span>
+  <span class="mf-invasion-sign" aria-hidden="true"><span class="mf-invasion-sign__text">Invasion</span></span>
+  <span class="mf-invasion-zap" aria-hidden="true">
+    <span class="mf-zap mf-zap--l1"></span>
+    <span class="mf-zap mf-zap--l2"></span>
+    <span class="mf-zap mf-zap--l3"></span>
+    <span class="mf-zap mf-zap--r1"></span>
+    <span class="mf-zap mf-zap--r2"></span>
+    <span class="mf-zap mf-zap--r3"></span>
+  </span>
+  <button type="button" id="invasion-activate-switch" class="mf-knife" aria-label="Turn on Maker Invasion mode">
+    <span class="mf-knife__frame" aria-hidden="true">
+      <span class="mf-knife__post mf-knife__post--jaw mf-knife__post--l"></span>
+      <span class="mf-knife__post mf-knife__post--jaw mf-knife__post--r"></span>
+      <span class="mf-knife__post mf-knife__post--jawb mf-knife__post--l"></span>
+      <span class="mf-knife__post mf-knife__post--jawb mf-knife__post--r"></span>
+      <span class="mf-knife__post mf-knife__post--hinge mf-knife__post--l"></span>
+      <span class="mf-knife__post mf-knife__post--hinge mf-knife__post--r"></span>
+      <span class="mf-knife__lever">
+        <span class="mf-knife__blade mf-knife__blade--l"></span>
+        <span class="mf-knife__blade mf-knife__blade--r"></span>
+        <span class="mf-knife__yoke"></span>
+        <span class="mf-knife__handle"></span>
+      </span>
+    </span>
+    <span class="mf-knife__caption">Power</span>
+  </button>
+</div>
