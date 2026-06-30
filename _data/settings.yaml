@@ -2,7 +2,7 @@
 maker_exhibits_holdover: true
 maker_exhibits_show_location: true
 
-call_for_makers_open: false
+call_for_makers_open: true
 # Exhibit application URL — shown as the "Apply to Exhibit" button on
 # /exhibit-at-maker-faire-orlando/ when call_for_makers_open is true.
 # UPDATE this to the current year's form before flipping the flag.
