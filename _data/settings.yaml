@@ -2,7 +2,7 @@
 maker_exhibits_holdover: true
 maker_exhibits_show_location: true
 
-call_for_makers_open: false
+call_for_makers_open: true
 # Exhibit application URL — shown as the "Apply to Exhibit" button on
 # /exhibit-at-maker-faire-orlando/ when call_for_makers_open is true.
 # UPDATE this to the current year's form before flipping the flag.
@@ -16,7 +16,7 @@ volunteer_checkout: maker-faire-orlando-2025-volunteer-registration
 
 # Ticket sales. When true, /attend/ shows the Humanitix ticket widget;
 # when false it shows a "tickets not on sale yet" message instead.
-tickets_on_sale: false
+tickets_on_sale: true
 
 # Theme / dark mode settings (see _documentation/redesign-2026.md §6.17)
 # Show the sun/moon light<->dark toggle in the header.

@@ -40,76 +40,28 @@ a.btn-b-ghost {
 	border-width: 2px;
 }
 
-/* STUFF FOR ISOTOPE — exhibit grid + cards (load-bearing; see redesign §10) */
-.exhibits-container {
-  margin: auto;
-}
-
-.exhibits-container .item {
-  background: white;
-  padding-top: 0px;
-  text-align: center;
-  border-radius: 4px;
-  margin-bottom: 20px;
-  border: 1px solid #e5e5e5;
-  min-width: 300px;
-  display:inline-block;
-}
-
-.exhibits-container .item {
-  box-shadow: 4px 4px 10px #888888;
-}
-
-.title-container {
-	max-width: 280px;
-  margin-left:auto;
-  	margin-right:auto;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.title-container a {
-  font-size: 14px;
-  text-decoration: none;
-  color: darkslategray;
-}
-
-.img-container {
- display:inline-block;
-}
-
-.img-container a {
- display:inline-block;
-}
-
-.img-container img {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-}
+/* Exhibit-card sub-element styles (.img-container / .title-container) now live
+   entirely in mfo-redesign.css, scoped to .exhibits-container .item-content
+   (the Muuri image-overlay cards). The old global rules that were here are
+   superseded and have been removed. (Schedule .events-container is below.) */
 
 /* makers search input */
 #maker-search-input {
   min-width: 300px;
 }
 
-/* Schedule grid (Isotope) */
+/* Schedule = a plain vertical list of full-width event rows (filtered by
+   schedule-filter.js; no layout library). Card border/shadow come from
+   mfo-redesign.css; this just stacks the rows. */
 .events-container {
-  margin: auto;
+  margin: 0 auto;
 }
 
 .events-container .item {
-  background: white;
-  padding-top: 0px;
-  text-align: center;
-  border-radius: 4px;
-  margin-bottom: 20px;
-  border: 1px solid #e5e5e5;
-  min-width: 300px;
-  display:inline-block;
-}
-
-.events-container .item {
-  box-shadow: 4px 4px 10px #888888;
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 16px;
 }
 
 /* Optional footer-ad banner (rendered only when settings.footer_ad is on).

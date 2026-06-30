@@ -25,34 +25,6 @@
 {% include footer.html %}
 {% include scripts.html %}
 {% include optional-js.html %}
-
-<script>
-    var cat = params.get('category')
-    console.log(cat);
-    var initFilter ='';
-    //var initFilter = ':not(.combat-robots)';
-    if (cat) {
-      initFilter = cat;
-      jQuery('.filters-select').val('.' + cat);
-    }
-    console.log("initFilter is " + initFilter);
-
-    var $container = jQuery('#events');
-    $container.isotope({
-      // options
-      layoutMode: 'vertical',
-      itemSelector: '.item',    // Individual post item selector
-      vertical: {
-        horizontalAlignment: 0,
-      },
-      filter: initFilter
-    });
-
-    window.onresize = function() {
-      console.log("resize");
-      $container.isotope( 'reloadItems' ).isotope();
-    }
-</script>
 </body>
 
 

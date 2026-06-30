@@ -520,7 +520,40 @@ html[data-theme="invasion"] #theme-mode-toggle .mf-icon-sun { display: block; }
  * 6. Cards / grids — soften heavy legacy shadows
  * ============================================================== */
 
-.exhibits-container .item,
+/* Exhibits = Muuri masonry grid. `.item` is Muuri's positioning wrapper
+   (it owns the transform), so the visual card lives on `.item-content`.
+   Schedule (.events-container) still uses the legacy grid on `.item`. */
+.exhibits-container {
+  --mf-card-gap: 8px;   /* single source of truth for the card gutter below */
+  max-width: 1800px;
+  margin: 0 auto;
+  position: relative;
+  opacity: 0;   /* hidden until Muuri has positioned the items (avoids the
+                   top-left pile-up of absolute cards before JS runs) */
+}
+/* Revealed once Muuri lays out (.muuri-shown) — or via the no-JS / no-Muuri
+   fallback (.muuri-fallback / <noscript>), which shows a simple flow grid. */
+.exhibits-container.muuri-shown,
+.exhibits-container.muuri-fallback { opacity: 1; transition: opacity 0.3s ease; }
+
+/* Column count steps with the viewport (1 → 2 → 3 → 4 → 5 → 6) so cards stay
+   ~300-360px instead of ballooning on wide screens. Widths derive from the
+   gutter var so the gutter only needs changing in one place. */
+.exhibits-container .item {
+  display: inline-block;   /* flow-grid fallback if Muuri isn't active */
+  vertical-align: top;
+  width: calc(33.333% - var(--mf-card-gap) * 2);
+  margin: var(--mf-card-gap);
+}
+.exhibits-container.muuri-active .item { position: absolute; display: block; }
+@media (max-width: 767px) { .exhibits-container .item { width: calc(50% - var(--mf-card-gap) * 2); } }
+@media (max-width: 575px)  { .exhibits-container .item { width: calc(100% - var(--mf-card-gap) * 2); } }
+@media (min-width: 1100px) { .exhibits-container .item { width: calc(25% - var(--mf-card-gap) * 2); } }
+@media (min-width: 1400px) { .exhibits-container .item { width: calc(20% - var(--mf-card-gap) * 2); } }
+@media (min-width: 1700px) { .exhibits-container .item { width: calc(16.666% - var(--mf-card-gap) * 2); } }
+.exhibits-container .item.muuri-item-hidden { z-index: 0; pointer-events: none; }
+
+.exhibits-container .item-content,
 .events-container .item {
   /* Background was an opaque white from the legacy theme; tie it to the surface
      token so the card flips with the theme (otherwise themed light text — e.g.
@@ -531,18 +564,58 @@ html[data-theme="invasion"] #theme-mode-toggle .mf-icon-sun { display: block; }
   border-radius: var(--mf-radius) !important;
   box-shadow: var(--mf-shadow) !important;
   overflow: hidden;
+  background: var(--mf-white);
   transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
-.exhibits-container .item:hover,
+/* Exhibit card = image with the title overlaid on a dark gradient. This is the
+   image-forward sibling of the homepage "Explore the Faire" cards
+   (.mf-card-media / .mf-card-label) — same overlay idea, but these use a real
+   <img> (needed for lazy-loading + aspect-ratio so Muuri can size them before
+   decode) and run at a smaller scale. The link must be block so the image
+   fills the card width and drives the masonry. */
+.exhibits-container .item-content { position: relative; }
+.exhibits-container .item-content .img-container,
+.exhibits-container .item-content .img-container a { display: block; }
+.exhibits-container .item-content .img-container { overflow: hidden; }
+.exhibits-container .item-content .img-container img {
+  display: block; width: 100%; height: auto;
+  transition: transform 0.45s ease;
+}
+.exhibits-container .item:hover .item-content { box-shadow: var(--mf-shadow-hover) !important; }
+.exhibits-container .item:hover .item-content .img-container img { transform: scale(1.07); }
+.exhibits-container .item-content .title-container {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  margin: 0; padding: 42px 14px 14px;
+  background: linear-gradient(to top, rgba(14, 22, 40, 0.9) 0%, rgba(14, 22, 40, 0.45) 55%, rgba(14, 22, 40, 0) 100%);
+}
+.exhibits-container .item-content .title-container a {
+  font-family: var(--mf-font-head);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.2;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.55);
+}
+@media (prefers-reduced-motion: reduce) {
+  .exhibits-container .item-content .img-container img { transition: none; }
+  .exhibits-container .item:hover .item-content .img-container img { transform: none; }
+}
+
+/* Schedule grid (.events-container) keeps the legacy card-lift hover. */
 .events-container .item:hover {
   transform: translateY(-4px);
   box-shadow: var(--mf-shadow-hover) !important;
 }
 
-.button-group {
-  background: var(--mf-gray-100);
-  border-radius: var(--mf-radius-sm);
+#exhibits-no-results {
+  text-align: center;
+  color: var(--mf-gray-600);
+  font-size: 1.05rem;
+  padding: 32px 0;
 }
+
 
 /* Exhibits / categories / schedule filter bar (.mtm-search) — was legacy teal
    (#00597E). Reskinned to brand navy with white labels, clean inputs, and a
