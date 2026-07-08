@@ -96,7 +96,7 @@ page_footer_ad: false
       <li><strong>Field Trip Day:</strong> on {{ site.data.settings.event_dates.edu_day | date: "%A, %B %-d" }}, students, teachers, and homeschool families enjoy a one-of-a-kind day of hands-on learning. <a href="/field-trip-day/">Learn more</a>.</li>
       <li><strong>Title I schools:</strong> registered groups from Title I schools receive free admission. See our <a href="/educators/">Educators page</a> for details.</li>
       <li><strong>First Responders, Active Military &amp; Veterans:</strong> free admission with identification — just bring your ID to the ticket booth for a free ticket per eligible person.</li>
-      <li><strong>Making For All:</strong> individuals with an EBT card receive admission for only $5 per person, per day. Bring your EBT card to the ticket booth.</li>
+      <li><strong>Making For All:</strong> families with an EBT card receive admission for only $5 per person, per day. Bring your EBT card to the ticket booth.</li>
     </ul>
   </div>
 </section>
