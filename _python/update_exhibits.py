@@ -25,6 +25,16 @@ import csv
 import requests
 from collections import Counter
 
+# Force UTF-8 for all text I/O regardless of the Windows locale default (cp1252).
+# Without this, open(..., "w") writes cp1252 and the next run's UTF-8 read crashes
+# on smart quotes / dashes / accented characters. Reconfigure stdout too so
+# print() of those characters to the console doesn't raise either.
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except AttributeError:
+    pass
+
 #from urlparse import urlparse    python2
 
 #import requests
@@ -37,7 +47,7 @@ from os import path
 #settings
 eventYear = 2026
 formCFM = "Call For Makers MFO2026"
-formRuckus = "MFO2025 - Ruckus - CFM"
+formRuckus = "MFO2026 - Ruckus - CFM"
 
 
 outputAll = False #this is now set with a command line param, don't change it here
@@ -258,7 +268,7 @@ def export(outputAll):
       print("Error: Cannot locate settings file")
       sys.exit(1)
 
-    with open(yamlFile) as settingsFile:
+    with open(yamlFile, encoding="utf-8") as settingsFile:
       settings = yaml.load(settingsFile, Loader = yaml.FullLoader)
       #print (settings)
 
@@ -491,7 +501,7 @@ def export(outputAll):
             if exhibitVideo is not None:
               exhibitVideoEmbed = getYouTubeEmbed(exhibitVideo)
 
-            outfile = open(fName, "w")
+            outfile = open(fName, "w", encoding="utf-8")
             outfile.write("---\n")
             outfile.write("# note: title, description, image are used for SEO\n")
             outfile.write("\n")
@@ -733,7 +743,7 @@ def export(outputAll):
               #csvrowM[4].append("")
 
         unow = datetime.datetime.now()
-        updated = unow.strftime("%Y-%m-%d-%-H:%M:%S")
+        updated = unow.strftime("%Y-%m-%d-%H:%M:%S")
         updatedList = ["updated", updated, updated, updated, updated]
 
 
