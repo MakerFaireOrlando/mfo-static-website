@@ -1,5 +1,5 @@
 
-maker_exhibits_holdover: true
+maker_exhibits_holdover: false
 maker_exhibits_show_location: true
 
 call_for_makers_open: true
