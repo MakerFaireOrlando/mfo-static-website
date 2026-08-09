@@ -185,7 +185,7 @@ We believe building with LEGO® isn’t just about bricks; it’s about building
     height: 150
   website: https:www.renlug.org
   instagram: https://www.instagram.com/renlug.florida/
-  facebook: https://www.facebook.com/renlugpage
+  facebook: https://www.facebook.com/renlug
   youtube: https://www.youtube.com/@RenLUGFL
 categories: 
   - slug: education
@@ -201,8 +201,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-02 07:14:06"
-last-modified-jotform: "2026-08-02 18:03:34"
-last-exported: "2026-08-02 20:13:27"
+last-modified-jotform: "2026-08-09 10:33:18"
+last-exported: "2026-08-09 12:24:18"
 sitemap: false
 
 ---
