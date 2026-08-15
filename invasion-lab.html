@@ -13,7 +13,7 @@ sitemap: false
     TEMPORARY design tool (2026 invasion skin). A playground to compare neon-sign
     styles, knife-switch throw motions, sparks, and speed for the kill switch.
     Self-contained: loads the theme CSS + candidate fonts and renders independent
-    demo switches (its own JS — it does NOT load mfo-theme.js, so flipping a switch
+    demo switches (its own JS: it does NOT load mfo-theme.js, so flipping a switch
     just plays the animation and resets; it never changes the real theme).
     Delete this file once the switch design is finalized.
   {%- endcomment -%}
@@ -109,7 +109,7 @@ sitemap: false
 <body>
   <div class="lab-head">
     <h1>Invasion Switch Lab</h1>
-    <p>Try the options below, then click a switch (or <em>Throw it</em>) to play the motion — it resets so you can replay. Tell me which sign + throw + sparks combo you want and I’ll make it the real one.</p>
+    <p>Try the options below, then click a switch (or <em>Throw it</em>) to play the motion, which resets so you can replay. Tell me which sign + throw + sparks combo you want and I’ll make it the real one.</p>
   </div>
 
   <div class="lab-controls">
@@ -237,7 +237,7 @@ sitemap: false
     var motions = [
       ['v-flip', 'Flip down (3D)', 'handle lifts off the base, blades drop into the bottom jaws'],
       ['v-peel', 'Peel out', 'handle yanks out toward you and hangs down-forward'],
-      ['v-tilt', 'Flip + skew', '3D flip with a slight twist — no dead edge-on frame'],
+      ['v-tilt', 'Flip + skew', '3D flip with a slight twist, no dead edge-on frame'],
       ['v-flat', 'Flat spin (old)', 'the original in-plane rotation, for comparison']
     ];
     var grid = document.getElementById('grid');

@@ -63,7 +63,7 @@ carousel-slides:
           <span class="mf-card-label">Makers &amp; Community Groups</span>
         </div>
         <div class="mf-card-body">
-          <p>Individuals and community groups exhibit <strong>free of charge</strong> — bring a project, demo, or craft and share what you’ve made and learned.</p>
+          <p>Individuals and community groups exhibit <strong>free of charge</strong>. Bring a project, demo, or craft and share what you’ve made and learned.</p>
         </div>
       </a>
 
@@ -81,7 +81,7 @@ carousel-slides:
           <span class="mf-card-label">Businesses &amp; Startups</span>
         </div>
         <div class="mf-card-body">
-          <p>Companies, retail/service businesses, and advertisers should sponsor — startups, ask about phase-based discounts.</p>
+          <p>Companies, retail/service businesses, and advertisers should sponsor. Startups, ask about phase-based discounts.</p>
           <span class="mf-link-arrow">Become a sponsor</span>
         </div>
       </a>
@@ -91,7 +91,7 @@ carousel-slides:
           <span class="mf-card-label">Combat Robots</span>
         </div>
         <div class="mf-card-body">
-          <p>Combat robot competitors register on buildersdb — you’ll be emailed a special form once accepted, so you don’t need this application.</p>
+          <p>Combat robot competitors register on buildersdb. You’ll be emailed a special form once accepted, so you don’t need this application.</p>
           <span class="mf-link-arrow">Robot Ruckus</span>
         </div>
       </a>
@@ -107,12 +107,12 @@ carousel-slides:
       <div class="title-w-border-y"><h2>What You’ll Need to Apply</h2></div>
     </div>
     <ul class="mf-checklist">
-      <li><strong>Maker / group info</strong> — name, image (logo or photo), website, and social media pages.</li>
-      <li><strong>Exhibit info</strong> — name, description, images, website, and social media pages.</li>
-      <li><strong>Availability</strong> — ideally available all weekend, plus Field Trip Day on Friday.</li>
-      <li><strong>Requirements</strong> — power, water, light/sound levels, safety needs, and setup time.</li>
+      <li><strong>Maker / group info</strong>: name, image (logo or photo), website, and social media pages.</li>
+      <li><strong>Exhibit info</strong>: name, description, images, website, and social media pages.</li>
+      <li><strong>Availability</strong>: ideally available all weekend, plus Field Trip Day on Friday.</li>
+      <li><strong>Requirements</strong>: power, water, light/sound levels, safety needs, and setup time.</li>
     </ul>
-    <p class="mf-prose text-center" style="margin-top: 28px;">Choose photos and descriptions that will be compelling to attendees — for inspiration, browse our <a href="/exhibits/">maker exhibits</a>. You can edit your application after submitting, and our team will reach out if more detail is needed. Please add <a href="mailto:makers@makerfaireorlando.com">makers@makerfaireorlando.com</a> to your contacts so our emails reach your inbox.</p>
+    <p class="mf-prose text-center" style="margin-top: 28px;">Choose photos and descriptions that will be compelling to attendees. For inspiration, browse our <a href="/exhibits/">maker exhibits</a>. You can edit your application after submitting, and our team will reach out if more detail is needed. Please add <a href="mailto:makers@makerfaireorlando.com">makers@makerfaireorlando.com</a> to your contacts so our emails reach your inbox.</p>
   </div>
 </section>
 
@@ -122,7 +122,7 @@ carousel-slides:
     <div class="row text-center">
       <div class="title-w-border-y"><h2>How Exhibits Are Selected</h2></div>
     </div>
-    <p class="mf-prose text-center">Maker Faire Orlando is a curated event. We select exhibits based on proposal completeness, content, diversity, items sold, and other factors. Applications are reviewed and approved <strong>in batches</strong> — not in the order received — and we’ll contact you at the email you provide if we need more information or once a decision is made. We’re an all-volunteer team and appreciate your patience as we process hundreds of applications. We can’t fit every application, so highlight your exhibit with great photos, video, and description.</p>
+    <p class="mf-prose text-center">Maker Faire Orlando is a curated event. We select exhibits based on proposal completeness, content, diversity, items sold, and other factors. Applications are reviewed and approved <strong>in batches</strong> (not in the order received), and we’ll contact you at the email you provide if we need more information or once a decision is made. We’re an all-volunteer team and appreciate your patience as we process hundreds of applications. We can’t fit every application, so highlight your exhibit with great photos, video, and description.</p>
   </div>
 </section>
 

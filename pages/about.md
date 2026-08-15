@@ -38,7 +38,7 @@ carousel-slides:
     <div class="row text-center">
       <div class="title-w-border-y"><h2>What Is a Maker?</h2></div>
     </div>
-    <p class="mf-prose text-center">We are parents, students, scientists, and garage tinkerers. We are young and old, and we all share a love for innovation, creativity, and inspiring others to make something — anything — as long as it makes people happy.</p>
+    <p class="mf-prose text-center">We are parents, students, scientists, and garage tinkerers. We are young and old, and we all share a love for innovation, creativity, and inspiring others to make something, anything, as long as it makes people happy.</p>
   </div>
 </section>
 

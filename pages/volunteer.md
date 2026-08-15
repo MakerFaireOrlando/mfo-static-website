@@ -25,7 +25,7 @@ carousel-slides:
     <div class="row text-center">
       <div class="title-w-border-y"><h1>We Need You!</h1></div>
     </div>
-    <p class="mf-prose mf-lead text-center">Volunteering at {{ site.data.settings.event_name }} is a great way to give back to your local community — and to experience the event without buying a ticket.</p>
+    <p class="mf-prose mf-lead text-center">Volunteering at {{ site.data.settings.event_name }} is a great way to give back to your local community, and to experience the event without buying a ticket.</p>
   </div>
 </section>
 
@@ -90,42 +90,42 @@ carousel-slides:
         <i class="mf-role-icon fa-solid fa-people-group" aria-hidden="true"></i>
         <div class="mf-role-body">
           <h3>General Volunteer <span class="mf-role-age">Ages 13+</span></h3>
-          <p>Pitch in wherever you’re needed — wayfinding, info booths, and general event tasks.</p>
+          <p>Pitch in wherever you’re needed: wayfinding, info booths, and general event tasks.</p>
         </div>
       </div>
       <div class="mf-role">
         <i class="mf-role-icon fa-solid fa-face-smile" aria-hidden="true"></i>
         <div class="mf-role-body">
           <h3>Greeter <span class="mf-role-age">Ages 13+</span></h3>
-          <p>The first friendly face guests see — welcome attendees, scan tickets, and hand out programs and maps.</p>
+          <p>The first friendly face guests see: welcome attendees, scan tickets, and hand out programs and maps.</p>
         </div>
       </div>
       <div class="mf-role">
         <i class="mf-role-icon fa-solid fa-eye" aria-hidden="true"></i>
         <div class="mf-role-body">
           <h3>Exhibit Supervision <span class="mf-role-age">Ages 13+</span></h3>
-          <p>Keep an eye on assigned exhibits alongside our Area Captains — monitoring activity, managing lines, and keeping things safe and fun.</p>
+          <p>Keep an eye on assigned exhibits alongside our Area Captains, monitoring activity, managing lines, and keeping things safe and fun.</p>
         </div>
       </div>
       <div class="mf-role">
         <i class="mf-role-icon fa-solid fa-dolly" aria-hidden="true"></i>
         <div class="mf-role-body">
           <h3>Maker Roadie <span class="mf-role-age">Ages 18+</span></h3>
-          <p>Help with load-in and load-out — moving materials, setting up equipment, and supporting the production team.</p>
+          <p>Help with load-in and load-out: moving materials, setting up equipment, and supporting the production team.</p>
         </div>
       </div>
       <div class="mf-role">
         <i class="mf-role-icon fa-solid fa-headset" aria-hidden="true"></i>
         <div class="mf-role-body">
           <h3>Production Support <span class="mf-role-age">Ages 18+</span></h3>
-          <p>Work one-on-one with a Producer behind the scenes — delivering supplies, managing schedules, and solving issues on the go.</p>
+          <p>Work one-on-one with a Producer behind the scenes: delivering supplies, managing schedules, and solving issues on the go.</p>
         </div>
       </div>
       <div class="mf-role">
         <i class="mf-role-icon fa-solid fa-star" aria-hidden="true"></i>
         <div class="mf-role-body">
           <h3>Special Skills</h3>
-          <p>Have a skill to share — especially photography or videography — or questions about volunteering? <a href="mailto:makers@makerfaireorlando.com">Email us</a> and we’ll find the right fit.</p>
+          <p>Have a skill to share (especially photography or videography) or questions about volunteering? <a href="mailto:makers@makerfaireorlando.com">Email us</a> and we’ll find the right fit.</p>
         </div>
       </div>
     </div>
@@ -139,7 +139,7 @@ carousel-slides:
       <div class="title-w-border-y"><h2>Sign Up to Volunteer</h2></div>
     </div>
     {% if site.data.settings.volunteer_open %}
-    <p class="mf-prose text-center">Register for open shifts below — General Volunteer, Greeter, and more. Having trouble registering, or did your availability change? <a href="mailto:makers@makerfaireorlando.com">Email us</a>.</p>
+    <p class="mf-prose text-center">Register for open shifts below: General Volunteer, Greeter, and more. Having trouble registering, or did your availability change? <a href="mailto:makers@makerfaireorlando.com">Email us</a>.</p>
     <div class="mf-widget-wrap">
       <script src="https://events.humanitix.com/scripts/widgets/inline.js" type="module"></script>
       <iframe data-checkout="{{ site.data.settings.volunteer_checkout }}"></iframe>

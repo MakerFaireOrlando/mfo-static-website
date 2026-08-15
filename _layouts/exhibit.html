@@ -68,7 +68,7 @@
         <div class="exhibit-gallery">
           {%- for image in page.additional-images -%}
           <a class="exhibit-gallery-item" href="{{ image.large.url }}" target="_blank" rel="noopener">
-            <img src="{{ image.large.url }}" width="{{ image.large.width }}" height="{{ image.large.height }}" loading="lazy" decoding="async" alt="{{ page.title }} — photo {{ forloop.index }}">
+            <img src="{{ image.large.url }}" width="{{ image.large.width }}" height="{{ image.large.height }}" loading="lazy" decoding="async" alt="{{ page.title }}, photo {{ forloop.index }}">
           </a>
           {%- endfor -%}
         </div>

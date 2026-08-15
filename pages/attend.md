@@ -25,7 +25,7 @@ page_footer_ad: false
     <div class="row text-center">
       <div class="title-w-border-y"><h1>Maker Faire Orlando {{ site.data.settings.event_year }}</h1></div>
     </div>
-    <p class="mf-prose mf-lead text-center">A non-profit, community-organized, family-friendly celebration of local do-it-yourself science, art, rockets, robots, crafts, technology, music, hands-on activities, and so much more — {% include date-event.html %}.</p>
+    <p class="mf-prose mf-lead text-center">A non-profit, community-organized, family-friendly celebration of local do-it-yourself science, art, rockets, robots, crafts, technology, music, hands-on activities, and so much more, {% include date-event.html %}.</p>
   </div>
 </section>
 
@@ -50,7 +50,7 @@ page_footer_ad: false
       <div class="mf-info-card">
         <i class="mf-info-icon fa-solid fa-square-parking" aria-hidden="true"></i>
         <h3>Free Parking</h3>
-        <p>On-site parking is <strong>free</strong> all weekend — just bring your sense of curiosity.</p>
+        <p>On-site parking is <strong>free</strong> all weekend. Just bring your sense of curiosity.</p>
       </div>
       <div class="mf-info-card">
         <i class="mf-info-icon fa-solid fa-shapes" aria-hidden="true"></i>
@@ -58,7 +58,7 @@ page_footer_ad: false
         <p>Explore <a href="/exhibits/">hundreds of exhibits, hands-on activities and competitions</a> to find your favorites!</p>
       </div>
     </div>
-    <p class="mf-prose text-center">Plan your weekend with the <a href="/schedule/">Schedule</a> and <a href="/program/">Program</a> — and don’t miss the talks, panels &amp; performances on the <a href="/schedule/">Main Stage</a>!</p>
+    <p class="mf-prose text-center">Plan your weekend with the <a href="/schedule/">Schedule</a> and <a href="/program/">Program</a>, and don’t miss the talks, panels &amp; performances on the <a href="/schedule/">Main Stage</a>!</p>
   </div>
 </section>
 
@@ -69,7 +69,7 @@ page_footer_ad: false
       <div class="title-w-border-y"><h2>Tickets</h2></div>
     </div>
     {% if site.data.settings.tickets_on_sale %}
-    <p class="mf-prose text-center">Tickets are available on <a href="https://events.humanitix.com/makerfaireorlando">Humanitix</a> or through the form below — Humanitix donates 100% of profits to children’s charities!</p>
+    <p class="mf-prose text-center">Tickets are available on <a href="https://events.humanitix.com/makerfaireorlando">Humanitix</a> or through the form below. Humanitix donates 100% of profits to children’s charities!</p>
     <div class="mf-widget-wrap">
       <script src="https://events.humanitix.com/scripts/widgets/inline.js" type="module"></script>
       <iframe data-checkout="makerfaireorlando"></iframe>
@@ -95,7 +95,7 @@ page_footer_ad: false
       <li><strong>Educators:</strong> employees of schools, colleges, universities, and libraries receive free admission with identification. See our <a href="/educators/">Educators page</a> for requirements and restrictions.</li>
       <li><strong>Field Trip Day:</strong> on {{ site.data.settings.event_dates.edu_day | date: "%A, %B %-d" }}, students, teachers, and homeschool families enjoy a one-of-a-kind day of hands-on learning. <a href="/field-trip-day/">Learn more</a>.</li>
       <li><strong>Title I schools:</strong> registered groups from Title I schools receive free admission. See our <a href="/educators/">Educators page</a> for details.</li>
-      <li><strong>First Responders, Active Military &amp; Veterans:</strong> free admission with identification — just bring your ID to the ticket booth for a free ticket per eligible person.</li>
+      <li><strong>First Responders, Active Military &amp; Veterans:</strong> free admission with identification. Just bring your ID to the ticket booth for a free ticket per eligible person.</li>
       <li><strong>Making For All:</strong> families with an EBT card receive admission for only $5 per person, per day. Bring your EBT card to the ticket booth.</li>
     </ul>
   </div>
@@ -109,7 +109,7 @@ page_footer_ad: false
     </div>
     <ul class="mf-checklist">
       <li><strong>Weekend Passes</strong> cannot be shared between attendees.</li>
-      <li><strong>Single Day Passes</strong> can be used on a single day — either Saturday or Sunday.</li>
+      <li><strong>Single Day Passes</strong> can be used on a single day, either Saturday or Sunday.</li>
       <li>You’ll receive an email confirmation after purchase with a link to print your tickets, or simply show them on your mobile device at the gate.</li>
       <li>No outside food or beverages are permitted through the gates unless you have special medical, dietary, or religious requirements. A wide variety of for-purchase food options will be available.</li>
       <li>Strollers, backpacks, and a bottle of water are allowed.</li>

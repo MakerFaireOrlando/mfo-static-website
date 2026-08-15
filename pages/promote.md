@@ -19,8 +19,8 @@ carousel-slides:
     <div class="row text-center">
       <div class="title-w-border-y"><h1>Help Promote Maker Faire Orlando</h1></div>
     </div>
-    <p class="mf-prose mf-lead text-center">Help us spread the word about this year's {{ site.data.settings.event_name }} and the maker movement with people you know who'd love it as much as you do. Grab the badges, logos, and printable materials below — click any image to open the full-size or high-res file.</p>
-    <p class="mf-prose text-center">Need something you don't see here? We add new materials as they're created — <a href="mailto:makers@makerfaireorlando.com">email us</a> and we'll help.</p>
+    <p class="mf-prose mf-lead text-center">Help us spread the word about this year's {{ site.data.settings.event_name }} and the maker movement with people you know who'd love it as much as you do. Grab the badges, logos, and printable materials below. Click any image to open the full-size or high-res file.</p>
+    <p class="mf-prose text-center">Need something you don't see here? We add new materials as they're created. <a href="mailto:makers@makerfaireorlando.com">Email us</a> and we'll help.</p>
   </div>
 </section>
 
@@ -29,7 +29,7 @@ carousel-slides:
   <div class="container">
     <div class="mf-section-head">
       <h2>Badges &amp; Logos</h2>
-      <p>Add the official badge or logo to your site — when you do, please link it back to makerfaireorlando.com.</p>
+      <p>Add the official badge or logo to your site. When you do, please link it back to makerfaireorlando.com.</p>
     </div>
     <div class="mf-asset-grid">
 
@@ -39,7 +39,7 @@ carousel-slides:
         </a>
         <figcaption class="mf-asset-body">
           <h3>Web Badge</h3>
-          <p>Round event badge with date — great for websites and social profiles.</p>
+          <p>Round event badge with date, great for websites and social profiles.</p>
           <a class="mf-link-arrow" href="/assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg" target="_blank" rel="noopener">Open image</a>
         </figcaption>
       </figure>
@@ -67,7 +67,7 @@ carousel-slides:
       </figure>
 
     </div>
-    <p class="mf-prose text-center" style="margin-top: 28px;">Need a larger or vector version of any logo? <a href="mailto:makers@makerfaireorlando.com">Email us</a> — we'd love to help. Please don't use the logos in a way that implies we've endorsed a product or service.</p>
+    <p class="mf-prose text-center" style="margin-top: 28px;">Need a larger or vector version of any logo? <a href="mailto:makers@makerfaireorlando.com">Email us</a>. We'd love to help. Please don't use the logos in a way that implies we've endorsed a product or service.</p>
   </div>
 </section>
 
@@ -110,7 +110,7 @@ carousel-slides:
           <img src="/assets/images/site-branding/2025/MFO2025_flyer_front.png" alt="Maker Faire Orlando postcard - front" loading="lazy">
         </a>
         <figcaption class="mf-asset-body">
-          <h3>Postcard — Front</h3>
+          <h3>Postcard (Front)</h3>
           <p>High-res PDF, ready to print.</p>
           <a class="mf-link-arrow" href="/assets/pdf/2025/MFO2025_flyer.pdf" target="_blank" rel="noopener">Download PDF</a>
         </figcaption>
@@ -121,7 +121,7 @@ carousel-slides:
           <img src="/assets/images/site-branding/2025/MFO2025_flyer_back.png" alt="Maker Faire Orlando postcard - back" loading="lazy">
         </a>
         <figcaption class="mf-asset-body">
-          <h3>Postcard — Back</h3>
+          <h3>Postcard (Back)</h3>
           <p>High-res PDF, ready to print.</p>
           <a class="mf-link-arrow" href="/assets/pdf/2025/MFO2025_flyer.pdf" target="_blank" rel="noopener">Download PDF</a>
         </figcaption>
