@@ -103,7 +103,7 @@ carousel-slides:
       <div class="mf-role">
         <i class="mf-role-icon fa-solid fa-eye" aria-hidden="true"></i>
         <div class="mf-role-body">
-          <h3>Exhibit Supervision <span class="mf-role-age">Ages 13+</span></h3>
+          <h3>Exhibit Support <span class="mf-role-age">Ages 13+</span></h3>
           <p>Keep an eye on assigned exhibits alongside our Area Captains, monitoring activity, managing lines, and keeping things safe and fun.</p>
         </div>
       </div>

@@ -11,8 +11,8 @@ cfm_url: https://www.jotform.com/makereffect/cfm2026
 # Volunteer registration. When open, /volunteer/ shows the Humanitix shift
 # widget; when closed it shows an "opening soon" message.
 # UPDATE volunteer_checkout to the current year's Humanitix slug each year.
-volunteer_open: false
-volunteer_checkout: maker-faire-orlando-2025-volunteer-registration
+volunteer_open: true
+volunteer_checkout: maker-faire-orlando-2026-volunteer-registration
 
 # Ticket sales. When true, /attend/ shows the Humanitix ticket widget;
 # when false it shows a "tickets not on sale yet" message instead.
