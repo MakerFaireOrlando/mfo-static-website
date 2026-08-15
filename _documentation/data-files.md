@@ -12,6 +12,7 @@ hard-coded. YAML is **whitespace-sensitive** — indent with spaces, never tabs.
 | `schedule.yaml` | Event schedule. | below |
 | `cta.yaml` | Nav/footer call-to-action buttons. | below |
 | `featured-exhibits.yaml` | Optional homepage featured makers. | below |
+| `crew-roles.yaml` | Crew roles listed on `/join-the-crew/`. | below |
 | `mediacoverage.yaml` | Press / media coverage list. | below |
 
 ---
@@ -133,6 +134,27 @@ A `homepage:` list of featured exhibits, referenced by `exhibit-id`. You can
 override `title`/`description`/`image` per entry. Only shown when
 `featured_makers` is true in [Settings](settings.md). The file's header explains
 how to find an exhibit's id (inspect the title on the exhibit page).
+
+---
+
+## `crew-roles.yaml` — crew roles (`/join-the-crew/`)
+
+A `roles:` list powering both role blocks on [`pages/join-the-crew.md`](../pages/join-the-crew.md):
+the "Featured Roles" jump cards (entries with `featured: true`) and the full
+alphabetical descriptions below them. Per entry:
+
+| Key | Purpose |
+|---|---|
+| `id` | Anchor target — the featured card links to `#{{ id }}` on the full role block. Keep it URL-safe. |
+| `name` | Role title. The full list is sorted alphabetically by this. |
+| `icon` | Font Awesome class (e.g. `fa-solid fa-school`). |
+| `featured` | `true` → also shown as a jump card near the top. Keep to 3 so the grid stays balanced. |
+| `teaser` | One line, featured card only. |
+| `body` | List of paragraphs — the full description. |
+| `great_for` | Completes the sentence "Great for: …". |
+
+Adding or retiring a role is a change to this file only. The page is **evergreen** —
+keep entries free of dates, the event year, and attendance figures.
 
 ---
 
