@@ -1,5 +1,12 @@
 
 <head>
+  {%- comment -%}
+    Must stay the FIRST thing in <head>: the spec only honours a charset
+    declaration inside the first 1024 bytes of the document. GitHub Pages serves
+    "Content-Type: text/html" with no charset, so without this the browser is
+    left guessing and curly quotes / accented characters can render as mojibake.
+  {%- endcomment -%}
+  <meta charset="utf-8">
   <!--{% if page.last_updated %}<span>Page last updated:</span> {{page.last_updated}}<br/>{% endif %} Site last generated: {{ site.time | date: "%b %-d, %Y  %H:%M"  }}-->
   <!-- site.url: {{site.url}}-->
   <!-- site.baseurl: {{site.baseurl}}-->
