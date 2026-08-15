@@ -13,11 +13,11 @@
 #              balanced; every role appears in the full list either way.
 #   teaser     one line, shown on the featured card only
 #   body       one or more paragraphs of the full description
+#   great_for  completes the sentence "Great for: …"
 #
 # Keep every text value in double quotes. An unquoted value containing ": "
 # is parsed by YAML as a nested key/value pair, and the page then renders the
 # raw map instead of the sentence.
-#   great_for  completes the sentence "Great for: …"
 
 roles:
   - id: field-trip-day-producer
@@ -36,7 +36,7 @@ roles:
     featured: true
     teaser: "Run the main stage, the beating heart of the whole event."
     body:
-      - "The Maker Faire Orlando stage seats 200 to 300 people and delivers some of the most memorable content of the whole weekend: moderated panels on maker topics like cosplay, theme park makers, BattleBots teams from TV, and more."
+      - "The Maker Faire Orlando stage delivers some of the most memorable content of the whole weekend: moderated panels on maker topics like cosplay, theme park makers, BattleBots teams from TV, and more."
       - "The Stage Manager helps schedule the content for the stage, works directly with all the talent, and coordinates with the AV team to keep everything running. It’s air-conditioned work at the center of the action, and it helps create amazing Maker Faire memories for students on Field Trip Day and for participants all weekend long."
     great_for: "an organized people-person who likes keeping a show on schedule and enjoys being where the energy is."
 
@@ -49,3 +49,35 @@ roles:
       - "Our volunteers are the reason the weekend works, and the Volunteer Coordinator helps make sure their experience is a great one."
       - "You’ll work alongside our volunteer lead to care for the hundreds of volunteers who power the event across the weekend, helping them feel welcomed, supported, and set up to succeed in whatever they’re doing."
     great_for: "a warm, organized people-person who takes real satisfaction in making sure everyone around them is happy and looked after."
+
+  # Not featured: these appear in the full alphabetical list only. Flip
+  # featured to true (and drop another) to move one up into the card grid.
+  - id: project-manager
+    name: Project Manager
+    icon: fa-solid fa-list-check
+    featured: false
+    teaser: "Take one piece of the event and keep it moving from idea to done."
+    body:
+      - "An event this size has a lot of moving parts, and every one of them goes better with someone keeping an eye on it. A Project Manager takes a topic and keeps it on track."
+      - "You’ll work with the producers to break the work into pieces, keep the right people talking to each other, and make sure nothing quietly stalls between the first planning meeting and load-in."
+    great_for: "someone who likes bringing order to a big, exciting, moving project and gets real satisfaction from watching it land."
+
+  - id: communications
+    name: Marketing & Communications
+    icon: fa-solid fa-bullhorn
+    featured: false
+    teaser: "Help tell the Maker Faire story to everyone who should hear it."
+    body:
+      - "Between email newsletters, social media, and keeping people informed on-site during the event, there is always more to say than we have people to say it."
+      - "You’ll help spread the word about what’s coming, who’s exhibiting, and why people should be there. Bring writing, design, photography, or social media skills, or just bring your enthusiasm for the event and we’ll help you find the right outlet for it."
+    great_for: "a storyteller who likes finding the interesting angle and getting it in front of a crowd."
+
+  - id: av-lighting-technician
+    name: A/V & Lighting
+    icon: fa-solid fa-sliders
+    featured: false
+    teaser: "Make the event sound and look as good as it is."
+    body:
+      - "Multiple stages, lighting, digital signage, and sound across the grounds: the technical side of the event is a big part of what makes the weekend feel like a show."
+      - "A/V and lighting technicians help set up and run sound, lights, and screens throughout the event, working alongside the stage and production teams to keep everything running and looking sharp."
+    great_for: "someone with A/V, lighting, or live production experience, or anyone who has wanted to learn it hands-on with a real show on the line."
