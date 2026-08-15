@@ -470,6 +470,37 @@ browser-verified at 1280px (Humanitix iframe is blank in headless, loads via JS
 at runtime, same as the volunteer widget). 2025 asset paths (sponsor packet,
 educator's guide) left as-is pending 2026 materials.
 
+## 6.16b Join the Crew page (`/join-the-crew/`)
+
+New **evergreen** crew-recruitment page supporting the LinkedIn recruiting push:
+producers post to their networks, and this page is the "learn more" destination
+for people who want role detail before raising their hand. Built from the source
+spec `crew-page-build-spec.md` (written without repo access — its placeholder
+green/pink dark palette and self-contained CSS were **dropped** in favour of the
+site's existing components; the copy and section order were kept).
+
+- **`pages/join-the-crew.md`** — carousel hero with the optional `hero-title`
+  overlay (its first real use on the site: headline + meta line + mailto CTA),
+  then lead ledes → mission band (`.mf-prose-section.is-light`) → "what you'll
+  gain" `.mf-info-grid` → **Featured Roles** cards that are anchor links into the
+  full list → `.mf-apply-callout` "No experience? No problem." → full role
+  descriptions (`.mf-roles`) → dark "booked weekend is no barrier" band →
+  `.mf-apply-callout.is-open` off-ramp to `/volunteer/` → final CTA (mailto +
+  `a.btn-w-ghost`). The lead section deliberately has **no heading** — the hero
+  overlay supplies the page's single `<h1>`.
+- **`_data/crew-roles.yaml`** — role content (see
+  [Data Files](data-files.md)). Adding a role never touches markup.
+- **CSS §15** — the only new rules: `scroll-behavior`, `scroll-margin-top`, and
+  the `:target` coral highlight for the anchor jump, all scoped behind
+  `html:has(.mf-crew-roles)` so smooth scrolling never leaks to the rest of the
+  site (`/volunteer/` shares `.mf-role` and is unaffected).
+
+Deliberately **not** done, per the site owner: no nav entry (traffic comes from
+external posts) and no cross-links from `/volunteer/` or the homepage cards.
+Adding a "Join the Crew" entry under **Get Involved** in `menus.yaml` later is a
+two-line change. No attendance figures are published anywhere on the page (the
+numbers in circulation are unverified) — it says "thousands of students" instead.
+
 ## 6.17 Theme system — dark mode + 2026 "Maker Invasion" skin (UFO toggle)
 
 Two buttons in the header (`_includes/topnav.html`) drive a single

@@ -1,0 +1,47 @@
+# Crew roles shown on /join-the-crew/ (pages/join-the-crew.md).
+#
+# This page is EVERGREEN. Keep everything here year-agnostic (no dates, no
+# event year, no attendance numbers). Adding or retiring a role is a change to
+# this file only; the page renders whatever is here.
+#
+#   id         anchor target, must be URL-safe, used as the role card's id and
+#              as the featured card's jump link (#field-trip-day-producer)
+#   name       role title (the full list is sorted alphabetically by this)
+#   icon       Font Awesome class (FA is already loaded site-wide)
+#   featured   true -> also rendered as a jump card in the "Featured Roles"
+#              grid near the top of the page. Keep this to 3 so the grid stays
+#              balanced; every role appears in the full list either way.
+#   teaser     one line, shown on the featured card only
+#   body       one or more paragraphs of the full description
+#   great_for  completes the sentence "Great for: …"
+
+roles:
+  - id: field-trip-day-producer
+    name: Field Trip Day Producer
+    icon: fa-solid fa-school
+    featured: true
+    teaser: Help pull off a huge day of hands-on discovery for thousands of students.
+    body:
+      - Field Trip Day is when Maker Faire Orlando opens its doors to thousands of local students for a day built entirely around hands-on discovery. The Field Trip Day Producer helps make that day run.
+      - You’ll handle general production tasks for Field Trip Day and coordinate closely with the producers running the rest of the event, making sure the pieces fit together and the day goes smoothly for every school group that walks in.
+    great_for: someone who loves logistics, enjoys working as part of a team, and wants to see the direct impact of their work on thousands of curious kids.
+
+  - id: stage-manager
+    name: Stage Manager
+    icon: fa-solid fa-microphone-lines
+    featured: true
+    teaser: Run the main stage, the beating heart of the whole event.
+    body:
+      - The Maker Faire Orlando stage seats 200 to 300 people and delivers some of the most memorable content of the whole weekend: moderated panels on maker topics like cosplay, theme park makers, BattleBots teams from TV, and more.
+      - The Stage Manager helps schedule the content for the stage, works directly with all the talent, and coordinates with the AV team to keep everything running. It’s air-conditioned work at the center of the action, and it helps create amazing Maker Faire memories for students on Field Trip Day and for participants all weekend long.
+    great_for: an organized people-person who likes keeping a show on schedule and enjoys being where the energy is.
+
+  - id: volunteer-coordinator
+    name: Volunteer Coordinator
+    icon: fa-solid fa-people-group
+    featured: true
+    teaser: Care for the hundreds of volunteers who make the weekend shine.
+    body:
+      - Our volunteers are the reason the weekend works, and the Volunteer Coordinator helps make sure their experience is a great one.
+      - You’ll work alongside our volunteer lead to care for the hundreds of volunteers who power the event across the weekend, helping them feel welcomed, supported, and set up to succeed in whatever they’re doing.
+    great_for: a warm, organized people-person who takes real satisfaction in making sure everyone around them is happy and looked after.
