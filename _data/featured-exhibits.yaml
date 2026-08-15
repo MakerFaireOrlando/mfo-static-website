@@ -8,18 +8,14 @@
 
 
 homepage:
-  - exhibit-id: 25-213 #galactus
-  - exhibit-id: 25-207 #willow creative
-  - exhibit-id: 25-208 #d7 shoes
-  - exhibit-id: 25-220 #evettes niche
-  
-
-
-  
-
-  
-  
-
+  - exhibit-id: 26-47 #southern r2 builders group
+    image: /assets/images/exhibit-images/26-47-e-southern-r2-builders-group-droids-and-space-shuttle-1024x683.jpg
+  - exhibit-id: 26-95 #daleks of florida
+    image: /assets/images/exhibit-images/26-95-e-daleks-of-florida-3-daleks-1024x778.jpg
+  - exhibit-id: 26-114 #dune sea ranch
+    image: /assets/images/exhibit-images/26-114-e-dune-sea-ranch-img-3638-12-901x1024.jpeg
+  - exhibit-id: 26-30 #jt designs and miniatures
+    image: /assets/images/exhibit-images/26-30-e-jt-designs-and-miniatures-img-1953-1024x768.JPG
 
 
 
