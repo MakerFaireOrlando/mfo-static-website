@@ -1609,3 +1609,29 @@ html[data-theme="invasion"] #theme-mode-toggle .mf-icon-sun { display: block; }
 /* Asset grids hold 2–3 items: 3-up → 2-up → 1-up, never a stranded card. */
 @media (max-width: 991px) { .mf-asset-card { flex-basis: calc(50% - 12px); } }
 @media (max-width: 767px) { .mf-asset-card { flex: 1 1 100%; max-width: 420px; } }
+
+/* ==============================================================
+ * 15. Crew role anchor list (/join-the-crew/)
+ *     Markup: pages/join-the-crew.md, data: _data/crew-roles.yaml.
+ *     The featured cards near the top are anchor links into the
+ *     full .mf-role list below; :target tints the role so it's
+ *     obvious where the jump landed. Everything else on that page
+ *     reuses existing components.
+ *
+ *     Scoped to the page via .mf-crew-roles (added alongside
+ *     .mf-roles) so smooth scrolling never leaks site-wide — the
+ *     shared /volunteer/ role list is untouched.
+ * ============================================================== */
+
+html:has(.mf-crew-roles) { scroll-behavior: smooth; }
+
+/* The header isn't sticky, so this is just breathing room above the
+   card the browser scrolls to. */
+.mf-crew-roles .mf-role { scroll-margin-top: 24px; }
+
+.mf-crew-roles .mf-role:target { border-color: var(--mf-red); }
+.mf-crew-roles .mf-role:target .mf-role-body h3 { color: var(--mf-red); }
+
+@media (prefers-reduced-motion: reduce) {
+  html:has(.mf-crew-roles) { scroll-behavior: auto; }
+}
