@@ -40,7 +40,7 @@ theme_invasion_fx_duration: 10
 theme_invasion_fx_fadeout: 10
 
 #homepage settings
-featured_makers: false
+featured_makers: true
 event_shirt_promo: false
 # Show links/arrows on the "Explore the Faire" cards. Set false early in the
 # year before the category/stage pages have fresh content to link to.
