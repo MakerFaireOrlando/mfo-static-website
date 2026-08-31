@@ -43,8 +43,8 @@ categories:
   - slug: craft
     name: Craft
 created-jotform: "2026-07-27 20:54:01"
-last-modified-jotform: "2026-08-23 18:05:44"
-last-exported: "2026-08-23 20:04:24"
+last-modified-jotform: "2026-08-30 17:44:57"
+last-exported: "2026-08-30 19:47:16"
 sitemap: false
 
 ---
