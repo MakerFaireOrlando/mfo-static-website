@@ -7,7 +7,7 @@ permalink: /exhibits/everything-is-geeky-lupus-foundation-of-america/
 exhibit-id: 26-173
 space-number: Unassigned
 description: "Raising awareness for the Lupus Foundation of America.  Fundraising through Everything is Geeky."
-description-long: "We have started attending conventions and other events in an effort to raise awareness of the walk to end Lupus. There are several throughout Florida including one in Orlando every year. I was diagnosed in 2009 and there was a little if any information out there. Lupus is an incurable autoimmune disease where the immune system attacks your own body in my case kidneys. Fundraising is a big part of what we do so this year we started everything is Kiki my husband and I make things to ‘sell for donations.’ I’m pretty crafty. My husband is an artist. We do Crosstitch Legos drawings and more. We try and include all of our favorite fandom’s Star Wars, Lego, Harry Potter, Dungeons & Dragons, etc.. We don’t have anything over $25 the vast majority or five dollar items and it all gets donated to the Lupus foundation. We always have information about lupus and the upcoming events available, and I am always ready and willing to talk to anyone or and everyone who may have a question about lupus."
+description-long: "We have started attending conventions and other events in an effort to raise awareness of the walk to end Lupus. There are several throughout Florida including one in Orlando every year. I was diagnosed in 2009 and there was a little if any information out there. Lupus is an incurable autoimmune disease where the immune system attacks your own body in my case kidneys. Fundraising is a big part of what we do so this year we started everything is Kiki my husband and I make things to ‘sell for donations.’ I’m pretty crafty. My husband is an artist. We do Crosstitch Legos drawings and more. We try and include all of our favorite fandom’s Star Wars, Lego, Harry Potter, retro video games, Nintendo, Dungeons & Dragons, etc.. The majority of items are $5 with nothing over $25. Your purchases are donations to the Lupus Foundation of America. We also have information about lupus and the upcoming events, and I am always ready and willing to talk to anyone or and everyone who may have a question about lupus.  It’s not a very well known disease and I feel a responsibility to help raise awareness."
 image: /assets/images/exhibit-images/26-173-e-everything-is-geeky-lupus-foundation-of-america-img-7450-713-300x225.jpeg
 image-primary: 
   full:
@@ -49,9 +49,9 @@ maker:
   description: "My name is Shannon Small. I am an ambassador for the Lupus foundation of America Southeast region. One of the ways we fundraise and increase awareness is by attending events and selling handmade items for donations. The way we do this is through our side project “Everything is Geeky”
 Where we make and sell all kinds of stuff from all kinds of fandoms. Lego Star Wars, Star Trek, Lord of the rings, Harry Potter, all kinds of fun stuff."
   image-primary:
-    url: /assets/images/exhibit-images/26-173-m-everything-is-geeky-lupus-foundation-of-america-img-7430-300x225.jpeg
+    url: /assets/images/exhibit-images/26-173-m-everything-is-geeky-lupus-foundation-of-america-img-7283-6713-300x231.jpeg
     width: 150
-    height: 113
+    height: 116
   website: https://support.lupus.org/site/tr/wteln/general?pg=personal&px=1182156&fr_id=2258
   instagram: https://www.instagram.com/EverythingIsGeeky
   facebook: https://www.facebook.com//EverythingIsGeeky
@@ -67,8 +67,8 @@ categories:
   - slug: lego
     name: LEGO
 created-jotform: "2026-08-28 05:44:33"
-last-modified-jotform: "2026-08-30 16:15:21"
-last-exported: "2026-08-30 19:46:58"
+last-modified-jotform: "2026-09-05 12:06:18"
+last-exported: "2026-09-05 16:59:01"
 sitemap: false
 
 ---
