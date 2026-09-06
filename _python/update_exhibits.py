@@ -435,9 +435,14 @@ def export(outputAll):
 
 
                 if (sn in spListN):
-                  spList[1] = '> > ' + spList[1] #this is the text that goes in the field
-                  spList[2] = '> > ' + spList[2] #this is the text that goes in the field
-                  spList[3] = '> > ' + spList[3] #this is the text that goes in the field
+                  #mark the entry already holding this space as shared.
+                  #index 0 is the space number, everything after it is a text
+                  #view - walk them so this doesn't blow up if the number of
+                  #views changes. (This used to index [1],[2],[3] on a list of
+                  #two, so any two exhibits sharing a space crashed the run.)
+                  if not spList[1].startswith('> > '):
+                    for view in range(1, len(spList)):
+                      spList[view] = '> > ' + spList[view] #this is the text that goes in the field
                   print("DUPLICATE", sn, spList)
                   dup = True
 
@@ -677,16 +682,19 @@ def export(outputAll):
         spaceplanList = sorted(spaceplanList, key=lambda x:x[0])
         #print (spaceplanList)
 
-        #init the rows
-        csvrowC = [["View"],["SpaceExhibitID"]]
-        csvrowS = [["View"],["SpaceExhibitID"]]
-        csvrowO = [["View"],["SpaceExhibitID"]]
-        csvrowM = [["View"],["SpaceExhibitID"]]
-
-        #csvrowC = [["View"],["SpaceExhibitID"],["SpaceExhbit"],["SpaceExhibitMaker"],["Exhibit"]]
-        #csvrowS = [["View"],["SpaceExhibitID"],["SpaceExhbit"],["SpaceExhibitMaker"],["Exhibit"]]
-        #csvrowO = [["View"],["SpaceExhibitID"],["SpaceExhbit"],["SpaceExhibitMaker"],["Exhibit"]]
-        #csvrowM = [["View"],["SpaceExhibitID"],["SpaceExhbit"],["SpaceExhibitMaker"],["Exhibit"]]
+        #init the rows - two data sets, deliberately no more than two.
+        #  SpaceExhibitID : Space Number : Exhibit ID [F]
+        #                   Exhibit Name
+        #                   Maker Name
+        #  Blank          : every space empty, for printing the blank plan
+        #
+        #Keep this at two. Binding an object in Illustrator makes it reconcile
+        #that variable across every data set, so each extra view makes binding
+        #and importing slower for no benefit. See _illustrator/illustrator-challenges.md
+        csvrowC = [["View"],["SpaceExhibitID"],["Blank"]]
+        csvrowS = [["View"],["SpaceExhibitID"],["Blank"]]
+        csvrowO = [["View"],["SpaceExhibitID"],["Blank"]]
+        csvrowM = [["View"],["SpaceExhibitID"],["Blank"]]
 
         #add blank spaces
         cRows = ['A','B','C','D','E','F','G','H','I','J']
@@ -705,9 +713,7 @@ def export(outputAll):
             if any(e[0] == curSpace for e in spaceplanList) is False:
               csvrowC[0].append(curSpace)
               csvrowC[1].append("")
-              #csvrowC[2].append("")
-              #csvrowC[3].append("")
-              #csvrowC[4].append("")
+              csvrowC[2].append("")
 
         for curRow in sRows:
           for curCol in range(1,sNumCols + 1):
@@ -716,9 +722,7 @@ def export(outputAll):
             if any(e[0] == curSpace for e in spaceplanList) is False:
               csvrowS[0].append(curSpace)
               csvrowS[1].append("")
-              #csvrowS[2].append("")
-              #csvrowS[3].append("")
-              #csvrowS[4].append("")
+              csvrowS[2].append("")
 
         for curRow in oRows:
           for curCol in range(1,oNumCols + 1):
@@ -727,9 +731,7 @@ def export(outputAll):
             if any(e[0] == curSpace for e in spaceplanList) is False:
               csvrowO[0].append(curSpace)
               csvrowO[1].append("")
-              #csvrowO[2].append("")
-              #csvrowO[3].append("")
-              #csvrowO[4].append("")
+              csvrowO[2].append("")
 
         for curRow in mRows:
           for curCol in range(1,mNumCols + 1):
@@ -738,9 +740,7 @@ def export(outputAll):
             if any(e[0] == curSpace for e in spaceplanList) is False:
               csvrowM[0].append(curSpace)
               csvrowM[1].append("")
-              #csvrowM[2].append("")
-              #csvrowM[3].append("")
-              #csvrowM[4].append("")
+              csvrowM[2].append("")
 
         unow = datetime.datetime.now()
         updated = unow.strftime("%Y-%m-%d-%H:%M:%S")
@@ -748,22 +748,23 @@ def export(outputAll):
 
 
         #output by iterating the spaces
+        #row 0 is the space number, row 1 is the label, row 2 is the blank view
         for spc in spaceplanList:
-          #for row in range (0,5):
-          for row in range (0,2):
+          for row in range (0,3):
+            #the Blank view is empty for every space, assigned or not
+            value = spc[row] if row < 2 else ""
             #split by building
             if spc[0][0] == "C":
-              csvrowC[row].append(spc[row])
+              csvrowC[row].append(value)
             elif spc[0][0] == "S":
-              csvrowS[row].append(spc[row])
+              csvrowS[row].append(value)
             elif spc[0][0] == "O":
-              csvrowO[row].append(spc[row])
+              csvrowO[row].append(value)
             elif spc[0][0] == "M":
-              csvrowM[row].append(spc[row])
+              csvrowM[row].append(value)
 
         #add update time to end
-        #for urow in range (0,5):
-        for urow in range (0,2):
+        for urow in range (0,3):
           csvrowC[urow].append(updatedList[urow])
           csvrowS[urow].append(updatedList[urow])
           csvrowO[urow].append(updatedList[urow])
