@@ -608,15 +608,15 @@ separate SVG layers so the abductee is sandwiched and never drawn over the sauce
 | Layer | Asset | z | Role |
 |---|---|---|---|
 | `.mf-craft-beam` | `invasion_Beam.svg` (2700×2303) | 0 | beam, behind the abductee |
-| `.mf-abductee` | `invasion_{Makey,Mothman,Bigfoot}.svg` (600×600) | 1 | rises up the beam |
+| `.mf-abductee` | `invasion_{Makey,Mothman,Bigfoot,Unicorn}.svg` (600×600) | 1 | rises up the beam |
 | `.mf-craft-body` | `invasion_Saucer.svg` (2700×1323) | 2 | body, **occludes** the abductee as it's drawn in |
 
 The abductee is **weighted-random** — pool `["Makey","Makey","Mothman",
-"Bigfoot"]`, so Makey is twice as likely (50% / 25% / 25%). On each abduction
+"Bigfoot","Unicorn"]`, so Makey is twice as likely (40% / 20% / 20% / 20%). On each abduction
 loop the image is swapped (at the invisible boundary, via `animationiteration`)
 to a fresh pick that **excludes the previous one**, so a saucer that pulls in a
 second object shows something different (the weighting carries to the remaining
-choices). All three abductee SVGs share the 2700-wide centerline, so the layers
+choices). All the abductee SVGs share the 2700-wide centerline, so the layers
 align with no offset math.
 
 While active the layer sits above the content but below the nav (`z-index: 2`) so
@@ -659,7 +659,7 @@ mode, and persistence all remain. Nothing in content pages changes.
 | `assets/css/mfo-theme-dark.css` | **New** — neutral dark mode (token redefinitions + small touch-ups) |
 | `assets/css/mfo-theme-invasion.css` | **New (temporary)** — 2026 neon skin + immersive FX |
 | `assets/js/mfo-theme.js` | **New** — toggle controller + lazy FX injection |
-| `assets/images/site-branding/2026/invasion/invasion_{Saucer,Beam,Makey,Mothman,Bigfoot}.svg` + `invasion-header.jpg` | **New (temporary)** — scene art (saucer body, beam, 3 abductees) + carousel header slide |
+| `assets/images/site-branding/2026/invasion/invasion_{Saucer,Beam,Makey,Mothman,Bigfoot,Unicorn}.svg` + `invasion-header.jpg` | **New (temporary)** — scene art (saucer body, beam, 4 abductees) + carousel header slide |
 | `invasion.html` (`/invasion/`) | **New (temporary)** — shareable shortcut: redirects home with `?theme=invasion` (no storage) |
 | `_includes/head.html` | No-flash theme restore script |
 | `_includes/topnav.html` | UFO toggle button (`#theme-toggle`) |

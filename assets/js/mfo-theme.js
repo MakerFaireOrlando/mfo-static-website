@@ -106,14 +106,14 @@
     // as likely as the others. `prev` (when given) is excluded so a repeat
     // abduction pulls in a DIFFERENT object — weighting carries to what's left.
     var art = "/assets/images/site-branding/2026/invasion/";
-    var ABDUCTEES = ["Makey", "Mothman", "Bigfoot"];
+    var ABDUCTEES = ["Makey", "Mothman", "Bigfoot", "Unicorn"];
     // Warm the cache so the per-loop image swap never fetches/decodes mid-flight.
     for (var p = 0; p < ABDUCTEES.length; p++) {
       var pre = new Image();
       pre.src = art + "invasion_" + ABDUCTEES[p] + ".svg";
     }
     function pickAbductee(prev) {
-      var pool = ["Makey", "Makey", "Mothman", "Bigfoot"].filter(function (x) { return x !== prev; });
+      var pool = ["Makey", "Makey", "Mothman", "Bigfoot", "Unicorn"].filter(function (x) { return x !== prev; });
       return pool[Math.floor(Math.random() * pool.length)];
     }
     function craft() {

@@ -259,7 +259,7 @@ html:not([data-theme="invasion"]) .mf-invasion-fx { display: none; }
  *     abductee up into its underside. Artwork is three SEPARATE layers so the
  *     abductee is sandwiched correctly (and never drawn over the saucer):
  *       .mf-craft-beam  invasion_Beam.svg   (2700x2303) — behind the abductee
- *       .mf-abductee    invasion_<who>.svg  (600x600)   — Makey/Mothman/Bigfoot
+ *       .mf-abductee    invasion_<who>.svg  (600x600)   — Makey/Mothman/Bigfoot/Unicorn
  *       .mf-craft-body  invasion_Saucer.svg (2700x1323) — on top, occludes it
  *     Two nested wrappers keep all motion compositor-only `transform`s: outer
  *     .mf-ufo sweeps horizontally (translateX); inner .mf-ufo-craft bobs
