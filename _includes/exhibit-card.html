@@ -7,5 +7,8 @@
     </div>
     <div class="title-container"><a href="{{exhibit.url}}">{{exhibit.title}}</a></div>
     <div class="description-container" style="display:none">{{exhibit.description}}</div>
+    {%- comment -%} Hidden, so the quick search (plain substring over the card's
+    textContent) can match a maker as well as an exhibit. {%- endcomment -%}
+    <div class="search-terms" style="display:none">{{exhibit.maker.name}}</div>
   </div>
 </div>
