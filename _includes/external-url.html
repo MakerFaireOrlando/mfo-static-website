@@ -1,0 +1,35 @@
+{%- comment -%}
+  Normalizes a maker-supplied URL into something a browser can actually follow.
+
+  Exhibit data comes out of Jotform, so the `website` / social fields arrive in
+  whatever shape the maker typed them: "makerfx.org", "www.example.com", or the
+  very common "https:example.com" (scheme typed, slashes dropped). Anything
+  without a usable scheme is treated as a bare host and gets https:// prepended.
+
+  Usage: <a href="{% include external-url.html url=page.website %}">
+{%- endcomment -%}
+{%- assign _u = include.url | strip -%}
+{%- assign _lu = _u | downcase -%}
+{%- assign _p1 = _lu | slice: 0, 1 -%}
+{%- assign _p2 = _lu | slice: 0, 2 -%}
+{%- assign _p4 = _lu | slice: 0, 4 -%}
+{%- assign _p5 = _lu | slice: 0, 5 -%}
+{%- assign _p6 = _lu | slice: 0, 6 -%}
+{%- assign _p7 = _lu | slice: 0, 7 -%}
+{%- assign _p8 = _lu | slice: 0, 8 -%}
+{%- if _u == blank -%}
+{%- elsif _p8 == "https://" or _p7 == "http://" -%}
+{{- _u -}}
+{%- elsif _p7 == "mailto:" or _p4 == "tel:" -%}
+{{- _u -}}
+{%- elsif _p2 == "//" -%}
+{%- assign _rest = _u | slice: 2, 4096 -%}https://{{ _rest }}
+{%- elsif _p6 == "https:" -%}
+{%- assign _rest = _u | slice: 6, 4096 -%}https://{{ _rest }}
+{%- elsif _p5 == "http:" -%}
+{%- assign _rest = _u | slice: 5, 4096 -%}http://{{ _rest }}
+{%- elsif _p1 == "/" or _p1 == "#" -%}
+{{- _u -}}
+{%- else -%}
+https://{{ _u }}
+{%- endif -%}

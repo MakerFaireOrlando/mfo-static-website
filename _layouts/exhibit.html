@@ -44,7 +44,7 @@
       </div>
 
       {% if page.website %}
-      <p><a href="{{page.website}}" class="btn btn-info" target="_blank" rel="noopener">Learn More</a></p>
+      <p><a href="{% include external-url.html url=page.website %}" class="btn btn-info mf-external" target="_blank" rel="noopener">Learn More{% include external-icon.html %}</a></p>
       {% endif %}
     
 
@@ -86,24 +86,24 @@
               <div class="exhibit-description">{{page.maker.description}}</div>
               <div class="row exhibit-social-row">
                 {% if page.maker.website %}
-                 <div class="col-md-4 pull-left"><a href="{{page.maker.website}}" class="btn btn-info" target="_blank" rel="noopener">Learn More</a></div>
+                 <div class="col-md-4 pull-left"><a href="{% include external-url.html url=page.maker.website %}" class="btn btn-info mf-external" target="_blank" rel="noopener">Learn More{% include external-icon.html %}</a></div>
                 {% endif %}
                    <div class="col-md-5">
                      <ul class="list-inline">
                        {% if page.maker.twitter %}
-                        <li><a href="{{page.maker.twitter}}" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-twitter fa-2xl" aria-hidden="true"></i></a></li>
+                        <li><a href="{% include external-url.html url=page.maker.twitter %}" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-twitter fa-2xl" aria-hidden="true"></i></a></li>
                        {% endif %}
                        {% if page.maker.instagram %}
-                       <li><a href="{{page.maker.instagram}}" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram fa-2xl" aria-hidden="true"></i></a></li>
+                       <li><a href="{% include external-url.html url=page.maker.instagram %}" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram fa-2xl" aria-hidden="true"></i></a></li>
                        {% endif %}
                        {% if page.maker.facebook %}
-                        <li><a href="{{page.maker.facebook}}" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook fa-2xl" aria-hidden="true"></i></a></li>
+                        <li><a href="{% include external-url.html url=page.maker.facebook %}" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook fa-2xl" aria-hidden="true"></i></a></li>
                        {% endif %}
                        {% if page.maker.youtube %}
-                        <li><a href="{{page.maker.youtube}}" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube fa-2xl" aria-hidden="true"></i></a></li>
+                        <li><a href="{% include external-url.html url=page.maker.youtube %}" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube fa-2xl" aria-hidden="true"></i></a></li>
                        {% endif %}
                        {% if page.maker.tiktok %}
-                        <li><a href="{{page.maker.tiktok}}" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok fa-2xl" aria-hidden="true"></i></a></li>
+                        <li><a href="{% include external-url.html url=page.maker.tiktok %}" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok fa-2xl" aria-hidden="true"></i></a></li>
                        {% endif %}
                     </ul>
                   </div>

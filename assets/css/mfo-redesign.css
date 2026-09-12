@@ -684,6 +684,16 @@ html[data-theme="invasion"] #theme-mode-toggle .mf-icon-sun { display: block; }
 /* Icons are Font Awesome glyphs — never underline the wrapping link. */
 .exhibit-social-row .list-inline a { text-decoration: none; }
 
+/* Off-site links (exhibit "Learn More" buttons): a small arrow tells visitors
+   the click hands them off to the maker's own site. Sized relative to the label
+   so it tracks the button text, and nudged up to sit on the cap height. */
+.mf-external-icon {
+  font-size: 0.8em;
+  margin-left: 0.5em;
+  vertical-align: 0.08em;
+  opacity: 0.85;
+}
+
 /* Category tag pills (exhibit detail page) — linked bubbles, not a text list. */
 .mf-tags {
   display: flex;
