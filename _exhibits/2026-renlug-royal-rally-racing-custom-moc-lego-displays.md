@@ -13,7 +13,7 @@ RenLUG invites you to experience the thrill of Royal Rally Racing, where creativ
 
 From intricate medieval castles and fantasy realms to robotics, vehicles, and modular cities, our displays highlight the intersection of storytelling, design, and STEM. As a builder community passionate about education and innovation, RenLUG aims to inspire curiosity, creativity, and hands-on learning through LEGO®. Whether you're a future engineer or a lifelong fan, there’s something for everyone in our interactive display space.
 
-Renaissance, a time of great technological innovation and artistic advancements + LUG (LEGO® User Group) = RenLUG"
+Renaissance, a time of great technological innovation and artistic advancements + LUG (LEGO® User Group) = RenLUG Learn more about RenLUG Central Florida LEGO User Group at RenLUG.org or CentralFloridaLUG.org"
 image: /assets/images/exhibit-images/26-35-e-renlug-royal-rally-racing-custom-moc-lego-displays-group-300x161.JPG
 image-primary: 
   full:
@@ -178,12 +178,14 @@ RenLUG brings together Adult Fans of LEGO® (AFOLs) in an inclusive, supportive 
 
 Our members volunteer their time to lead STEM-focused events, collaborate with educational organizations, and showcase original LEGO® creations that highlight engineering, robotics, and design. From modular cities and moving machines to  to detailed medieval dioramas filled with castles, villages, and legends, our exhibits capture both the science and storytelling behind the builds. RenLUG's goal is to inspire the next generation of problem-solvers, builders, and innovators.
 
-We believe building with LEGO® isn’t just about bricks; it’s about building a better future through learning, curiosity, and community."
+We believe building with LEGO® isn’t just about bricks; it’s about building a better future through learning, curiosity, and community. 
+
+Learn more at RenLUG.org"
   image-primary:
     url: /assets/images/exhibit-images/26-35-m-renlug-royal-rally-racing-custom-moc-lego-displays-renluglogoyellow-300x300.png
     width: 150
     height: 150
-  website: https:www.renlug.org
+  website: https://www.renlug.org
   instagram: https://www.instagram.com/renlug.florida/
   facebook: https://www.facebook.com/renlug
   youtube: https://www.youtube.com/@RenLUGFL
@@ -201,8 +203,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-02 07:14:06"
-last-modified-jotform: "2026-08-09 10:33:18"
-last-exported: "2026-08-09 12:24:18"
+last-modified-jotform: "2026-09-12 10:59:16"
+last-exported: "2026-09-12 11:23:58"
 sitemap: false
 
 ---
