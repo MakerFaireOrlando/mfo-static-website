@@ -273,8 +273,7 @@ def export(outputAll):
       #print (settings)
 
       token = settings['jotform-api-key']
-      print ('API Key:  ', token)
-
+      
     jotformAPIClient = JotformAPIClient(token)
 
     forms = jotformAPIClient.get_forms()
