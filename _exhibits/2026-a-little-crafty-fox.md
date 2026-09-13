@@ -26,6 +26,41 @@ image-primary:
     url: /assets/images/exhibit-images/26-110-e-a-little-crafty-fox-img-1541-1024x808.jpeg
     width: 1024
     height: 808
+additional-images: 
+  - 1:
+    full:
+      url: /assets/images/exhibit-images/26-110-e1-a-little-crafty-fox-img-3097-full.jpeg
+      width: 1206
+      height: 1412
+    small:
+      url: /assets/images/exhibit-images/26-110-e1-a-little-crafty-fox-img-3097-128x150.jpeg
+      width: 128
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/26-110-e1-a-little-crafty-fox-img-3097-256x300.jpeg
+      width: 256
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/26-110-e1-a-little-crafty-fox-img-3097-875x1024.jpeg
+      width: 875
+      height: 1024
+  - 2:
+    full:
+      url: /assets/images/exhibit-images/26-110-e2-a-little-crafty-fox-img-3098-full.jpeg
+      width: 1206
+      height: 1594
+    small:
+      url: /assets/images/exhibit-images/26-110-e2-a-little-crafty-fox-img-3098-113x150.jpeg
+      width: 113
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/26-110-e2-a-little-crafty-fox-img-3098-227x300.jpeg
+      width: 227
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/26-110-e2-a-little-crafty-fox-img-3098-775x1024.jpeg
+      width: 775
+      height: 1024
 maker: 
   name: "Michael and Kristen Volpicelli"
   description: "We are a husband / wife duo selling original art prints and original 3D printed designs"
@@ -43,8 +78,8 @@ categories:
   - slug: craft
     name: Craft
 created-jotform: "2026-07-27 20:54:01"
-last-modified-jotform: "2026-09-06 19:14:20"
-last-exported: "2026-09-08 13:55:33"
+last-modified-jotform: "2026-09-12 12:32:18"
+last-exported: "2026-09-13 10:36:21"
 sitemap: false
 
 ---
