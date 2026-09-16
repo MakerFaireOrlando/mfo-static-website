@@ -66,7 +66,7 @@ Please note that our [Field Trip Day](/field-trip-day) is only for pre-registere
              {%- if event.location -%}
               <a name="{{event.slug}}"></a>
             {%- endif -%}
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-2">
                        <b>{{event.date | date: "%A"}}<br>{{event.date | date: "%l:%M&nbsp;%P"}}

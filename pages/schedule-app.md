@@ -57,7 +57,7 @@ Check out the [event program](/program) for a printable map, schedule and more!<
                           {% endif %}" >
 
 
-            <div class="container" style="width=100%">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-2">
                       {% if event.image %}
