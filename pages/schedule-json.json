@@ -12,8 +12,8 @@ sitemap: false
       "title": {{ event.title | smartify | jsonify }},
       "location": {{ event.location | smartify | jsonify }},
       "description": {{ event.description | smartify | jsonify }},
-      "date": {{ event.date | smartify | jsonify }},
-      "enddate": {{ event.enddate | smartify | jsonify }},
+      "date": {{ event.date | date: "%Y-%m-%d %H:%M:%S +0000" | default: "" | jsonify }},
+      "enddate": {{ event.enddate | date: "%Y-%m-%d %H:%M:%S +0000" | default: "" | jsonify }},
       "image": "{{ event.image | absolute_url | escape }}",
       "url": "{{ event.url | absolute_url | escape }}", 
       "guests":[

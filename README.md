@@ -52,7 +52,7 @@ No Ruby? Use Docker instead — `docker compose up jekyll-dev` (fast) or
 |---|---|
 | `_config.yml` | Main Jekyll config (theme, plugins, collections, SEO). |
 | `_config_dev.yml` | Local-only overrides that speed up builds. |
-| `_data/` | YAML data: `settings.yaml`, `menus.yaml`, `sponsors.yaml`, `schedule.yaml`, … |
+| `_data/` | Site data: `settings.yaml`, `menus.yaml`, `sponsors.yaml`, `schedule.json`, … |
 | `_exhibits/` | **Generated** exhibit collection (one `.md` per exhibit). |
 | `_categories/` | Exhibit category pages (one `.md` per category). |
 | `_layouts/` | Page templates (`default`, `category`, `schedule`, `exhibit`, …). |

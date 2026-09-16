@@ -67,7 +67,7 @@ for brand/social icons.
 | `full-width.html` | Full-bleed pages (homepage, restyled exhibit/volunteer pages). |
 | `category.html` | Exhibits index and category pages — loops `site.exhibits` into an Isotope card grid. |
 | `exhibit.html` | A single exhibit detail page. |
-| `schedule.html` / `schedule-app.html` | Event schedule views driven by `_data/schedule.yaml`. |
+| `schedule.html` / `schedule-app.html` | Event schedule views driven by `_data/schedule.json`. |
 | `table-signs.html` | Printable per-exhibit table signs (not indexed). |
 | `redirect.html` | Support for redirects. |
 
