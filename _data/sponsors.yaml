@@ -20,7 +20,7 @@ sponsors:
     url: https://jobs.universalparks.com/universal-creative/
     logo: universal-creative.png
     level: 3
-    active: true
+    active: false
   - name: Disney
     url: https://disneyconnect.com/disneyworld/
     logo: Disney-Red-4C.png
@@ -35,7 +35,7 @@ sponsors:
     url: https://www.bocabearings.com/
     logo: BB-logo-full-color-small.png
     level: 4
-    active: true
+    active: false
   - name: TLC Engineering
     url: https://tlc-engineers.com/
     logo: tlc-engineering.jpg
@@ -60,7 +60,7 @@ sponsors:
     url: https://www.brasfieldgorrie.com/
     logo: Brasfield-Gorrie-Logo-Blue-JPG-border.jpg
     level: 4
-    active: true
+    active: false
   - name: Amphenol Custom Cable
     url: http://www.customcable.com/
     logo: amphenol.jpg
@@ -75,7 +75,7 @@ sponsors:
     url: https://www.sainsmart.com
     logo: sainsmart.jpg
     level: 4
-    active: true
+    active: false
   - name: Wiring Technologies
     url: https://wiringtech.com/
     logo: WTI_Logo.png
@@ -90,7 +90,7 @@ sponsors:
     url: https://www.pcbway.com
     logo: pcbway.png
     level: 4
-    active: true
+    active: false
   - name: Parikh Law
     url: https://thefloridatriallawyer.com/
     logo: parikh_law.png
@@ -99,7 +99,7 @@ sponsors:
   - name: Orange Technical College
     url: https://www.orangetechcollege.net/
     logo: OTC_Horiz.png
-    level: 5
+    level: 4
     active: true
   - name: EPAX 3D
     url: https://epax3d.com/
@@ -115,42 +115,42 @@ sponsors:
     url: https://www.thetamachines.com/
     logo: theta-machines-920x283.png
     level: 4
-    active: true
+    active: false
   - name: Weirdly Wired
     url: https://www.weirdlywired.com/
     logo: weirdly-wired.avif
     level: 4
-    active: true
+    active: false
   - name: 3D Printing Nerd
     url: https://www.The3DPrintingNerd.com
     logo: 3dpnbotlogo.jpg
     level: 4
-    active: true
+    active: false
   - name: Audiojack
     url: https://www.audiojack.com
     logo: audiojack.jpg
     level: 4
-    active: true
+    active: false
   - name: Polymaker
     url: https://us.polymaker.com
     logo: Polymaker.avif
     level: 4
-    active: true
+    active: false
   - name: Siemon
     url: https://www.siemon.com/em/
     logo: siemon.png
     level: 5
-    active: true
+    active: false
   - name: VP3D Printing
     url: https://vp3dprinting.com/
     logo: VP3DLOGO.png
     level: 5
-    active: true
+    active: false
   - name: Rokland 
     url: https://store.rokland.com/
     logo: rokland.png
     level: 4
-    active: true
+    active: false
   - name: Forward Thinking Designs 
     url: https://www.forwardthinkingdesigns.com/
     logo: ftd-LogoBlack.png
