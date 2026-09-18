@@ -23,7 +23,7 @@ See the [Maker Manual](/maker-manual) for more detail on times including load-in
 
 Thursday 4pm to 8pm - Maker Check-in and setup for those participating on Field Trip Day
 
-Friday 8:30am - Field Trip Day maker entry and any last-minute load-in
+Friday 8:00am - Field Trip Day maker entry and any last-minute load-in
 
 Friday 10am to 3pm - Maker Faire Field Trip Day
 

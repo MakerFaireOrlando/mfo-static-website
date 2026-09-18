@@ -39,7 +39,7 @@ Maker Faire Orlando has a zero tolerance policy for harassment of any kind - Lea
 #### Field Trip Day Exhibitors
  Load in for Field Trip Day exhibits is Thursday from 4PM to 8PM (completed by 8PM please, not arriving at 8PM). If your exhibit requires additional load-in time and you need to start before 4PM, please [email us](mailto:makers@makerfaireorlando.com). 
 
- **Field Trip Day maker entry and any last-minute load in (exceptions only) will be at 8:30AM on Friday** for the event to start at 10AM. If you need to load in for Field Trip Day on Friday morning, please [email us](mailto:makers@makerfaireorlando.com).
+ **Field Trip Day maker entry and any last-minute load in (exceptions only) will be at 8:00AM on Friday** for the event to start at 10AM. If you need to load in for Field Trip Day on Friday morning, please [email us](mailto:makers@makerfaireorlando.com).
 
 #### Weekend Exhibitors
  Load in for Weekend Exhibits is Friday from 4PM to 8PM (completed by 8PM please, not arriving at 8PM). This has changed from prior years due to the addition of Field Trip Day on Friday that limits load-in activity. 
