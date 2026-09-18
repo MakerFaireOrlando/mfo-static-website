@@ -1,0 +1,55 @@
+---
+#front matter required!
+
+permalink: /readiness-json/
+sitemap: false
+
+# readiness-json — what this site still has left over from last year, and the
+# timestamps that say when each exhibit page was last built.
+#
+# Read by the producer dashboard (mfo-producer-app, the Website readiness card)
+# so it can show what is outstanding and spot an exhibit edited in Jotform since
+# its page was exported. Nothing else consumes it; it is a status feed, not
+# content, and it is excluded from the sitemap and from fast local builds.
+#
+# Three parts:
+#   items     — _data/readiness.yaml compared against _data/settings.yaml. The
+#               LIST lives in readiness.yaml; this page only does the comparing.
+#   exhibits  — one row per published exhibit. /makers-json/ already lists the
+#               exhibits but carries no timestamps, and the timestamps are the
+#               only way to tell a page that is up to date from one that was
+#               built before the maker last edited their submission.
+#   schedule  — a summary of _data/schedule.json, so this feed can be eyeballed
+#               on its own. The dashboard reads the real events from
+#               /schedule-json/.
+#
+# Whitespace is a pain with this version of Jekyll, which is why the control
+# tags are inline — same as makers-json.json.
+---
+
+{ "generated": "{{ site.time | date: '%Y-%m-%d %H:%M:%S' }}",
+"event_year": {{ site.data.settings.event_year | jsonify }},
+"items":[{%- for item in site.data.readiness -%}{%- assign value = site.data.settings[item.key] -%}{
+      "key": {{ item.key | jsonify }},
+      "label": {{ item.label | jsonify }},
+      "value": {{ value | jsonify }},
+      "done": {% if value == item.done_when %}true{% else %}false{% endif %},
+      "optional": {% if item.optional %}true{% else %}false{% endif %}
+    }{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}],
+"exhibits":[{%- for exhibit in site.exhibits -%}{
+      "id": {{ exhibit.exhibit-id | jsonify }},
+      "slug": {{ exhibit.slug | jsonify }},
+      "space_number": {{ exhibit.space-number | jsonify }},
+      "exhibit_zone": {{ exhibit.exhibit-zone | jsonify }},
+      "last_modified_jotform": {{ exhibit.last-modified-jotform | jsonify }},
+      "last_exported": {{ exhibit.last-exported | jsonify }}
+    }{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}],
+{%- assign dates = site.data.schedule | map: "date" | sort -%}
+"schedule": {
+    "count": {{ site.data.schedule.size }},
+    "first_date": {{ dates | first | slice: 0, 10 | jsonify }},
+    "last_date": {{ dates | last | slice: 0, 10 | jsonify }}
+  }
+}

@@ -19,3 +19,6 @@ exclude:
   # local preview. Drop the --config flag for a full build that emits them.
   - pages/makers-json.json
   - pages/schedule-json.json
+  # Status feed for the producer dashboard, not content. Same reasoning as the
+  # two above: it loops every exhibit, and nothing in the preview links to it.
+  - pages/readiness-json.json

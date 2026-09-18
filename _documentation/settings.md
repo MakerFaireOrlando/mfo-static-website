@@ -90,6 +90,39 @@ Set each to `false` once that page has been refreshed for the current year.
 
 ---
 
+## The year-roll checklist (`/readiness-json/`)
+
+These flags are also **published as a checklist** so the producer dashboard can
+show what is still outstanding. [`_data/readiness.yaml`](../_data/readiness.yaml)
+lists each key alongside what being done *means* in plain words and the value
+that means done; [`pages/readiness-json.json`](../pages/readiness-json.json)
+compares it against `settings.yaml` and serves the answer at `/readiness-json/`.
+
+```yaml
+- key: schedule_show_update_warning
+  label: Schedule page refreshed for this year
+  done_when: false
+```
+
+Two things to know:
+
+- **This file is the list.** The dashboard holds no copy of it, so adding a flag
+  to the checklist, rewording a label or dropping an item is a change here and
+  nowhere else. If a new page gains an update-warning flag, add it here too or
+  nobody will be reminded to turn it off.
+- **`optional: true`** is for a seasonal switch that is off because it is not
+  time yet — the shirt promo, the footer ad, this year's skin. Those are listed
+  but not counted as work outstanding, so the dashboard is not permanently
+  unhappy about them.
+
+The feed also carries a row per exhibit with its `last-modified-jotform` and
+`last-exported` timestamps, which is how the dashboard spots an exhibit edited
+in Jotform since its page was last built. It is a status feed, not content: it
+is excluded from the sitemap and from fast local builds
+([`_config_dev.yml`](../_config_dev.yml)).
+
+---
+
 ## Exhibit display
 
 | Key | Effect |

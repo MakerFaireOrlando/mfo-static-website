@@ -1,0 +1,85 @@
+# readiness.yaml — the year-roll checklist, published as JSON at /readiness-json/
+#
+# What is still left over from last year. Each row names a key in
+# _data/settings.yaml and the value that means "this page has been dealt with
+# for the current event year"; pages/readiness-json.json compares the two and
+# publishes the answer. The producer dashboard (mfo-producer-app) reads that
+# feed and shows what is outstanding on its Website readiness card.
+#
+# THIS FILE IS THE LIST, DELIBERATELY. The dashboard holds no copy of it, so
+# adding a flag, changing a label or dropping an item is a change here and
+# nothing else — no deploy of the app, no second place to keep in step.
+#
+# Fields:
+#   key        a key in _data/settings.yaml (a missing key counts as not done)
+#   label      what being done MEANS, in the words of whoever has to do it —
+#              "Schedule page refreshed", not "schedule_show_update_warning off"
+#   done_when  the settings value that means done (usually false for an
+#              update-warning banner, true for something switched on)
+#   optional   true for a seasonal switch that is off because it is not time
+#              yet. Those are listed but not counted as work outstanding, so
+#              the card is not permanently unhappy about the shirt promo.
+#
+# Order is the order the dashboard lists them in: the pages a visitor is most
+# likely to be let down by, first.
+
+- key: schedule_show_update_warning
+  label: Schedule page refreshed for this year
+  done_when: false
+
+- key: program_show_update_warning
+  label: Program page refreshed (printable PDF and page images)
+  done_when: false
+
+- key: promote_show_update_warning
+  label: Promote page refreshed (share graphics and copy)
+  done_when: false
+
+- key: maker_manual_show_update_warning
+  label: Maker manual refreshed
+  done_when: false
+
+- key: badge_show_update_warning
+  label: Badge page refreshed
+  done_when: false
+
+# Held back until this year's plans are exported from Illustrator to
+# assets/pdf/<year>/ — the links on /badge/ are hard-coded per year.
+- key: badge_show_space_plans
+  label: Space plan PDFs exported and linked on the badge page
+  done_when: true
+
+- key: maker_exhibits_holdover
+  label: Exhibit pages switched to this year's makers
+  done_when: false
+
+# Turned on once spaces are actually assigned; until then every exhibit page
+# would say "Unassigned", which is worse than saying nothing.
+- key: maker_exhibits_show_location
+  label: Zone and space shown on exhibit pages
+  done_when: true
+
+- key: call_for_makers_open
+  label: Call for Makers open (or deliberately closed)
+  done_when: true
+  optional: true
+
+- key: event_shirt_promo
+  label: Event shirt promo live on the home page
+  done_when: true
+  optional: true
+
+- key: footer_ad
+  label: Footer ad live
+  done_when: true
+  optional: true
+
+- key: theme_toggle_enabled
+  label: Light/dark toggle switched on
+  done_when: true
+  optional: true
+
+- key: theme_invasion_icon
+  label: This year's skin switched on
+  done_when: true
+  optional: true
