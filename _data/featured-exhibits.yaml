@@ -8,13 +8,13 @@
 # hand edit shows up there as a difference rather than being overwritten.
 
 homepage:
+  - exhibit-id: 26-161 #darkheart kreations
   - exhibit-id: 26-130 #the dragon’s horde
     image: /assets/images/featured/26-130-featured-the-dragons-horde-de023427-1024x683.jpg
-  - exhibit-id: 26-100 #got caricature sculpts
-    image: /assets/images/featured/26-100-featured-got-caricature-sculpts-e83cfcfe-1024x683.jpg
   - exhibit-id: 26-127 #marthaland
     image: /assets/images/exhibit-images/26-127-e3-marthaland-il-340x270-120729071-340x270.jpg
-  - exhibit-id: 26-161 #darkheart kreations
+  - exhibit-id: 26-100 #got caricature sculpts
+    image: /assets/images/featured/26-100-featured-got-caricature-sculpts-e83cfcfe-1024x683.jpg
 
 makers-carousel:
   - exhibit-id: 21-48 #k gentry art
