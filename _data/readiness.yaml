@@ -64,6 +64,16 @@
   done_when: true
   optional: true
 
+# String, not a boolean: see _data/settings.yaml. done_when is an exact match, so
+# only "open" reads as done -- not-open-yet, no-groups and closed all show as
+# outstanding. That is what we want at year-roll (a page left on last year's
+# "closed" is exactly the kind of leftover this list is for); mid-season it is
+# optional, so it is listed without being counted as work outstanding.
+- key: field_trip_status
+  label: Field Trip Day registration open (or deliberately closed)
+  done_when: open
+  optional: true
+
 - key: event_shirt_promo
   label: Event shirt promo live on the home page
   done_when: true

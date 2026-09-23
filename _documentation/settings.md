@@ -48,10 +48,33 @@ These gate the application/registration widgets on their respective pages. When
 | `volunteer_open` | Shows the Humanitix volunteer shift widget. | `/volunteer/` |
 | `volunteer_checkout` | Humanitix slug for the volunteer widget. | — |
 | `tickets_on_sale` | Shows the Humanitix ticket widget; when false, a "tickets not on sale yet" message. | `/attend/` |
+| `field_trip_status` | Which of four registration cards shows. **A string, not a boolean** — see below. | `/field-trip-day/` |
+| `field_trip_url` | The Field Trip Day registration URL the button points to. | — |
 
 > **Update the URLs/slugs to the current year before flipping the flag open.**
 > `cfm_url` is the JotForm call-for-makers form; `volunteer_checkout` is the
 > Humanitix event slug (currently still the 2025 slug — change it for 2026).
+
+### `field_trip_status` — the one flag that isn't a boolean
+
+Field Trip Day has a state the other pages don't: it usually fills up for
+**school groups** 6–8 weeks out while homeschool and full-time virtual families
+can still register. Two states aren't enough, so this key takes one of four
+strings:
+
+| Value | Card shown on `/field-trip-day/` |
+|---|---|
+| `not-open-yet` | Navy "Coming Soon" card, no button. Points at the newsletter. |
+| `open` | The normal white card with the **Registration Form** button. |
+| `no-groups` | The open card, plus a highlighted note that school groups are at capacity and homeschool/virtual families are still welcome. Button still shown. |
+| `closed` | Navy "at capacity" card, no button. |
+
+Anything else — a typo, or the key missing entirely — falls back to the `open`
+card rather than rendering an empty section. All four live in
+[`_includes/field-trip-status-card.html`](../_includes/field-trip-status-card.html);
+the page itself just includes it. **This is the only place on the page that
+mentions capacity** — the "Who Can Take Part" cards describe who each program is
+for and say nothing about whether it's full.
 
 ---
 

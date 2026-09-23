@@ -131,11 +131,6 @@ page_footer_ad: false
         </div>
         <div class="mf-card-body">
           <p>If you’re an educator affiliated with a school, this program includes free admission for students, teachers, administrators, and chaperones.</p>
-          {% comment %}
-          <strong>WE ARE UNABLE TO ACCOMMODATE ANY ADDITIONAL SCHOOL GROUPS DUE TO AN AMAZING RESPONSE FOR THIS PROGRAM.</strong> If this is a significant hardship, please email us at makers@makerfaireorlando.com.
-
-          <strong>The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.</strong>
-          {% endcomment %}
         </div>
       </a>
 
@@ -145,9 +140,6 @@ page_footer_ad: false
         </div>
         <div class="mf-card-body">
           <p>Homeschooled and full-time virtual students receive free admission for the student plus one parent or guardian (one adult per student). Documentation of homeschool or full-time virtual status is required.</p>
-          {% comment %}
-          <strong>The registration deadline has passed, and the event is at capacity. We are not able to add any additional participants, and only pre-registered attendees will be able to attend.</strong>
-          {% endcomment %}
         </div>
       </a>
 
@@ -158,12 +150,7 @@ page_footer_ad: false
 <!-- Registration -->
 <section class="mf-prose-section" id="register">
   <div class="container">
-    <div class="mf-apply-callout is-open">
-      <span class="mf-status-tag">Now Open</span>
-      <h2>Register for Field Trip Day</h2>
-      <p>Complete the registration form to reserve your spot. <strong>We cannot accept anyone who arrives on the day of the event without completing this process.</strong> Spots fill quickly. We expect to reach capacity 6 to 8 weeks before the event.</p>
-      <a class="btn btn-primary" href="https://form.jotform.com/makereffect/mfo2026-field-trip-day">Registration Form</a>
-    </div>
+    {% include field-trip-status-card.html %}
   </div>
 </section>
 

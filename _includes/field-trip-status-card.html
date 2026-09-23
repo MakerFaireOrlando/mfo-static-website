@@ -1,0 +1,52 @@
+{% comment %}
+Field Trip Day registration card — four states, driven by
+site.data.settings.field_trip_status:
+
+  not-open-yet  registration hasn't opened — "check back" message, no button
+  open          normal registration — form button shown
+  no-groups     school groups at capacity; homeschool/virtual still welcome
+  closed        at capacity — no further registrations of any kind
+
+"open" is the {% else %} branch deliberately: a typo'd or missing value falls
+back to the normal open card rather than rendering nothing at all.
+
+Pass status="..." to force a state (used by the preview page); otherwise the
+setting decides. The URL comes from settings.field_trip_url — update that to
+the current year's JotForm before opening.
+{% endcomment %}
+{% assign ftd_status = include.status | default: site.data.settings.field_trip_status %}
+{% assign ftd_date = site.data.settings.event_dates.edu_day | date: "%A, %B %-d, %Y" %}
+{% case ftd_status %}
+
+{% when 'not-open-yet' %}
+<div class="mf-apply-callout">
+  <span class="mf-status-tag">Coming Soon</span>
+  <h2>Field Trip Day Registration Opens Soon</h2>
+  <p>Registration for Field Trip Day on {{ ftd_date }} isn’t open yet. Check back here, <a href="{{ site.data.settings.newsletter_url }}">subscribe to our newsletter</a>, and follow us on social media to hear the moment it opens.</p>
+</div>
+
+{% when 'no-groups' %}
+<div class="mf-apply-callout is-open">
+  <span class="mf-status-tag">School Groups at Capacity</span>
+  <h2>Register for Field Trip Day</h2>
+  <p class="mf-callout-note"><strong>We have reached capacity for school groups and are unable to accept any additional school field trips.</strong> Homeschool and full-time virtual school families are still welcome to register below. If this is a significant hardship for your school, please email us at <a href="mailto:{{ site.data.settings.contact_email }}">{{ site.data.settings.contact_email }}</a>.</p>
+  <p>Complete the registration form to reserve your spot. <strong>We cannot accept anyone who arrives on the day of the event without completing this process.</strong></p>
+  <a class="btn btn-primary" href="{{ site.data.settings.field_trip_url }}">Registration Form</a>
+</div>
+
+{% when 'closed' %}
+<div class="mf-apply-callout">
+  <span class="mf-status-tag">Registration Closed</span>
+  <h2>Field Trip Day Is at Capacity</h2>
+  <p>Registration has closed. We reached capacity and are unable to accept any additional registrations. Only pre-registered participants will be able to attend on {{ ftd_date }}.</p>
+  <p><a href="{{ site.data.settings.newsletter_url }}">Subscribe to our newsletter</a> to hear first when registration opens next year.</p>
+</div>
+
+{% else %}
+<div class="mf-apply-callout is-open">
+  <span class="mf-status-tag">Now Open</span>
+  <h2>Register for Field Trip Day</h2>
+  <p>Complete the registration form to reserve your spot. <strong>We cannot accept anyone who arrives on the day of the event without completing this process.</strong> Spots fill quickly. We expect to reach capacity 6 to 8 weeks before the event.</p>
+  <a class="btn btn-primary" href="{{ site.data.settings.field_trip_url }}">Registration Form</a>
+</div>
+{% endcase %}

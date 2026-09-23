@@ -1227,6 +1227,20 @@ html[data-theme="invasion"] #theme-mode-toggle .mf-icon-sun { display: block; }
 }
 .mf-apply-callout:not(.is-open) a:hover { color: var(--mf-red); }
 
+/* Emphasised note inside a callout - e.g. "school groups at capacity" on
+ * /field-trip-day/, where registration is still open for other audiences.
+ * Left-aligned on purpose: it is a paragraph to read, not a headline. */
+.mf-apply-callout .mf-callout-note {
+  background: var(--mf-gray-100);
+  border-left: 4px solid var(--mf-red);
+  border-radius: 6px;
+  padding: 16px 20px;
+  margin: 0 auto 20px;
+  max-width: 620px;
+  text-align: left;
+  font-size: 1rem;
+}
+
 /* "Ways to take part" info cards (icon + heading + copy, no photo). */
 .mf-info-grid { display: flex; flex-wrap: wrap; gap: 22px; justify-content: center; }
 .mf-info-card {
