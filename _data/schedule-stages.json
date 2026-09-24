@@ -1,0 +1,18 @@
+[
+  {
+    "value": "power-racing-track",
+    "label": "Power Racing"
+  },
+  {
+    "value": "main-stage",
+    "label": "Main Stage"
+  },
+  {
+    "value": "outdoor-stage",
+    "label": "Outdoor Stage"
+  },
+  {
+    "value": "robot-ruckus",
+    "label": "Robot Ruckus"
+  }
+]

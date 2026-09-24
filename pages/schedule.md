@@ -34,10 +34,16 @@ Please note that our [Field Trip Day](/field-trip-day) is only for pre-registere
           <label class="search-filter-label">Filter by category:</label>
           <select class="schedule-filters-select form-control" id="makers-category-select">
             <option value="" selected="">show all</option>
-            <option value=".power-racing-track">Power Racing</option>
-            <option value=".main-stage">Main Stage</option>
-            <option value=".outdoor-stage">Outdoor Stage</option>
-            <option value=".robot-ruckus">Robot Ruckus</option>
+            {%- comment -%}
+              The stages come from _data/schedule-stages.json, which the producer
+              dashboard publishes beside _data/schedule.json. Do not type options
+              here: a stage added in the builder would get none, which is how this
+              dropdown once offered stages from a venue ago. `value` is the slug of
+              the event's `location`, which is the class each row below carries.
+            {%- endcomment -%}
+            {%- for stage in site.data['schedule-stages'] %}
+            <option value=".{{ stage.value }}">{{ stage.label }}</option>
+            {%- endfor %}
           </select>
     	  </div>
 
