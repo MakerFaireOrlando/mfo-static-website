@@ -9,7 +9,7 @@ isotope-schedule: true
 
 # Event Schedule
 
-{% if site.data.settings.schedule_show_update_warning %}{% include update-warning.html %}{% endif %}
+{% include schedule-update-warning.html %}
 
 
 

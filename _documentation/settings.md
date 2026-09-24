@@ -101,7 +101,6 @@ visitors the content is still from the prior year. Each is independently gated:
 |---|---|
 | `badge_show_update_warning` | `/badge/` |
 | `maker_manual_show_update_warning` | `/maker-manual/` |
-| `schedule_show_update_warning` | `/schedule/` |
 | `promote_show_update_warning` | `/promote/` |
 | `program_show_update_warning` | `/program/` |
 
@@ -110,6 +109,14 @@ Also under the badge page:
 - `badge_show_space_plans` — toggles the space-plan section.
 
 Set each to `false` once that page has been refreshed for the current year.
+
+`/schedule/` used to be on this list and no longer is. Its banner is worked out
+from the data rather than from a flag: `_includes/schedule-update-warning.html`
+compares the dates in `_data/schedule.json` against `event_year` and shows the
+warning only while the page is still serving a previous year's schedule. The
+earliest event decides, so a half-published file still warns, and so does an
+empty one. `schedule_show_update_warning` is commented out in `settings.yaml`
+and read by nothing.
 
 ---
 
@@ -122,8 +129,8 @@ that means done; [`pages/readiness-json.json`](../pages/readiness-json.json)
 compares it against `settings.yaml` and serves the answer at `/readiness-json/`.
 
 ```yaml
-- key: schedule_show_update_warning
-  label: Schedule page refreshed for this year
+- key: program_show_update_warning
+  label: Program page refreshed (printable PDF and page images)
   done_when: false
 ```
 
@@ -133,6 +140,10 @@ Two things to know:
   to the checklist, rewording a label or dropping an item is a change here and
   nowhere else. If a new page gains an update-warning flag, add it here too or
   nobody will be reminded to turn it off.
+- **A page that can tell on its own does not need a row.** `/schedule/` was
+  dropped from the list when its banner started reading `_data/schedule.json`
+  instead of a flag; the dashboard can see the same thing in the `schedule`
+  block of `/readiness-json/` (`first_date`/`last_date` against `event_year`).
 - **`optional: true`** is for a seasonal switch that is off because it is not
   time yet — the shirt promo, the footer ad, this year's skin. Those are listed
   but not counted as work outstanding, so the dashboard is not permanently

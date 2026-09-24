@@ -89,7 +89,13 @@ badge_show_space_plans: false
 maker_manual_show_update_warning: true
 
 # schedule page settings
-schedule_show_update_warning: false
+# schedule_show_update_warning — RETIRED, no longer read by anything.
+# The banner on /schedule/ is now worked out from the data instead of from a
+# flag: _includes/schedule-update-warning.html compares the dates in
+# _data/schedule.json against event_year above and shows the warning only while
+# the page is still serving a previous year's schedule. Nothing to remember to
+# turn off, and nothing left saying "not updated yet" over a schedule that is.
+# schedule_show_update_warning: false
 
 # promote page settings
 promote_show_update_warning: true

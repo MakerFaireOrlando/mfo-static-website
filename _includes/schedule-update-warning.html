@@ -1,0 +1,21 @@
+{%- comment -%}
+  The "not updated for <year> yet" banner on /schedule/, shown only when the
+  schedule on the page is left over from a previous Faire.
+
+  There used to be a settings flag for this (schedule_show_update_warning) that
+  somebody had to remember to turn off, so the banner outlived the stale data
+  it was warning about. The page can work this out for itself: every row in
+  _data/schedule.json carries a date, and the producer dashboard replaces that
+  file wholesale when it publishes a year. If the events on the page are not
+  from settings.event_year, a visitor is reading last year's schedule and the
+  banner belongs there.
+
+  The EARLIEST event decides, not the latest, so a half-published file with a
+  few rows still left over from last year warns too. An empty or date-less
+  schedule.json also warns (the year comes out blank), which is right — there
+  is nothing on the page worth trusting yet.
+{%- endcomment -%}
+{%- assign schedule_dates = site.data.schedule | map: "date" | compact | sort -%}
+{%- assign schedule_year = schedule_dates | first | slice: 0, 4 -%}
+{%- assign current_event_year = site.data.settings.event_year | append: "" -%}
+{%- if schedule_year != current_event_year -%}{% include update-warning.html %}{%- endif -%}
