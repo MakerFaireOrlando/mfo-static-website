@@ -89,7 +89,7 @@ badge_show_space_plans: false
 maker_manual_show_update_warning: true
 
 # schedule page settings
-schedule_show_update_warning: true
+schedule_show_update_warning: false
 
 # promote page settings
 promote_show_update_warning: true
