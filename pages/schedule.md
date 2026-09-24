@@ -31,7 +31,12 @@ Please note that our [Field Trip Day](/field-trip-day) is only for pre-registere
         </div>
 
         <div class="col-md-4">
-          <label class="search-filter-label">Filter by category:</label>
+          <!-- "Location", not "category": this dropdown filters on the event's
+               stage/location. The id, class and ?category= deep link still say
+               category and are left alone — schedule-filter.js and the CSS
+               match on them, and old links to /schedule/?category=<slug> are
+               out in the world. -->
+          <label class="search-filter-label">Filter by location:</label>
           <select class="schedule-filters-select form-control" id="makers-category-select">
             <option value="" selected="">show all</option>
             {%- comment -%}
@@ -64,8 +69,24 @@ Please note that our [Field Trip Day](/field-trip-day) is only for pre-registere
 
 <div class="events-container" id="events">
 
+    {%- comment -%}
+      A heading starts each new day, so the list reads as Friday / Saturday /
+      Sunday rather than one unbroken run of cards. The events come out of
+      _data/schedule.json in date order, so "the day changed since the last
+      row" is all it takes to know where a day begins. The heading carries the
+      same day class as the rows below it; schedule-filter.js hides a heading
+      whose whole day has been filtered away.
+    {%- endcomment -%}
+    {%- assign current_day = "" -%}
     {% for event in site.data.schedule %}
-       
+        {%- assign event_day = event.date | date: "%Y-%m-%d" -%}
+        {%- if event_day != current_day -%}
+        {%- assign current_day = event_day -%}
+        <div class="day-heading {{ event.date | date: '%A' | slugify }}">
+          <span class="day-heading-day">{{ event.date | date: "%A" }}</span>
+          <span class="day-heading-date">{{ event.date | date: "%B %-d" }}</span>
+        </div>
+        {%- endif %}
         <div class="item {% if event.location %}{{event.location | prepend: " " | slugify}}{% endif %}
             {% if event.date %}{{event.date | date: "%A" | slugify}}{% endif %}" >
 

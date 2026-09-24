@@ -603,6 +603,41 @@ html[data-theme="invasion"] #theme-mode-toggle .mf-icon-sun { display: block; }
   .exhibits-container .item:hover .item-content .img-container img { transform: none; }
 }
 
+/* Day divider on /schedule/ — the schedule is one long column of cards, and
+   without these Friday runs into Saturday with nothing to mark the seam. Rule
+   plus a wide top margin, so the break reads even when scrolling fast.
+   schedule-filter.js hides the heading when its whole day is filtered out, so
+   the first VISIBLE heading may not be the first one in the markup — hence the
+   .is-first class it sets rather than :first-child. */
+.events-container .day-heading {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin: 44px 0 18px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--mf-gray-200);
+}
+.events-container .day-heading.is-first { margin-top: 8px; }
+.events-container .day-heading-day {
+  font-family: var(--mf-font-head);
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--mf-ink);
+}
+.events-container .day-heading-date {
+  font-family: var(--mf-font-body);
+  font-size: 1rem;
+  color: var(--mf-gray-600);
+}
+@media (max-width: 575px) {
+  .events-container .day-heading { margin-top: 32px; }
+  .events-container .day-heading-day { font-size: 1.25rem; }
+}
+
 /* Schedule grid (.events-container) keeps the legacy card-lift hover. */
 .events-container .item:hover {
   transform: translateY(-4px);
