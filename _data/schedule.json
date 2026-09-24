@@ -10,14 +10,7 @@
     "location": "Main Stage",
     "description": "From castles to coasters, see how MCParks recreates world famous theme parks in Minecraft. Learn about the technology and teamwork needed to bring the project to life - and how you can get involved in future experiences!",
     "date": "2026-11-06 10:30:00",
-    "enddate": "2026-11-06 10:55:00",
-    "guests": [
-      {
-        "name": "MCParks - Theme Parks in Minecraft",
-        "url": "/exhibits/mcparks-theme-parks-in-minecraft/",
-        "image": "/assets/images/stage/2026/mcparks-982edf80-1024x1024.jpg"
-      }
-    ]
+    "enddate": "2026-11-06 10:55:00"
   },
   {
     "title": "YouTube / Creator Makers",
@@ -58,22 +51,7 @@
     "location": "Main Stage",
     "description": "Meet passionate robot makers, from high school teams to seasoned builders, as they share how design, engineering, and competition fuel their creations in FIRST robotics and combat arenas.",
     "date": "2026-11-06 14:00:00",
-    "enddate": "2026-11-06 14:25:00",
-    "guests": [
-      {
-        "name": "Andrea Gellatly - BattleBots Team Witch Doctor (Moderator)",
-        "url": "/exhibits/witch-doctor-on-battlebots/"
-      },
-      {
-        "name": "Ari Ashworth-Harbas"
-      },
-      {
-        "name": "Ayden Moheit"
-      },
-      {
-        "name": "Colton Wagner"
-      }
-    ]
+    "enddate": "2026-11-06 14:25:00"
   },
   {
     "title": "Field Trip Day Ends",
@@ -101,48 +79,14 @@
     "location": "Main Stage",
     "description": "Meet the creators behind the marvelous, immersive worlds that transport visitors in world-famous theme parks across the globe!",
     "date": "2026-11-07 10:30:00",
-    "enddate": "2026-11-07 11:15:00",
-    "guests": [
-      {
-        "name": "Bryan Zebleckes, Clair Global Integration - International Project Manager",
-        "url": "https://www.linkedin.com/in/bryanzebleckes/"
-      },
-      {
-        "name": "Jen Wilson Dir, Projects, Universal Creative",
-        "url": "https://www.linkedin.com/in/jennifer-wilson-189b4630/"
-      }
-    ]
-  },
-  {
-    "title": "TBD",
-    "slug": "3dprinting-sat",
-    "location": "Main Stage",
-    "description": "Explore how 3D printing is transforming themed entertainment in this panel with industry experts from Universal, Adirondack Studios, and more. Hosted by <a href=\"https://www.youtube.com/@3DPrintingNerd\" target=\"_blank\">Joel Telling of 3D Printing Nerd</a>.",
-    "date": "2026-11-07 11:30:00",
-    "enddate": "2026-11-07 12:15:00",
-    "guests": [
-      {
-        "name": "Brandon Grimshaw, Mechanical Engineering, Universal Orlando Resort",
-        "url": "https://www.linkedin.com/in/grimshawbrandon/"
-      },
-      {
-        "name": "Andrew Lippens, Technical Designer, Adirondak Studios",
-        "url": "https://www.linkedin.com/in/andrew-lippens-89b56615b/"
-      }
-    ]
+    "enddate": "2026-11-07 11:15:00"
   },
   {
     "title": "Lunch Seating",
     "location": "Main Stage",
     "description": "Grab lunch outside and then join us for air conditioned seating",
     "date": "2026-11-07 12:30:00",
-    "enddate": "2026-11-07 13:45:00",
-    "guests": [
-      {
-        "name": "Jack Apollo, Elvis Tribute Artist",
-        "url": "/exhibits/the-comic-con-elvis-tribute/"
-      }
-    ]
+    "enddate": "2026-11-07 13:45:00"
   },
   {
     "title": "Power Racing - Sprint 1",
@@ -157,21 +101,7 @@
     "slug": "cosplay-creators-sat",
     "location": "Main Stage",
     "date": "2026-11-07 14:00:00",
-    "enddate": "2026-11-07 14:45:00",
-    "guests": [
-      {
-        "name": "Allison Chase Cosplay",
-        "url": "https://www.makerfaireorlando.com/exhibits/allison-chase-cosplay/"
-      },
-      {
-        "name": "Frankly Built",
-        "url": "https://www.youtube.com/@FranklyBuilt"
-      },
-      {
-        "name": "Willow Creative",
-        "url": "https://www.youtube.com/@WillowCreative"
-      }
-    ]
+    "enddate": "2026-11-07 14:45:00"
   },
   {
     "title": "Power Racing - Meet & Greet",
@@ -187,26 +117,7 @@
     "slug": "combat-robots",
     "location": "Main Stage",
     "date": "2026-11-07 15:00:00",
-    "enddate": "2026-11-07 15:45:00",
-    "guests": [
-      {
-        "name": "Andrea Gellatly - Witch Doctor",
-        "url": "/exhibits/witch-doctor-on-battlebots/"
-      },
-      {
-        "name": "Matt Spurk - Kraken"
-      },
-      {
-        "name": "Kyle Awner - Hypershock"
-      },
-      {
-        "name": "Todd Rogers & Andrew Stowell - Armageddon",
-        "url": "https://www.makerfaireorlando.com/exhibits/armageddon-the-next-gen-of-robot-combat/"
-      },
-      {
-        "name": "Sam McAmis - Gruff"
-      }
-    ]
+    "enddate": "2026-11-07 15:45:00"
   },
   {
     "title": "Power Racing - Sprint Race 2",
