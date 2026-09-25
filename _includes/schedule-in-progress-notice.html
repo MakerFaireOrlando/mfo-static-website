@@ -1,0 +1,15 @@
+{%- comment -%}
+  Optional "the lineup is still filling in" note for /schedule/, gated on
+  settings.schedule_show_in_progress_notice.
+
+  NOT the same thing as schedule-update-warning.html. That one is an apology,
+  worked out from the data, for a page still showing a previous year. This one
+  is a choice, and the opposite in tone: the schedule below IS this year's and
+  worth reading — there is simply more of it coming. Leave it on while stages
+  are still being booked, turn it off once the lineup is locked.
+{%- endcomment -%}
+{%- if site.data.settings.schedule_show_in_progress_notice -%}
+<div class="alert alert-info schedule-in-progress">
+  <strong>The lineup keeps growing!</strong> We're still adding panelists, special guests and sessions right up to the Faire, so check back for the latest — there will be even more to see than what's listed here today.
+</div>
+{%- endif -%}

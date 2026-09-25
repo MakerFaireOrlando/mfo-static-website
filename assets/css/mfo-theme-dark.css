@@ -125,6 +125,7 @@
   text-shadow: none;
 }
 [data-theme="dark"] .alert-warning { border-left: 4px solid #f0ad4e; }
+[data-theme="dark"] .alert-info { border-left: 4px solid #5bc0de; }
 [data-theme="dark"] .alert a { color: var(--mf-red); }
 
 /* Exhibit card titles: mfo-style.css colors these links `darkslategray`, which

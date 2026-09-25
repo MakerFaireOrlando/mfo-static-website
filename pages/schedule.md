@@ -11,14 +11,13 @@ isotope-schedule: true
 
 {% include schedule-update-warning.html %}
 
+{% include schedule-in-progress-notice.html %}
 
+Plan your weekend around the panel talks, demos and other scheduled activities below. Most [exhibits](/exhibits) and [hands-on activities](/exhibits/?categories/hands-on-workshop/) run continuously all weekend, so you can catch those in between.
 
+The [event program](/program) has a printable map, schedule and more — it's usually posted about a week before the event.
 
-Use the schedule below to plan your weekend to catch the panel talks and other scheduled activities! Note that most of the [exhibits](/exhibits) and [hands-on activities](/exhibits/?categories/hands-on-workshop/) at Maker Faire Orlando happen continuously throughout the weekend. <BR>
-
-Check out the [event program](/program) for a printable map, schedule and more!<br><br>
-
-Please note that our [Field Trip Day](/field-trip-day) is only for pre-registered school groups and homeschool families.<br><br>
+[Field Trip Day](/field-trip-day) on {% include date-edu-short.html %} is only for pre-registered school groups and homeschool families.
 
 
 <div class="mtm">

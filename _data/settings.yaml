@@ -96,6 +96,12 @@ maker_manual_show_update_warning: true
 # the page is still serving a previous year's schedule. Nothing to remember to
 # turn off, and nothing left saying "not updated yet" over a schedule that is.
 # schedule_show_update_warning: false
+#
+# The other schedule banner, which IS a choice: an upbeat "more panelists and
+# sessions are still being added, check back" note. Leave it on while stages are
+# still being booked; turn it off once the lineup is locked. Unrelated to the
+# stale-year banner above — this one says the schedule is real and still growing.
+schedule_show_in_progress_notice: true
 
 # promote page settings
 promote_show_update_warning: true
