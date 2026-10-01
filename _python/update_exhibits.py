@@ -258,6 +258,15 @@ def export(outputAll):
     countExport = 0
     countFTD=0
 
+    #Two exhibits can slugify to the same filename (e.g. a maker submits twice
+    #under the same exhibit name). The not-visible branch below used to delete
+    #that file the moment it saw the stale submission, which silently wiped out
+    #the live exhibit whenever the stale copy happened to be processed later in
+    #the run. So: claim filenames as we export them, queue the deletes, and
+    #resolve the queue once every submission has been seen.
+    exportedFiles = {}        #fName -> "mfoID exhibitName" of the visible submission
+    pendingRemovals = []      #(fName, mfoID, exhibitName) awaiting the end of the run
+
     uniqueCategories = Counter()
 
     spaceplanList = []
@@ -352,13 +361,19 @@ def export(outputAll):
 
           else:
             if path.exists(fName):
-                print("***" + mfoID + " " + exhibitName + " is no longer visible")
-                os.remove(fName)
-                # print("ALERT: need to remove exhibit file ", fName)
-                countExhibitsRemoved = countExhibitsRemoved+1
+                #deferred - a visible submission may claim this same filename
+                pendingRemovals.append((fName, mfoID, exhibitName))
             continue
 
           print(mfoID + " " + exhibitName + ": " + str(viz))
+
+          #two *visible* submissions sharing a filename is a data problem we
+          #can't resolve here, but it must not pass unnoticed - the second one
+          #overwrites the first.
+          if fName in exportedFiles:
+            print("***WARNING: " + mfoID + " " + exhibitName + " overwrites "
+                  + exportedFiles[fName] + " - both slugify to " + fName)
+          exportedFiles[fName] = mfoID + " " + exhibitName
 
           descShort       = getAnswerByName(ans,"exhibitShort")
           descLong        = getAnswerByName(ans,"exhibitLong")
@@ -671,6 +686,18 @@ def export(outputAll):
             outfile.close()
 
         
+
+    #now that every submission has been seen, delete the files that no visible
+    #submission claimed
+    for fName, mfoID, exhibitName in pendingRemovals:
+        if fName in exportedFiles:
+            print("***" + mfoID + " " + exhibitName + " is no longer visible, but "
+                  + exportedFiles[fName] + " still uses " + fName + " - keeping the file")
+            continue
+        if path.exists(fName):
+            print("***" + mfoID + " " + exhibitName + " is no longer visible")
+            os.remove(fName)
+            countExhibitsRemoved = countExhibitsRemoved+1
 
     if countExhibitsRemoved or countExport:
         print ("Exporting CSV files for Illustrator")
