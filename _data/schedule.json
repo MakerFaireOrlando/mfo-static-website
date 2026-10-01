@@ -14,8 +14,10 @@
     "enddate": "2026-11-06 10:55:00"
   },
   {
-    "title": "YouTube / Creator Makers",
+    "title": "Young Makers",
+    "slug": "ftd-youngmakers",
     "location": "Main Stage",
+    "description": "Meet inspiring young makers as they share how curiosity, creativity, and hands-on making are helping them build cool projects, and a bright future. ",
     "date": "2026-11-06 11:00:00",
     "enddate": "2026-11-06 11:25:00"
   },
@@ -39,10 +41,8 @@
     "enddate": "2026-11-06 13:25:00"
   },
   {
-    "title": "Young Makers",
-    "slug": "ftd-youngmakers",
+    "title": "YouTube / Creator Makers",
     "location": "Main Stage",
-    "description": "Meet inspiring young makers as they share how curiosity, creativity, and hands-on making are helping them build cool projects, and a bright future. ",
     "date": "2026-11-06 13:30:00",
     "enddate": "2026-11-06 13:55:00"
   },
