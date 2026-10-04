@@ -1,13 +1,13 @@
 ---
 title: Help Promote Maker Faire Orlando
 layout: full-width
-image: /assets/images/slider/arena-crowd.jpg
+image: /assets/images/slider/2025-cosplay-stage.jpg
 permalink: /promote/
 carousel: true
 carousel-delay: 5000
 carousel-controls: false
 carousel-slides:
-  - image: /assets/images/slider/arena-crowd.jpg
+  - image: /assets/images/slider/2025-cosplay-stage.jpg
     caption: Help promote Maker Faire Orlando
     url:
 ---
@@ -106,18 +106,18 @@ carousel-slides:
     <div class="mf-asset-grid">
 
       <figure class="mf-asset-card">
-        <a class="mf-asset-thumb" href="/assets/pdf/2026/MFO2026_flyer.pdf" target="_blank" rel="noopener">
+        <a class="mf-asset-thumb" href="/assets/images/site-branding/2026/MFO2026_flyer_front.pdf" target="_blank" rel="noopener">
           <img src="/assets/images/site-branding/2026/MFO2026_flyer_front.jpg" alt="Maker Faire Orlando postcard - front" loading="lazy">
         </a>
         <figcaption class="mf-asset-body">
           <h3>Postcard (Front)</h3>
           <p>High-res PDF, ready to print.</p>
-          <a class="mf-link-arrow" href="/assets/pdf/2026/MFO2026_flyer.pdf" target="_blank" rel="noopener">Download PDF</a>
+          <a class="mf-link-arrow" href="/assets/images/site-branding/2026/MFO2026_flyer_front.pdf" target="_blank" rel="noopener">Download PDF</a>
         </figcaption>
       </figure>
 
       <figure class="mf-asset-card">
-        <a class="mf-asset-thumb" href="/assets/pdf/2026/MFO2026_flyer.pdf" target="_blank" rel="noopener">
+        <a class="mf-asset-thumb" href="/assets/images/site-branding/2026/MFO2026_flyer_back.pdf" target="_blank" rel="noopener">
           <img src="/assets/images/site-branding/2026/MFO2026_flyer_back.jpg" alt="Maker Faire Orlando postcard - back" loading="lazy">
         </a>
         <figcaption class="mf-asset-body">
@@ -128,13 +128,13 @@ carousel-slides:
       </figure>
 
       <figure class="mf-asset-card">
-        <a class="mf-asset-thumb" href="/assets/pdf/2026/MFO2026_poster.pdf" target="_blank" rel="noopener">
+        <a class="mf-asset-thumb" href="/assets/images/site-branding/2026/MFO2026_poster.pdf" target="_blank" rel="noopener">
           <img src="/assets/images/site-branding/2026/MFO2026_poster.jpg" alt="Maker Faire Orlando poster" loading="lazy">
         </a>
         <figcaption class="mf-asset-body">
           <h3>Poster</h3>
           <p>High-res PDF, ready to print.</p>
-          <a class="mf-link-arrow" href="/assets/pdf/2026/MFO2026_poster.pdf" target="_blank" rel="noopener">Download PDF</a>
+          <a class="mf-link-arrow" href="/assets/images/site-branding/2026/MFO2026_poster.pdf" target="_blank" rel="noopener">Download PDF</a>
         </figcaption>
       </figure>
 
