@@ -34,13 +34,13 @@ carousel-slides:
     <div class="mf-asset-grid">
 
       <figure class="mf-asset-card">
-        <a class="mf-asset-thumb" href="/assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg" target="_blank" rel="noopener">
-          <img src="/assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg" alt="Maker Faire Orlando 2025 round logo" loading="lazy">
+        <a class="mf-asset-thumb" href="/assets/images/site-branding/2026/MFO2026_Round_logo_V3_w_date-RGB.jpg" target="_blank" rel="noopener">
+          <img src="/assets/images/site-branding/2026/MFO2026_Round_logo_V3_w_date-RGB.jpg" alt="Maker Faire Orlando 2026 round logo" loading="lazy">
         </a>
         <figcaption class="mf-asset-body">
           <h3>Web Badge</h3>
           <p>Round event badge with date, great for websites and social profiles.</p>
-          <a class="mf-link-arrow" href="/assets/images/site-branding/2025/MFO2025_Round_logo_V3_w_date.jpg" target="_blank" rel="noopener">Open image</a>
+          <a class="mf-link-arrow" href="/assets/images/site-branding/2026/MFO2026_Round_logo_V3_w_date.jpg" target="_blank" rel="noopener">Open image</a>
         </figcaption>
       </figure>
 
@@ -79,7 +79,7 @@ carousel-slides:
     </div>
     <p class="mf-prose text-center">Tag your posts so makers everywhere can find them.</p>
     <div class="mf-hashtags">
-      <span class="mf-hashtag">#MFO2025</span>
+      <span class="mf-hashtag">#MFO2026</span>
       <span class="mf-hashtag">#MakerFaire</span>
       <span class="mf-hashtag">#RobotRuckus</span>
       <span class="mf-hashtag">#OrlandoMakers</span>
@@ -106,40 +106,40 @@ carousel-slides:
     <div class="mf-asset-grid">
 
       <figure class="mf-asset-card">
-        <a class="mf-asset-thumb" href="/assets/pdf/2025/MFO2025_flyer.pdf" target="_blank" rel="noopener">
-          <img src="/assets/images/site-branding/2025/MFO2025_flyer_front.png" alt="Maker Faire Orlando postcard - front" loading="lazy">
+        <a class="mf-asset-thumb" href="/assets/pdf/2026/MFO2026_flyer.pdf" target="_blank" rel="noopener">
+          <img src="/assets/images/site-branding/2026/MFO2026_flyer_front.jpg" alt="Maker Faire Orlando postcard - front" loading="lazy">
         </a>
         <figcaption class="mf-asset-body">
           <h3>Postcard (Front)</h3>
           <p>High-res PDF, ready to print.</p>
-          <a class="mf-link-arrow" href="/assets/pdf/2025/MFO2025_flyer.pdf" target="_blank" rel="noopener">Download PDF</a>
+          <a class="mf-link-arrow" href="/assets/pdf/2026/MFO2026_flyer.pdf" target="_blank" rel="noopener">Download PDF</a>
         </figcaption>
       </figure>
 
       <figure class="mf-asset-card">
-        <a class="mf-asset-thumb" href="/assets/pdf/2025/MFO2025_flyer.pdf" target="_blank" rel="noopener">
-          <img src="/assets/images/site-branding/2025/MFO2025_flyer_back.png" alt="Maker Faire Orlando postcard - back" loading="lazy">
+        <a class="mf-asset-thumb" href="/assets/pdf/2026/MFO2026_flyer.pdf" target="_blank" rel="noopener">
+          <img src="/assets/images/site-branding/2026/MFO2026_flyer_back.jpg" alt="Maker Faire Orlando postcard - back" loading="lazy">
         </a>
         <figcaption class="mf-asset-body">
           <h3>Postcard (Back)</h3>
           <p>High-res PDF, ready to print.</p>
-          <a class="mf-link-arrow" href="/assets/pdf/2025/MFO2025_flyer.pdf" target="_blank" rel="noopener">Download PDF</a>
+          <a class="mf-link-arrow" href="/assets/pdf/2026/MFO2026_flyer.pdf" target="_blank" rel="noopener">Download PDF</a>
         </figcaption>
       </figure>
 
       <figure class="mf-asset-card">
-        <a class="mf-asset-thumb" href="/assets/pdf/2025/MFO2025_poster.pdf" target="_blank" rel="noopener">
-          <img src="/assets/images/site-branding/2025/MFO2025_poster.png" alt="Maker Faire Orlando poster" loading="lazy">
+        <a class="mf-asset-thumb" href="/assets/pdf/2026/MFO2026_poster.pdf" target="_blank" rel="noopener">
+          <img src="/assets/images/site-branding/2026/MFO2026_poster.jpg" alt="Maker Faire Orlando poster" loading="lazy">
         </a>
         <figcaption class="mf-asset-body">
           <h3>Poster</h3>
           <p>High-res PDF, ready to print.</p>
-          <a class="mf-link-arrow" href="/assets/pdf/2025/MFO2025_poster.pdf" target="_blank" rel="noopener">Download PDF</a>
+          <a class="mf-link-arrow" href="/assets/pdf/2026/MFO2026_poster.pdf" target="_blank" rel="noopener">Download PDF</a>
         </figcaption>
       </figure>
 
     </div>
-    <p class="mf-prose text-center" style="margin-top: 28px;">Postcards are also available at MakerFX Makerspace, FamiLAB, Skycraft, Tampa Hackerspace, Rockler Woodworking, and more. Need a large quantity for your school, office, or group? <a href="mailto:makers@makerfaireorlando.com">Email us</a>.</p>
+    <p class="mf-prose text-center" style="margin-top: 28px;">Postcards are also available at MakerFX Makerspace, FamiLAB, Skycraft, Tampa Hackerspace, and more. Need a large quantity for your school, office, or group? <a href="mailto:makers@makerfaireorlando.com">Email us</a>.</p>
   </div>
 </section>
 
@@ -153,24 +153,24 @@ carousel-slides:
     <div class="mf-asset-grid">
 
       <figure class="mf-asset-card">
-        <a class="mf-asset-thumb" href="/assets/images/site-branding/2025/MFO2025_facebook.jpg" target="_blank" rel="noopener">
-          <img src="/assets/images/site-branding/2025/MFO2025_facebook.jpg" alt="Maker Faire Orlando Facebook cover photo" loading="lazy">
+        <a class="mf-asset-thumb" href="/assets/images/site-branding/2026/MFO2026_facebook.jpg" target="_blank" rel="noopener">
+          <img src="/assets/images/site-branding/2026/MFO2026_facebook.jpg" alt="Maker Faire Orlando Facebook cover photo" loading="lazy">
         </a>
         <figcaption class="mf-asset-body">
           <h3>Facebook Cover</h3>
           <p>Banner image for your profile or page.</p>
-          <a class="mf-link-arrow" href="/assets/images/site-branding/2025/MFO2025_facebook.jpg" target="_blank" rel="noopener">Open image</a>
+          <a class="mf-link-arrow" href="/assets/images/site-branding/2026/MFO2026_facebook.jpg" target="_blank" rel="noopener">Open image</a>
         </figcaption>
       </figure>
 
       <figure class="mf-asset-card">
-        <a class="mf-asset-thumb" href="/assets/images/site-branding/2025/MFO2025_profile.jpg" target="_blank" rel="noopener">
-          <img src="/assets/images/site-branding/2025/MFO2025_profile.jpg" alt="Maker Faire Orlando profile image" loading="lazy">
+        <a class="mf-asset-thumb" href="/assets/images/site-branding/2026/MFO2026_profile.jpg" target="_blank" rel="noopener">
+          <img src="/assets/images/site-branding/2026/MFO2026_profile.jpg" alt="Maker Faire Orlando profile image" loading="lazy">
         </a>
         <figcaption class="mf-asset-body">
           <h3>Profile Image</h3>
           <p>Square avatar for your social accounts.</p>
-          <a class="mf-link-arrow" href="/assets/images/site-branding/2025/MFO2025_profile.jpg" target="_blank" rel="noopener">Open image</a>
+          <a class="mf-link-arrow" href="/assets/images/site-branding/2026/MFO2026_profile.jpg" target="_blank" rel="noopener">Open image</a>
         </figcaption>
       </figure>
 
