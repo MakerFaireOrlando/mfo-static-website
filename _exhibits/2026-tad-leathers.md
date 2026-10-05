@@ -5,6 +5,7 @@ title: "Tad Leathers"
 slug: tad-leathers
 permalink: /exhibits/tad-leathers/
 exhibit-id: 26-120
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Handcrafted full-grain leather wallets, pouches, journals, and everyday carry accessories."
 description-long: "Tad Leathers creates handcrafted full-grain leather goods built for everyday use and designed to last for years. Every wallet, cardholder, journal cover, passport holder, pouch, keychain, and accessory is carefully cut, stitched, and finished by hand using premium leather and quality hardware. No two pieces are exactly alike, giving each item its own unique character that develops a rich patina over time.
@@ -68,8 +69,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-01 15:20:17"
-last-modified-jotform: "2026-09-19 17:48:38"
-last-exported: "2026-09-23 14:11:05"
+last-modified-jotform: "2026-10-04 10:31:55"
+last-exported: "2026-10-05 15:06:30"
 sitemap: false
 
 ---

@@ -5,7 +5,8 @@ title: "A Little Crafty Fox"
 slug: a-little-crafty-fox
 permalink: /exhibits/a-little-crafty-fox/
 exhibit-id: 26-110
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC6"
 description: "Romanticize your reading sanctuary with bookish 3D shelf decor & art made entirely out of words!"
 description-long: "A Little Crafty Fox brings fantasy worlds off the page and into your home. We specialize in stunning, original artwork composed entirely out of story-driven text, paired with custom 3D-printed shelf accents, bookmarks, and bookish home goods. Designed by fans, for fans, every piece is made to help you romanticize your reading sanctuary and bring main character energy to your shelves."
 image: /assets/images/exhibit-images/26-110-e-a-little-crafty-fox-img-1541-300x237.jpeg
@@ -78,8 +79,8 @@ categories:
   - slug: craft
     name: Craft
 created-jotform: "2026-07-27 20:54:01"
-last-modified-jotform: "2026-09-20 18:00:21"
-last-exported: "2026-09-23 14:11:12"
+last-modified-jotform: "2026-10-04 10:53:52"
+last-exported: "2026-10-05 15:06:45"
 sitemap: false
 
 ---

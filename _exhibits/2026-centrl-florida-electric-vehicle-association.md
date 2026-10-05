@@ -5,6 +5,7 @@ title: "Centrl Florida Electric Vehicle Association"
 slug: centrl-florida-electric-vehicle-association
 permalink: /exhibits/centrl-florida-electric-vehicle-association/
 exhibit-id: 26-2
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Come play (electric) slot cars while we answer your questions about electric vehicles!"
 description-long: "The Central Florida Electric Vehicle Association is a group of electric vehicle enthusiasts in the greater Orlando, FL area. We work to raise public awareness of Electric Vehicles and promote public EV charging locations, as well as offer a forum for members to ask questions or learn more about electric vehicles.
@@ -70,8 +71,8 @@ categories:
   - slug: vehicles
     name: Vehicles
 created-jotform: "2026-06-30 08:42:56"
-last-modified-jotform: "2026-07-11 11:39:27"
-last-exported: "2026-07-12 19:25:08"
+last-modified-jotform: "2026-10-04 11:00:21"
+last-exported: "2026-10-05 15:08:04"
 sitemap: false
 
 ---

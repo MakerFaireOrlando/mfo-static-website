@@ -5,7 +5,8 @@ title: "Block Printing with a Modern Twist"
 slug: block-printing-with-a-modern-twist
 permalink: /exhibits/block-printing-with-a-modern-twist/
 exhibit-id: 26-210
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SA24, SB24"
 description: "Come make your own Maker Faire-themed mini print with me!"
 description-long: "Come make your own Maker Faire-themed mini print with me! I love inviting others into the process so you can see how fun and creative block printing can be.
 
@@ -53,8 +54,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-17 14:25:19"
-last-modified-jotform: "2026-09-23 14:02:11"
-last-exported: "2026-09-23 14:10:33"
+last-modified-jotform: "2026-10-03 13:48:08"
+last-exported: "2026-10-05 15:05:46"
 sitemap: false
 
 ---

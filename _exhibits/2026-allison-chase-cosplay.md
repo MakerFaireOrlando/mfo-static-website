@@ -5,7 +5,8 @@ title: "Allison Chase Cosplay"
 slug: allison-chase-cosplay
 permalink: /exhibits/allison-chase-cosplay/
 exhibit-id: 26-198
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SF26, SG26, SH26"
 description: "Handmade cosplay, costumes, props, and character builds showcasing creative fabrication and craft."
 description-long: "Allison Chase Cosplay is a collection of handmade costumes, props, puppets, and character builds created using a wide range of making techniques. Projects incorporate sculpting, mold making and casting, sewing and patterning, foam and thermoplastic fabrication, airbrushing, faux finishing, 3D printing, etc...
 
@@ -82,8 +83,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-10 18:43:43"
-last-modified-jotform: "2026-09-12 10:58:41"
-last-exported: "2026-09-12 11:22:57"
+last-modified-jotform: "2026-10-03 11:53:38"
+last-exported: "2026-10-05 15:05:49"
 sitemap: false
 
 ---

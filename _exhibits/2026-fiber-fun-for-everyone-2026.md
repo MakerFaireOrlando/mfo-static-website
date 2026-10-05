@@ -5,7 +5,8 @@ title: "Fiber Fun for Everyone 2026"
 slug: fiber-fun-for-everyone-2026
 permalink: /exhibits/fiber-fun-for-everyone-2026/
 exhibit-id: 26-113
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OG16"
 description: "Yarn spinning, weaving, braiding.  Weave on a warp-weighted loom.  Simple braid  free take-away."
 description-long: "You can try weaving on a warp-weighted loom as first used MANY years ago (and what Penelope would have used during the Odyssey time). 
 
@@ -47,8 +48,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2026-07-29 11:07:26"
-last-modified-jotform: "2026-08-02 17:56:12"
-last-exported: "2026-08-02 17:57:30"
+last-modified-jotform: "2026-10-03 15:01:18"
+last-exported: "2026-10-05 15:06:39"
 sitemap: false
 
 ---

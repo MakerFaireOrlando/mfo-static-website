@@ -5,7 +5,8 @@ title: "The Shoppe of Many Things"
 slug: the-shoppe-of-many-things
 permalink: /exhibits/the-shoppe-of-many-things/
 exhibit-id: 26-85
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SF30"
 description: "The Shoppe of Many Things sells whimsical nerdy art in a variety of forms from stickers to tshirts."
 description-long: "The Shoppe of Many Things sells a variety of whimsical and nerdy items, such as stickers, totes, prints, stationary, keychains, pins, MTG Tokens, Dice Trays, and tshirts. Our designs are inspired by D&D, fantasy, nature, and all things nerdy. We even have some things inspired by the Philippines. Many of our items are original art like booshrooms, RPGs (roleplaying gastropods) and so much more. We also have a board game in production called Snailing Away (release date to be determined)."
 image: /assets/images/exhibit-images/26-85-e-the-shoppe-of-many-things-pxl-20220710-201621459-2-209x300.jpg
@@ -197,11 +198,9 @@ categories:
     name: Gaming
   - slug: indie-gaming
     name: Indie Gaming
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2026-07-17 20:17:53"
-last-modified-jotform: "2026-09-20 18:00:18"
-last-exported: "2026-09-23 14:11:23"
+last-modified-jotform: "2026-10-05 08:41:03"
+last-exported: "2026-10-05 15:07:03"
 sitemap: false
 
 ---

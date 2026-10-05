@@ -5,7 +5,8 @@ title: "Tampa Deep Sea Xplorers"
 slug: tampa-deep-sea-xplorers
 permalink: /exhibits/tampa-deep-sea-xplorers/
 exhibit-id: 26-188
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC24"
 description: "Underwater drones for research"
 description-long: "Tampa Deep Sea Xplorers is radically improving the cost effectiveness of underwater exploration and data collection.
 
@@ -68,8 +69,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2026-09-04 10:02:23"
-last-modified-jotform: "2026-09-05 16:56:06"
-last-exported: "2026-09-05 16:58:48"
+last-modified-jotform: "2026-10-03 15:01:44"
+last-exported: "2026-10-05 15:05:53"
 sitemap: false
 
 ---

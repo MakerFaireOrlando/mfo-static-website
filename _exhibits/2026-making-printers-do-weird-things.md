@@ -5,7 +5,8 @@ title: "Making Printers Do Weird Things"
 slug: making-printers-do-weird-things
 permalink: /exhibits/making-printers-do-weird-things/
 exhibit-id: 26-197
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA22"
 description: "A hands-on collection of hacked receipt printers, custom electronics, and web experiments."
 description-long: "Receipt printers are cheap, simple, fast, and pretty much everywhere, which makes them perfect platforms for weird projects.
 
@@ -78,8 +79,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-09 17:01:08"
-last-modified-jotform: "2026-09-12 10:58:49"
-last-exported: "2026-09-12 11:23:01"
+last-modified-jotform: "2026-10-03 15:01:25"
+last-exported: "2026-10-05 15:05:49"
 sitemap: false
 
 ---

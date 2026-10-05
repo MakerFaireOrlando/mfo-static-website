@@ -5,7 +5,8 @@ title: "Randall Paints Presents Crescent Hollow"
 slug: randall-paints-presents-crescent-hollow
 permalink: /exhibits/randall-paints-presents-crescent-hollow/
 exhibit-id: 26-1
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SI29, SI30"
 description: "Discover Crescent Hollow through immersive art, lore, and the original game Lawnskee Ball."
 description-long: "Randall Paints Presents: Crescent Hollow
 Discover Crescent Hollow, a fictional New England town where strange traditions, mysterious creatures, and forgotten history hide around every corner. Through original illustrations, maps, field guides, props, signage, and handcrafted world-building, visitors can explore an immersive universe that continues to grow with every new piece of art.
@@ -75,8 +76,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-06-30 08:33:19"
-last-modified-jotform: "2026-09-19 17:50:18"
-last-exported: "2026-09-23 14:11:55"
+last-modified-jotform: "2026-10-03 13:55:18"
+last-exported: "2026-10-05 15:08:04"
 sitemap: false
 
 ---

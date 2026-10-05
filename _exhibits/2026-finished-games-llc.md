@@ -5,7 +5,8 @@ title: "Finished Games LLC"
 slug: finished-games-llc
 permalink: /exhibits/finished-games-llc/
 exhibit-id: 26-105
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SH29"
 description: "Finished Games LLC is an independent video game development company creating unique experiences."
 description-long: "This year, Finished Games, LLC is showcasing their new title, Firebase. Firebase is an intense tower defense-like first person shooter based in the Vietnam War. It places the player in the boots of a soldier on a Fire Support Base during the Tet Offensive."
 image: /assets/images/exhibit-images/26-105-e-finished-games-llc-scrnsht-8-300x169.png
@@ -47,8 +48,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-26 08:17:29"
-last-modified-jotform: "2026-08-02 17:56:28"
-last-exported: "2026-08-02 17:57:49"
+last-modified-jotform: "2026-10-03 13:55:16"
+last-exported: "2026-10-05 15:06:46"
 sitemap: false
 
 ---

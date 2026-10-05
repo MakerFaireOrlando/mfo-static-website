@@ -5,7 +5,8 @@ title: "Imperial Tech Shop with Drew Vida"
 slug: imperial-tech-shop-with-drew-vida
 permalink: /exhibits/imperial-tech-shop-with-drew-vida/
 exhibit-id: 26-32
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA23"
 description: "Live laser demos, cosplay props, electronics, and custom fabrication projects."
 description-long: "Imperial Tech Shop with Drew Vida is all about turning ideas into reality.
 
@@ -173,8 +174,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-02 00:27:47"
-last-modified-jotform: "2026-07-27 08:41:51"
-last-exported: "2026-07-27 08:44:49"
+last-modified-jotform: "2026-10-04 10:53:59"
+last-exported: "2026-10-05 15:07:45"
 sitemap: false
 
 ---

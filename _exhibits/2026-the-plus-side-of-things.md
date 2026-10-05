@@ -5,7 +5,8 @@ title: "The plus side of things"
 slug: the-plus-side-of-things
 permalink: /exhibits/the-plus-side-of-things/
 exhibit-id: 26-135
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OG7"
 description: "The plus side of things is negative space art made to send a positive uplifting meaningful message"
 description-long: "The plus side of things is negative space art where the image is shown where the artist didn’t draw but what the drew around to make a image I have used this idea to create meaningful uplifting art using something negative such as the space to show that you need to find the good in the bad."
 image: /assets/images/exhibit-images/26-135-e-the-plus-side-of-things-img-1301-225x300.jpeg
@@ -61,8 +62,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-10 11:50:26"
-last-modified-jotform: "2026-08-30 09:25:23"
-last-exported: "2026-08-30 10:09:25"
+last-modified-jotform: "2026-10-04 11:48:26"
+last-exported: "2026-10-05 15:06:18"
 sitemap: false
 
 ---

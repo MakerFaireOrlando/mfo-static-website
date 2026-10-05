@@ -5,7 +5,8 @@ title: "Red Heart Candles & Scents"
 slug: red-heart-candles-scents
 permalink: /exhibits/red-heart-candles-scents/
 exhibit-id: 26-15
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OD4"
 description: "Handcrafted soy candles, room sprays, wax melts, and car diffusers made with clean fragrances."
 description-long: "Red Heart Candles is a Florida-based artisan fragrance company specializing in handcrafted soy candles, wax melts, room/linen sprays, car / room diffusers, perfume oils. Every product is carefully made in small batches using natural soy wax, clean fragrance oils, and high-quality ingredients to provide a cleaner, longer-lasting fragrance experience.
 Our collections are inspired by cozy moments, fresh botanicals, delicious bakery scents, and the beauty of nature. From comforting home fragrances to unique gift ideas, each creation is designed to make everyday spaces feel warm, welcoming, and memorable.
@@ -220,8 +221,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-06-30 16:24:58"
-last-modified-jotform: "2026-09-20 17:45:15"
-last-exported: "2026-09-23 14:11:47"
+last-modified-jotform: "2026-10-04 11:48:20"
+last-exported: "2026-10-05 15:07:59"
 sitemap: false
 
 ---

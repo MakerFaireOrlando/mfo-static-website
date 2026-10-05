@@ -5,6 +5,7 @@ title: "Gisela Todd"
 slug: gisela-todd
 permalink: /exhibits/gisela-todd/
 exhibit-id: 26-139
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Singer, acoustic Guitarist, ukulele player and Songwriter"
 description-long: "Gisela is a dynamic and talented music artist originally from the Philippines and currently based in Clermont, Florida. Her musical journey began at a very young age, discovering her love for music in elementary school, joining talent shows, singing contests, and choir."
@@ -41,8 +42,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-10 21:44:26"
-last-modified-jotform: "2026-09-05 16:56:27"
-last-exported: "2026-09-05 16:59:14"
+last-modified-jotform: "2026-10-04 11:00:26"
+last-exported: "2026-10-05 15:06:15"
 sitemap: false
 
 ---

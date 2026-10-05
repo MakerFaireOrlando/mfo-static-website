@@ -6,7 +6,7 @@ slug: florida-lfl-star-wars-costuming-clubs
 permalink: /exhibits/florida-lfl-star-wars-costuming-clubs/
 exhibit-id: 26-178
 exhibit-zone: "Spirit - Center"
-space-number: "SJ11,SJ12,SJ13"
+space-number: "SJ11, SJ12, SJ13"
 description: "The Florida LucasFilm Star Wars Costuming Community."
 description-long: "Step into a galaxy where creativity, craftsmanship, and community service come together!
 
@@ -97,8 +97,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-31 09:59:37"
-last-modified-jotform: "2026-09-07 13:37:13"
-last-exported: "2026-09-08 13:55:25"
+last-modified-jotform: "2026-10-03 11:53:40"
+last-exported: "2026-10-05 15:05:58"
 sitemap: false
 
 ---

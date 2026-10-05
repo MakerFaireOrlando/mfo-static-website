@@ -5,7 +5,8 @@ title: "Invaders from Planet Makey!"
 slug: invaders-from-planet-makey
 permalink: /exhibits/invaders-from-planet-makey/
 exhibit-id: 26-193
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SE29"
 description: "Makeys are invading the farm and abducting cows! Grab the right colored foam ball and fire!"
 description-long: "The Makeys have invaded the farm, and they’re making off with the cows! It’s up to you to stop them with the Color Cannon, an interactive air-powered launcher filled with lights, sounds, and colorful chaos.
 
@@ -53,8 +54,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-06 00:39:06"
-last-modified-jotform: "2026-09-08 13:55:55"
-last-exported: "2026-09-08 13:56:10"
+last-modified-jotform: "2026-10-03 15:01:22"
+last-exported: "2026-10-05 15:05:51"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "The Tom Haney Band"
 slug: the-tom-haney-band
 permalink: /exhibits/the-tom-haney-band/
 exhibit-id: 26-39
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "Alt-rock meets country vibes"
 description-long: "The Tom Haney Band blends alternative rock with country flair, creating a powerful, one-of-a-kind sound. With Tom’s raw songwriting at the core and the dynamic talents of Anton VonOstendorf(banjo), Xander Meyers (upright bass), and Apollo (drums), their live shows captivate audiences from major festivals to intimate clubs."
@@ -59,8 +60,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2026-07-03 08:42:01"
-last-modified-jotform: "2026-09-12 11:26:47"
-last-exported: "2026-09-13 10:36:22"
+last-modified-jotform: "2026-10-04 10:31:02"
+last-exported: "2026-10-05 15:07:38"
 sitemap: false
 
 ---

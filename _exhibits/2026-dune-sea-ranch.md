@@ -5,7 +5,8 @@ title: "Dune Sea Ranch"
 slug: dune-sea-ranch
 permalink: /exhibits/dune-sea-ranch/
 exhibit-id: 26-114
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SF11"
 description: "We will have cosplay props, droids and art in our fairly immersive Sc-Fi themed booth."
 description-long: "We will have a sci-fi themed booth with droids, props and custom artwork to help any cosplayer complete the desired look.  While we specialize in props we will have 2D art and custom posters themed for the weekend."
 image: /assets/images/exhibit-images/26-114-e-dune-sea-ranch-img-3638-12-264x300.jpeg
@@ -49,8 +50,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-29 11:09:23"
-last-modified-jotform: "2026-09-20 18:00:23"
-last-exported: "2026-09-23 14:11:06"
+last-modified-jotform: "2026-10-04 10:58:20"
+last-exported: "2026-10-05 15:06:39"
 sitemap: false
 
 ---

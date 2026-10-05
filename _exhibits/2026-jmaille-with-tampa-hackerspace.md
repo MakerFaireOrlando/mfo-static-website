@@ -5,7 +5,8 @@ title: "Jmaille with Tampa Hackerspace"
 slug: jmaille-with-tampa-hackerspace
 permalink: /exhibits/jmaille-with-tampa-hackerspace/
 exhibit-id: 26-125
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OD24"
 description: "J is bringing a bunch of neat things from recent times that he has made"
 description-long: "J will be bringing things he has produced with or at the Tampa Hackerspace. Everything from Tambry the Triceratops of the DemonCore to lots of other fun and cool things!"
 image: /assets/images/exhibit-images/26-125-e-jmaille-with-tampa-hackerspace-ef2tlga-300x177.jpeg
@@ -82,8 +83,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-04 22:04:05"
-last-modified-jotform: "2026-08-09 10:46:50"
-last-exported: "2026-08-09 12:23:00"
+last-modified-jotform: "2026-10-03 15:01:23"
+last-exported: "2026-10-05 15:06:27"
 sitemap: false
 
 ---

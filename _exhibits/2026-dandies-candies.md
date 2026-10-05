@@ -5,7 +5,8 @@ title: "Dandies Candies"
 slug: dandies-candies
 permalink: /exhibits/dandies-candies/
 exhibit-id: 26-52
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SC32"
 description: "Prepackaged, Handcrafted, Vintage 3d Clear Toy Candy Lollipops and other handcrafted candy"
 description-long: "Prepackaged, Handcrafted, Vintage 3d Clear Toy Candy Lollipops made with molds from the 1880's-1940's, Hard Pillow Candies cut with a machine from 1909, Brittle Brattle (our light and fluffy version of traditional brittle), and the viral Crystal Candy. Alll made in a variety of some of our over 300 flavors and Sugar Full or Sugar Free options."
 image: /assets/images/exhibit-images/26-52-e-dandies-candies-20241018-132144-225x300.jpg
@@ -119,8 +120,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-06 12:46:32"
-last-modified-jotform: "2026-09-20 17:45:21"
-last-exported: "2026-09-23 14:11:37"
+last-modified-jotform: "2026-10-04 11:48:11"
+last-exported: "2026-10-05 15:07:32"
 sitemap: false
 
 ---

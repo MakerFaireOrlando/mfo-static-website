@@ -5,7 +5,8 @@ title: "Mischief maille"
 slug: mischief-maille
 permalink: /exhibits/mischief-maille/
 exhibit-id: 26-4
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SI20"
 description: "Goth inspired chainmaille jewelry and accessories."
 description-long: "Beautifully crafted goth inspired chainmaille jewelry and accessories. Handcrafted out of anodized aluminum and stainless steel rings. Customized to fit you perfectly."
 image: /assets/images/exhibit-images/26-4-e-mischief-maille-pxl-20260618-193613218-226x300.jpg
@@ -153,8 +154,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-06-30 08:47:33"
-last-modified-jotform: "2026-09-20 17:45:12"
-last-exported: "2026-09-23 14:11:55"
+last-modified-jotform: "2026-10-04 10:54:01"
+last-exported: "2026-10-05 15:08:03"
 sitemap: false
 
 ---

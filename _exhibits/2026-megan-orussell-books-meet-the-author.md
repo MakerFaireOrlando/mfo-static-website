@@ -5,7 +5,8 @@ title: "Megan O'Russell Books - Meet the Author"
 slug: megan-orussell-books-meet-the-author
 permalink: /exhibits/megan-orussell-books-meet-the-author/
 exhibit-id: 26-74
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SG18"
 description: "Meet Megan O'Russell, local fantasy/romantasy author with over thirty novels spanning nine series!"
 description-long: "From the epic fantasy world of Ilbrea to the vampire and werewolf-plagued dystopia of the domes, author Megan O'Russell offers readers thirty-two books across nine series.
 
@@ -51,8 +52,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-14 14:13:24"
-last-modified-jotform: "2026-09-19 17:50:25"
-last-exported: "2026-09-23 14:11:29"
+last-modified-jotform: "2026-10-04 11:48:16"
+last-exported: "2026-10-05 15:07:11"
 sitemap: false
 
 ---

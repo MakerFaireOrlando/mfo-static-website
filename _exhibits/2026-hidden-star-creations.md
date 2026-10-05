@@ -5,7 +5,8 @@ title: "Hidden Star Creations"
 slug: hidden-star-creations
 permalink: /exhibits/hidden-star-creations/
 exhibit-id: 26-90
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SG17"
 description: "Where cute meets creepy. We create original stories, and whimsical art inspired by fantasy & Weird."
 description-long: "Hidden Star Creations is a handmade art studio specializing in original characters, whimsical creatures, and all things cute but creepy. From one-of-a-kind creations and artwork to interactive fire art experiences, we invite visitors of all ages to make something memorable. Come make a friend, burn some art, and step into a story."
 image: /assets/images/exhibit-images/26-90-e-hidden-star-creations-screenshot-2026-07-19-200732-254x300.png
@@ -137,8 +138,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-19 20:26:50"
-last-modified-jotform: "2026-09-20 18:00:20"
-last-exported: "2026-09-23 14:11:17"
+last-modified-jotform: "2026-10-04 11:48:13"
+last-exported: "2026-10-05 15:06:56"
 sitemap: false
 
 ---

@@ -5,7 +5,8 @@ title: "Premium Printed Minis"
 slug: premium-printed-minis
 permalink: /exhibits/premium-printed-minis/
 exhibit-id: 26-62
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SH31"
 description: "Highly detailed resin printed miniatures for table top gaming and painting"
 description-long: "Highly detailed resin printed miniatures for table top gaming and painting. We have both primed and unassembled. We have a variety of sizes and bundle deals we offer. We hand prime and do all packaging and assembly ourselves. Every mini is licensed and supports real artists."
 image: /assets/images/exhibit-images/26-62-e-premium-printed-minis-20260703-131631-225x300.jpg
@@ -143,8 +144,8 @@ categories:
   - slug: 3d-printing
     name: 3D Printing
 created-jotform: "2026-07-09 21:55:42"
-last-modified-jotform: "2026-09-20 18:00:14"
-last-exported: "2026-09-23 14:11:31"
+last-modified-jotform: "2026-10-04 11:48:19"
+last-exported: "2026-10-05 15:07:22"
 sitemap: false
 
 ---

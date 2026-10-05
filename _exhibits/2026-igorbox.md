@@ -5,7 +5,8 @@ title: "IgorBox"
 slug: igorbox
 permalink: /exhibits/igorbox/
 exhibit-id: 26-156
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OG22"
 description: "How do haunts make monsters jump on cue? Trigger the scares and see the tech behind them."
 description-long: "IgorBox is a show control platform for haunted attractions, escape rooms, and themed entertainment, designed and built by a two-person maker team in Port Orange, FL. Our exhibit is a live, hands-on mini haunt: press a button, trip a sensor, and watch animatronics move, lights synchronize to audio, and props fire in perfectly timed sequences.
 
@@ -58,8 +59,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-21 14:29:00"
-last-modified-jotform: "2026-09-20 18:00:28"
-last-exported: "2026-09-23 14:10:53"
+last-modified-jotform: "2026-10-04 10:53:58"
+last-exported: "2026-10-05 15:06:07"
 sitemap: false
 
 ---

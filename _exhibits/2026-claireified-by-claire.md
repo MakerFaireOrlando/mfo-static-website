@@ -5,7 +5,8 @@ title: "Claireified by Claire"
 slug: claireified-by-claire
 permalink: /exhibits/claireified-by-claire/
 exhibit-id: 26-6
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SH30"
 description: "Fandom inspired handmade soap and related products along with laser cut gaming accessories."
 description-long: "Fandom inspired handmade soap. Disney, Star Wars, Marvel, Anime, Supernatural, D&D, Doctor Who, Lord of the Rings, Harry Potter, and more. 
 
@@ -87,8 +88,8 @@ categories:
   - slug: laser-cutting-engraving
     name: Laser Cutting & Engraving
 created-jotform: "2026-06-30 09:03:32"
-last-modified-jotform: "2026-09-20 17:45:12"
-last-exported: "2026-09-23 14:11:52"
+last-modified-jotform: "2026-10-04 10:53:54"
+last-exported: "2026-10-05 15:08:00"
 sitemap: false
 
 ---

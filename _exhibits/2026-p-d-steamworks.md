@@ -5,7 +5,8 @@ title: "P. D. Steamworks"
 slug: p-d-steamworks
 permalink: /exhibits/p-d-steamworks/
 exhibit-id: 26-78
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SI31"
 description: "I create ttrpg accessories and dice as well as other experiments for GMs to add to their tables."
 description-long: "I create various table top role playing game accessories from 3D printed dice boxes, a fusion of dice box and dice tower I call a Tower Vault to hand casting resin dice, and have recently started tinkering and experimenting with creating mini-modules for game masters to either add into their own games or (eventually) run a full adventure with."
 image: /assets/images/exhibit-images/26-78-e-p-d-steamworks-5-300x300.jpg
@@ -153,8 +154,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-15 18:01:03"
-last-modified-jotform: "2026-09-20 18:00:15"
-last-exported: "2026-09-23 14:11:24"
+last-modified-jotform: "2026-10-03 13:55:18"
+last-exported: "2026-10-05 15:07:06"
 sitemap: false
 
 ---

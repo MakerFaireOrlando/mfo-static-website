@@ -5,7 +5,8 @@ title: "Tools & Tricks for Makers"
 slug: tools-tricks-for-makers
 permalink: /exhibits/tools-tricks-for-makers/
 exhibit-id: 26-144
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OE12, OE13"
 description: "Tools and technology to help Makers build their imagination."
 description-long: "We will be creating examples of things you can make using print, laser and cutting equipment & we're giving away the things we make!"
 image: /assets/images/exhibit-images/26-144-e-tools-tricks-for-makers-20241109-113203-2678-300x139.jpg
@@ -68,8 +69,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-15 12:34:32"
-last-modified-jotform: "2026-08-30 09:01:31"
-last-exported: "2026-08-30 10:08:51"
+last-modified-jotform: "2026-10-03 15:01:48"
+last-exported: "2026-10-05 15:06:10"
 sitemap: false
 
 ---

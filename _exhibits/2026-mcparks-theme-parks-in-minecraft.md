@@ -5,7 +5,8 @@ title: "MCParks - Theme Parks in Minecraft"
 slug: mcparks-theme-parks-in-minecraft
 permalink: /exhibits/mcparks-theme-parks-in-minecraft/
 exhibit-id: 26-191
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SE27"
 description: "MCParks is a 1:1 scale Minecraft recreation of major theme parks, including working attractions."
 description-long: "MCParks has spent more than a decade creating the ultimate destination for theme parks in Minecraft, recreating real-world parks and resorts at a 1:1 scale. Using everything from satellite imagery and blueprints to photos, video, custom software, and 3D models, MCParks brings rides, shows, and entire theme parks to life block by block.
 
@@ -119,8 +120,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-05 14:10:59"
-last-modified-jotform: "2026-09-05 16:56:02"
-last-exported: "2026-09-05 16:58:45"
+last-modified-jotform: "2026-10-03 13:55:16"
+last-exported: "2026-10-05 15:05:52"
 sitemap: false
 
 ---

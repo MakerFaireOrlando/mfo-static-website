@@ -5,7 +5,8 @@ title: "Odyssey of the Mind Magic Center Region"
 slug: odyssey-of-the-mind-magic-center-region
 permalink: /exhibits/odyssey-of-the-mind-magic-center-region/
 exhibit-id: 26-137
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OE6"
 description: "International Creative Thinking and Problem Solving organization for children."
 description-long: "We will be crushing balsa wood structures- testing weight held.  We will have examples of our members creations from engineering to sculpture and fine art to crafts.  We will discuss the program and offer a free make and take project."
 image: /assets/images/exhibit-images/26-137-e-odyssey-of-the-mind-magic-center-region-img-4225-225x300.jpeg
@@ -68,8 +69,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-10 21:15:31"
-last-modified-jotform: "2026-08-15 14:55:00"
-last-exported: "2026-08-15 14:55:31"
+last-modified-jotform: "2026-10-04 11:48:16"
+last-exported: "2026-10-05 15:06:16"
 sitemap: false
 
 ---

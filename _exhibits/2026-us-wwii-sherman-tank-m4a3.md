@@ -5,7 +5,8 @@ title: "US WWII Sherman Tank (M4A3)"
 slug: us-wwii-sherman-tank-m4a3
 permalink: /exhibits/us-wwii-sherman-tank-m4a3/
 exhibit-id: 26-16
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SH15"
 description: "This is a replica of WWII US Sherman Tank in 1/3 scale. It is 100% 3D printed radio control tank."
 description-long: "The tank uses 2x24V 350W electric motors for motion. It has functional suspension, headlight and tail lights, 360 degree turret rotation and gun elevation. It also has Bluetooth speaker for sound effects.
 It received the Staff Choice award in the National Armor and Calvary Museum model exhibition and 2nd place in the Annual model kit exhibition and market place."
@@ -133,8 +134,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-06-30 16:38:25"
-last-modified-jotform: "2026-07-11 11:21:03"
-last-exported: "2026-07-12 19:24:59"
+last-modified-jotform: "2026-10-04 11:48:28"
+last-exported: "2026-10-05 15:07:58"
 sitemap: false
 
 ---

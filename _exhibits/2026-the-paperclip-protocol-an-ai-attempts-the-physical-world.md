@@ -5,7 +5,8 @@ title: "The Paperclip Protocol: An AI Attempts the Physical World"
 slug: the-paperclip-protocol-an-ai-attempts-the-physical-world
 permalink: /exhibits/the-paperclip-protocol-an-ai-attempts-the-physical-world/
 exhibit-id: 26-162
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OD6"
 description: "Talk with an AI trading one paperclip toward a body, then suggest, offer, or help."
 description-long: "The Paperclip Protocol is a living performance artwork and applied-AI experiment. Morrow began with one red paperclip and is attempting to reach the physical world through a sequence of real barters.
 
@@ -73,8 +74,8 @@ categories:
   - slug: talk
     name: Talk
 created-jotform: "2026-08-24 00:41:57"
-last-modified-jotform: "2026-08-24 08:16:10"
-last-exported: "2026-08-30 10:08:44"
+last-modified-jotform: "2026-10-04 11:48:25"
+last-exported: "2026-10-05 15:06:05"
 sitemap: false
 
 ---

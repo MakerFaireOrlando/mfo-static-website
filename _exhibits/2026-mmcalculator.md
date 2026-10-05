@@ -5,7 +5,8 @@ title: "mmCalculator"
 slug: mmcalculator
 permalink: /exhibits/mmcalculator/
 exhibit-id: 26-194
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OG19"
 description: "It’s a purpose built calculator to convert millimeters to inches with a fun twist…"
 description-long: "What is it?
 It’s a purpose built calculator to convert millimeters to inches with a fun twist… Spin the knob and the numbers appear!
@@ -66,8 +67,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-07 11:41:47"
-last-modified-jotform: "2026-09-08 13:55:50"
-last-exported: "2026-09-08 13:56:10"
+last-modified-jotform: "2026-10-03 15:01:32"
+last-exported: "2026-10-05 15:05:50"
 sitemap: false
 
 ---

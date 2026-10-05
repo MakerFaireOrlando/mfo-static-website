@@ -5,7 +5,8 @@ title: "Got Caricature Sculpts"
 slug: got-caricature-sculpts
 permalink: /exhibits/got-caricature-sculpts/
 exhibit-id: 26-100
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC10"
 description: "Traditionally sculpted lifesize caricature busts of pop culture characters."
 description-long: "Like so many other people during COVID I was at home. This put a wrench is the live performances as a stand up comedian I had been doing for the prior 13 years. I had a few Disney villain masks displayed on the wall of my office that I had added some torsos to make them look theme park like and decided I would like a couple additional characters. On a whim I ordered some clay and paints online and just gave it a go. While the first few weren't bad I can definitely say I've gotten much better with practice. What started as a whim to add some decor to my home suddently grew when I discovered I loved to sculpt heads and paint them. ​I never sought out to do replicas, I love exaggerating their facial features and putting my own spin on them. When people throw me a new or challenging character to caricature-ize I try to make it fun. ﻿My goal is to make everyone smile or even laugh a little when they see one of my sculpts in person, even the scary or bloody ones!"
 image: /assets/images/exhibit-images/26-100-e-got-caricature-sculpts-c980148a-443a-4c43-b6cc-71a1696f7330-300x225.jpg
@@ -44,8 +45,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2026-07-24 08:39:46"
-last-modified-jotform: "2026-09-20 18:00:19"
-last-exported: "2026-09-23 14:11:16"
+last-modified-jotform: "2026-10-04 10:21:15"
+last-exported: "2026-10-05 15:06:51"
 sitemap: false
 
 ---

@@ -5,7 +5,8 @@ title: "XSCorr"
 slug: xscorr
 permalink: /exhibits/xscorr/
 exhibit-id: 26-69
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA11"
 description: "A modern rendition of Dr. Persinger's Excessive Correlation experiment using Arduino and the Mind!"
 description-long: "The late Dr. Persinger left us with the challenge of creating his Excessive Correlation device...so we did.  And this is our modern version which uses Adruino style MCU and computers to create and track the experiment.     Originally designed to entangle the subjects consciousness over hundreds of miles, we modified the hardware so that we can test it locally at the show booth.   
 
@@ -91,8 +92,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-13 20:22:51"
-last-modified-jotform: "2026-09-20 18:00:15"
-last-exported: "2026-09-23 14:11:29"
+last-modified-jotform: "2026-10-04 10:54:05"
+last-exported: "2026-10-05 15:07:14"
 sitemap: false
 
 ---

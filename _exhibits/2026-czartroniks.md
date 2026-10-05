@@ -5,7 +5,8 @@ title: "Czartroniks"
 slug: czartroniks
 permalink: /exhibits/czartroniks/
 exhibit-id: 26-153
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA25"
 description: "Custom MIDI instruments, collage art and musical instruments"
 description-long: "Handmade electronic musical instruments, video synthesizer experiments, projection art, collage art, painting, fun interactive toys"
 image: /assets/images/exhibit-images/26-153-e-czartroniks-img-1263-300x300.JPG
@@ -45,8 +46,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2026-08-18 13:51:15"
-last-modified-jotform: "2026-08-23 10:40:57"
-last-exported: "2026-08-23 11:34:22"
+last-modified-jotform: "2026-10-03 15:01:13"
+last-exported: "2026-10-05 15:06:09"
 sitemap: false
 
 ---

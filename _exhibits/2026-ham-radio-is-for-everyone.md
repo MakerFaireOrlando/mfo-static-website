@@ -5,7 +5,8 @@ title: "Ham Radio is for Everyone"
 slug: ham-radio-is-for-everyone
 permalink: /exhibits/ham-radio-is-for-everyone/
 exhibit-id: 26-190
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA8"
 description: "Ham Radio is not just a hobby, it is a great career choice for all things technical."
 description-long: "Ham Radio is not just a hobby, but a gateway to exciting careers in any and all engineering and technical fields.
 A lifetime of enjoyment from a hobby that connects friends and colleagues from all career paths and from faraway places around the World."
@@ -49,8 +50,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-05 12:36:42"
-last-modified-jotform: "2026-09-30 22:40:07"
-last-exported: "2026-09-30 22:43:06"
+last-modified-jotform: "2026-10-03 15:01:20"
+last-exported: "2026-10-05 15:05:52"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Roll With Adventure"
 slug: roll-with-adventure
 permalink: /exhibits/roll-with-adventure/
 exhibit-id: 26-86
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Handmade dice made with the spirit of adventure!"
 description-long: "I create handmade dice and other TTRPG accessories! This includes dice sets, singles, SQUISHY dice, dice keychains, bracelets, stationary, bookmarks, stickers, cosplay horns, mini dice sets, and more!"
@@ -137,8 +138,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-18 11:11:14"
-last-modified-jotform: "2026-09-19 17:48:38"
-last-exported: "2026-09-23 14:11:22"
+last-modified-jotform: "2026-10-04 10:32:30"
+last-exported: "2026-10-05 15:07:02"
 sitemap: false
 
 ---

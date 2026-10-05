@@ -5,7 +5,8 @@ title: "Super Cereal Bake Shop"
 slug: super-cereal-bake-shop
 permalink: /exhibits/super-cereal-bake-shop/
 exhibit-id: 26-166
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SF17"
 description: "Gourmet Rice Crispy Treats"
 description-long: "Homemade Gourmet Rice Crispy Treats"
 image: /assets/images/exhibit-images/26-166-e-super-cereal-bake-shop-dot-cake-293x300.jpeg
@@ -128,8 +129,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-25 16:26:36"
-last-modified-jotform: "2026-09-20 18:00:29"
-last-exported: "2026-09-23 14:10:52"
+last-modified-jotform: "2026-10-04 11:48:23"
+last-exported: "2026-10-05 15:06:03"
 sitemap: false
 
 ---

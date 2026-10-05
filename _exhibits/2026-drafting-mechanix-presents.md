@@ -5,7 +5,8 @@ title: "Drafting Mechanix presents...."
 slug: drafting-mechanix-presents
 permalink: /exhibits/drafting-mechanix-presents/
 exhibit-id: 26-57
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OD18"
 description: "Repurposed 3d filament spool cord winders, NFC door access assembly, Plasma table."
 description-long: "Partners with FamiLAB, would like to table adjacent to.
 We are working on many things. 
@@ -55,8 +56,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-07 21:50:17"
-last-modified-jotform: "2026-07-11 10:25:53"
-last-exported: "2026-07-12 19:24:33"
+last-modified-jotform: "2026-10-03 15:01:15"
+last-exported: "2026-10-05 15:07:26"
 sitemap: false
 
 ---

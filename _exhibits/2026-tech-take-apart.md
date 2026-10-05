@@ -5,7 +5,8 @@ title: "Tech Take-Apart"
 slug: tech-take-apart
 permalink: /exhibits/tech-take-apart/
 exhibit-id: 26-208
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SA19, SA20, SA21, SB20, SB21"
 description: "The best way to learn how things work is to take them apart! Learn the inner-workings of tech!"
 description-long: "The best way to learn how things work is to take them apart! Stop by and learn the inner-workings of various recycled pieces of tech!
 Recommended age 8+"
@@ -65,8 +66,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2026-09-17 10:30:27"
-last-modified-jotform: "2026-09-23 14:02:15"
-last-exported: "2026-09-23 14:10:37"
+last-modified-jotform: "2026-10-03 13:34:21"
+last-exported: "2026-10-05 15:05:47"
 sitemap: false
 
 ---

@@ -5,7 +5,8 @@ title: "VP3D Printing and Design, On Demand"
 slug: vp3d-printing-and-design-on-demand
 permalink: /exhibits/vp3d-printing-and-design-on-demand/
 exhibit-id: 26-150
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OG6"
 description: "3D printing on demand as well as design and product developement"
 description-long: "We help creators and inventors bring their ideas to life."
 image: /assets/images/exhibit-images/26-150-e-vp3d-printing-and-design-on-demand-pyramid-169x300.jpg
@@ -49,8 +50,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-17 09:06:59"
-last-modified-jotform: "2026-08-23 10:41:02"
-last-exported: "2026-08-23 11:34:24"
+last-modified-jotform: "2026-10-04 11:48:29"
+last-exported: "2026-10-05 15:06:09"
 sitemap: false
 
 ---

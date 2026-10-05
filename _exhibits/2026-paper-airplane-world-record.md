@@ -5,7 +5,8 @@ title: "Paper Airplane World Record"
 slug: paper-airplane-world-record
 permalink: /exhibits/paper-airplane-world-record/
 exhibit-id: 26-121
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SA22, SA23, SB22, SB23"
 description: "Ongoing exhibition of amazing paper airplanes. Learn to make the world record paper airplane."
 description-long: "Planes circle back, flip over and fly back upside down, spin, tumble, flap their wings, and some can ride a wave of air forever. Actual forever may vary. Ongoing demonstrations, teaching how to make and fly the world record plane, meet the former world record holder, and purchase his book as a souvenir."
 image: /assets/images/exhibit-images/26-121-e-paper-airplane-world-record-wired-300x168.jpeg
@@ -226,8 +227,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-01 19:49:02"
-last-modified-jotform: "2026-08-23 17:59:07"
-last-exported: "2026-08-23 20:04:20"
+last-modified-jotform: "2026-10-03 15:01:37"
+last-exported: "2026-10-05 15:06:29"
 sitemap: false
 
 ---

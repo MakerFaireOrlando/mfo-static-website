@@ -5,7 +5,8 @@ title: "MakerFX Makerspace"
 slug: makerfx-makerspace
 permalink: /exhibits/makerfx-makerspace/
 exhibit-id: 26-54
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OE28, OE29, OF28, OF29, OG28, OG29"
 description: "Interactive maker demos, hands-on projects, and creative experiences for makers of all ages."
 description-long: "Stop by the MakerFX Makerspace booth to experience hands-on making in action! Explore member-built projects, watch live demonstrations, and discover how things are designed, built, and brought to life. From 3D printing and electronics to cosplay, fabrication, and other creative projects, there's something for everyone to explore. Meet local makers, ask questions, get inspired, and learn how MakerFX helps people of all ages turn ideas into reality through creativity, collaboration, and hands-on learning."
 image: /assets/images/exhibit-images/26-54-e-makerfx-makerspace-makerfx-booth-photo-2-300x200.jpg
@@ -95,8 +96,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-06 20:31:32"
-last-modified-jotform: "2026-07-11 10:27:26"
-last-exported: "2026-07-12 19:24:37"
+last-modified-jotform: "2026-10-03 15:01:24"
+last-exported: "2026-10-05 15:07:31"
 sitemap: false
 
 ---

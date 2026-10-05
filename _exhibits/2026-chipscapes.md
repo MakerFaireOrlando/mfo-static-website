@@ -5,7 +5,8 @@ title: "ChipScapes"
 slug: chipscapes
 permalink: /exhibits/chipscapes/
 exhibit-id: 26-11
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA16, OA17"
 description: "ChipScapes: Hidden silicon landscapes where computer chips become breathtaking works of art."
 description-long: "Step into a hidden realm where technology becomes art, where the infinitesimal landscapes of computer chips transform into captivating vistas known as ChipScapes. Imagine peering through a miniature looking glass into a universe unseen by the naked eye – a world of silicon secrets, a symphony of bytes and circuits. This is the realm of ChipScapes, where microscopic landscapes come to life in wall art and jewelry. What was once a mundane, silvery-gray expanse, becomes an explosion of vibrant hues and dazzling shades. The secret behind this transformation lies in a meticulously orchestrated ballet of light, a dance that unveils the hidden layers of chip manufacturing. If you yearn to unlock the secrets of the digital age, to witness the interplay of science, history, and artistry, join us. Uncover the hidden tales of chips that power our lives, explore the chronicles that link past to present, and witness the awe-inspiring spectacle of chips magnified to a realm where giants are dwarfed and marvels are unveiled."
 image: /assets/images/exhibit-images/26-11-e-chipscapes-fairchild-9915-v2-9822-296x300.jpg
@@ -203,8 +204,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-06-30 14:21:26"
-last-modified-jotform: "2026-09-20 17:45:14"
-last-exported: "2026-09-23 14:11:49"
+last-modified-jotform: "2026-10-03 15:01:11"
+last-exported: "2026-10-05 15:07:59"
 sitemap: false
 
 ---

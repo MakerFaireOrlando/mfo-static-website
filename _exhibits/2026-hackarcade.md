@@ -5,7 +5,8 @@ title: "HackArcade"
 slug: hackarcade
 permalink: /exhibits/hackarcade/
 exhibit-id: 26-109
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OE24"
 description: "Come see our home-made or lovingly restored games and vending machines!"
 description-long: "Several members of THS have built from scratch or lovingly restored arcade games and vending machines. The centerpiece of this effort is our home made claw machine. Come play for free! No coins needed!"
 image: /assets/images/exhibit-images/26-109-e-hackarcade-img-6676-300x300.jpg
@@ -51,8 +52,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-27 16:38:06"
-last-modified-jotform: "2026-08-10 18:36:14"
-last-exported: "2026-08-15 13:58:20"
+last-modified-jotform: "2026-10-03 15:01:19"
+last-exported: "2026-10-05 15:06:46"
 sitemap: false
 
 ---

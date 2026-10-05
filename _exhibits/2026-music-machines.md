@@ -5,7 +5,8 @@ title: "Music Machines"
 slug: music-machines
 permalink: /exhibits/music-machines/
 exhibit-id: 26-115
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OG17"
 description: "Create electronic techno sounds with simple synth, sequencer, oscillator, and mechanical effects."
 description-long: "Compose tonal sound effects from modern and vintage electronic and mechanical devices.  Generate your rhythm track with an easy to use electro-mechanical percussion system.  Make far-out space sounds with springs, oscillators and keyboards and process them through a variety of both vacuum tube and modern amplifiers, filters, and modulators.  Techie enough for grown-ups but simple and active enough for kids, you can even make a recording of your efforts to take home."
 image: /assets/images/exhibit-images/26-115-e-music-machines-pxl-20260407-182606869-1-225x300.jpg
@@ -45,8 +46,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2026-07-29 12:07:51"
-last-modified-jotform: "2026-08-02 17:56:03"
-last-exported: "2026-08-02 17:57:26"
+last-modified-jotform: "2026-10-03 15:01:34"
+last-exported: "2026-10-05 15:06:38"
 sitemap: false
 
 ---

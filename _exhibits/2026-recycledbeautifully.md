@@ -5,7 +5,8 @@ title: "RecycledBeautifully"
 slug: recycledbeautifully
 permalink: /exhibits/recycledbeautifully/
 exhibit-id: 26-8
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC15"
 description: "Handmade wire wrapped recycled copper wire tree of life pendants"
 description-long: "www.instagram.com/recycled_beautifully"
 image: /assets/images/exhibit-images/26-8-e-recycledbeautifully-img-0894-300x298.jpeg
@@ -70,8 +71,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-06-30 11:56:35"
-last-modified-jotform: "2026-09-20 17:45:13"
-last-exported: "2026-09-23 14:11:49"
+last-modified-jotform: "2026-10-04 10:21:19"
+last-exported: "2026-10-05 15:08:00"
 sitemap: false
 
 ---

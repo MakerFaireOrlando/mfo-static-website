@@ -5,7 +5,8 @@ title: "Design and 3D Print Your Own Bag Tag"
 slug: design-and-3d-print-your-own-bag-tag
 permalink: /exhibits/design-and-3d-print-your-own-bag-tag/
 exhibit-id: 26-40
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OD22"
 description: "Design a custom tag for your backpack and have it 3D printed to take home with you that day!"
 description-long: "Visitors will be able to use TinkerCAD, a free, easy-to-use 3D design program, to design and personalize their own custom tag for their backpack or luggage. They'll learn the basics of computer-aided design (CAD) and how to lay out different text elements and icons to create their own unique flair for their bag.
 
@@ -120,8 +121,8 @@ categories:
   - slug: manufacturing
     name: Manufacturing
 created-jotform: "2026-07-03 12:14:36"
-last-modified-jotform: "2026-07-12 20:25:39"
-last-exported: "2026-07-12 22:58:19"
+last-modified-jotform: "2026-10-03 15:01:14"
+last-exported: "2026-10-05 15:07:37"
 sitemap: false
 
 ---

@@ -5,7 +5,8 @@ title: "The Forge of Awesomeness"
 slug: the-forge-of-awesomeness
 permalink: /exhibits/the-forge-of-awesomeness/
 exhibit-id: 26-25
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SE30"
 description: "Tiffany technique jewelry, example of the supplies needed and pictures in various stages."
 description-long: "We offer hand made silver solder Tiffany technique jewelry and hand sculpted clay jewelry with fantasy, nerdy and mythological themes. We will have example of the tools used in silver solder and picture of pieces in different stages."
 image: /assets/images/exhibit-images/26-25-e-the-forge-of-awesomeness-screenshot-20260701-080811-300x290.png
@@ -149,8 +150,8 @@ categories:
   - slug: jewelry
     name: Jewelry
 created-jotform: "2026-07-01 20:11:02"
-last-modified-jotform: "2026-09-20 17:45:18"
-last-exported: "2026-09-23 14:11:45"
+last-modified-jotform: "2026-10-03 13:55:20"
+last-exported: "2026-10-05 15:07:53"
 sitemap: false
 
 ---

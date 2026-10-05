@@ -5,7 +5,8 @@ title: "Marion County Maker Collective (MC²)"
 slug: marion-county-maker-collective-mc2
 permalink: /exhibits/marion-county-maker-collective-mc2/
 exhibit-id: 26-124
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OE22"
 description: "Our booth will display information about our community makerspace & feature creations by members"
 description-long: "The Marion County Maker Collective booth will showcase the creativity, innovation, and collaborative spirit of our community makerspace. Visitors can learn about our makerspace through photos, project displays, membership information, and opportunities to get involved.
 
@@ -107,8 +108,8 @@ categories:
   - slug: sustainability
     name: Sustainability
 created-jotform: "2026-08-04 13:04:04"
-last-modified-jotform: "2026-08-09 10:46:56"
-last-exported: "2026-08-09 12:23:06"
+last-modified-jotform: "2026-10-03 15:01:27"
+last-exported: "2026-10-05 15:06:28"
 sitemap: false
 
 ---

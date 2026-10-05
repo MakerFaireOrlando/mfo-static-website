@@ -5,7 +5,8 @@ title: "The Annex Studio - Stitch the Stash demo"
 slug: the-annex-studio-stitch-the-stash-demo
 permalink: /exhibits/the-annex-studio-stitch-the-stash-demo/
 exhibit-id: 26-126
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC25"
 description: "Hands-on sewing demo and creative reuse lab turning fabric scraps into small, satisfying projects."
 description-long: "Stitch the Stash is a hands-on sewing demo and creative reuse lab focused on turning fabric scraps into small, satisfying projects. Using both vintage and modern sewing machines, this exhibit will show how appliqué, simple construction, and a little imagination can transform leftover fabric into bookmarks, coasters, pouches, patches, and other tiny makes.
 
@@ -206,8 +207,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2026-08-04 22:10:07"
-last-modified-jotform: "2026-09-12 10:59:09"
-last-exported: "2026-09-12 11:23:53"
+last-modified-jotform: "2026-10-03 15:01:46"
+last-exported: "2026-10-05 15:06:26"
 sitemap: false
 
 ---

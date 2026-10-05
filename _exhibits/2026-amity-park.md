@@ -5,6 +5,7 @@ title: "Amity Park"
 slug: amity-park
 permalink: /exhibits/amity-park/
 exhibit-id: 26-84
+exhibit-zone: "Spirit - West"
 space-number: Unassigned
 description: "Amity Park is a pop-rock music project based in Orlando, Florida."
 description-long: "Amity Park is a pop-rock music project based in Orlando, Florida, that reimagines classic Disney songs with high-energy, pop-rock flair. Blending nostalgia with the spirit of early 2000s music, the band delivers emotionally charged covers that resonate with both Disney fans and music enthusiasts. Known for their unique sound and heartfelt performances, Amity Park has become a local favorite for themed events, and live shows. Their live performances also extend to top 40 hits, early 2000s classics, and much more!"
@@ -63,8 +64,8 @@ categories:
   - slug: music
     name: Music
 created-jotform: "2026-07-17 14:14:27"
-last-modified-jotform: "2026-09-07 09:09:30"
-last-exported: "2026-09-08 13:55:36"
+last-modified-jotform: "2026-10-03 12:16:11"
+last-exported: "2026-10-05 15:07:03"
 sitemap: false
 
 ---

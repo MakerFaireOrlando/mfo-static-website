@@ -5,7 +5,8 @@ title: "The Ionic Age: Metal Recovery and Energy Storage You Can Make"
 slug: the-ionic-age-metal-recovery-and-energy-storage-you-can-make
 permalink: /exhibits/the-ionic-age-metal-recovery-and-energy-storage-you-can-make/
 exhibit-id: 26-142
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA12"
 description: "Metal grows from liquid, a battery stores energy in liquid, one open-source membrane does both."
 description-long: "An ion exchange membrane is an impermeable sheet that lets certain ions through and blocks the rest. That one part sits inside flow batteries, fuel cells, the plants that make chlorine and lye, water treatment stacks, and metal refining cells. In the small quantities a maker can buy, a commercial membrane costs hundreds of dollars per square foot. We make ours from off-the-shelf materials for about a dollar per square foot, and the recipe is published as open source hardware.
 
@@ -194,8 +195,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-12 17:01:34"
-last-modified-jotform: "2026-09-05 12:05:39"
-last-exported: "2026-09-05 16:59:09"
+last-modified-jotform: "2026-10-04 10:54:05"
+last-exported: "2026-10-05 15:06:14"
 sitemap: false
 
 ---

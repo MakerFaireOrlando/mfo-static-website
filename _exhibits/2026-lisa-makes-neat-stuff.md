@@ -5,7 +5,8 @@ title: "Lisa Makes Neat Stuff"
 slug: lisa-makes-neat-stuff
 permalink: /exhibits/lisa-makes-neat-stuff/
 exhibit-id: 26-36
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OD7"
 description: "A showcase of creations by a professional prop and replica maker."
 description-long: "This exhibit is a showcase of the creative works of a former professional prop and replica makers whose works have appeared in theme parks, plays, films, and music videos. Now she mostly creates for fun, and rather than letting her creations languish as glorified home decorations, she's bringing them out to the Maker Faire for others to enjoy. The featured pieces run a gamut from prop replicas, to cosplay pieces, to curious pieces of decor. Her methods incorporate whatever medium and tools it best for the job, with a mix of 3D prints, foam fabrication, clay and epoxy sculpture, resin casting, and sewing all in the mix."
 image: /assets/images/exhibit-images/26-36-e-lisa-makes-neat-stuff-20200826-175855-crop-300x169.jpg
@@ -183,8 +184,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2026-07-02 13:54:20"
-last-modified-jotform: "2026-07-11 10:36:39"
-last-exported: "2026-07-12 19:24:44"
+last-modified-jotform: "2026-10-04 11:48:14"
+last-exported: "2026-10-05 15:07:41"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Planting Seeds of Tomorrow"
 slug: planting-seeds-of-tomorrow
 permalink: /exhibits/planting-seeds-of-tomorrow/
 exhibit-id: 26-28
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Free customized mason jars with demo plants to demonstrate krakty hydroponics"
 description-long: "I will be providing free mason jar kits to hand out. The mason jars will demonstrate kratky hydroponics and allow attendees at my booth to take it home to try on their own."
@@ -134,8 +135,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-01 21:46:03"
-last-modified-jotform: "2026-07-12 20:31:34"
-last-exported: "2026-07-12 22:58:24"
+last-modified-jotform: "2026-10-04 10:33:24"
+last-exported: "2026-10-05 15:07:52"
 sitemap: false
 
 ---

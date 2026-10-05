@@ -5,7 +5,8 @@ title: "Jupiter 7"
 slug: jupiter-7
 permalink: /exhibits/jupiter-7/
 exhibit-id: 26-104
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC16"
 description: "Space-themed laser crafts, 3D prints, and hands-on maker projects for all ages."
 description-long: "Jupiter 7 is a hands-on maker workshop where creativity meets space exploration! Watch laser cutters and 3D printers in action, explore handcrafted creations, and build your own space-themed projects inspired by science, engineering, and imagination."
 image: /assets/images/exhibit-images/26-104-e-jupiter-7-img-1010-300x225.JPG
@@ -170,8 +171,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-24 20:56:05"
-last-modified-jotform: "2026-09-20 17:45:15"
-last-exported: "2026-09-23 14:11:14"
+last-modified-jotform: "2026-10-04 10:54:00"
+last-exported: "2026-10-05 15:06:48"
 sitemap: false
 
 ---

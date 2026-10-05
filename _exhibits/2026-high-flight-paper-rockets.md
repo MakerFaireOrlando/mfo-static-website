@@ -5,6 +5,7 @@ title: "High Flight Paper Rockets"
 slug: high-flight-paper-rockets
 permalink: /exhibits/high-flight-paper-rockets/
 exhibit-id: 26-87
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Design, build, fuel up, and hit the big red button to launch your own paper rocket!"
 description-long: "Get in on the excitement of rocket launches by decorating, building, and launching your own paper rocket! Visitors will color, cut out, and assemble their own paper rocket, then use a bike pump to fuel up a pressurized launcher. Finally, they can count down and launch the rocket into the air! How high can you go?"
@@ -102,8 +103,8 @@ categories:
   - slug: space
     name: Space
 created-jotform: "2026-07-18 16:12:58"
-last-modified-jotform: "2026-08-23 11:33:42"
-last-exported: "2026-08-23 11:34:42"
+last-modified-jotform: "2026-10-04 11:00:16"
+last-exported: "2026-10-05 15:07:00"
 sitemap: false
 
 ---

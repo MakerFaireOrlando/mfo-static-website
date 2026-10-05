@@ -5,7 +5,8 @@ title: "Throw Dummy 13 Out of the Plane!"
 slug: throw-dummy-13-out-of-the-plane
 permalink: /exhibits/throw-dummy-13-out-of-the-plane/
 exhibit-id: 26-68
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC21"
 description: "Dummy 13s can do anything, including skydiving! Can you fashion a parachute to make him land safely?"
 description-long: "Now is your chance to prove your inventiveness and build a parachute for a Dummy 13 and test it in our wind tunnel. In this no-charge challenge, you fashion a parachute out of paper, tape, and string to see if you can get Dummy 13 to float the highest in our vertical wind tunnel."
 image: /assets/images/exhibit-images/26-68-e-throw-dummy-13-out-of-the-plane-iccf-dummy-13-chute-3-300x188.png
@@ -116,8 +117,8 @@ categories:
   - slug: manufacturing
     name: Manufacturing
 created-jotform: "2026-07-13 19:40:39"
-last-modified-jotform: "2026-09-08 13:56:02"
-last-exported: "2026-09-08 13:56:12"
+last-modified-jotform: "2026-10-03 15:01:47"
+last-exported: "2026-10-05 15:07:14"
 sitemap: false
 
 ---

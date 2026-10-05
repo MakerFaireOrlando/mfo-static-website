@@ -5,7 +5,8 @@ title: "Daleks of Florida"
 slug: daleks-of-florida
 permalink: /exhibits/daleks-of-florida/
 exhibit-id: 26-95
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SD14, SE14, SF14"
 description: "Fan built Daleks that are fully functional. With The Legend of the Traveling Tardis podcast crew."
 description-long: "See what it takes to build a Dalek and how we operate them. We will have 2 fully functional Daleks and half build so you can see more of the process. Also, come talk with The Legend of the Traveling Tardis podcast crew."
 image: /assets/images/exhibit-images/26-95-e-daleks-of-florida-3-daleks-300x228.jpg
@@ -63,8 +64,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2026-07-20 20:05:34"
-last-modified-jotform: "2026-09-07 09:12:41"
-last-exported: "2026-09-08 13:55:35"
+last-modified-jotform: "2026-10-03 11:53:39"
+last-exported: "2026-10-05 15:06:53"
 sitemap: false
 
 ---

@@ -5,7 +5,8 @@ title: "Retro Computers from Space!!!!!!!!"
 slug: retro-computers-from-space
 permalink: /exhibits/retro-computers-from-space/
 exhibit-id: 26-136
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SG34, SG35, SG36, SH34, SH35, SH36, SI34, SI35, SI36, SJ34, SJ35, SJ36"
 description: "Come and and relive the past with working computers from the 70's, 80's, 90's and beyond."
 description-long: "Come and and relive the past with working computers from the 70's, 80's, 90's and beyond. Machines will be available for you to play on, as well as their owners to ask questions of."
 image: /assets/images/exhibit-images/26-136-e-retro-computers-from-space-exhibition-1-169x300.jpg
@@ -49,8 +50,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-10 13:19:16"
-last-modified-jotform: "2026-08-23 16:37:48"
-last-exported: "2026-08-23 16:38:26"
+last-modified-jotform: "2026-10-03 11:53:43"
+last-exported: "2026-10-05 15:06:17"
 sitemap: false
 
 ---

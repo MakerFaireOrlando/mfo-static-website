@@ -5,7 +5,8 @@ title: "RobbieJCosplay"
 slug: robbiejcosplay
 permalink: /exhibits/robbiejcosplay/
 exhibit-id: 26-17
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SG21"
 description: "Cosplayer, Dancer, Fashion Designer, Sewest"
 description-long: "RobbieJCosplay is a cosplayer, costumer and fashion designer with over 20+ years of experience both on and back stage with major production companies. They have worked for international ballet companies, the cruise line industry and many live theaters  just to list a few. 
 
@@ -74,8 +75,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-06-30 17:44:01"
-last-modified-jotform: "2026-07-11 11:18:58"
-last-exported: "2026-07-12 19:24:58"
+last-modified-jotform: "2026-10-03 13:48:14"
+last-exported: "2026-10-05 15:07:57"
 sitemap: false
 
 ---

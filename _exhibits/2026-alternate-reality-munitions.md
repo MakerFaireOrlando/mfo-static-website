@@ -5,7 +5,8 @@ title: "Alternate Reality Munitions"
 slug: alternate-reality-munitions
 permalink: /exhibits/alternate-reality-munitions/
 exhibit-id: 26-119
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SE31"
 description: "Gear for your Table Top Games"
 description-long: "This is nearly a 14-year journey that started with me receiving a 3D printed coin at a party.  That coin and my love for Tabletop Gaming fused together to finally bring Tabletop Terrain for my gaming table that I had always searched for. Like so many gamers. I had gone through the gambit of ways to make terrain. The boxes from the 1/72 scale model kits I built with windows drawn on them that became buildings. Glue and Cardboard came next to make custom buildings. Then foam core, Styrofoam, and eventually pouring hydro-cast plaster in molds. Then via Kickstarter I bought a little blue box that was an early 3D printer called an M3D and I was off. What was my first print? A dungeon tile downloaded from Thingiverse."
 image: /assets/images/exhibit-images/26-119-e-alternate-reality-munitions-759596362-122094963327425424-1271362760815295253-n-172-300x300.jpg
@@ -61,8 +62,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-01 13:06:55"
-last-modified-jotform: "2026-09-20 18:00:24"
-last-exported: "2026-09-23 14:11:05"
+last-modified-jotform: "2026-10-03 13:55:14"
+last-exported: "2026-10-05 15:06:31"
 sitemap: false
 
 ---

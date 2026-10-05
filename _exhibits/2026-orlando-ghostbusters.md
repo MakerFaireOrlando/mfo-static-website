@@ -5,7 +5,8 @@ title: "Orlando Ghostbusters"
 slug: orlando-ghostbusters
 permalink: /exhibits/orlando-ghostbusters/
 exhibit-id: 26-24
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SD17, SD18, SE17, SE18"
 description: "Who you gonna call? Us! We're here to bust ghosts, show you how we make our props, and do some good!"
 description-long: "We are a community group that cosplays and makes props based on the Ghostbusters Franchise. We typically like to bring a few examples of works in progress, so we can share how we build the props we display, and we also make some goodies that we use to raise money for the Starlight Children's Foundation, bringing joy to kids in hospitals. We love making things almost as much as we love making a difference to kids who need us!"
 image: /assets/images/exhibit-images/26-24-e-orlando-ghostbusters-584126743-1308416404276729-3836081082748501897-n-7549-300x225.jpg
@@ -132,8 +133,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-01 19:12:23"
-last-modified-jotform: "2026-07-11 11:05:43"
-last-exported: "2026-07-12 19:24:55"
+last-modified-jotform: "2026-10-04 10:58:06"
+last-exported: "2026-10-05 15:07:54"
 sitemap: false
 
 ---

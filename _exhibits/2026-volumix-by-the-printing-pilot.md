@@ -5,7 +5,8 @@ title: "Volumix by The Printing Pilot"
 slug: volumix-by-the-printing-pilot
 permalink: /exhibits/volumix-by-the-printing-pilot/
 exhibit-id: 26-14
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA24"
 description: "A 3D-printed PC audio controller showing design, electronics, PCB work,and software live in action."
 description-long: "Volumix / FaderBox is a fully 3D-printed computer audio controller that combines mechanical design, custom electronics, PCB design, and software into one working product. Visitors will be able to see how a complete product is developed from concept to prototype, including the printed parts, electronics, design iterations, and a live hands-on demo. I will also have more of my well-known projects to show people.
 
@@ -68,8 +69,8 @@ categories:
   - slug: midi
     name: MIDI
 created-jotform: "2026-06-30 15:56:11"
-last-modified-jotform: "2026-07-11 11:28:42"
-last-exported: "2026-07-12 19:25:00"
+last-modified-jotform: "2026-10-03 15:01:52"
+last-exported: "2026-10-05 15:07:59"
 sitemap: false
 
 ---

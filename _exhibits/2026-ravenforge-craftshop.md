@@ -5,7 +5,8 @@ title: "RavenForge CraftShop"
 slug: ravenforge-craftshop
 permalink: /exhibits/ravenforge-craftshop/
 exhibit-id: 26-186
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SD20"
 description: "RavenForge CraftShop is meant to bring joy to everyone by offering loads of fun handcrafted items!"
 description-long: "We sell handcrafted; paper dragonpuppets, wearable Kandi, felted ornaments, therian masks, hand sewn stuffed animals, and other Kandi items such as; mini clowns, keychains, fidgets, stars and more!"
 image: /assets/images/exhibit-images/26-186-e-ravenforge-craftshop-dsc05770-300x200.jpeg
@@ -135,8 +136,8 @@ categories:
   - slug: puppets
     name: Puppets
 created-jotform: "2026-09-03 21:47:43"
-last-modified-jotform: "2026-09-03 22:05:36"
-last-exported: "2026-09-03 22:06:40"
+last-modified-jotform: "2026-10-04 10:59:56"
+last-exported: "2026-10-05 15:05:54"
 sitemap: false
 
 ---

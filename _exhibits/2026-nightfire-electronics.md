@@ -5,7 +5,8 @@ title: "NightFire Electronics"
 slug: nightfire-electronics
 permalink: /exhibits/nightfire-electronics/
 exhibit-id: 26-170
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA13"
 description: "We offer electronic hobby kits, 3D Printing items and epoxy resin crafts and supplies."
 description-long: "All of our electronic kits are designed and built in Ocala, Fl. They include simple LED Flashers to Arduino based circuits. Our 3D printing items are original designs, some of them have electronic circuits built inside of them. Our epoxy resin items include supplies and some are also integrated with electronic items. Our SMT resin products are unique. We offer items were kids can spell their names out with our custom SMT resin letters."
 image: /assets/images/exhibit-images/26-170-e-nightfire-electronics-makerfaire-2024-291x300.jpg
@@ -68,8 +69,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-26 10:27:28"
-last-modified-jotform: "2026-09-20 18:00:30"
-last-exported: "2026-09-23 14:10:51"
+last-modified-jotform: "2026-10-04 10:54:02"
+last-exported: "2026-10-05 15:06:00"
 sitemap: false
 
 ---

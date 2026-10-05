@@ -5,7 +5,8 @@ title: "Float-O-Matic"
 slug: float-o-matic
 permalink: /exhibits/float-o-matic/
 exhibit-id: 26-38
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SI18"
 description: "Land the balloon on a ring."
 description-long: "I built the Float-O-Matic game in the spring of 2026 and shared it for the first time at the Lynchburg Maker Faire that same spring. 
 
@@ -53,8 +54,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-02 18:09:38"
-last-modified-jotform: "2026-07-27 08:41:26"
-last-exported: "2026-07-27 08:44:19"
+last-modified-jotform: "2026-10-03 13:48:09"
+last-exported: "2026-10-05 15:07:38"
 sitemap: false
 
 ---

@@ -5,7 +5,8 @@ title: "Be the Hamster"
 slug: be-the-hamster
 permalink: /exhibits/be-the-hamster/
 exhibit-id: 26-220
-space-number: Unassigned
+exhibit-zone: "Outside"
+space-number: "UAZ14"
 description: "Human powered snow cones via self propelled hamster wheel"
 description-long: "A few words from the man behind the machine . . .
 
@@ -90,8 +91,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-25 14:56:14"
-last-modified-jotform: "2026-09-30 22:46:52"
-last-exported: "2026-09-30 22:58:32"
+last-modified-jotform: "2026-10-04 10:27:24"
+last-exported: "2026-10-05 15:05:46"
 sitemap: false
 
 ---

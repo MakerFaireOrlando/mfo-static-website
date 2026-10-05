@@ -5,7 +5,8 @@ title: "Marble Race"
 slug: marble-race
 permalink: /exhibits/marble-race/
 exhibit-id: 26-22
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC19"
 description: "Competitive marble race with interactive obstacles, shortcuts, and Simon Says challenges."
 description-long: "A two-player interactive marble racing game where players influence their marble's path using timed button presses, Simon Says challenges, and strategic shortcuts. Each race begins with a player-controlled pachinko drop, creating a unique course every time, while dynamic obstacles and shared cooldowns keep every match competitive until the finish."
 image: /assets/images/exhibit-images/26-22-e-marble-race-marblerace-271x300.png
@@ -52,8 +53,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-01 15:20:48"
-last-modified-jotform: "2026-07-11 11:07:13"
-last-exported: "2026-07-12 19:24:55"
+last-modified-jotform: "2026-10-03 15:01:26"
+last-exported: "2026-10-05 15:07:54"
 sitemap: false
 
 ---

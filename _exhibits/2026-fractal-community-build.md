@@ -5,7 +5,8 @@ title: "Fractal Community Build"
 slug: fractal-community-build
 permalink: /exhibits/fractal-community-build/
 exhibit-id: 26-189
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA1, OB1"
 description: "Hands-on fractals, puzzles & math joy with statewide K–12 math circle network"
 description-long: "Orlando Math Circle / Florida Math Circles Network — Maker Faire Orlando
 
@@ -161,8 +162,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-04 15:05:19"
-last-modified-jotform: "2026-09-12 11:27:49"
-last-exported: "2026-09-13 10:36:11"
+last-modified-jotform: "2026-10-04 10:21:15"
+last-exported: "2026-10-05 15:05:53"
 sitemap: false
 
 ---

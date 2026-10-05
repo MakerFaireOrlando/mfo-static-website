@@ -5,7 +5,8 @@ title: "Rocket Tracker"
 slug: rocket-tracker
 permalink: /exhibits/rocket-tracker/
 exhibit-id: 26-88
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA21"
 description: "Rocket Tracker autonomously tracks and video records rockets being launched into space."
 description-long: "Rocket Tracker autonomously tracks and video records rockets being launched into space.  Under the right lighting conditions, the rocket body can be seen from more than 140 miles away!  The operator uses a joystick to control a gimbal holding two camera systems.   When the rocket comes within the Tracking Camera’s field of view and is recognized as a boosting rocket, the system will lock onto and track the rocket in flight while the Telescope Camera records video of the rocket's plume."
 image: /assets/images/exhibit-images/26-88-e-rocket-tracker-primary-photo-rocket-tracker-from-operator-s-view-300x225.jpeg
@@ -218,8 +219,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-18 16:31:42"
-last-modified-jotform: "2026-08-02 17:56:43"
-last-exported: "2026-08-02 17:58:24"
+last-modified-jotform: "2026-10-03 15:01:41"
+last-exported: "2026-10-05 15:06:59"
 sitemap: false
 
 ---

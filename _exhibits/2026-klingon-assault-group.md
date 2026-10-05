@@ -5,7 +5,8 @@ title: "Klingon Assault Group"
 slug: klingon-assault-group
 permalink: /exhibits/klingon-assault-group/
 exhibit-id: 26-81
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SF15"
 description: "Artifacts from the Klingon Empire and Star Trek"
 description-long: "Artifacts and props from the Klingon Empire and Star Trek"
 image: /assets/images/exhibit-images/26-81-e-klingon-assault-group-dscf9273-4596-300x225.JPG
@@ -46,8 +47,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-16 07:19:19"
-last-modified-jotform: "2026-08-23 11:12:52"
-last-exported: "2026-08-23 11:34:42"
+last-modified-jotform: "2026-10-03 13:48:11"
+last-exported: "2026-10-05 15:07:05"
 sitemap: false
 
 ---

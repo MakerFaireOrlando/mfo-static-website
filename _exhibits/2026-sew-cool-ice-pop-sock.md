@@ -5,7 +5,8 @@ title: "“Sew Cool” Ice Pop Sock"
 slug: sew-cool-ice-pop-sock
 permalink: /exhibits/sew-cool-ice-pop-sock/
 exhibit-id: 26-67
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OD19"
 description: "Using miniature sewing machines, we will instruct on how to sew this preassembled ice pop sock."
 description-long: "With outer novelty fabric, lining and batting we will guide sewists to construct an insulated sock to hold an ice pop, using a miniature sewing machine. $5 fee includes fabric and a frozen ice pop."
 image: /assets/images/exhibit-images/26-67-e-sew-cool-ice-pop-sock-image000001-235x300.jpeg
@@ -117,8 +118,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-13 12:05:42"
-last-modified-jotform: "2026-07-13 14:28:34"
-last-exported: "2026-07-13 18:12:05"
+last-modified-jotform: "2026-10-03 15:01:06"
+last-exported: "2026-10-05 15:07:16"
 sitemap: false
 
 ---

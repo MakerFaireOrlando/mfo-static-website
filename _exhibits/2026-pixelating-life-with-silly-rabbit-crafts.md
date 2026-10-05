@@ -5,7 +5,8 @@ title: "Pixelating Life with Silly Rabbit Crafts"
 slug: pixelating-life-with-silly-rabbit-crafts
 permalink: /exhibits/pixelating-life-with-silly-rabbit-crafts/
 exhibit-id: 26-132
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OG12, OG13"
 description: "Silly Rabbit Crafts brings tons of playful pixel art & a hands‑on bead station to spark creativity!"
 description-long: "Silly Rabbit Crafts brings pixel art to life, one bead at a time. Artist Lori has assembled over 30 million beads into vibrant creations ranging from jewelry and large-scale art pieces to even fish-safe aquariums. This exhibit features a full array of premade bead art showcasing the versatility of pixel design, plus an interactive station where attendees can craft their own mini bead creations to take home."
 image: /assets/images/exhibit-images/26-132-e-pixelating-life-with-silly-rabbit-crafts-766304478-1473568834589514-3046378302648502215-n-300x169.jpg
@@ -138,8 +139,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-08 20:40:10"
-last-modified-jotform: "2026-09-20 18:00:26"
-last-exported: "2026-09-23 14:11:00"
+last-modified-jotform: "2026-10-04 10:21:17"
+last-exported: "2026-10-05 15:06:20"
 sitemap: false
 
 ---

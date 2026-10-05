@@ -5,7 +5,8 @@ title: "A And M Bootique"
 slug: a-and-m-bootique
 permalink: /exhibits/a-and-m-bootique/
 exhibit-id: 26-21
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC7"
 description: "We sew and embroider as well as 3D print."
 description-long: "We will be selling our embroidery products as well as 3D prints. I am bringing my embroidery machine and will be demonstrating how to embroider and finish the process.  Chris will also bring his mini 3D printer and demonstrate how to use it."
 image: /assets/images/exhibit-images/26-21-e-a-and-m-bootique-inbound1157418997349234079-300x225.jpg
@@ -67,8 +68,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-06-30 23:37:41"
-last-modified-jotform: "2026-09-20 17:45:17"
-last-exported: "2026-09-23 14:11:46"
+last-modified-jotform: "2026-10-04 11:48:10"
+last-exported: "2026-10-05 15:07:55"
 sitemap: false
 
 ---

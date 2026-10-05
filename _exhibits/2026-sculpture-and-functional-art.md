@@ -5,7 +5,8 @@ title: "Sculpture and functional art."
 slug: sculpture-and-functional-art
 permalink: /exhibits/sculpture-and-functional-art/
 exhibit-id: 26-58
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OD29"
 description: "I will expose some ready pieces and perform a live full size wood sculpture."
 description-long: "I will exhibit readily made pieces and carve a full size lion head out of a block of wood live for the public to watch."
 image: /assets/images/exhibit-images/26-58-e-sculpture-and-functional-art-img-3708-300x181.jpeg
@@ -58,8 +59,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-08 10:20:41"
-last-modified-jotform: "2026-09-21 19:37:03"
-last-exported: "2026-09-23 14:11:35"
+last-modified-jotform: "2026-10-04 10:21:19"
+last-exported: "2026-10-05 15:07:26"
 sitemap: false
 
 ---

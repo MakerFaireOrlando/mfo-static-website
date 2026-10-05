@@ -5,7 +5,8 @@ title: "TherianLoveDesign - Anthropomorphic Cosplay"
 slug: therianlovedesign-anthropomorphic-cosplay
 permalink: /exhibits/therianlovedesign-anthropomorphic-cosplay/
 exhibit-id: 26-31
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SD21"
 description: "Anthro Cosplay and Alterhuman Themed Crafts!"
 description-long: "TherianLoveDesign is a fun little booth created by Hannah Black, an eighth grader who loves designing handmade anthropomorphic cosplay and therian masks! Every mask is made with creativity, imagination, and lots of love.
 
@@ -108,8 +109,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2026-07-01 23:58:53"
-last-modified-jotform: "2026-07-27 08:42:02"
-last-exported: "2026-07-27 08:44:59"
+last-modified-jotform: "2026-10-04 11:00:06"
+last-exported: "2026-10-05 15:07:46"
 sitemap: false
 
 ---

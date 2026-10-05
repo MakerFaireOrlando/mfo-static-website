@@ -5,7 +5,8 @@ title: "Melbourne Makerspace"
 slug: melbourne-makerspace
 permalink: /exhibits/melbourne-makerspace/
 exhibit-id: 26-117
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC22"
 description: "Our space provides shared tools (woodworking, electronics, metal fabrication, soft arts) projects."
 description-long: "Makerspaces have a set of community-owned tools to share. Our space offers machine shop tools, woodworking tools, electronics equipment, and other fabrication devices."
 image: /assets/images/exhibit-images/26-117-e-melbourne-makerspace-collage-300x225.jpg
@@ -220,8 +221,8 @@ categories:
   - slug: woodworking
     name: Woodworking
 created-jotform: "2026-07-31 16:24:56"
-last-modified-jotform: "2026-08-02 17:55:58"
-last-exported: "2026-08-02 17:57:24"
+last-modified-jotform: "2026-10-03 15:01:30"
+last-exported: "2026-10-05 15:06:33"
 sitemap: false
 
 ---

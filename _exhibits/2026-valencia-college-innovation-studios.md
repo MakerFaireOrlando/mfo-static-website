@@ -5,7 +5,8 @@ title: "Valencia College Innovation Studios"
 slug: valencia-college-innovation-studios
 permalink: /exhibits/valencia-college-innovation-studios/
 exhibit-id: 26-165
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OG18"
 description: "Looking for cutting-edge student innovation? Come meet the Valencia College Innovation Studios crew."
 description-long: "Dream, Design, and Build at the Valencia College Innovation Studios! Part of the School of Engineering, Technology, and Advanced Manufacturing (ETAM), our makerspace is the ultimate launchpad for student creators. We feature fully equipped wood and plastic shop, expanding metalworking capabilities, and hands-on access to additive and subtractive manufacturing equipment like CNCs, 3D printers, and a laser cutter. Stop by our booth at Maker Faire Orlando to explore incredible student-made projects, meet the makers, and hear about their hands-on experiences!"
 image: /assets/images/exhibit-images/26-165-e-valencia-college-innovation-studios-06-10-wec-foundation-board-innovation-studios-tour-1-edit-6798-300x170.JPG
@@ -203,8 +204,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-25 13:57:56"
-last-modified-jotform: "2026-08-30 08:44:39"
-last-exported: "2026-08-30 10:08:36"
+last-modified-jotform: "2026-10-03 15:01:50"
+last-exported: "2026-10-05 15:06:05"
 sitemap: false
 
 ---

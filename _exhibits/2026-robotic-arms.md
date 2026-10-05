@@ -5,7 +5,8 @@ title: "Robotic Arms"
 slug: robotic-arms
 permalink: /exhibits/robotic-arms/
 exhibit-id: 26-92
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OG20"
 description: "five different robotic arms that range from simple cardboard to arm with computer vision."
 description-long: "I have created five different robotic armsthat range from simple cardboard to arm with computer vision. The Idea is to show different arms that can be built from around fourth grade to high school. These arms are simple examples and a starting point for students of all ages to imagine and build. Here is a list the arms and the basic use.
 1.	Cardboard arm driven by syringes fill with water. The student can move the arm around using the syringes to extend or contract the joints. This arm is very simple to build and would be suitable for a fourth or fifth grade science project. The cost is minimal at around 5 to 10 dollars.
@@ -53,8 +54,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-20 09:43:01"
-last-modified-jotform: "2026-07-27 08:40:39"
-last-exported: "2026-07-27 08:43:04"
+last-modified-jotform: "2026-10-03 15:01:40"
+last-exported: "2026-10-05 15:06:55"
 sitemap: false
 
 ---

@@ -5,7 +5,8 @@ title: "Orlando Amateur Radio Club"
 slug: orlando-amateur-radio-club
 permalink: /exhibits/orlando-amateur-radio-club/
 exhibit-id: 26-99
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA7"
 description: "Educate youth and adults about Amateur Radio.  How to become a ham radio operator."
 description-long: "Educate youth and adults about Amateur Radio.  How to become a ham radio operator."
 image: /assets/images/exhibit-images/26-99-e-orlando-amateur-radio-club-2014-special-service-club-logo-round-jpg-604-299x300.jpg
@@ -42,8 +43,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-22 20:09:29"
-last-modified-jotform: "2026-08-02 20:16:11"
-last-exported: "2026-08-02 20:18:59"
+last-modified-jotform: "2026-10-04 11:48:17"
+last-exported: "2026-10-05 15:06:51"
 sitemap: false
 
 ---

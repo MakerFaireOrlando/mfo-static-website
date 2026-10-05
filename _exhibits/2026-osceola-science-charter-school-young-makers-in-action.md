@@ -5,7 +5,8 @@ title: "Osceola Science Charter School: Young Makers in Action"
 slug: osceola-science-charter-school-young-makers-in-action
 permalink: /exhibits/osceola-science-charter-school-young-makers-in-action/
 exhibit-id: 26-168
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OG5"
 description: "Lego, robotics, SECME, Bridge, Math Circle, and student-led STEM innovation!"
 description-long: "Osceola Science Charter School is a STEM-focused school dedicated to developing young makers, innovators, problem-solvers, and creative thinkers. Our students engage in hands-on learning through our LEGO and robotics programs, SECME Club, Bridge STEM program, Math Circle, and a variety of STEM projects and competitions.
 Our exhibit will showcase student-created projects that demonstrate engineering, robotics, science, mathematics, creativity, and design. Visitors will have the opportunity to explore our students’ work and experience an interactive maker activity that encourages them to build, experiment, problem-solve, and think like an engineer.
@@ -73,8 +74,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-25 20:40:33"
-last-modified-jotform: "2026-09-05 16:56:36"
-last-exported: "2026-09-05 16:59:07"
+last-modified-jotform: "2026-10-04 11:48:18"
+last-exported: "2026-10-05 15:06:00"
 sitemap: false
 
 ---

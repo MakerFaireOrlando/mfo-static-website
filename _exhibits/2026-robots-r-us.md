@@ -5,7 +5,8 @@ title: "Robots R Us"
 slug: robots-r-us
 permalink: /exhibits/robots-r-us/
 exhibit-id: 26-160
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OD3"
 description: "A showcase of the robots designed and built by the Robotics Club of Central Florida."
 description-long: "A showcase of the robots designed and built by the Robotics Club of Central Florida. Categorically, the showcase will include some interactive robots used by the club in Outreach events, a couple of our competition robots, a few of our leisurely projects, and Tape-measure (Our Boston Dynamics Spot robot). Apart from the physical robots, we will have info-graphics that detail how we built the robots and what we use them for."
 image: /assets/images/exhibit-images/26-160-e-robots-r-us-85a67e19-47b0-4274-8e57-779ace6db2fe-300x169.png
@@ -44,8 +45,8 @@ categories:
   - slug: robotics
     name: Robotics
 created-jotform: "2026-08-22 21:20:13"
-last-modified-jotform: "2026-08-23 10:40:29"
-last-exported: "2026-08-23 11:34:05"
+last-modified-jotform: "2026-10-04 11:48:21"
+last-exported: "2026-10-05 15:06:06"
 sitemap: false
 
 ---

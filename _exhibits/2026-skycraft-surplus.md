@@ -5,7 +5,8 @@ title: "Skycraft Surplus"
 slug: skycraft-surplus
 permalink: /exhibits/skycraft-surplus/
 exhibit-id: 26-196
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OG23, OG24"
 description: "Assortment of electronic parts"
 description-long: "Skycraft will feature Drone kits, solder irons & accessories, arduino's & peripherals, power supplies, breadboards, & electronic kits."
 image: /assets/images/exhibit-images/26-196-e-skycraft-surplus-saucer-7048-300x130.jpg
@@ -52,8 +53,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-08 12:54:31"
-last-modified-jotform: "2026-09-08 13:55:44"
-last-exported: "2026-09-08 13:56:09"
+last-modified-jotform: "2026-10-03 15:01:42"
+last-exported: "2026-10-05 15:05:49"
 sitemap: false
 
 ---

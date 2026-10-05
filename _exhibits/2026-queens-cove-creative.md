@@ -5,7 +5,8 @@ title: "Queens Cove Creative"
 slug: queens-cove-creative
 permalink: /exhibits/queens-cove-creative/
 exhibit-id: 26-18
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC12"
 description: "I am an artist, illustrator, and graphic artist specializing in laser-engraved, hand-painted decor"
 description-long: "I am an artist, illustrator, and graphic artist specializing in laser-engraved, hand-painted decor, Fine art, and pop sci-fi Illustration. I am a Topps Sketch card artist and have worked on licensed products including Star Wars, Marvel, SpongeBob, Veefriend, and Major League Baseball."
 image: /assets/images/exhibit-images/26-18-e-queens-cove-creative-25-2-e-queens-cove-creative-screenshot-20250520-150606-instagram-1017x1024-3244-298x300.jpg
@@ -69,8 +70,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-06-30 19:48:04"
-last-modified-jotform: "2026-09-20 17:45:16"
-last-exported: "2026-09-23 14:11:47"
+last-modified-jotform: "2026-10-04 10:21:18"
+last-exported: "2026-10-05 15:07:56"
 sitemap: false
 
 ---

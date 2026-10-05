@@ -5,7 +5,8 @@ title: "Toys for kids"
 slug: toys-for-kids
 permalink: /exhibits/toys-for-kids/
 exhibit-id: 26-103
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC18"
 description: "Come help us make toys for kids in need"
 description-long: "We will be completing wooden toys and action figures to donate to children shelters"
 image: /assets/images/exhibit-images/26-103-e-toys-for-kids-1762716657216-300x225.jpg
@@ -44,8 +45,8 @@ categories:
   - slug: makerspace
     name: Makerspace
 created-jotform: "2026-07-24 20:48:02"
-last-modified-jotform: "2026-08-02 20:17:06"
-last-exported: "2026-08-02 20:18:59"
+last-modified-jotform: "2026-10-03 15:01:49"
+last-exported: "2026-10-05 15:06:49"
 sitemap: false
 
 ---

@@ -5,7 +5,8 @@ title: "Digital Warpaint"
 slug: digital-warpaint
 permalink: /exhibits/digital-warpaint/
 exhibit-id: 26-123
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OG8, OG9"
 description: "Raised on ’80s neon, comics, cartoons, monsters, and weird ideas—Graven turns nostalgia into art."
 description-long: "NOSTALGIA-DRIVEN BRAND ALCHEMIST   |   COMIC-UNIVERSE CREATION ENGINE   |   HUMBLE HYPE MACHINE
 
@@ -90,8 +91,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-03 19:41:53"
-last-modified-jotform: "2026-09-07 09:12:58"
-last-exported: "2026-09-08 13:55:30"
+last-modified-jotform: "2026-10-04 10:21:12"
+last-exported: "2026-10-05 15:06:28"
 sitemap: false
 
 ---

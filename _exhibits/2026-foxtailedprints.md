@@ -5,7 +5,8 @@ title: "Foxtailedprints"
 slug: foxtailedprints
 permalink: /exhibits/foxtailedprints/
 exhibit-id: 26-20
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OD15"
 description: "A 3D printing and production company encouraging S.T.E.M"
 description-long: "I am a 3D printing artist that is a local printer of the Orlando region of Florida for the last 10 years, my mother and father have been makers running the company recycled beautifully. And every year I help promoting S.T.E.M within the local community by volunteering for teaching kids to solder"
 image: /assets/images/exhibit-images/26-20-e-foxtailedprints-img-1996-300x225.png
@@ -47,8 +48,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-06-30 21:39:19"
-last-modified-jotform: "2026-08-30 16:18:25"
-last-exported: "2026-08-30 19:47:26"
+last-modified-jotform: "2026-10-04 10:21:14"
+last-exported: "2026-10-05 15:07:55"
 sitemap: false
 
 ---

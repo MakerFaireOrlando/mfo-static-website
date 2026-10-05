@@ -5,7 +5,8 @@ title: "Junko's Pop Emporium"
 slug: junkos-pop-emporium
 permalink: /exhibits/junkos-pop-emporium/
 exhibit-id: 26-138
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SI17"
 description: "3D Handmade Origami and paper art"
 description-long: "Junko folds pop culture into paper. Working entirely in 3D origami — no glue, no shortcuts, just thousands of individually folded triangular units pieced together by hand — she transforms flat sheets into sculptural tributes to the characters fans love most. Her portfolio spans Marvel heroes like the Hulk, Thor, and Spider-Man, Pokémon favorites like Pikachu and Charizard, Star Wars icons, Disney classics, and original pieces like her signature dragons and peacocks. A shop owner on Etsy since 2013 with a five-star reputation, Junko has spent over a decade turning custom requests — from anniversary gifts to fandom favorites — into one-of-a-kind paper sculptures. Stop by her table to see how a single square of paper becomes a fully dimensional character, and to find out which of your favorites she's folded!"
 image: /assets/images/exhibit-images/26-138-e-junkos-pop-emporium-000-11225422-950614711656882-712807065031903800-o-5956-300x278.jpg
@@ -130,8 +131,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2026-08-10 21:35:03"
-last-modified-jotform: "2026-09-20 18:00:26"
-last-exported: "2026-09-23 14:10:59"
+last-modified-jotform: "2026-10-03 13:48:10"
+last-exported: "2026-10-05 15:06:16"
 sitemap: false
 
 ---

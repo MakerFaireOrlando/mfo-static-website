@@ -5,7 +5,8 @@ title: "Elizabeth Schechter, Author"
 slug: elizabeth-schechter-author
 permalink: /exhibits/elizabeth-schechter-author/
 exhibit-id: 26-26
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SF18"
 description: "Local author of award-winning speculative romance."
 description-long: "Elizabeth Schechter has been writing award-winning Romantasy since before romantasy was a word. Her writing credits include the award-winning steampunk romance House of Sable Locks, the Celtic fantasy Princes of Air, and 2021 VIVIAN finalist Written in Water."
 image: /assets/images/exhibit-images/26-26-e-elizabeth-schechter-author-2026-04-11-10-40-07-300x225.jpg
@@ -61,8 +62,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-01 21:01:14"
-last-modified-jotform: "2026-09-20 17:45:19"
-last-exported: "2026-09-23 14:11:44"
+last-modified-jotform: "2026-10-04 11:48:12"
+last-exported: "2026-10-05 15:07:53"
 sitemap: false
 
 ---

@@ -5,7 +5,8 @@ title: "Orange Technical College"
 slug: orange-technical-college
 permalink: /exhibits/orange-technical-college/
 exhibit-id: 26-207
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OE21"
 description: "Students from Orange Technical College will be exhibiting their manufacturing projects."
 description-long: "With a rich tradition dating back to 1933, Orange Technical College has consistently transformed lives through education. Our unwavering commitment lies in helping our students achieve their personal and professional aspirations. We firmly believe that there are multiple paths to a successful career, and we are dedicated to guiding you toward your desired destination."
 image: /assets/images/exhibit-images/26-207-e-orange-technical-college-flag-031519-028-300x200.jpg
@@ -46,8 +47,8 @@ categories:
   - slug: maker-community
     name: Maker Community
 created-jotform: "2026-09-17 08:23:26"
-last-modified-jotform: "2026-09-17 08:34:08"
-last-exported: "2026-09-17 08:34:51"
+last-modified-jotform: "2026-10-03 15:01:36"
+last-exported: "2026-10-05 15:05:47"
 sitemap: false
 
 ---

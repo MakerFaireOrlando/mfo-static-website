@@ -5,7 +5,8 @@ title: "Meowstermind Games"
 slug: meowstermind-games
 permalink: /exhibits/meowstermind-games/
 exhibit-id: 26-128
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SC29"
 description: "Want to make your own board game? Learn how to go from printer paper to final product with us."
 description-long: "Based in Central Florida, Meowstermind Games is an indie board game publisher and two person team that proves that anyone can create a board game: all you need is an idea! Stop on by to learn how we combined a choose-your-own-adventure style mystery novel with cards and dice to create a unique board game experience that plays like an interactive puzzle. In addition to getting a behind-the-scenes look at our early prototypes and having the chance to playtest the current version of the game, we will also be teaching you how you can make your own game come to life by sharing our roadmap and helpful tools to get from a vague idea and scraps of printer paper to a fully realized product and how to get that product out into the world to play and enjoy!"
 image: /assets/images/exhibit-images/26-128-e-meowstermind-games-img20260805220923-4-300x240.jpg
@@ -69,8 +70,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-05 22:42:48"
-last-modified-jotform: "2026-08-09 10:33:04"
-last-exported: "2026-08-09 12:22:44"
+last-modified-jotform: "2026-10-03 13:55:17"
+last-exported: "2026-10-05 15:06:26"
 sitemap: false
 
 ---

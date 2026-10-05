@@ -5,7 +5,8 @@ title: "OsielToys"
 slug: osieltoys
 permalink: /exhibits/osieltoys/
 exhibit-id: 26-112
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OA6"
 description: "Use toys to build hands-on circuits with LEDs, gears, and much more!"
 description-long: "The exhibit will feature 6–8 hands-on educational toy stations. Each toy will be set up with its respective assembly manual and component kit, allowing participants of all ages to select a project and build a circuit at their own pace. This setup mirrors my previous Maker Faire exhibit in Miami, where self-paced, guided building created an engaging and interactive experience for families."
 image: /assets/images/exhibit-images/26-112-e-osieltoys-img-42-300x200.jpg
@@ -209,8 +210,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-28 16:53:34"
-last-modified-jotform: "2026-09-20 18:00:22"
-last-exported: "2026-09-23 14:11:10"
+last-modified-jotform: "2026-10-04 11:48:18"
+last-exported: "2026-10-05 15:06:43"
 sitemap: false
 
 ---

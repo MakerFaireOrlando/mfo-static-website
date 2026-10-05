@@ -5,7 +5,8 @@ title: "The Dragon's Horde"
 slug: the-dragons-horde
 permalink: /exhibits/the-dragons-horde/
 exhibit-id: 26-130
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OC4"
 description: "A collection of handmade fantasy sculptures by artist Cid Snook."
 description-long: "Dragons, dragons, and more fantastical creatures! Artist Cid Snook shares her creations once a year at Maker Faire Orlando. Everything she makes is done by hand without the use of 3d printing or AI. All creations are sculpted in clay, molded, cast and then painted all by hand!"
 image: /assets/images/exhibit-images/26-130-e-the-dragons-horde-tablemakerfair-300x225.jpg
@@ -59,8 +60,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2026-08-08 13:20:29"
-last-modified-jotform: "2026-09-20 18:00:25"
-last-exported: "2026-09-23 14:11:04"
+last-modified-jotform: "2026-10-04 11:48:24"
+last-exported: "2026-10-05 15:06:25"
 sitemap: false
 
 ---
