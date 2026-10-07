@@ -141,7 +141,9 @@ Gate sections on feature flags so you can stage content and reveal it later:
 ```
 
 The exhibit and volunteer pages use this pattern to swap between an active form
-and an "opening soon" message. The full flag list is in
+and an "opening soon" message. Flags also combine: the homepage CFM panel is
+gated on `call_for_makers_open and call_for_makers_promo`, so the site-wide
+switch hides it everywhere while the homepage-only flag retires just the promo. The full flag list is in
 **[Settings](settings.md)** — prefer a flag over editing copy whenever one exists.
 
 ---

@@ -43,7 +43,7 @@ These gate the application/registration widgets on their respective pages. When
 
 | Key | Controls | Page |
 |---|---|---|
-| `call_for_makers_open` | Shows the **Apply to Exhibit** button. | `/exhibit-at-maker-faire-orlando/` |
+| `call_for_makers_open` | Shows the **Apply to Exhibit** button, and gates the homepage CFM panel (see [Homepage promos](#homepage-promos)). | `/exhibit-at-maker-faire-orlando/`, `/` |
 | `cfm_url` | The exhibit application URL the button points to. | — |
 | `volunteer_open` | Shows the Humanitix volunteer shift widget. | `/volunteer/` |
 | `volunteer_checkout` | Humanitix slug for the volunteer widget. | — |
@@ -87,7 +87,14 @@ their flag is true, so you can stage content and reveal it when ready:
 |---|---|
 | `featured_makers` | Featured-makers grid (`featured-makers-grid.html`). |
 | `event_shirt_promo` | Event T-shirt promo (`event-shirt.html`). |
+| `call_for_makers_promo` | Call for Makers panel (`call-for-makers-widget.html`). **ANDed with `call_for_makers_open`** — the panel shows only when both are true. |
 | `explore_card_links` | Whether the "Explore the Faire" category cards link out. Set `false` early in the year before the category/stage pages have fresh content. |
+
+> **The CFM panel takes two flags.** `call_for_makers_open` is the site-wide
+> switch — closing it hides the homepage panel along with the Apply button on
+> `/exhibit-at-maker-faire-orlando/`. `call_for_makers_promo` only reaches the
+> homepage, so leave it as the one you flip when the Call for Makers is still
+> open but the homepage should be promoting something else.
 | `footer_ad` / `footer_ad_url` | An optional footer ad and its target. |
 
 ---
@@ -183,7 +190,7 @@ See the [Exhibit Pipeline](exhibit-pipeline.md) for how exhibit data is generate
 In `index.md`:
 
 ```liquid
-{% if site.data.settings.call_for_makers_open %}
+{% if site.data.settings.call_for_makers_open and site.data.settings.call_for_makers_promo %}
 {% include call-for-makers-widget.html %}
 {% endif %}
 ```

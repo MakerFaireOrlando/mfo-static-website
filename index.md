@@ -38,7 +38,7 @@ carousel-slides:
 {% include event-shirt.html %}
 {% endif %}
 
-{% if site.data.settings.call_for_makers_open %}
+{% if site.data.settings.call_for_makers_open and site.data.settings.call_for_makers_promo %}
 {% include call-for-makers-widget.html %}
 {% endif %}
 
