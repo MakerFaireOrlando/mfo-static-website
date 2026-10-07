@@ -58,7 +58,7 @@ event_shirt_promo: false
 # closing the CFM hides it everywhere without touching this flag. Use this one
 # to retire the homepage promo while the CFM itself stays open (e.g. once the
 # homepage should push tickets instead of applications).
-call_for_makers_promo: true
+call_for_makers_promo: false
 # Show links/arrows on the "Explore the Faire" cards. Set false early in the
 # year before the category/stage pages have fresh content to link to.
 explore_card_links: true
