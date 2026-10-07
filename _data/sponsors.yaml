@@ -120,7 +120,7 @@ sponsors:
     url: https://www.weirdlywired.com/
     logo: weirdly-wired.avif
     level: 4
-    active: false
+    active: true
   - name: 3D Printing Nerd
     url: https://www.The3DPrintingNerd.com
     logo: 3dpnbotlogo.jpg
@@ -154,7 +154,7 @@ sponsors:
   - name: Forward Thinking Designs 
     url: https://www.forwardthinkingdesigns.com/
     logo: ftd-LogoBlack.png
-    level: 5
+    level: 3
     active: true
   - name: Meyer Sound  
     url: https://meyersound.com/
@@ -164,6 +164,11 @@ sponsors:
   - name: Mainline   
     url: https://mainlinemarketing.com/
     logo: Mainline-Logo2025_Horiz.png
+    level: 5
+    active: true
+  - name: Meta Humans   
+    url: https://www.metahumans.com/
+    logo: metahumans.webp
     level: 5
     active: true
 
