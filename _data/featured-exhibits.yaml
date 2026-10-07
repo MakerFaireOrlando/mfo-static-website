@@ -8,12 +8,17 @@
 # hand edit shows up there as a difference rather than being overwritten.
 
 homepage:
-  - exhibit-id: 26-153 #czartroniks
-  - exhibit-id: 26-14 #volumix by the printing pilot
-  - exhibit-id: 26-115 #music machines
-    image: /assets/images/exhibit-images/26-115-e-music-machines-pxl-20260407-182606869-1-768x1024.jpg
-  - exhibit-id: 26-71 #void modular
-    image: /assets/images/featured/26-71-featured-void-modular-ac2c760b-1024x683.jpg
+  - exhibit-id: 26-159 #makers of the middle ages - society for creative anachronism
+    title: Society for Creative Anachronism
+  - exhibit-id: 26-137 #odyssey of the mind magic center region
+    image: /assets/images/exhibit-images/26-137-e1-odyssey-of-the-mind-magic-center-region-img-0673-768x1024.jpeg
+    title: Odyssey of the Mind
+  - exhibit-id: 26-97 #sunshine dart league
+    image: /assets/images/exhibit-images/26-97-e-sunshine-dart-league-img-20260620-123836252-hdr-1024x576.jpg
+  - exhibit-id: 26-189 #fractal community build
+    image: /assets/images/exhibit-images/26-189-e6-fractal-community-build-whatsapp-image-2026-09-04-at-12-12-43-pm-3828-793x1024.jpeg
+    title: Orlando Math Circle
+    description: Hands-on fractals, puzzles & math joy with statewide K–12 math circle network
 
 makers-carousel:
   - exhibit-id: 21-48 #k gentry art
