@@ -5,7 +5,8 @@ title: "Roundtable Productions, LLC"
 slug: roundtable-productions-llc
 permalink: /exhibits/roundtable-productions-llc/
 exhibit-id: 26-33
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SE23"
 description: "Roundtable Productions: zoetropes, animatronics & Bits & Bots- robot IP with our Scrap Sweepers game"
 description-long: "Roundtable Productions, LLC returns to Maker Faire Orlando with a hands-on showcase spanning nearly 30 years of themed entertainment fabrication, kinetic art, and original character IP. Founded by Creative Director Stefan Price, Roundtable builds custom props, special effects, and immersive experiences for clients including Disney Parks, Universal, and WWE — and this booth brings that same craft down to Maker Faire scale.
 
@@ -74,8 +75,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-02 04:34:55"
-last-modified-jotform: "2026-07-12 20:30:53"
-last-exported: "2026-07-12 22:58:22"
+last-modified-jotform: "2026-10-09 14:55:51"
+last-exported: "2026-10-10 09:38:43"
 sitemap: false
 
 ---

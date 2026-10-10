@@ -5,6 +5,7 @@ title: "Cheyscozycreations"
 slug: cheyscozycreations
 permalink: /exhibits/cheyscozycreations/
 exhibit-id: 26-12
+exhibit-zone: "Exhibit Tent"
 space-number: Unassigned
 description: "Whimsical handmade crochet, art, and stickers created to add a bit of whimsy to everyday life."
 description-long: "Hi, I’m Cheyanne, the maker behind Cheyscozycreations! I specialize in creating 100% handmade crochet pieces, along with original artwork and stickers inspired by all things whimsical, cozy, and imaginative. Every crochet creation is thoughtfully crafted one stitch at a time, with a focus on quality, creativity, and attention to detail. I love bringing charming characters, playful creatures, and unique designs to life that make people smile.
@@ -155,8 +156,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-06-30 14:36:08"
-last-modified-jotform: "2026-09-20 17:45:16"
-last-exported: "2026-09-23 14:11:49"
+last-modified-jotform: "2026-10-09 14:42:32"
+last-exported: "2026-10-10 09:38:51"
 sitemap: false
 
 ---

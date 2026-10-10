@@ -6,7 +6,7 @@ slug: aromas-of-adventure
 permalink: /exhibits/aromas-of-adventure/
 exhibit-id: 26-91
 exhibit-zone: "Spirit - East"
-space-number: "SI27, SJ27"
+space-number: "SH32, SI32"
 description: "Tabletop inspired scents meant to amplify your experiences when enjoying games at the table."
 description-long: "Enhance Immersion. Create Memories. Ignite Imagination. Aromas of Adventure is a tabletop inspired scented product meant to amplify your experiences when enjoying games at the table."
 image: /assets/images/exhibit-images/26-91-e-aromas-of-adventure-img-6562-225x300.jpeg
@@ -53,8 +53,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-20 02:52:41"
-last-modified-jotform: "2026-10-03 13:55:15"
-last-exported: "2026-10-05 15:06:56"
+last-modified-jotform: "2026-10-09 13:31:55"
+last-exported: "2026-10-10 09:38:19"
 sitemap: false
 
 ---

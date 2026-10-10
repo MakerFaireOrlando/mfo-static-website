@@ -5,7 +5,8 @@ title: "TOY FACTOR-E"
 slug: toy-factor-e
 permalink: /exhibits/toy-factor-e/
 exhibit-id: 26-122
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SE21"
 description: "TOY FACTOR-E, a hands-on experience where kids and adults assemble their own 3D-printed toys."
 description-long: "TOY FACTOR-E is a hands-on experience where kids and adults assemble their own 3D-printed toys.
 
@@ -47,8 +48,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-02 19:39:14"
-last-modified-jotform: "2026-08-02 20:19:10"
-last-exported: "2026-08-02 20:19:15"
+last-modified-jotform: "2026-10-09 14:42:24"
+last-exported: "2026-10-10 09:38:10"
 sitemap: false
 
 ---

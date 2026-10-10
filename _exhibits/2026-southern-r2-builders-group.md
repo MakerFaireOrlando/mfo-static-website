@@ -6,7 +6,7 @@ slug: southern-r2-builders-group
 permalink: /exhibits/southern-r2-builders-group/
 exhibit-id: 26-47
 exhibit-zone: "Spirit - Center"
-space-number: "SG11, SH11"
+space-number: "SH11, SI11"
 description: "We build 1:1 scale of droid from various film franchise but mostly R2D2 from Star Wars."
 description-long: "Florida-based chapter of the international R2 Builders Club, a passionate community of hobbyists who construct 1:1 scale replicas of Star Wars astromech droids, such as R2-D2 and BB-8."
 image: /assets/images/exhibit-images/26-47-e-southern-r2-builders-group-droids-and-space-shuttle-300x200.jpg
@@ -68,8 +68,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-04 08:53:53"
-last-modified-jotform: "2026-10-04 10:58:01"
-last-exported: "2026-10-05 15:07:33"
+last-modified-jotform: "2026-10-09 14:51:19"
+last-exported: "2026-10-10 09:38:36"
 sitemap: false
 
 ---

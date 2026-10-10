@@ -5,7 +5,8 @@ title: "Happy Hearth Books"
 slug: happy-hearth-books
 permalink: /exhibits/happy-hearth-books/
 exhibit-id: 26-7
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SF20"
 description: "We specialize in curated Blind Date with a Book."
 description-long: "Happy Hearth Books is a pop up shop that specializes in Blind Dates with a Book. We rescue books and match them with their new homes. At our core, we are here to create a safe and cozy space for all readers."
 image: /assets/images/exhibit-images/26-7-e-happy-hearth-books-img-2642-225x300.JPEG
@@ -160,8 +161,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2026-06-30 11:29:53"
-last-modified-jotform: "2026-09-20 17:45:13"
-last-exported: "2026-09-23 14:11:52"
+last-modified-jotform: "2026-10-09 14:08:14"
+last-exported: "2026-10-10 09:38:54"
 sitemap: false
 
 ---

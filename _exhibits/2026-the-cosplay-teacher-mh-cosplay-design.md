@@ -6,7 +6,7 @@ slug: the-cosplay-teacher-mh-cosplay-design
 permalink: /exhibits/the-cosplay-teacher-mh-cosplay-design/
 exhibit-id: 26-73
 exhibit-zone: "Spirit - Center"
-space-number: "SH23"
+space-number: "SG21"
 description: "Award-winning giant cosplay builder sharing years of tips, techniques, and inspiration."
 description-long: "Welcome to MH Cosplay Design, where imagination becomes reality. Specializing in larger-than-life cosplay armor, giant props, and detailed character builds, I've spent years designing and crafting award-winning creations while constantly learning new techniques.
 
@@ -219,8 +219,8 @@ categories:
   - slug: cosplay
     name: Cosplay
 created-jotform: "2026-07-14 12:08:41"
-last-modified-jotform: "2026-10-03 13:48:15"
-last-exported: "2026-10-05 15:07:12"
+last-modified-jotform: "2026-10-09 13:32:02"
+last-exported: "2026-10-10 09:38:30"
 sitemap: false
 
 ---

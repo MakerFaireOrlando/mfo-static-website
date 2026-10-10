@@ -5,8 +5,8 @@ title: "Leopard Gecko Planters"
 slug: leopard-gecko-planters
 permalink: /exhibits/leopard-gecko-planters/
 exhibit-id: 26-102
-exhibit-zone: "Opportunity"
-space-number: "OA4"
+exhibit-zone: "Exhibit Tent"
+space-number: " "
 description: "We sell 3D printed orchid and succulent planters.  All planters are of our own design."
 description-long: "We sell 3D printed orchid and succulent planters.  All planters are of our own design.  This year we will be introducing segmented wood turned orchid planters.  We will also be selling live succulents."
 image: /assets/images/exhibit-images/26-102-e-leopard-gecko-planters-img-4776-300x300.jpeg
@@ -78,8 +78,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-24 15:10:32"
-last-modified-jotform: "2026-10-04 11:48:13"
-last-exported: "2026-10-05 15:06:50"
+last-modified-jotform: "2026-10-09 14:56:39"
+last-exported: "2026-10-10 09:38:13"
 sitemap: false
 
 ---

@@ -5,7 +5,8 @@ title: "Little World Creations"
 slug: little-world-creations
 permalink: /exhibits/little-world-creations/
 exhibit-id: 26-89
-space-number: Unassigned
+exhibit-zone: "Spirit - East"
+space-number: "SE27"
 description: "I upcycle vintage tea cups and saucers to make miniature scenes & vignettes."
 description-long: "I upcycle vintage tea cups and saucers to create miniature scenes. Holidays, flowers, fairies, animals, etc. Fine detail & each one is different. Custom designs available."
 image: /assets/images/exhibit-images/26-89-e-little-world-creations-img-20251103-121829216-hdr-169x300.jpg
@@ -216,8 +217,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-18 17:32:31"
-last-modified-jotform: "2026-09-20 18:00:18"
-last-exported: "2026-09-23 14:11:20"
+last-modified-jotform: "2026-10-09 14:51:17"
+last-exported: "2026-10-10 09:38:23"
 sitemap: false
 
 ---

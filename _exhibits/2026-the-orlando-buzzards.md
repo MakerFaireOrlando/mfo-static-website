@@ -5,7 +5,7 @@ title: "The Orlando Buzzards"
 slug: the-orlando-buzzards
 permalink: /exhibits/the-orlando-buzzards/
 exhibit-id: 26-45
-exhibit-zone: "Outside"
+exhibit-zone: "Exhibit Tent"
 space-number: Unassigned
 description: "RC airplane and sailplane build and fly."
 description-long: "We are an RC airplane club, we build and fly model airplanes and sailplanes"
@@ -51,8 +51,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2026-07-03 19:12:59"
-last-modified-jotform: "2026-10-03 13:32:40"
-last-exported: "2026-10-05 15:07:35"
+last-modified-jotform: "2026-10-09 14:08:08"
+last-exported: "2026-10-10 09:38:36"
 sitemap: false
 
 ---

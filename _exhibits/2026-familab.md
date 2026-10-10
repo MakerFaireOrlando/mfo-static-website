@@ -6,7 +6,7 @@ slug: familab
 permalink: /exhibits/familab/
 exhibit-id: 26-70
 exhibit-zone: "Opportunity"
-space-number: "OE18, OE19"
+space-number: "OE19"
 description: "Get to know Familab, the makerspace/hackerspace.  Meet members, see examples of our work"
 description-long: "Get to know Familab, the makerspace/hackerspace.  Meetsome  members, see examples of our projects and what we are all about."
 image: /assets/images/exhibit-images/26-70-e-familab-screenshot-2026-07-13-202958-283x300.png
@@ -49,8 +49,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-13 20:33:07"
-last-modified-jotform: "2026-10-03 15:01:17"
-last-exported: "2026-10-05 15:07:13"
+last-modified-jotform: "2026-10-09 14:42:19"
+last-exported: "2026-10-10 09:38:30"
 sitemap: false
 
 ---

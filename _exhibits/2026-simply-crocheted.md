@@ -6,7 +6,7 @@ slug: simply-crocheted
 permalink: /exhibits/simply-crocheted/
 exhibit-id: 26-66
 exhibit-zone: "Spirit - Center"
-space-number: "SG20"
+space-number: "SE20"
 description: "hand-made crochet plushies"
 description-long: "cute handmade crocheted plushies and other apparel such as bags and fidgets"
 image: /assets/images/exhibit-images/26-66-e-simply-crocheted-img-0150-225x300.jpeg
@@ -81,8 +81,8 @@ categories:
   - slug: talk
     name: Talk
 created-jotform: "2026-07-13 11:51:54"
-last-modified-jotform: "2026-10-04 11:48:22"
-last-exported: "2026-10-05 15:07:17"
+last-modified-jotform: "2026-10-09 13:32:01"
+last-exported: "2026-10-10 09:38:31"
 sitemap: false
 
 ---

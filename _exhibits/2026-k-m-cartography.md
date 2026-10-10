@@ -5,7 +5,8 @@ title: "K&M Cartography"
 slug: k-m-cartography
 permalink: /exhibits/k-m-cartography/
 exhibit-id: 26-23
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SF21"
 description: "Custom and original art inspired by the stories and characters you love."
 description-long: "At IONOX, we transform the worlds we love into unique works of art. Whether inspired by science fiction, fantasy adventures, classic films, or beloved video games, our creations are designed to celebrate the stories and experiences that stay with us long after the credits roll.
 
@@ -92,8 +93,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-01 16:24:19"
-last-modified-jotform: "2026-09-20 17:45:18"
-last-exported: "2026-09-23 14:11:45"
+last-modified-jotform: "2026-10-09 14:51:15"
+last-exported: "2026-10-10 09:38:49"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: dragons-dreams
 permalink: /exhibits/dragons-dreams/
 exhibit-id: 26-48
 exhibit-zone: "Spirit - East"
-space-number: "SF31, SF32"
+space-number: "SF29, SF30"
 description: "3D handpainted miniatures"
 description-long: "award winning -highly sort after - 3D printed and hand painted miniatures by Bob Bird Sr"
 image: /assets/images/exhibit-images/26-48-e-dragons-dreams-img-7204-300x273.jpg
@@ -58,8 +58,8 @@ categories:
   - slug: 3d-printing
     name: 3D Printing
 created-jotform: "2026-07-04 10:25:18"
-last-modified-jotform: "2026-10-03 15:01:16"
-last-exported: "2026-10-05 15:07:33"
+last-modified-jotform: "2026-10-09 13:31:56"
+last-exported: "2026-10-10 09:38:35"
 sitemap: false
 
 ---

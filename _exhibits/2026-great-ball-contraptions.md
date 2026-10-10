@@ -5,7 +5,8 @@ title: "Great Ball Contraptions."
 slug: great-ball-contraptions
 permalink: /exhibits/great-ball-contraptions/
 exhibit-id: 26-63
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OF1, OG1, OG2"
 description: "Lego machines designed to move a small ball around the table using various engineering principals"
 description-long: "Individuals design make and create machines out of legos that use various mechanical properties to move small balls from one end of the table all the way around the table. 
 We have various types of machines and this encourages stem activity due to planning, use of gears and motors and working as. A team to keep everything operating and flowing well"
@@ -167,8 +168,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-10 14:54:02"
-last-modified-jotform: "2026-10-03 14:29:02"
-last-exported: "2026-10-05 15:07:20"
+last-modified-jotform: "2026-10-09 14:42:20"
+last-exported: "2026-10-10 09:38:34"
 sitemap: false
 
 ---

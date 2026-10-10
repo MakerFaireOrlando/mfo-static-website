@@ -5,8 +5,8 @@ title: "Bearded Dragon Turnings"
 slug: bearded-dragon-turnings
 permalink: /exhibits/bearded-dragon-turnings/
 exhibit-id: 26-101
-exhibit-zone: "Opportunity"
-space-number: "OA3"
+exhibit-zone: "Exhibit Tent"
+space-number: " "
 description: "Makers of fine wood products including bowls, end grain cutting boards and spinning tops."
 description-long: "We are makers of fine wood products.  We turn bowls from wood reclaimed from the central Florida area.  We turn smaller items such as pens and spinning tops.  This year we introducing end grain cutting boards and segmented bowls, both made from purchased wood."
 image: /assets/images/exhibit-images/26-101-e-bearded-dragon-turnings-img-4781-8807-300x300.jpeg
@@ -95,8 +95,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-24 14:54:29"
-last-modified-jotform: "2026-10-04 11:48:11"
-last-exported: "2026-10-05 15:06:51"
+last-modified-jotform: "2026-10-09 14:56:38"
+last-exported: "2026-10-10 09:38:14"
 sitemap: false
 
 ---

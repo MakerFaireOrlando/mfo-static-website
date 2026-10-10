@@ -699,108 +699,108 @@ def export(outputAll):
             os.remove(fName)
             countExhibitsRemoved = countExhibitsRemoved+1
 
-    if countExhibitsRemoved or countExport:
-        print ("Exporting CSV files for Illustrator")
-        #output our illustrator space plan file
+ #   if countExhibitsRemoved or countExport:
+        # print ("Exporting CSV files for Illustrator")
+        # #output our illustrator space plan file
 
-        #order the list
+        # #order the list
 
-        spaceplanList = sorted(spaceplanList, key=lambda x:x[0])
-        #print (spaceplanList)
+        # spaceplanList = sorted(spaceplanList, key=lambda x:x[0])
+        # #print (spaceplanList)
 
-        #init the rows - two data sets, deliberately no more than two.
-        #  SpaceExhibitID : Space Number : Exhibit ID [F]
-        #                   Exhibit Name
-        #                   Maker Name
-        #  Blank          : every space empty, for printing the blank plan
-        #
-        #Keep this at two. Binding an object in Illustrator makes it reconcile
-        #that variable across every data set, so each extra view makes binding
-        #and importing slower for no benefit. See _illustrator/illustrator-challenges.md
-        csvrowC = [["View"],["SpaceExhibitID"],["Blank"]]
-        csvrowS = [["View"],["SpaceExhibitID"],["Blank"]]
-        csvrowO = [["View"],["SpaceExhibitID"],["Blank"]]
-        csvrowM = [["View"],["SpaceExhibitID"],["Blank"]]
+        # #init the rows - two data sets, deliberately no more than two.
+        # #  SpaceExhibitID : Space Number : Exhibit ID [F]
+        # #                   Exhibit Name
+        # #                   Maker Name
+        # #  Blank          : every space empty, for printing the blank plan
+        # #
+        # #Keep this at two. Binding an object in Illustrator makes it reconcile
+        # #that variable across every data set, so each extra view makes binding
+        # #and importing slower for no benefit. See _illustrator/illustrator-challenges.md
+        # csvrowC = [["View"],["SpaceExhibitID"],["Blank"]]
+        # csvrowS = [["View"],["SpaceExhibitID"],["Blank"]]
+        # csvrowO = [["View"],["SpaceExhibitID"],["Blank"]]
+        # csvrowM = [["View"],["SpaceExhibitID"],["Blank"]]
 
-        #add blank spaces
-        cRows = ['A','B','C','D','E','F','G','H','I','J']
-        sRows = ['A','B','C','D','E','F','G','H','I','J','K','L']
-        oRows = ['A','B','C','D','E','F','G']
-        mRows = ['A','B','C','D','E','F','G','H']
-        cNumCols = 6
-        sNumCols = 36
-        oNumCols = 29
-        mNumCols = 4
+        # #add blank spaces
+        # cRows = ['A','B','C','D','E','F','G','H','I','J']
+        # sRows = ['A','B','C','D','E','F','G','H','I','J','K','L']
+        # oRows = ['A','B','C','D','E','F','G']
+        # mRows = ['A','B','C','D','E','F','G','H']
+        # cNumCols = 6
+        # sNumCols = 36
+        # oNumCols = 29
+        # mNumCols = 4
 
-        for curRow in cRows:
-          for curCol in range(1,cNumCols + 1):
-            curSpace = "C" + curRow + str(curCol)
+        # for curRow in cRows:
+        #   for curCol in range(1,cNumCols + 1):
+        #     curSpace = "C" + curRow + str(curCol)
 
-            if any(e[0] == curSpace for e in spaceplanList) is False:
-              csvrowC[0].append(curSpace)
-              csvrowC[1].append("")
-              csvrowC[2].append("")
+        #     if any(e[0] == curSpace for e in spaceplanList) is False:
+        #       csvrowC[0].append(curSpace)
+        #       csvrowC[1].append("")
+        #       csvrowC[2].append("")
 
-        for curRow in sRows:
-          for curCol in range(1,sNumCols + 1):
-            curSpace = "S" + curRow + str(curCol)
+        # for curRow in sRows:
+        #   for curCol in range(1,sNumCols + 1):
+        #     curSpace = "S" + curRow + str(curCol)
 
-            if any(e[0] == curSpace for e in spaceplanList) is False:
-              csvrowS[0].append(curSpace)
-              csvrowS[1].append("")
-              csvrowS[2].append("")
+        #     if any(e[0] == curSpace for e in spaceplanList) is False:
+        #       csvrowS[0].append(curSpace)
+        #       csvrowS[1].append("")
+        #       csvrowS[2].append("")
 
-        for curRow in oRows:
-          for curCol in range(1,oNumCols + 1):
-            curSpace = "O" + curRow + str(curCol)
+        # for curRow in oRows:
+        #   for curCol in range(1,oNumCols + 1):
+        #     curSpace = "O" + curRow + str(curCol)
 
-            if any(e[0] == curSpace for e in spaceplanList) is False:
-              csvrowO[0].append(curSpace)
-              csvrowO[1].append("")
-              csvrowO[2].append("")
+        #     if any(e[0] == curSpace for e in spaceplanList) is False:
+        #       csvrowO[0].append(curSpace)
+        #       csvrowO[1].append("")
+        #       csvrowO[2].append("")
 
-        for curRow in mRows:
-          for curCol in range(1,mNumCols + 1):
-            curSpace = "M" + curRow + str(curCol)
-            #print(curSpace)
-            if any(e[0] == curSpace for e in spaceplanList) is False:
-              csvrowM[0].append(curSpace)
-              csvrowM[1].append("")
-              csvrowM[2].append("")
+        # for curRow in mRows:
+        #   for curCol in range(1,mNumCols + 1):
+        #     curSpace = "M" + curRow + str(curCol)
+        #     #print(curSpace)
+        #     if any(e[0] == curSpace for e in spaceplanList) is False:
+        #       csvrowM[0].append(curSpace)
+        #       csvrowM[1].append("")
+        #       csvrowM[2].append("")
 
-        unow = datetime.datetime.now()
-        updated = unow.strftime("%Y-%m-%d-%H:%M:%S")
-        updatedList = ["updated", updated, updated, updated, updated]
+        # unow = datetime.datetime.now()
+        # updated = unow.strftime("%Y-%m-%d-%H:%M:%S")
+        # updatedList = ["updated", updated, updated, updated, updated]
 
 
-        #output by iterating the spaces
-        #row 0 is the space number, row 1 is the label, row 2 is the blank view
-        for spc in spaceplanList:
-          for row in range (0,3):
-            #the Blank view is empty for every space, assigned or not
-            value = spc[row] if row < 2 else ""
-            #split by building
-            if spc[0][0] == "C":
-              csvrowC[row].append(value)
-            elif spc[0][0] == "S":
-              csvrowS[row].append(value)
-            elif spc[0][0] == "O":
-              csvrowO[row].append(value)
-            elif spc[0][0] == "M":
-              csvrowM[row].append(value)
+        # #output by iterating the spaces
+        # #row 0 is the space number, row 1 is the label, row 2 is the blank view
+        # for spc in spaceplanList:
+        #   for row in range (0,3):
+        #     #the Blank view is empty for every space, assigned or not
+        #     value = spc[row] if row < 2 else ""
+        #     #split by building
+        #     if spc[0][0] == "C":
+        #       csvrowC[row].append(value)
+        #     elif spc[0][0] == "S":
+        #       csvrowS[row].append(value)
+        #     elif spc[0][0] == "O":
+        #       csvrowO[row].append(value)
+        #     elif spc[0][0] == "M":
+        #       csvrowM[row].append(value)
 
-        #add update time to end
-        for urow in range (0,3):
-          csvrowC[urow].append(updatedList[urow])
-          csvrowS[urow].append(updatedList[urow])
-          csvrowO[urow].append(updatedList[urow])
-          csvrowM[urow].append(updatedList[urow])
+        # #add update time to end
+        # for urow in range (0,3):
+        #   csvrowC[urow].append(updatedList[urow])
+        #   csvrowS[urow].append(updatedList[urow])
+        #   csvrowO[urow].append(updatedList[urow])
+        #   csvrowM[urow].append(updatedList[urow])
           
 
-        writeCSVFile("curiosity.csv", csvrowC);
-        writeCSVFile("spirit.csv", csvrowS);
-        writeCSVFile("opportunity.csv", csvrowO);
-        writeCSVFile("maker-tent.csv", csvrowM);
+        # writeCSVFile("curiosity.csv", csvrowC);
+        # writeCSVFile("spirit.csv", csvrowS);
+        # writeCSVFile("opportunity.csv", csvrowO);
+        # writeCSVFile("maker-tent.csv", csvrowM);
     #end if changes then write export files
 
     #create include snippet with categories for the makers page

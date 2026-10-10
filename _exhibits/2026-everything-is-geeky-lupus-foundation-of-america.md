@@ -5,8 +5,8 @@ title: "Everything is Geeky - Lupus Foundation of America"
 slug: everything-is-geeky-lupus-foundation-of-america
 permalink: /exhibits/everything-is-geeky-lupus-foundation-of-america/
 exhibit-id: 26-173
-exhibit-zone: "Opportunity"
-space-number: " "
+exhibit-zone: "Spirit - Center"
+space-number: "SJ18"
 description: "Raising awareness for the Lupus Foundation of America.  Fundraising through Everything is Geeky."
 description-long: "We have started attending conventions and other events in an effort to raise awareness of the walk to end Lupus. There are several throughout Florida including one in Orlando every year. I was diagnosed in 2009 and there was a little if any information out there. Lupus is an incurable autoimmune disease where the immune system attacks your own body in my case kidneys. Fundraising is a big part of what we do so this year we started everything is Kiki my husband and I make things to ‘sell for donations.’ I’m pretty crafty. My husband is an artist. We do Crosstitch Legos drawings and more. We try and include all of our favorite fandom’s Star Wars, Lego, Harry Potter, retro video games, Nintendo, Dungeons & Dragons, etc.. The majority of items are $5 with nothing over $25. Your purchases are donations to the Lupus Foundation of America. We also have information about lupus and the upcoming events, and I am always ready and willing to talk to anyone or and everyone who may have a question about lupus.  It’s not a very well known disease and I feel a responsibility to help raise awareness."
 image: /assets/images/exhibit-images/26-173-e-everything-is-geeky-lupus-foundation-of-america-img-7450-713-300x225.jpeg
@@ -68,8 +68,8 @@ categories:
   - slug: lego
     name: LEGO
 created-jotform: "2026-08-28 05:44:33"
-last-modified-jotform: "2026-10-04 10:53:56"
-last-exported: "2026-10-05 15:05:59"
+last-modified-jotform: "2026-10-09 14:55:47"
+last-exported: "2026-10-10 09:38:05"
 sitemap: false
 
 ---

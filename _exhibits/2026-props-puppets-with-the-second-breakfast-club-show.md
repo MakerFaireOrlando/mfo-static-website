@@ -6,7 +6,7 @@ slug: props-puppets-with-the-second-breakfast-club-show
 permalink: /exhibits/props-puppets-with-the-second-breakfast-club-show/
 exhibit-id: 26-94
 exhibit-zone: "Spirit - Center"
-space-number: "SD24"
+space-number: "SE24"
 description: "Join us as we share some of the puppets and props made for The Second Breakfast Club Show."
 description-long: "Join us as we share some of the puppets and props made for The Second Breakfast Club Show. With some creativity, and a green screen, we're able to take our comedic vision from paper to produced. From felt puppets to air dry clay cookies on sticks, just add imagination and anything can be a puppet!"
 image: /assets/images/exhibit-images/26-94-e-props-puppets-with-the-second-breakfast-club-show-wa-1784573707930-7305-269x300.jpeg
@@ -226,8 +226,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-20 16:34:14"
-last-modified-jotform: "2026-10-03 13:48:13"
-last-exported: "2026-10-05 15:06:55"
+last-modified-jotform: "2026-10-09 14:55:50"
+last-exported: "2026-10-10 09:38:19"
 sitemap: false
 
 ---

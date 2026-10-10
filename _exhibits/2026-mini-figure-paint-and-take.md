@@ -6,7 +6,7 @@ slug: mini-figure-paint-and-take
 permalink: /exhibits/mini-figure-paint-and-take/
 exhibit-id: 26-167
 exhibit-zone: "Spirit - East"
-space-number: "SG27, SH27"
+space-number: "SF31, SF32"
 description: "Visit Donnie Dynamo to paint your own mini figure!"
 description-long: "This activity is a great place to flex your artistic muscles! Join us at one of our painting stations to paint your own mini figure, all supplies provided! While you paint, Donnie can offer guidance or explain more about how modern miniatures are made!"
 image: /assets/images/exhibit-images/26-167-e-mini-figure-paint-and-take-donniedynamo-questcon4-300x169.png
@@ -101,8 +101,8 @@ categories:
   - slug: indie-gaming
     name: Indie Gaming
 created-jotform: "2026-08-25 20:05:48"
-last-modified-jotform: "2026-10-03 15:01:31"
-last-exported: "2026-10-05 15:06:01"
+last-modified-jotform: "2026-10-09 13:31:58"
+last-exported: "2026-10-10 09:38:07"
 sitemap: false
 
 ---

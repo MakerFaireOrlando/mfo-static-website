@@ -5,7 +5,8 @@ title: "Laura's Shop"
 slug: lauras-shop
 permalink: /exhibits/lauras-shop/
 exhibit-id: 26-44
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SE15"
 description: "Custom Laser engraving of Ornaments and Pokemon Cards, 3D Printed Toys and  SteamPunk Gifts"
 description-long: "Custom Laser engraving of Ornaments and Pokemon Cards, 3D Printed Toys and  SteamPunk Gifts"
 image: /assets/images/exhibit-images/26-44-e-lauras-shop-laurasshop-4454-300x300.jpg
@@ -47,8 +48,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-03 18:56:30"
-last-modified-jotform: "2026-09-24 14:00:12"
-last-exported: "2026-09-30 22:43:14"
+last-modified-jotform: "2026-10-09 14:55:48"
+last-exported: "2026-10-10 09:38:36"
 sitemap: false
 
 ---

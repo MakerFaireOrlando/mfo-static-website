@@ -5,7 +5,8 @@ title: "Ridiculously Fun Balloons"
 slug: ridiculously-fun-balloons
 permalink: /exhibits/ridiculously-fun-balloons/
 exhibit-id: 26-29
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OE18"
 description: "I can make anything out of balloons. Challenge me!"
 description-long: "With over 15 years of experience making balloons of all shapes and sizes. I can make anything you want or if balloons. And I do mean anything. 
 
@@ -148,8 +149,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2026-07-01 21:59:31"
-last-modified-jotform: "2026-07-12 20:31:16"
-last-exported: "2026-07-12 22:58:22"
+last-modified-jotform: "2026-10-09 14:42:22"
+last-exported: "2026-10-10 09:38:47"
 sitemap: false
 
 ---

@@ -5,7 +5,7 @@ title: "Urban Sketchers Orlando"
 slug: urban-sketchers-orlando
 permalink: /exhibits/urban-sketchers-orlando/
 exhibit-id: 26-53
-exhibit-zone: "Outside"
+exhibit-zone: "Exhibit Tent"
 space-number: Unassigned
 description: "Join us as we sketch from life, capturing scenes of the real world as they occur in real time!"
 description-long: "Urban Sketchers capture life through sketching, drawing, and painting scenes as we see them unfold in front of us. Urban Sketchers Orlando is one of more than 600 chapters around the world that gather to collectively make art in public.
@@ -209,8 +209,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-06 19:52:06"
-last-modified-jotform: "2026-10-06 22:16:54"
-last-exported: "2026-10-06 22:17:59"
+last-modified-jotform: "2026-10-09 14:08:09"
+last-exported: "2026-10-10 09:38:35"
 sitemap: false
 
 ---
