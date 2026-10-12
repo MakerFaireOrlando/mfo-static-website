@@ -6,7 +6,7 @@ slug: steel-in-action-armored-combat-by-florida-armored-combat
 permalink: /exhibits/steel-in-action-armored-combat-by-florida-armored-combat/
 exhibit-id: 26-245
 exhibit-zone: "Exhibit Tent"
-space-number: Unassigned
+space-number: "UAP45, UAP46, UAP47, UAQ45, UAQ46, UAQ47, UAR45, UAR46, UAR47"
 description: "Real steel armor, live armored combat, and the makers who build it. Lift it, wear it, see it fight."
 description-long: "Florida Armored Combat is a 501(c)(3) nonprofit that builds, trains, and competes in buhurt, the full contact sport of medieval armored combat. Our fighters wear real steel armor, most of it fitted, repaired, and modified by the fighters themselves, and fight with blunted steel weapons under a modern rule set and supervised safety standards.
 
@@ -92,8 +92,8 @@ categories:
   - slug: tools
     name: Tools
 created-jotform: "2026-10-07 23:11:35"
-last-modified-jotform: "2026-10-09 14:08:06"
-last-exported: "2026-10-10 09:37:55"
+last-modified-jotform: "2026-10-11 09:42:30"
+last-exported: "2026-10-12 08:24:03"
 sitemap: false
 
 ---

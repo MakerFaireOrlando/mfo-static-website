@@ -6,7 +6,7 @@ slug: amomzingtreats
 permalink: /exhibits/amomzingtreats/
 exhibit-id: 26-82
 exhibit-zone: "Spirit - Center"
-space-number: "SJ17"
+space-number: "SG26"
 description: "AmomzingTreats is a cottage bakery specializing in not too sweet treats with Asian flavors&more."
 description-long: "Amomzingtreats is a cottage bakery specializing in fresh, made-to-order cookies that are indulgent yet not overly sweet. Each flavor is thoughtfully crafted — from classic favorites to bold Asian flavors — making every bite more than just dessert, but an experience. In 2025, Amomzingtreats proudly earned the People’s Choice Award for Sweets, a recognition that celebrates not only the quality and creativity of the cookies, but also the love and dedication baked into every batch"
 image: /assets/images/exhibit-images/26-82-e-amomzingtreats-img-6923-196x300.jpeg
@@ -214,8 +214,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-16 08:17:37"
-last-modified-jotform: "2026-10-09 14:55:46"
-last-exported: "2026-10-10 09:38:26"
+last-modified-jotform: "2026-10-11 11:53:54"
+last-exported: "2026-10-12 08:24:40"
 sitemap: false
 
 ---

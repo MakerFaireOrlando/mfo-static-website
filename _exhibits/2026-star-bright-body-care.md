@@ -6,7 +6,7 @@ slug: star-bright-body-care
 permalink: /exhibits/star-bright-body-care/
 exhibit-id: 26-143
 exhibit-zone: "Opportunity"
-space-number: "OC9"
+space-number: "OG8"
 description: "Star Bright Body Care crafts items that are inspired by theme park life and characters."
 description-long: "Star Bright Body Care crafts items that are inspired by theme park life and characters. 
 
@@ -136,8 +136,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-13 14:50:26"
-last-modified-jotform: "2026-10-04 10:54:04"
-last-exported: "2026-10-05 15:06:12"
+last-modified-jotform: "2026-10-11 17:16:20"
+last-exported: "2026-10-12 08:24:38"
 sitemap: false
 
 ---

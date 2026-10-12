@@ -6,7 +6,7 @@ slug: the-fallout-xperience
 permalink: /exhibits/the-fallout-xperience/
 exhibit-id: 26-242
 exhibit-zone: "Spirit - Center"
-space-number: "SJ23, SJ24, SJ25, SJ26, SK23, SK24, SK25, SK26, SL23, SL24, SL25, SL26"
+space-number: "SJ22, SJ23, SJ24, SJ25, SK22, SK23, SK24, SK25, SL22, SL23, SL24, SL25"
 description: "An immersive, interactive, photobooth style experience based around the fallout universe."
 description-long: "The Fallout Xperience is a traveling immersive cosplay exhibit created and directed by Tyler and Autumn, two fans of Fallout and cosplay who turned their passion for world-building, props, and community into something much bigger than a convention display.
 
@@ -195,8 +195,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-10-06 15:05:29"
-last-modified-jotform: "2026-10-06 22:36:07"
-last-exported: "2026-10-07 06:56:09"
+last-modified-jotform: "2026-10-11 11:54:44"
+last-exported: "2026-10-12 08:24:09"
 sitemap: false
 
 ---

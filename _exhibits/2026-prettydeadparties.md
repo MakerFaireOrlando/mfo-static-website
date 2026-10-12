@@ -6,7 +6,7 @@ slug: prettydeadparties
 permalink: /exhibits/prettydeadparties/
 exhibit-id: 26-76
 exhibit-zone: "Spirit - Center"
-space-number: "SD23"
+space-number: "SH26"
 description: "Pretty Dead Parties: creepy-cute cosplay, SFX, and custom silicone severed finger keepsakes."
 description-long: "Pretty Dead Parties creates creepy-cute cosplay props, special effects projects, and hands-on maker experiences. At the booth, guests can create a custom silicone severed finger keepsake while learning about upcoming cosplay, prop-making, and SFX workshops."
 image: /assets/images/exhibit-images/26-76-e-prettydeadparties-file-00000000f734720c9cd00a8cef8e94a1-6037-300x200.png
@@ -223,8 +223,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-15 13:29:23"
-last-modified-jotform: "2026-10-03 13:48:13"
-last-exported: "2026-10-05 15:07:08"
+last-modified-jotform: "2026-10-11 11:54:31"
+last-exported: "2026-10-12 08:24:44"
 sitemap: false
 
 ---
