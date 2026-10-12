@@ -6,7 +6,7 @@ slug: tampa-hackerspace
 permalink: /exhibits/tampa-hackerspace/
 exhibit-id: 26-65
 exhibit-zone: "Opportunity"
-space-number: "OD25, OE25"
+space-number: "OE25"
 description: "Nonprofit community makerspace in Tampa with over 350 members. Come make with us!"
 description-long: "Tampa Hackerspace is a 501(c)(3) nonprofit community makerspace, home to over 350 makers. We offer welding, machining, woodworking, ceramics, stained glass, electronics, laser engraving, 3D printing, screen printing, sewing and textile arts, rug tufting, and so much more!  We provide the space, equipment, and friendly expertise so people can create, learn, and build without buying pricey gear themselves. Whether you're a seasoned maker or just getting started, come make with us!"
 image: /assets/images/exhibit-images/26-65-e-tampa-hackerspace-tampa-hackerspace-marketing-4368-300x205.png
@@ -49,8 +49,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-11 22:04:14"
-last-modified-jotform: "2026-10-03 15:01:45"
-last-exported: "2026-10-05 15:07:17"
+last-modified-jotform: "2026-10-11 09:10:45"
+last-exported: "2026-10-12 08:24:49"
 sitemap: false
 
 ---

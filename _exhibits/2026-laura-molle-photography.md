@@ -5,8 +5,8 @@ title: "Laura Molle Photography"
 slug: laura-molle-photography
 permalink: /exhibits/laura-molle-photography/
 exhibit-id: 26-51
-exhibit-zone: "Spirit - Center"
-space-number: "SJ21"
+exhibit-zone: "Opportunity"
+space-number: "OE3"
 description: "Unique art creations of mixed media combining postage, guitar picks, jewelry and more with my photos"
 description-long: "I make unique art creations of mixed media, including photo cards, wall art, jewelry, musical art, keychains and other unique items, all combining postage stamps, guitar picks and miscellaneous objects to create one-of-a-kind characteristic art pieces."
 image: /assets/images/exhibit-images/26-51-e-laura-molle-photography-double-neck-website-signed-300x194.jpg
@@ -220,8 +220,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-06 11:45:39"
-last-modified-jotform: "2026-10-09 14:51:15"
-last-exported: "2026-10-10 09:38:35"
+last-modified-jotform: "2026-10-11 12:06:05"
+last-exported: "2026-10-12 08:24:51"
 sitemap: false
 
 ---

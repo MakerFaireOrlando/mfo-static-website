@@ -6,7 +6,7 @@ slug: curtis-epperson-art
 permalink: /exhibits/curtis-epperson-art/
 exhibit-id: 26-61
 exhibit-zone: "Opportunity"
-space-number: "OG14"
+space-number: "OC9"
 description: "Interactive word mosaic art where every image is created entirely from hand-drawn words & phrases."
 description-long: "Curtis Epperson creates a unique style of contemporary art he calls **Word Mosaic Art**. Every piece is made entirely from carefully hand-drawn words and phrases related to the subject, with no word ever repeated. From a distance, viewers see a striking portrait or image. Up close, they discover hundreds of hidden words that tell the story behind the artwork.
 
@@ -67,8 +67,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-09 14:01:08"
-last-modified-jotform: "2026-10-04 10:21:11"
-last-exported: "2026-10-05 15:07:23"
+last-modified-jotform: "2026-10-11 17:16:19"
+last-exported: "2026-10-12 08:24:49"
 sitemap: false
 
 ---

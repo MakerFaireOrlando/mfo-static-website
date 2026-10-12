@@ -5,8 +5,8 @@ title: "Team 2797 Knight & Nerdy Robotics"
 slug: team-2797-knight-nerdy-robotics
 permalink: /exhibits/team-2797-knight-nerdy-robotics/
 exhibit-id: 26-27
-exhibit-zone: "Opportunity"
-space-number: "OE3"
+exhibit-zone: "Spirit - Center"
+space-number: "SJ19"
 description: "Supporting robotics for K-12 students, we have FRC, VexIQ, and other projects students have created."
 description-long: "Specializing in educational and cooperative challenge robotics, team 2797 likes to give students the opportunity to try out, or learn about various types of robotics. We provide demonstration bots as well as bots students can drive and learn from."
 image: /assets/images/exhibit-images/26-27-e-team-2797-knight-nerdy-robotics-img-1426-225x300.jpg
@@ -48,8 +48,8 @@ categories:
   - slug: vex-robotics
     name: VEX Robotics
 created-jotform: "2026-07-01 21:25:38"
-last-modified-jotform: "2026-10-09 14:42:23"
-last-exported: "2026-10-10 09:38:49"
+last-modified-jotform: "2026-10-11 12:06:09"
+last-exported: "2026-10-12 08:24:53"
 sitemap: false
 
 ---
