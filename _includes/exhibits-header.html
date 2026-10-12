@@ -4,10 +4,10 @@
       {% if site.data.settings.maker_exhibits_holdover %}
         <h1>Maker Exhibits from {{site.data.settings.event_year | minus: 1 }}</h1>
 
-        {% if site.data.settings.call_for_makers_open %}
-        <div class="alert alert-warning"><strong>Heads up!</strong> We haven't started approving exhibits for Maker Faire Orlando {{site.data.settings.event_year}}, but you can see our past exhibits below to get a feel for the event!</div>
-        {% else %}
+        {% if site.data.settings.call_for_makers_status == 'not-open-yet' %}
         <div class="alert alert-warning"><strong>Heads up!</strong> We haven't opened our Call For Makers yet for {{site.data.settings.event_year}}, but you can see our past exhibits below to see the type of exhibits you can find at Maker Faire Orlando!</div>
+        {% else %}
+        <div class="alert alert-warning"><strong>Heads up!</strong> We haven't started approving exhibits for Maker Faire Orlando {{site.data.settings.event_year}}, but you can see our past exhibits below to get a feel for the event!</div>
         {% endif %}
 
         {% else %}

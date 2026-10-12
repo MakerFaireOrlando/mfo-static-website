@@ -1,0 +1,71 @@
+{% comment %}
+Call for Makers application card — six phases, driven by
+site.data.settings.call_for_makers_status:
+
+  not-open-yet         hasn't opened yet — "check back" message, no button
+  open-1-full          open, and promoted on the home page — Apply button
+  open-2-quiet         open, but the home page has moved on — Apply button
+  open-3-no-selling    open, but selling exhibits are effectively full
+  open-4-outdoor-only  open, but only outdoor space is left
+  closed               no longer accepting applications — email for a link
+
+The numbers are the order the season runs in; the names say what each does. Only
+open-1-full shows the home page panel (see index.md) — that is the one
+difference between open-1-full and open-2-quiet, so the card below is the same
+for both.
+
+Unlike field-trip-status-card.html, which falls back to its OPEN card, a typo'd
+or missing value here falls back to not-open-yet. This page sits untouched for
+months after the event, and a bad value defaulting to "open" would leave a live
+Apply button pointing at a stale prior-year cfm_url with nobody watching.
+Failing closed is loud during the season and safe outside it.
+
+Pass status="..." to force a state (useful for previewing); otherwise the
+setting decides. The URL comes from settings.cfm_url — update that to the
+current year's JotForm before opening.
+{% endcomment %}
+{% assign cfm_status = include.status | default: site.data.settings.call_for_makers_status %}
+{% case cfm_status %}
+
+{% when 'open-1-full' or 'open-2-quiet' %}
+<div class="mf-apply-callout is-open">
+  <span class="mf-status-tag">Now Open</span>
+  <h2>Applications Are Open!</h2>
+  <p>Ready to share what you make? Submit your exhibit application for {{ site.data.settings.event_year }} Maker Faire Orlando.</p>
+  <a class="btn btn-primary" href="{{ site.data.settings.cfm_url }}">Apply to Exhibit</a>
+</div>
+
+{% when 'open-3-no-selling' %}
+<div class="mf-apply-callout is-open">
+  <span class="mf-status-tag">Limited Space</span>
+  <h2>Applications Are Open!</h2>
+  <p class="mf-callout-note"><strong>We have received a very large number of selling maker applications and are unlikely to approve any additional selling exhibits.</strong> If you were planning to sell your work, you are welcome to apply, but please don’t count on being accepted this year. Makers and community groups exhibiting without selling are still very much encouraged to apply.</p>
+  <p>Ready to share what you make? Submit your exhibit application for {{ site.data.settings.event_year }} Maker Faire Orlando.</p>
+  <a class="btn btn-primary" href="{{ site.data.settings.cfm_url }}">Apply to Exhibit</a>
+</div>
+
+{% when 'open-4-outdoor-only' %}
+<div class="mf-apply-callout is-open">
+  <span class="mf-status-tag">Nearly Full</span>
+  <h2>Applications Are Open!</h2>
+  <p class="mf-callout-note"><strong>We have reached capacity indoors and are only likely to approve exhibits that can be set up outdoors.</strong> If your exhibit can work outside, under a tent and in whatever weather the weekend brings, please do apply. Otherwise, we’d love to see you apply again next year.</p>
+  <p>Submit your exhibit application for {{ site.data.settings.event_year }} Maker Faire Orlando.</p>
+  <a class="btn btn-primary" href="{{ site.data.settings.cfm_url }}">Apply to Exhibit</a>
+</div>
+
+{% when 'closed' %}
+<div class="mf-apply-callout">
+  <span class="mf-status-tag">Applications Closed</span>
+  <h2>The Call for Makers Has Closed</h2>
+  <p>We’re no longer accepting new exhibit applications for {{ site.data.settings.event_year }} Maker Faire Orlando. Thank you to everyone who applied!</p>
+  <p>If you already told us you were applying and still need to submit your application, email us at <a href="mailto:{{ site.data.settings.contact_email }}">{{ site.data.settings.contact_email }}</a> and we’ll send you a direct application link.</p>
+  <p><a href="{{ site.data.settings.newsletter_url }}">Subscribe to our newsletter</a> to hear first when the Call for Makers opens next year.</p>
+</div>
+
+{% else %}
+<div class="mf-apply-callout">
+  <span class="mf-status-tag">Opening Soon</span>
+  <h2>Call for Makers Opens Later This Summer</h2>
+  <p>We haven’t opened the {{ site.data.settings.event_year }} exhibit application process yet. We typically open our Call for Makers in July. Check back here, <a href="{{ site.data.settings.newsletter_url }}">subscribe to our newsletter</a>, and follow us on social media to hear the moment it opens.</p>
+</div>
+{% endcase %}

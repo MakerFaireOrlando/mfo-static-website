@@ -29,23 +29,10 @@ carousel-slides:
   </div>
 </section>
 
-<!-- Application status (data-driven: open shows the Apply button) -->
+<!-- Application status (data-driven: six phases, see settings.call_for_makers_status) -->
 <section class="mf-prose-section is-light">
   <div class="container">
-    {% if site.data.settings.call_for_makers_open %}
-    <div class="mf-apply-callout is-open">
-      <span class="mf-status-tag">Now Open</span>
-      <h2>Applications Are Open!</h2>
-      <p>Ready to share what you make? Submit your exhibit application for {{ site.data.settings.event_year }} Maker Faire Orlando.</p>
-      <a class="btn btn-primary" href="{{ site.data.settings.cfm_url }}">Apply to Exhibit</a>
-    </div>
-    {% else %}
-    <div class="mf-apply-callout">
-      <span class="mf-status-tag">Opening Soon</span>
-      <h2>Call for Makers Opens Later This Summer</h2>
-      <p>We haven’t opened the {{ site.data.settings.event_year }} exhibit application process yet. Check back later this summer and follow us on social media for the announcement!</p>
-    </div>
-    {% endif %}
+    {% include call-for-makers-status-card.html %}
   </div>
 </section>
 

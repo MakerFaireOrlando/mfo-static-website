@@ -133,18 +133,27 @@ Browse [`_includes/`](../_includes/) for the full set; see
 Gate sections on feature flags so you can stage content and reveal it later:
 
 ```liquid
-{% if site.data.settings.call_for_makers_open %}
-  {% include call-for-makers-widget.html %}
+{% if site.data.settings.tickets_on_sale %}
+  <iframe data-checkout="makerfaireorlando"></iframe>
 {% else %}
-  <p>Applications open soon — check back!</p>
+  <p>Tickets aren't on sale yet — check back!</p>
 {% endif %}
 ```
 
-The exhibit and volunteer pages use this pattern to swap between an active form
-and an "opening soon" message. Flags also combine: the homepage CFM panel is
-gated on `call_for_makers_open and call_for_makers_promo`, so the site-wide
-switch hides it everywhere while the homepage-only flag retires just the promo. The full flag list is in
-**[Settings](settings.md)** — prefer a flag over editing copy whenever one exists.
+The volunteer and ticket pages use this pattern to swap between an active form
+and an "opening soon" message.
+
+Not every setting is a boolean. Where a section has states in between — the Call
+for Makers runs through six phases, Field Trip Day four — the setting holds a
+**string** and a dedicated include does a `{% case %}` on it, so each state's
+wording lives in one place instead of being hand-edited into the page:
+
+```liquid
+{% include call-for-makers-status-card.html %}
+```
+
+The full list is in **[Settings](settings.md)** — prefer a setting over editing
+copy whenever one exists.
 
 ---
 

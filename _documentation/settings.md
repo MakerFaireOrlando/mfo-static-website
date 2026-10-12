@@ -43,7 +43,7 @@ These gate the application/registration widgets on their respective pages. When
 
 | Key | Controls | Page |
 |---|---|---|
-| `call_for_makers_open` | Shows the **Apply to Exhibit** button, and gates the homepage CFM panel (see [Homepage promos](#homepage-promos)). | `/exhibit-at-maker-faire-orlando/`, `/` |
+| `call_for_makers_status` | Which of six application cards shows, and whether the homepage CFM panel appears. **A string, not a boolean** — see below. | `/exhibit-at-maker-faire-orlando/`, `/` |
 | `cfm_url` | The exhibit application URL the button points to. | — |
 | `volunteer_open` | Shows the Humanitix volunteer shift widget. | `/volunteer/` |
 | `volunteer_checkout` | Humanitix slug for the volunteer widget. | — |
@@ -55,7 +55,42 @@ These gate the application/registration widgets on their respective pages. When
 > `cfm_url` is the JotForm call-for-makers form; `volunteer_checkout` is the
 > Humanitix event slug (currently still the 2025 slug — change it for 2026).
 
-### `field_trip_status` — the one flag that isn't a boolean
+### The two flags that aren't booleans
+
+Two of the registrations above have more shape to their season than open/shut,
+so they take a string instead of `true`/`false`. Both follow the same pattern: a
+`{% case %}` in a dedicated include renders one card per value, and the page
+itself just includes it.
+
+#### `call_for_makers_status`
+
+The Call for Makers runs closed over the winter, opens loudly in July, goes
+quiet while the homepage moves on to tickets, then narrows as space fills —
+selling exhibits first, then everything but outdoor space — before closing. Six
+values, numbered in the order the season runs in:
+
+| Value | Homepage panel | Card on `/exhibit-at-maker-faire-orlando/` |
+|---|---|---|
+| `not-open-yet` | hidden | Navy "Opening Soon" card, "we typically open in July", no button. |
+| `open-1-full` | **shown** | White "Now Open" card with the **Apply to Exhibit** button. |
+| `open-2-quiet` | hidden | The same open card and button — the homepage has just moved on. |
+| `open-3-no-selling` | hidden | Open card + button, plus a highlighted note that additional selling exhibits are unlikely to be approved. |
+| `open-4-outdoor-only` | hidden | Open card + button, plus a note that we're at capacity indoors and only outdoor exhibits are likely. |
+| `closed` | hidden | Navy "Closed" card, no button, pointing anyone who already said they were applying at `contact_email` for a direct form link. |
+
+`open-1-full` is the **only** value that shows the homepage panel — that is the
+sole difference between it and `open-2-quiet`.
+
+> **Unlike `field_trip_status` below, a typo falls back to `not-open-yet`**, not
+> to the open card. This page sits untouched for months after the event, and a
+> bad value defaulting to "open" would leave a live Apply button pointing at a
+> stale prior-year `cfm_url` with nobody watching. Failing closed is loud during
+> the season and safe outside it.
+
+All six live in
+[`_includes/call-for-makers-status-card.html`](../_includes/call-for-makers-status-card.html).
+
+#### `field_trip_status`
 
 Field Trip Day has a state the other pages don't: it usually fills up for
 **school groups** 6–8 weeks out while homeschool and full-time virtual families
@@ -87,15 +122,14 @@ their flag is true, so you can stage content and reveal it when ready:
 |---|---|
 | `featured_makers` | Featured-makers grid (`featured-makers-grid.html`). |
 | `event_shirt_promo` | Event T-shirt promo (`event-shirt.html`). |
-| `call_for_makers_promo` | Call for Makers panel (`call-for-makers-widget.html`). **ANDed with `call_for_makers_open`** — the panel shows only when both are true. |
 | `explore_card_links` | Whether the "Explore the Faire" category cards link out. Set `false` early in the year before the category/stage pages have fresh content. |
-
-> **The CFM panel takes two flags.** `call_for_makers_open` is the site-wide
-> switch — closing it hides the homepage panel along with the Apply button on
-> `/exhibit-at-maker-faire-orlando/`. `call_for_makers_promo` only reaches the
-> homepage, so leave it as the one you flip when the Call for Makers is still
-> open but the homepage should be promoting something else.
 | `footer_ad` / `footer_ad_url` | An optional footer ad and its target. |
+
+> **The CFM panel has no flag of its own.** It is driven entirely by
+> `call_for_makers_status` (see [Registration flags](#registration-flags)) and
+> shows only while that is `open-1-full`. To retire the homepage promo while
+> applications stay open, move the status to `open-2-quiet`. The retired
+> `call_for_makers_promo` boolean did this job before the phases existed.
 
 ---
 
@@ -190,15 +224,20 @@ See the [Exhibit Pipeline](exhibit-pipeline.md) for how exhibit data is generate
 In `index.md`:
 
 ```liquid
-{% if site.data.settings.call_for_makers_open and site.data.settings.call_for_makers_promo %}
+{% if site.data.settings.call_for_makers_status == 'open-1-full' %}
 {% include call-for-makers-widget.html %}
 {% endif %}
 ```
 
-And on the exhibit page, the same flag swaps between an **Apply** button (open)
-and an **Opening Soon** callout (closed), with the button pointing at
-`site.data.settings.cfm_url`. This is the standard pattern: **flag decides
-visibility, a companion key supplies the URL/slug.**
+And on the exhibit page, that same key picks one of six cards — via a
+`{% case %}` in `call-for-makers-status-card.html` — with the **Apply** button
+pointing at `site.data.settings.cfm_url`. This is the standard pattern: **the
+setting decides what shows, a companion key supplies the URL/slug.**
+
+A boolean is fine when a section is simply on or off. Reach for a string, as
+both status keys above do, once there are states in between — it keeps the
+wording for each state in one include instead of scattering hand-edited copy
+across pages.
 
 ---
 

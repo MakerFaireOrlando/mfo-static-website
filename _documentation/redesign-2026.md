@@ -255,9 +255,17 @@ scannable, sectioned layout modeled on makerfaire.com/bay-area/call-for-makers/.
 Switched the page to `layout: full-width` for full-bleed bands. Sections:
 1. **Hero** overlay ("Become an Exhibitor").
 2. **Lead** intro (`.mf-prose.mf-lead`).
-3. **Application status callout** — data-driven on `settings.call_for_makers_open`:
-   - open → coral callout + **Apply to Exhibit** button → `settings.cfm_url`
-   - closed → navy "Opening Soon" message (no button).
+3. **Application status callout** — `{% include call-for-makers-status-card.html %}`,
+   data-driven on `settings.call_for_makers_status`. Originally a boolean
+   (`call_for_makers_open`) with just open/closed branches; since replaced by six
+   ordered phases so the narrowing end of the season can be expressed without
+   hand-editing copy:
+   - `not-open-yet` → navy "Opening Soon" message (no button)
+   - `open-1-full` / `open-2-quiet` → white callout + **Apply to Exhibit** button
+     → `settings.cfm_url` (the first also shows the homepage CFM panel)
+   - `open-3-no-selling` / `open-4-outdoor-only` → the same open callout plus a
+     `.mf-callout-note` warning, button still shown
+   - `closed` → navy "Closed" message pointing at `settings.contact_email`.
 4. **Ways to Take Part** — four `.mf-info-card`s (Makers free / Selling $150 /
    Businesses → sponsor / Combat Robots → Robot Ruckus) with coral FA icons.
 5. **What You'll Need to Apply** — `.mf-checklist` (coral fa-check bullets).

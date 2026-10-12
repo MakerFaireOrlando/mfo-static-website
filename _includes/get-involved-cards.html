@@ -17,7 +17,18 @@
         </div>
         <div class="mf-card-body">
           <p>Show off your project, demo, or craft. Exhibiting is free and open to all.</p>
-          <span class="mf-link-arrow">Apply to exhibit</span>
+          {%- comment -%}
+            Soften the call to action when there is nothing to apply to yet.
+            Tested against the four OPEN values, not the closed ones, so that an
+            unrecognised value softens the wording too — matching the way
+            call-for-makers-status-card.html falls back to its not-open-yet card.
+            Don't be tempted by `contains "open"`: that also matches
+            "not-open-yet", which is the opposite of what we want.
+          {%- endcomment -%}
+          {%- assign cfm = site.data.settings.call_for_makers_status -%}
+          {%- assign cfm_open = false -%}
+          {%- if cfm == 'open-1-full' or cfm == 'open-2-quiet' or cfm == 'open-3-no-selling' or cfm == 'open-4-outdoor-only' -%}{%- assign cfm_open = true -%}{%- endif -%}
+          <span class="mf-link-arrow">{% if cfm_open %}Apply to exhibit{% else %}Learn about exhibiting{% endif %}</span>
         </div>
       </a>
 

@@ -64,16 +64,16 @@
   label: Zone and space shown on exhibit pages
   done_when: true
 
-- key: call_for_makers_open
+# Strings, not booleans: see _data/settings.yaml. done_when is an exact match, so
+# only the fully-open value reads as done -- every other phase shows as
+# outstanding. That is what we want at year-roll (a page left on last year's
+# "closed" is exactly the kind of leftover this list is for); mid-season both are
+# optional, so they are listed without being counted as work outstanding.
+- key: call_for_makers_status
   label: Call for Makers open (or deliberately closed)
-  done_when: true
+  done_when: open-1-full
   optional: true
 
-# String, not a boolean: see _data/settings.yaml. done_when is an exact match, so
-# only "open" reads as done -- not-open-yet, no-groups and closed all show as
-# outstanding. That is what we want at year-roll (a page left on last year's
-# "closed" is exactly the kind of leftover this list is for); mid-season it is
-# optional, so it is listed without being counted as work outstanding.
 - key: field_trip_status
   label: Field Trip Day registration open (or deliberately closed)
   done_when: open

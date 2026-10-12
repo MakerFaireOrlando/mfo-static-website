@@ -2,10 +2,23 @@
 maker_exhibits_holdover: false
 maker_exhibits_show_location: false
 
-call_for_makers_open: true
+# Call for Makers. Like field_trip_status below this one is a STRING, not a
+# boolean, because the season has more shape than open/shut. It drives the
+# application card on /exhibit-at-maker-faire-orlando/ and the home page panel.
+# The numbers are the order the season runs in; the names say what each does:
+#   not-open-yet         "check back" message, no button, nothing on the home page
+#   open-1-full          open, AND promoted on the home page — Apply button
+#   open-2-quiet         open, but the home page has moved on to other promos
+#   open-3-no-selling    open + warning: unlikely to approve more selling exhibits
+#   open-4-outdoor-only  open + warning: at capacity, only outdoor exhibits likely
+#   closed               no button; email contact_email for a direct form link
+# open-1-full is the ONLY value that shows the home page Call for Makers panel.
+# Anything else (including a typo) falls back to the not-open-yet card — see
+# _includes/call-for-makers-status-card.html for why that way round.
+call_for_makers_status: closed
 # Exhibit application URL — shown as the "Apply to Exhibit" button on
-# /exhibit-at-maker-faire-orlando/ when call_for_makers_open is true.
-# UPDATE this to the current year's form before flipping the flag.
+# /exhibit-at-maker-faire-orlando/ in all four open-* phases above.
+# UPDATE this to the current year's form before opening.
 cfm_url: https://www.jotform.com/makereffect/cfm2026
 
 # Volunteer registration. When open, /volunteer/ shows the Humanitix shift
@@ -53,12 +66,10 @@ theme_invasion_fx_fadeout: 10
 #homepage settings
 featured_makers: true
 event_shirt_promo: false
-# Call for Makers promo panel on the homepage. This is an AND with
-# call_for_makers_open above: the panel only shows when BOTH are true, so
-# closing the CFM hides it everywhere without touching this flag. Use this one
-# to retire the homepage promo while the CFM itself stays open (e.g. once the
-# homepage should push tickets instead of applications).
-call_for_makers_promo: false
+# The Call for Makers panel is NOT a flag of its own any more. It shows only
+# while call_for_makers_status (above) is open-1-full. To retire the homepage
+# promo while the CFM itself stays open — e.g. once the homepage should push
+# tickets instead of applications — move the status to open-2-quiet.
 # Show links/arrows on the "Explore the Faire" cards. Set false early in the
 # year before the category/stage pages have fresh content to link to.
 explore_card_links: true
