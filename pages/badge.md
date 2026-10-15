@@ -21,26 +21,7 @@ Thanks for participating at Maker Faire Orlando!
 ### Event Hours
 See the [Maker Manual](/maker-manual) for more detail on times including load-in and load-out information. 
 
-Thursday 4pm to 8pm - Maker Check-in and setup for those participating on Field Trip Day
-
-Friday 8:00am - Field Trip Day maker entry and any last-minute load-in
-
-Friday 10am to 3pm - Maker Faire Field Trip Day
-
-Friday 4pm to 8pm - Maker Check-in and setup (exit by 8pm)
-
-Friday 6pm to 7pm - The Maker Mixer (during setup) at the Maker Faire Stage.
-
-Saturday 8am to 9am - Maker Check-in resumes. Gates will not be open to makers before 8am. Vehicles will not be able to enter after 9am (and may be restricted earlier if needed.)
-
-Saturday 10am to 5pm - Maker Faire Orlando show hours. 
-
-Sunday 9am - Gates open for makers.
-
-Sunday 10am to 5pm - Maker Faire Orlando show hours. 
-
-Sunday 6pm (at the earliest) vehicles may enter the show area for load-out. 
-
+{% include event-hours-table.html %}
 
 ### Maker Manual
 The [Maker Manual](/maker-manual) contains helpful tips and info for exhibiting makers.

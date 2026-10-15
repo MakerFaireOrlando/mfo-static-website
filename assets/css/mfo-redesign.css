@@ -1694,3 +1694,130 @@ html:has(.mf-crew-roles) { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) {
   html:has(.mf-crew-roles) { scroll-behavior: auto; }
 }
+
+/* ==============================================================
+ * 16. Event hours table (/badge/)
+ *     Markup: _includes/event-hours-table.html
+ *
+ *     Two layouts from one <table>. At >600px it reads as a normal
+ *     time / description table with a dark day band starting each
+ *     group. At <=600px every cell is switched to display:block so
+ *     each entry stacks — time above description — and the column
+ *     header row is hidden (it would be meaningless once stacked).
+ *     That keeps real table semantics for screen readers while
+ *     avoiding the horizontal squeeze a two-column table gets on a
+ *     phone.
+ *
+ *     Colors route through --mf-* tokens only, so dark mode and the
+ *     invasion skin pick it up with no extra rules.
+ * ============================================================== */
+
+.mf-hours-table {
+  width: 100%;
+  margin: 18px 0 30px;
+  border-collapse: collapse;
+  background: var(--mf-surface);
+  border: 1px solid var(--mf-gray-200);
+  border-radius: var(--mf-radius);
+  /* Clips the day band's square corners to the rounded table edge. */
+  overflow: hidden;
+  font-family: var(--mf-font-body);
+  font-size: 0.97rem;
+  line-height: 1.45;
+}
+
+/* Column header: quiet, since the day bands do the real labelling. */
+.mf-hours-table thead th {
+  background: var(--mf-gray-50);
+  color: var(--mf-gray-600);
+  font-family: var(--mf-font-head);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--mf-gray-200);
+}
+
+/* Day band. --mf-dark-bg (not --mf-navy) because --mf-navy flips to a light
+   tone in dark mode, which would collide with the white text. */
+.mf-hours-table .mf-hours-day th {
+  background: var(--mf-dark-bg);
+  color: var(--mf-white);
+  font-family: var(--mf-font-head);
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 9px 16px;
+}
+.mf-hours-table .mf-hours-day th span {
+  font-weight: 500;
+  opacity: 0.7;
+  margin-left: 8px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.mf-hours-table tbody th[scope="row"] {
+  width: 10.5em;
+  padding: 12px 16px;
+  color: var(--mf-ink);
+  font-weight: 700;
+  white-space: nowrap;
+  vertical-align: top;
+  border-top: 1px solid var(--mf-gray-200);
+}
+.mf-hours-table tbody td {
+  padding: 12px 16px 12px 0;
+  color: var(--mf-gray-800);
+  vertical-align: top;
+  border-top: 1px solid var(--mf-gray-200);
+}
+/* The band supplies its own separation; no hairline above it. */
+.mf-hours-table .mf-hours-day + tr th,
+.mf-hours-table .mf-hours-day + tr td { border-top: 0; }
+
+/* Secondary detail (caveats, "exit by 8pm") — present but de-emphasised. */
+.mf-hours-note {
+  display: block;
+  margin-top: 3px;
+  color: var(--mf-gray-600);
+  font-size: 0.88rem;
+}
+
+/* Public show hours: the rows makers scan for first. */
+.mf-hours-table tr.is-show th[scope="row"],
+.mf-hours-table tr.is-show td { background: rgba(219, 43, 47, 0.06); }
+.mf-hours-table tr.is-show th[scope="row"] {
+  color: var(--mf-red);
+  box-shadow: inset 4px 0 0 var(--mf-red);
+}
+
+/* --- Stacked layout for phones ------------------------------------------ */
+@media (max-width: 600px) {
+  /* "Time / What's happening" is redundant once the cells stack. */
+  .mf-hours-table thead { display: none; }
+
+  .mf-hours-table,
+  .mf-hours-table tbody,
+  .mf-hours-table tr,
+  .mf-hours-table tbody th[scope="row"],
+  .mf-hours-table tbody td { display: block; width: auto; }
+
+  .mf-hours-table .mf-hours-day th { display: block; }
+
+  .mf-hours-table tbody th[scope="row"] {
+    padding: 12px 16px 0;
+    border-top: 1px solid var(--mf-gray-200);
+    white-space: normal;
+    font-size: 1rem;
+  }
+  .mf-hours-table tbody td {
+    padding: 2px 16px 12px;
+    border-top: 0;
+  }
+  /* The time cell already carries the row's tint and accent bar; the
+     description cell continues it without re-drawing the border. */
+  .mf-hours-table tr.is-show td { box-shadow: inset 4px 0 0 var(--mf-red); }
+}

@@ -34,7 +34,7 @@ Maker Faire Orlando has a zero tolerance policy for harassment of any kind - Lea
 * Pop-up tents (no larger than 10'x10' including the spread of the legs) are welcomed outdoors, but must be weighted to avoid wind damage. Pop-up tents may not be used inside unless the top canopy is removed, per fire code. Some creative makers have setup the frame indoors, then draped the frame with fabric or other materials while not impeding fire sprinkers. 
 
 ## Load-in & Load-out 
-### Load-in and Entry Times (Changed for 2025)
+### Load-in and Entry Times
 
 #### Field Trip Day Exhibitors
  Load in for Field Trip Day exhibits is Thursday from 4PM to 8PM (completed by 8PM please, not arriving at 8PM). If your exhibit requires additional load-in time and you need to start before 4PM, please [email us](mailto:makers@makerfaireorlando.com). 
@@ -42,7 +42,7 @@ Maker Faire Orlando has a zero tolerance policy for harassment of any kind - Lea
  **Field Trip Day maker entry and any last-minute load in (exceptions only) will be at 8:00AM on Friday** for the event to start at 10AM. If you need to load in for Field Trip Day on Friday morning, please [email us](mailto:makers@makerfaireorlando.com).
 
 #### Weekend Exhibitors
- Load in for Weekend Exhibits is Friday from 4PM to 8PM (completed by 8PM please, not arriving at 8PM). This has changed from prior years due to the addition of Field Trip Day on Friday that limits load-in activity. 
+ Load in for Weekend Exhibits is Friday from 4PM to 8PM (completed by 8PM please, not arriving at 8PM). 
 
  **We STRONGLY advise setup before the event day!** If something is wrong, we can likely fix it on Friday. If you don’t arrive until Saturday morning, we have very limited ability to fix any issues. Friday night is also a GREAT time to meet other makers and to connect with your neighboring makers before the crowd arrives at the Maker Mixer (see below)!
  
@@ -58,10 +58,7 @@ If these times do not work for you and you need special arrangements, please [em
 SEE LOAD-IN TIMES ABOVE. Please park in general parking (the field across from the ticket area), walk over to the ticket booth area where we will have general Maker check-in and Robot Ruckus competitor check-in tents. Have your exhibitor ticket QR code scanned, receive your badge(s), THEN go get your vehicle to unload at your building. Unload, leave someone with your items, return your car to the parking lot, then go setup. We have 200+ exhibits to setup in a short period of time, and vehicles blocking lanes and loading and unloading zones slows everyone down. Please ensure you have a cart and sufficient helpers to help you with this process. Thank you!
 
 ### Event Badges, Wristbands & Check-in
-You will receive email before the week of the event with exhibitor tickets. You will distribute these electronically to your team who are not arriving at the same time. At check-in, ticket QR codes will be scanned and a set of credentials will be given for each ticket. All requests for additional badges (more than 4 total badges) should be sent to us ([email us](mailto:makers@makerfaireorlando.com)) with the exhibit name. **All requests for additional helpers must be received by Sunday, November 2nd**. You are responsible for making arrangements to get tickets or credentials to your helpers.
-
-### Maker Mixer – Friday night
-The Maker Mixer is from 6PM to 7PM on Friday night. This is a great time to meet other makers, grab food (we will have some light food, but note that we will not be able to meet all dietary needs, please plan accordingly), and try some of the hands-on activities. Our goal is to have our Make-a-shirt workshop open on Friday evening for the Maker Mixer so that Makers and Maker Helpers are able to make their own Maker Faire Orlando for only $10. We may have other hands-on activities open if those teams are on site Friday night and setup. Stay tuned for more info 🙂 Please note the Maker Mixer is limited to those with event (Maker / volunteer / etc.) credentials, no guests are allowed.
+You will receive email before the week of the event with exhibitor tickets. You will distribute these electronically to your team who are not arriving at the same time. At check-in, ticket QR codes will be scanned and a set of credentials will be given for each ticket. All requests for additional badges (more than 4 total badges) should be sent to us ([email us](mailto:makers@makerfaireorlando.com)) with the exhibit name. **All requests for additional helpers must be received by Sunday, November 1st**. You are responsible for making arrangements to get tickets or credentials to your helpers.
 
 ### Load-out
 Load-out MAY NOT start until AFTER the event ends. Packing or leaving early without prior discussion and agreement may lead to your exhibit not being approved in subsequent years. All exhibits are 2 day exhibits unless you’ve reached specific agreement with the event producers through the exhibit application process or by [emailing us](mailto:makers@makerfaireorlando.com). Vehicles may not be moved into loading / unloading zones until after the event has ended and the crowd has left the building. **The main roadway in front of the Spirit, Opportunity, and Curiosity buildings will not open until at least 1 hour after the event has closed for safety.** We know you want to get home after a long weekend, but we ask for your patience as we safely exit the crowd.

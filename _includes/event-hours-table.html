@@ -1,0 +1,88 @@
+{% comment %}
+Event hours table — maker-facing schedule of check-in, load-in, show hours and
+load-out, used on /badge/.
+
+Replaces the old run of one-line paragraphs: on desktop this is a two-column
+table (time / what's happening) banded by day; under 600px every cell stacks so
+each entry reads as a small card with the time on top. Styles live in
+assets/css/mfo-redesign.css §16 (.mf-hours-*).
+
+Day dates come from site.data.settings.event_dates so they follow the year
+automatically. There is no Thursday key in settings, so Thursday is derived from
+edu_day by epoch math: back one day, then forward 12 hours. The dates parse as
+UTC midnight but the date filter prints them in site.timezone (America/New_York),
+so without that midday anchor the result lands on the previous evening and the
+label comes out a day early.
+
+Rows marked .is-show are public show hours (the gates-open-to-the-public times),
+tinted so makers can find them at a glance.
+{% endcomment %}
+{% assign ev = site.data.settings.event_dates %}
+{% assign thu_date = ev.edu_day | date: "%s" | minus: 86400 | plus: 43200 | date: "%b %-d" %}
+
+<table class="mf-hours-table">
+  <caption class="sr-only">Maker hours by day: check-in, setup, show hours and load-out.</caption>
+  <thead>
+    <tr>
+      <th scope="col">Time</th>
+      <th scope="col">What&rsquo;s happening</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="mf-hours-day">
+      <th colspan="2" scope="colgroup">Thursday <span>{{ thu_date }}</span></th>
+    </tr>
+    <tr>
+      <th scope="row">4pm &ndash; 8pm</th>
+      <td>Maker check-in and setup &mdash; <strong>Field Trip Day participants only</strong></td>
+    </tr>
+
+    <tr class="mf-hours-day">
+      <th colspan="2" scope="colgroup">Friday <span>{{ ev.edu_day | date: "%b %-d" }}</span></th>
+    </tr>
+    <tr>
+      <th scope="row">8:00am</th>
+      <td>Field Trip Day maker entry and any last-minute load-in</td>
+    </tr>
+    <tr class="is-show">
+      <th scope="row">10am &ndash; 3pm</th>
+      <td>Maker Faire <strong>Field Trip Day</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">4pm &ndash; 8pm</th>
+      <td>Maker check-in and setup <span class="mf-hours-note">(exit by 8pm)</span></td>
+    </tr>
+    <tr>
+      <th scope="row">6pm &ndash; 7pm</th>
+      <td>The Maker Mixer (during setup) at the Maker Faire Stage</td>
+    </tr>
+
+    <tr class="mf-hours-day">
+      <th colspan="2" scope="colgroup">Saturday <span>{{ ev.day1 | date: "%b %-d" }}</span></th>
+    </tr>
+    <tr>
+      <th scope="row">8am &ndash; 9am</th>
+      <td>Maker check-in resumes <span class="mf-hours-note">Gates will not be open to makers before 8am. Vehicles will not be able to enter after 9am (and may be restricted earlier if needed).</span></td>
+    </tr>
+    <tr class="is-show">
+      <th scope="row">10am &ndash; 5pm</th>
+      <td><strong>Maker Faire Orlando show hours</strong></td>
+    </tr>
+
+    <tr class="mf-hours-day">
+      <th colspan="2" scope="colgroup">Sunday <span>{{ ev.day2 | date: "%b %-d" }}</span></th>
+    </tr>
+    <tr>
+      <th scope="row">9am</th>
+      <td>Gates open for makers</td>
+    </tr>
+    <tr class="is-show">
+      <th scope="row">10am &ndash; 5pm</th>
+      <td><strong>Maker Faire Orlando show hours</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">6pm</th>
+      <td>At the earliest, vehicles may enter the show area for load-out</td>
+    </tr>
+  </tbody>
+</table>
