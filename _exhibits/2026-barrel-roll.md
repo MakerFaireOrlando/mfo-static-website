@@ -39,8 +39,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2026-09-18 16:48:56"
-last-modified-jotform: "2026-10-07 06:53:05"
-last-exported: "2026-10-07 06:56:05"
+last-modified-jotform: "2026-10-16 08:52:15"
+last-exported: "2026-10-16 08:56:38"
 sitemap: false
 
 ---
