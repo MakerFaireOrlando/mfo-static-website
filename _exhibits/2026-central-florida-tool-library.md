@@ -6,7 +6,7 @@ slug: central-florida-tool-library
 permalink: /exhibits/central-florida-tool-library/
 exhibit-id: 26-98
 exhibit-zone: "Opportunity"
-space-number: "OG14"
+space-number: "OE18"
 description: "Central Florida Tool Library’s mission is to empower our community through access to tools."
 description-long: "The mission of the Central Florida Tool Library is to empower ourselves and our Central Florida community through access to tools and equipment needed for disaster preparation and recovery, as well as maintenance, repair, recreational, medical, and other needs. It is currently operated by Central Florida Mutual Aid, a collective of regular folx in Orange, Osceola, and Seminole counties practicing mutual aid. CFLMA aims to be democratic, decentralized, and non-hierarchical, and we center the voices and needs of those most impacted by systems of oppression."
 image: /assets/images/exhibit-images/26-98-e-central-florida-tool-library-img-4244-3334-240x300.jpeg
@@ -118,8 +118,8 @@ categories:
   - slug: tools
     name: Tools
 created-jotform: "2026-07-22 08:39:18"
-last-modified-jotform: "2026-10-11 17:16:18"
-last-exported: "2026-10-12 08:24:40"
+last-modified-jotform: "2026-10-16 09:32:31"
+last-exported: "2026-10-16 12:26:44"
 sitemap: false
 
 ---
