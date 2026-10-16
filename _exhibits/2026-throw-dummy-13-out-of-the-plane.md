@@ -116,9 +116,11 @@ categories:
     name: Invention
   - slug: manufacturing
     name: Manufacturing
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2026-07-13 19:40:39"
-last-modified-jotform: "2026-10-11 17:16:21"
-last-exported: "2026-10-12 08:24:48"
+last-modified-jotform: "2026-10-15 10:43:59"
+last-exported: "2026-10-16 08:34:42"
 sitemap: false
 
 ---

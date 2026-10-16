@@ -5,7 +5,8 @@ title: "Anti-Hackathon"
 slug: anti-hackathon
 permalink: /exhibits/anti-hackathon/
 exhibit-id: 26-235
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SH23"
 description: "Anti-Hackathon: online safety disguised as a good time. Join the fun and outsmart the scammer!"
 description-long: "Anti-Hackathon is an annual fun, family-friendly online-safety experience that helps kids, parents and everyday people spot online threats and outsmart them. It's online safety disguised as a really good time.
 
@@ -69,8 +70,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-10-03 15:40:06"
-last-modified-jotform: "2026-10-11 09:07:13"
-last-exported: "2026-10-12 08:24:15"
+last-modified-jotform: "2026-10-12 19:54:59"
+last-exported: "2026-10-16 08:34:34"
 sitemap: false
 
 ---

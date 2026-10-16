@@ -99,16 +99,15 @@ additional-images:
       width: 1024
       height: 460
 maker: 
-  name: "Daniel Mirell"
-  description: "Hi! I'm a senior at West Shore Jr/Sr High School in Melbourne, I enjoy 3D printing, designing, and tinkering with things, and I love sharing my passion with others.
+  name: "West Shore Jr/Sr High Makerspace"
+  description: "Hi! We are a group of high schoolers based out of Melbourne, FL with a passion for making things and sharing that passion with others.
 
-I coach two FIRST LEGO League teams, the Indialantic Innovators, at my former elementary school, and I am the Student Chairperson and founder of the West Shore Makerspace Club, where I help organize and direct funding to create a space to allow students to explore their creativity and engineering knowledge.
-
-I have experience using Onshape, Creo, Tinkercad, and FreeCAD, and have used that experience to help friends with projects including parts for my FIRST Robotics Competition team's robot, accessories for XRP robots, and curricula for workshops including 3D-printed luggage tags and name tags. I love having people see that engineering isn't as hard as people make it out to be, and that they can do amazing STEM things as long as they have a willingness to learn."
+In our Makerspace, we have 3D printers, a laser engraver, sewing machines, and anything else a student could want to make something, and we provide these, along with supplies, to our students for free to help them explore their interests."
   image-primary:
-    url: /assets/images/exhibit-images/26-40-m-design-and-3d-print-your-own-bag-tag-img-2412-269x300.jpeg
-    width: 134
-    height: 150
+    url: /assets/images/exhibit-images/26-40-m-design-and-3d-print-your-own-bag-tag-img-5124-300x293.jpg
+    width: 150
+    height: 146
+  instagram: https://www.instagram.com/wshmakerspace/
 categories: 
   - slug: 3d-printing
     name: 3D Printing
@@ -121,8 +120,8 @@ categories:
   - slug: manufacturing
     name: Manufacturing
 created-jotform: "2026-07-03 12:14:36"
-last-modified-jotform: "2026-10-03 15:01:14"
-last-exported: "2026-10-05 15:07:37"
+last-modified-jotform: "2026-10-15 21:22:52"
+last-exported: "2026-10-16 08:34:44"
 sitemap: false
 
 ---
