@@ -4,6 +4,10 @@
     "label": "Main Stage"
   },
   {
+    "value": "community-stage",
+    "label": "Community Stage"
+  },
+  {
     "value": "power-racing-track",
     "label": "Power Racing Track"
   }

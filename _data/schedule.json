@@ -11,7 +11,9 @@
     "location": "Main Stage",
     "description": "From castles to coasters, see how MCParks recreates world famous theme parks in Minecraft. Learn about the technology and teamwork needed to bring the project to life - and how you can get involved in future experiences!",
     "date": "2026-11-06 10:30:00",
-    "enddate": "2026-11-06 10:55:00"
+    "enddate": "2026-11-06 10:55:00",
+    "image": "/assets/images/stage/2026/minecraft-makers-e9190fb3-1024x1024.jpg",
+    "url": "https://www.makerfaireorlando.com/exhibits/mcparks-theme-parks-in-minecraft/"
   },
   {
     "title": "Young Makers",
@@ -41,7 +43,7 @@
     "enddate": "2026-11-06 13:25:00"
   },
   {
-    "title": "YouTube / Creator Makers",
+    "title": "Cosplay & Prop Makers",
     "location": "Main Stage",
     "date": "2026-11-06 13:30:00",
     "enddate": "2026-11-06 13:55:00"
@@ -130,10 +132,29 @@
     "url": "/exhibits/categories/power-racing/"
   },
   {
-    "title": "Amity Park Punk - Live!",
+    "title": "Amity Park - Live!",
     "location": "Main Stage",
     "date": "2026-11-07 16:00:00",
     "enddate": "2026-11-07 16:45:00"
+  },
+  {
+    "title": "Minecraft Makers",
+    "location": "Community Stage",
+    "description": "From castles to coasters, see how MCParks recreates world famous theme parks in Minecraft. Learn about the technology and teamwork needed to bring the project to life - and how you can get involved in future experiences!",
+    "date": "2026-11-07 16:00:00",
+    "enddate": "2026-11-07 16:30:00",
+    "image": "/assets/images/stage/2026/minecraft-makers-0aa8c2cb-1024x1024.jpg",
+    "url": "/exhibits/mcparks-theme-parks-in-minecraft/",
+    "guests": [
+      {
+        "name": "Ryan Hecht",
+        "url": "/exhibits/mcparks-theme-parks-in-minecraft/"
+      },
+      {
+        "name": "Darren d'Hedouville",
+        "url": "/exhibits/mcparks-theme-parks-in-minecraft/"
+      }
+    ]
   },
   {
     "title": "Maker Faire Day 1 is Over!",
