@@ -6,7 +6,7 @@ slug: clockwork-alley
 permalink: /exhibits/clockwork-alley/
 exhibit-id: 26-43
 exhibit-zone: "Spirit - Center"
-space-number: "SJ20"
+space-number: "SF23"
 description: "Steampunk inspired jewelry and accessories."
 description-long: "Steampunk inspired jewelry and accessories. We make items such as necklaces, lockets, earrings, rings, bracelets, hair accessories, trinket boxes and pocket watches. Most items are created using epoxy resin. We also love to incorporate vintage watch parts."
 image: /assets/images/exhibit-images/26-43-e-clockwork-alley-fb-img-1586634440737-300x300.jpg
@@ -223,8 +223,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-03 17:58:21"
-last-modified-jotform: "2026-10-11 12:06:03"
-last-exported: "2026-10-12 08:24:52"
+last-modified-jotform: "2026-10-22 20:18:07"
+last-exported: "2026-10-23 06:45:49"
 sitemap: false
 
 ---

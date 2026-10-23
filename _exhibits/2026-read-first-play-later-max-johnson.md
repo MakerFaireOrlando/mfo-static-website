@@ -6,7 +6,7 @@ slug: read-first-play-later-max-johnson
 permalink: /exhibits/read-first-play-later-max-johnson/
 exhibit-id: 26-205
 exhibit-zone: "Spirit - Center"
-space-number: "SA13"
+space-number: "SI20"
 description: "15-year-old author Max Johnson's challenge to get 10,000 books into kids' hands."
 description-long: "Max Johnson is a congressionally recognized teen author from Lake Mary, Florida, who wrote and self-published his own book, Let Me Help You… BE SMART, at 15. His exhibit is about the Read First, Play Later challenge — a mission to get 10,000 books into kids' hands, getting young readers to reach for a book before a screen. Stop by to meet Max and join the movement putting reading first."
 image: /assets/images/exhibit-images/26-205-e-read-first-play-later-max-johnson-max-book-cover-200x300.jpg
@@ -70,8 +70,8 @@ categories:
   - slug: writing-and-publishing
     name: Writing and Publishing
 created-jotform: "2026-09-16 12:08:25"
-last-modified-jotform: "2026-10-06 22:16:47"
-last-exported: "2026-10-06 22:17:47"
+last-modified-jotform: "2026-10-22 20:18:09"
+last-exported: "2026-10-23 06:45:33"
 sitemap: false
 
 ---

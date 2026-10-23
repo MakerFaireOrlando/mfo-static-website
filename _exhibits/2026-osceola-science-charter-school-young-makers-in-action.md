@@ -61,21 +61,21 @@ At Osceola Science Charter School, we believe our students are not just learning
     width: 150
     height: 150
 categories: 
-  - slug: education
-    name: Education
+  - slug: 3d-printing
+    name: 3D Printing
+  - slug: art
+    name: Art
   - slug: engineering
     name: Engineering
   - slug: first-robotics
     name: FIRST Robotics
   - slug: lego
     name: LEGO
-  - slug: vex-robotics
-    name: VEX Robotics
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-25 20:40:33"
-last-modified-jotform: "2026-10-04 11:48:18"
-last-exported: "2026-10-05 15:06:00"
+last-modified-jotform: "2026-10-21 08:30:15"
+last-exported: "2026-10-23 06:45:34"
 sitemap: false
 
 ---

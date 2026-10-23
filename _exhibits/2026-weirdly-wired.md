@@ -5,8 +5,8 @@ title: "Weirdly Wired"
 slug: weirdly-wired
 permalink: /exhibits/weirdly-wired/
 exhibit-id: 26-212
-exhibit-zone: "Exhibit Tent"
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SA13"
 description: "Weirdly Wired Inventors Series Team"
 description-long: "A Rube Goldberg style vending machine, that was designed and built by the students in the Inventors Series Class. We would also like to make the dispensed item some kind of scavenger hunt for things or other exhibitors at maker faire."
 image: /assets/images/exhibit-images/26-212-e-weirdly-wired-weirdly-wired-ff-01-3-5814-300x264.png
@@ -50,8 +50,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-18 14:01:34"
-last-modified-jotform: "2026-10-09 14:42:36"
-last-exported: "2026-10-10 09:37:59"
+last-modified-jotform: "2026-10-22 20:41:27"
+last-exported: "2026-10-23 06:45:33"
 sitemap: false
 
 ---

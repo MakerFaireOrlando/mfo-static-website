@@ -30,104 +30,138 @@ image-primary:
 additional-images: 
   - 1:
     full:
-      url: /assets/images/exhibit-images/26-155-e1-advanced-rocketry-and-engineering-projects-at-home-videocapture-20251228-161044-full.jpg
+      url: /assets/images/exhibit-images/26-155-e1-advanced-rocketry-and-engineering-projects-at-home-dsc-2953-4k-full.jpg
+      width: 3531
+      height: 2160
+    small:
+      url: /assets/images/exhibit-images/26-155-e1-advanced-rocketry-and-engineering-projects-at-home-dsc-2953-4k-150x92.jpg
+      width: 150
+      height: 92
+    medium:
+      url: /assets/images/exhibit-images/26-155-e1-advanced-rocketry-and-engineering-projects-at-home-dsc-2953-4k-300x184.jpg
+      width: 300
+      height: 184
+    large:
+      url: /assets/images/exhibit-images/26-155-e1-advanced-rocketry-and-engineering-projects-at-home-dsc-2953-4k-1024x626.jpg
+      width: 1024
+      height: 626
+  - 2:
+    full:
+      url: /assets/images/exhibit-images/26-155-e2-advanced-rocketry-and-engineering-projects-at-home-unknown-41-full.png
+      width: 1364
+      height: 763
+    small:
+      url: /assets/images/exhibit-images/26-155-e2-advanced-rocketry-and-engineering-projects-at-home-unknown-41-150x84.png
+      width: 150
+      height: 84
+    medium:
+      url: /assets/images/exhibit-images/26-155-e2-advanced-rocketry-and-engineering-projects-at-home-unknown-41-300x168.png
+      width: 300
+      height: 168
+    large:
+      url: /assets/images/exhibit-images/26-155-e2-advanced-rocketry-and-engineering-projects-at-home-unknown-41-1024x573.png
+      width: 1024
+      height: 573
+  - 3:
+    full:
+      url: /assets/images/exhibit-images/26-155-e3-advanced-rocketry-and-engineering-projects-at-home-videocapture-20251228-161044-full.jpg
       width: 1545
       height: 869
     small:
-      url: /assets/images/exhibit-images/26-155-e1-advanced-rocketry-and-engineering-projects-at-home-videocapture-20251228-161044-150x84.jpg
+      url: /assets/images/exhibit-images/26-155-e3-advanced-rocketry-and-engineering-projects-at-home-videocapture-20251228-161044-150x84.jpg
       width: 150
       height: 84
     medium:
-      url: /assets/images/exhibit-images/26-155-e1-advanced-rocketry-and-engineering-projects-at-home-videocapture-20251228-161044-300x169.jpg
+      url: /assets/images/exhibit-images/26-155-e3-advanced-rocketry-and-engineering-projects-at-home-videocapture-20251228-161044-300x169.jpg
       width: 300
       height: 169
     large:
-      url: /assets/images/exhibit-images/26-155-e1-advanced-rocketry-and-engineering-projects-at-home-videocapture-20251228-161044-1024x576.jpg
+      url: /assets/images/exhibit-images/26-155-e3-advanced-rocketry-and-engineering-projects-at-home-videocapture-20251228-161044-1024x576.jpg
       width: 1024
       height: 576
-  - 2:
+  - 4:
     full:
-      url: /assets/images/exhibit-images/26-155-e2-advanced-rocketry-and-engineering-projects-at-home-videocapture-20260730-232602-8832-full.jpg
+      url: /assets/images/exhibit-images/26-155-e4-advanced-rocketry-and-engineering-projects-at-home-videocapture-20260730-232602-8832-full.jpg
       width: 3840
       height: 2160
     small:
-      url: /assets/images/exhibit-images/26-155-e2-advanced-rocketry-and-engineering-projects-at-home-videocapture-20260730-232602-8832-150x84.jpg
+      url: /assets/images/exhibit-images/26-155-e4-advanced-rocketry-and-engineering-projects-at-home-videocapture-20260730-232602-8832-150x84.jpg
       width: 150
       height: 84
     medium:
-      url: /assets/images/exhibit-images/26-155-e2-advanced-rocketry-and-engineering-projects-at-home-videocapture-20260730-232602-8832-300x169.jpg
+      url: /assets/images/exhibit-images/26-155-e4-advanced-rocketry-and-engineering-projects-at-home-videocapture-20260730-232602-8832-300x169.jpg
       width: 300
       height: 169
     large:
-      url: /assets/images/exhibit-images/26-155-e2-advanced-rocketry-and-engineering-projects-at-home-videocapture-20260730-232602-8832-1024x576.jpg
+      url: /assets/images/exhibit-images/26-155-e4-advanced-rocketry-and-engineering-projects-at-home-videocapture-20260730-232602-8832-1024x576.jpg
       width: 1024
       height: 576
-  - 3:
-    full:
-      url: /assets/images/exhibit-images/26-155-e3-advanced-rocketry-and-engineering-projects-at-home-20250301-135058-full.jpg
-      width: 4000
-      height: 2252
-    small:
-      url: /assets/images/exhibit-images/26-155-e3-advanced-rocketry-and-engineering-projects-at-home-20250301-135058-150x84.jpg
-      width: 150
-      height: 84
-    medium:
-      url: /assets/images/exhibit-images/26-155-e3-advanced-rocketry-and-engineering-projects-at-home-20250301-135058-300x169.jpg
-      width: 300
-      height: 169
-    large:
-      url: /assets/images/exhibit-images/26-155-e3-advanced-rocketry-and-engineering-projects-at-home-20250301-135058-1024x577.jpg
-      width: 1024
-      height: 577
-  - 4:
-    full:
-      url: /assets/images/exhibit-images/26-155-e4-advanced-rocketry-and-engineering-projects-at-home-20220717-184730-832-full.jpg
-      width: 4000
-      height: 2252
-    small:
-      url: /assets/images/exhibit-images/26-155-e4-advanced-rocketry-and-engineering-projects-at-home-20220717-184730-832-84x150.jpg
-      width: 84
-      height: 150
-    medium:
-      url: /assets/images/exhibit-images/26-155-e4-advanced-rocketry-and-engineering-projects-at-home-20220717-184730-832-169x300.jpg
-      width: 169
-      height: 300
-    large:
-      url: /assets/images/exhibit-images/26-155-e4-advanced-rocketry-and-engineering-projects-at-home-20220717-184730-832-577x1024.jpg
-      width: 577
-      height: 1024
   - 5:
     full:
-      url: /assets/images/exhibit-images/26-155-e5-advanced-rocketry-and-engineering-projects-at-home-20230129-151419-full.jpg
+      url: /assets/images/exhibit-images/26-155-e5-advanced-rocketry-and-engineering-projects-at-home-20250301-135058-full.jpg
       width: 4000
       height: 2252
     small:
-      url: /assets/images/exhibit-images/26-155-e5-advanced-rocketry-and-engineering-projects-at-home-20230129-151419-150x84.jpg
+      url: /assets/images/exhibit-images/26-155-e5-advanced-rocketry-and-engineering-projects-at-home-20250301-135058-150x84.jpg
       width: 150
       height: 84
     medium:
-      url: /assets/images/exhibit-images/26-155-e5-advanced-rocketry-and-engineering-projects-at-home-20230129-151419-300x169.jpg
+      url: /assets/images/exhibit-images/26-155-e5-advanced-rocketry-and-engineering-projects-at-home-20250301-135058-300x169.jpg
       width: 300
       height: 169
     large:
-      url: /assets/images/exhibit-images/26-155-e5-advanced-rocketry-and-engineering-projects-at-home-20230129-151419-1024x577.jpg
+      url: /assets/images/exhibit-images/26-155-e5-advanced-rocketry-and-engineering-projects-at-home-20250301-135058-1024x577.jpg
       width: 1024
       height: 577
   - 6:
     full:
-      url: /assets/images/exhibit-images/26-155-e6-advanced-rocketry-and-engineering-projects-at-home-dsc-0033-1-full.jpg
+      url: /assets/images/exhibit-images/26-155-e6-advanced-rocketry-and-engineering-projects-at-home-20220717-184730-832-full.jpg
+      width: 4000
+      height: 2252
+    small:
+      url: /assets/images/exhibit-images/26-155-e6-advanced-rocketry-and-engineering-projects-at-home-20220717-184730-832-84x150.jpg
+      width: 84
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/26-155-e6-advanced-rocketry-and-engineering-projects-at-home-20220717-184730-832-169x300.jpg
+      width: 169
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/26-155-e6-advanced-rocketry-and-engineering-projects-at-home-20220717-184730-832-577x1024.jpg
+      width: 577
+      height: 1024
+  - 7:
+    full:
+      url: /assets/images/exhibit-images/26-155-e7-advanced-rocketry-and-engineering-projects-at-home-20230129-151419-full.jpg
+      width: 4000
+      height: 2252
+    small:
+      url: /assets/images/exhibit-images/26-155-e7-advanced-rocketry-and-engineering-projects-at-home-20230129-151419-150x84.jpg
+      width: 150
+      height: 84
+    medium:
+      url: /assets/images/exhibit-images/26-155-e7-advanced-rocketry-and-engineering-projects-at-home-20230129-151419-300x169.jpg
+      width: 300
+      height: 169
+    large:
+      url: /assets/images/exhibit-images/26-155-e7-advanced-rocketry-and-engineering-projects-at-home-20230129-151419-1024x577.jpg
+      width: 1024
+      height: 577
+  - 8:
+    full:
+      url: /assets/images/exhibit-images/26-155-e8-advanced-rocketry-and-engineering-projects-at-home-dsc-0033-1-full.jpg
       width: 3974
       height: 4702
     small:
-      url: /assets/images/exhibit-images/26-155-e6-advanced-rocketry-and-engineering-projects-at-home-dsc-0033-1-127x150.jpg
+      url: /assets/images/exhibit-images/26-155-e8-advanced-rocketry-and-engineering-projects-at-home-dsc-0033-1-127x150.jpg
       width: 127
       height: 150
     medium:
-      url: /assets/images/exhibit-images/26-155-e6-advanced-rocketry-and-engineering-projects-at-home-dsc-0033-1-254x300.jpg
+      url: /assets/images/exhibit-images/26-155-e8-advanced-rocketry-and-engineering-projects-at-home-dsc-0033-1-254x300.jpg
       width: 254
       height: 300
     large:
-      url: /assets/images/exhibit-images/26-155-e6-advanced-rocketry-and-engineering-projects-at-home-dsc-0033-1-865x1024.jpg
+      url: /assets/images/exhibit-images/26-155-e8-advanced-rocketry-and-engineering-projects-at-home-dsc-0033-1-865x1024.jpg
       width: 865
       height: 1024
 video: "https://youtu.be/cr0wCuFfY2I?is=lONGUhfRJCcC4bjy"
@@ -140,6 +174,7 @@ maker:
     width: 150
     height: 113
   website: https://runrmc94.wixsite.com/t-zero
+  twitter: https://www.twitter.com/systems_zero
   instagram: https://www.instagram.com/makofpv
   youtube: https://www.youtube.com/@tzerosystems
 categories: 
@@ -152,8 +187,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-21 12:28:04"
-last-modified-jotform: "2026-10-17 09:07:15"
-last-exported: "2026-10-20 23:19:36"
+last-modified-jotform: "2026-10-22 14:55:50"
+last-exported: "2026-10-23 06:45:47"
 sitemap: false
 
 ---
