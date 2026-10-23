@@ -12,7 +12,7 @@
     "description": "From castles to coasters, see how MCParks recreates world famous theme parks in Minecraft. Learn about the technology and teamwork needed to bring the project to life - and how you can get involved in future experiences!",
     "date": "2026-11-06 10:30:00",
     "enddate": "2026-11-06 10:55:00",
-    "image": "/assets/images/stage/2026/minecraft-makers-e9190fb3-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/minecraft-makers-18214a2a-1024x1024.jpg",
     "url": "https://www.makerfaireorlando.com/exhibits/mcparks-theme-parks-in-minecraft/"
   },
   {
@@ -90,7 +90,9 @@
     "location": "Community Stage",
     "description": "We connect families of children with mobility challenges to vetted volunteer makers who 3D print custom Toddler Mobility Trainers (TMTs)—completely free for the requesting family.",
     "date": "2026-11-07 11:15:00",
-    "enddate": "2026-11-07 12:00:00"
+    "enddate": "2026-11-07 12:00:00",
+    "image": "/assets/images/stage/2026/3d-printed-wheelchairs-for-toddlers-live-build-3fbff32c-1024x1024.jpg",
+    "url": "/exhibits/makerfx-makerspace/"
   },
   {
     "title": "Lunch Seating",
@@ -99,9 +101,9 @@
     "enddate": "2026-11-07 13:00:00"
   },
   {
-    "title": "Lunch Seating and Musical Performance",
+    "title": "Lunch Seating",
     "location": "Main Stage",
-    "description": "Grab lunch outside and then join us for air conditioned seating for a musical performance",
+    "description": "Grab lunch outside and then join us for air conditioned seating",
     "date": "2026-11-07 12:30:00",
     "enddate": "2026-11-07 13:45:00"
   },
@@ -118,13 +120,22 @@
     "slug": "cosplay-creators-sat",
     "location": "Main Stage",
     "date": "2026-11-07 14:00:00",
-    "enddate": "2026-11-07 14:45:00"
+    "enddate": "2026-11-07 14:45:00",
+    "guests": [
+      {
+        "name": "Dwight Cenac",
+        "url": "https://www.makerfaireorlando.com/exhibits/high-noon/",
+        "image": "/assets/images/stage/2026/dwight-cenac-9dd79e42-1024x1024.jpg"
+      }
+    ]
   },
   {
     "title": "Stone By Stone - World-Building Workshop For Storytellers",
     "location": "Community Stage",
     "date": "2026-11-07 14:15:00",
-    "enddate": "2026-11-07 15:00:00"
+    "enddate": "2026-11-07 15:00:00",
+    "image": "/assets/images/stage/2026/stone-by-stone-world-building-workshop-for-storytellers-f9beb4da-1024x1024.jpg",
+    "url": "/exhibits/megan-orussell-books-meet-the-author/"
   },
   {
     "title": "Power Racing - Meet & Greet",
@@ -149,7 +160,9 @@
     "location": "Community Stage",
     "description": "Max shares his journey as a young entrepreneur and published author, encouraging other young people to believe in themselves, and understand that age doesn't have to limit what they can accomplish. ",
     "date": "2026-11-07 15:15:00",
-    "enddate": "2026-11-07 15:45:00"
+    "enddate": "2026-11-07 15:45:00",
+    "image": "/assets/images/stage/2026/inspiring-the-next-generation-of-leaders-2ce6842f-1024x1024.jpg",
+    "url": "/exhibits/read-first-play-later-max-johnson/"
   },
   {
     "title": "Power Racing - Sprint Race 2",
@@ -207,7 +220,14 @@
     "title": "Giant Builds Panel",
     "location": "Main Stage",
     "date": "2026-11-08 11:30:00",
-    "enddate": "2026-11-08 12:15:00"
+    "enddate": "2026-11-08 12:15:00",
+    "guests": [
+      {
+        "name": "Willow",
+        "url": "/exhibits/willow-creative/",
+        "image": "/assets/images/stage/2026/willow-dd012712-1024x1024.jpg"
+      }
+    ]
   },
   {
     "title": "Power Racing - Sprint Race 3",
@@ -218,7 +238,7 @@
     "url": "/exhibits/categories/power-racing/"
   },
   {
-    "title": "Lunch Seating & Musical Performance",
+    "title": "Lunch Seating",
     "location": "Main Stage",
     "description": "Grab lunch outside and then join us for air conditioned seating",
     "date": "2026-11-08 12:30:00",
@@ -244,7 +264,9 @@
     "location": "Community Stage",
     "description": "Sketch/Improv Comedy with the The Second Breakfast Club Show! Stop by for fun, laughter, and shenanigans!",
     "date": "2026-11-08 14:00:00",
-    "enddate": "2026-11-08 14:30:00"
+    "enddate": "2026-11-08 14:30:00",
+    "image": "/assets/images/stage/2026/the-second-breakfast-club-show-improv-comedy-eede900c-1024x1024.jpg",
+    "url": "/exhibits/props-puppets-with-the-second-breakfast-club-show/"
   },
   {
     "title": "Power Racing - Endurance Race",
