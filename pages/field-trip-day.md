@@ -99,16 +99,16 @@ page_footer_ad: false
     <div class="row text-center">
       <div class="title-w-border-y"><h2>Planning Your Field Trip Day</h2></div>
     </div>
-    <p class="mf-prose text-center">Read our Educator’s Guide for an introduction to Maker Faire, details on Field Trip Day, and ways to prepare your students with prompts and projects. <em>Note: we have not yet updated the guide for 2026. It will be refreshed with the new schedule and details closer to the event.</em></p>
+    <p class="mf-prose text-center">Read our Educator’s Guide for an introduction to Maker Faire, details on Field Trip Day, and ways to prepare your students with prompts and projects.</p>
     <div class="mf-asset-grid">
       <figure class="mf-asset-card">
-        <a class="mf-asset-thumb" href="/assets/pdf/2025/MFO-Educators-Guide-Print.pdf" target="_blank" rel="noopener">
-          <img src="/assets/pdf/2025/MFO-Educators-Guide.jpg" alt="Maker Faire Orlando Educator's Guide" loading="lazy">
+        <a class="mf-asset-thumb" href="/assets/pdf/2026/MFO-Educators-Guide-2026.pdf" target="_blank" rel="noopener">
+          <img src="/assets/pdf/2026/MFO-Educators-Guide.jpg" alt="Maker Faire Orlando Educator's Guide" loading="lazy">
         </a>
         <figcaption class="mf-asset-body">
           <h3>Educator’s Guide</h3>
           <p>Prep your students with prompts, projects, and a primer on Maker Faire.</p>
-          <a class="mf-link-arrow" href="/assets/pdf/2025/MFO-Educators-Guide-Print.pdf" target="_blank" rel="noopener">Download PDF</a>
+          <a class="mf-link-arrow" href="/assets/pdf/2026/MFO-Educators-Guide-2026.pdf" target="_blank" rel="noopener">Download PDF</a>
         </figcaption>
       </figure>
     </div>

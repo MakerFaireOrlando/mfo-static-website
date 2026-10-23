@@ -6,7 +6,7 @@ slug: makers-of-the-middle-ages-society-for-creative-anachronism
 permalink: /exhibits/makers-of-the-middle-ages-society-for-creative-anachronism/
 exhibit-id: 26-159
 exhibit-zone: "Spirit - Center"
-space-number: "SD23"
+space-number: "SE15"
 description: "We'll be bringing the hands-on side of history with historical sciences, arts, and more!"
 description-long: "Makers of the Middle Ages - Barony of Darkwater, SCA
 
@@ -100,8 +100,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2026-08-22 17:22:09"
-last-modified-jotform: "2026-10-11 09:10:38"
-last-exported: "2026-10-12 08:24:36"
+last-modified-jotform: "2026-10-17 09:38:25"
+last-exported: "2026-10-20 23:19:34"
 sitemap: false
 
 ---

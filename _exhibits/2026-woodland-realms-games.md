@@ -185,11 +185,9 @@ categories:
     name: Handmade
   - slug: woodworking
     name: Woodworking
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2026-09-01 11:53:17"
-last-modified-jotform: "2026-10-03 13:55:21"
-last-exported: "2026-10-05 15:05:58"
+last-modified-jotform: "2026-10-20 08:23:17"
+last-exported: "2026-10-20 23:19:31"
 sitemap: false
 
 ---

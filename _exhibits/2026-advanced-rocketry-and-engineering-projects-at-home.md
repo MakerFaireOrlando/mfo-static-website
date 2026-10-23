@@ -6,7 +6,7 @@ slug: advanced-rocketry-and-engineering-projects-at-home
 permalink: /exhibits/advanced-rocketry-and-engineering-projects-at-home/
 exhibit-id: 26-155
 exhibit-zone: "Opportunity"
-space-number: "OA20"
+space-number: "OA24"
 description: "I am showcasing 3 of my model rockets, my radio controlled submarines, and more!"
 description-long: "I want to show off the abilities of 3d printing for advanced projects! Mixing electronics, printing, and software you can make just about everything. I will also be showcasing my functional model helldivers drop pod intended to be dropped by drone!"
 image: /assets/images/exhibit-images/26-155-e-advanced-rocketry-and-engineering-projects-at-home-videocapture-20220722-125534-300x169.jpg
@@ -152,8 +152,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-21 12:28:04"
-last-modified-jotform: "2026-10-03 15:01:08"
-last-exported: "2026-10-05 15:06:09"
+last-modified-jotform: "2026-10-17 09:07:15"
+last-exported: "2026-10-20 23:19:36"
 sitemap: false
 
 ---

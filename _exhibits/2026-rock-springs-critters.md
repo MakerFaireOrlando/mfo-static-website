@@ -5,8 +5,8 @@ title: "Rock Springs Critters"
 slug: rock-springs-critters
 permalink: /exhibits/rock-springs-critters/
 exhibit-id: 26-50
-exhibit-zone: "Opportunity"
-space-number: "OG21"
+exhibit-zone: "Spirit - Center"
+space-number: "SG21"
 description: "Come see the newest 3D printed fidgets, games, & whimsical household hacks by Rock Springs Critters!"
 description-long: "Come see the newest 3D printed fidgets, whimsical games, and innovative household hacks by Rock Springs Critters! No purchase necessary to come play with these cute animals and prints made by kids, with solar-power, and plant-derived PLA filament."
 image: /assets/images/exhibit-images/26-50-e-rock-springs-critters-mushroom-log-chess80percentquality-226x300.jpg
@@ -100,8 +100,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-05 17:15:59"
-last-modified-jotform: "2026-10-04 10:54:03"
-last-exported: "2026-10-05 15:07:33"
+last-modified-jotform: "2026-10-18 08:42:31"
+last-exported: "2026-10-20 23:19:51"
 sitemap: false
 
 ---

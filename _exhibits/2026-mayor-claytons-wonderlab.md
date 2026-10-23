@@ -6,7 +6,7 @@ slug: mayor-claytons-wonderlab
 permalink: /exhibits/mayor-claytons-wonderlab/
 exhibit-id: 26-182
 exhibit-zone: "Spirit - Center"
-space-number: "SG14, SH14"
+space-number: "SD14, SE14"
 description: "Mayor Clayton's WonderLab is a STEAM facility located in Give Kids the World Village!"
 description-long: "Visit us to learn about animatronic programing, fun kid's activities, and volunteer hour opportunities! Mayor Clayton's WonderLab is a STEAM (Science, Technology, Engineering, Art and Math) facility located in Give Kids the World Village. Give Kids the World Village is an 89-acre 501(c)(3) nonprofit storybook resort that provides weeklong, cost-free vacations for children with critical illness and their families. Mayor Clayton's WonderLab allows wish families to explore creativity and curiosity, spreading childlike wonder to wish families from all over the world."
 image: /assets/images/exhibit-images/26-182-e-mayor-claytons-wonderlab-wl-gallery-exterior-full-3425-5828-300x200.jpg
@@ -135,8 +135,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-01 17:16:57"
-last-modified-jotform: "2026-10-14 13:05:24"
-last-exported: "2026-10-16 08:34:37"
+last-modified-jotform: "2026-10-17 09:38:26"
+last-exported: "2026-10-20 23:19:28"
 sitemap: false
 
 ---

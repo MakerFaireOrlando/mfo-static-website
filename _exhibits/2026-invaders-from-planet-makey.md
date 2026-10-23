@@ -15,22 +15,22 @@ Watch the Makey target carefully as it changes colors, then find a soft foam bal
 The experience comes alive with illuminated cannon effects, sound feedback, and environmental lighting that react to every shot. Behind the scenes, a custom ball recovery and retrieval system keeps the action moving so players can jump right back in.
 
 It’s part carnival game, part color-matching challenge, and part interactive engineering experiment—all wrapped up in a frantic mission to save the cows."
-image: /assets/images/exhibit-images/26-193-e-invaders-from-planet-makey-icon-2-300x300.png
+image: /assets/images/exhibit-images/26-193-e-invaders-from-planet-makey-icon-3-300x300.png
 image-primary: 
   full:
-    url: /assets/images/exhibit-images/26-193-e-invaders-from-planet-makey-icon-2-full.png
+    url: /assets/images/exhibit-images/26-193-e-invaders-from-planet-makey-icon-3-full.png
     width: 2000
     height: 2000
   small:
-    url: /assets/images/exhibit-images/26-193-e-invaders-from-planet-makey-icon-2-150x150.png
+    url: /assets/images/exhibit-images/26-193-e-invaders-from-planet-makey-icon-3-150x150.png
     width: 150
     height: 150
   medium:
-    url: /assets/images/exhibit-images/26-193-e-invaders-from-planet-makey-icon-2-300x300.png
+    url: /assets/images/exhibit-images/26-193-e-invaders-from-planet-makey-icon-3-300x300.png
     width: 300
     height: 300
   large:
-    url: /assets/images/exhibit-images/26-193-e-invaders-from-planet-makey-icon-2-1024x1024.png
+    url: /assets/images/exhibit-images/26-193-e-invaders-from-planet-makey-icon-3-1024x1024.png
     width: 1024
     height: 1024
 maker: 
@@ -54,8 +54,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-06 00:39:06"
-last-modified-jotform: "2026-10-03 15:01:22"
-last-exported: "2026-10-05 15:05:51"
+last-modified-jotform: "2026-10-19 13:57:12"
+last-exported: "2026-10-20 23:19:27"
 sitemap: false
 
 ---

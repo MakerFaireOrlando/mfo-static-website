@@ -6,7 +6,7 @@ slug: moonphaze-books
 permalink: /exhibits/moonphaze-books/
 exhibit-id: 26-111
 exhibit-zone: "Spirit - Center"
-space-number: "SG15"
+space-number: "SF17"
 description: "All available books by John Lars Shoberg and Trudy V Myers (Linda NMI Joy) are available here."
 description-long: "We have books written by John Lars Shoberg and Trudy V Myers (AKA Linda NMI Joy) for a modest price. John writes science fiction. Trudy writes whatever strikes her fancy, from fantasy to romance to paranormal gothic stories."
 image: /assets/images/exhibit-images/26-111-e-moonphaze-books-stonebuilders2400x1600-200x300.jpg
@@ -129,8 +129,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-28 11:16:52"
-last-modified-jotform: "2026-10-03 15:01:33"
-last-exported: "2026-10-05 15:06:44"
+last-modified-jotform: "2026-10-17 09:38:27"
+last-exported: "2026-10-20 23:19:41"
 sitemap: false
 
 ---

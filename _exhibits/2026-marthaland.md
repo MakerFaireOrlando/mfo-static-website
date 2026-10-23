@@ -6,7 +6,7 @@ slug: marthaland
 permalink: /exhibits/marthaland/
 exhibit-id: 26-127
 exhibit-zone: "Opportunity"
-space-number: "OG11"
+space-number: "OG13"
 description: "Tiny clay slugs and other creatures/art. Handmade paper items, mini notebooks,buttons and stickers."
 description-long: "Whimsical miniature sculptures, tiny clay creatures (like slugs and snails), and hand-crafted paper items such as mini notebooks with sleeves, buttons and stickers."
 image: /assets/images/exhibit-images/26-127-e-marthaland-group-of-slugs-300x238.jpg
@@ -151,8 +151,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2026-08-04 23:25:15"
-last-modified-jotform: "2026-10-04 10:21:16"
-last-exported: "2026-10-05 15:06:26"
+last-modified-jotform: "2026-10-17 11:29:56"
+last-exported: "2026-10-20 23:19:40"
 sitemap: false
 
 ---

@@ -6,7 +6,7 @@ slug: wrensketches
 permalink: /exhibits/wrensketches/
 exhibit-id: 26-234
 exhibit-zone: "Spirit - Center"
-space-number: "SF23"
+space-number: "SD24"
 description: "2D Art! 3D Art! Prop Building! Film & TV! Makers Hollow! Set building! Special FX! & making for JOY!"
 description-long: "WrenSketches/Erin Kelly loves to make art and talk to others about making art too!
 
@@ -113,8 +113,8 @@ categories:
   - slug: props
     name: Props
 created-jotform: "2026-10-03 14:11:01"
-last-modified-jotform: "2026-10-12 07:10:40"
-last-exported: "2026-10-12 08:24:20"
+last-modified-jotform: "2026-10-17 09:38:31"
+last-exported: "2026-10-20 23:19:21"
 sitemap: false
 
 ---

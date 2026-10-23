@@ -5,6 +5,7 @@ title: "Tampa Hackerspace Racing League"
 slug: tampa-hackerspace-racing-league
 permalink: /exhibits/tampa-hackerspace-racing-league/
 exhibit-id: 26-256
+exhibit-zone: "Power Racing Track"
 space-number: Unassigned
 description: "This is our entry into the power racing League race"
 description-long: "This is our entry for the power racing League. The cart we will be bringing his much better than the one in the picture."
@@ -42,8 +43,8 @@ categories:
   - slug: power-racing
     name: Power Racing
 created-jotform: "2026-10-15 21:27:40"
-last-modified-jotform: "2026-10-16 09:29:18"
-last-exported: "2026-10-16 09:32:02"
+last-modified-jotform: "2026-10-17 13:17:58"
+last-exported: "2026-10-20 23:19:21"
 sitemap: false
 
 ---

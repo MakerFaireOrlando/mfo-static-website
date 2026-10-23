@@ -5,7 +5,8 @@ title: "Artifacts & Instruments"
 slug: artifacts-instruments
 permalink: /exhibits/artifacts-instruments/
 exhibit-id: 26-187
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OD28"
 description: "wall shelves built around artifact scans.
 
 Fast · Cheap · Good- a plywood and acrylic dial"
@@ -71,8 +72,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-04 01:00:02"
-last-modified-jotform: "2026-10-16 14:38:39"
-last-exported: "2026-10-16 22:11:47"
+last-modified-jotform: "2026-10-17 11:29:54"
+last-exported: "2026-10-20 23:19:28"
 sitemap: false
 
 ---

@@ -5,8 +5,8 @@ title: "The Santanas"
 slug: the-santanas
 permalink: /exhibits/the-santanas/
 exhibit-id: 26-176
-exhibit-zone: "Opportunity"
-space-number: "OD9"
+exhibit-zone: "Spirit - Center"
+space-number: "SF20"
 description: "LEGO minifigure stop-motion situational comedy that subtly teaches aerospace engineering concepts."
 description-long: "This is a LEGO minifigure stop-motion edutainment situational comedy about a typical suburban family that is forced to move in with the father’s brother, in a nearby city, for economic reasons. Both the father and his brother are aerospace engineers, so a target audience of children are amused while subtly taught aerospace engineering related concepts. The exhibit will include the LEGO set scene, LEGO camera rig, LEGO mini-figure characters, and display of episode 1."
 image: /assets/images/exhibit-images/26-176-e-the-santanas-img-4100-686-300x205.jpeg
@@ -41,8 +41,8 @@ categories:
   - slug: lego
     name: LEGO
 created-jotform: "2026-08-30 15:57:43"
-last-modified-jotform: "2026-10-04 11:48:26"
-last-exported: "2026-10-05 15:05:59"
+last-modified-jotform: "2026-10-17 13:17:54"
+last-exported: "2026-10-20 23:19:31"
 sitemap: false
 
 ---

@@ -5,8 +5,8 @@ title: "Piper Kits with Tech Sassy Girlz"
 slug: piper-kits-with-tech-sassy-girlz
 permalink: /exhibits/piper-kits-with-tech-sassy-girlz/
 exhibit-id: 26-223
-exhibit-zone: "Spirit - Center"
-space-number: "SF24"
+exhibit-zone: "Spirit - East"
+space-number: "SH29"
 description: "Teach coding, circuits, LEDs, breadboards, electronics, and problem-solving."
 description-long: "Tech Sassy Girlz brings a fun hands-on activity with Piper kits that introduce students to coding, electronics, and engineering through interactive projects. Students learn how to use breadboards, LEDs, switches, wires, sensors, and other electronic components, while building circuits and practicing problem-solving, computational thinking, and basic programming."
 image: /assets/images/exhibit-images/26-223-e-piper-kits-with-tech-sassy-girlz-screenshot-490-300x300.png
@@ -58,8 +58,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-28 14:33:54"
-last-modified-jotform: "2026-10-11 09:32:51"
-last-exported: "2026-10-12 08:24:26"
+last-modified-jotform: "2026-10-17 09:33:25"
+last-exported: "2026-10-20 23:19:22"
 sitemap: false
 
 ---

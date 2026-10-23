@@ -571,25 +571,32 @@ html[data-theme="invasion"] #theme-mode-toggle .mf-icon-sun { display: block; }
    image-forward sibling of the homepage "Explore the Faire" cards
    (.mf-card-media / .mf-card-label) — same overlay idea, but these use a real
    <img> (needed for lazy-loading + aspect-ratio so Muuri can size them before
-   decode) and run at a smaller scale. The link must be block so the image
-   fills the card width and drives the masonry. */
+   decode) and run at a smaller scale. The image is block and full-width so it
+   drives the masonry sizing. */
 .exhibits-container .item-content { position: relative; }
-.exhibits-container .item-content .img-container,
-.exhibits-container .item-content .img-container a { display: block; }
-.exhibits-container .item-content .img-container { overflow: hidden; }
+.exhibits-container .item-content .img-container { display: block; overflow: hidden; }
 .exhibits-container .item-content .img-container img {
   display: block; width: 100%; height: auto;
   transition: transform 0.45s ease;
 }
 .exhibits-container .item:hover .item-content { box-shadow: var(--mf-shadow-hover) !important; }
 .exhibits-container .item:hover .item-content .img-container img { transform: scale(1.07); }
+/* The overlay spans the WHOLE card, not just the gradient strip, so that it —
+   and not `.item-content` — is the containing block the stretched link below
+   resolves against. It stays visually identical because the gradient and the
+   padding live on the link, which flex-ends to the bottom. */
 .exhibits-container .item-content .title-container {
   position: absolute;
-  left: 0; right: 0; bottom: 0;
-  margin: 0; padding: 42px 14px 14px;
-  background: linear-gradient(to top, rgba(14, 22, 40, 0.9) 0%, rgba(14, 22, 40, 0.45) 55%, rgba(14, 22, 40, 0) 100%);
+  inset: 0;
+  margin: 0; padding: 0;
+  display: flex;
+  align-items: flex-end;
 }
 .exhibits-container .item-content .title-container a {
+  display: block;
+  width: 100%;
+  padding: 42px 14px 14px;
+  background: linear-gradient(to top, rgba(14, 22, 40, 0.9) 0%, rgba(14, 22, 40, 0.45) 55%, rgba(14, 22, 40, 0) 100%);
   font-family: var(--mf-font-head);
   font-weight: 700;
   font-size: 1rem;
@@ -598,6 +605,23 @@ html[data-theme="invasion"] #theme-mode-toggle .mf-icon-sun { display: block; }
   text-transform: uppercase;
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.55);
 }
+/* Whole card = one click target. Without this the hit area is just the title
+   TEXT plus whatever image the overlay doesn't cover — far smaller than the
+   card the hover effect advertises. The pseudo-element stretches over the
+   overlay above, which covers the card edge to edge. */
+.exhibits-container .item-content .title-container a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+/* Keyboard focus has to read on the card, not just the title text, since the
+   card is what reacts to the pointer. */
+.exhibits-container .item-content:focus-within {
+  outline: 3px solid var(--mf-red);
+  outline-offset: 2px;
+}
+.exhibits-container .item-content .title-container a:focus { outline: none; }
 @media (prefers-reduced-motion: reduce) {
   .exhibits-container .item-content .img-container img { transition: none; }
   .exhibits-container .item:hover .item-content .img-container img { transform: none; }

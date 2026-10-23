@@ -6,7 +6,7 @@ slug: j2c-props-and-printing
 permalink: /exhibits/j2c-props-and-printing/
 exhibit-id: 26-75
 exhibit-zone: "Spirit - Center"
-space-number: "SG20, SG21"
+space-number: "SG26, SH26"
 description: "Multiple 3D printed display pieces that showcase the groups expertise in printing and embroidery."
 description-long: "Multiple 3D printed display pieces that showcase the groups expertise in printing, painting, and electronics. The pieces demonstrate various techniques from electronics and lighting, to airbrushing and embroidery. All of the props and miniatures are 3D printed using ABS, PLA, and Resin in a variety of scales from 1/6th to life size. We've been 3D printing for many years and we are eager to share the techniques and experience we've learned along with visitors."
 image: /assets/images/exhibit-images/26-75-e-j2c-props-and-printing-img-0543-300x182.jpg
@@ -152,8 +152,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-15 08:23:40"
-last-modified-jotform: "2026-10-15 19:02:11"
-last-exported: "2026-10-16 08:34:41"
+last-modified-jotform: "2026-10-17 13:17:50"
+last-exported: "2026-10-20 23:19:49"
 sitemap: false
 
 ---

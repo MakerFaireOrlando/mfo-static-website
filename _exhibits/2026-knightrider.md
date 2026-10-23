@@ -5,6 +5,7 @@ title: "Knightrider"
 slug: knightrider
 permalink: /exhibits/knightrider/
 exhibit-id: 26-250
+exhibit-zone: "Power Racing Track"
 space-number: Unassigned
 description: "Power Racing Series Entry"
 description-long: "Power Racing Series Entry"
@@ -37,8 +38,8 @@ categories:
   - slug: electric-vehicles
     name: Electric Vehicles
 created-jotform: "2026-10-11 14:06:52"
-last-modified-jotform: "2026-10-11 17:07:10"
-last-exported: "2026-10-12 08:23:54"
+last-modified-jotform: "2026-10-17 13:17:57"
+last-exported: "2026-10-20 23:19:21"
 sitemap: false
 
 ---
