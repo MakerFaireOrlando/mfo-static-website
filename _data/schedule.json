@@ -11,7 +11,9 @@
     "location": "Main Stage",
     "description": "From castles to coasters, see how MCParks recreates world famous theme parks in Minecraft. Learn about the technology and teamwork needed to bring the project to life - and how you can get involved in future experiences!",
     "date": "2026-11-06 10:30:00",
-    "enddate": "2026-11-06 10:55:00"
+    "enddate": "2026-11-06 10:55:00",
+    "image": "/assets/images/stage/2026/minecraft-makers-18214a2a-1024x1024.jpg",
+    "url": "https://www.makerfaireorlando.com/exhibits/mcparks-theme-parks-in-minecraft/"
   },
   {
     "title": "Young Makers",
@@ -28,20 +30,20 @@
     "enddate": "2026-11-06 11:55:00"
   },
   {
-    "title": "Lunch Seating & Musical Performance",
+    "title": "Lunch Seating",
     "location": "Main Stage",
     "description": "Grab lunch outside and then join us for air conditioned seating and music!",
     "date": "2026-11-06 12:00:00",
-    "enddate": "2026-11-06 12:40:00"
+    "enddate": "2026-11-06 12:35:00"
   },
   {
     "title": "Make a World Record Paper Airplane!",
     "location": "Main Stage",
-    "date": "2026-11-06 12:45:00",
+    "date": "2026-11-06 12:35:00",
     "enddate": "2026-11-06 13:25:00"
   },
   {
-    "title": "YouTube / Creator Makers",
+    "title": "Cosplay & Prop Makers",
     "location": "Main Stage",
     "date": "2026-11-06 13:30:00",
     "enddate": "2026-11-06 13:55:00"
@@ -76,12 +78,27 @@
     "url": "/exhibits/categories/power-racing/"
   },
   {
-    "title": "Theme Park Makers Panel",
+    "title": "TEA Theme Park Makers Panel",
     "slug": "theme-park-sat",
     "location": "Main Stage",
     "description": "Meet the creators behind the marvelous, immersive worlds that transport visitors in world-famous theme parks across the globe!",
     "date": "2026-11-07 10:30:00",
     "enddate": "2026-11-07 11:15:00"
+  },
+  {
+    "title": "3D Printed Wheelchairs For Toddlers - Live Build",
+    "location": "Community Stage",
+    "description": "We connect families of children with mobility challenges to vetted volunteer makers who 3D print custom Toddler Mobility Trainers (TMTs)—completely free for the requesting family.",
+    "date": "2026-11-07 11:15:00",
+    "enddate": "2026-11-07 12:00:00",
+    "image": "/assets/images/stage/2026/3d-printed-wheelchairs-for-toddlers-live-build-3fbff32c-1024x1024.jpg",
+    "url": "/exhibits/makerfx-makerspace/"
+  },
+  {
+    "title": "Lunch Seating",
+    "location": "Community Stage",
+    "date": "2026-11-07 12:00:00",
+    "enddate": "2026-11-07 13:00:00"
   },
   {
     "title": "Lunch Seating",
@@ -103,7 +120,22 @@
     "slug": "cosplay-creators-sat",
     "location": "Main Stage",
     "date": "2026-11-07 14:00:00",
-    "enddate": "2026-11-07 14:45:00"
+    "enddate": "2026-11-07 14:45:00",
+    "guests": [
+      {
+        "name": "Dwight Cenac",
+        "url": "https://www.makerfaireorlando.com/exhibits/high-noon/",
+        "image": "/assets/images/stage/2026/dwight-cenac-9dd79e42-1024x1024.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Stone By Stone - World-Building Workshop For Storytellers",
+    "location": "Community Stage",
+    "date": "2026-11-07 14:15:00",
+    "enddate": "2026-11-07 15:00:00",
+    "image": "/assets/images/stage/2026/stone-by-stone-world-building-workshop-for-storytellers-f9beb4da-1024x1024.jpg",
+    "url": "/exhibits/megan-orussell-books-meet-the-author/"
   },
   {
     "title": "Power Racing - Meet & Greet",
@@ -115,11 +147,22 @@
     "url": "/exhibits/categories/power-racing/"
   },
   {
-    "title": "Cosplay & Props Panel",
+    "title": "Making The Fallout Xperience Panel",
     "slug": "combat-robots",
     "location": "Main Stage",
     "date": "2026-11-07 15:00:00",
-    "enddate": "2026-11-07 15:45:00"
+    "enddate": "2026-11-07 15:45:00",
+    "image": "/assets/images/stage/2026/making-the-fallout-xperience-panel-572d13ba-1024x1024.jpg",
+    "url": "/exhibits/the-fallout-xperience/"
+  },
+  {
+    "title": "Inspiring the Next Generation of Leaders",
+    "location": "Community Stage",
+    "description": "Max shares his journey as a young entrepreneur and published author, encouraging other young people to believe in themselves, and understand that age doesn't have to limit what they can accomplish. ",
+    "date": "2026-11-07 15:15:00",
+    "enddate": "2026-11-07 15:45:00",
+    "image": "/assets/images/stage/2026/inspiring-the-next-generation-of-leaders-2ce6842f-1024x1024.jpg",
+    "url": "/exhibits/read-first-play-later-max-johnson/"
   },
   {
     "title": "Power Racing - Sprint Race 2",
@@ -130,10 +173,10 @@
     "url": "/exhibits/categories/power-racing/"
   },
   {
-    "title": "Amity Park Punk - Live!",
-    "location": "Main Stage",
+    "title": "Drawing Class",
+    "location": "Community Stage",
     "date": "2026-11-07 16:00:00",
-    "enddate": "2026-11-07 16:45:00"
+    "enddate": "2026-11-07 16:30:00"
   },
   {
     "title": "Maker Faire Day 1 is Over!",
@@ -149,12 +192,57 @@
     "image": "/assets/images/site-branding/2026/MFO2026_Round_logo_V3_w_date-RGB.jpg"
   },
   {
+    "title": "Minecraft Makers",
+    "location": "Community Stage",
+    "description": "MCParks is a 1:1 scale Minecraft recreation of major theme parks, including working attractions.",
+    "date": "2026-11-08 10:30:00",
+    "enddate": "2026-11-08 11:00:00",
+    "image": "/assets/images/stage/2026/minecraft-makers-0aa8c2cb-1024x1024.jpg",
+    "url": "/exhibits/mcparks-theme-parks-in-minecraft/",
+    "guests": [
+      {
+        "name": "Ryan Hecht",
+        "url": "/exhibits/mcparks-theme-parks-in-minecraft/"
+      },
+      {
+        "name": "Darren d'Hedouville",
+        "url": "/exhibits/mcparks-theme-parks-in-minecraft/"
+      }
+    ]
+  },
+  {
+    "title": "Theme Park Makers Panel",
+    "location": "Main Stage",
+    "date": "2026-11-08 10:30:00",
+    "enddate": "2026-11-08 11:15:00"
+  },
+  {
+    "title": "Giant Builds Panel",
+    "location": "Main Stage",
+    "date": "2026-11-08 11:30:00",
+    "enddate": "2026-11-08 12:15:00",
+    "guests": [
+      {
+        "name": "Willow",
+        "url": "/exhibits/willow-creative/",
+        "image": "/assets/images/stage/2026/willow-dd012712-1024x1024.jpg"
+      }
+    ]
+  },
+  {
     "title": "Power Racing - Sprint Race 3",
     "location": "Power Racing Track",
     "date": "2026-11-08 11:45:00",
     "enddate": "2026-11-08 12:15:00",
     "image": "/assets/images/power-racing.gif",
     "url": "/exhibits/categories/power-racing/"
+  },
+  {
+    "title": "Lunch Seating",
+    "location": "Main Stage",
+    "description": "Grab lunch outside and then join us for air conditioned seating",
+    "date": "2026-11-08 12:30:00",
+    "enddate": "2026-11-08 13:45:00"
   },
   {
     "title": "Power Racing - Meet & Greet",
@@ -166,12 +254,39 @@
     "url": "/exhibits/categories/power-racing/"
   },
   {
+    "title": "Cosplay Panel",
+    "location": "Main Stage",
+    "date": "2026-11-08 14:00:00",
+    "enddate": "2026-11-08 14:50:00"
+  },
+  {
+    "title": "The Second Breakfast Club Show - Improv Comedy",
+    "location": "Community Stage",
+    "description": "Sketch/Improv Comedy with the The Second Breakfast Club Show! Stop by for fun, laughter, and shenanigans!",
+    "date": "2026-11-08 14:00:00",
+    "enddate": "2026-11-08 14:30:00",
+    "image": "/assets/images/stage/2026/the-second-breakfast-club-show-improv-comedy-eede900c-1024x1024.jpg",
+    "url": "/exhibits/props-puppets-with-the-second-breakfast-club-show/"
+  },
+  {
     "title": "Power Racing - Endurance Race",
     "location": "Power Racing Track",
     "date": "2026-11-08 14:30:00",
     "enddate": "2026-11-08 16:00:00",
     "image": "/assets/images/power-racing2.gif",
     "url": "/exhibits/categories/power-racing/"
+  },
+  {
+    "title": "Drawing Class",
+    "location": "Community Stage",
+    "date": "2026-11-08 14:45:00",
+    "enddate": "2026-11-08 15:15:00"
+  },
+  {
+    "title": "Prop Makers Panel",
+    "location": "Main Stage",
+    "date": "2026-11-08 15:00:00",
+    "enddate": "2026-11-08 15:50:00"
   },
   {
     "title": "Power Racing - Awards Ceremony",
