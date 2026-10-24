@@ -1,6 +1,6 @@
 
 maker_exhibits_holdover: false
-maker_exhibits_show_location: false
+maker_exhibits_show_location: true
 
 # Call for Makers. Like field_trip_status below this one is a STRING, not a
 # boolean, because the season has more shape than open/shut. It drives the
@@ -39,7 +39,7 @@ tickets_on_sale: true
 #   closed        at capacity - no further registrations of any kind
 # Anything else falls back to the "open" card. See _includes/field-trip-status-card.html
 # UPDATE field_trip_url to the current year's JotForm before opening.
-field_trip_status: no-groups
+field_trip_status: closed
 field_trip_url: https://form.jotform.com/makereffect/mfo2026-field-trip-day
 
 # Theme / dark mode settings (see _documentation/redesign-2026.md §6.17)
@@ -100,7 +100,7 @@ contact_email: makers@makerfaireorlando.com
 
 # badge page settings
 badge_show_update_warning: false
-badge_show_space_plans: false
+badge_show_space_plans: true
 
 # maker manual page settings
 maker_manual_show_update_warning: false
