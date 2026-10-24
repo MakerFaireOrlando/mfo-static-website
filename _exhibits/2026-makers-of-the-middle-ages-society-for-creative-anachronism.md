@@ -100,8 +100,8 @@ categories:
   - slug: metalworking
     name: Metalworking
 created-jotform: "2026-08-22 17:22:09"
-last-modified-jotform: "2026-10-17 09:38:25"
-last-exported: "2026-10-20 23:19:34"
+last-modified-jotform: "2026-10-24 15:06:21"
+last-exported: "2026-10-24 16:18:42"
 sitemap: false
 
 ---

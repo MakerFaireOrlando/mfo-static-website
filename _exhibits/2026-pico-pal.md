@@ -5,6 +5,7 @@ title: "Pico Pal"
 slug: pico-pal
 permalink: /exhibits/pico-pal/
 exhibit-id: 26-241
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "A repairable, open-source handheld: retro games, music, sunrise alarm, step tracking, and more."
 description-long: "Pico Pal is an open-source handheld and devkit that pairs a nostalgic late-'90s form factor with modern hardware. Built on the Raspberry Pi RP2350B and an ESP32 co-processor, it has a 2.6-inch IPS display, Wi-Fi, Bluetooth, a real-time clock, and a motion sensor.
@@ -62,8 +63,8 @@ categories:
   - slug: raspberry-pi
     name: Raspberry Pi
 created-jotform: "2026-10-06 10:51:12"
-last-modified-jotform: "2026-10-16 14:38:19"
-last-exported: "2026-10-16 22:11:44"
+last-modified-jotform: "2026-10-24 16:03:44"
+last-exported: "2026-10-24 16:18:39"
 sitemap: false
 
 ---

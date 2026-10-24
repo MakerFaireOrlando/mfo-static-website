@@ -5,6 +5,7 @@ title: "Eleven 19 Designs LLC"
 slug: eleven-19-designs-llc
 permalink: /exhibits/eleven-19-designs-llc/
 exhibit-id: 26-180
+exhibit-zone: "Opportunity"
 space-number: Unassigned
 description: "Unique, handmade designs created with determination, creativity, and love."
 description-long: "Having a business was simply a dream in 2018—a dream built around creating unique designs that couldn’t be found anywhere else. We wanted to showcase our creativity, connect directly with customers through social media, and create those exciting moments when someone asks, “Where did you get that?” or “Can I get one? It’s so beautiful!”
@@ -86,8 +87,8 @@ categories:
   - slug: handmade
     name: Handmade
 created-jotform: "2026-08-31 12:39:06"
-last-modified-jotform: "2026-10-11 11:17:32"
-last-exported: "2026-10-12 08:24:36"
+last-modified-jotform: "2026-10-24 16:03:41"
+last-exported: "2026-10-24 16:18:41"
 sitemap: false
 
 ---
