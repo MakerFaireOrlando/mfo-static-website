@@ -41,13 +41,9 @@ Check out the [Maker Faire Program](/program) for a map, schedule and more!
 
 {% if site.data.settings.badge_show_space_plans %}
 ### Space Plans - UPDATED
-[Opportunity Building PDF Space Plan](/assets/pdf/2025/MFO25-OPPORTUNITY.pdf) - Space numbers starting with "O"
+[Opportunity Building PDF Space Plan](/assets/pdf/2026/MFO26-OPPORTUNITY.pdf) - Space numbers starting with "O"
 
-[Spirit Building PDF Space Plan](/assets/pdf/2025/MFO25-SPIRIT.pdf) - Space numbers starting with "S"
-
-[Curiosity Building PDF Space Plan](/assets/pdf/2025/MFO25-CURIOSITY.pdf) - Space numbers starting with "C"
-
-[Exhibit Tent PDF Space Plan](/assets/pdf/2025/MFO25-MAKER-TENT.pdf) - Space numbers starting with "T"
+[Spirit Building PDF Space Plan](/assets/pdf/2026/MFO26-SPIRIT.pdf) - Space numbers starting with "S"
 
 
 We do not publish a space plan for all outdoor exhibits, we have to validate space conditions when we are on-site at the Fairgrounds. Once you are on-site, our team will help you locate your outdoor exhibit. If you have a question about an outdoor location, [email us](mailto:makers@makerfaireorlando.com)
