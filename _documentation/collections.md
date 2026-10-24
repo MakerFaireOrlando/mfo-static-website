@@ -68,7 +68,11 @@ Defaults applied in `_config.yml`: every exhibit gets `layout: exhibit`.
   - On `/exhibits/` it shows all exhibits (excluding combat-robot `R` IDs).
   - On a `/exhibits/categories/<slug>/` page it shows only exhibits whose
     `categories` include that slug.
-- **A single exhibit** uses `_layouts/exhibit.html` at its `permalink`.
+- **A single exhibit** uses `_layouts/exhibit.html` at its `permalink`. Its
+  "Catch them on stage" block is **derived at build time** by
+  `_includes/exhibit-stage-times.html` from `_data/schedule.json` — there is no
+  stage/schedule field in the front matter and nothing for the importer to
+  write. See [Data Files](data-files.md#schedule-json).
 
 ---
 

@@ -814,6 +814,76 @@ html[data-theme="invasion"] #theme-mode-toggle .mf-icon-sun { display: block; }
   color: var(--mf-gray-600);
 }
 
+/* Stage appearances ("Catch them on stage") — the schedule's back-link, built by
+   _includes/exhibit-stage-times.html. Sits under the logistics strip because it
+   is day-of info too. A quiet gray panel: grouped, but no colour accent beyond
+   the times themselves, so it doesn't outrank the .exhibit-meta strip above it.
+   All colors go through tokens, so the dark and invasion themes inherit it
+   without an override, same as .exhibit-meta. */
+.exhibit-stage {
+  margin: 0 0 24px;
+  padding: 18px 20px;
+  background: var(--mf-gray-100);
+  border: 1px solid var(--mf-gray-200);
+  border-radius: var(--mf-radius-sm);
+}
+.exhibit-stage-head {
+  font-family: var(--mf-font-head);
+  font-weight: 700;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--mf-gray-600);
+  margin: 0 0 10px;
+}
+.exhibit-stage-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.exhibit-stage-item + .exhibit-stage-item {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--mf-gray-200);
+}
+.exhibit-stage-link {
+  display: block;
+  padding: 4px 6px;
+  margin: -4px -6px;
+  border-radius: 4px;
+  color: var(--mf-ink);
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+/* Hover lifts to --mf-surface, not --mf-gray-100: gray-100 is now the panel's
+   own fill, so hovering to it would read as no hover at all. Surface is white
+   in light and a darker panel in dark, so the row separates either way. */
+.exhibit-stage-link:hover,
+.exhibit-stage-link:focus-visible {
+  background: var(--mf-surface);
+  text-decoration: none;
+  color: var(--mf-ink);
+}
+.exhibit-stage-when {
+  display: block;
+  font-weight: 700;
+  color: var(--mf-red);
+}
+.exhibit-stage-what {
+  display: block;
+  font-weight: 600;
+}
+.exhibit-stage-where,
+.exhibit-stage-guest {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--mf-gray-600);
+}
+.exhibit-stage-foot {
+  margin: 12px 0 0;
+  font-size: 0.9rem;
+}
+
 /* Volunteer roles — a readable column of role cards (icon + title + copy). */
 .mf-roles {
   max-width: 760px;

@@ -85,7 +85,7 @@ sponsors:
 
 ---
 
-## `schedule.json` — event schedule
+## `schedule.json` — event schedule {#schedule-json}
 
 A flat list of events, **generated** rather than hand-written: the producer
 dashboard's schedule builder exports this file, and the export sorts by date, so
@@ -125,6 +125,16 @@ bold line. The exporter omits rather than empties.
 Editing by hand is fine for a quick fix. For anything larger, use the builder —
 it validates, sorts, and previews against this page's own markup.
 
+- `url` and `guests[].url` are read in **both** directions. Forward, `/schedule/`
+  links the event title, image and guest names at them. Backward,
+  `_includes/exhibit-stage-times.html` puts a "Catch them on stage" block on the
+  exhibit's own page — so pointing a `url` at an exhibit permalink is what makes
+  that exhibit advertise the talk. The match is on the slug **inside** the URL
+  (`… | split: "/exhibits/" | last | split: "/" | first`), which is why an
+  absolute `https://www.makerfaireorlando.com/exhibits/…` works as well as a
+  relative one, and why a category URL (`/exhibits/categories/power-racing/`)
+  deliberately matches nothing. An event matches at most once, however many of
+  its `url` and `guests[].url` point at the same exhibit.
 - `location` and `date` feed the day/stage filters on the schedule pages
   (`location | slugify`, `date | date: "%A" | slugify`).
 - Rendered by `_layouts/schedule.html` (`/schedule/`) and

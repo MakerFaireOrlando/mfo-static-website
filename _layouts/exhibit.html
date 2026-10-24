@@ -43,6 +43,11 @@
         </div>
       </div>
 
+      {%- comment -%} Stage appearances for this exhibit, derived from
+        _data/schedule.json at build time. Renders nothing when there are
+        none. {%- endcomment -%}
+      {% include exhibit-stage-times.html %}
+
       {% if page.website %}
       <p><a href="{% include external-url.html url=page.website %}" class="btn btn-info mf-external" target="_blank" rel="noopener">Learn More{% include external-icon.html %}</a></p>
       {% endif %}
