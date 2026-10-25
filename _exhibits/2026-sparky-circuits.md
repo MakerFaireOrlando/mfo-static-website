@@ -82,9 +82,11 @@ categories:
     name: Electronics
   - slug: first-robotics
     name: FIRST Robotics
+  - slug: robotics
+    name: Robotics
 created-jotform: "2026-10-06 21:22:09"
-last-modified-jotform: "2026-10-11 12:06:07"
-last-exported: "2026-10-12 08:24:08"
+last-modified-jotform: "2026-10-25 14:35:29"
+last-exported: "2026-10-25 15:24:46"
 sitemap: false
 
 ---

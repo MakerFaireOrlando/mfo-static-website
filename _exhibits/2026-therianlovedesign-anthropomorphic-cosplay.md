@@ -108,9 +108,11 @@ categories:
     name: Hands-On Workshop
   - slug: props
     name: Props
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2026-07-01 23:58:53"
-last-modified-jotform: "2026-10-04 11:00:06"
-last-exported: "2026-10-05 15:07:46"
+last-modified-jotform: "2026-10-25 14:15:26"
+last-exported: "2026-10-25 15:24:47"
 sitemap: false
 
 ---
