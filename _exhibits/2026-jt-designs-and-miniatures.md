@@ -6,7 +6,7 @@ slug: jt-designs-and-miniatures
 permalink: /exhibits/jt-designs-and-miniatures/
 exhibit-id: 26-30
 exhibit-zone: "Spirit - Center"
-space-number: "SE11, SF11"
+space-number: "SF11, SG11"
 description: "Recreations of props, spacecraft and creatures from some of the most loved scifi TV and movies."
 description-long: "Recreations of vehicles and creatures from some of the most loved science fiction TV and movies. In addition to real world subjects like NASA space vehicles, ships and boats and automotive subjects. All created using kits, silicone molding techniques, fiberglass, wood working, 3D printing and good old kit bashing."
 image: /assets/images/exhibit-images/26-30-e-jt-designs-and-miniatures-img-1953-300x225.JPG
@@ -221,8 +221,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-01 22:16:01"
-last-modified-jotform: "2026-10-09 14:51:14"
-last-exported: "2026-10-10 09:38:46"
+last-modified-jotform: "2026-10-25 16:04:30"
+last-exported: "2026-10-25 16:10:46"
 sitemap: false
 
 ---
