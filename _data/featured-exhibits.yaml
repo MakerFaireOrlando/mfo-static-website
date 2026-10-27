@@ -8,12 +8,18 @@
 # hand edit shows up there as a difference rather than being overwritten.
 
 homepage:
-  - exhibit-id: 26-233 #roboclash robot battles
-  - exhibit-id: 26R-27 #jupiter robotics
-    image: /assets/images/exhibit-images/26R-27-e6-jupiter-robotics-img-20260829-083307341-1634-1024x768.jpg
-  - exhibit-id: 26R-58 #sunday scaries
-    image: /assets/images/exhibit-images/26R-58-e-sunday-scaries-sundayscaries2026-1024x683.jpg
-  - exhibit-id: 26R-40 #but robotics
+  - exhibit-id: 26-134 #princesses with powertools: learn to hand drill
+    title: Princesses with Powertools
+  - exhibit-id: 26-254 #make-a-shirt
+  - exhibit-id: 26-259 #giant skeeball
+  - exhibit-id: 26-167 #mini figure paint and take
+  - exhibit-id: 26-243 #sparky circuits
+    image: /assets/images/exhibit-images/26-243-e-sparky-circuits-paper-circuit-image-1-1024x1024.png
+  - exhibit-id: 26-223 #piper kits with tech sassy girlz
+  - exhibit-id: 26-87 #high flight paper rockets
+    image: /assets/images/exhibit-images/26-87-e2-high-flight-paper-rockets-paper-rocket-with-launch-pad-768x1024.jpg
+  - exhibit-id: 26-121 #paper airplane world record
+    image: /assets/images/exhibit-images/26-121-e4-paper-airplane-world-record-with-planes-1024x690.jpeg
 
 makers-carousel:
   - exhibit-id: 21-48 #k gentry art
