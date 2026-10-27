@@ -8,6 +8,10 @@
     "label": "Community Stage"
   },
   {
+    "value": "outdoor-stage",
+    "label": "Outdoor Stage"
+  },
+  {
     "value": "power-racing-track",
     "label": "Power Racing Track"
   }
