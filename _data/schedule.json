@@ -13,7 +13,17 @@
     "date": "2026-11-06 10:30:00",
     "enddate": "2026-11-06 10:55:00",
     "image": "/assets/images/stage/2026/minecraft-makers-18214a2a-1024x1024.jpg",
-    "url": "https://www.makerfaireorlando.com/exhibits/mcparks-theme-parks-in-minecraft/"
+    "url": "https://www.makerfaireorlando.com/exhibits/mcparks-theme-parks-in-minecraft/",
+    "guests": [
+      {
+        "name": "Darren d'Hedouville",
+        "url": "/exhibits/mcparks-theme-parks-in-minecraft/"
+      },
+      {
+        "name": "Ryan Hecht",
+        "url": "/exhibits/mcparks-theme-parks-in-minecraft/"
+      }
+    ]
   },
   {
     "title": "Young Makers",
@@ -21,13 +31,43 @@
     "location": "Main Stage",
     "description": "Meet inspiring young makers as they share how curiosity, creativity, and hands-on making are helping them build cool projects, and a bright future. ",
     "date": "2026-11-06 11:00:00",
-    "enddate": "2026-11-06 11:25:00"
+    "enddate": "2026-11-06 11:25:00",
+    "guests": [
+      {
+        "name": "Colin King",
+        "url": "https://www.makerfaireorlando.com/exhibits/colins-soap-a-rama/",
+        "image": "/assets/images/stage/2026/colin-king-db6f2559-1024x1024.jpg"
+      },
+      {
+        "name": "Hannah Black",
+        "url": "https://www.makerfaireorlando.com/exhibits/therianlovedesign-anthropomorphic-cosplay/",
+        "image": "/assets/images/stage/2026/hannah-black-8a31995d-1024x1024.jpg"
+      },
+      {
+        "name": "Rock Springs Critters",
+        "url": "https://www.makerfaireorlando.com/exhibits/rock-springs-critters/",
+        "image": "/assets/images/stage/2026/rock-springs-critters-147454e0-1024x1024.jpg"
+      },
+      {
+        "name": "Max Johnson",
+        "url": "/exhibits/read-first-play-later-max-johnson/",
+        "image": "/assets/images/stage/2026/max-johnson-549baaa4-1024x1024.jpg"
+      }
+    ]
   },
   {
     "title": "Bionic Makers",
     "location": "Main Stage",
     "date": "2026-11-06 11:30:00",
-    "enddate": "2026-11-06 11:55:00"
+    "enddate": "2026-11-06 11:55:00",
+    "guests": [
+      {
+        "name": "Albert Manero"
+      },
+      {
+        "name": "Limbitless"
+      }
+    ]
   },
   {
     "title": "Lunch Seating",
@@ -40,13 +80,25 @@
     "title": "Make a World Record Paper Airplane!",
     "location": "Main Stage",
     "date": "2026-11-06 12:35:00",
-    "enddate": "2026-11-06 13:25:00"
+    "enddate": "2026-11-06 13:25:00",
+    "guests": [
+      {
+        "name": "John Collins"
+      }
+    ]
   },
   {
     "title": "Cosplay & Prop Makers",
     "location": "Main Stage",
     "date": "2026-11-06 13:30:00",
-    "enddate": "2026-11-06 13:55:00"
+    "enddate": "2026-11-06 13:55:00",
+    "guests": [
+      {
+        "name": "Willow Creative",
+        "url": "/exhibits/willow-creative/",
+        "image": "/assets/images/stage/2026/willow-230aed81-1024x1024.jpg"
+      }
+    ]
   },
   {
     "title": "Robot Makers",
@@ -54,7 +106,13 @@
     "location": "Main Stage",
     "description": "Meet passionate robot makers, from high school teams to seasoned builders, as they share how design, engineering, and competition fuel their creations in FIRST robotics and combat arenas.",
     "date": "2026-11-06 14:00:00",
-    "enddate": "2026-11-06 14:25:00"
+    "enddate": "2026-11-06 14:25:00",
+    "guests": [
+      {
+        "name": "Evie Harper",
+        "image": "/assets/images/stage/2026/evie-harper-258c6720-1024x1024.jpg"
+      }
+    ]
   },
   {
     "title": "Field Trip Day Ends",
@@ -116,12 +174,31 @@
     "url": "/exhibits/categories/power-racing/"
   },
   {
+    "title": "Willow Creative",
+    "location": "Community Stage",
+    "date": "2026-11-07 13:15:00",
+    "enddate": "2026-11-07 14:00:00",
+    "image": "/assets/images/stage/2026/willow-creative-panel-db90b7e8-1024x1024.jpg",
+    "url": "/exhibits/willow-creative/",
+    "guests": [
+      {
+        "name": "Willow",
+        "url": "/exhibits/willow-creative/",
+        "image": "/assets/images/stage/2026/willow-89129b9e-1024x1024.jpg"
+      }
+    ]
+  },
+  {
     "title": "Gaming Panel",
     "slug": "cosplay-creators-sat",
     "location": "Main Stage",
     "date": "2026-11-07 14:00:00",
     "enddate": "2026-11-07 14:45:00",
     "guests": [
+      {
+        "name": "Jai-lai Heroes",
+        "url": "https://www.makerfaireorlando.com/exhibits/throwback-jai-alai-heroes/"
+      },
       {
         "name": "Dwight Cenac",
         "url": "https://www.makerfaireorlando.com/exhibits/high-noon/",
@@ -134,8 +211,15 @@
     "location": "Community Stage",
     "date": "2026-11-07 14:15:00",
     "enddate": "2026-11-07 15:00:00",
-    "image": "/assets/images/stage/2026/stone-by-stone-world-building-workshop-for-storytellers-f9beb4da-1024x1024.jpg",
-    "url": "/exhibits/megan-orussell-books-meet-the-author/"
+    "image": "/assets/images/stage/2026/stone-by-stone-world-building-workshop-for-storytellers-6acee3b1-1024x1024.jpg",
+    "url": "/exhibits/megan-orussell-books-meet-the-author/",
+    "guests": [
+      {
+        "name": "Megan O'Russell",
+        "url": "/exhibits/megan-orussell-books-meet-the-author/",
+        "image": "/assets/images/stage/2026/megan-o-russell-74a52e1c-1024x1024.jpg"
+      }
+    ]
   },
   {
     "title": "Power Racing - Meet & Greet",
@@ -153,7 +237,13 @@
     "date": "2026-11-07 15:00:00",
     "enddate": "2026-11-07 15:45:00",
     "image": "/assets/images/stage/2026/making-the-fallout-xperience-panel-572d13ba-1024x1024.jpg",
-    "url": "/exhibits/the-fallout-xperience/"
+    "url": "/exhibits/the-fallout-xperience/",
+    "guests": [
+      {
+        "name": "Tyler Parks",
+        "url": "https://www.makerfaireorlando.com/exhibits/the-fallout-xperience/"
+      }
+    ]
   },
   {
     "title": "Inspiring the Next Generation of Leaders",
@@ -162,7 +252,14 @@
     "date": "2026-11-07 15:15:00",
     "enddate": "2026-11-07 15:45:00",
     "image": "/assets/images/stage/2026/inspiring-the-next-generation-of-leaders-2ce6842f-1024x1024.jpg",
-    "url": "/exhibits/read-first-play-later-max-johnson/"
+    "url": "/exhibits/read-first-play-later-max-johnson/",
+    "guests": [
+      {
+        "name": "Max Johnson",
+        "url": "https://www.makerfaireorlando.com/exhibits/max-johnson-15-year-old-author/",
+        "image": "/assets/images/stage/2026/max-johnson-9dac7a30-1024x1024.jpg"
+      }
+    ]
   },
   {
     "title": "Power Racing - Sprint Race 2",
@@ -176,7 +273,13 @@
     "title": "Drawing Class",
     "location": "Community Stage",
     "date": "2026-11-07 16:00:00",
-    "enddate": "2026-11-07 16:30:00"
+    "enddate": "2026-11-07 16:30:00",
+    "image": "/assets/images/stage/2026/drawing-class-c2757fa4-1024x1024.jpg",
+    "guests": [
+      {
+        "name": "Michael Roll"
+      }
+    ]
   },
   {
     "title": "Maker Faire Day 1 is Over!",
@@ -201,11 +304,13 @@
     "url": "/exhibits/mcparks-theme-parks-in-minecraft/",
     "guests": [
       {
-        "name": "Ryan Hecht",
-        "url": "/exhibits/mcparks-theme-parks-in-minecraft/"
+        "name": "Ryan Hecht"
       },
       {
-        "name": "Darren d'Hedouville",
+        "name": "Darren d'Hedouville"
+      },
+      {
+        "name": "MCParks",
         "url": "/exhibits/mcparks-theme-parks-in-minecraft/"
       }
     ]
@@ -215,6 +320,19 @@
     "location": "Main Stage",
     "date": "2026-11-08 10:30:00",
     "enddate": "2026-11-08 11:15:00"
+  },
+  {
+    "title": "Young Makers",
+    "location": "Community Stage",
+    "date": "2026-11-08 11:15:00",
+    "enddate": "2026-11-08 12:15:00",
+    "guests": [
+      {
+        "name": "Colin King",
+        "url": "https://www.makerfaireorlando.com/exhibits/colins-soap-a-rama/",
+        "image": "/assets/images/stage/2026/colin-king-ae79cd06-1024x1024.jpg"
+      }
+    ]
   },
   {
     "title": "Giant Builds Panel",
@@ -239,10 +357,32 @@
   },
   {
     "title": "Lunch Seating",
+    "location": "Community Stage",
+    "date": "2026-11-08 12:15:00",
+    "enddate": "2026-11-08 13:45:00"
+  },
+  {
+    "title": "Lunch Seating",
     "location": "Main Stage",
     "description": "Grab lunch outside and then join us for air conditioned seating",
     "date": "2026-11-08 12:30:00",
     "enddate": "2026-11-08 13:45:00"
+  },
+  {
+    "title": "Lunch Seating and Musical Performance",
+    "location": "Outdoor Stage",
+    "description": "Grab lunch and join us for a musical performance",
+    "date": "2026-11-08 12:30:00",
+    "enddate": "2026-11-08 13:45:00",
+    "image": "/assets/images/stage/2026/lunch-seating-and-musical-performance-008349d1-1024x1024.jpg",
+    "url": "/exhibits/amity-park/",
+    "guests": [
+      {
+        "name": "Amity Park",
+        "url": "/exhibits/amity-park/",
+        "image": "/assets/images/stage/2026/amity-park-aed3a853-1024x1024.jpg"
+      }
+    ]
   },
   {
     "title": "Power Racing - Meet & Greet",
@@ -266,7 +406,12 @@
     "date": "2026-11-08 14:00:00",
     "enddate": "2026-11-08 14:30:00",
     "image": "/assets/images/stage/2026/the-second-breakfast-club-show-improv-comedy-eede900c-1024x1024.jpg",
-    "url": "/exhibits/props-puppets-with-the-second-breakfast-club-show/"
+    "url": "/exhibits/props-puppets-with-the-second-breakfast-club-show/",
+    "guests": [
+      {
+        "name": "Sally November"
+      }
+    ]
   },
   {
     "title": "Power Racing - Endurance Race",
@@ -280,13 +425,26 @@
     "title": "Drawing Class",
     "location": "Community Stage",
     "date": "2026-11-08 14:45:00",
-    "enddate": "2026-11-08 15:15:00"
+    "enddate": "2026-11-08 15:15:00",
+    "image": "/assets/images/stage/2026/drawing-class-f4232e10-1024x1024.jpg",
+    "guests": [
+      {
+        "name": "Michael Roll",
+        "image": "/assets/images/stage/2026/michael-roll-29f848ff-1024x1024.jpg"
+      }
+    ]
   },
   {
     "title": "Prop Makers Panel",
     "location": "Main Stage",
     "date": "2026-11-08 15:00:00",
     "enddate": "2026-11-08 15:50:00"
+  },
+  {
+    "title": "Meshtastic Meetup",
+    "location": "Community Stage",
+    "date": "2026-11-08 15:30:00",
+    "enddate": "2026-11-08 16:00:00"
   },
   {
     "title": "Power Racing - Awards Ceremony",
