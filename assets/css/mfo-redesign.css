@@ -1915,3 +1915,68 @@ html:has(.mf-crew-roles) { scroll-behavior: smooth; }
      description cell continues it without re-drawing the border. */
   .mf-hours-table tr.is-show td { box-shadow: inset 4px 0 0 var(--mf-red); }
 }
+
+/* ==========================================================================
+   Event shirt promo (_includes/event-shirt.html)
+   The promo sits between the (blue) featured-makers panel and the white
+   sponsor marquee. On white it ran straight into the sponsors with no break,
+   so the panel gets a dark band of its own, which also frames the neon art.
+   The note under the promo art is the only text in the panel, so it is
+   centered under the image and given a divider rather than reading as a
+   stray left-aligned caption.
+   ========================================================================== */
+.mf-shirt-note {
+  max-width: 620px;
+  margin: 22px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--mf-gray-200);
+  text-align: center;
+  text-wrap: balance;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--mf-gray-600) !important;
+}
+.mf-shirt-note .fa {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+  color: var(--mf-red);
+}
+.mf-shirt-note strong {
+  font-weight: 700;
+  color: var(--mf-ink);
+}
+.mf-shirt-note a {
+  font-family: var(--mf-font-head);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--mf-red);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.mf-shirt-note a:hover,
+.mf-shirt-note a:focus { color: var(--mf-red-dark); }
+
+/* The note sits on the dark band, so it flips to on-dark colors. */
+.mf-shirt-panel {
+  /* --mf-dark-bg is the shared "intentionally dark band" token, so the panel
+     follows the dark/Invasion themes without its own overrides. */
+  background: var(--mf-dark-bg);
+}
+.mf-shirt-panel .mf-shirt-note {
+  color: rgba(255, 255, 255, 0.85) !important;
+  border-top-color: rgba(255, 255, 255, 0.18);
+}
+.mf-shirt-panel .mf-shirt-note strong { color: var(--mf-white); }
+.mf-shirt-panel .mf-shirt-note a { color: var(--mf-white); }
+.mf-shirt-panel .mf-shirt-note a:hover,
+.mf-shirt-panel .mf-shirt-note a:focus { color: var(--mf-red); }
+
+/* The art is nearly black, so on the dark band it needs an edge of its own. */
+.mf-shirt-art {
+  border-radius: var(--mf-radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow: var(--mf-shadow-lg);
+}

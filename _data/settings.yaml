@@ -65,7 +65,7 @@ theme_invasion_fx_fadeout: 10
 
 #homepage settings
 featured_makers: true
-event_shirt_promo: false
+event_shirt_promo: true
 # The Call for Makers panel is NOT a flag of its own any more. It shows only
 # while call_for_makers_status (above) is open-1-full. To retire the homepage
 # promo while the CFM itself stays open — e.g. once the homepage should push
@@ -124,4 +124,4 @@ schedule_show_in_progress_notice: true
 promote_show_update_warning: false
 
 # program page settings
-program_show_update_warning: true
+program_show_update_warning: false
