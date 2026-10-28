@@ -142,7 +142,7 @@
     "description": "Meet the creators behind the marvelous, immersive worlds that transport visitors in world-famous theme parks across the globe!",
     "date": "2026-11-07 10:30:00",
     "enddate": "2026-11-07 11:15:00",
-    "image": "/assets/images/stage/2026/tea-theme-park-makers-panel-e08704e6-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/tea-theme-park-makers-panel-d8013aaf-1024x1024.jpg",
     "guests": [
       {
         "name": "Dana Worthington",
@@ -157,7 +157,7 @@
     "description": "We connect families of children with mobility challenges to vetted volunteer makers who 3D print custom Toddler Mobility Trainers (TMTs)—completely free for the requesting family.",
     "date": "2026-11-07 11:15:00",
     "enddate": "2026-11-07 12:00:00",
-    "image": "/assets/images/stage/2026/3d-printed-wheelchairs-for-toddlers-live-build-3fbff32c-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/3d-printing-wheelchairs-for-toddlers-live-build-2e7bf30e-1024x1024.jpg",
     "url": "/exhibits/makerfx-makerspace/"
   },
   {
@@ -165,7 +165,25 @@
     "location": "Main Stage",
     "date": "2026-11-07 11:30:00",
     "enddate": "2026-11-07 12:15:00",
-    "url": "/exhibits/makerfx-makerspace/"
+    "url": "/exhibits/makerfx-makerspace/",
+    "guests": [
+      {
+        "name": "Retro Computing - Mark Kounalis",
+        "url": "https://dashboard.makerfaireorlando.com/exhibits/retro-computers-from-space/"
+      },
+      {
+        "name": "Daleks of Florida - Jeff Smith",
+        "url": "https://dashboard.makerfaireorlando.com/exhibits/daleks-of-florida/"
+      },
+      {
+        "name": "Urban Sketchers - Curt Franklin",
+        "url": "https://dashboard.makerfaireorlando.com/exhibits/urban-sketchers-orlando/"
+      },
+      {
+        "name": "Steel In Action- Shaun \"Oden\" Marshall",
+        "url": "https://dashboard.makerfaireorlando.com/exhibits/steel-in-action-armored-combat-by-florida-armored-combat/"
+      }
+    ]
   },
   {
     "title": "Lunch Seating",
@@ -179,7 +197,7 @@
     "description": "Grab lunch and join us for a musical performance on the Outdoor Stage",
     "date": "2026-11-07 12:30:00",
     "enddate": "2026-11-07 13:45:00",
-    "image": "/assets/images/stage/2026/lunch-seating-and-musical-performance-a678669a-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/amity-park-musical-performance-c840f484-1024x1024.jpg",
     "url": "/exhibits/amity-park/"
   },
   {
@@ -202,13 +220,13 @@
     "location": "Community Stage",
     "date": "2026-11-07 13:15:00",
     "enddate": "2026-11-07 14:00:00",
-    "image": "/assets/images/stage/2026/willow-creative-0cf676ce-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/willow-creative-ca076051-1024x1024.jpg",
     "url": "/exhibits/willow-creative/",
     "guests": [
       {
         "name": "Willow",
         "url": "/exhibits/willow-creative/",
-        "image": "/assets/images/stage/2026/willow-89129b9e-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/willow-3ec3df94-1024x1024.jpg"
       }
     ]
   },
@@ -235,13 +253,13 @@
     "location": "Community Stage",
     "date": "2026-11-07 14:15:00",
     "enddate": "2026-11-07 15:00:00",
-    "image": "/assets/images/stage/2026/stone-by-stone-world-building-workshop-for-storytellers-6acee3b1-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/stone-by-stone-world-building-workshop-for-storytellers-d2ae6d42-1024x1024.jpg",
     "url": "/exhibits/megan-orussell-books-meet-the-author/",
     "guests": [
       {
         "name": "Megan O'Russell",
         "url": "/exhibits/megan-orussell-books-meet-the-author/",
-        "image": "/assets/images/stage/2026/megan-o-russell-74a52e1c-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/megan-o-russell-6015cd49-1024x1024.jpg"
       }
     ]
   },
@@ -260,7 +278,7 @@
     "location": "Main Stage",
     "date": "2026-11-07 15:00:00",
     "enddate": "2026-11-07 15:45:00",
-    "image": "/assets/images/stage/2026/making-the-fallout-xperience-panel-572d13ba-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/making-the-fallout-xperience-panel-72c06814-1024x1024.jpg",
     "url": "/exhibits/the-fallout-xperience/",
     "guests": [
       {
@@ -399,13 +417,13 @@
     "description": "Grab lunch and join us for a musical performance",
     "date": "2026-11-08 12:30:00",
     "enddate": "2026-11-08 13:45:00",
-    "image": "/assets/images/stage/2026/lunch-seating-and-musical-performance-008349d1-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/amity-park-musical-performance-9668752e-1024x1024.jpg",
     "url": "/exhibits/amity-park/",
     "guests": [
       {
         "name": "Amity Park",
         "url": "/exhibits/amity-park/",
-        "image": "/assets/images/stage/2026/amity-park-aed3a853-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/amity-park-21eae65b-1024x1024.jpg"
       }
     ]
   },
@@ -437,7 +455,7 @@
     "description": "Sketch/Improv Comedy with the The Second Breakfast Club Show! Stop by for fun, laughter, and shenanigans!",
     "date": "2026-11-08 14:00:00",
     "enddate": "2026-11-08 14:30:00",
-    "image": "/assets/images/stage/2026/the-second-breakfast-club-show-improv-comedy-eede900c-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/the-second-breakfast-club-show-improv-comedy-16b4e5b4-1024x1024.jpg",
     "url": "/exhibits/props-puppets-with-the-second-breakfast-club-show/",
     "guests": [
       {
