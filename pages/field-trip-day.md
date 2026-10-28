@@ -11,21 +11,29 @@ carousel: true
 carousel-delay: 5000
 carousel-controls: true
 carousel-slides:
-  - image: /assets/images/slider/2025-princess-powertools.jpg
+  - image: /assets/images/slider/2025-princess-powertools-1600w.webp
     caption: Hands-on discovery for students
     url:
+    width: 1600
+    height: 1066
   
-  - image: /assets/images/field-trip-day/ftd-stage.jpg
+  - image: /assets/images/field-trip-day/ftd-stage-1600w.webp
     caption: Stage
     url:
+    width: 1600
+    height: 1066
   
-  - image: /assets/images/slider/2025-combat-robot-ftd.jpg
+  - image: /assets/images/slider/2025-combat-robot-ftd-1600w.webp
     caption: Robots
     url:
+    width: 1600
+    height: 1066
   
-  - image: /assets/images/slider/2025-synths.jpg
+  - image: /assets/images/slider/2025-synths-1600w.webp
     caption: Synths
     url:
+    width: 1600
+    height: 1066
 
 footer-cta: false
 page_footer_ad: false 
@@ -54,7 +62,7 @@ page_footer_ad: false
     <div class="mf-card-grid">
 
       <a class="mf-card">
-        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/lathe-demo.jpg' | relative_url }}')">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/lathe-demo-800w.webp' | relative_url }}')">
           <span class="mf-card-label">Meet Makers</span>
         </div>
         <div class="mf-card-body">
@@ -63,7 +71,7 @@ page_footer_ad: false
       </a>
 
       <a class="mf-card">
-        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/retro-computers-kid-cropped.jpg' | relative_url }}')">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/retro-computers-kid-cropped-800w.webp' | relative_url }}')">
           <span class="mf-card-label">Explore</span>
         </div>
         <div class="mf-card-body">
@@ -72,7 +80,7 @@ page_footer_ad: false
       </a>
 
       <a class="mf-card">
-        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/button-making-girl.jpg' | relative_url }}')">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/button-making-girl-800w.webp' | relative_url }}')">
           <span class="mf-card-label">Build</span>
         </div>
         <div class="mf-card-body">
@@ -81,7 +89,7 @@ page_footer_ad: false
       </a>
 
       <a class="mf-card">
-        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/field-trip-day/ftd-cosplay.jpg' | relative_url }}')">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/field-trip-day/ftd-cosplay-800w.webp' | relative_url }}')">
           <span class="mf-card-label">Imagine</span>
         </div>
         <div class="mf-card-body">
@@ -126,7 +134,7 @@ page_footer_ad: false
     <div class="mf-card-grid">
 
       <a class="mf-card">
-        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/educator-page-header-bok-academy.jpg' | relative_url }}')">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/educator-page-header-bok-academy-800w.webp' | relative_url }}')">
           <span class="mf-card-label">School Field Trips</span>
         </div>
         <div class="mf-card-body">
@@ -135,7 +143,7 @@ page_footer_ad: false
       </a>
 
       <a class="mf-card">
-        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/homeschool-page-header.jpg' | relative_url }}')">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/homeschool-page-header-800w.webp' | relative_url }}')">
           <span class="mf-card-label">Homeschool &amp; Virtual School</span>
         </div>
         <div class="mf-card-body">

@@ -8,15 +8,21 @@ carousel: true
 carousel-delay: 5000
 carousel-controls: true
 carousel-slides:
-  - image: /assets/images/slider/2025-volunteer-greeters.jpg
+  - image: /assets/images/slider/2025-volunteer-greeters-1600w.webp
     caption: Volunteer at Maker Faire Orlando
     url:
-  - image: /assets/images/slider/2025-volunteer-curiousity.jpg
+    width: 1600
+    height: 1066
+  - image: /assets/images/slider/2025-volunteer-curiousity-1600w.webp
     caption: Lend a hand and meet amazing makers
     url:
-  - image: /assets/images/slider/2025-volunteer-galactus-centered.jpg
+    width: 1600
+    height: 1066
+  - image: /assets/images/slider/2025-volunteer-galactus-centered-1600w.webp
     caption: Be part of the crew behind the magic
     url:
+    width: 1600
+    height: 1059
 ---
 
 <!-- Lead intro -->
@@ -39,7 +45,7 @@ carousel-slides:
     <div class="mf-card-grid">
 
       <a class="mf-card">
-        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/family-makey-gate.jpg' | relative_url }}')">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/family-makey-gate-800w.webp' | relative_url }}')">
           <span class="mf-card-label">Free Admission</span>
         </div>
         <div class="mf-card-body">
@@ -48,7 +54,7 @@ carousel-slides:
       </a>
 
       <a class="mf-card">
-        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/happy-crew.jpg' | relative_url }}')">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/happy-crew-800w.webp' | relative_url }}')">
           <span class="mf-card-label">Volunteer T&#8209;Shirt</span>
         </div>
         <div class="mf-card-body">
@@ -57,7 +63,7 @@ carousel-slides:
       </a>
 
       <a class="mf-card">
-        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/learn-to-solder.jpg' | relative_url }}')">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/learn-to-solder-800w.webp' | relative_url }}')">
           <span class="mf-card-label">Give Back</span>
         </div>
         <div class="mf-card-body">
@@ -66,7 +72,7 @@ carousel-slides:
       </a>
 
       <a class="mf-card">
-        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/educator-page-header-bok-academy.jpg' | relative_url }}')">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/educator-page-header-bok-academy-800w.webp' | relative_url }}')">
           <span class="mf-card-label">Service Hours</span>
         </div>
         <div class="mf-card-body">

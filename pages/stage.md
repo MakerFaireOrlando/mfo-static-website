@@ -10,9 +10,11 @@ carousel: false
 carousel-delay: 5000
 carousel-controls: false
 carousel-slides:
-  - image: /assets/images/slider/2025-cosplay-stage.jpg
+  - image: /assets/images/slider/2025-cosplay-stage-1600w.webp
     caption: Check out the Featured Guests, Panels & Talks at Maker Faire Orlando!
     url: /schedule/
+    width: 1600
+    height: 1066
 ---
 
 # Don’t Miss Amazing Makers on Stage at Maker Faire Orlando!

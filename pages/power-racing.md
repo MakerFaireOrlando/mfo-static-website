@@ -10,40 +10,54 @@ carousel: true
 carousel-delay: 5000
 carousel-controls: true
 carousel-slides:
-  - image: /assets/images/slider/2025-dumpster-fire.jpg
+  - image: /assets/images/slider/2025-dumpster-fire-1600w.webp
     caption: Pow-Pow-Power Racing!
     url:
+    width: 1600
+    height: 1066
 
-  - image: /assets/images/slider/PRS-track.jpg
+  - image: /assets/images/slider/PRS-track-1600w.webp
     caption: Race around the Power Racing track!
     url:
+    width: 1600
+    height: 1200
 
-  - image: /assets/images/slider/PRS-lazygt.jpg
+  - image: /assets/images/slider/PRS-lazygt-1600w.webp
     caption: Wheel-to-wheel action!
     url:
+    width: 1600
+    height: 1066
 
-  - image: /assets/images/slider/PRS-taco.jpg
+  - image: /assets/images/slider/PRS-taco-1600w.webp
     caption: Wild custom karts!
     url:
+    width: 1600
+    height: 1066
 
-  - image: /assets/images/slider/prs-crash.jpg
+  - image: /assets/images/slider/prs-crash-1600w.webp
     caption: Make a splash!
     url:
+    width: 1600
+    height: 1138
 
-  - image: /assets/images/slider/prs-flagger.jpg
+  - image: /assets/images/slider/prs-flagger-1600w.webp
     caption: Volunteers keep the race running
     url:
+    width: 1600
+    height: 1066
 
-  - image: /assets/images/slider/PRS21.jpg
+  - image: /assets/images/slider/PRS21-1600w.webp
     caption: Join the Power Racing crew!
     url:
+    width: 1600
+    height: 1067
 ---
 
 
 
 # Power Racing is back at {{site.data.settings.event_name}} {{site.data.settings.event_year}}!
 
-![Power Racing track at Maker Faire Orlando](/assets/images/slider/PRS-track.jpg){:width="100%"}
+![Power Racing track at Maker Faire Orlando](/assets/images/slider/PRS-track-1600w.webp){:width="1600" height="1200" loading="lazy" decoding="async" style="width:100%;height:auto"}
 
 ## Do you have what it takes to build a racer?
 

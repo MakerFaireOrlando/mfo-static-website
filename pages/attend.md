@@ -12,9 +12,11 @@ carousel: true
 carousel-delay: 5000
 carousel-controls: false
 carousel-slides:
-  - image: /assets/images/slider/2025-kid-ghostbusters-cosplay-portrait.jpg
+  - image: /assets/images/slider/2025-kid-ghostbusters-cosplay-portrait-1600w.webp
     caption: Family cosplaying at Maker Faire
     url:
+    width: 1066
+    height: 1600
 scrolltop: true
 page_footer_ad: false
 ---

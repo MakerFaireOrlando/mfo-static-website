@@ -10,16 +10,21 @@
 homepage:
   - exhibit-id: 26-134 #princesses with powertools: learn to hand drill
     title: Princesses with Powertools
+    image: /assets/images/exhibit-images/26-134-e-princesses-with-powertools-learn-to-hand-drill-20230401-093352-600w.webp
   - exhibit-id: 26-254 #make-a-shirt
+    image: /assets/images/exhibit-images/26-254-e-make-a-shirt-23968900-2e91-45a5-8b50-02cf02e8ed97-1-600w.webp
   - exhibit-id: 26-259 #giant skeeball
+    image: /assets/images/exhibit-images/26-259-e-giant-skeeball-54952388609-bf5423fc64-c-600w.webp
   - exhibit-id: 26-167 #mini figure paint and take
+    image: /assets/images/exhibit-images/26-167-e-mini-figure-paint-and-take-donniedynamo-questcon4-600w.webp
   - exhibit-id: 26-243 #sparky circuits
-    image: /assets/images/exhibit-images/26-243-e-sparky-circuits-paper-circuit-image-1-1024x1024.png
+    image: /assets/images/exhibit-images/26-243-e-sparky-circuits-paper-circuit-image-1-600w.webp
   - exhibit-id: 26-223 #piper kits with tech sassy girlz
+    image: /assets/images/exhibit-images/26-223-e-piper-kits-with-tech-sassy-girlz-screenshot-490-600w.webp
   - exhibit-id: 26-87 #high flight paper rockets
-    image: /assets/images/exhibit-images/26-87-e2-high-flight-paper-rockets-paper-rocket-with-launch-pad-768x1024.jpg
+    image: /assets/images/exhibit-images/26-87-e2-high-flight-paper-rockets-paper-rocket-with-launch-pad-600w.webp
   - exhibit-id: 26-121 #paper airplane world record
-    image: /assets/images/exhibit-images/26-121-e4-paper-airplane-world-record-with-planes-1024x690.jpeg
+    image: /assets/images/exhibit-images/26-121-e4-paper-airplane-world-record-with-planes-600w.webp
 
 makers-carousel:
   - exhibit-id: 21-48 #k gentry art

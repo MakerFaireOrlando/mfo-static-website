@@ -8,17 +8,23 @@ carousel: true
 carousel-delay: 5000
 carousel-controls: true
 carousel-slides:
-  - image: /assets/images/slider/2025-ghostbusters.jpg
+  - image: /assets/images/slider/2025-ghostbusters-1600w.webp
     caption: Meet your heroes!
     url: /exhibits/
+    width: 1600
+    height: 1066
 
-  - image: /assets/images/slider/2025-exploding-heads.jpg
+  - image: /assets/images/slider/2025-exploding-heads-1600w.webp
     caption: Learn how to make something!
     url: /exhibits/categories/hands-on-workshop/
+    width: 1600
+    height: 1066
 
-  - image: /assets/images/slider/2025-dumpster-fire.jpg
+  - image: /assets/images/slider/2025-dumpster-fire-1600w.webp
     caption: See racing action!
     url: /power-racing/
+    width: 1600
+    height: 1066
 ---
 
 <!-- Lead intro -->

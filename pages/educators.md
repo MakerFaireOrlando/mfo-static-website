@@ -11,9 +11,11 @@ carousel: true
 carousel-delay: 5000
 carousel-controls: false
 carousel-slides:
-  - image: /assets/images/slider/2025-princess-powertools.jpg
+  - image: /assets/images/slider/2025-princess-powertools-1600w.webp
     caption: Hands-on learning at Maker Faire Orlando
     url:
+    width: 1600
+    height: 1066
 
 ---
 

@@ -8,15 +8,21 @@ carousel: true
 carousel-delay: 5000
 carousel-controls: true
 carousel-slides:
-  - image: /assets/images/slider/2025-cosplay-exhibit.jpg
+  - image: /assets/images/slider/2025-cosplay-exhibit-1600w.webp
     caption: Cosplay makers showing their craft at Maker Faire Orlando
     url:
-  - image: /assets/images/slider/2025-models.jpg
+    width: 1600
+    height: 1066
+  - image: /assets/images/slider/2025-models-1600w.webp
     caption: Detailed scale models on display at Maker Faire Orlando
     url:
-  - image: /assets/images/slider/2025-ghostbusters.jpg
+    width: 1600
+    height: 1066
+  - image: /assets/images/slider/2025-ghostbusters-1600w.webp
     caption: Group exhibits bring fan-favorite characters to life
     url:
+    width: 1600
+    height: 1066
 ---
 
 <!-- Lead intro -->
@@ -46,7 +52,7 @@ carousel-slides:
     <div class="mf-card-grid">
 
       <a class="mf-card">
-        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/makerfx-makerspace.jpg' | relative_url }}')">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/makerfx-makerspace-800w.webp' | relative_url }}')">
           <span class="mf-card-label">Makers &amp; Community Groups</span>
         </div>
         <div class="mf-card-body">
@@ -55,7 +61,7 @@ carousel-slides:
       </a>
 
       <a class="mf-card">
-        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/neon-cowboy-hats.jpg' | relative_url }}')">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/neon-cowboy-hats-800w.webp' | relative_url }}')">
           <span class="mf-card-label">Selling Makers</span>
         </div>
         <div class="mf-card-body">
@@ -64,7 +70,7 @@ carousel-slides:
       </a>
 
       <a class="mf-card" href="{{ '/become-a-sponsor/' | relative_url }}">
-        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/prusa_sponsor.jpg' | relative_url }}')">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/prusa_sponsor-800w.webp' | relative_url }}')">
           <span class="mf-card-label">Businesses &amp; Startups</span>
         </div>
         <div class="mf-card-body">
@@ -74,7 +80,7 @@ carousel-slides:
       </a>
 
       <a class="mf-card" href="https://www.robotruckus.org" target="_blank" rel="noopener">
-        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/combat-robot-maker.jpg' | relative_url }}')">
+        <div class="mf-card-media" style="background-image:url('{{ '/assets/images/slider/combat-robot-maker-800w.webp' | relative_url }}')">
           <span class="mf-card-label">Combat Robots</span>
         </div>
         <div class="mf-card-body">

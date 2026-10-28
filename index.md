@@ -8,16 +8,24 @@ carousel: true
 carousel-delay: 5000
 carousel-controls: true
 carousel-slides:
-  - image: /assets/images/slider/2025-rebels.jpg
+  - image: /assets/images/slider/2025-rebels-1600w.webp
     caption: The Greatest Show (& Tell) on Earth!
-  - image: /assets/images/slider/2025-cosplay-exhibit.jpg
+    width: 1600
+    height: 1066
+  - image: /assets/images/slider/2025-cosplay-exhibit-1600w.webp
     caption: Meet Award-Winning Cosplay Makers!
     url: /exhibits/categories/cosplay/
-  - image: /assets/images/slider/2025-synths.jpg
+    width: 1600
+    height: 1066
+  - image: /assets/images/slider/2025-synths-1600w.webp
     caption: Make Music!
-  - image: /assets/images/slider/2025-dumpster-fire.jpg
+    width: 1600
+    height: 1066
+  - image: /assets/images/slider/2025-dumpster-fire-1600w.webp
     caption: Pow-Pow-Power Racing!
     url: /power-racing/
+    width: 1600
+    height: 1066
 ---
 
 {% capture cta_event_text %}{% include date-event.html %} – {{ site.data.settings.event_hours }}{% endcapture %}{% include cta-panel-widget.html cta_text=cta_event_text cta_subtext=site.data.settings.event_location_descr cta_url=site.data.settings.cta_event_url %}

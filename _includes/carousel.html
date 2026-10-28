@@ -25,10 +25,22 @@
           {% else %}
             <div class="item" id="{{forloop.index}}">
           {% endif %}
+              {%- comment -%}
+                Only the first slide is in the viewport at first paint, so it is
+                the one worth fetching eagerly; the rest wait until the rotation
+                (or the random start in optional-js.html) reaches them. width and
+                height come from the slide's front matter so the browser can
+                reserve the right box and not shift the page on load.
+              {%- endcomment -%}
+              {%- capture slide_img -%}
+                <img src="{{ slide.image | relative_url }}" alt="{{ slide.caption }}" style="width:100%;height:auto;"
+                  {%- if slide.width and slide.height %} width="{{ slide.width }}" height="{{ slide.height }}"{% endif %}
+                  {%- if forloop.first %} fetchpriority="high" decoding="async"{% else %} loading="lazy" decoding="async"{% endif %}>
+              {%- endcapture -%}
               {% if {{slide.url}} contains "/" %}
-              <a href="{{slide.url}}"><img src="{{ slide.image | relative_url }}" alt="{{slide.caption}}" style="width:100%;"></a>
+              <a href="{{slide.url}}">{{ slide_img }}</a>
               {% else %}
-              <img src="{{ slide.image | relative_url }}" alt="{{slide.caption}}" style="width:100%;">
+              {{ slide_img }}
               {% endif %}
             </div>
         {% endfor %}

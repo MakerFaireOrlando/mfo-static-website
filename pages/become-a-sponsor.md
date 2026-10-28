@@ -9,9 +9,11 @@ carousel: true
 carousel-delay: 5000
 carousel-controls: false
 carousel-slides:
-  - image: /assets/images/slider/prusa_sponsor.jpg
+  - image: /assets/images/slider/prusa_sponsor-1600w.webp
     caption: Prusa Research at Maker Faire Orlando 2019
     url:
+    width: 1600
+    height: 900
 ---
 
 <!-- Lead intro -->

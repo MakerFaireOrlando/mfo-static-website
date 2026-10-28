@@ -8,7 +8,10 @@ plugins:
 
 
 # Google Analytics - https://desiredpersona.com/google-analytics-jekyll/
-google_analytics: UA-29035632-1
+# Universal Analytics stopped collecting data in July 2023. Leaving this unset
+# keeps _includes/analytics.html from rendering a second ~120 KB gtag.js on
+# every page; the AW- Google Ads tag in _includes/head.html still runs.
+#google_analytics: UA-29035632-1
 
 
 #begin seo

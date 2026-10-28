@@ -7,9 +7,11 @@ carousel: true
 carousel-delay: 5000
 carousel-controls: false
 carousel-slides:
-  - image: /assets/images/slider/2025-cosplay-stage.jpg
+  - image: /assets/images/slider/2025-cosplay-stage-1600w.webp
     caption: Help promote Maker Faire Orlando
     url:
+    width: 1600
+    height: 1066
 ---
 
 <!-- Lead intro -->

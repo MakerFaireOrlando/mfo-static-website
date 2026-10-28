@@ -83,7 +83,7 @@ sponsors:
     active: false
   - name: Digital Warpaint
     url: https://www.digitalwarpaint.com
-    logo: digital-warpaint.png
+    logo: digital-warpaint-300h.webp
     level: 4
     active: true
   - name: PCBWay
@@ -98,7 +98,7 @@ sponsors:
     active: false
   - name: Orange Technical College
     url: https://www.orangetechcollege.net/
-    logo: OTC_Horiz.png
+    logo: OTC_Horiz-300h.webp
     level: 4
     active: true
   - name: EPAX 3D
@@ -108,7 +108,7 @@ sponsors:
     active: false
   - name: Devusol
     url: https://devusol.com/
-    logo: devusol.png
+    logo: devusol-300h.webp
     level: 5
     active: true
   - name: Theta Machines
@@ -158,7 +158,7 @@ sponsors:
     active: true
   - name: Meyer Sound  
     url: https://meyersound.com/
-    logo: meyer.png
+    logo: meyer-300h.webp
     level: 5
     active: true
   - name: Mainline   
@@ -168,7 +168,7 @@ sponsors:
     active: true
   - name: Meta Humans   
     url: https://www.metahumans.com/
-    logo: metahumans.png
+    logo: metahumans-300h.webp
     level: 5
     active: true
 

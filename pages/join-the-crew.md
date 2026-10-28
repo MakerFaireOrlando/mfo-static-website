@@ -10,18 +10,26 @@ carousel-controls: true
 hero-title: Maker Faire Orlando is <span class="mf-hl">powered by people</span>
 hero-meta: Join the crew behind the Greatest Show (&amp; Tell) on Earth
 carousel-slides:
-  - image: /assets/images/slider/happy-crew.jpg
+  - image: /assets/images/slider/happy-crew-1600w.webp
     caption: The Maker Faire Orlando crew at work
     url:
-  - image: /assets/images/slider/crew-power-racing.jpg
+    width: 1600
+    height: 1066
+  - image: /assets/images/slider/crew-power-racing-1600w.webp
     caption: Crew and racers celebrating under the confetti at the Power Racing Series finish line
     url:
-  - image: /assets/images/slider/crew-aldona.jpg
+    width: 1600
+    height: 1066
+  - image: /assets/images/slider/crew-aldona-1600w.webp
     caption: A crew member showing off a laser-cut prop axe at an exhibit table
     url:
-  - image: /assets/images/slider/crew-merch.jpg
+    width: 1600
+    height: 1066
+  - image: /assets/images/slider/crew-merch-1600w.webp
     caption: Crew members running the Maker Faire Orlando merch table
     url:
+    width: 1600
+    height: 1066
 scrolltop: true
 ---
 
