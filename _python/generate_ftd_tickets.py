@@ -34,6 +34,10 @@ from os import path
 eventYear = 2026
 formFTD = "MFO2026 - Field Trip Day"
 
+#groups with fewer than this many tickets are handled as "small groups"
+#larger groups are invoiced/handled separately
+smallGroupSize = 20
+
 
 outputAll = False #this is now set with a command line param, don't change it here
 
@@ -135,7 +139,7 @@ def export():
           numAdults    = int(getAnswerByName(ans,"numAdults"))
           numTickets   = numStudents + numAdults
 
-          if numTickets >= 20: 
+          if numTickets >= smallGroupSize: 
             continue
 
           countSmallGroups = countSmallGroups + 1
@@ -154,6 +158,7 @@ def export():
     #print(ticketCountList)
     #print (ticketList)
     print("Submissions Found: " + str(countSubmissions))
+    print("Small Group Size: fewer than " + str(smallGroupSize) + " tickets")
     print("Small Groups Found: " + str(countSmallGroups))
     print("Total Small Group Tickets: " + str(totalTickets))
 
@@ -164,6 +169,11 @@ def export():
     with open("ftd-ticket-count.csv", 'w', newline='') as myfile:
         wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
         wr.writerows(ticketCountList)
+
+    print("")
+    print("Next step: in Humanitix, use the bulk ticket order function with")
+    print("ftd-tickets.csv - it has one row per ticket (" + str(totalTickets) + " rows).")
+    print("ftd-ticket-count.csv is the summary, one row per group - do not upload it.")
 
 def main():
 
