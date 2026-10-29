@@ -31,8 +31,8 @@ import os.path
 from os import path
 
 #settings
-eventYear = 2023
-formFTD = "MFO2025 - Field Trip Day"
+eventYear = 2026
+formFTD = "MFO2026 - Field Trip Day"
 
 
 outputAll = False #this is now set with a command line param, don't change it here
@@ -135,7 +135,7 @@ def export():
           numAdults    = int(getAnswerByName(ans,"numAdults"))
           numTickets   = numStudents + numAdults
 
-          if numTickets > 9: 
+          if numTickets >= 20: 
             continue
 
           countSmallGroups = countSmallGroups + 1
@@ -157,11 +157,11 @@ def export():
     print("Small Groups Found: " + str(countSmallGroups))
     print("Total Small Group Tickets: " + str(totalTickets))
 
-    with open("ftd-tickets.csv", 'w') as myfile:
+    with open("ftd-tickets.csv", 'w', newline='') as myfile:
         wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
         wr.writerows(ticketList)
 
-    with open("ftd-ticket-count.csv", 'w') as myfile:
+    with open("ftd-ticket-count.csv", 'w', newline='') as myfile:
         wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
         wr.writerows(ticketCountList)
 

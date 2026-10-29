@@ -5,7 +5,8 @@ title: "Cactus Maximus"
 slug: cactus-maximus
 permalink: /exhibits/cactus-maximus/
 exhibit-id: 26-258
-space-number: Unassigned
+exhibit-zone: "Opportunity"
+space-number: "OE29"
 description: "What's more fun than a small singing cactus?  A GIANT ONE!"
 description-long: "We have built a fun interactive giant version of the novelty dancing and singing cactus.  It's name is Cactus Maximus, step up to the mic and record a few lines to hear it, and its minions, repeat what you say with fun voice effects and a cute little dance!"
 image: /assets/images/exhibit-images/26-258-e-cactus-maximus-cacty-m-300x225.jpg
@@ -44,8 +45,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-10-25 23:47:12"
-last-modified-jotform: "2026-10-26 07:27:21"
-last-exported: "2026-10-26 12:17:32"
+last-modified-jotform: "2026-10-27 13:49:02"
+last-exported: "2026-10-28 20:13:13"
 sitemap: false
 
 ---

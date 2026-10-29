@@ -31,6 +31,24 @@ image-primary:
     url: /assets/images/exhibit-images/26-74-e-megan-orussell-books-meet-the-author-img-6113-1024x768.jpg
     width: 1024
     height: 768
+additional-images: 
+  - 1:
+    full:
+      url: /assets/images/exhibit-images/26-74-e1-megan-orussell-books-meet-the-author-img-5541-full.jpeg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/26-74-e1-megan-orussell-books-meet-the-author-img-5541-112x150.jpeg
+      width: 112
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/26-74-e1-megan-orussell-books-meet-the-author-img-5541-225x300.jpeg
+      width: 225
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/26-74-e1-megan-orussell-books-meet-the-author-img-5541-768x1024.jpeg
+      width: 768
+      height: 1024
 website: "https://meganorussell.com"
 maker: 
   name: "Megan O'Russell Books - Meet the Author"
@@ -38,8 +56,8 @@ maker:
 With a passion for building immersive worlds, uncovering each character’s unique voice, and discovering innovative ways to bring stories to audiences, Megan has created and presented workshops across the country helping fellow authors along their journey, including facing the Indie Publishing process with clear eyes and a workable plan.
 Megan's newest novel, Sketchbook of a Wayward Seer, is presented in partnership with the podcast Page by Page: Writing the Book in Real Time, where you can listen to a new, full chapter of the series every week. Other titles include Ember and Stone, Girl of Glass, The Cursebound Thief, and How I Magically Messed Up My Life in Four Freakin' Days."
   image-primary:
-    url: /assets/images/exhibit-images/26-74-m-megan-orussell-books-meet-the-author-meganorusselllogo-300x300.jpg
-    width: 150
+    url: /assets/images/exhibit-images/26-74-m-megan-orussell-books-meet-the-author-megan-author-pic-225x300.jpg
+    width: 112
     height: 150
   website: https://meganorussell.com
   twitter: https://www.twitter.com/MeganORussell
@@ -52,8 +70,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-14 14:13:24"
-last-modified-jotform: "2026-10-04 11:48:16"
-last-exported: "2026-10-05 15:07:11"
+last-modified-jotform: "2026-10-27 21:19:13"
+last-exported: "2026-10-28 20:13:18"
 sitemap: false
 
 ---
