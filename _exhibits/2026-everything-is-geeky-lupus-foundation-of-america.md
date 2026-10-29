@@ -30,19 +30,19 @@ image-primary:
 additional-images: 
   - 1:
     full:
-      url: /assets/images/exhibit-images/26-173-e1-everything-is-geeky-lupus-foundation-of-america-3b0d0dac-edf8-4adc-907e-f92166269473-full.jpeg
+      url: /assets/images/exhibit-images/26-173-e1-everything-is-geeky-lupus-foundation-of-america-lupus-edited-full.jpeg
       width: 2048
       height: 2048
     small:
-      url: /assets/images/exhibit-images/26-173-e1-everything-is-geeky-lupus-foundation-of-america-3b0d0dac-edf8-4adc-907e-f92166269473-150x150.jpeg
+      url: /assets/images/exhibit-images/26-173-e1-everything-is-geeky-lupus-foundation-of-america-lupus-edited-150x150.jpeg
       width: 150
       height: 150
     medium:
-      url: /assets/images/exhibit-images/26-173-e1-everything-is-geeky-lupus-foundation-of-america-3b0d0dac-edf8-4adc-907e-f92166269473-300x300.jpeg
+      url: /assets/images/exhibit-images/26-173-e1-everything-is-geeky-lupus-foundation-of-america-lupus-edited-300x300.jpeg
       width: 300
       height: 300
     large:
-      url: /assets/images/exhibit-images/26-173-e1-everything-is-geeky-lupus-foundation-of-america-3b0d0dac-edf8-4adc-907e-f92166269473-1024x1024.jpeg
+      url: /assets/images/exhibit-images/26-173-e1-everything-is-geeky-lupus-foundation-of-america-lupus-edited-1024x1024.jpeg
       width: 1024
       height: 1024
 maker: 
@@ -68,8 +68,8 @@ categories:
   - slug: lego
     name: LEGO
 created-jotform: "2026-08-28 05:44:33"
-last-modified-jotform: "2026-10-17 13:17:49"
-last-exported: "2026-10-20 23:19:32"
+last-modified-jotform: "2026-10-29 06:28:18"
+last-exported: "2026-10-29 06:28:31"
 sitemap: false
 
 ---
