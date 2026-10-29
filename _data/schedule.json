@@ -17,11 +17,13 @@
     "guests": [
       {
         "name": "Darren d'Hedouville",
-        "url": "/exhibits/mcparks-theme-parks-in-minecraft/"
+        "url": "https://www.makerfaireorlando.com/exhibits/mcparks-theme-parks-in-minecraft/",
+        "image": "/assets/images/stage/2026/darren-d-hedouville-213d9632-1024x1024.jpg"
       },
       {
         "name": "Ryan Hecht",
-        "url": "/exhibits/mcparks-theme-parks-in-minecraft/"
+        "url": "https://www.makerfaireorlando.com/exhibits/mcparks-theme-parks-in-minecraft/",
+        "image": "/assets/images/stage/2026/ryan-hecht-e65abc91-1024x1024.jpg"
       }
     ]
   },
@@ -57,20 +59,23 @@
   },
   {
     "title": "Bionic Makers",
+    "slug": "ftd-bionic",
     "location": "Main Stage",
+    "description": "Hear from Limbitless Solutions how they make bionic arms for kids at UCF.",
     "date": "2026-11-06 11:30:00",
     "enddate": "2026-11-06 11:55:00",
+    "url": "www.limbitless-solutions.org",
     "guests": [
       {
-        "name": "Albert Manero"
-      },
-      {
-        "name": "Limbitless"
+        "name": "Albert Manero - Limbitless",
+        "url": "www.limbitless-solutions.org",
+        "image": "/assets/images/stage/2026/albert-manero-4a71b2ee-1024x1024.jpg"
       }
     ]
   },
   {
     "title": "Lunch Seating",
+    "slug": "ftd-lunch",
     "location": "Main Stage",
     "description": "Grab lunch outside and then join us for air conditioned seating and music!",
     "date": "2026-11-06 12:00:00",
@@ -78,17 +83,21 @@
   },
   {
     "title": "Make a World Record Paper Airplane!",
+    "slug": "ftd-paper-airplane",
     "location": "Main Stage",
     "date": "2026-11-06 12:35:00",
     "enddate": "2026-11-06 13:25:00",
+    "url": "/exhibits/paper-airplane-world-record/",
     "guests": [
       {
-        "name": "John Collins"
+        "name": "John Collins",
+        "url": "/exhibits/paper-airplane-world-record/"
       }
     ]
   },
   {
     "title": "Cosplay & Prop Makers",
+    "slug": "ftd-cosplay-props",
     "location": "Main Stage",
     "date": "2026-11-06 13:30:00",
     "enddate": "2026-11-06 13:55:00",
@@ -97,20 +106,47 @@
         "name": "Willow Creative",
         "url": "/exhibits/willow-creative/",
         "image": "/assets/images/stage/2026/willow-230aed81-1024x1024.jpg"
+      },
+      {
+        "name": "Allison Chase",
+        "url": "/exhibits/allison-chase-cosplay/"
+      },
+      {
+        "name": "JT Designs and Miniatures",
+        "url": "/exhibits/jt-designs-and-miniatures/"
+      },
+      {
+        "name": "J2C Props And Printing",
+        "url": "/exhibits/j2c-props-and-printing/"
+      },
+      {
+        "name": "Darkheart Kreations",
+        "url": "/exhibits/darkheart-kreations/"
       }
     ]
   },
   {
     "title": "Robot Makers",
-    "slug": "ftd-youtube",
+    "slug": "ftd-robot-makers",
     "location": "Main Stage",
     "description": "Meet passionate robot makers, from high school teams to seasoned builders, as they share how design, engineering, and competition fuel their creations in FIRST robotics and combat arenas.",
     "date": "2026-11-06 14:00:00",
     "enddate": "2026-11-06 14:25:00",
     "guests": [
       {
+        "name": "Andrea Gellatly - BattleBots Team Witch Doctor (Moderator)",
+        "url": "https://www.makerfaireorlando.com/exhibits/roboclash-robot-battles/"
+      },
+      {
         "name": "Evie Harper",
         "image": "/assets/images/stage/2026/evie-harper-258c6720-1024x1024.jpg"
+      },
+      {
+        "name": "Caleb Burns"
+      },
+      {
+        "name": "Marshall Duhaime",
+        "image": "/assets/images/stage/2026/marshall-duhaime-b2f38a42-1024x1024.jpg"
       }
     ]
   },
@@ -145,9 +181,20 @@
     "image": "/assets/images/stage/2026/tea-theme-park-makers-panel-d8013aaf-1024x1024.jpg",
     "guests": [
       {
-        "name": "Dana Worthington",
+        "name": "Dana Worthington - Dana Worthington Associates",
         "url": "https://www.linkedin.com/company/dana-worthington-associates/",
         "image": "/assets/images/stage/2026/dana-worthington-74538e8b-1024x1024.jpg"
+      },
+      {
+        "name": "Cara Blackowiak - Falcons Creative Group"
+      },
+      {
+        "name": "Denise Hatcher - AOA",
+        "url": "https://www.linkedin.com/in/denise-hatcher-8583b333/",
+        "image": "/assets/images/stage/2026/denise-hatcher-7c3bf9b1-1024x1024.jpg"
+      },
+      {
+        "name": "Michael Acevedo - Nassal"
       }
     ]
   },
@@ -158,30 +205,49 @@
     "date": "2026-11-07 11:15:00",
     "enddate": "2026-11-07 12:00:00",
     "image": "/assets/images/stage/2026/3d-printing-wheelchairs-for-toddlers-live-build-2e7bf30e-1024x1024.jpg",
-    "url": "/exhibits/makerfx-makerspace/"
+    "url": "/exhibits/makerfx-makerspace/",
+    "guests": [
+      {
+        "name": "Joe Gravelle"
+      },
+      {
+        "name": "Mike Gellatly"
+      },
+      {
+        "name": "Johnna Denny"
+      },
+      {
+        "name": "Keith Merritt"
+      }
+    ]
   },
   {
     "title": "Find Your Maker Community",
+    "slug": "sat-maker-community",
     "location": "Main Stage",
     "date": "2026-11-07 11:30:00",
     "enddate": "2026-11-07 12:15:00",
     "url": "/exhibits/makerfx-makerspace/",
     "guests": [
       {
-        "name": "Retro Computing - Mark Kounalis",
-        "url": "https://dashboard.makerfaireorlando.com/exhibits/retro-computers-from-space/"
+        "name": "Mark Kounalis - Retro Computing - Mark Kounalis",
+        "url": "/exhibits/retro-computers-from-space/",
+        "image": "/assets/images/stage/2026/retro-computing-f6dd0820-1024x1024.jpg"
       },
       {
-        "name": "Daleks of Florida - Jeff Smith",
-        "url": "https://dashboard.makerfaireorlando.com/exhibits/daleks-of-florida/"
+        "name": "Jeff Smith - Daleks of Florida - Jeff Smith",
+        "url": "/exhibits/daleks-of-florida/",
+        "image": "/assets/images/stage/2026/jeff-smith-508a696a-1024x1024.jpg"
       },
       {
-        "name": "Urban Sketchers - Curt Franklin",
-        "url": "https://dashboard.makerfaireorlando.com/exhibits/urban-sketchers-orlando/"
+        "name": "Curt Franklin - Urban Sketchers - Curt Franklin",
+        "url": "/exhibits/urban-sketchers-orlando/",
+        "image": "/assets/images/stage/2026/curt-franklin-e4ce8ce5-1024x1024.jpg"
       },
       {
-        "name": "Steel In Action- Shaun \"Oden\" Marshall",
-        "url": "https://dashboard.makerfaireorlando.com/exhibits/steel-in-action-armored-combat-by-florida-armored-combat/"
+        "name": "Shaun \"Oden\" Marshall - Steel In Action- Shaun \"Oden\" Marshall",
+        "url": "/exhibits/steel-in-action-armored-combat-by-florida-armored-combat/",
+        "image": "/assets/images/stage/2026/shaun-oden-marshall-b0097c1d-1024x1024.jpg"
       }
     ]
   },
@@ -202,6 +268,7 @@
   },
   {
     "title": "Lunch Seating",
+    "slug": "sat-lunch",
     "location": "Main Stage",
     "description": "Grab lunch outside and then join us for air conditioned seating",
     "date": "2026-11-07 12:30:00",
@@ -232,14 +299,15 @@
   },
   {
     "title": "Gaming Panel",
-    "slug": "cosplay-creators-sat",
+    "slug": "sat-gaming-panel",
     "location": "Main Stage",
     "date": "2026-11-07 14:00:00",
     "enddate": "2026-11-07 14:45:00",
     "guests": [
       {
         "name": "Jai-lai Heroes",
-        "url": "https://www.makerfaireorlando.com/exhibits/throwback-jai-alai-heroes/"
+        "url": "https://www.makerfaireorlando.com/exhibits/throwback-jai-alai-heroes/",
+        "image": "/assets/images/stage/2026/jai-lai-heroes-2e2adb2b-1024x1024.jpg"
       },
       {
         "name": "Dwight Cenac",
@@ -274,7 +342,7 @@
   },
   {
     "title": "Making The Fallout Xperience Panel",
-    "slug": "combat-robots",
+    "slug": "sat-fallout",
     "location": "Main Stage",
     "date": "2026-11-07 15:00:00",
     "enddate": "2026-11-07 15:45:00",
@@ -283,7 +351,13 @@
     "guests": [
       {
         "name": "Tyler Parks",
-        "url": "https://www.makerfaireorlando.com/exhibits/the-fallout-xperience/"
+        "url": "https://www.makerfaireorlando.com/exhibits/the-fallout-xperience/",
+        "image": "/assets/images/stage/2026/tyler-parks-60628051-1024x1024.jpg"
+      },
+      {
+        "name": "Autumn",
+        "url": "https://www.makerfaireorlando.com/exhibits/the-fallout-xperience/",
+        "image": "/assets/images/stage/2026/autumn-60628051-1024x1024.jpg"
       }
     ]
   },
@@ -354,10 +428,12 @@
     "url": "/exhibits/mcparks-theme-parks-in-minecraft/",
     "guests": [
       {
-        "name": "Ryan Hecht"
+        "name": "Ryan Hecht",
+        "url": "/exhibits/mcparks-theme-parks-in-minecraft/"
       },
       {
-        "name": "Darren d'Hedouville"
+        "name": "Darren d'Hedouville",
+        "url": "/exhibits/mcparks-theme-parks-in-minecraft/"
       },
       {
         "name": "MCParks",
@@ -367,7 +443,9 @@
   },
   {
     "title": "Theme Park Makers Panel",
+    "slug": "theme-park-sun",
     "location": "Main Stage",
+    "description": "Meet the creators behind the marvelous, immersive worlds that transport visitors in world-famous theme parks across the globe!",
     "date": "2026-11-08 10:30:00",
     "enddate": "2026-11-08 11:15:00"
   },
@@ -391,9 +469,20 @@
     "enddate": "2026-11-08 12:15:00",
     "guests": [
       {
+        "name": "Stefan Price"
+      },
+      {
         "name": "Willow",
         "url": "/exhibits/willow-creative/",
         "image": "/assets/images/stage/2026/willow-dd012712-1024x1024.jpg"
+      },
+      {
+        "name": "Allison Chase",
+        "url": "/exhibits/allison-chase-cosplay/"
+      },
+      {
+        "name": "Harry Armstrong",
+        "url": "/exhibits/giant-skeeball/"
       }
     ]
   },
@@ -494,7 +583,12 @@
     "title": "Meshtastic Meetup",
     "location": "Community Stage",
     "date": "2026-11-08 15:30:00",
-    "enddate": "2026-11-08 16:00:00"
+    "enddate": "2026-11-08 16:00:00",
+    "guests": [
+      {
+        "name": "Allen Paschel"
+      }
+    ]
   },
   {
     "title": "Power Racing - Awards Ceremony",
