@@ -7,8 +7,12 @@ permalink: /exhibits/piplay/
 exhibit-id: 26-9
 exhibit-zone: "Opportunity"
 space-number: "OE15"
-description: "PiPlay - Video Gaming on the Raspberry Pi!!!"
-description-long: "PiPlay - Video Gaming on the Raspberry Pi!!! All sorts of cool stuff you can do with the Raspberry Pi and Retro gaming."
+description: "PiPlay - Video Gaming on the Raspberry Pi, GBA, and NES!!!!"
+description-long: "PiPlay - Video Gaming on the Raspberry Pi!!! All sorts of cool stuff you can do with the Raspberry Pi and Retro gaming.
+
+This year we are demonstrating homebrew gaming with Maker Faire inspired games for the Gameboy Advance and Nintendo Entertainment System!
+
+Come play Makey Invaders and Robot Ruckus on your favorite consoles."
 image: /assets/images/exhibit-images/26-9-e-piplay-25-54-e-piplay-pxl-20241109-143225304-1024x769-300x225.jpg
 image-primary: 
   full:
@@ -27,6 +31,25 @@ image-primary:
     url: /assets/images/exhibit-images/26-9-e-piplay-25-54-e-piplay-pxl-20241109-143225304-1024x769-1024x769.jpg
     width: 1024
     height: 769
+additional-images: 
+  - 1:
+    full:
+      url: /assets/images/exhibit-images/26-9-e1-piplay-image-full.png
+      width: 1628
+      height: 1222
+    small:
+      url: /assets/images/exhibit-images/26-9-e1-piplay-image-150x113.png
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/26-9-e1-piplay-image-300x225.png
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/26-9-e1-piplay-image-1024x769.png
+      width: 1024
+      height: 769
+website: "https://sheasilverman.com/gameshelf/"
 maker: 
   name: "PiPlay"
   description: "My name is Shea Silverman, I do tons of fun stuff with the Raspberry Pi and other nerdy stuff like 3D printing."
@@ -49,8 +72,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-06-30 12:38:36"
-last-modified-jotform: "2026-10-03 15:01:38"
-last-exported: "2026-10-05 15:07:59"
+last-modified-jotform: "2026-10-28 22:40:38"
+last-exported: "2026-10-28 22:40:50"
 sitemap: false
 
 ---
