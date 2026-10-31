@@ -15,6 +15,8 @@ isotope-schedule: true
 
 Plan your weekend around the panel talks, demos and other scheduled activities below. Most [exhibits](/exhibits) and [hands-on activities](/exhibits/?categories/hands-on-workshop/) run continuously all weekend, so you can catch those in between.
 
+Robot Ruckus qualifying and elimination rounds are all day Saturday, and then grudge matches and rumbles are throughout the day on Sunday. 
+
 The [event program](/program) has a printable map, schedule and more — it's usually posted about a week before the event.
 
 [Field Trip Day](/field-trip-day) on {% include date-edu-short.html %} is only for pre-registered school groups and homeschool families.
