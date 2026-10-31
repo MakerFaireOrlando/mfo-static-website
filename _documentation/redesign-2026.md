@@ -316,6 +316,61 @@ header they drop from. Added `min-width: 100%; width: max-content;` to
 `body .navbar-nav > li > .dropdown-menu` in `mfo-redesign.css` — the `.dropdown`
 `<li>` is the positioned ancestor, so the menu is now at least as wide as its
 header, expanding further only if an item is wider. Browser-verified.
+
+### Nav dropdown open/close behaviour
+Reported 2026-10-31: the main menus "often close when scrolling over them."
+
+Cause: the only thing opening a dropdown on desktop was one rule in the
+**minified** legacy theme — `#slidemenu .dropdown:hover .dropdown-menu
+{ display: block }` in `minimakerfaire-style.css`, inside
+`@media screen and (min-width: 768px)`. A hard `display` flip can't carry a
+delay, so the panel died the instant `:hover` stopped matching the parent
+`<li>`. Because **the header is not sticky**, one notch of the wheel slid the
+nav out from under a stationary cursor and closed the menu mid-reach. A
+diagonal reach toward a lower item did the same. Separately, the markup's
+`data-toggle="dropdown"` left Bootstrap's click plugin running alongside the
+hover rule, so clicking one menu and hovering another showed two panels.
+
+Fix (hover is still what opens them — no sticky header, no switch to
+click-to-open):
+
+- `mfo-redesign.css` §3 sets `display: block` on
+  `body #slidemenu li.dropdown > ul.dropdown-menu` unconditionally, which makes
+  the legacy `:hover` rule a **no-op**, and governs the panel with
+  `visibility`/`opacity`/`pointer-events` instead — those *can* be held open
+  past the pointer leaving. `:hover` stays in the visible list as the **no-JS
+  fallback** (if the script fails to load the menus behave exactly as before),
+  and `:focus-within` was added so keyboard users can see the panel they tab
+  into. These are plain flips with **no CSS transition** — the grace period
+  is a JS timer, so there is no animation state to get stuck (headless Chrome
+  wouldn't advance it) or to stack with that timer into a sluggish close.
+- `assets/js/nav-dropdown.js` (new, desktop-only, vanilla) owns an
+  `.mf-nav-open` class: open on `mouseenter`, close 400ms after `mouseleave`,
+  and **suspend the close entirely while the page is scrolling** (plus 600ms
+  after the last scroll event). When scrolling settles it closes only if the
+  header has left the viewport; otherwise the next deliberate `mousemove` off
+  the menu resumes the normal close. Also closes on Esc, on an outside click,
+  and on crossing the breakpoint, and syncs `aria-expanded`.
+- Because the CSS also opens on `:hover`/`:focus-within`, an **explicit**
+  dismissal (Esc, outside click) can't just drop `.mf-nav-open` — the pointer,
+  or the toggle it returns focus to, would hold the panel open. It also adds
+  `.mf-nav-dismissed` (a same-specificity rule placed after it, so source order
+  decides), cleared on the next mouseenter / mouseleave / focusin.
+- Desktop clicks on a `.dropdown-toggle` are handled by that script with
+  `stopPropagation()` — Bootstrap 3 binds its dropdown data-api on `document`,
+  so this suppresses the second, uncoordinated panel.
+
+**Below 768px nothing changed.** The slide-out drawer still relies on
+Bootstrap's click toggle; the script's listeners all bail on `matchMedia`.
+
+Tuning knobs: `CLOSE_DELAY` (400ms grace) and `SCROLL_SETTLE` (600ms) in the
+JS. There is deliberately nothing to tune in the CSS.
+
+**Files:** `assets/css/mfo-redesign.css` (§3), `assets/js/nav-dropdown.js`
+(new), `_includes/scripts.html` (loads it), `_includes/topnav.html`
+(`aria-expanded="false"` on the toggle). `minimakerfaire-style.css` is minified
+vendor output with no source in the repo — never edit it, override from
+`mfo-redesign.css`, which loads last.
 - **Robot logo:** right column now uses the "Makey welding" Maker Faire logo,
   downloaded to `assets/images/site-branding/makerfaire-welding.webp`.
 - **Right column links:** replaced the old flat 8-link list with the global

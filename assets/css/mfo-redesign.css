@@ -235,6 +235,57 @@ body .navbar-nav > li > .dropdown-menu > li > a:focus {
 }
 
 /* --------------------------------------------------------------
+ * Dropdown open/close behaviour (desktop, >= 768px).
+ *
+ * The legacy theme opens these with a bare `#slidemenu .dropdown:hover
+ * .dropdown-menu { display: block }` (minimakerfaire-style.css, minified — do
+ * not edit it, override here). A `display` flip can't be held open past the
+ * pointer leaving, so the panel died the instant :hover stopped matching: a
+ * diagonal reach toward a lower item killed it, and because the header is not
+ * sticky, one notch of the wheel slid the nav out from under a stationary
+ * cursor and closed the menu mid-reach.
+ *
+ * Setting `display: block` unconditionally makes that legacy rule a no-op and
+ * hands control to visibility/opacity, which a class can hold open. These are
+ * deliberately plain flips with no transition — the grace period that fixes
+ * the bug is a timer in assets/js/nav-dropdown.js, not a CSS delay, so there
+ * is no animation state to get stuck or to stack with the JS timer.
+ *
+ * `:hover` stays in the visible list as the no-JS fallback: if the script
+ * fails to load the menus still open on hover, exactly as they do today.
+ * -------------------------------------------------------------- */
+@media (min-width: 768px) {
+  body #slidemenu li.dropdown > ul.dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+  /* `.open` is Bootstrap's click-toggle class — still the only mechanism below
+     768px, and kept here so a click behaves on desktop too. `:focus-within`
+     lets keyboard users see the panel they are tabbing into. */
+  body #slidemenu li.dropdown.mf-nav-open > ul.dropdown-menu,
+  body #slidemenu li.dropdown.open > ul.dropdown-menu,
+  body #slidemenu li.dropdown:hover > ul.dropdown-menu,
+  body #slidemenu li.dropdown:focus-within > ul.dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* An explicit dismissal (Esc, or a click outside) has to win over :hover and
+     :focus-within — otherwise Esc appears to do nothing while the pointer is
+     still over the item, or while focus is still on its toggle. Same
+     specificity as the rule above, so source order decides; cleared again on
+     the next mouseenter / mouseleave / focusin. */
+  body #slidemenu li.dropdown.mf-nav-dismissed > ul.dropdown-menu {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+/* --------------------------------------------------------------
  * Theme toggle (UFO button) — permanent chrome, present in every theme.
  * Markup: _includes/topnav.html. Behaviour: assets/js/mfo-theme.js.
  * The neon glow + spin in the 2026 skin is layered in mfo-theme-invasion.css.

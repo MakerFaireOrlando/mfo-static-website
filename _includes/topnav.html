@@ -27,7 +27,7 @@
 
         {% for item in site.data.menus.topnav %}
           {% if item.subfolderitems %}
-            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  dropdown"><a title="{{ item.title }}" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">{{ item.title }} <span class="caret"></span></a>
+            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  dropdown"><a title="{{ item.title }}" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">{{ item.title }} <span class="caret"></span></a>
             {% else %}
               <li><a href="{{ item.url }}">{{ item.title }}</a>
           {% endif %}
