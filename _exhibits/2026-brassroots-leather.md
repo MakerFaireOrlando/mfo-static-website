@@ -6,7 +6,7 @@ slug: brassroots-leather
 permalink: /exhibits/brassroots-leather/
 exhibit-id: 26-56
 exhibit-zone: "Spirit - Center"
-space-number: "SE23"
+space-number: "SD24"
 description: "A small leather making business created on the love of steampunk and pop culture."
 description-long: "This little company was started as a challenge by one of our friends that told us that a hobby can pay off with a little hard work.  A top hat was the inspiration that let us know that as long as it is in your mind, your hands can create it someday.
 
@@ -116,8 +116,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-07 16:00:21"
-last-modified-jotform: "2026-10-17 09:38:23"
-last-exported: "2026-10-20 23:19:50"
+last-modified-jotform: "2026-10-31 10:26:29"
+last-exported: "2026-10-31 19:01:18"
 sitemap: false
 
 ---

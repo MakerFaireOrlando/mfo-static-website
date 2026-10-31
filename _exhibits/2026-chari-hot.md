@@ -6,7 +6,7 @@ slug: chari-hot
 permalink: /exhibits/chari-hot/
 exhibit-id: 26-244
 exhibit-zone: "Power Racing Track"
-space-number: "UP1"
+space-number: " "
 description: "Chari-Hot: A DIY kart built for the wonderfully ridiculous Power Racing Series."
 description-long: "Chari-Hot is a custom electric kart built for the Power Racing Series (PRS), A wonderfully ridiculous racing series where teams modify and hack children's toys that were never meant to go racing.
 
@@ -51,8 +51,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-10-07 15:21:24"
-last-modified-jotform: "2026-10-17 13:17:47"
-last-exported: "2026-10-20 23:19:21"
+last-modified-jotform: "2026-10-31 14:32:49"
+last-exported: "2026-10-31 18:36:18"
 sitemap: false
 
 ---

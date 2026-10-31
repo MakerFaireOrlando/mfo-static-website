@@ -28,7 +28,7 @@ image-primary:
     height: 533
 website: "https:makerfx.org"
 maker: 
-  name: "Maker FX"
+  name: "MakerFX"
   description: "MakerFX Makerspace is a community-driven, 6,000+ square foot collaborative workshop located in South Orlando, Florida. Operated by The Maker Effect Foundation (a 501(c)(3) educational non-profit), it provides a highly inclusive and welcoming environment for crafters, artists, engineers, software developers, and robotics builders of all skill levels"
   image-primary:
     url: /assets/images/exhibit-images/26-259-m-giant-skeeball-mfx-275x300.png
@@ -49,8 +49,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-10-26 08:39:36"
-last-modified-jotform: "2026-10-26 09:03:59"
-last-exported: "2026-10-26 12:17:27"
+last-modified-jotform: "2026-10-31 11:58:01"
+last-exported: "2026-10-31 18:36:18"
 sitemap: false
 
 ---

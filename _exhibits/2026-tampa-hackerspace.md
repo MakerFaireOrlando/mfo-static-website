@@ -46,11 +46,9 @@ categories:
     name: Maker Community
   - slug: makerspace
     name: Makerspace
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2026-07-11 22:04:14"
-last-modified-jotform: "2026-10-11 09:10:45"
-last-exported: "2026-10-12 08:24:49"
+last-modified-jotform: "2026-10-30 22:54:27"
+last-exported: "2026-10-31 19:01:17"
 sitemap: false
 
 ---

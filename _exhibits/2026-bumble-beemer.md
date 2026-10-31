@@ -6,7 +6,7 @@ slug: bumble-beemer
 permalink: /exhibits/bumble-beemer/
 exhibit-id: 26-232
 exhibit-zone: "Power Racing Track"
-space-number: "UR1"
+space-number: " "
 description: "Bumble Beemer is a custom designed and fabricated electric vehicle."
 description-long: "Bumble Beemer features a custom welded chassis, brushless motor and interchangeable gearing."
 image: /assets/images/exhibit-images/26-232-e-bumble-beemer-alex-orlando-300x169.jpg
@@ -40,8 +40,8 @@ categories:
   - slug: power-racing
     name: Power Racing
 created-jotform: "2026-10-02 14:25:34"
-last-modified-jotform: "2026-10-11 12:07:44"
-last-exported: "2026-10-12 08:24:21"
+last-modified-jotform: "2026-10-31 14:32:47"
+last-exported: "2026-10-31 18:36:19"
 sitemap: false
 
 ---
