@@ -37,11 +37,9 @@ maker:
 categories: 
   - slug: metalworking
     name: Metalworking
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2026-10-26 08:45:14"
-last-modified-jotform: "2026-10-26 09:03:55"
-last-exported: "2026-10-26 12:17:25"
+last-modified-jotform: "2026-10-30 11:26:33"
+last-exported: "2026-10-30 20:32:58"
 sitemap: false
 
 ---

@@ -143,11 +143,9 @@ categories:
     name: Handmade
   - slug: vehicles
     name: Vehicles
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2026-09-22 16:15:29"
-last-modified-jotform: "2026-10-23 16:59:54"
-last-exported: "2026-10-24 10:19:40"
+last-modified-jotform: "2026-10-30 11:27:01"
+last-exported: "2026-10-30 20:33:00"
 sitemap: false
 
 ---

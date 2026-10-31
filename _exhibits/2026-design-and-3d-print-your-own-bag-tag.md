@@ -120,8 +120,8 @@ categories:
   - slug: manufacturing
     name: Manufacturing
 created-jotform: "2026-07-03 12:14:36"
-last-modified-jotform: "2026-10-20 13:08:42"
-last-exported: "2026-10-20 23:19:51"
+last-modified-jotform: "2026-10-29 08:27:31"
+last-exported: "2026-10-30 20:33:11"
 sitemap: false
 
 ---

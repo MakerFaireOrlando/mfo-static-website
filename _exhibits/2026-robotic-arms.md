@@ -15,24 +15,94 @@ description-long: "I have created five different robotic armsthat range from sim
 4.	Simple automation. This arm is more complex and has color sensor and a suction driven pickup that will place a color block on the corresponding color target. This arm is intended to demonstrate simple industrial applications of robots and is designed for middle to high school students.  The cost of this arm can range from $50 to $150 depending on student’s implementation.
 5.	Robotic arm with simple computer vision. This are and camera will demonstrate the use of computer vision to pickup an object that is placed in the arms field of view and then moved to a drop off position. This arm is the most advanced arm in the exhibit and has been designed to demonstrate the very basic use of computer vision in robotics.  The arm is a advanced arm with built-in feedback for arm position. Is uses a mid range camera and NVIDIA Jetson Nano computer. This intended for high school students and classrooms. With a cost   from $150  and above depending on arm and processor.
 6.	Pneumatic Artificial Muscle(PAM). This model demonstrates a very basic non-servo method to move an arm. This is the basis of many of the robots you see today. This simple design is a good demonstration of a PAM device. I hope this will inspire the students to go further is to this field. It can be built for under $20 and is a great classroom demonstration."
-image: /assets/images/exhibit-images/26-92-e-robotic-arms-pxl-20260720-132936672-mp-300x169.jpg
+image: /assets/images/exhibit-images/26-92-e-robotic-arms-colorchoosearm-40-300x153.png
 image-primary: 
   full:
-    url: /assets/images/exhibit-images/26-92-e-robotic-arms-pxl-20260720-132936672-mp-full.jpg
-    width: 4032
-    height: 2268
+    url: /assets/images/exhibit-images/26-92-e-robotic-arms-colorchoosearm-40-full.png
+    width: 1369
+    height: 698
   small:
-    url: /assets/images/exhibit-images/26-92-e-robotic-arms-pxl-20260720-132936672-mp-150x84.jpg
+    url: /assets/images/exhibit-images/26-92-e-robotic-arms-colorchoosearm-40-150x76.png
     width: 150
-    height: 84
+    height: 76
   medium:
-    url: /assets/images/exhibit-images/26-92-e-robotic-arms-pxl-20260720-132936672-mp-300x169.jpg
+    url: /assets/images/exhibit-images/26-92-e-robotic-arms-colorchoosearm-40-300x153.png
     width: 300
-    height: 169
+    height: 153
   large:
-    url: /assets/images/exhibit-images/26-92-e-robotic-arms-pxl-20260720-132936672-mp-1024x576.jpg
+    url: /assets/images/exhibit-images/26-92-e-robotic-arms-colorchoosearm-40-1024x522.png
     width: 1024
-    height: 576
+    height: 522
+additional-images: 
+  - 1:
+    full:
+      url: /assets/images/exhibit-images/26-92-e1-robotic-arms-mearm40-full.png
+      width: 1180
+      height: 760
+    small:
+      url: /assets/images/exhibit-images/26-92-e1-robotic-arms-mearm40-150x97.png
+      width: 150
+      height: 97
+    medium:
+      url: /assets/images/exhibit-images/26-92-e1-robotic-arms-mearm40-300x193.png
+      width: 300
+      height: 193
+    large:
+      url: /assets/images/exhibit-images/26-92-e1-robotic-arms-mearm40-1024x660.png
+      width: 1024
+      height: 660
+  - 2:
+    full:
+      url: /assets/images/exhibit-images/26-92-e2-robotic-arms-programarm40-full.png
+      width: 1061
+      height: 869
+    small:
+      url: /assets/images/exhibit-images/26-92-e2-robotic-arms-programarm40-150x123.png
+      width: 150
+      height: 123
+    medium:
+      url: /assets/images/exhibit-images/26-92-e2-robotic-arms-programarm40-300x246.png
+      width: 300
+      height: 246
+    large:
+      url: /assets/images/exhibit-images/26-92-e2-robotic-arms-programarm40-1024x839.png
+      width: 1024
+      height: 839
+  - 3:
+    full:
+      url: /assets/images/exhibit-images/26-92-e3-robotic-arms-cardboardarm402-full.jpg
+      width: 928
+      height: 771
+    small:
+      url: /assets/images/exhibit-images/26-92-e3-robotic-arms-cardboardarm402-150x125.jpg
+      width: 150
+      height: 125
+    medium:
+      url: /assets/images/exhibit-images/26-92-e3-robotic-arms-cardboardarm402-300x249.jpg
+      width: 300
+      height: 249
+    large:
+      url: /assets/images/exhibit-images/26-92-e3-robotic-arms-cardboardarm402-928x771.jpg
+      width: 928
+      height: 771
+  - 4:
+    full:
+      url: /assets/images/exhibit-images/26-92-e4-robotic-arms-computervision40-full.png
+      width: 88
+      height: 144
+    small:
+      url: /assets/images/exhibit-images/26-92-e4-robotic-arms-computervision40-88x144.png
+      width: 88
+      height: 144
+    medium:
+      url: /assets/images/exhibit-images/26-92-e4-robotic-arms-computervision40-88x144.png
+      width: 88
+      height: 144
+    large:
+      url: /assets/images/exhibit-images/26-92-e4-robotic-arms-computervision40-88x144.png
+      width: 88
+      height: 144
+website: "https://www.roboticsisfun.space/makerfair2026.php"
 maker: 
   name: "Jim Pollock"
   description: "I have been a maker for a long time and enjoy creating exhibits that are fun and help spur young makers’ imagination. I love to see the  aha moment when after playing with or watching a machine a child or adult sees the possibilities and becomes excited."
@@ -54,8 +124,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-20 09:43:01"
-last-modified-jotform: "2026-10-03 15:01:40"
-last-exported: "2026-10-05 15:06:55"
+last-modified-jotform: "2026-10-30 12:04:47"
+last-exported: "2026-10-30 20:33:10"
 sitemap: false
 
 ---
