@@ -125,7 +125,7 @@ carousel-slides:
         <figcaption class="mf-asset-body">
           <h3>Postcard (Back)</h3>
           <p>High-res PDF, ready to print.</p>
-          <a class="mf-link-arrow" href="/assets/pdf/2026/MFO2026_flyer.pdf" target="_blank" rel="noopener">Download PDF</a>
+          <a class="mf-link-arrow" href="/assets/pdf/2026/MFO2026_flyer_front.pdf" target="_blank" rel="noopener">Download PDF</a>
         </figcaption>
       </figure>
 
