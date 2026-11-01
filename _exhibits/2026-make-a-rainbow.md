@@ -28,7 +28,7 @@ image-primary:
     width: 363
     height: 541
 maker: 
-  name: "Paula Sandusky"
+  name: "Jake Williams and Paula Sandusky"
   description: "Paula has brought various puppets (including Blueberry, who's built quite a following!) to Maker Faire Orlando over the past couple years, but this year she's cracking out the Big Books of Exhibitry for a special project for kids and families to enjoy."
   image-primary:
     url: /assets/images/exhibit-images/26-226-m-make-a-rainbow-paula-sandusky-204x300.png
@@ -46,8 +46,8 @@ categories:
   - slug: special-effects
     name: Special Effects
 created-jotform: "2026-09-28 20:48:55"
-last-modified-jotform: "2026-10-11 11:54:28"
-last-exported: "2026-10-12 08:24:23"
+last-modified-jotform: "2026-11-01 13:58:04"
+last-exported: "2026-11-01 13:58:58"
 sitemap: false
 
 ---

@@ -5,7 +5,7 @@ title: "PlaneCar"
 slug: planecar
 permalink: /exhibits/planecar/
 exhibit-id: 26-37
-exhibit-zone: "Exhibit Tent"
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Limo made from 1982 private jet."
 description-long: "Its all for fun to inspire creative building.  This art car is powered by 2004 Prius and is a fuselage from an 82 British Aerospace Hawker. tour the vintage interior and see the flight controls and wiring.  This street legal car has Lights, signals, horn, belts, and is not over width or too tall. However it does turn a few heads"
@@ -175,8 +175,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-02 16:45:23"
-last-modified-jotform: "2026-10-09 14:08:04"
-last-exported: "2026-10-10 09:38:39"
+last-modified-jotform: "2026-11-01 07:54:28"
+last-exported: "2026-11-01 13:59:32"
 sitemap: false
 
 ---

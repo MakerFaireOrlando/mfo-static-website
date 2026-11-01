@@ -5,8 +5,8 @@ title: "Wild Bills Soda Co"
 slug: wild-bills-soda-co
 permalink: /exhibits/wild-bills-soda-co/
 exhibit-id: 26-72
-exhibit-zone: "Exhibit Tent"
-space-number: Unassigned
+exhibit-zone: "Outside"
+space-number: "UZ32, UZ33, UZ34, UAA32, UAA33, UAA34, UAB32, UAB33, UAB34"
 description: "With the purchase of a premium stainless mug, patrons receive unlimited daily refills"
 description-long: "With the purchase of a premium stainless mug, patrons receive unlimited daily refills"
 image: /assets/images/exhibit-images/26-72-e-wild-bills-soda-co-stand-photo-300x215.jpg
@@ -58,8 +58,8 @@ categories:
   - slug: food
     name: Food
 created-jotform: "2026-07-14 10:18:30"
-last-modified-jotform: "2026-10-09 14:08:10"
-last-exported: "2026-10-10 09:38:30"
+last-modified-jotform: "2026-11-01 07:54:34"
+last-exported: "2026-11-01 13:59:21"
 sitemap: false
 
 ---

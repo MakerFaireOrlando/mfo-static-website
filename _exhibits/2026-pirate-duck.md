@@ -5,7 +5,7 @@ title: "Pirate Duck"
 slug: pirate-duck
 permalink: /exhibits/pirate-duck/
 exhibit-id: 26-34
-exhibit-zone: "Exhibit Tent"
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "We create original pop culture designs for garments."
 description-long: "We create original designs for garments. The process in which these designs are applied to the garment allows individuals to customize the garment"
@@ -139,8 +139,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-02 05:23:26"
-last-modified-jotform: "2026-10-22 20:00:20"
-last-exported: "2026-10-23 06:45:52"
+last-modified-jotform: "2026-11-01 07:54:37"
+last-exported: "2026-11-01 13:59:37"
 sitemap: false
 
 ---

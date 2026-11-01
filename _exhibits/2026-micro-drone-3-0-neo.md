@@ -5,6 +5,7 @@ title: "Micro Drone 3.0 NEO"
 slug: micro-drone-3-0-neo
 permalink: /exhibits/micro-drone-3-0-neo/
 exhibit-id: 26-261
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Micro Drone 3.0 NEO is a palm-sized drone that flies autonomously and features modular parts."
 description-long: "It was developed with a simple brief: be the best drones for beginners. Visitors can experience a live, hands-on flying demonstration, learn about the latest flight technology and meet the founder to talk about how drones are designed, engineered and built."
@@ -66,8 +67,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-10-27 18:20:35"
-last-modified-jotform: "2026-10-31 10:35:56"
-last-exported: "2026-10-31 18:36:18"
+last-modified-jotform: "2026-11-01 07:55:08"
+last-exported: "2026-11-01 13:58:51"
 sitemap: false
 
 ---

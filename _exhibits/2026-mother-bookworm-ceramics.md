@@ -5,7 +5,7 @@ title: "Mother Bookworm Ceramics"
 slug: mother-bookworm-ceramics
 permalink: /exhibits/mother-bookworm-ceramics/
 exhibit-id: 26-175
-exhibit-zone: "Exhibit Tent"
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Bookish and fandom handmade functional ceramics."
 description-long: "Orlando artists William and Jessica Eggleston are a team. William throws each piece with care and Jessica handles the glazing details."
@@ -114,8 +114,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-30 15:09:25"
-last-modified-jotform: "2026-10-09 14:42:33"
-last-exported: "2026-10-10 09:38:04"
+last-modified-jotform: "2026-11-01 07:55:04"
+last-exported: "2026-11-01 13:59:06"
 sitemap: false
 
 ---
