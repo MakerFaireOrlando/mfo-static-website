@@ -151,8 +151,8 @@ categories:
   - slug: upcycling
     name: Upcycling
 created-jotform: "2026-08-04 23:25:15"
-last-modified-jotform: "2026-10-17 11:29:56"
-last-exported: "2026-10-20 23:19:40"
+last-modified-jotform: "2026-11-01 17:18:02"
+last-exported: "2026-11-01 18:55:08"
 sitemap: false
 
 ---

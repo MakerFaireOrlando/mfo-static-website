@@ -9,7 +9,7 @@ combat-robot: true
 exhibit-zone: "Robot Ruckus (Spirit Building)"
 space-number: Unassigned
 description: "Custom plastic antweight bot with vertical spinner"
-description-long: "This will be Thixotropic's debut competition. It's a 1 pound bot with a powerful vertical spinner. This is our second bot--and second competition."
+description-long: "This will be Thixotropic's debut competition. It's a custom one pound bot with a vertical spinner."
 image: /assets/images/exhibit-images/26R-64-e-thixotropic-pxl-20260712-180519753-mp-3985-300x169.jpg
 image-primary: 
   full:
@@ -39,8 +39,8 @@ categories:
   - slug: combat-robots
     name: Combat Robots
 created-jotform: "2026-10-11 19:10:54"
-last-modified-jotform: "2026-10-16 08:51:50"
-last-exported: "2026-10-16 08:56:32"
+last-modified-jotform: "2026-11-01 16:05:18"
+last-exported: "2026-11-01 18:55:02"
 sitemap: false
 
 ---

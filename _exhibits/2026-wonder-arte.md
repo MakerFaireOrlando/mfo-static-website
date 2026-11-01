@@ -5,6 +5,7 @@ title: "Wonder Arte"
 slug: wonder-arte
 permalink: /exhibits/wonder-arte/
 exhibit-id: 26-219
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "A hands-on experience featuring canvas painting, stuffed animals, and sand art !"
 description-long: "This fun, hands-on STEAM experience brings art and learning together through creative activities that inspire children to explore, experiment, and use their imagination. Children will enjoy trying different materials and techniques while building important skills like problem-solving, fine-motor coordination, planning, and decision-making.
@@ -72,8 +73,8 @@ categories:
   - slug: kits
     name: Kits
 created-jotform: "2026-09-24 22:53:09"
-last-modified-jotform: "2026-10-31 22:01:41"
-last-exported: "2026-10-31 22:08:16"
+last-modified-jotform: "2026-11-01 17:50:07"
+last-exported: "2026-11-01 18:55:07"
 sitemap: false
 
 ---

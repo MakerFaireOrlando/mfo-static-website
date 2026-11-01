@@ -5,6 +5,7 @@ title: "Giant Skeeball"
 slug: giant-skeeball
 permalink: /exhibits/giant-skeeball/
 exhibit-id: 26-259
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "Like the classic SkeeBall but GIANT!"
 description-long: "Come play Skeeball with a game that uses bowling ball sized balls!"
@@ -49,8 +50,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-10-26 08:39:36"
-last-modified-jotform: "2026-10-31 11:58:01"
-last-exported: "2026-10-31 18:36:18"
+last-modified-jotform: "2026-11-01 16:36:39"
+last-exported: "2026-11-01 18:55:07"
 sitemap: false
 
 ---

@@ -5,6 +5,7 @@ title: "Iron Crocodiles Team #12089"
 slug: iron-crocodiles-team-12089
 permalink: /exhibits/iron-crocodiles-team-12089/
 exhibit-id: 26-262
+exhibit-zone: "Outside"
 space-number: Unassigned
 description: "FRC Team 12089 presents Crunchy, our custom robot that collects paper and plastic waste."
 description-long: "FRC Team #12089, the Iron Crocodiles, from Edgewater Highschool School, has been hard at work developing a custome robot affectionately named Crunchy that is designed to collect paper and plastic waster from off road environments. We are here today to demonstrate Crunchy's ability to collect waster here at Maker Faire! It is our mission to protect the environment of Central Florida with technology and educate our communities about it!"
@@ -64,8 +65,8 @@ categories:
   - slug: vex-robotics
     name: VEX Robotics
 created-jotform: "2026-10-31 11:11:54"
-last-modified-jotform: "2026-10-31 11:19:19"
-last-exported: "2026-10-31 18:36:15"
+last-modified-jotform: "2026-11-01 16:36:44"
+last-exported: "2026-11-01 18:55:07"
 sitemap: false
 
 ---
