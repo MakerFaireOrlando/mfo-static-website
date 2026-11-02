@@ -30,53 +30,121 @@ image-primary:
 additional-images: 
   - 1:
     full:
-      url: /assets/images/exhibit-images/26-41-e1-3d-printed-cameras-imgp5319-full.jpg
-      width: 3000
-      height: 2002
+      url: /assets/images/exhibit-images/26-41-e1-3d-printed-cameras-dsc02691-full.JPG
+      width: 1072
+      height: 1072
     small:
-      url: /assets/images/exhibit-images/26-41-e1-3d-printed-cameras-imgp5319-150x100.jpg
+      url: /assets/images/exhibit-images/26-41-e1-3d-printed-cameras-dsc02691-150x150.JPG
       width: 150
-      height: 100
+      height: 150
     medium:
-      url: /assets/images/exhibit-images/26-41-e1-3d-printed-cameras-imgp5319-300x200.jpg
+      url: /assets/images/exhibit-images/26-41-e1-3d-printed-cameras-dsc02691-300x300.JPG
       width: 300
-      height: 200
+      height: 300
     large:
-      url: /assets/images/exhibit-images/26-41-e1-3d-printed-cameras-imgp5319-1024x683.jpg
+      url: /assets/images/exhibit-images/26-41-e1-3d-printed-cameras-dsc02691-1024x1024.JPG
       width: 1024
-      height: 683
+      height: 1024
   - 2:
     full:
-      url: /assets/images/exhibit-images/26-41-e2-3d-printed-cameras-imgp5320-full.jpg
+      url: /assets/images/exhibit-images/26-41-e2-3d-printed-cameras-dsc02689-full.JPG
       width: 3000
-      height: 2002
+      height: 2000
     small:
-      url: /assets/images/exhibit-images/26-41-e2-3d-printed-cameras-imgp5320-150x100.jpg
-      width: 150
-      height: 100
+      url: /assets/images/exhibit-images/26-41-e2-3d-printed-cameras-dsc02689-100x150.JPG
+      width: 100
+      height: 150
     medium:
-      url: /assets/images/exhibit-images/26-41-e2-3d-printed-cameras-imgp5320-300x200.jpg
-      width: 300
-      height: 200
+      url: /assets/images/exhibit-images/26-41-e2-3d-printed-cameras-dsc02689-200x300.JPG
+      width: 200
+      height: 300
     large:
-      url: /assets/images/exhibit-images/26-41-e2-3d-printed-cameras-imgp5320-1024x683.jpg
-      width: 1024
-      height: 683
+      url: /assets/images/exhibit-images/26-41-e2-3d-printed-cameras-dsc02689-683x1024.JPG
+      width: 683
+      height: 1024
   - 3:
     full:
-      url: /assets/images/exhibit-images/26-41-e3-3d-printed-cameras-imgp5321-full.jpg
+      url: /assets/images/exhibit-images/26-41-e3-3d-printed-cameras-dsc02687-full.JPG
       width: 3000
-      height: 2002
+      height: 2000
     small:
-      url: /assets/images/exhibit-images/26-41-e3-3d-printed-cameras-imgp5321-150x100.jpg
+      url: /assets/images/exhibit-images/26-41-e3-3d-printed-cameras-dsc02687-150x100.JPG
       width: 150
       height: 100
     medium:
-      url: /assets/images/exhibit-images/26-41-e3-3d-printed-cameras-imgp5321-300x200.jpg
+      url: /assets/images/exhibit-images/26-41-e3-3d-printed-cameras-dsc02687-300x200.JPG
       width: 300
       height: 200
     large:
-      url: /assets/images/exhibit-images/26-41-e3-3d-printed-cameras-imgp5321-1024x683.jpg
+      url: /assets/images/exhibit-images/26-41-e3-3d-printed-cameras-dsc02687-1024x683.JPG
+      width: 1024
+      height: 683
+  - 4:
+    full:
+      url: /assets/images/exhibit-images/26-41-e4-3d-printed-cameras-img-9849-full.jpg
+      width: 4032
+      height: 3024
+    small:
+      url: /assets/images/exhibit-images/26-41-e4-3d-printed-cameras-img-9849-150x113.jpg
+      width: 150
+      height: 113
+    medium:
+      url: /assets/images/exhibit-images/26-41-e4-3d-printed-cameras-img-9849-300x225.jpg
+      width: 300
+      height: 225
+    large:
+      url: /assets/images/exhibit-images/26-41-e4-3d-printed-cameras-img-9849-1024x768.jpg
+      width: 1024
+      height: 768
+  - 5:
+    full:
+      url: /assets/images/exhibit-images/26-41-e5-3d-printed-cameras-imgp5319-full.jpg
+      width: 3000
+      height: 2002
+    small:
+      url: /assets/images/exhibit-images/26-41-e5-3d-printed-cameras-imgp5319-150x100.jpg
+      width: 150
+      height: 100
+    medium:
+      url: /assets/images/exhibit-images/26-41-e5-3d-printed-cameras-imgp5319-300x200.jpg
+      width: 300
+      height: 200
+    large:
+      url: /assets/images/exhibit-images/26-41-e5-3d-printed-cameras-imgp5319-1024x683.jpg
+      width: 1024
+      height: 683
+  - 6:
+    full:
+      url: /assets/images/exhibit-images/26-41-e6-3d-printed-cameras-imgp5320-full.jpg
+      width: 3000
+      height: 2002
+    small:
+      url: /assets/images/exhibit-images/26-41-e6-3d-printed-cameras-imgp5320-150x100.jpg
+      width: 150
+      height: 100
+    medium:
+      url: /assets/images/exhibit-images/26-41-e6-3d-printed-cameras-imgp5320-300x200.jpg
+      width: 300
+      height: 200
+    large:
+      url: /assets/images/exhibit-images/26-41-e6-3d-printed-cameras-imgp5320-1024x683.jpg
+      width: 1024
+      height: 683
+  - 7:
+    full:
+      url: /assets/images/exhibit-images/26-41-e7-3d-printed-cameras-imgp5321-full.jpg
+      width: 3000
+      height: 2002
+    small:
+      url: /assets/images/exhibit-images/26-41-e7-3d-printed-cameras-imgp5321-150x100.jpg
+      width: 150
+      height: 100
+    medium:
+      url: /assets/images/exhibit-images/26-41-e7-3d-printed-cameras-imgp5321-300x200.jpg
+      width: 300
+      height: 200
+    large:
+      url: /assets/images/exhibit-images/26-41-e7-3d-printed-cameras-imgp5321-1024x683.jpg
       width: 1024
       height: 683
 maker: 
@@ -101,8 +169,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-07-03 13:01:13"
-last-modified-jotform: "2026-10-26 07:27:34"
-last-exported: "2026-10-26 12:17:40"
+last-modified-jotform: "2026-11-01 19:51:56"
+last-exported: "2026-11-01 22:55:26"
 sitemap: false
 
 ---
