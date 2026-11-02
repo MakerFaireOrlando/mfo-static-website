@@ -35,21 +35,56 @@ image-primary:
 additional-images: 
   - 1:
     full:
-      url: /assets/images/exhibit-images/26-238-e1-run-your-own-boba-shop-behind-the-bubble-tea-counter-full.png
+      url: /assets/images/exhibit-images/26-238-e1-run-your-own-boba-shop-img-4205-9708-full.jpeg
+      width: 572
+      height: 777
+    small:
+      url: /assets/images/exhibit-images/26-238-e1-run-your-own-boba-shop-img-4205-9708-110x150.jpeg
+      width: 110
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/26-238-e1-run-your-own-boba-shop-img-4205-9708-221x300.jpeg
+      width: 221
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/26-238-e1-run-your-own-boba-shop-img-4205-9708-572x777.jpeg
+      width: 572
+      height: 777
+  - 2:
+    full:
+      url: /assets/images/exhibit-images/26-238-e2-run-your-own-boba-shop-0d4bf864-2802-4503-95c6-dce658f812ac-933-full.png
+      width: 948
+      height: 1659
+    small:
+      url: /assets/images/exhibit-images/26-238-e2-run-your-own-boba-shop-0d4bf864-2802-4503-95c6-dce658f812ac-933-86x150.png
+      width: 86
+      height: 150
+    medium:
+      url: /assets/images/exhibit-images/26-238-e2-run-your-own-boba-shop-0d4bf864-2802-4503-95c6-dce658f812ac-933-171x300.png
+      width: 171
+      height: 300
+    large:
+      url: /assets/images/exhibit-images/26-238-e2-run-your-own-boba-shop-0d4bf864-2802-4503-95c6-dce658f812ac-933-585x1024.png
+      width: 585
+      height: 1024
+  - 3:
+    full:
+      url: /assets/images/exhibit-images/26-238-e3-run-your-own-boba-shop-behind-the-bubble-tea-counter-full.png
       width: 997
       height: 1578
     small:
-      url: /assets/images/exhibit-images/26-238-e1-run-your-own-boba-shop-behind-the-bubble-tea-counter-95x150.png
+      url: /assets/images/exhibit-images/26-238-e3-run-your-own-boba-shop-behind-the-bubble-tea-counter-95x150.png
       width: 95
       height: 150
     medium:
-      url: /assets/images/exhibit-images/26-238-e1-run-your-own-boba-shop-behind-the-bubble-tea-counter-190x300.png
+      url: /assets/images/exhibit-images/26-238-e3-run-your-own-boba-shop-behind-the-bubble-tea-counter-190x300.png
       width: 190
       height: 300
     large:
-      url: /assets/images/exhibit-images/26-238-e1-run-your-own-boba-shop-behind-the-bubble-tea-counter-647x1024.png
+      url: /assets/images/exhibit-images/26-238-e3-run-your-own-boba-shop-behind-the-bubble-tea-counter-647x1024.png
       width: 647
       height: 1024
+website: "https:myasiakitchen.com"
 maker: 
   name: "myasiakitchen.com"
   description: "Asia Kitchen is a local, family-run food and catering business with nearly 20 years of experience creating food experiences for schools, families, and community events throughout Central Florida. As a food maker and small-business owner, I have always been fascinated by the science, creativity, and problem-solving behind everyday food.
@@ -62,14 +97,15 @@ My goal is to give kids the experience of not simply buying a product, but under
   website: https:myasiakitchen.com
   instagram: https://www.instagram.com/asiakitchen
   facebook: https://www.facebook.com/AsiaKitchenWinterPark/
+  youtube: https://www.youtube.com/shorts/WKEqR2KHTnY?feature=share
 categories: 
   - slug: food
     name: Food
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-10-04 17:41:24"
-last-modified-jotform: "2026-10-11 10:49:37"
-last-exported: "2026-10-12 08:24:13"
+last-modified-jotform: "2026-11-02 01:22:32"
+last-exported: "2026-11-02 10:23:44"
 sitemap: false
 
 ---
