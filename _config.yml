@@ -8,10 +8,14 @@ plugins:
 
 
 # Google Analytics - https://desiredpersona.com/google-analytics-jekyll/
-# Universal Analytics stopped collecting data in July 2023. Leaving this unset
-# keeps _includes/analytics.html from rendering a second ~120 KB gtag.js on
-# every page; the AW- Google Ads tag in _includes/head.html still runs.
-#google_analytics: UA-29035632-1
+# GA4 measurement ID for the "Maker Faire Orlando - GA4" web stream (stream id
+# 5878877478). Rendered by _includes/analytics.html in production only.
+#
+# Do NOT remove this again. The old UA-29035632-1 tag that lived here was not
+# dead: GA4 was connected to it via Google's connected-site-tags migration, so
+# loading the UA tag was what delivered hits to this GA4 property. Dropping it
+# on 2026-10-28 silently killed all Analytics collection until 2026-11-02.
+google_analytics: G-8WZBWD05S0
 
 
 #begin seo
