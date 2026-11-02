@@ -22,11 +22,11 @@
         </div>
         <div class="mf-card-body">
           <p>Award-winning costumes, props, and makers turning imagination into art.</p>
-          {% if card_links %}<span class="mf-link-arrow">See art</span>{% endif %}
+          {% if card_links %}<span class="mf-link-arrow">See cosplay</span>{% endif %}
         </div>
       </a>
 
-      <a class="mf-card"{% if card_links %} href="{{ '/stage/' | relative_url }}"{% endif %}>
+      <a class="mf-card"{% if card_links %} href="{{ '/schedule/' | relative_url }}"{% endif %}>
         <div class="mf-card-media" style="background-image:url('{{ '/assets/images/stage/stage-talks-2025-800w.webp' | relative_url }}')">
           <span class="mf-card-label">Stage Talks &amp; Special&nbsp;Guests</span>
         </div>
