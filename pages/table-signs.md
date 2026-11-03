@@ -29,7 +29,7 @@ noindex: true
 
 
 <div style="page-break-after: always">
-<img style="margin-bottom:20px;" src="/assets/images/site-branding/2025/mfo_table_sign_header_2025_v1_1000.jpg" alt="Maker Faire Orlando">
+<img style="margin-bottom:20px;" src="/assets/images/site-branding/2026/mfo_table_sign_header_2026_v1_1000.jpg" alt="Maker Faire Orlando">
   <div style="margin-bottom:20px; font-family:lato; font-weight:bold; font-size:50px">{{exhibit.title}}</div>
   <table>
     <tr>
