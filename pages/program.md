@@ -21,11 +21,11 @@ Check out the Maker Faire Orlando event program to plan your time at Maker Faire
 
 <br>
 
-<a href="/assets/images/program/MFO_2026_Program.pdf"><img src="/assets/images/program/MFO_2026_Program_Page_1-web.jpg" alt="Maker Faire Orlando 2026 event program page 1" width="800" /></a>
+<a href="/assets/images/program/MFO_2026_Program.pdf"><img src="/assets/images/program/MFO_2026_Program_Page_1-web.jpg" alt="Maker Faire Orlando 2026 event program page 1" width="800" style="max-width:100%;height:auto;" /></a>
 
 <br>
 
-<a href="/assets/images/program/MFO_2026_Program.pdf"><img src="/assets/images/program/MFO_2026_Program_Page_2-web.jpg" alt="Maker Faire Orlando 2026 event program page 2" width="800" /></a>
+<a href="/assets/images/program/MFO_2026_Program.pdf"><img src="/assets/images/program/MFO_2026_Program_Page_2-web.jpg" alt="Maker Faire Orlando 2026 event program page 2" width="800" style="max-width:100%;height:auto;" /></a>
 
 ---
 
