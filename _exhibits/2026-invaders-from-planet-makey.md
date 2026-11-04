@@ -33,6 +33,92 @@ image-primary:
     url: /assets/images/exhibit-images/26-193-e-invaders-from-planet-makey-icon-3-1024x1024.png
     width: 1024
     height: 1024
+additional-images: 
+  - 1:
+    full:
+      url: /assets/images/exhibit-images/26-193-e1-invaders-from-planet-makey-screenshot-2026-11-01-050645-full.png
+      width: 922
+      height: 699
+    small:
+      url: /assets/images/exhibit-images/26-193-e1-invaders-from-planet-makey-screenshot-2026-11-01-050645-150x114.png
+      width: 150
+      height: 114
+    medium:
+      url: /assets/images/exhibit-images/26-193-e1-invaders-from-planet-makey-screenshot-2026-11-01-050645-300x227.png
+      width: 300
+      height: 227
+    large:
+      url: /assets/images/exhibit-images/26-193-e1-invaders-from-planet-makey-screenshot-2026-11-01-050645-922x699.png
+      width: 922
+      height: 699
+  - 2:
+    full:
+      url: /assets/images/exhibit-images/26-193-e2-invaders-from-planet-makey-screenshot-2026-09-27-050130-full.png
+      width: 777
+      height: 561
+    small:
+      url: /assets/images/exhibit-images/26-193-e2-invaders-from-planet-makey-screenshot-2026-09-27-050130-150x108.png
+      width: 150
+      height: 108
+    medium:
+      url: /assets/images/exhibit-images/26-193-e2-invaders-from-planet-makey-screenshot-2026-09-27-050130-300x217.png
+      width: 300
+      height: 217
+    large:
+      url: /assets/images/exhibit-images/26-193-e2-invaders-from-planet-makey-screenshot-2026-09-27-050130-777x561.png
+      width: 777
+      height: 561
+  - 3:
+    full:
+      url: /assets/images/exhibit-images/26-193-e3-invaders-from-planet-makey-image-full.png
+      width: 682
+      height: 576
+    small:
+      url: /assets/images/exhibit-images/26-193-e3-invaders-from-planet-makey-image-150x127.png
+      width: 150
+      height: 127
+    medium:
+      url: /assets/images/exhibit-images/26-193-e3-invaders-from-planet-makey-image-300x253.png
+      width: 300
+      height: 253
+    large:
+      url: /assets/images/exhibit-images/26-193-e3-invaders-from-planet-makey-image-682x576.png
+      width: 682
+      height: 576
+  - 4:
+    full:
+      url: /assets/images/exhibit-images/26-193-e4-invaders-from-planet-makey-cow-model-full.png
+      width: 635
+      height: 562
+    small:
+      url: /assets/images/exhibit-images/26-193-e4-invaders-from-planet-makey-cow-model-150x133.png
+      width: 150
+      height: 133
+    medium:
+      url: /assets/images/exhibit-images/26-193-e4-invaders-from-planet-makey-cow-model-300x266.png
+      width: 300
+      height: 266
+    large:
+      url: /assets/images/exhibit-images/26-193-e4-invaders-from-planet-makey-cow-model-635x562.png
+      width: 635
+      height: 562
+  - 5:
+    full:
+      url: /assets/images/exhibit-images/26-193-e5-invaders-from-planet-makey-barn-full.png
+      width: 5100
+      height: 3300
+    small:
+      url: /assets/images/exhibit-images/26-193-e5-invaders-from-planet-makey-barn-150x97.png
+      width: 150
+      height: 97
+    medium:
+      url: /assets/images/exhibit-images/26-193-e5-invaders-from-planet-makey-barn-300x194.png
+      width: 300
+      height: 194
+    large:
+      url: /assets/images/exhibit-images/26-193-e5-invaders-from-planet-makey-barn-1024x663.png
+      width: 1024
+      height: 663
 maker: 
   name: "That Maker Group"
   description: "We're a group of friends that love to make stuff!"
@@ -54,8 +140,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-06 00:39:06"
-last-modified-jotform: "2026-10-24 16:14:51"
-last-exported: "2026-10-24 16:18:40"
+last-modified-jotform: "2026-11-04 14:59:04"
+last-exported: "2026-11-04 14:59:34"
 sitemap: false
 
 ---

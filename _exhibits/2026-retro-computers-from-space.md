@@ -37,6 +37,8 @@ maker:
   website: https://www.facebook.com/share/g/19ufyercnt/
   facebook: https://www.facebook.com/share/g/19UfYeRcnT/
 categories: 
+  - slug: 3d-printing
+    name: 3D Printing
   - slug: electronics
     name: Electronics
   - slug: kits
@@ -50,8 +52,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-10 13:19:16"
-last-modified-jotform: "2026-10-28 20:10:48"
-last-exported: "2026-10-28 20:13:14"
+last-modified-jotform: "2026-11-04 13:47:21"
+last-exported: "2026-11-04 13:47:59"
 sitemap: false
 
 ---
