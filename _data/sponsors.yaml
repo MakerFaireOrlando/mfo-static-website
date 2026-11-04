@@ -50,7 +50,7 @@ sponsors:
     url: https://doradographix.com/
     logo: DoradoLogo.jpg
     level: 5
-    active: false
+    active: true
   - name: Skycraft
     url: https://www.skycraftsurplus.com
     logo: skycraft_saucer_logo_wht-line-Maker.png
@@ -75,7 +75,7 @@ sponsors:
     url: https://www.sainsmart.com
     logo: sainsmart.jpg
     level: 4
-    active: false
+    active: true
   - name: Wiring Technologies
     url: https://wiringtech.com/
     logo: WTI_Logo.png
@@ -90,7 +90,7 @@ sponsors:
     url: https://www.pcbway.com
     logo: pcbway.png
     level: 4
-    active: false
+    active: true
   - name: Parikh Law
     url: https://thefloridatriallawyer.com/
     logo: parikh_law.png
