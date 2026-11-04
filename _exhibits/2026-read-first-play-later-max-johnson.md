@@ -8,7 +8,9 @@ exhibit-id: 26-205
 exhibit-zone: "Spirit - Center"
 space-number: "SI20"
 description: "15-year-old author Max Johnson's challenge to get 10,000 books into kids' hands."
-description-long: "Max Johnson is a congressionally recognized teen author from Lake Mary, Florida, who wrote and self-published his own book, Let Me Help You… BE SMART, at 15. His exhibit is about the Read First, Play Later challenge — a mission to get 10,000 books into kids' hands, getting young readers to reach for a book before a screen. Stop by to meet Max and join the movement putting reading first."
+description-long: "Max Johnson is a congressionally recognized teen author from Lake Mary, Florida, who wrote and self-published his own book, Let Me Help You… BE SMART, at 15. His exhibit is about the Read First, Play Later challenge — a mission to get 10,000 books into kids' hands, getting young readers to reach for a book before a screen. Stop by to meet Max and join the movement putting reading first.
+
+Max will be at Maker Faire on Friday and Saturday."
 image: /assets/images/exhibit-images/26-205-e-read-first-play-later-max-johnson-max-book-cover-200x300.jpg
 image-primary: 
   full:
@@ -50,7 +52,9 @@ video: "https://youtube.com/shorts/J3ohSs4ZJ2w?feature=share"
 video-embed: '<iframe width="576" height="1024" src="https://www.youtube.com/embed/J3ohSs4ZJ2w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="Read First, Play later"></iframe>'
 maker: 
   name: "Max Johnson"
-  description: "Max Johnson is a congressionally recognized teen author from Lake Mary, Florida, who wrote and self-published his own book, Let Me Help You… BE SMART, at 15. His exhibit is about the Read First, Play Later challenge — a mission to get 10,000 books into kids' hands, getting young readers to reach for a book before a screen. Stop by to meet Max and join the movement putting reading first."
+  description: "Max Johnson is a congressionally recognized teen author from Lake Mary, Florida, who wrote and self-published his own book, Let Me Help You… BE SMART, at 15. His exhibit is about the Read First, Play Later challenge — a mission to get 10,000 books into kids' hands, getting young readers to reach for a book before a screen. Stop by to meet Max and join the movement putting reading first.
+
+Max will be at Maker Faire on Friday and Saturday."
   image-primary:
     url: /assets/images/exhibit-images/26-205-m-read-first-play-later-max-johnson-max-on-stage-225x300.jpg
     width: 112
@@ -69,9 +73,11 @@ categories:
     name: Talk
   - slug: writing-and-publishing
     name: Writing and Publishing
+  - slug: field-trip-day
+    name: Field Trip Day
 created-jotform: "2026-09-16 12:08:25"
-last-modified-jotform: "2026-10-22 20:18:09"
-last-exported: "2026-10-23 06:45:33"
+last-modified-jotform: "2026-11-04 07:45:50"
+last-exported: "2026-11-04 07:46:41"
 sitemap: false
 
 ---
