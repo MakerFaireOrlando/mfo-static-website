@@ -5,7 +5,8 @@ title: "🧋 RUN YOUR OWN BOBA SHOP"
 slug: run-your-own-boba-shop
 permalink: /exhibits/run-your-own-boba-shop/
 exhibit-id: 26-238
-space-number: Unassigned
+exhibit-zone: "Spirit - Center"
+space-number: "SD20"
 description: "Make your own boba while exploring food science, measurement, creativity & entrepreneurship!"
 description-long: "Run Your Own Boba Shop is a hands-on food science, STEM, and entrepreneurship experience where participants become the makers and create their own boba drink from beginning to end.
 Start with a color-changing cup and watch what happens when ice is added. Measure the ice and liquid using marked portions while exploring temperature, volume, ratios, and consistency.
@@ -104,8 +105,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-10-04 17:41:24"
-last-modified-jotform: "2026-11-03 21:45:01"
-last-exported: "2026-11-03 22:34:39"
+last-modified-jotform: "2026-11-03 22:38:59"
+last-exported: "2026-11-04 07:12:35"
 sitemap: false
 
 ---
