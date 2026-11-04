@@ -6,7 +6,7 @@ slug: kr26-knights-racing-formula-sae
 permalink: /exhibits/kr26-knights-racing-formula-sae/
 exhibit-id: 26-217
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "UAQ9, UAQ10, UAR9, UAR10, UAS9, UAS10, UAT9, UAT10"
 description: "Our 2026 car"
 description-long: "Knights Racing Formula SAE is the University of Central Florida’s road racing team. Each year our team designs, builds, and competes with a high-performance, open-wheel race car against universities around the globe.
 
@@ -144,8 +144,8 @@ categories:
   - slug: vehicles
     name: Vehicles
 created-jotform: "2026-09-22 16:15:29"
-last-modified-jotform: "2026-10-30 11:27:01"
-last-exported: "2026-10-30 20:33:00"
+last-modified-jotform: "2026-11-02 20:46:26"
+last-exported: "2026-11-03 07:15:50"
 sitemap: false
 
 ---

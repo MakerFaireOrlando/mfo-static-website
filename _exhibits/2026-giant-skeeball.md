@@ -6,7 +6,7 @@ slug: giant-skeeball
 permalink: /exhibits/giant-skeeball/
 exhibit-id: 26-259
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "UAV32, UAV33, UAV34, UAW32, UAW33, UAW34"
 description: "Like the classic SkeeBall but GIANT!"
 description-long: "Come play Skeeball with a game that uses bowling ball sized balls!"
 image: /assets/images/exhibit-images/26-259-e-giant-skeeball-54952388609-bf5423fc64-c-300x200.jpg
@@ -50,8 +50,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-10-26 08:39:36"
-last-modified-jotform: "2026-11-01 16:36:39"
-last-exported: "2026-11-01 18:55:07"
+last-modified-jotform: "2026-11-02 20:46:25"
+last-exported: "2026-11-03 07:15:47"
 sitemap: false
 
 ---

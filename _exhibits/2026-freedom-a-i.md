@@ -6,7 +6,7 @@ slug: freedom-a-i
 permalink: /exhibits/freedom-a-i/
 exhibit-id: 26-177
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "UAV37"
 description: "Build your own AI assistant—your character, your style, your commands, and take it anywhere"
 description-long: "Freedom AI is a working customizable personal-assistant system built around a simple idea: your AI should be yours. Instead of being limited to one character, personality, appearance or purpose, Freedom AI allows users to create and personalize their own assistant with a custom identity, voice, behavior and interface.
 The system combines voice interaction, conversational AI, built-in commands and tools, customizable characters, visual interfaces, media controls and other features in a portable design that can move between compatible Windows devices.
@@ -190,8 +190,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-08-30 20:34:07"
-last-modified-jotform: "2026-11-01 07:54:24"
-last-exported: "2026-11-01 13:59:03"
+last-modified-jotform: "2026-11-02 20:46:25"
+last-exported: "2026-11-03 07:15:56"
 sitemap: false
 
 ---

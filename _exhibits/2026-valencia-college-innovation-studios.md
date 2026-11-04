@@ -201,11 +201,9 @@ categories:
     name: Makerspace
   - slug: woodworking
     name: Woodworking
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2026-08-25 13:57:56"
-last-modified-jotform: "2026-10-03 15:01:50"
-last-exported: "2026-10-05 15:06:05"
+last-modified-jotform: "2026-11-03 11:16:28"
+last-exported: "2026-11-03 22:34:42"
 sitemap: false
 
 ---

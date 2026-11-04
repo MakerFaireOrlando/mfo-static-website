@@ -6,7 +6,7 @@ slug: colins-soap-a-rama
 permalink: /exhibits/colins-soap-a-rama/
 exhibit-id: 26-215
 exhibit-zone: "Spirit - Center"
-space-number: "SA14"
+space-number: "SA14, SB14"
 description: "At Colin's Soap-a-Rama, attendees can learn how to make their very own custom bars of soap!"
 description-long: "At Colin's Soap-a-Rama, attendees can learn how to make their very own custom bars of soap! Select your base, color, scent, and add-ins to customize your own creation. 
 
@@ -54,8 +54,8 @@ categories:
   - slug: field-trip-day
     name: Field Trip Day
 created-jotform: "2026-09-21 11:48:46"
-last-modified-jotform: "2026-11-01 17:10:28"
-last-exported: "2026-11-01 18:55:07"
+last-modified-jotform: "2026-11-02 20:46:21"
+last-exported: "2026-11-03 07:15:50"
 sitemap: false
 
 ---

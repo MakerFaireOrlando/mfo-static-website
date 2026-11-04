@@ -6,7 +6,7 @@ slug: duinokit-hands-on-arduino-iot-learning-kits
 permalink: /exhibits/duinokit-hands-on-arduino-iot-learning-kits/
 exhibit-id: 26-229
 exhibit-zone: "Outside"
-space-number: Unassigned
+space-number: "UAV36"
 description: "Live demos of Arduino and ESP32 IoT projects built with our DuinoKit learning kits."
 description-long: "DuinoKit brings electronics and coding to life for students and makers. We will demonstrate our DuinoKit Jr. and DuinoKit Educator kits, which bundle an Arduino microprocessor with all the components, wiring guides, and 'mission' learning cards needed to build dozens of projects. Visitors can watch live projects like sensors, displays, motors, and our new ESP32 Internet of Things kit, and get hands-on help wiring their own. Kits are designed by a teacher, so they map directly to classroom use - we also offer online lessons and custom classrooms through TinkerCode.us. Buy 10 or more kits and schools save 15%. We'll have kits available for sale and love to help you plan a making unit or student project."
 image: /assets/images/exhibit-images/26-229-e-duinokit-hands-on-arduino-iot-learning-kits-duinokit-opencasejr-297x300.jpg
@@ -83,8 +83,8 @@ categories:
   - slug: kits
     name: Kits
 created-jotform: "2026-10-01 18:24:20"
-last-modified-jotform: "2026-11-01 17:50:02"
-last-exported: "2026-11-01 18:55:07"
+last-modified-jotform: "2026-11-02 20:46:23"
+last-exported: "2026-11-03 07:15:49"
 sitemap: false
 
 ---
