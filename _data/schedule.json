@@ -504,22 +504,22 @@
     "image": "/assets/images/stage/2026/theme-park-makers-behind-the-magic-ec4980ec-1024x1024.jpg",
     "guests": [
       {
-        "name": "Andrew Davis- Mastermind of Hype at Forward Thinking Designs (Moderator)",
+        "name": "Andrew Davis - Mastermind of Hype at Forward Thinking Designs (Moderator)",
         "url": "https://www.forwardthinkingdesigns.com",
         "image": "/assets/images/stage/2026/andrew-davis-mastermind-of-hype-at-forward-thinking-designs--dce8372b-1024x1024.jpg"
       },
       {
-        "name": "Conner Purzycki- Senior Creator at Forward Thinking Designs",
+        "name": "Conner Purzycki - Senior Creator at Forward Thinking Designs",
         "url": "https://www.forwardthinkingdesigns.com",
         "image": "/assets/images/stage/2026/conner-purzycki-senior-creator-at-forward-thinking-designs-06632d33-1024x1024.jpg"
       },
       {
-        "name": "Kyle Edmonds- Application Engineer at Alcorn McBride",
+        "name": "Kyle Edmonds - Application Engineer at Alcorn McBride",
         "url": "https://alcorn.com/",
         "image": "/assets/images/stage/2026/kyle-edmonds-application-engineer-at-alcorn-mcbride-fba76c63-1024x1024.jpg"
       },
       {
-        "name": "Will Carlson- Maker",
+        "name": "Will Carlson - Theme park Show Designer",
         "image": "/assets/images/stage/2026/will-carlson-maker-7422e77c-1024x1024.jpg"
       }
     ]
@@ -722,6 +722,7 @@
     "title": "Meshtastic Meetup",
     "slug": "sun-comm-meshtastic",
     "location": "Community Stage",
+    "description": "Meshtastic is a free, open-source way to send messages and sensor data between small, low-power radios, with no cell plan or internet connection. In this talk you’ll see how a message hops across a mesh of radios, what the hardware looks like, and how the same network can carry weather readings, door-alarm alerts, GPS positions, and solar status. We’ll compare mesh with Wi-Fi, and cover what Meshtastic can’t do. You’ll leave knowing how to get your first radio on the air, and where to find us at MakerFX Makerspace in Orlando.",
     "date": "2026-11-08 15:30:00",
     "enddate": "2026-11-08 16:00:00",
     "image": "/assets/images/stage/2026/meshtastic-meetup-e8e1f0cb-1024x1024.jpg",
