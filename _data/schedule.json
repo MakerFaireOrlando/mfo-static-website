@@ -61,15 +61,16 @@
     "title": "Bionic Makers",
     "slug": "ftd-bionic",
     "location": "Main Stage",
-    "description": "Hear from Limbitless Solutions how they make bionic arms for kids at UCF.",
+    "description": "Meet the team building bionic arms for kids right here in Orlando. Limbitless Solutions at UCF shares how they design, build, and custom-style each arm, and how they turn learning to use it into a game. Real engineering, real kids, real impact.",
     "date": "2026-11-06 11:30:00",
     "enddate": "2026-11-06 11:55:00",
-    "url": "www.limbitless-solutions.org",
+    "image": "/assets/images/stage/2026/bionic-makers-45518547-1024x1024.jpg",
+    "url": "https://limbitless-solutions.org",
     "guests": [
       {
         "name": "Albert Manero - Limbitless",
-        "url": "www.limbitless-solutions.org",
-        "image": "/assets/images/stage/2026/albert-manero-4a71b2ee-1024x1024.jpg"
+        "url": "https://limbitless-solutions.org",
+        "image": "/assets/images/stage/2026/albert-manero-b1663922-1024x1024.jpg"
       }
     ]
   },
@@ -77,7 +78,7 @@
     "title": "Lunch Seating",
     "slug": "ftd-lunch",
     "location": "Main Stage",
-    "description": "Grab lunch outside and then join us for air conditioned seating and music!",
+    "description": "Grab lunch outside and then join us for air conditioned seating!",
     "date": "2026-11-06 12:00:00",
     "enddate": "2026-11-06 12:35:00"
   },
@@ -87,11 +88,13 @@
     "location": "Main Stage",
     "date": "2026-11-06 12:35:00",
     "enddate": "2026-11-06 13:25:00",
+    "image": "/assets/images/stage/2026/make-a-world-record-paper-airplane-492f61b3-1024x1024.jpg",
     "url": "/exhibits/paper-airplane-world-record/",
     "guests": [
       {
         "name": "John Collins",
-        "url": "/exhibits/paper-airplane-world-record/"
+        "url": "/exhibits/paper-airplane-world-record/",
+        "image": "/assets/images/stage/2026/john-collins-a9f21252-1024x1024.jpg"
       }
     ]
   },
@@ -109,19 +112,23 @@
       },
       {
         "name": "Allison Chase",
-        "url": "/exhibits/allison-chase-cosplay/"
+        "url": "/exhibits/allison-chase-cosplay/",
+        "image": "/assets/images/stage/2026/allison-chase-c957c54b-1024x1024.jpg"
       },
       {
         "name": "JT Designs and Miniatures",
-        "url": "/exhibits/jt-designs-and-miniatures/"
+        "url": "/exhibits/jt-designs-and-miniatures/",
+        "image": "/assets/images/stage/2026/jt-designs-and-miniatures-f9d5d2f6-1024x1024.jpg"
       },
       {
         "name": "J2C Props And Printing",
-        "url": "/exhibits/j2c-props-and-printing/"
+        "url": "/exhibits/j2c-props-and-printing/",
+        "image": "/assets/images/stage/2026/j2c-props-and-printing-6d23821a-1024x1024.jpg"
       },
       {
         "name": "Darkheart Kreations",
-        "url": "/exhibits/darkheart-kreations/"
+        "url": "/exhibits/darkheart-kreations/",
+        "image": "/assets/images/stage/2026/darkheart-kreations-c4e08c20-1024x1024.jpg"
       }
     ]
   },
@@ -164,6 +171,7 @@
   },
   {
     "title": "Power Racing - Qualifying",
+    "slug": "sat-power1",
     "location": "Power Racing Track",
     "description": "These tiny electric racers are ready to race for glory - you can stop by the track to see the qualifying action!",
     "date": "2026-11-07 10:30:00",
@@ -187,12 +195,13 @@
       },
       {
         "name": "Cara Blackowiak - Falcons Creative Group",
-        "url": "falconscreativegroup.com",
+        "url": "https://www.falconscreativegroup.com",
         "image": "/assets/images/stage/2026/cara-blackowiak-26b07f9c-1024x1024.jpg"
       },
       {
         "name": "Denise Hatcher - AOA",
-        "url": "https://www.linkedin.com/in/denise-hatcher-8583b333/"
+        "url": "https://www.linkedin.com/in/denise-hatcher-8583b333/",
+        "image": "/assets/images/stage/2026/denise-hatcher-7c3bf9b1-1024x1024.jpg"
       },
       {
         "name": "Michael Acevedo - Nassal",
@@ -202,6 +211,7 @@
   },
   {
     "title": "3D Printing Wheelchairs For Toddlers - Live Build",
+    "slug": "sat-comm-wheelchair",
     "location": "Community Stage",
     "description": "We connect families of children with mobility challenges to vetted volunteer makers who 3D print custom Toddler Mobility Trainers (TMTs)—completely free for the requesting family.",
     "date": "2026-11-07 11:15:00",
@@ -265,18 +275,27 @@
   },
   {
     "title": "Lunch Seating",
+    "slug": "sat-comm-lunch",
     "location": "Community Stage",
     "date": "2026-11-07 12:00:00",
     "enddate": "2026-11-07 13:00:00"
   },
   {
     "title": "Amity Park - Musical Performance",
+    "slug": "sat-outside-amity",
     "location": "Outdoor Stage",
     "description": "Grab lunch and join us for a musical performance on the Outdoor Stage",
     "date": "2026-11-07 12:30:00",
     "enddate": "2026-11-07 13:45:00",
     "image": "/assets/images/stage/2026/amity-park-musical-performance-c840f484-1024x1024.jpg",
-    "url": "/exhibits/amity-park/"
+    "url": "/exhibits/amity-park/",
+    "guests": [
+      {
+        "name": "Amity Park",
+        "url": "/exhibits/amity-park/",
+        "image": "/assets/images/stage/2026/amity-park-21eae65b-1024x1024.jpg"
+      }
+    ]
   },
   {
     "title": "Lunch Seating",
@@ -288,6 +307,7 @@
   },
   {
     "title": "Power Racing - Sprint 1",
+    "slug": "sat-power2",
     "location": "Power Racing Track",
     "date": "2026-11-07 12:30:00",
     "enddate": "2026-11-07 13:00:00",
@@ -296,6 +316,7 @@
   },
   {
     "title": "Willow Creative",
+    "slug": "sat-comm-willow",
     "location": "Community Stage",
     "date": "2026-11-07 13:15:00",
     "enddate": "2026-11-07 14:00:00",
@@ -319,7 +340,7 @@
       {
         "name": "Jai-lai Heroes",
         "url": "https://www.makerfaireorlando.com/exhibits/throwback-jai-alai-heroes/",
-        "image": "/assets/images/stage/2026/jai-lai-heroes-2e2adb2b-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/jai-lai-heroes-98b63cc1-1024x1024.jpg"
       },
       {
         "name": "Dwight Cenac",
@@ -330,6 +351,7 @@
   },
   {
     "title": "Stone By Stone - World-Building Workshop For Storytellers",
+    "slug": "sat-comm-stone",
     "location": "Community Stage",
     "description": "From the link between land fertility and the weight of common weapons to the importance of birth control in commerce, we'll explore anchor points that allow intuitive world building and series continuity while creating our own fantasy realm.",
     "date": "2026-11-07 14:15:00",
@@ -346,6 +368,7 @@
   },
   {
     "title": "Power Racing - Meet & Greet",
+    "slug": "sat-power3",
     "location": "Power Racing Track",
     "description": "Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!",
     "date": "2026-11-07 14:30:00",
@@ -380,14 +403,23 @@
   },
   {
     "title": "Tom Haney Band",
+    "slug": "sat-outside-tom",
     "location": "Outdoor Stage",
     "date": "2026-11-07 15:00:00",
     "enddate": "2026-11-07 16:00:00",
     "image": "/assets/images/stage/2026/tom-haney-band-c89518f0-1024x1024.jpg",
-    "url": "The "
+    "url": "The ",
+    "guests": [
+      {
+        "name": "The Tom Haney Band",
+        "url": "/exhibits/the-tom-haney-band/",
+        "image": "/assets/images/stage/2026/the-tom-haney-band-15ec1a54-1024x1024.jpg"
+      }
+    ]
   },
   {
     "title": "Inspiring the Next Generation of Leaders",
+    "slug": "sat-comm-max",
     "location": "Community Stage",
     "description": "Max shares his journey as a young entrepreneur and published author, encouraging other young people to believe in themselves, and understand that age doesn't have to limit what they can accomplish. ",
     "date": "2026-11-07 15:15:00",
@@ -404,6 +436,7 @@
   },
   {
     "title": "Power Racing - Sprint Race 2",
+    "slug": "sat-power4",
     "location": "Power Racing Track",
     "date": "2026-11-07 15:30:00",
     "enddate": "2026-11-07 16:00:00",
@@ -412,14 +445,17 @@
   },
   {
     "title": "Drawing Class",
+    "slug": "sat-comm-drawing",
     "location": "Community Stage",
-    "description": "In addition to being a vendor, I will be hosting one ANIMATION ACADEMY drawing panel per day of the show, no extra charge for the panel, first come, first serve. Characters TBD, stay tuned.",
+    "description": "In addition to being a vendor, Michael Rolls will be hosting one ANIMATION ACADEMY drawing panel per day of the show, no extra charge for the panel, first come, first serve. Characters TBD, stay tuned.",
     "date": "2026-11-07 16:00:00",
     "enddate": "2026-11-07 16:30:00",
     "image": "/assets/images/stage/2026/drawing-class-c2757fa4-1024x1024.jpg",
+    "url": "/exhibits/art-factry/",
     "guests": [
       {
-        "name": "Michael Roll"
+        "name": "Michael Roll",
+        "image": "/assets/images/stage/2026/michael-roll-5ceda503-1024x1024.jpg"
       }
     ]
   },
@@ -438,6 +474,7 @@
   },
   {
     "title": "Minecraft Makers",
+    "slug": "sun-comm-mcparks",
     "location": "Community Stage",
     "description": "MCParks is a 1:1 scale Minecraft recreation of major theme parks, including working attractions.",
     "date": "2026-11-08 10:30:00",
@@ -447,11 +484,13 @@
     "guests": [
       {
         "name": "Ryan Hecht",
-        "url": "/exhibits/mcparks-theme-parks-in-minecraft/"
+        "url": "/exhibits/mcparks-theme-parks-in-minecraft/",
+        "image": "/assets/images/stage/2026/ryan-hecht-48915c0f-1024x1024.jpg"
       },
       {
         "name": "Darren d'Hedouville",
-        "url": "/exhibits/mcparks-theme-parks-in-minecraft/"
+        "url": "/exhibits/mcparks-theme-parks-in-minecraft/",
+        "image": "/assets/images/stage/2026/darren-d-hedouville-4205c945-1024x1024.jpg"
       }
     ]
   },
@@ -462,6 +501,7 @@
     "description": "Ever wonder what it takes to bring a theme park experience to life? Join industry professionals as they share how creativity, innovation, and hands-on making shape the world of themed entertainment. From the tools and skills behind their work to the projects they're most proud of, discover how makers turn big ideas into unforgettable experiences. Whether you're a hobbyist, student, or aspiring industry professional, get an inside look at the opportunities and career paths that bring imagination to life.",
     "date": "2026-11-08 10:30:00",
     "enddate": "2026-11-08 11:15:00",
+    "image": "/assets/images/stage/2026/theme-park-makers-behind-the-magic-ec4980ec-1024x1024.jpg",
     "guests": [
       {
         "name": "Andrew Davis- Mastermind of Hype at Forward Thinking Designs (Moderator)",
@@ -477,11 +517,16 @@
         "name": "Kyle Edmonds- Application Engineer at Alcorn McBride",
         "url": "https://alcorn.com/",
         "image": "/assets/images/stage/2026/kyle-edmonds-application-engineer-at-alcorn-mcbride-fba76c63-1024x1024.jpg"
+      },
+      {
+        "name": "Will Carlson- Maker",
+        "image": "/assets/images/stage/2026/will-carlson-maker-7422e77c-1024x1024.jpg"
       }
     ]
   },
   {
     "title": "Young Makers",
+    "slug": "sun-comm-young",
     "location": "Community Stage",
     "description": "Meet inspiring young makers as they share how curiosity, creativity, and hands-on making are helping them build cool projects, and a bright future. ",
     "date": "2026-11-08 11:15:00",
@@ -491,6 +536,11 @@
         "name": "Colin King",
         "url": "https://www.makerfaireorlando.com/exhibits/colins-soap-a-rama/",
         "image": "/assets/images/stage/2026/colin-king-ae79cd06-1024x1024.jpg"
+      },
+      {
+        "name": "Hannah Black",
+        "url": "https://www.makerfaireorlando.com/exhibits/therianlovedesign-anthropomorphic-cosplay/",
+        "image": "/assets/images/stage/2026/hannah-black-7f47b80b-1024x1024.jpg"
       },
       {
         "name": "Heidi Little",
@@ -506,12 +556,13 @@
   },
   {
     "title": "Giant Builds Panel",
+    "slug": "sun-giant-builds",
     "location": "Main Stage",
     "date": "2026-11-08 11:30:00",
     "enddate": "2026-11-08 12:15:00",
     "guests": [
       {
-        "name": "Stefan Price"
+        "name": "Stefan Price (Moderator)"
       },
       {
         "name": "Willow",
@@ -520,20 +571,24 @@
       },
       {
         "name": "Allison Chase",
-        "url": "/exhibits/allison-chase-cosplay/"
+        "url": "/exhibits/allison-chase-cosplay/",
+        "image": "/assets/images/stage/2026/allison-chase-c957c54b-1024x1024.jpg"
       },
       {
         "name": "Harry Armstrong",
-        "url": "/exhibits/giant-skeeball/"
+        "url": "/exhibits/giant-skeeball/",
+        "image": "/assets/images/stage/2026/harry-armstrong-8019fa22-1024x1024.jpg"
       },
       {
         "name": "Matthew Harden",
-        "url": "/exhibits/the-cosplay-teacher-mh-cosplay-design/"
+        "url": "/exhibits/the-cosplay-teacher-mh-cosplay-design/",
+        "image": "/assets/images/stage/2026/matthew-harden-e71a5694-1024x1024.jpg"
       }
     ]
   },
   {
     "title": "Power Racing - Sprint Race 3",
+    "slug": "sun-power1",
     "location": "Power Racing Track",
     "date": "2026-11-08 11:45:00",
     "enddate": "2026-11-08 12:15:00",
@@ -542,12 +597,15 @@
   },
   {
     "title": "Lunch Seating",
+    "slug": "sun-comm-lunch",
     "location": "Community Stage",
+    "description": "Grab lunch outside and then join us for air conditioned seating!",
     "date": "2026-11-08 12:15:00",
     "enddate": "2026-11-08 13:45:00"
   },
   {
     "title": "Amity Park - Musical Performance",
+    "slug": "sun-outside-amity",
     "location": "Outdoor Stage",
     "description": "Grab lunch and join us for a musical performance",
     "date": "2026-11-08 12:30:00",
@@ -564,13 +622,15 @@
   },
   {
     "title": "Lunch Seating",
+    "slug": "sun-lunch",
     "location": "Main Stage",
-    "description": "Grab lunch outside and then join us for air conditioned seating",
+    "description": "Grab lunch outside and then join us for air conditioned seating!",
     "date": "2026-11-08 12:30:00",
     "enddate": "2026-11-08 13:45:00"
   },
   {
     "title": "Power Racing - Meet & Greet",
+    "slug": "sun-power2",
     "location": "Power Racing Track",
     "description": "Meet the teams behind these wacky electric race cars and learn how you can build your own power racer!",
     "date": "2026-11-08 13:00:00",
@@ -580,6 +640,7 @@
   },
   {
     "title": "Cosplay Panel",
+    "slug": "sun-cosplay",
     "location": "Main Stage",
     "description": "Join our panel of cosplayers for a conversation about all things cosplay! From finding inspiration and choosing characters to creating costumes, building props, learning new skills, and bringing your favorite characters to life. We’ll talk about the creative process, challenges, experiences, and fun of being part of the cosplay community. Whether you’re a seasoned cosplayer or just getting started, there’s something for everyone!",
     "date": "2026-11-08 14:00:00",
@@ -587,16 +648,19 @@
     "guests": [
       {
         "name": "Allison Chase",
-        "url": "/exhibits/allison-chase-cosplay/"
+        "url": "/exhibits/allison-chase-cosplay/",
+        "image": "/assets/images/stage/2026/allison-chase-c957c54b-1024x1024.jpg"
       },
       {
         "name": "Willow",
-        "url": "/exhibits/willow-creative/"
+        "url": "/exhibits/willow-creative/",
+        "image": "/assets/images/stage/2026/willow-60987449-1024x1024.jpg"
       }
     ]
   },
   {
     "title": "The Second Breakfast Club Show - Improv Comedy",
+    "slug": "sun-comm-second",
     "location": "Community Stage",
     "description": "Sketch/Improv Comedy with the The Second Breakfast Club Show! Stop by for fun, laughter, and shenanigans!",
     "date": "2026-11-08 14:00:00",
@@ -611,6 +675,7 @@
   },
   {
     "title": "Power Racing - Endurance Race",
+    "slug": "sun-power3",
     "location": "Power Racing Track",
     "date": "2026-11-08 14:30:00",
     "enddate": "2026-11-08 16:00:00",
@@ -619,11 +684,13 @@
   },
   {
     "title": "Drawing Class",
+    "slug": "sun-comm-drawing",
     "location": "Community Stage",
-    "description": "In addition to being a vendor, I will be hosting one ANIMATION ACADEMY drawing panel per day of the show, no extra charge for the panel, first come, first serve. Characters TBD, stay tuned.",
+    "description": "In addition to being a vendor, Michael Rolls will be hosting one ANIMATION ACADEMY drawing panel per day of the show, no extra charge for the panel, first come, first serve. Characters TBD, stay tuned.",
     "date": "2026-11-08 14:45:00",
     "enddate": "2026-11-08 15:15:00",
     "image": "/assets/images/stage/2026/drawing-class-f4232e10-1024x1024.jpg",
+    "url": "/exhibits/art-factry/",
     "guests": [
       {
         "name": "Michael Roll",
@@ -633,6 +700,7 @@
   },
   {
     "title": "Prop Makers Panel",
+    "slug": "sun-props",
     "location": "Main Stage",
     "date": "2026-11-08 15:00:00",
     "enddate": "2026-11-08 15:45:00",
@@ -642,7 +710,8 @@
       },
       {
         "name": "J2C Props And Printing",
-        "url": "/exhibits/j2c-props-and-printing/"
+        "url": "/exhibits/j2c-props-and-printing/",
+        "image": "/assets/images/stage/2026/j2c-props-and-printing-6d23821a-1024x1024.jpg"
       },
       {
         "name": "Devon Edward Davis"
@@ -651,9 +720,11 @@
   },
   {
     "title": "Meshtastic Meetup",
+    "slug": "sun-comm-meshtastic",
     "location": "Community Stage",
     "date": "2026-11-08 15:30:00",
     "enddate": "2026-11-08 16:00:00",
+    "image": "/assets/images/stage/2026/meshtastic-meetup-e8e1f0cb-1024x1024.jpg",
     "guests": [
       {
         "name": "Allen Paschel"
@@ -665,6 +736,7 @@
   },
   {
     "title": "Power Racing - Awards Ceremony",
+    "slug": "sun-power4",
     "location": "Power Racing Track",
     "description": "The best of the best are on the podium after a long weekend of racing. Cheer them on to glory!",
     "date": "2026-11-08 16:00:00",
