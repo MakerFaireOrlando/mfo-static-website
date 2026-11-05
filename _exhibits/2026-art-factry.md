@@ -104,11 +104,9 @@ categories:
     name: Handmade
   - slug: illustration
     name: Illustration
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2026-07-17 12:42:22"
-last-modified-jotform: "2026-10-04 10:53:53"
-last-exported: "2026-10-05 15:07:04"
+last-modified-jotform: "2026-11-05 06:32:11"
+last-exported: "2026-11-05 17:43:18"
 sitemap: false
 
 ---

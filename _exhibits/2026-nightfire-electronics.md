@@ -66,11 +66,9 @@ categories:
     name: Kits
   - slug: special-effects
     name: Special Effects
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2026-08-26 10:27:28"
-last-modified-jotform: "2026-10-04 10:54:02"
-last-exported: "2026-10-05 15:06:00"
+last-modified-jotform: "2026-11-05 10:46:43"
+last-exported: "2026-11-05 17:43:13"
 sitemap: false
 
 ---

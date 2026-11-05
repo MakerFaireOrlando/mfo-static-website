@@ -137,11 +137,9 @@ categories:
     name: Gaming
   - slug: software
     name: Software
-  - slug: field-trip-day
-    name: Field Trip Day
 created-jotform: "2026-09-06 00:39:06"
-last-modified-jotform: "2026-11-04 14:59:04"
-last-exported: "2026-11-04 14:59:34"
+last-modified-jotform: "2026-11-05 07:04:40"
+last-exported: "2026-11-05 17:43:13"
 sitemap: false
 
 ---
