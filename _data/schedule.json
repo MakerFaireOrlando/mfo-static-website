@@ -61,7 +61,7 @@
     "title": "Bionic Makers",
     "slug": "ftd-bionic",
     "location": "Main Stage",
-    "description": "Hear from Limbitless Solutions how they make bionic arms for kids at UCF.",
+    "description": "Meet the team building bionic arms for kids right here in Orlando. Limbitless Solutions at UCF shares how they design, build, and custom-style each arm, and how they turn learning to use it into a game. Real engineering, real kids, real impact.",
     "date": "2026-11-06 11:30:00",
     "enddate": "2026-11-06 11:55:00",
     "url": "www.limbitless-solutions.org",
@@ -69,7 +69,7 @@
       {
         "name": "Albert Manero - Limbitless",
         "url": "www.limbitless-solutions.org",
-        "image": "/assets/images/stage/2026/albert-manero-4a71b2ee-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/albert-manero-b1663922-1024x1024.jpg"
       }
     ]
   },
@@ -417,6 +417,7 @@
     "date": "2026-11-07 16:00:00",
     "enddate": "2026-11-07 16:30:00",
     "image": "/assets/images/stage/2026/drawing-class-c2757fa4-1024x1024.jpg",
+    "url": "/exhibits/art-factry/",
     "guests": [
       {
         "name": "Michael Roll"
@@ -493,6 +494,11 @@
         "image": "/assets/images/stage/2026/colin-king-ae79cd06-1024x1024.jpg"
       },
       {
+        "name": "Hannah Black",
+        "url": "https://www.makerfaireorlando.com/exhibits/therianlovedesign-anthropomorphic-cosplay/",
+        "image": "/assets/images/stage/2026/hannah-black-7f47b80b-1024x1024.jpg"
+      },
+      {
         "name": "Heidi Little",
         "url": "https://www.makerfaireorlando.com/exhibits/simply-crocheted/",
         "image": "/assets/images/stage/2026/heidi-little-60cc6cf9-1024x1024.jpg"
@@ -511,7 +517,7 @@
     "enddate": "2026-11-08 12:15:00",
     "guests": [
       {
-        "name": "Stefan Price"
+        "name": "Stefan Price (Moderator)"
       },
       {
         "name": "Willow",
@@ -624,6 +630,7 @@
     "date": "2026-11-08 14:45:00",
     "enddate": "2026-11-08 15:15:00",
     "image": "/assets/images/stage/2026/drawing-class-f4232e10-1024x1024.jpg",
+    "url": "/exhibits/art-factry/",
     "guests": [
       {
         "name": "Michael Roll",
