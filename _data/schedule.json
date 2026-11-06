@@ -12,18 +12,18 @@
     "description": "From castles to coasters, see how MCParks recreates world famous theme parks in Minecraft. Learn about the technology and teamwork needed to bring the project to life - and how you can get involved in future experiences!",
     "date": "2026-11-06 10:30:00",
     "enddate": "2026-11-06 10:55:00",
-    "image": "/assets/images/stage/2026/minecraft-makers-18214a2a-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/minecraft-makers-23352bf5-1024x1024.jpg",
     "url": "https://www.makerfaireorlando.com/exhibits/mcparks-theme-parks-in-minecraft/",
     "guests": [
       {
         "name": "Darren d'Hedouville",
         "url": "https://www.makerfaireorlando.com/exhibits/mcparks-theme-parks-in-minecraft/",
-        "image": "/assets/images/stage/2026/darren-d-hedouville-213d9632-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/darren-d-hedouville-decd989a-1024x1024.jpg"
       },
       {
         "name": "Ryan Hecht",
         "url": "https://www.makerfaireorlando.com/exhibits/mcparks-theme-parks-in-minecraft/",
-        "image": "/assets/images/stage/2026/ryan-hecht-e65abc91-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/ryan-hecht-9c279a83-1024x1024.jpg"
       }
     ]
   },
@@ -270,6 +270,11 @@
         "name": "Star Wars Costuming Groups",
         "url": "/exhibits/florida-lfl-star-wars-costuming-clubs/",
         "image": "/assets/images/stage/2026/star-wars-costuming-groups-dde19706-1024x1024.jpg"
+      },
+      {
+        "name": " Orlando Ghostbusters",
+        "url": "/exhibits/orlando-ghostbusters/",
+        "image": "/assets/images/stage/2026/orlando-ghostbusters-a97a8d16-1024x1024.jpg"
       }
     ]
   },
@@ -293,7 +298,7 @@
       {
         "name": "Amity Park",
         "url": "/exhibits/amity-park/",
-        "image": "/assets/images/stage/2026/amity-park-21eae65b-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/amity-park-aed3a853-1024x1024.jpg"
       }
     ]
   },
@@ -326,7 +331,7 @@
       {
         "name": "Willow",
         "url": "/exhibits/willow-creative/",
-        "image": "/assets/images/stage/2026/willow-3ec3df94-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/willow-c72cfbcb-1024x1024.jpg"
       }
     ]
   },
@@ -383,7 +388,7 @@
     "description": "How do you turn a love of Fallout into a massive, immersive experience that brings the Wasteland to life? Join Fallout Xperience founders Tyler and Autumn for a behind-the-scenes look at how they brought The Fallout Xperience to life. We’ll discuss the creative vision, prop and set fabrication, event planning, social media, logistics, and the decision to turn a passion project into a charitable endeavor. Discover what it takes to bring a community together and turn a big idea into reality.",
     "date": "2026-11-07 15:00:00",
     "enddate": "2026-11-07 15:45:00",
-    "image": "/assets/images/stage/2026/making-the-fallout-xperience-panel-72c06814-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/making-the-fallout-xperience-panel-60628051-1024x1024.jpg",
     "url": "/exhibits/the-fallout-xperience/",
     "guests": [
       {
@@ -430,7 +435,7 @@
       {
         "name": "Max Johnson",
         "url": "https://www.makerfaireorlando.com/exhibits/max-johnson-15-year-old-author/",
-        "image": "/assets/images/stage/2026/max-johnson-9dac7a30-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/max-johnson-92f77314-1024x1024.jpg"
       }
     ]
   },
@@ -455,7 +460,7 @@
     "guests": [
       {
         "name": "Michael Roll",
-        "image": "/assets/images/stage/2026/michael-roll-5ceda503-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/michael-roll-6bcbbc66-1024x1024.jpg"
       }
     ]
   },
@@ -479,7 +484,7 @@
     "description": "MCParks is a 1:1 scale Minecraft recreation of major theme parks, including working attractions.",
     "date": "2026-11-08 10:30:00",
     "enddate": "2026-11-08 11:00:00",
-    "image": "/assets/images/stage/2026/minecraft-makers-0aa8c2cb-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/minecraft-makers-e4144293-1024x1024.jpg",
     "url": "/exhibits/mcparks-theme-parks-in-minecraft/",
     "guests": [
       {
@@ -689,7 +694,7 @@
     "description": "In addition to being a vendor, Michael Rolls will be hosting one ANIMATION ACADEMY drawing panel per day of the show, no extra charge for the panel, first come, first serve. Characters TBD, stay tuned.",
     "date": "2026-11-08 14:45:00",
     "enddate": "2026-11-08 15:15:00",
-    "image": "/assets/images/stage/2026/drawing-class-45f8641a-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/drawing-class-f4232e10-1024x1024.jpg",
     "url": "/exhibits/art-factry/",
     "guests": [
       {
@@ -725,7 +730,7 @@
     "description": "Meshtastic is a free, open-source way to send messages and sensor data between small, low-power radios, with no cell plan or internet connection. In this talk you’ll see how a message hops across a mesh of radios, what the hardware looks like, and how the same network can carry weather readings, door-alarm alerts, GPS positions, and solar status. We’ll compare mesh with Wi-Fi, and cover what Meshtastic can’t do. You’ll leave knowing how to get your first radio on the air, and where to find us at MakerFX Makerspace in Orlando.",
     "date": "2026-11-08 15:30:00",
     "enddate": "2026-11-08 16:00:00",
-    "image": "/assets/images/stage/2026/meshtastic-meetup-bfe98753-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/meshtastic-meetup-e8e1f0cb-1024x1024.jpg",
     "guests": [
       {
         "name": "Allen Paschel"
