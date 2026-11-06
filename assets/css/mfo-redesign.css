@@ -735,13 +735,17 @@ html[data-theme="invasion"] #theme-mode-toggle .mf-icon-sun { display: block; }
   color: var(--mf-gray-600);
 }
 
+/* The strip is the last thing in the column, and a name that wraps to three or
+   four lines otherwise finishes hard against the bottom of the card. Pad the
+   list rather than the item, so the gap holds whatever height the names wrap to
+   and does not collapse into the card's own padding. */
 .events-container .event-guests {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
   list-style: none;
   margin: 8px 0 0;
-  padding: 0;
+  padding: 0 0 18px;
 }
 
 .events-container .event-guest { width: 92px; }
