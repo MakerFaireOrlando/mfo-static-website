@@ -38,7 +38,7 @@
       {
         "name": "Colin King",
         "url": "https://www.makerfaireorlando.com/exhibits/colins-soap-a-rama/",
-        "image": "/assets/images/stage/2026/colin-king-db6f2559-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/colin-king-3dee2cc2-1024x1024.jpg"
       },
       {
         "name": "Hannah Black",
@@ -64,7 +64,7 @@
     "description": "Meet the team building bionic arms for kids right here in Orlando. Limbitless Solutions at UCF shares how they design, build, and custom-style each arm, and how they turn learning to use it into a game. Real engineering, real kids, real impact.",
     "date": "2026-11-06 11:30:00",
     "enddate": "2026-11-06 11:55:00",
-    "image": "/assets/images/stage/2026/bionic-makers-45518547-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/bionic-makers-24ed1e7d-1024x1024.jpg",
     "url": "https://limbitless-solutions.org",
     "guests": [
       {
@@ -407,7 +407,7 @@
     "location": "Outdoor Stage",
     "date": "2026-11-07 15:00:00",
     "enddate": "2026-11-07 16:00:00",
-    "image": "/assets/images/stage/2026/tom-haney-band-c89518f0-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/tom-haney-band-6f098c5f-1024x1024.jpg",
     "url": "The ",
     "guests": [
       {
@@ -535,7 +535,7 @@
       {
         "name": "Colin King",
         "url": "https://www.makerfaireorlando.com/exhibits/colins-soap-a-rama/",
-        "image": "/assets/images/stage/2026/colin-king-ae79cd06-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/colin-king-cc290290-1024x1024.jpg"
       },
       {
         "name": "Hannah Black",
@@ -567,7 +567,7 @@
       {
         "name": "Willow",
         "url": "/exhibits/willow-creative/",
-        "image": "/assets/images/stage/2026/willow-dd012712-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/willow-4cb2c040-1024x1024.jpg"
       },
       {
         "name": "Allison Chase",
@@ -610,7 +610,7 @@
     "description": "Grab lunch and join us for a musical performance",
     "date": "2026-11-08 12:30:00",
     "enddate": "2026-11-08 13:45:00",
-    "image": "/assets/images/stage/2026/amity-park-musical-performance-9668752e-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/amity-park-musical-performance-85e0c51f-1024x1024.jpg",
     "url": "/exhibits/amity-park/",
     "guests": [
       {
@@ -689,12 +689,12 @@
     "description": "In addition to being a vendor, Michael Rolls will be hosting one ANIMATION ACADEMY drawing panel per day of the show, no extra charge for the panel, first come, first serve. Characters TBD, stay tuned.",
     "date": "2026-11-08 14:45:00",
     "enddate": "2026-11-08 15:15:00",
-    "image": "/assets/images/stage/2026/drawing-class-f4232e10-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/drawing-class-45f8641a-1024x1024.jpg",
     "url": "/exhibits/art-factry/",
     "guests": [
       {
         "name": "Michael Roll",
-        "image": "/assets/images/stage/2026/michael-roll-29f848ff-1024x1024.jpg"
+        "image": "/assets/images/stage/2026/michael-roll-3fd94ce5-1024x1024.jpg"
       }
     ]
   },
@@ -725,7 +725,7 @@
     "description": "Meshtastic is a free, open-source way to send messages and sensor data between small, low-power radios, with no cell plan or internet connection. In this talk you’ll see how a message hops across a mesh of radios, what the hardware looks like, and how the same network can carry weather readings, door-alarm alerts, GPS positions, and solar status. We’ll compare mesh with Wi-Fi, and cover what Meshtastic can’t do. You’ll leave knowing how to get your first radio on the air, and where to find us at MakerFX Makerspace in Orlando.",
     "date": "2026-11-08 15:30:00",
     "enddate": "2026-11-08 16:00:00",
-    "image": "/assets/images/stage/2026/meshtastic-meetup-e8e1f0cb-1024x1024.jpg",
+    "image": "/assets/images/stage/2026/meshtastic-meetup-bfe98753-1024x1024.jpg",
     "guests": [
       {
         "name": "Allen Paschel"
