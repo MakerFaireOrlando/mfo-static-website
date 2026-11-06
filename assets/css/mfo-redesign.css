@@ -757,24 +757,30 @@ html[data-theme="invasion"] #theme-mode-toggle .mf-icon-sun { display: block; }
   border-radius: var(--mf-radius-sm);
 }
 
-/* Guests with no card: an initials chip keeps the row rhythm. Deliberately
-   NOT the Makey fallback — the event's own image column already uses Makey. */
+/* Guests with no card: the name goes IN the photo spot and nothing prints
+   beneath it, so the tile carries its own label instead of looking like an
+   empty slot with a caption. Deliberately NOT the Makey fallback — the event's
+   own image column already uses Makey and two in a row reads as a bug. */
 .events-container .event-guest-noimg {
   display: grid;
   place-items: center;
+  box-sizing: border-box;
+  padding: 6px;
   background: var(--mf-gray-100);
   border-style: dashed;
   border-color: var(--mf-gray-400);
-  color: var(--mf-gray-600);
-  font-family: var(--mf-font-head);
-  font-weight: 700;
-  font-size: 0.95rem;
-  letter-spacing: 0.04em;
+  color: var(--mf-ink);
+  font-size: 0.72rem;
+  line-height: 1.25;
+  text-align: center;
+  overflow: hidden;
+  overflow-wrap: anywhere;
 }
 
-/* `display: grid` above would otherwise beat the hidden attribute, leaving the
-   fallback chip visible under every card that loaded fine. */
-.events-container .event-guest-img[hidden] { display: none; }
+/* `display: grid` / `display: block` above would otherwise beat the hidden
+   attribute, leaving the fallback tile under every card that loaded fine. */
+.events-container .event-guest-img[hidden],
+.events-container .event-guest-name[hidden] { display: none; }
 
 .events-container .event-guest-name {
   display: block;

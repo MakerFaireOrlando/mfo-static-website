@@ -126,41 +126,49 @@ The [event program](/program) has a printable map, schedule and more — it's us
                           The name must stay a real text node: schedule-filter.js
                           searches on item.textContent, so moving a name into an alt
                           attribute would silently stop panelists matching the search
-                          box. Guests with no card (13 of 67 in 2026, mostly
-                          moderators) get an initials chip, not the Makey fallback —
-                          the event's own column already uses Makey and two per row
-                          reads as a bug.
+                          box.
+
+                          A guest with no card (13 of 67 in 2026, mostly moderators)
+                          puts the NAME IN THE PHOTO SPOT and prints nothing beneath,
+                          so the row keeps its rhythm without an empty-looking tile.
+                          Not the Makey fallback the event's own column uses — two
+                          Makeys in one row reads as a bug.
                         {%- endcomment -%}
                         {%- if event.guests %}
                         <span class="event-guests-label">Featuring</span>
                         <ul class="event-guests">
                           {%- for guest in event.guests %}
-                          {%- assign person = guest.name | split: " - " | first | split: " (" | first -%}
-                          {%- assign words = person | split: " " -%}
-                          {%- capture initials -%}
-                            {%- for w in words limit: 2 -%}{{ w | slice: 0 | upcase }}{%- endfor -%}
-                          {%- endcapture -%}
                           <li class="event-guest">
-                            {%- comment -%}
-                              The chip is always emitted, hidden when a card loads, so a
-                              path that points at a file master does not have degrades to
-                              initials instead of a broken-image icon. That is a live
-                              risk, not a hypothetical: schedulePr.js reports a missing
-                              card in the PR body but does not refuse the publish.
-                            {%- endcomment -%}
                             {%- if guest.image -%}
+                            {%- comment -%}
+                              The name tile is emitted alongside every card and hidden,
+                              so a path pointing at a file master does not have falls
+                              back to the name rather than a broken-image icon. A live
+                              risk, not a hypothetical: schedulePr.js reports a missing
+                              card in the PR body but does not refuse the publish. On
+                              error the tile is shown and the caption beneath removed,
+                              leaving exactly what a card-less guest already gets.
+                            {%- endcomment -%}
                             <img class="event-guest-img" src="{{ guest.image }}" alt=""
                                  width="300" height="300" loading="lazy" decoding="async"
-                                 onerror="this.hidden=true;this.nextElementSibling.hidden=false">
-                            <span class="event-guest-img event-guest-noimg" hidden aria-hidden="true">{{ initials }}</span>
-                            {%- else -%}
-                            <span class="event-guest-img event-guest-noimg" aria-hidden="true">{{ initials }}</span>
-                            {%- endif -%}
-                            <span class="event-guest-name">
+                                 onerror="this.hidden=true;this.parentNode.querySelector('.event-guest-fallback').hidden=false;this.parentNode.querySelector('.event-guest-caption').hidden=true">
+                            <span class="event-guest-img event-guest-noimg event-guest-fallback" hidden>
                               {%- if guest.url -%}<a href="{{ guest.url }}" target="_blank">{%- endif -%}
                               {{ guest.name }}
                               {%- if guest.url -%}</a>{%- endif -%}
                             </span>
+                            <span class="event-guest-name event-guest-caption">
+                              {%- if guest.url -%}<a href="{{ guest.url }}" target="_blank">{%- endif -%}
+                              {{ guest.name }}
+                              {%- if guest.url -%}</a>{%- endif -%}
+                            </span>
+                            {%- else -%}
+                            <span class="event-guest-img event-guest-noimg">
+                              {%- if guest.url -%}<a href="{{ guest.url }}" target="_blank">{%- endif -%}
+                              {{ guest.name }}
+                              {%- if guest.url -%}</a>{%- endif -%}
+                            </span>
+                            {%- endif -%}
                           </li>
                           {%- endfor %}
                         </ul>
