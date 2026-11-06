@@ -719,6 +719,76 @@ html[data-theme="invasion"] #theme-mode-toggle .mf-icon-sun { display: block; }
   box-shadow: var(--mf-shadow-hover) !important;
 }
 
+/* Guest strip on /schedule/ — the promo card the producer dashboard publishes
+   for each guest, shown small beside the name. Sized so a four-guest panel
+   still reads as one row; the card art carries its own name, so this is a
+   thumbnail of the card, never a cropped portrait. Tokens only, so the strip
+   flips with the dark theme without extra rules. */
+.events-container .event-guests-label {
+  display: block;
+  margin-top: 12px;
+  font-family: var(--mf-font-head);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--mf-gray-600);
+}
+
+.events-container .event-guests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.events-container .event-guest { width: 92px; }
+
+.events-container .event-guest-img {
+  display: block;
+  width: 92px;
+  height: 92px;
+  aspect-ratio: 1;
+  max-width: 100%;
+  object-fit: cover;
+  border: 1px solid var(--mf-gray-200);
+  border-radius: var(--mf-radius-sm);
+}
+
+/* Guests with no card: an initials chip keeps the row rhythm. Deliberately
+   NOT the Makey fallback — the event's own image column already uses Makey. */
+.events-container .event-guest-noimg {
+  display: grid;
+  place-items: center;
+  background: var(--mf-gray-100);
+  border-style: dashed;
+  border-color: var(--mf-gray-400);
+  color: var(--mf-gray-600);
+  font-family: var(--mf-font-head);
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+}
+
+/* `display: grid` above would otherwise beat the hidden attribute, leaving the
+   fallback chip visible under every card that loaded fine. */
+.events-container .event-guest-img[hidden] { display: none; }
+
+.events-container .event-guest-name {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.74rem;
+  line-height: 1.3;
+}
+
+@media (max-width: 480px) {
+  .events-container .event-guest,
+  .events-container .event-guest-img { width: 76px; }
+  .events-container .event-guest-img { height: 76px; }
+}
+
 #exhibits-no-results {
   text-align: center;
   color: var(--mf-gray-600);

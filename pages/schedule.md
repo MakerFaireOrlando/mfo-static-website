@@ -115,13 +115,56 @@ The [event program](/program) has a printable map, schedule and more — it's us
                     </div>
                     <div class="col-sm-5 text-wrap">
                         {{event.description}}<br>
-                        {%- if event.guests -%}<br>Featuring: <br>{%- endif -%}
-                         {%- for guest in event.guests -%}
-                            {%-if guest.url -%}<a href="{{guest.url}}" target="_blank">{%- endif -%}
+                        {%- comment -%}
+                          Guests carry a `guests[].image` published by the producer
+                          dashboard beside _data/schedule.json. It is NOT a headshot —
+                          it is the 1024x1024 promo card, with the guest's name already
+                          part of the artwork — so it is shown as a thumbnail of that
+                          card rather than cropped into a portrait, and it is `alt=""`
+                          because the adjacent text already names the person.
+
+                          The name must stay a real text node: schedule-filter.js
+                          searches on item.textContent, so moving a name into an alt
+                          attribute would silently stop panelists matching the search
+                          box. Guests with no card (13 of 67 in 2026, mostly
+                          moderators) get an initials chip, not the Makey fallback —
+                          the event's own column already uses Makey and two per row
+                          reads as a bug.
+                        {%- endcomment -%}
+                        {%- if event.guests %}
+                        <span class="event-guests-label">Featuring</span>
+                        <ul class="event-guests">
+                          {%- for guest in event.guests %}
+                          {%- assign person = guest.name | split: " - " | first | split: " (" | first -%}
+                          {%- assign words = person | split: " " -%}
+                          {%- capture initials -%}
+                            {%- for w in words limit: 2 -%}{{ w | slice: 0 | upcase }}{%- endfor -%}
+                          {%- endcapture -%}
+                          <li class="event-guest">
+                            {%- comment -%}
+                              The chip is always emitted, hidden when a card loads, so a
+                              path that points at a file master does not have degrades to
+                              initials instead of a broken-image icon. That is a live
+                              risk, not a hypothetical: schedulePr.js reports a missing
+                              card in the PR body but does not refuse the publish.
+                            {%- endcomment -%}
+                            {%- if guest.image -%}
+                            <img class="event-guest-img" src="{{ guest.image }}" alt=""
+                                 width="300" height="300" loading="lazy" decoding="async"
+                                 onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+                            <span class="event-guest-img event-guest-noimg" hidden aria-hidden="true">{{ initials }}</span>
+                            {%- else -%}
+                            <span class="event-guest-img event-guest-noimg" aria-hidden="true">{{ initials }}</span>
+                            {%- endif -%}
+                            <span class="event-guest-name">
+                              {%- if guest.url -%}<a href="{{ guest.url }}" target="_blank">{%- endif -%}
                               {{ guest.name }}
-                            {%-if guest.url -%}</a>{%- endif -%}
-                            {%- unless forloop.last -%}<br>{% endunless -%}
-                         {%- endfor -%}   
+                              {%- if guest.url -%}</a>{%- endif -%}
+                            </span>
+                          </li>
+                          {%- endfor %}
+                        </ul>
+                        {%- endif %}
                     </div>
                     <div class="col-sm-3">
                       {% if event.image %}
