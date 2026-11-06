@@ -148,10 +148,18 @@ The [event program](/program) has a printable map, schedule and more — it's us
                               card in the PR body but does not refuse the publish. On
                               error the tile is shown and the caption beneath removed,
                               leaving exactly what a card-less guest already gets.
+
+                              Where the guest has a link the picture carries it too, so
+                              the card and the name go to the same place. The handler
+                              walks up to the <li> rather than to parentNode, which is
+                              that anchor when one is present, and hides whichever of
+                              the two actually wraps the image.
                             {%- endcomment -%}
+                            {%- if guest.url -%}<a class="event-guest-link" href="{{ guest.url }}" target="_blank" tabindex="-1" aria-hidden="true">{%- endif -%}
                             <img class="event-guest-img" src="{{ guest.image }}" alt=""
                                  width="300" height="300" loading="lazy" decoding="async"
-                                 onerror="this.hidden=true;this.parentNode.querySelector('.event-guest-fallback').hidden=false;this.parentNode.querySelector('.event-guest-caption').hidden=true">
+                                 onerror="var li=this.closest('li');li.querySelector('.event-guest-fallback').hidden=false;li.querySelector('.event-guest-caption').hidden=true;(this.closest('a')||this).hidden=true">
+                            {%- if guest.url -%}</a>{%- endif -%}
                             <span class="event-guest-img event-guest-noimg event-guest-fallback" hidden>
                               {%- if guest.url -%}<a href="{{ guest.url }}" target="_blank">{%- endif -%}
                               {{ guest.name }}

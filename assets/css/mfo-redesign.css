@@ -781,10 +781,17 @@ html[data-theme="invasion"] #theme-mode-toggle .mf-icon-sun { display: block; }
   overflow-wrap: anywhere;
 }
 
+/* Block, so the anchor wrapping a card does not pick up an inline baseline gap
+   under the picture. It repeats the name's link to the same place, so it is
+   kept out of the tab order and off the accessibility tree — the name beneath
+   is the one that gets announced. */
+.events-container .event-guest-link { display: block; }
+
 /* `display: grid` / `display: block` above would otherwise beat the hidden
    attribute, leaving the fallback tile under every card that loaded fine. */
 .events-container .event-guest-img[hidden],
-.events-container .event-guest-name[hidden] { display: none; }
+.events-container .event-guest-name[hidden],
+.events-container .event-guest-link[hidden] { display: none; }
 
 .events-container .event-guest-name {
   display: block;
