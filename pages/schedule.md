@@ -77,13 +77,19 @@ The [event program](/program) has a printable map, schedule and more — it's us
       row" is all it takes to know where a day begins. The heading carries the
       same day class as the rows below it; schedule-filter.js hides a heading
       whose whole day has been filtered away.
+
+      Each heading also carries data-date / data-day. That is how the script
+      knows which days the Faire actually runs without hardcoding a weekend:
+      on an event day it opens the page on today instead of all three days.
     {%- endcomment -%}
     {%- assign current_day = "" -%}
     {% for event in site.data.schedule %}
         {%- assign event_day = event.date | date: "%Y-%m-%d" -%}
         {%- if event_day != current_day -%}
         {%- assign current_day = event_day -%}
-        <div class="day-heading {{ event.date | date: '%A' | slugify }}">
+        <div class="day-heading {{ event.date | date: '%A' | slugify }}"
+             data-date="{{ event.date | date: '%Y-%m-%d' }}"
+             data-day="{{ event.date | date: '%A' | slugify }}">
           <span class="day-heading-day">{{ event.date | date: "%A" }}</span>
           <span class="day-heading-date">{{ event.date | date: "%B %-d" }}</span>
         </div>

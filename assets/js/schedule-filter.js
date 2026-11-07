@@ -68,9 +68,46 @@
     }, 180));
   }
 
-  // Optional ?category=<slug> deep link preselects the category filter.
-  var cat = new URLSearchParams(window.location.search).get('category');
+  // Optional ?category=<slug> deep link preselects the location filter.
+  var params = new URLSearchParams(window.location.search);
+  var cat = params.get('category');
   if (cat && catSel) catSel.value = '.' + cat;
+
+  // Optional ?day=<friday|saturday|sunday> deep link, and ?day=all to force
+  // the full three-day list on a day the page would otherwise narrow.
+  var dayParam = (params.get('day') || '').toLowerCase();
+  if (daySel && dayParam && dayParam !== 'all' && selectDay(dayParam)) {
+    // handled
+  } else if (daySel && !dayParam) {
+    // During the Faire, open on today. Attendees are standing in the venue
+    // reading this on a phone; the three-day list buries what's on now.
+    // The event days come off the day headings (data-date), so this follows
+    // whatever _data/schedule.json publishes rather than a hardcoded
+    // weekend — and does nothing at all on the other 362 days of the year.
+    // The dropdown shows the day it picked, so it isn't a hidden filter:
+    // "show all" is one tap away.
+    var now = new Date();
+    var pad = function (n) { return (n < 10 ? '0' : '') + n; };
+    var today = now.getFullYear() + '-' + pad(now.getMonth() + 1) + '-' + pad(now.getDate());
+    days.some(function (day) {
+      if (day.heading.getAttribute('data-date') !== today) return false;
+      return selectDay(day.heading.getAttribute('data-day'));
+    });
+  }
+
+  // Sets the day dropdown, but only to a day it actually offers — an unknown
+  // ?day= or a heading with no matching option leaves it on "show all".
+  function selectDay(slug) {
+    if (!daySel || !slug) return false;
+    var wanted = '.' + slug;
+    for (var i = 0; i < daySel.options.length; i++) {
+      if (daySel.options[i].value === wanted) {
+        daySel.selectedIndex = i;
+        return true;
+      }
+    }
+    return false;
+  }
 
   apply();
 })();
